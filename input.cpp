@@ -140,7 +140,7 @@ chinese::Input::Input()
 				chinese_to_frequency[chinese] = rank;
 
 
-				chinese_to_pinyin[chinese] = pinyin;
+				chinese_to_pinyin[chinese].insert(pinyin);
 
 				pinyin_to_chinese[pinyin].insert(chinese);
 				
@@ -162,6 +162,43 @@ chinese::Input::Input()
 			{
 				std::cout << "Error parsing line " << line_no << " in file " << (infile_name+std::to_string(i)) << "\n";
 			}
+		}
+	}
+	for(auto iter_chinese_char = chinese_to_pinyin.begin(); iter_chinese_char != chinese_to_pinyin.end(); ++iter_chinese_char)
+	{
+		try
+		{
+			std::string chinese_char = iter_chinese_char->first;
+			std::fstream infile;
+			infile.open("data2/"+chinese_char, std::fstream::in);
+			while(infile.good())
+			{
+				std::string line;
+				getline(infile, line);
+				if(line.size() <= 4 || line.substr(0,4) != "<h1>")
+				{
+					continue;
+				}
+				size_t span_start = line.find("<span");
+				while(span_start != std::string::npos)
+				{
+					line = line.substr(span_start);
+					size_t pos = line.find(">");
+					line = line.substr(pos+1);
+					pos = line.find("<");
+					std::string pinyin = line.substr(0, pos);
+					if(pinyin.front() != '(')
+					{
+						pinyin_to_chinese[pinyin].insert(chinese_char);
+						chinese_to_pinyin[chinese_char].insert(pinyin);
+					}
+					line = line.substr(pos+1);
+					span_start = line.find("<span");
+				}
+			}
+		}
+		catch(std::exception const& e)
+		{
 		}
 	}
 	if(debugprints)

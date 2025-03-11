@@ -8,6 +8,7 @@
 int main()
 {
 	chinese::Input input;
+	//input.write_dl_script();
 	initscr();			/* Start curses mode 		*/
 	//raw();				/* Line buffering disabled	*/
 	keypad(stdscr, TRUE);		/* We get F1, F2 etc..		*/

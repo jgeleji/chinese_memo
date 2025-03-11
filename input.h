@@ -10,8 +10,10 @@ class Input
 {
 	private:
 		std::unordered_map<std::string, std::unordered_set<std::string>> pinyin_to_chinese;
-		std::unordered_map<std::string, std::string> chinese_to_pinyin;
+		std::unordered_map<std::string, std::unordered_set<std::string>> chinese_to_pinyin;
 		std::unordered_map<std::string, int> chinese_to_frequency;
+
+		void load_extra_pinyins(std::string chinese);
 
 		enum INPUT_STATE {
 			INPUT_STATE_TYPE_PINYIN,
