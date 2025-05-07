@@ -3,6 +3,14 @@
 #include <vector>
 #include <string>
 
+extern const char* reset_color;
+extern const char* blue_background;
+extern const char* red_background;
+extern const char* green_foreground;
+extern const char* yellow_foreground;
+extern const char* purple_foreground;
+extern const char* grey_background;
+
 namespace chinese
 {
 
@@ -11,6 +19,7 @@ class Input
 	private:
 		std::unordered_map<std::string, std::unordered_set<std::string>> pinyin_to_chinese;
 		std::unordered_map<std::string, std::unordered_set<std::string>> chinese_to_pinyin;
+		std::unordered_map<std::string, std::string> chinese_to_preferred_pinyin;
 		std::unordered_map<std::string, int> chinese_to_frequency;
 
 		void load_extra_pinyins(std::string chinese);
@@ -22,8 +31,8 @@ class Input
 		};
 	public:
 
-		std::string do_input() const;
-		std::string do_input_1char(std::string const& top_row, INPUT_STATE& state_number) const;
+		std::string do_input(std::string description="") const;
+		std::string do_input_1char(std::string const& top_row, INPUT_STATE& state_number, std::string const& description) const;
 
 		std::string do_input_inner(
 			std::string& ret,
@@ -36,6 +45,7 @@ class Input
 
 		Input();
 		std::unordered_set<std::string> const& get_chinese(std::string const& pinyin);
+		std::string convert_chinese_to_pinyin(std::string chinese) const;
 
 		static std::string pinyin_convert(std::string const& raw_pinyin);
 		static std::string pinyin_convert_1syll(std::string const& raw_pinyin);

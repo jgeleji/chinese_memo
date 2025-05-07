@@ -141,6 +141,7 @@ chinese::Input::Input()
 
 
 				chinese_to_pinyin[chinese].insert(pinyin);
+				chinese_to_preferred_pinyin[chinese] = pinyin;
 
 				pinyin_to_chinese[pinyin].insert(chinese);
 				
@@ -187,7 +188,7 @@ chinese::Input::Input()
 					line = line.substr(pos+1);
 					pos = line.find("<");
 					std::string pinyin = line.substr(0, pos);
-					if(pinyin.front() != '(')
+					if(pinyin.front() != '(' && pinyin.front() != '/')
 					{
 						pinyin_to_chinese[pinyin].insert(chinese_char);
 						chinese_to_pinyin[chinese_char].insert(pinyin);
@@ -205,6 +206,22 @@ chinese::Input::Input()
 	{
 		std::cout << "failcount = " << failcount << "\n";
 	}
+	chinese_to_preferred_pinyin["家"] = pinyin_convert_1syll("jia1");
+	chinese_to_preferred_pinyin["吗"] = pinyin_convert_1syll("ma");
+	chinese_to_preferred_pinyin["漂"] = pinyin_convert_1syll("piao4");
+	chinese_to_preferred_pinyin["亮"] = pinyin_convert_1syll("liang");
+	chinese_to_preferred_pinyin["儿"] = pinyin_convert_1syll("er");
+	chinese_to_preferred_pinyin["哪"] = pinyin_convert_1syll("na3");
+	chinese_to_preferred_pinyin["不"] = pinyin_convert_1syll("bu4");
+	chinese_to_preferred_pinyin["乐"] = pinyin_convert_1syll("yue4");
+	for(auto iter = chinese_to_preferred_pinyin.begin(); iter != chinese_to_preferred_pinyin.end(); ++iter)
+	{
+		std::string chinese = iter->first;
+		std::string pinyin = iter->second;
+		chinese_to_pinyin[chinese].insert(pinyin);
+		pinyin_to_chinese[pinyin].insert(chinese);
+	}
+	//chinese_to_preferred_pinyin[] = "";
 }
 
 std::unordered_set<std::string> const& chinese::Input::get_chinese(std::string const& pinyin)
@@ -399,7 +416,7 @@ std::string chinese::Input::do_input_inner(
 	return pinyin;
 }
 
-std::string chinese::Input::do_input() const
+std::string chinese::Input::do_input(std::string description) const
 {
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
@@ -411,13 +428,17 @@ std::string chinese::Input::do_input() const
 		move(0,0);
 		clear();
 		refresh();
+		std::cout << description << "\r\n";
 		std::cout << reset_color        << "0 " << ret << "\r\n";
-		ret += this->do_input_1char(ret, state_number);
+		ret += this->do_input_1char(ret, state_number, description);
 	}
 	return ret;
 }
 
-std::string chinese::Input::do_input_1char(std::string const& top_row, INPUT_STATE& state_number) const
+std::string chinese::Input::do_input_1char(
+	std::string const& top_row,
+	INPUT_STATE& state_number,
+	std::string const& description) const
 {
 	std::string debug_string, raw_input, chinese, pinyin;
 	std::vector<std::string> ch_ch_vec;
@@ -433,6 +454,7 @@ std::string chinese::Input::do_input_1char(std::string const& top_row, INPUT_STA
 		move(0,0);
 		clear();
 		refresh();
+		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
 		std::cout << blue_background   << "1 " << raw_input << "\r\n";
 		std::cout << red_background    << "2 " << pinyin << "\r\n";
@@ -469,15 +491,95 @@ std::string chinese::Input::do_input_1char(std::string const& top_row, INPUT_STA
 	if(raw_input.empty())
 	{
 		state_number = INPUT_STATE_EXIT;
-		return "";
+		return pinyin;
 	}
 	int number = std::atoi(raw_input.c_str());
 	if(number == 0 || ch_ch_vec.empty())
 	{
-		state_number = INPUT_STATE_EXIT;
+		state_number = INPUT_STATE_TYPE_PINYIN;
 		return pinyin;
 	}
 	state_number = INPUT_STATE_TYPE_PINYIN;
 	return ch_ch_vec[(number-1) % ch_ch_vec.size()];
 }
+
+std::string chinese::Input::convert_chinese_to_pinyin(std::string chinese) const
+{
+	std::string ret;
+	size_t pos = 0;
+	for(size_t i = 0; i < chinese.size(); ++i)
+	{
+		char c = chinese[i];
+		if(0 == c & 0x80) // single byte case
+		{
+			ret += c;
+			//single byte cannot be chinese character. don't even try converting.
+		}
+		else if((c & 0xC0) == 0xC0 && (c & 0x20) == 0) // 2 byte case
+		{
+			std::string utf8_char;
+			utf8_char += c;
+			++i;
+			c = chinese[i];
+			utf8_char += c;
+			auto iter0 = chinese_to_preferred_pinyin.find(utf8_char);
+			if(iter0 == chinese_to_preferred_pinyin.end())
+			{
+				auto iter = chinese_to_pinyin.find(utf8_char);
+				ret += *iter->second.begin();
+			}
+			else
+			{
+				ret += iter0->second;
+			}
+		}
+		else if((c & 0xE0) == 0xE0 && (c & 0x10) == 0) // 3 byte case
+		{
+			std::string utf8_char;
+			utf8_char += c;
+			++i;
+			c = chinese[i];
+			utf8_char += c;
+			++i;
+			c = chinese[i];
+			utf8_char += c;
+			auto iter0 = chinese_to_preferred_pinyin.find(utf8_char);
+			if(iter0 == chinese_to_preferred_pinyin.end())
+			{
+				auto iter = chinese_to_pinyin.find(utf8_char);
+				ret += *iter->second.begin();
+			}
+			else
+			{
+				ret += iter0->second;
+			}
+		}
+		else if((c & 0xF0) == 0xF0 && (c & 0x08) == 0) // 4 byte case
+		{
+			std::string utf8_char;
+			utf8_char += c;
+			++i;
+			c = chinese[i];
+			utf8_char += c;
+			++i;
+			c = chinese[i];
+			utf8_char += c;
+			++i;
+			c = chinese[i];
+			utf8_char += c;
+			auto iter0 = chinese_to_preferred_pinyin.find(utf8_char);
+			if(iter0 == chinese_to_preferred_pinyin.end())
+			{
+				auto iter = chinese_to_pinyin.find(utf8_char);
+				ret += *iter->second.begin();
+			}
+			else
+			{
+				ret += iter0->second;
+			}
+		}
+	}
+	return ret;
+}
+
 

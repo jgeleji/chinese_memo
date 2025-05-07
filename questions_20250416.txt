@@ -1,0 +1,14 @@
+杯子|cup
+买|buy
+喝|drink
+茶|tea
+钱|money
+块|rmb
+不客气|you are welcome
+水果|fruit
+葡萄|grape
+橘子|tangerine
+橙子|orange
+柠檬|lemon
+苹果|apple
+
