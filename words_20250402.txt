@@ -1,0 +1,24 @@
+程大宝|chéng dàbǎo
+爷爷|dads dad
+鼠|mouse
+牛|cattle
+虎|tiger
+兔|rabbit
+龙|dragon
+外公|moms dad
+蛇|snake
+马|horse
+羊|sheep
+猴|monkey
+鸡|chicken
+狗|dog
+猪|pig
+猫|cat
+几岁|how old (young)
+多大|how old (middle)
+多大年纪|how old (older)
+出生|birth
+年|year
+今天|today
+昨天|yesterday
+明天|tomorrow

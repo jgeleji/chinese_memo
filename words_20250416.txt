@@ -1,0 +1,21 @@
+杯子|cup
+买|buy
+喝|drink
+茶|tea
+钱|money
+块|rmb
+不客气|you are welcome
+水果|fruit
+葡萄|grape
+橘子|tangerine
+橙子|orange
+柠檬|lemon
+苹果|apple
+千|thousand
+万|ten thousand
+十万|hundred thousand
+百万|million
+千万|ten million
+亿|hundred million
+
+

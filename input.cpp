@@ -394,7 +394,7 @@ std::string chinese::Input::do_input_inner(
 	{
 		debug_string += std::string("code(") + std::to_string((int)ch) + ")";
 	}
-	if(((int)ch) == 7)
+	if(((int)ch) == 7 || ((int)ch) == 127)
 	{
 		raw_input = raw_input.substr(0, std::max(0, ((int)raw_input.size())-1));
 	}
@@ -510,7 +510,7 @@ std::string chinese::Input::convert_chinese_to_pinyin(std::string chinese) const
 	for(size_t i = 0; i < chinese.size(); ++i)
 	{
 		char c = chinese[i];
-		if(0 == c & 0x80) // single byte case
+		if(0 == (c & 0x80)) // single byte case
 		{
 			ret += c;
 			//single byte cannot be chinese character. don't even try converting.
