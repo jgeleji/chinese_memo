@@ -1,5 +1,7 @@
 #include <vector>
 #include <string>
+#include <unordered_set>
+#include <unordered_map>
 #include "input.h"
 
 class questions
@@ -40,10 +42,12 @@ class questions
 					chinese::Input input,
 					DATATYPE provided,
 					DATATYPE asked,
-					std::string const& question_number
+					std::string const& question_number,
+					std::vector<datapoint const*> const& others
 				) const;
 		};
 
 		std::vector<datapoint> loaded_data;
+		std::unordered_map<std::string, std::unordered_set<int>> pinyin_overlaps;
 		chinese::Input m_input;
 };

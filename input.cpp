@@ -3,7 +3,7 @@
 #include <sstream>
 #include <cstdlib>
 #include <algorithm>
-
+#include <random>
 #include <ncurses.h>
 #include <curses.h>
 
@@ -214,6 +214,10 @@ chinese::Input::Input()
 	chinese_to_preferred_pinyin["哪"] = pinyin_convert_1syll("na3");
 	chinese_to_preferred_pinyin["不"] = pinyin_convert_1syll("bu4");
 	chinese_to_preferred_pinyin["乐"] = pinyin_convert_1syll("yue4");
+
+
+	chinese_to_preferred_pinyin["觉"] = pinyin_convert_1syll("jiao4");
+
 	for(auto iter = chinese_to_preferred_pinyin.begin(); iter != chinese_to_preferred_pinyin.end(); ++iter)
 	{
 		std::string chinese = iter->first;
@@ -446,6 +450,8 @@ std::string chinese::Input::do_input_1char(
 	{
 		pinyin = this->do_input_inner(debug_string, raw_input, state_number);
 		ch_ch_vec = this->get_possibles(pinyin);
+		static std::mt19937 rnd;
+		std::shuffle(ch_ch_vec.begin(), ch_ch_vec.end(), rnd);
 		std::stringstream chinese_choices;
 		for(size_t i=0; i<ch_ch_vec.size(); ++i)
 		{
@@ -457,8 +463,8 @@ std::string chinese::Input::do_input_1char(
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
 		std::cout << blue_background   << "1 " << raw_input << "\r\n";
-		std::cout << red_background    << "2 " << pinyin << "\r\n";
-		std::cout << yellow_foreground << "3 " << chinese_choices.str() << std::flush;
+		std::cout << red_background    << "2 " << pinyin << reset_color << "\r\n";
+		//std::cout << yellow_foreground << "3 " << chinese_choices.str() << std::flush;
 
 	}
 	while(state_number == INPUT_STATE_TYPE_PINYIN);
