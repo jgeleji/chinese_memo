@@ -43,7 +43,8 @@ class questions
 					DATATYPE provided,
 					DATATYPE asked,
 					std::string const& question_number,
-					std::vector<datapoint const*> const& others
+					std::vector<datapoint const*> const& others,
+					std::string& gave
 				) const;
 		};
 

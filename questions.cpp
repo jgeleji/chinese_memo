@@ -55,7 +55,10 @@ bool questions::ask_1(
 ) const
 {
 	std::vector<datapoint const*> others;
-	return loaded_data[which].ask(m_input, provided, asked, std::string(), others);
+	std::string gave;
+	bool result = loaded_data[which].ask(m_input, provided, asked, std::string(), others, gave);
+	std::cout << "Received " << gave << "\n";
+	return result;
 }
 
 std::string questions::to_string(DATATYPE val)
@@ -92,7 +95,8 @@ bool questions::datapoint::ask(
 	questions::DATATYPE provided,
 	questions::DATATYPE asked,
 	std::string const& question_number,
-	std::vector<datapoint const*> const& others
+	std::vector<datapoint const*> const& others,
+	std::string& gave
 ) const
 {
 	std::stringstream question_to_ask;
@@ -107,20 +111,19 @@ bool questions::datapoint::ask(
 			question_to_ask << others[i]->get(asked);
 		}
 	}
-	std::string usergave;
-	usergave = input.do_input(question_to_ask.str());
-	//switch(asked)
-	//{
-	//	case DATATYPE_CHINESE:
-	//		break;
-	//	case DATATYPE_ENGLISH:
-	//		std::cin >> usergave;
-	//		break;
-	//	case DATATYPE_PINYIN:
-	//		std::cin >> usergave;
-	//		break;
-	//}
-	return usergave == get(asked);
+	switch(asked)
+	{
+		case DATATYPE_CHINESE:
+			gave = input.do_input_chinese(question_to_ask.str());
+			break;
+		case DATATYPE_ENGLISH:
+			gave = input.do_input_english(question_to_ask.str());
+			break;
+		case DATATYPE_PINYIN:
+			gave = input.do_input_pinyin(question_to_ask.str());
+			break;
+	}
+	return gave == get(asked);
 }
 
 bool questions::ask_all_until_fail() const
@@ -169,12 +172,14 @@ noreshuffle:
 		}
 		int repeat=3;
 repeat_question:
+		std::string gave;
 		bool result =current->ask(
 				m_input,
 				provided,
 				asked,
 				std::to_string(q) + "/" + std::to_string(myquestions.size()),
-				others
+				others,
+				gave
 			);
 		if(result && repeat== 3)
 		{
@@ -186,7 +191,7 @@ repeat_question:
 		{
 			if(!result)
 			{
-				std::cout << reset_color << "Wrong answer!\r\n";
+				std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
 				std::cout << "Correct would have been " << loaded_data[std::get<0>(which_q)].get(std::get<2>(which_q)) << "\r\n";
 				std::cout << "Btw CHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
 				std::cout << ", PYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);

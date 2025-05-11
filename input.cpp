@@ -383,6 +383,42 @@ std::string chinese::Input::pinyin_convert_1syll(std::string const& raw_input)
 	return pinyin;
 }
 
+std::string chinese::Input::do_input_inner_raw(
+	std::string& debug_string,
+	std::string& raw_input,
+	INPUT_STATE& state_number
+) const
+{
+	char ch = getch();
+	if('a' <= ch && ch <= 'z' || 'A' <= ch && ch <= 'Z' || '0' <= ch && ch <= '9')
+	{
+		debug_string += std::string("char(") + ch + ")";
+	}
+	else
+	{
+		debug_string += std::string("code(") + std::to_string((int)ch) + ")";
+	}
+	if(((int)ch) == 7 || ((int)ch) == 127)
+	{
+		raw_input = raw_input.substr(0, std::max(0, ((int)raw_input.size())-1));
+	}
+	else if(((int)ch) == 10)
+	{
+		state_number = (INPUT_STATE)(((int)state_number)+1);
+	}
+	else
+	{
+		raw_input += ch;
+	}
+	if(raw_input=="exit")
+	{
+		state_number = INPUT_STATE_EXIT;
+		raw_input="";
+	}
+
+	return raw_input;
+}
+
 std::string chinese::Input::do_input_inner(
 	std::string& debug_string,
 	std::string& raw_input,
@@ -420,7 +456,7 @@ std::string chinese::Input::do_input_inner(
 	return pinyin;
 }
 
-std::string chinese::Input::do_input(std::string description) const
+std::string chinese::Input::do_input_pinyin(std::string description) const
 {
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
@@ -434,12 +470,108 @@ std::string chinese::Input::do_input(std::string description) const
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color        << "0 " << ret << "\r\n";
-		ret += this->do_input_1char(ret, state_number, description);
+		ret += this->do_input_1char_pinyin(ret, state_number, description);
+		//std::cout << "afterstuck " << state_number;
 	}
 	return ret;
 }
 
-std::string chinese::Input::do_input_1char(
+std::string chinese::Input::do_input_1char_english(
+	std::string const& top_row,
+	INPUT_STATE& state_number,
+	std::string const& description) const
+{
+	std::string debug_string, raw_input, chinese, inputted;
+	do
+	{
+		inputted = this->do_input_inner_raw(debug_string, raw_input, state_number);
+		static std::mt19937 rnd;
+		move(0,0);
+		clear();
+		refresh();
+		std::cout << description << "\r\n";
+		std::cout << reset_color       << "0 " << top_row << "\r\n";
+		std::cout << blue_background   << "1 " << raw_input << "\r\n";
+		std::cout << red_background    << "2 " << inputted << reset_color << "\r\n";
+
+	}
+	while(state_number == INPUT_STATE_TYPE_PINYIN);
+	return inputted;
+}
+
+std::string chinese::Input::do_input_1char_pinyin(
+	std::string const& top_row,
+	INPUT_STATE& state_number,
+	std::string const& description) const
+{
+	std::string debug_string, raw_input, chinese, pinyin;
+	do
+	{
+		pinyin = this->do_input_inner(debug_string, raw_input, state_number);
+		move(0,0);
+		clear();
+		refresh();
+		std::cout << description << "\r\n";
+		std::cout << reset_color       << "0 " << top_row << "\r\n";
+		std::cout << blue_background   << "1 " << raw_input << "\r\n";
+		std::cout << red_background    << "2 " << pinyin << reset_color << "\r\n";
+
+	}
+	while(state_number == INPUT_STATE_TYPE_PINYIN);
+	//std::cout << "Stuck ";
+	if(pinyin.empty() || raw_input.empty())
+	{
+		state_number = INPUT_STATE_EXIT;
+		//std::cout << "EXIT";
+	}
+	else
+	{
+		state_number = INPUT_STATE_TYPE_PINYIN;
+		//std::cout << "PINYIN";
+	}
+	//std::cout << " " << pinyin;
+	return pinyin;
+}
+
+std::string chinese::Input::do_input_english(std::string description) const
+{
+	// 0 - inside single char flat pinyin
+	// 1 - inside single char tone
+	// 2 - finished char, decide to next char or finish input
+	INPUT_STATE state_number = INPUT_STATE_TYPE_PINYIN;
+	std::string ret;
+	while(state_number != INPUT_STATE_EXIT)
+	{
+		move(0,0);
+		clear();
+		refresh();
+		std::cout << description << "\r\n";
+		std::cout << reset_color        << "0 " << ret << "\r\n";
+		ret += this->do_input_1char_english(ret, state_number, description);
+	}
+	return ret;
+}
+
+std::string chinese::Input::do_input_chinese(std::string description) const
+{
+	// 0 - inside single char flat pinyin
+	// 1 - inside single char tone
+	// 2 - finished char, decide to next char or finish input
+	INPUT_STATE state_number = INPUT_STATE_TYPE_PINYIN;
+	std::string ret;
+	while(state_number != INPUT_STATE_EXIT)
+	{
+		move(0,0);
+		clear();
+		refresh();
+		std::cout << description << "\r\n";
+		std::cout << reset_color        << "0 " << ret << "\r\n";
+		ret += this->do_input_1char_chinese(ret, state_number, description);
+	}
+	return ret;
+}
+
+std::string chinese::Input::do_input_1char_chinese(
 	std::string const& top_row,
 	INPUT_STATE& state_number,
 	std::string const& description) const
