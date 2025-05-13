@@ -6,6 +6,7 @@
 #include <chrono>
 #include <thread>
 #include <cctype>
+#include <map>
 
 #include <ncurses.h>
 #include <curses.h>
@@ -137,7 +138,14 @@ bool questions::datapoint::ask(
 
 bool questions::ask_all_until_fail() const
 {
-	std::vector<std::tuple<size_t, DATATYPE, DATATYPE>> myquestions;
+	double score_improve_if_success = 1.0;
+	double score_deteriorate_if_fail = 5.0;
+
+	typedef std::tuple<size_t, DATATYPE, DATATYPE> q_type;
+	//std::vector<q_type> myquestions;
+						// when it was asked, score(higher number means should be asked sooner)
+	std::map<q_type, std::pair<size_t, double>> recurrence_scores;
+	std::map<std::string, size_t> q_to_index;//use chinese as string
 	//PRINT(myquestions.size());
 	for(size_t q=0; q<loaded_data.size(); ++q)
 	{
@@ -146,19 +154,99 @@ bool questions::ask_all_until_fail() const
 			for(size_t j=0; j<3; ++j)
 			{
 				if(i==j) continue;
-				myquestions.push_back(std::tuple<size_t, DATATYPE, DATATYPE>(q, (DATATYPE)i, (DATATYPE)j));
+				q_type val = q_type(q, (DATATYPE)i, (DATATYPE)j);
+				std::string chinese = loaded_data[q].get(DATATYPE_CHINESE);
+				q_to_index[chinese] = q;
+				//myquestions.push_back(val);
+				recurrence_scores[val] = std::pair<size_t, double>(0, 0.0);
 			}
 		}
 	}
+
+	size_t sequence_number = 0;
+	std::fstream statusfile;
+	statusfile.open("status.txt", std::fstream::in);
+	while(statusfile.good())
+	{
+		std::string line;
+		getline(statusfile, line);
+		std::vector<std::string> tokens = tokenize(line, '|');
+		//chinese
+		//datatype provided
+		//datatype asked
+		//when it was asked ordinal number
+		//was it answered successfully/failed?
+		if(tokens.size() < 5)
+		{
+			continue;
+		}
+		std::tuple<std::string, DATATYPE, DATATYPE> index_finder_key = std::tuple<std::string, DATATYPE, DATATYPE>(
+			tokens[0],
+			(DATATYPE)atoi(tokens[1].c_str()),
+			(DATATYPE)atoi(tokens[2].c_str())
+		);
+		q_type key = q_type(
+			q_to_index[tokens[0]],
+			(DATATYPE)atoi(tokens[1].c_str()),
+			(DATATYPE)atoi(tokens[2].c_str())
+		);
+		auto iter = recurrence_scores.find(key);
+		iter->second.first = std::max(iter->second.first, (size_t)atoll(tokens[3].c_str()));
+		sequence_number = std::max(sequence_number, iter->second.first);
+		if(tokens[4] == "success")
+		{
+			iter->second.second -= score_improve_if_success;
+		}
+		else if(tokens[4] == "fail")
+		{
+			iter->second.second += score_deteriorate_if_fail;
+		}
+
+
+	}
+
 	//PRINT(myquestions.size());
 	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
 reshuffle:
-	std::shuffle(myquestions.begin(), myquestions.end(), gen);
+	//std::shuffle(myquestions.begin(), myquestions.end(), gen);
 noreshuffle:
 	//PRINT(myquestions.size());
-	for(size_t q=0; q < myquestions.size() || q == size_t(-1); ++q)
+	//for(size_t q=0; q < myquestions.size() || q == size_t(-1); ++q)
+	while(1)
 	{
-		std::tuple<size_t, DATATYPE, DATATYPE> which_q = myquestions[q];
+		++sequence_number;
+
+		std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances;
+		auto iter0 = recurrence_scores.begin();
+		equal_chances.push_back(iter0);
+		for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+		{
+			if(iter->second.first + 10 > sequence_number) continue;
+			if(iter->second.second > iter0->second.second)
+			{
+				iter0 = iter;
+				equal_chances.clear();
+				equal_chances.push_back(iter);
+			}
+			else if(iter->second.second == iter0->second.second)
+			{
+				equal_chances.push_back(iter);
+			}
+		}
+		std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
+		iter0 = equal_chances.front();
+
+		//std::tuple<std::string, DATATYPE, DATATYPE> which_q_0 = iter0->first;
+
+		//std::tuple<size_t, DATATYPE, DATATYPE> which_q = std::tuple<size_t, DATATYPE, DATATYPE>(
+		//	q_to_index[std::get<0>(which_q_0)],
+		//	std::get<1>(which_q_0),
+		//	std::get<2>(which_q_0)
+		//);//myquestions[q];
+		q_type which_q = iter0->first;
+		size_t q = std::get<0>(which_q);
+
+
 		std::vector<datapoint const*> others;
 		datapoint const* current = &loaded_data[std::get<0>(which_q)];
 		DATATYPE provided = std::get<1>(which_q);
@@ -186,10 +274,32 @@ repeat_question:
 				m_input,
 				provided,
 				asked,
-				std::to_string(q) + "/" + std::to_string(myquestions.size()),
+				std::to_string(q)
+				+ "/" + std::to_string(6*loaded_data.size())
+				+ " " + std::to_string(sequence_number)
+				+ " " + std::to_string(iter0->second.first)
+				+ " " + std::to_string(iter0->second.second),
 				others,
 				gave
 			);
+		iter0->second.first = sequence_number;
+		statusfile.open("status.txt", std::fstream::out | std::fstream::app);
+		statusfile << current->get(DATATYPE_CHINESE);
+		statusfile << "|" << ((int)provided);
+		statusfile << "|" << ((int)asked);
+		statusfile << "|" << sequence_number << "|";
+		if(result)
+		{
+			statusfile << "success";
+			iter0->second.second -= score_improve_if_success;
+		}
+		else
+		{
+			statusfile << "fail";
+			iter0->second.second += score_deteriorate_if_fail;
+		}
+		statusfile << "\n";
+		statusfile.close();
 		if(result && repeat== 3)
 		{
 			std::cout << "Answer accepted!\n";
