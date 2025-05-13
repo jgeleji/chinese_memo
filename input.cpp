@@ -470,7 +470,15 @@ std::string chinese::Input::do_input_pinyin(std::string description) const
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color        << "0 " << ret << "\r\n";
-		ret += this->do_input_1char_pinyin(ret, state_number, description);
+		std::string add = this->do_input_1char_pinyin(ret, state_number, description);
+		if(add == "-")
+		{
+			ret.clear();
+		}
+		else
+		{
+			ret += add;
+		}
 		//std::cout << "afterstuck " << state_number;
 	}
 	return ret;
@@ -566,7 +574,15 @@ std::string chinese::Input::do_input_chinese(std::string description) const
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color        << "0 " << ret << "\r\n";
-		ret += this->do_input_1char_chinese(ret, state_number, description);
+		std::string add = this->do_input_1char_chinese(ret, state_number, description);
+		if(add=="-")
+		{
+			ret.clear();
+		}
+		else
+		{
+			ret += add;
+		}
 	}
 	return ret;
 }
@@ -612,7 +628,7 @@ std::string chinese::Input::do_input_1char_chinese(
 	std::cout << reset_color        << "0 " << top_row << "\r\n";
 	std::cout << grey_background    << "1 " << "\r\n";
 	std::cout << red_background     << "2 " << pinyin << "\r\n";
-	std::cout << purple_foreground  << "3 " << chinese_choices.str() << "\r\n";
+	std::cout << yellow_foreground  << "3 " << chinese_choices.str() << "\r\n";
 	std::cout << green_foreground   << "4 " << raw_input << "\r\n";
 	while(state_number == INPUT_STATE_CHOOSE_NUMBER)
 	{
@@ -623,7 +639,7 @@ std::string chinese::Input::do_input_1char_chinese(
 		std::cout << reset_color        << "0 " << top_row << "\r\n";
 		std::cout << grey_background    << "1 " << "\r\n";
 		std::cout << red_background     << "2 " << pinyin << "\r\n";
-		std::cout << purple_foreground  << "3 " << chinese_choices.str() << "\r\n";
+		std::cout << yellow_foreground  << "3 " << chinese_choices.str() << "\r\n";
 		std::cout << green_foreground   << "4 " << raw_input << "\r\n";
 	}
 	if(raw_input.empty())

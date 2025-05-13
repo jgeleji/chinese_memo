@@ -5,6 +5,7 @@
 #include <random>
 #include <chrono>
 #include <thread>
+#include <cctype>
 
 #include <ncurses.h>
 #include <curses.h>
@@ -13,6 +14,14 @@
 #include "tokenize.h"
 
 #define PRINT(X) std::cout << __FILE__ << ":" << __LINE__ << " " << (#X) << " = " << (X) << std::endl
+
+
+std::string tolower(std::string data = "Abc")
+{
+	std::transform(data.begin(), data.end(), data.begin(),
+		[](unsigned char c){ return std::tolower(c); });
+	return data;
+}
 
 questions::questions()
 {
@@ -33,7 +42,7 @@ void questions::load_file(std::string const& filename)
 		if(tokens.size() < 2) continue;
 		datapoint dp;
 		dp.chinese = tokens[0];
-		dp.english = tokens[1];
+		dp.english = tolower(tokens[1]);
 		if(tokens.size()>2)
 		{
 			dp.pinyin = tokens[2];
@@ -117,7 +126,7 @@ bool questions::datapoint::ask(
 			gave = input.do_input_chinese(question_to_ask.str());
 			break;
 		case DATATYPE_ENGLISH:
-			gave = input.do_input_english(question_to_ask.str());
+			gave = tolower(input.do_input_english(question_to_ask.str()));
 			break;
 		case DATATYPE_PINYIN:
 			gave = input.do_input_pinyin(question_to_ask.str());
