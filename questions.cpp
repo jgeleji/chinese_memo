@@ -138,8 +138,10 @@ bool questions::datapoint::ask(
 
 bool questions::ask_all_until_fail() const
 {
-	double score_improve_if_success = 1.0;
-	double score_deteriorate_if_fail = 5.0;
+	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
+	double score_improve_if_success = 1.04;
+	double score_deteriorate_if_fail = 5.19;
+	double max_complexity = 6.33;
 
 	typedef std::tuple<size_t, DATATYPE, DATATYPE> q_type;
 	//std::vector<q_type> myquestions;
@@ -195,18 +197,17 @@ bool questions::ask_all_until_fail() const
 		sequence_number = std::max(sequence_number, iter->second.first);
 		if(tokens[4] == "success")
 		{
-			iter->second.second -= score_improve_if_success;
+			iter->second.second -= score_improve_if_success + (gen()%5)*.01;
 		}
 		else if(tokens[4] == "fail")
 		{
-			iter->second.second += score_deteriorate_if_fail;
+			iter->second.second = std::min(max_complexity*tokens[0].size()/2, iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001);
 		}
 
 
 	}
 
 	//PRINT(myquestions.size());
-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
 reshuffle:
 	//std::shuffle(myquestions.begin(), myquestions.end(), gen);
 noreshuffle:
@@ -221,7 +222,11 @@ noreshuffle:
 		equal_chances.push_back(iter0);
 		for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
 		{
-			if(iter->second.first + 10 > sequence_number) continue;
+			int skipdistance = 10;
+			if(iter->second.second < 2.5) skipdistance = 17;
+			if(iter->second.second < 1.1) skipdistance = 29;
+			if(iter->second.second < .5) skipdistance = 36;
+			if(iter->second.first + skipdistance > sequence_number) continue;
 			if(iter->second.second > iter0->second.second)
 			{
 				iter0 = iter;
@@ -291,12 +296,14 @@ repeat_question:
 		if(result)
 		{
 			statusfile << "success";
-			iter0->second.second -= score_improve_if_success;
+			iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
 		}
 		else
 		{
 			statusfile << "fail";
-			iter0->second.second += score_deteriorate_if_fail;
+			iter0->second.second = std::min(iter0->second.second + score_deteriorate_if_fail+(gen()%5000)*.00001, max_complexity* current->get(DATATYPE_CHINESE).size()/2);
+;
+
 		}
 		statusfile << "\n";
 		statusfile.close();
