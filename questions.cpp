@@ -54,6 +54,8 @@ void questions::load_file(std::string const& filename)
 		}
 		loaded_data.push_back(dp);
 		pinyin_overlaps[dp.pinyin].insert(loaded_data.size()-1);
+		english_overlaps[dp.english].insert(loaded_data.size()-1);
+		chinese_overlaps[dp.chinese].insert(loaded_data.size()-1);
 	}
 	//PRINT(loaded_data.size());
 }
@@ -256,10 +258,23 @@ noreshuffle:
 		datapoint const* current = &loaded_data[std::get<0>(which_q)];
 		DATATYPE provided = std::get<1>(which_q);
 		DATATYPE asked = std::get<2>(which_q);
-		if(provided==DATATYPE_PINYIN)
+
 		{
-			std::string key = current->get(DATATYPE_PINYIN);
-			auto iter = pinyin_overlaps.find(key);
+			std::string key = current->get(provided);
+			//auto iter = pinyin_overlaps.find(key);
+			std::unordered_map<std::string, std::unordered_set<int>>::const_iterator iter;
+			switch(provided)
+			{
+				case DATATYPE_PINYIN:
+					iter = pinyin_overlaps.find(key);
+					break;
+				case DATATYPE_ENGLISH:
+					iter = english_overlaps.find(key);
+					break;
+				case DATATYPE_CHINESE:
+					iter = chinese_overlaps.find(key);
+					break;
+			}
 			if(iter != pinyin_overlaps.end())
 			{
 				for(size_t index: iter->second)

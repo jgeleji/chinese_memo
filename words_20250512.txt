@@ -1,0 +1,40 @@
+冷|cold
+热|hot
+天气|weather
+预报|weather forecast
+晴天|sunny
+下雨|raining
+起床|get up
+杯|m.w.cup
+咖啡|coffee
+能|can
+电影|movie
+踢球|play football
+看书|read book
+打网球|play tennis
+画画|painting
+刘慈欣|Liu Cixin
+拉小提琴|play violin
+爱好|hobby
+弹琴|play piano
+去年|last year
+健身房|gym
+做水上运动|water sports
+手工|handmade
+滑冰|skate
+打球|ball sports using hand
+朋友|friend
+养花|gardening flowers
+滑板|skateboard
+滑滑板|skateboarding
+看电影|watch movie
+汽车|car
+修理汽车|repair car
+养孩子|have children
+游泳|swim
+乒乓球|ping pong
+美食|delicious food
+一起|together
+下车|get off bus
+下班|get off work
+阅读|reading

@@ -50,5 +50,7 @@ class questions
 
 		std::vector<datapoint> loaded_data;
 		std::unordered_map<std::string, std::unordered_set<int>> pinyin_overlaps;
+		std::unordered_map<std::string, std::unordered_set<int>> english_overlaps;
+		std::unordered_map<std::string, std::unordered_set<int>> chinese_overlaps;
 		chinese::Input m_input;
 };
