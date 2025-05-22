@@ -1,0 +1,8 @@
+时间|time
+同学|classmate
+晚饭|dinner
+晚上|evening
+吧|imperative
+早上|morning
+中午|noon
+打电话|give phone call

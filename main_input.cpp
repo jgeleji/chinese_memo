@@ -13,7 +13,7 @@ int main()
 	//raw();				/* Line buffering disabled	*/
 	keypad(stdscr, TRUE);		/* We get F1, F2 etc..		*/
 	noecho();			/* Don't echo() while we do getch */
-	std::string inputted = input.do_input_chinese();
+	std::string inputted = input.do_input_chinese("", false);
 
 	endwin();			/* End curses mode		  */
 	std::cout << "inputted=" << inputted << std::endl;

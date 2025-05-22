@@ -16,7 +16,7 @@ const char* blue_background   = "\033[0;48;5;4m";
 const char* red_background    = "\033[0;48;5;1m";
 const char* green_foreground  = "\033[0;38;5;2m";
 const char* yellow_foreground = "\033[0;38;5;3m";
-const char* purple_foreground = "\033[0;38;5;5m";
+const char* purple_background = "\033[0;48;5;5m";
 const char* grey_background   = "\033[0;48;5;8m";
 
 bool replaceall(std::string& in, std::string from, std::string to)
@@ -499,7 +499,7 @@ std::string chinese::Input::do_input_1char_english(
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
-		std::cout << blue_background   << "1 " << raw_input << "\r\n";
+		std::cout << grey_background   << "1 " << raw_input << "\r\n";
 		std::cout << red_background    << "2 " << inputted << reset_color << "\r\n";
 
 	}
@@ -521,7 +521,7 @@ std::string chinese::Input::do_input_1char_pinyin(
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
-		std::cout << blue_background   << "1 " << raw_input << "\r\n";
+		std::cout << purple_background   << "1 " << raw_input << "\r\n";
 		std::cout << red_background    << "2 " << pinyin << reset_color << "\r\n";
 
 	}
@@ -560,7 +560,7 @@ std::string chinese::Input::do_input_english(std::string description) const
 	return ret;
 }
 
-std::string chinese::Input::do_input_chinese(std::string description) const
+std::string chinese::Input::do_input_chinese(std::string description, bool shuffle) const
 {
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
@@ -574,7 +574,7 @@ std::string chinese::Input::do_input_chinese(std::string description) const
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color        << "0 " << ret << "\r\n";
-		std::string add = this->do_input_1char_chinese(ret, state_number, description);
+		std::string add = this->do_input_1char_chinese(ret, state_number, description, shuffle);
 		if(add=="-")
 		{
 			ret.clear();
@@ -590,7 +590,8 @@ std::string chinese::Input::do_input_chinese(std::string description) const
 std::string chinese::Input::do_input_1char_chinese(
 	std::string const& top_row,
 	INPUT_STATE& state_number,
-	std::string const& description) const
+	std::string const& description,
+	bool shuffle) const
 {
 	std::string debug_string, raw_input, chinese, pinyin;
 	std::vector<std::string> ch_ch_vec;
@@ -598,8 +599,11 @@ std::string chinese::Input::do_input_1char_chinese(
 	{
 		pinyin = this->do_input_inner(debug_string, raw_input, state_number);
 		ch_ch_vec = this->get_possibles(pinyin);
-		static std::mt19937 rnd;
-		std::shuffle(ch_ch_vec.begin(), ch_ch_vec.end(), rnd);
+		if(shuffle)
+		{
+			static std::mt19937 rnd;
+			std::shuffle(ch_ch_vec.begin(), ch_ch_vec.end(), rnd);
+		}
 		std::stringstream chinese_choices;
 		for(size_t i=0; i<ch_ch_vec.size(); ++i)
 		{
@@ -612,7 +616,10 @@ std::string chinese::Input::do_input_1char_chinese(
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
 		std::cout << blue_background   << "1 " << raw_input << "\r\n";
 		std::cout << red_background    << "2 " << pinyin << reset_color << "\r\n";
-		//std::cout << yellow_foreground << "3 " << chinese_choices.str() << std::flush;
+		if(!shuffle)
+		{
+			std::cout << yellow_foreground << "3 " << chinese_choices.str() << std::flush;
+		}
 
 	}
 	while(state_number == INPUT_STATE_TYPE_PINYIN);
