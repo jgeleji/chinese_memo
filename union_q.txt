@@ -244,3 +244,32 @@
 早上|morning
 中午|noon
 打电话|give phone call
+飞机|airplane
+火车|train
+小时|hour duration
+汽车|car
+开车|drive car
+黄山|yellow mountain
+安徽|Anhui province
+华山|Mount Hua
+西安|Xi'an
+怎么去|how to go
+长城|great wall
+故宫|forbidden city
+旅行|travel
+上海中心大厦|shanghai tower
+带|bring
+衣服|clothes
+火车站|train station
+出租车|taxi
+从|from
+到|to
+一路平安|safe journey
+坐|take
+出差|business trip
+旅游|tourism
+留学|study abroad
+消息|news
+坏|bad
+要|gonna
+开心|happy
