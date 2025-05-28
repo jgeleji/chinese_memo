@@ -19,6 +19,19 @@ const char* yellow_foreground = "\033[0;38;5;3m";
 const char* purple_background = "\033[0;48;5;5m";
 const char* grey_background   = "\033[0;48;5;8m";
 
+std::string pad_to_three(int i)
+{
+	if(0<=i && i<10)
+	{
+		return " " + std::to_string(i) + ".";
+	}
+	if(10 <= i && i < 100)
+	{
+		return std::to_string(i) + ".";
+	}
+	return std::to_string(i);
+}
+
 bool replaceall(std::string& in, std::string from, std::string to)
 {
 	size_t pos = in.find(from);
@@ -560,7 +573,7 @@ std::string chinese::Input::do_input_english(std::string description) const
 	return ret;
 }
 
-std::string chinese::Input::do_input_chinese(std::string description, bool shuffle) const
+std::string chinese::Input::do_input_chinese(std::string description, bool shuffle, int breaks) const
 {
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
@@ -574,7 +587,7 @@ std::string chinese::Input::do_input_chinese(std::string description, bool shuff
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color        << "0 " << ret << "\r\n";
-		std::string add = this->do_input_1char_chinese(ret, state_number, description, shuffle);
+		std::string add = this->do_input_1char_chinese(ret, state_number, description, shuffle, breaks);
 		if(add=="-")
 		{
 			ret.clear();
@@ -591,7 +604,8 @@ std::string chinese::Input::do_input_1char_chinese(
 	std::string const& top_row,
 	INPUT_STATE& state_number,
 	std::string const& description,
-	bool shuffle) const
+	bool shuffle,
+	int breaks) const
 {
 	std::string debug_string, raw_input, chinese, pinyin;
 	std::vector<std::string> ch_ch_vec;
@@ -604,10 +618,15 @@ std::string chinese::Input::do_input_1char_chinese(
 			static std::mt19937 rnd;
 			std::shuffle(ch_ch_vec.begin(), ch_ch_vec.end(), rnd);
 		}
-		std::stringstream chinese_choices;
+		std::vector<std::stringstream> chinese_choices;
+		chinese_choices.push_back(std::stringstream());
 		for(size_t i=0; i<ch_ch_vec.size(); ++i)
 		{
-			chinese_choices << (i+1) << ". " << ch_ch_vec[i] << "  ";
+			chinese_choices.back() << pad_to_three(i+1) << " " << ch_ch_vec[i] << " ";
+			if(breaks>0 && i%breaks==breaks-1)
+			{
+				chinese_choices.push_back(std::stringstream());
+			}
 		}
 		move(0,0);
 		clear();
@@ -618,15 +637,24 @@ std::string chinese::Input::do_input_1char_chinese(
 		std::cout << red_background    << "2 " << pinyin << reset_color << "\r\n";
 		if(!shuffle)
 		{
-			std::cout << yellow_foreground << "3 " << chinese_choices.str() << std::flush;
+			std::cout << yellow_foreground;
+			for(size_t i=0; i<chinese_choices.size(); ++i)
+			{
+				std::cout << chinese_choices[i].str() << "\r\n";
+			}
 		}
 
 	}
 	while(state_number == INPUT_STATE_TYPE_PINYIN);
-	std::stringstream chinese_choices;
+	std::vector<std::stringstream> chinese_choices;
+	chinese_choices.push_back(std::stringstream());
 	for(size_t i=0; i<ch_ch_vec.size(); ++i)
 	{
-		chinese_choices << (i+1) << ". " << ch_ch_vec[i] << "  ";
+		chinese_choices.back() << pad_to_three(i+1) << " " << ch_ch_vec[i] << " ";
+		if(breaks>0 && i%breaks==breaks-1)
+		{
+			chinese_choices.push_back(std::stringstream());
+		}
 	}
 	raw_input.clear();
 	move(0,0);
@@ -635,7 +663,11 @@ std::string chinese::Input::do_input_1char_chinese(
 	std::cout << reset_color        << "0 " << top_row << "\r\n";
 	std::cout << grey_background    << "1 " << "\r\n";
 	std::cout << red_background     << "2 " << pinyin << "\r\n";
-	std::cout << yellow_foreground  << "3 " << chinese_choices.str() << "\r\n";
+	std::cout << yellow_foreground;
+	for(size_t i=0; i<chinese_choices.size(); ++i)
+	{
+		std::cout << chinese_choices[i].str() << "\r\n";
+	}
 	std::cout << green_foreground   << "4 " << raw_input << "\r\n";
 	while(state_number == INPUT_STATE_CHOOSE_NUMBER)
 	{
@@ -646,7 +678,11 @@ std::string chinese::Input::do_input_1char_chinese(
 		std::cout << reset_color        << "0 " << top_row << "\r\n";
 		std::cout << grey_background    << "1 " << "\r\n";
 		std::cout << red_background     << "2 " << pinyin << "\r\n";
-		std::cout << yellow_foreground  << "3 " << chinese_choices.str() << "\r\n";
+		std::cout << yellow_foreground;
+		for(size_t i=0; i<chinese_choices.size(); ++i)
+		{
+			std::cout << chinese_choices[i].str() << "\r\n";
+		}
 		std::cout << green_foreground   << "4 " << raw_input << "\r\n";
 	}
 	if(raw_input.empty())

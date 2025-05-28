@@ -19,8 +19,9 @@ int main()
 	noecho();			/* Don't echo() while we do getch */
 	//q.ask_1(0, questions::DATATYPE_CHINESE, questions::DATATYPE_PINYIN);
 
+	int y, x;
 
-	q.ask_all_until_fail();
+	q.ask_all_until_fail(std::max(0, COLS/7-3));
 
 	endwin();			/* End curses mode		  */
 	return 0;

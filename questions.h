@@ -26,7 +26,7 @@ class questions
 			DATATYPE asked
 		) const;
 
-		bool ask_all_until_fail() const;
+		bool ask_all_until_fail(int breaks = 0) const;
 
 	private:
 		class datapoint
@@ -44,7 +44,8 @@ class questions
 					DATATYPE asked,
 					std::string const& question_number,
 					std::vector<datapoint const*> const& others,
-					std::string& gave
+					std::string& gave,
+					int breaks = 0
 				) const;
 		};
 

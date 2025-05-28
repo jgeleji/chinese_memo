@@ -5275,3 +5275,216 @@
 黑狗|hēigǒu|black dog|0|1|4155|success
 知道|zhīdào|know|1|0|4156|success
 滑板|huábǎn|skateboard|1|2|4157|success
+到|dào|to|0|2|4159|fail
+到|dào|to|0|2|4159|success
+到|dào|to|0|2|4159|success
+过|guò|cross|0|1|4160|success
+荔枝|lìzhī|lychee|0|1|4161|fail
+荔枝|lìzhī|lychee|0|1|4161|success
+坏|huài|bad|0|1|4163|success
+一遍|yībiàn|again|2|1|4164|success
+更|gèng|more|0|2|4165|success
+签证|qiānzhèng|visa|0|2|4166|fail
+签证|qiānzhèng|visa|0|2|4166|fail
+签证|qiānzhèng|visa|0|2|4166|success
+蓝莓|lánméi|blueberry|0|2|4167|success
+上海中心大厦|shànghǎizhōngxīndàshà|shanghai tower|1|0|4168|success
+到|dào|to|0|2|4169|success
+后|hòu|after|1|0|4170|success
+荔枝|lìzhī|lychee|0|1|4171|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4172|success
+坏|huài|bad|0|1|4173|success
+一遍|yībiàn|again|2|1|4174|success
+更|gèng|more|0|2|4175|success
+签证|qiānzhèng|visa|0|2|4176|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4177|success
+橙子|chéngzi|orange|1|2|4178|success
+飞机|fēijī|airplane|1|0|4179|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|0|1|4180|success
+香蕉|xiāngjiāo|banana|2|0|4181|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4182|success
+坏|huài|bad|0|1|4183|success
+一遍|yībiàn|again|2|1|4184|success
+更|gèng|more|0|2|4185|success
+签证|qiānzhèng|visa|0|2|4186|success
+上海中心大厦|shànghǎizhōngxīndàshà|shanghai tower|1|0|4187|success
+荔枝|lìzhī|lychee|0|1|4188|success
+蓝莓|lánméi|blueberry|0|2|4189|success
+到|dào|to|0|2|4190|success
+后|hòu|after|1|0|4191|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4192|success
+坏|huài|bad|0|1|4193|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4194|success
+黑狗|hēigǒu|black dog|0|1|4195|success
+签证|qiānzhèng|visa|0|2|4196|success
+爸爸|bàbà|father|0|2|4197|success
+知道|zhīdào|know|1|0|4198|success
+猴|hóu|monkey|1|0|4199|success
+朋友|péngyǒu|friend|0|1|4200|fail
+朋友|péngyǒu|friend|0|1|4200|fail
+朋友|péngyǒu|friend|0|1|4200|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4202|success
+坏|huài|bad|0|1|4203|success
+更|gèng|more|0|2|4204|success
+柠檬|níngméng|lemon|0|2|4205|success
+一遍|yībiàn|again|2|1|4207|success
+橙子|chéngzi|orange|1|2|4208|success
+支|zhī|m.w.long and straight|2|1|4209|success
+朋友|péngyǒu|friend|0|1|4210|success
+飞机|fēijī|airplane|1|0|4211|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4212|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|0|1|4213|success
+旅行|lǚxíng|travel|0|1|4214|success
+茶|chá|tea|1|0|4215|success
+签证|qiānzhèng|visa|0|2|4216|success
+荔枝|lìzhī|lychee|0|1|4217|success
+蓝莓|lánméi|blueberry|0|2|4218|success
+到|dào|to|0|2|4219|success
+朋友|péngyǒu|friend|0|1|4220|success
+坏|huài|bad|0|1|4221|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4222|success
+后|hòu|after|1|0|4223|success
+上海中心大厦|shànghǎizhōngxīndàshà|shanghai tower|1|0|4224|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4225|success
+签证|qiānzhèng|visa|0|2|4226|success
+健身房|jiànshēnfáng|gym|1|0|4227|fail
+健身房|jiànshēnfáng|gym|1|0|4227|success
+健身房|jiànshēnfáng|gym|1|0|4227|success
+椰子|yēzi|coconut|0|2|4228|success
+坐|zuò|sit|0|1|4229|success
+朋友|péngyǒu|friend|0|1|4230|success
+听|tīng|listen|1|0|4231|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4232|success
+更|gèng|more|0|2|4233|success
+过|guò|celebrate|2|0|4234|success
+过|guò|celebrate, have|0|2|4235|success
+签证|qiānzhèng|visa|0|2|4236|success
+健身房|jiànshēnfáng|gym|1|0|4237|success
+一遍|yībiàn|again|2|1|4238|success
+坐|zuò|sit|2|1|4239|success
+朋友|péngyǒu|friend|0|1|4240|success
+过|guò|celebrate, have|2|1|4241|success
+听|tīng|listen|0|2|4242|success
+坐|zuò|sit|1|0|4243|success
+听|tīng|listen|2|0|4244|success
+过|guò|celebrate|0|1|4245|success
+签证|qiānzhèng|visa|0|2|4246|success
+过|guò|celebrate|2|1|4247|success
+过|guò|celebrate|1|0|4248|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4249|success
+朋友|péngyǒu|friend|0|1|4250|success
+坏|huài|bad|0|1|4251|success
+坐|zuò|sit|0|2|4252|success
+过|guò|celebrate, have|1|2|4253|success
+健身房|jiànshēnfáng|gym|1|0|4254|success
+坐|zuò|sit|2|0|4255|success
+签证|qiānzhèng|visa|0|2|4256|success
+过|guò|celebrate|1|2|4257|success
+听|tīng|listen|2|1|4258|success
+过|guò|celebrate, have|0|1|4259|success
+朋友|péngyǒu|friend|0|1|4260|success
+过|guò|celebrate, have|2|0|4261|success
+过|guò|celebrate, have|1|0|4262|success
+过|guò|celebrate|0|2|4263|success
+猴|hóu|monkey|1|0|4265|success
+签证|qiānzhèng|visa|0|2|4266|success
+去年|qùnián|last year|2|0|4267|success
+会|huì|can|1|0|4268|success
+猪|zhū|pig|2|1|4269|fail
+猪|zhū|pig|2|1|4269|success
+猪|zhū|pig|2|1|4269|success
+朋友|péngyǒu|friend|0|1|4270|success
+滑板|huábǎn|skateboard|0|1|4271|fail
+滑板|huábǎn|skateboard|0|1|4271|success
+滑板|huábǎn|skateboard|0|1|4271|success
+健身房|jiànshēnfáng|gym|2|0|4272|success
+黑狗|hēigǒu|black dog|0|1|4273|success
+爸爸|bàbà|father|0|2|4274|fail
+爸爸|bàbà|father|0|2|4274|success
+爸爸|bàbà|father|0|2|4274|success
+还是|háishì|still more|1|0|4275|success
+签证|qiānzhèng|visa|0|2|4276|success
+少|shǎo|less little|0|1|4277|success
+少|shǎo|less little|0|1|4277|success
+国家博物馆|guójiābówùguǎn|national museum|2|1|4278|success
+猪|zhū|pig|2|1|4279|success
+朋友|péngyǒu|friend|0|1|4280|success
+滑板|huábǎn|skateboard|0|1|4281|success
+西安|xīān|xi'an|2|1|4282|success
+健身房|jiànshēnfáng|gym|1|0|4283|success
+爸爸|bàbà|father|0|2|4284|success
+春节|chūnjié|spring festival|0|1|4285|fail
+春节|chūnjié|spring festival|0|1|4285|success
+春节|chūnjié|spring festival|0|1|4285|success
+签证|qiānzhèng|visa|0|2|4286|success
+少|shǎo|less little|0|1|4287|success
+更|gèng|more|1|2|4288|success
+下次|xiàcì|next time|0|1|4289|success
+明天|míngtiān|tomorrow|0|1|4290|success
+多大年纪|duōdàniánjì|how old (older)|2|0|4291|success
+羊|yáng|sheep|1|0|4292|success
+后|hòu|after|2|1|4293|fail
+后|hòu|after|2|1|4293|success
+后|hòu|after|2|1|4293|success
+春节|chūnjié|spring festival|0|1|4295|success
+猪|zhū|pig|2|1|4296|success
+朋友|péngyǒu|friend|0|1|4297|success
+滑板|huábǎn|skateboard|0|1|4298|success
+爷爷|yéyé|dads dad|0|2|4299|success
+恔子|jiǎozi|dumpling|2|0|4300|fail
+恔子|jiǎozi|dumpling|2|0|4300|fail
+恔子|jiǎozi|dumpling|2|0|4300|success
+爸爸|bàbà|father|0|2|4301|success
+天气|tiānqì|weather|2|0|4302|success
+后|hòu|after|2|1|4303|success
+签证|qiānzhèng|visa|0|2|4304|success
+樱桃|yīngtáo|cherry|1|0|4305|success
+一路平安|yīlùpíngān|safe journey|1|2|4306|success
+玩|wán|play|0|2|4307|success
+坏|huài|bad|0|1|4308|success
+知道|zhīdào|know|1|0|4309|success
+恔子|jiǎozi|dumpling|2|0|4310|success
+领英|lǐngyīng|linkedin|2|0|4311|fail
+领英|lǐngyīng|linkedin|2|0|4311|success
+领英|lǐngyīng|linkedin|2|0|4311|success
+春节|chūnjié|spring festival|0|1|4312|success
+画画|huàhuà|painting|0|1|4313|fail
+画画|huàhuà|painting|0|1|4313|success
+画画|huàhuà|painting|0|1|4313|success
+菠萝|bōluó|pineapple|0|2|4314|success
+踢球|tīqiú|play football|0|2|4315|success
+恔子|jiǎozi|dumpling|1|0|4316|success
+环境|huánjìng|environment|2|0|4317|success
+环境|huánjìng|environment|2|0|4317|success
+下次|xiàcì|next time|0|2|4318|success
+职位|zhíwèi|title|0|1|4319|success
+职位|zhíwèi|title|0|1|4319|success
+恔子|jiǎozi|dumpling|2|0|4320|success
+领英|lǐngyīng|linkedin|2|0|4321|success
+后|hòu|after|2|1|4322|success
+画画|huàhuà|painting|0|1|4323|success
+块|kuài|rmb|2|0|4324|fail
+块|kuài|rmb|2|0|4324|success
+块|kuài|rmb|2|0|4324|success
+猪|zhū|pig|2|1|4325|success
+朋友|péngyǒu|friend|0|1|4326|success
+滑板|huábǎn|skateboard|0|1|4327|success
+小时|xiǎoshí|hour duration|2|0|4328|success
+职位|zhíwèi|title|0|1|4329|success
+恔子|jiǎozi|dumpling|2|0|4330|success
+爸爸|bàbà|father|0|2|4331|success
+滑冰|huábīng|skate|1|0|4332|success
+签证|qiānzhèng|visa|0|2|4333|success
+块|kuài|rmb|2|0|4334|success
+恭喜|gōngxǐ|congratulations|2|1|4335|success
+华山|huáshān|mount hua|2|0|4336|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|2|1|4337|success
+领英|lǐngyīng|linkedin|2|0|4338|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|2|4339|success
+恔子|jiǎozi|dumpling|2|0|4340|success
+画画|huàhuà|painting|0|1|4341|success
+春节|chūnjié|spring festival|0|1|4342|success
+帅|shuài|handsome|0|1|4343|success
+地方|defāng|place|0|2|4344|fail
+地方|defāng|place|0|2|4344|success
+地方|defāng|place|0|2|4344|success
