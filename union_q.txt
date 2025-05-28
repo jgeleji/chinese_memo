@@ -1,275 +1,266 @@
-漂亮|beautiful
-你|you
-在|is at
-家|house, home
-吗|yes no question
+
+一家人|family
+一起|together
+一路平安|safe journey
+一遍|again
+万|ten thousand
+丈夫|husband
+上海中心大厦|shanghai tower
+上网|online surfing
+上面|topmost
+下次|next time
+下班|get off work
+下车|get off bus
+下雨|raining
+下雪|snow
+下面|below
 不|no
 不客气|you are welcome
-哪儿|where
-叫|called
-是|is
-欢迎|welcome
-请问|excuse me
-进|enter, come in
-坐|sit
-来|come
-说|say
-再|again
-一遍|again (ii)
-见到|see
-非常|very
-喜欢|like
-爱|love
+个|m.w.individual person or object
+中午|noon
+乒乓球|ping pong
+买|buy
+亿|hundred million
+今天|today
+从|from
+会|can
+你|you
+修理汽车|repair car
+做|do
+做水上运动|water sports
+健身房|gym
 先生|husband formal
-老公|husband spoken
-丈夫|husband
-口|mouth
-几|how many less than ten
-多少|how many ten plus
-老婆|wife spoken
-妻子|wife
-夫人|wife
-给|give
-礼物|gift
-祝|wish hope
-快乐|happy
-新年|new year
-春节|spring festival
-生日|birthday
-过|celebrate
-月|month
-号|date
-都|all
-程大宝|cheng dabao
-爷爷|dads dad
-鼠|mouse
-牛|cattle
-虎|tiger
 兔|rabbit
-龙|dragon
+养孩子|have children
+养花|gardening flowers
+再|again
+冷|cold
+几|how many less than ten
+几岁|how old (young)
+出差|business trip
+出生|birth
+出租车|taxi
+刘慈欣|Liu Cixin
+刮风|windy
+到|to
+前面|in front
+包子|steamed bun
+北京烤鸭|Peking duck
+医生|physician
+医院|hospital
+十万|hundred thousand
+千|thousand
+千万|ten million
+华山|Mount Hua
+厨师|chef
+去年|last year
+口|mouth
+只|m.w.animal
+叫|called
+号|date
+同学|classmate
+名片|business card
+后|after
+后面|behind
+吗|yes no question
+吧|imperative
+听|listen
+听|listen, hear
+周末|weekend
+咖啡|coffee
+哪儿|where
+唱|sing
+喜欢|like
+喝|drink
+国家博物馆|National Museum
+土豆|potato
+土豆牛肉汤|goulash
+在|is at
+地方|place
+坏|bad
+坐|sit
+坐|take
+块|rmb
 外公|moms dad
-蛇|snake
-马|horse
-羊|sheep
-猴|monkey
-鸡|chicken
+多云|cloudy
+多大|how old (middle)
+多大年纪|how old (older)
+多少|how many ten plus
+天气|weather
+夫人|wife
+好听|nice to hear
+好呀|okay (cute)
+妈妈|mother
+妹妹|little sister
+妻子|wife
+安徽|Anhui province
+宫保鸡丁|Gongbao chicken
+家|house, home
+小时|hour duration
+少|less little
+工作|work
+布达佩斯|Budapest
+帅|handsome
+带|bring
+年|year
+年轻|young
+开心|happy
+开车|drive car
+张|m.w.flat
+弹琴|play piano
+忙|busy
+快乐|happy
+怎么去|how to go
+怎么样|what do you think
+恔子|dumpling
+恭喜|congratulations
+手工|handmade
+打球|ball sports using hand
+打电话|give phone call
+打网球|play tennis
+把|m.w.handful
+拉小提琴|play violin
+支|m.w.long and straight
+收到|receive
+故宫|forbidden city
+新年|new year
+旁边|on the side of
+旅游|tourism
+旅行|travel
+早上|morning
+时间|time
+明天|tomorrow
+星期六|Saturday
+春天|spring
+春节|spring festival
+昨天|yesterday
+是|is
+晚上|evening
+晚饭|dinner
+晴天|sunny
+更|more
+月|month
+有名|famous
+朋友|friend
+服务员|waiter
+本|m.w.book
+来|come
+杯|m.w.cup
+杯子|cup
+柠檬|lemon
+桃子|peach
+椰子|coconut
+樱桃|cherry
+樱花|cherry blossom
+橘子|tangerine
+橙子|orange
+欢迎|welcome
+歌|song
+歌手|singer
+水果|fruit
+汤|soup
+汽车|car
+泳池|pool
+消息|news
+渔人堡|Fisherman's bastion
+游泳|swim
+滑冰|skate
+滑板|skateboard
+滑滑板|skateboarding
+漂亮|beautiful
+火车|train
+火车站|train station
+热|hot
+照片|photo
+爱|love
+爱好|hobby
+爷爷|dads dad
+爸爸|father
+牛|cattle
+牛肉|beef
 狗|dog
 猪|pig
 猫|cat
-几岁|how old (young)
-多大|how old (middle)
-多大年纪|how old (older)
-出生|birth
-年|year
-今天|today
-昨天|yesterday
-明天|tomorrow
-画家|painter
-过|celebrate, have
-星期六|Saturday
-妹妹|little sister
-签证|visa
-收到|receive
-周末|weekend
-恭喜|congratulations
-来|come
-布达佩斯|Budapest
-音乐会|concert
-听|listen
-一家人|family
-怎么样|what do you think
-过得|passing it
-樱花|cherry blossom
-春天|spring
-黑狗|black dog
-名片|business card
-职位|title
-好呀|okay (cute)
-泳池|pool
-领英|LinkedIn
-地方|place
-欢迎|welcome
-环境|environment
-渔人堡|Fisherman's bastion
-前面|in front
-旁边|on the side of
-后面|behind
-里面|inside
-上面|topmost
-下面|below
-花|flower
-国家博物馆|National Museum
-少|less little
-更|more
-还是|still more
-荔枝|lychee
-都|all
-芒果|mango
-草莓|strawberry
-蓝莓|blueberry
-香蕉|banana
-西瓜|watermelon
-菠萝|pineapple
-椰子|coconut
-桃子|peach
-樱桃|cherry
-杯子|cup
-买|buy
-喝|drink
-茶|tea
-钱|money
-块|rmb
-不客气|you are welcome
-水果|fruit
-葡萄|grape
-橘子|tangerine
-橙子|orange
-柠檬|lemon
-苹果|apple
-千|thousand
-万|ten thousand
-十万|hundred thousand
-百万|million
-千万|ten million
-亿|hundred million
-
-
-面条|noodles
-个|m.w.individual person or object
-只|m.w.animal
-本|m.w.book
-支|m.w.long and straight
-把|m.w.handful
-张|m.w.flat
-
-这些|these
-包子|steamed bun
-恔子|dumpling
-土豆牛肉汤|goulash
-土豆|potato
-牛肉|beef
-汤|soup
-鱼|fish
-下次|next time
-菜|dish
-米饭|cooked rice
-知道|know
-鱼香肉丝|fish-flavored shredded pork
-宫保鸡丁|Gongbao chicken
-北京烤鸭|Peking duck
-做|do
-照片|photo
-厨师|chef
-饭店|restaurant
-服务员|waiter
-忙|busy
-听|listen, hear
-歌|song
-歌手|singer
-年轻|young
-会|can
-唱|sing
-好听|nice to hear
-首|m.w.piece
-帅|handsome
-真|so very
-工作|work
-医院|hospital
-医生|physician
-音乐|music
-老师|teacher
-爸爸|father
-妈妈|mother
-上网|online surfing
-睡觉|sleep
-骑|ride
-自行车|bike
+猴|monkey
 玩|play
-电脑|computer
-话|discussion
-有名|famous
-年轻|young
-歌手|singer
-冷|cold
-热|hot
-天气|weather
-预报|weather forecast
-晴天|sunny
-下雨|raining
-起床|get up
-杯|m.w.cup
-咖啡|coffee
-能|can
+环境|environment
+生日|birthday
 电影|movie
-踢球|play football
-看书|read book
-打网球|play tennis
+电脑|computer
+画家|painter
 画画|painting
-刘慈欣|Liu Cixin
-拉小提琴|play violin
-爱好|hobby
-弹琴|play piano
-去年|last year
-健身房|gym
-做水上运动|water sports
-手工|handmade
-滑冰|skate
-打球|ball sports using hand
-朋友|friend
-养花|gardening flowers
-滑板|skateboard
-滑滑板|skateboarding
+留学|study abroad
+百万|million
+看书|read book
 看电影|watch movie
-汽车|car
-修理汽车|repair car
-养孩子|have children
-游泳|swim
-乒乓球|ping pong
+真|so very
+睡觉|sleep
+知道|know
+礼物|gift
+祝|wish hope
+程大宝|cheng dabao
+签证|visa
+米饭|cooked rice
+给|give
+羊|sheep
 美食|delicious food
-一起|together
-下车|get off bus
-下班|get off work
+老公|husband spoken
+老婆|wife spoken
+老师|teacher
+职位|title
+能|can
+自行车|bike
+芒果|mango
+花|flower
+苹果|apple
+茶|tea
+草莓|strawberry
+荔枝|lychee
+菜|dish
+菠萝|pineapple
+葡萄|grape
+蓝莓|blueberry
+虎|tiger
+蛇|snake
+衣服|clothes
+西安|Xi'an
+西瓜|watermelon
+要|gonna
+见到|see
+话|discussion
+说|say
+请问|excuse me
+起床|get up
+踢球|play football
+过|celebrate
+过|celebrate, have
+过|cross
+过得|passing it
+还是|still more
+这些|these
+进|enter, come in
+都|all
+里面|inside
+钱|money
+长城|great wall
 阅读|reading
 阴天|overcast
-多云|cloudy
-刮风|windy
-下雪|snow
-后|after
-过|cross
-时间|time
-同学|classmate
-晚饭|dinner
-晚上|evening
-吧|imperative
-早上|morning
-中午|noon
-打电话|give phone call
+非常|very
+面条|noodles
+音乐|music
+音乐会|concert
+预报|weather forecast
+领英|LinkedIn
 飞机|airplane
-火车|train
-小时|hour duration
-汽车|car
-开车|drive car
+饭店|restaurant
+首|m.w.piece
+香蕉|banana
+马|horse
+骑|ride
+鱼|fish
+鱼香肉丝|fish-flavored shredded pork
+鸡|chicken
 黄山|yellow mountain
-安徽|Anhui province
-华山|Mount Hua
-西安|Xi'an
-怎么去|how to go
-长城|great wall
-故宫|forbidden city
-旅行|travel
-上海中心大厦|shanghai tower
-带|bring
-衣服|clothes
-火车站|train station
-出租车|taxi
-从|from
-到|to
-一路平安|safe journey
-坐|take
-出差|business trip
-旅游|tourism
-留学|study abroad
-消息|news
-坏|bad
-要|gonna
-开心|happy
+黑狗|black dog
+鼠|mouse
+龙|dragon

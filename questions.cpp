@@ -70,7 +70,7 @@ void questions::load_file(std::string const& filename)
 		english_overlaps[dp.english].insert(loaded_data.size()-1);
 		chinese_overlaps[dp.chinese].insert(loaded_data.size()-1);
 
-		std::tuple<std::string, std::string, std::string> key;
+		//std::tuple<std::string, std::string, std::string> key;
 		question_index_finder[dp.chinese][dp.pinyin][dp.english] = loaded_data.size() - 1;
 		//std::get<0>(key) = dp.chinese;
 		//std::get<1>(key) = dp.pinyin;
