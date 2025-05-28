@@ -31,10 +31,10 @@ class Input
 		};
 	public:
 
-		std::string do_input_chinese(std::string description="", bool shuffle=true) const;
+		std::string do_input_chinese(std::string description="", bool shuffle=true, int breaks = 0) const;
 		std::string do_input_english(std::string description="") const;
 		std::string do_input_pinyin(std::string description="") const;
-		std::string do_input_1char_chinese(std::string const& top_row, INPUT_STATE& state_number, std::string const& description, bool shuffle=true) const;
+		std::string do_input_1char_chinese(std::string const& top_row, INPUT_STATE& state_number, std::string const& description, bool shuffle=true, int breaks = 0) const;
 		std::string do_input_1char_english(std::string const& top_row, INPUT_STATE& state_number, std::string const& description) const;
 		std::string do_input_1char_pinyin(std::string const& top_row, INPUT_STATE& state_number, std::string const& description) const;
 

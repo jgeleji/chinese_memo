@@ -14,8 +14,7 @@
 #include "questions.h"
 #include "tokenize.h"
 
-#define PRINT(X) std::cout << __FILE__ << ":" << __LINE__ << " " << (#X) << " = " << (X) << std::endl
-
+#define PRINT(X) std::cout << __FILE__ << ":" << __LINE__ << " " << (#X) << " = " << (X) << "\r\n"
 
 std::string tolower(std::string data = "Abc")
 {
@@ -77,7 +76,7 @@ void questions::load_file(std::string const& filename)
 		//std::get<2>(key) = dp.english;
 		//question_index_finder[key] = loaded_data.size() - 1;
 	}
-	//PRINT(loaded_data.size());
+
 }
 
 bool questions::ask_1(
@@ -98,11 +97,11 @@ std::string questions::to_string(DATATYPE val)
 	switch(val)
 	{
 		case DATATYPE_CHINESE:
-			return "chinese";
+			return "\033[38;5;226mchinese\033[0m";
 		case DATATYPE_PINYIN:
-			return "pinyin";
+			return "\033[38;5;236mpinyin\033[0m";
 		case DATATYPE_ENGLISH:
-			return "english";
+			return "\033[38;5;27menglish\033[0m";
 	}
 	return "unknown";
 }
@@ -128,7 +127,8 @@ bool questions::datapoint::ask(
 	questions::DATATYPE asked,
 	std::string const& question_number,
 	std::vector<datapoint const*> const& others,
-	std::string& gave
+	std::string& gave,
+	int breaks
 ) const
 {
 	std::stringstream question_to_ask;
@@ -146,7 +146,7 @@ bool questions::datapoint::ask(
 	switch(asked)
 	{
 		case DATATYPE_CHINESE:
-			gave = input.do_input_chinese(question_to_ask.str(), true);
+			gave = input.do_input_chinese(question_to_ask.str(), true, breaks);
 			break;
 		case DATATYPE_ENGLISH:
 			gave = tolower(input.do_input_english(question_to_ask.str()));
@@ -158,7 +158,7 @@ bool questions::datapoint::ask(
 	return gave == get(asked);
 }
 
-bool questions::ask_all_until_fail() const
+bool questions::ask_all_until_fail(int breaks) const
 {
 	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
 	double score_improve_if_success = 1.04;
@@ -221,17 +221,49 @@ bool questions::ask_all_until_fail() const
 		auto iter = recurrence_scores.find(key);
 		iter->second.first = std::max(iter->second.first, (size_t)atoll(tokens[5].c_str()));
 		sequence_number = std::max(sequence_number, iter->second.first);
-		if(tokens[4] == "success")
+		if(tokens[6] == "success")
 		{
 			iter->second.second -= score_improve_if_success + (gen()%5)*.01;
 		}
-		else if(tokens[4] == "fail")
+		else if(tokens[6] == "fail")
 		{
 			iter->second.second = std::min(max_complexity*tokens[0].size()/2, iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001);
 		}
 
 
 	}
+	PRINT(loaded_data.size());
+	PRINT(recurrence_scores.size());
+	size_t zero_score=0;
+	size_t zero_score_and_occurrence=0;
+	size_t positive = 0;
+	long double total_score=0.0l;
+	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+	{
+		total_score += iter->second.second;
+		if(iter->second.first == 0 && iter->second.second == 0)
+		{
+			++zero_score_and_occurrence;
+			datapoint const& d = loaded_data[std::get<0>(iter->first)];
+			std::cout << d.chinese << " " << d.pinyin << " " << d.english << " " << std::get<1>(iter->first) << " " << std::get<2>(iter->first) << "\r\n";
+		}
+		if(iter->second.second == 0.0)
+		{
+			++zero_score;
+		}
+		if(iter->second.second > 0)
+		{
+			++positive;
+		}
+	}
+	PRINT(total_score);
+	PRINT(total_score/recurrence_scores.size());
+	PRINT(zero_score);
+	PRINT(zero_score_and_occurrence);
+	PRINT(COLS);
+	PRINT(breaks);
+	PRINT(positive);
+	std::cin.get();
 
 	//PRINT(myquestions.size());
 reshuffle:
@@ -252,6 +284,15 @@ noreshuffle:
 			if(iter->second.second < 2.5) skipdistance = 17;
 			if(iter->second.second < 1.1) skipdistance = 29;
 			if(iter->second.second < .5) skipdistance = 36;
+			if(iter->second.second < 0)
+			{
+				int tmp = iter->second.second;
+				skipdistance = 40;
+				while(tmp++ < 0)
+				{
+					skipdistance *= 2;
+				}
+			}
 			if(iter->second.first + skipdistance > sequence_number) continue;
 			if(iter->second.second > iter0->second.second)
 			{
@@ -283,34 +324,48 @@ noreshuffle:
 		DATATYPE provided = std::get<1>(which_q);
 		DATATYPE asked = std::get<2>(which_q);
 
+		
+		std::string key = current->get(provided);
+		//auto iter = pinyin_overlaps.find(key);
+		std::unordered_map<std::string, std::unordered_set<int>>::const_iterator iter;
+		std::unordered_map<std::string, std::unordered_set<int>> const* provided_overlaps, *asked_overlaps;
+		switch(asked)
 		{
-			std::string key = current->get(provided);
-			//auto iter = pinyin_overlaps.find(key);
-			std::unordered_map<std::string, std::unordered_set<int>>::const_iterator iter;
-			switch(provided)
+			case DATATYPE_PINYIN:
+				asked_overlaps = &pinyin_overlaps;
+				break;
+			case DATATYPE_ENGLISH:
+				asked_overlaps = &english_overlaps;
+				break;
+			case DATATYPE_CHINESE:
+				asked_overlaps = &chinese_overlaps;
+				break;
+		}
+		switch(provided)
+		{
+			case DATATYPE_PINYIN:
+				provided_overlaps = &pinyin_overlaps;
+				break;
+			case DATATYPE_ENGLISH:
+				provided_overlaps = &english_overlaps;
+				break;
+			case DATATYPE_CHINESE:
+				provided_overlaps = &chinese_overlaps;
+				break;
+		}
+		iter = provided_overlaps->find(key);
+		if(iter != provided_overlaps->end())
+		{
+			for(size_t index: iter->second)
 			{
-				case DATATYPE_PINYIN:
-					iter = pinyin_overlaps.find(key);
-					break;
-				case DATATYPE_ENGLISH:
-					iter = english_overlaps.find(key);
-					break;
-				case DATATYPE_CHINESE:
-					iter = chinese_overlaps.find(key);
-					break;
-			}
-			if(iter != pinyin_overlaps.end())
-			{
-				for(size_t index: iter->second)
+				datapoint const* identical = &loaded_data[index];
+				if(identical->get(asked) != current->get(asked))
 				{
-					datapoint const* identical = &loaded_data[index];
-					if(identical->get(asked) != current->get(asked))
-					{
-						others.push_back(identical);
-					}
+					others.push_back(identical);
 				}
 			}
 		}
+		
 		int repeat=3;
 repeat_question:
 		std::string gave;
@@ -324,7 +379,8 @@ repeat_question:
 				+ " " + std::to_string(iter0->second.first)
 				+ " " + std::to_string(iter0->second.second),
 				others,
-				gave
+				gave,
+				breaks
 			);
 		iter0->second.first = sequence_number;
 		statusfile.open("status.txt", std::fstream::out | std::fstream::app);
@@ -345,8 +401,23 @@ repeat_question:
 		{
 			statusfile << "fail";
 			iter0->second.second = std::min(iter0->second.second + score_deteriorate_if_fail+(gen()%5000)*.00001, max_complexity* current->get(DATATYPE_CHINESE).size()/2);
+			auto iter = asked_overlaps->find(gave);
 ;
+			if(iter != asked_overlaps->end())
+			{
+				for(size_t index: iter->second)
+				{
+					//to punish the question also where the answer would have been correct!
 
+					q_type val = q_type(index, asked, provided);
+					recurrence_scores[val].second += 3;
+					//datapoint const* identical = &loaded_data[index];
+					//if(identical->get(asked) != current->get(asked))
+					//{
+					//	others.push_back(identical);
+					//}
+				}
+			}
 		}
 		statusfile << "\n";
 		statusfile.close();
