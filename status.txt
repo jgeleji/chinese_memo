@@ -5058,3 +5058,220 @@
 好呀|hǎoya|okay (cute)|0|1|3984|success
 国家博物馆|guójiābówùguǎn|national museum|2|1|3986|fail
 国家博物馆|guójiābówùguǎn|national museum|2|1|3986|fail
+修理汽车|xiūlǐqìchē|repair car|1|2|3988|success
+工作|gōngzuò|work|1|0|3989|success
+把|bǎ|m.w.handful|0|2|3990|success
+草莓|cǎoméi|strawberry|0|2|3991|success
+一路平安|yīlùpíngān|safe journey|2|0|3992|success
+下雨|xiàyǔ|raining|0|2|3993|success
+爱|ài|love|0|1|3994|success
+帅|shuài|handsome|2|1|3995|success
+十万|shíwàn|hundred thousand|0|1|3996|success
+西瓜|xīguā|watermelon|0|1|3997|success
+照片|zhàopiàn|photo|1|2|3998|success
+一遍|yībiàn|again (ii)|2|1|3999|fail
+去年|qùnián|last year|1|0|4001|success
+千|qiān|thousand|0|1|4002|success
+万|wàn|ten thousand|2|0|4003|success
+后面|hòumiàn|behind|2|0|4004|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4005|fail
+修理汽车|xiūlǐqìchē|repair car|1|0|4005|fail
+修理汽车|xiūlǐqìchē|repair car|1|0|4005|success
+开车|kāichē|drive car|2|1|4006|success
+爱|ài|love|1|2|4007|success
+同学|tóngxué|classmate|0|2|4008|success
+苹果|píngguǒ|apple|0|2|4009|success
+刮风|guāfēng|windy|2|1|4010|success
+杯|bēi|m.w.cup|1|0|4011|fail
+杯|bēi|m.w.cup|1|0|4011|success
+杯|bēi|m.w.cup|1|0|4011|success
+游泳|yóuyǒng|swim|1|2|4012|success
+羊|yáng|sheep|0|1|4013|success
+要|yào|gonna|1|0|4014|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4015|success
+支|zhī|m.w.long and straight|2|1|4016|fail
+支|zhī|m.w.long and straight|2|1|4016|success
+支|zhī|m.w.long and straight|2|1|4016|success
+菜|cài|dish|2|0|4017|success
+美食|měishí|delicious food|0|2|4018|success
+歌手|gēshǒu|singer|2|0|4019|success
+滑滑板|huáhuábǎn|skateboarding|2|1|4020|fail
+滑滑板|huáhuábǎn|skateboarding|2|1|4020|success
+滑滑板|huáhuábǎn|skateboarding|2|1|4020|success
+杯|bēi|m.w.cup|1|0|4021|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|4022|success
+歌|gē|song|0|2|4023|success
+听|tīng|listen, hear|0|2|4024|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4025|success
+支|zhī|m.w.long and straight|2|1|4026|success
+黑狗|hēigǒu|black dog|1|0|4027|success
+吗|ma|yes no question|2|1|4028|success
+请问|qǐngwèn|excuse me|2|1|4029|success
+滑滑板|huáhuábǎn|skateboarding|2|1|4030|success
+滑板|huábǎn|skateboard|1|2|4031|success
+医生|yīshēng|physician|2|1|4032|success
+芒果|mángguǒ|mango|2|1|4033|success
+猴|hóu|monkey|1|0|4034|fail
+猴|hóu|monkey|1|0|4034|success
+猴|hóu|monkey|1|0|4034|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4035|fail
+修理汽车|xiūlǐqìchē|repair car|1|0|4035|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4035|success
+虎|hǔ|tiger|2|0|4036|success
+老婆|lǎopó|wife spoken|0|1|4037|success
+杯|bēi|m.w.cup|1|0|4038|success
+不客气|bùkèqì|you are welcome|2|1|4039|success
+多大|duōdà|how old (middle)|0|2|4040|success
+出生|chūshēng|birth|2|1|4041|success
+美食|měishí|delicious food|1|2|4042|success
+支|zhī|m.w.long and straight|2|1|4043|success
+猴|hóu|monkey|1|0|4044|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4045|success
+坏|huài|bad|0|1|4046|fail
+坏|huài|bad|0|1|4046|fail
+坏|huài|bad|0|1|4046|success
+滑滑板|huáhuábǎn|skateboarding|2|1|4047|success
+早上|zǎoshàng|morning|1|2|4048|success
+买|mǎi|buy|0|1|4049|success
+坐|zuò|sit|1|2|4050|success
+上海中心大厦|shànghǎizhōngxīndàshà|shanghai tower|1|0|4051|fail
+上海中心大厦|shànghǎizhōngxīndàshà|shanghai tower|1|0|4051|success
+上海中心大厦|shànghǎizhōngxīndàshà|shanghai tower|1|0|4051|success
+叫|jiào|called|2|0|4052|success
+米饭|mǐfàn|cooked rice|1|0|4053|success
+下面|xiàmiàn|below|0|1|4054|success
+修理汽车|xiūlǐqìchē|repair car|1|0|4055|success
+坏|huài|bad|0|1|4056|success
+有名|yǒumíng|famous|1|2|4057|success
+忙|máng|busy|2|1|4059|success
+猫|māo|cat|2|0|4060|success
+爸爸|bàbà|father|0|2|4061|fail
+爸爸|bàbà|father|0|2|4061|success
+爸爸|bàbà|father|0|2|4061|success
+睡觉|shuìjiào|sleep|1|0|4062|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|4063|success
+夫人|fūrén|wife|0|1|4064|success
+音乐会|yīnyuèhuì|concert|0|1|4065|success
+起床|qǐchuáng|get up|2|0|4066|success
+橙子|chéngzi|orange|1|2|4067|fail
+橙子|chéngzi|orange|1|2|4067|success
+橙子|chéngzi|orange|1|2|4067|success
+听|tīng|listen|0|1|4068|success
+时间|shíjiān|time|2|0|4069|success
+过|guò|cross|0|1|4070|success
+爸爸|bàbà|father|0|2|4071|success
+这些|zhèxiē|these|2|0|4072|success
+火车|huǒchē|train|2|1|4073|success
+土豆|tǔdòu|potato|0|1|4074|success
+年轻|niánqīng|young|0|2|4075|success
+火车|huǒchē|train|1|0|4077|success
+预报|yùbào|weather forecast|2|1|4078|fail
+预报|yùbào|weather forecast|2|1|4078|success
+预报|yùbào|weather forecast|2|1|4078|success
+阅读|yuèdú|reading|2|1|4079|fail
+阅读|yuèdú|reading|2|1|4079|success
+阅读|yuèdú|reading|2|1|4079|success
+杯子|bēizi|cup|0|2|4080|success
+踢球|tīqiú|play football|1|2|4081|success
+杯子|bēizi|cup|1|2|4082|success
+椰子|yēzi|coconut|2|0|4083|fail
+椰子|yēzi|coconut|2|0|4083|success
+椰子|yēzi|coconut|2|0|4083|success
+后面|hòumiàn|behind|1|0|4084|success
+叫|jiào|called|2|1|4085|success
+张|zhāng|m.w.flat|2|0|4086|fail
+张|zhāng|m.w.flat|2|0|4086|success
+张|zhāng|m.w.flat|2|0|4086|success
+出生|chūshēng|birth|2|1|4087|success
+预报|yùbào|weather forecast|2|1|4088|success
+阅读|yuèdú|reading|2|1|4089|success
+欢迎|huānyíng|welcome|0|2|4090|success
+老公|lǎogōng|husband spoken|0|1|4091|success
+夫人|fūrén|wife|1|0|4092|success
+椰子|yēzi|coconut|2|0|4093|success
+怎么去|zěnmeqù|how to go|2|1|4094|fail
+怎么去|zěnmeqù|how to go|2|1|4094|success
+怎么去|zěnmeqù|how to go|2|1|4094|success
+柠檬|níngméng|lemon|0|2|4095|fail
+柠檬|níngméng|lemon|0|2|4095|success
+柠檬|níngméng|lemon|0|2|4095|success
+张|zhāng|m.w.flat|2|0|4096|success
+猫|māo|cat|1|0|4097|success
+黄山|huángshān|yellow mountain|2|0|4098|success
+十万|shíwàn|hundred thousand|1|2|4099|success
+照片|zhàopiàn|photo|2|1|4100|success
+喝|hē|drink|2|1|4101|success
+爱|ài|love|2|0|4102|success
+椰子|yēzi|coconut|2|1|4103|success
+怎么去|zěnmeqù|how to go|2|1|4104|success
+柠檬|níngméng|lemon|0|2|4105|success
+阅读|yuèdú|reading|2|1|4106|success
+预报|yùbào|weather forecast|2|1|4107|success
+百万|bǎiwàn|million|0|2|4108|success
+能|néng|can|1|0|4109|success
+椰子|yēzi|coconut|2|0|4110|success
+百万|bǎiwàn|million|1|0|4111|success
+星期六|xīngqīliù|saturday|1|2|4112|success
+张|zhāng|m.w.flat|2|0|4113|success
+这些|zhèxiē|these|1|2|4114|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4115|success
+会|huì|can|0|2|4116|success
+芒果|mángguǒ|mango|1|2|4117|success
+蓝莓|lánméi|blueberry|0|1|4118|success
+几|jǐ|how many less than ten|2|0|4119|success
+茶|chá|tea|2|0|4120|fail
+茶|chá|tea|2|0|4120|success
+茶|chá|tea|2|0|4120|success
+怎么去|zěnmeqù|how to go|2|1|4121|success
+柠檬|níngméng|lemon|0|2|4122|success
+喜欢|xǐhuān|like|1|0|4123|success
+蓝莓|lánméi|blueberry|0|2|4124|fail
+蓝莓|lánméi|blueberry|0|2|4124|success
+蓝莓|lánméi|blueberry|0|2|4124|success
+包子|bāozi|steamed bun|2|0|4125|success
+有名|yǒumíng|famous|0|1|4126|success
+滑板|huábǎn|skateboard|1|2|4127|fail
+滑板|huábǎn|skateboard|1|2|4127|success
+滑板|huábǎn|skateboard|1|2|4127|success
+蛇|shé|snake|1|0|4128|success
+来|lái|come|0|1|4129|fail
+来|lái|come|0|1|4129|success
+来|lái|come|0|1|4129|success
+茶|chá|tea|2|0|4130|success
+玩|wán|play|1|2|4131|success
+不|bù|no|2|0|4132|success
+香蕉|xiāngjiāo|banana|2|0|4133|fail
+香蕉|xiāngjiāo|banana|2|0|4133|success
+香蕉|xiāngjiāo|banana|2|0|4133|success
+蓝莓|lánméi|blueberry|0|2|4134|fail
+蓝莓|lánméi|blueberry|0|2|4134|success
+蓝莓|lánméi|blueberry|0|2|4134|success
+阅读|yuèdú|reading|2|1|4135|success
+预报|yùbào|weather forecast|2|1|4136|success
+滑板|huábǎn|skateboard|1|2|4137|success
+飞机|fēijī|airplane|1|0|4138|fail
+飞机|fēijī|airplane|1|0|4138|success
+飞机|fēijī|airplane|1|0|4138|success
+来|lái|come|0|1|4139|success
+椰子|yēzi|coconut|2|0|4140|success
+万|wàn|ten thousand|1|2|4141|success
+张|zhāng|m.w.flat|2|0|4142|success
+香蕉|xiāngjiāo|banana|2|0|4143|success
+蓝莓|lánméi|blueberry|0|2|4144|success
+黑狗|hēigǒu|black dog|0|1|4145|fail
+黑狗|hēigǒu|black dog|0|1|4145|success
+黑狗|hēigǒu|black dog|0|1|4145|success
+知道|zhīdào|know|1|0|4146|fail
+知道|zhīdào|know|1|0|4146|success
+知道|zhīdào|know|1|0|4146|success
+茶|chá|tea|2|0|4147|success
+飞机|fēijī|airplane|1|0|4148|success
+昨天|zuótiān|yesterday|1|0|4149|success
+怎么去|zěnmeqù|how to go|2|1|4150|success
+柠檬|níngméng|lemon|0|2|4151|success
+听|tīng|listen|1|2|4152|success
+歌|gē|song|1|0|4153|success
+蓝莓|lánméi|blueberry|0|2|4154|success
+黑狗|hēigǒu|black dog|0|1|4155|success
+知道|zhīdào|know|1|0|4156|success
+滑板|huábǎn|skateboard|1|2|4157|success
