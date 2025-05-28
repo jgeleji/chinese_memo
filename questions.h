@@ -52,5 +52,6 @@ class questions
 		std::unordered_map<std::string, std::unordered_set<int>> pinyin_overlaps;
 		std::unordered_map<std::string, std::unordered_set<int>> english_overlaps;
 		std::unordered_map<std::string, std::unordered_set<int>> chinese_overlaps;
+		std::unordered_map<std::string, std::unordered_map<std::string, std::unordered_map<std::string, int>>> question_index_finder;
 		chinese::Input m_input;
 };

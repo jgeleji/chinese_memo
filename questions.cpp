@@ -52,10 +52,30 @@ void questions::load_file(std::string const& filename)
 		{
 			dp.pinyin = m_input.convert_chinese_to_pinyin(dp.chinese);
 		}
+		auto iter0 = question_index_finder.find(dp.chinese);
+		if(iter0 != question_index_finder.end())
+		{
+			auto iter1 = iter0->second.find(dp.pinyin);
+			if(iter1 != iter0->second.end())
+			{
+				auto iter2 = iter1->second.find(dp.english);
+				if(iter2 != iter1->second.end())
+				{
+					continue;
+				}
+			}
+		}
 		loaded_data.push_back(dp);
 		pinyin_overlaps[dp.pinyin].insert(loaded_data.size()-1);
 		english_overlaps[dp.english].insert(loaded_data.size()-1);
 		chinese_overlaps[dp.chinese].insert(loaded_data.size()-1);
+
+		std::tuple<std::string, std::string, std::string> key;
+		question_index_finder[dp.chinese][dp.pinyin][dp.english] = loaded_data.size() - 1;
+		//std::get<0>(key) = dp.chinese;
+		//std::get<1>(key) = dp.pinyin;
+		//std::get<2>(key) = dp.english;
+		//question_index_finder[key] = loaded_data.size() - 1;
 	}
 	//PRINT(loaded_data.size());
 }
@@ -149,7 +169,6 @@ bool questions::ask_all_until_fail() const
 	//std::vector<q_type> myquestions;
 						// when it was asked, score(higher number means should be asked sooner)
 	std::map<q_type, std::pair<size_t, double>> recurrence_scores;
-	std::map<std::string, size_t> q_to_index;//use chinese as string
 	//PRINT(myquestions.size());
 	for(size_t q=0; q<loaded_data.size(); ++q)
 	{
@@ -159,9 +178,6 @@ bool questions::ask_all_until_fail() const
 			{
 				if(i==j) continue;
 				q_type val = q_type(q, (DATATYPE)i, (DATATYPE)j);
-				std::string chinese = loaded_data[q].get(DATATYPE_CHINESE);
-				q_to_index[chinese] = q;
-				//myquestions.push_back(val);
 				recurrence_scores[val] = std::pair<size_t, double>(0, 0.0);
 			}
 		}
@@ -175,27 +191,35 @@ bool questions::ask_all_until_fail() const
 		std::string line;
 		getline(statusfile, line);
 		std::vector<std::string> tokens = tokenize(line, '|');
-		//chinese
-		//datatype provided
-		//datatype asked
-		//when it was asked ordinal number
-		//was it answered successfully/failed?
-		if(tokens.size() < 5)
+		if(tokens.size() < 6)
 		{
 			continue;
 		}
-		std::tuple<std::string, DATATYPE, DATATYPE> index_finder_key = std::tuple<std::string, DATATYPE, DATATYPE>(
-			tokens[0],
-			(DATATYPE)atoi(tokens[1].c_str()),
-			(DATATYPE)atoi(tokens[2].c_str())
-		);
+		std::string chinese = tokens[0];
+		std::string maybe_pinyin = tokens[1];
+		std::string maybe_english = tokens[2];
+		auto iter0 = question_index_finder.find(chinese);
+		if(iter0 == question_index_finder.end())
+		{
+			continue;
+		}
+		auto iter1 = iter0->second.find(maybe_pinyin);
+		if(iter1 == iter0->second.end())
+		{
+			iter1 = iter0->second.begin();
+		}
+		auto iter2 = iter1->second.find(maybe_english);
+		if(iter2 == iter1->second.end())
+		{
+			iter2 = iter1->second.begin();
+		}
 		q_type key = q_type(
-			q_to_index[tokens[0]],
-			(DATATYPE)atoi(tokens[1].c_str()),
-			(DATATYPE)atoi(tokens[2].c_str())
+			iter2->second,
+			(DATATYPE)atoi(tokens[3].c_str()),
+			(DATATYPE)atoi(tokens[4].c_str())
 		);
 		auto iter = recurrence_scores.find(key);
-		iter->second.first = std::max(iter->second.first, (size_t)atoll(tokens[3].c_str()));
+		iter->second.first = std::max(iter->second.first, (size_t)atoll(tokens[5].c_str()));
 		sequence_number = std::max(sequence_number, iter->second.first);
 		if(tokens[4] == "success")
 		{
@@ -305,6 +329,10 @@ repeat_question:
 		iter0->second.first = sequence_number;
 		statusfile.open("status.txt", std::fstream::out | std::fstream::app);
 		statusfile << current->get(DATATYPE_CHINESE);
+		statusfile << "|";
+		statusfile << current->get(DATATYPE_PINYIN);
+		statusfile << "|";
+		statusfile << current->get(DATATYPE_ENGLISH);
 		statusfile << "|" << ((int)provided);
 		statusfile << "|" << ((int)asked);
 		statusfile << "|" << sequence_number << "|";
