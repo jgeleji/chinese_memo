@@ -1,0 +1,1 @@
+this project is to help me learn chinese words. I add them in words_<date> files. then the compilation will make a union of those into union_q.txt . The code runs on my phone on termux or on my desktop PC. uses nurses library so hope of converting to windows is low.
