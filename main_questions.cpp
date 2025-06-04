@@ -21,7 +21,7 @@ int main()
 
 	int y, x;
 
-	q.ask_all_until_fail(std::max(0, COLS/7-3));
+	q.ask_all_until_fail(std::max(0, COLS/7));
 
 	endwin();			/* End curses mode		  */
 	return 0;
