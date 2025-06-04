@@ -5488,3 +5488,258 @@
 地方|defāng|place|0|2|4344|fail
 地方|defāng|place|0|2|4344|success
 地方|defāng|place|0|2|4344|success
+晴天|qíngtiān|sunny|1|2|4345|success
+晴天|qíngtiān|sunny|1|2|4345|success
+怎么样|zěnmeyàng|what do you think|0|1|4346|success
+消息|xiāoxī|news|1|2|4347|success
+滑冰|huábīng|skate|2|0|4348|success
+恔子|jiǎozi|dumpling|2|0|4350|success
+块|kuài|rmb|2|0|4351|success
+后|hòu|after|2|1|4352|fail
+后|hòu|after|2|1|4352|success
+后|hòu|after|2|1|4352|success
+后面|hòumiàn|behind|1|2|4353|success
+地方|defāng|place|0|2|4354|success
+羊|yáng|sheep|1|2|4355|success
+名片|míngpiàn|business card|0|1|4356|success
+话|huà|discussion|2|1|4357|fail
+话|huà|discussion|2|1|4357|success
+话|huà|discussion|2|1|4357|success
+多大年纪|duōdàniánjì|how old (older)|0|2|4358|success
+首|shǒu|m.w.piece|0|2|4359|fail
+首|shǒu|m.w.piece|0|2|4359|success
+首|shǒu|m.w.piece|0|2|4359|fail
+恔子|jiǎozi|dumpling|2|0|4360|success
+羊|yáng|sheep|2|0|4361|success
+后|hòu|after|2|1|4362|success
+前面|qiánmiàn|in front|2|0|4363|fail
+前面|qiánmiàn|in front|2|0|4363|success
+前面|qiánmiàn|in front|2|0|4363|success
+旁边|pángbiān|on the side of|2|0|4364|success
+中午|zhōngwǔ|noon|0|2|4365|success
+狗|gǒu|dog|2|0|4366|success
+话|huà|discussion|2|1|4367|success
+领英|lǐngyīng|linkedin|2|0|4368|success
+首|shǒu|m.w.piece|0|2|4369|success
+恔子|jiǎozi|dumpling|2|0|4370|success
+地方|defāng|place|0|2|4371|success
+后|hòu|after|2|1|4372|success
+前面|qiánmiàn|in front|2|0|4373|success
+画画|huàhuà|painting|0|1|4374|success
+包子|bāozi|steamed bun|1|2|4375|success
+到|dào|to|2|1|4376|success
+家|jiā|house, home|2|1|4377|success
+虎|hǔ|tiger|0|2|4378|fail
+虎|hǔ|tiger|0|2|4378|success
+虎|hǔ|tiger|0|2|4378|success
+首|shǒu|m.w.piece|0|2|4379|success
+块|kuài|rmb|2|0|4380|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|2|0|4381|fail
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|2|0|4381|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|2|0|4381|success
+后面|hòumiàn|behind|1|2|4382|success
+知道|zhīdào|know|0|2|4383|success
+话|huà|discussion|2|1|4384|success
+杯|bēi|m.w.cup|1|0|4385|success
+画家|huàjiā|painter|1|0|4386|success
+恔子|jiǎozi|dumpling|2|0|4387|success
+虎|hǔ|tiger|0|2|4388|success
+首|shǒu|m.w.piece|0|2|4389|success
+前面|qiánmiàn|in front|2|0|4390|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|2|0|4391|success
+后|hòu|after|2|1|4392|success
+羊|yáng|sheep|2|0|4393|success
+手工|shǒugōng|handmade|2|0|4394|success
+养孩子|yǎngháizi|have children|2|1|4395|success
+画画|huàhuà|painting|1|0|4396|success
+旅游|lǚyóu|tourism|0|2|4397|success
+多云|duōyún|cloudy|0|1|4398|fail
+多云|duōyún|cloudy|0|1|4398|success
+多云|duōyún|cloudy|0|1|4398|success
+首|shǒu|m.w.piece|0|2|4399|success
+地方|defāng|place|0|2|4400|success
+祝|zhù|wish hope|2|0|4401|fail
+祝|zhù|wish hope|2|0|4401|success
+忙|máng|busy|1|2|4402|success
+修理汽车|xiūlǐqìchē|repair car|0|1|4403|success
+猪|zhū|pig|2|0|4404|success
+虎|hǔ|tiger|0|2|4405|success
+菜|cài|dish|1|0|4406|success
+服务员|fúwùyuán|waiter|1|0|4407|success
+多云|duōyún|cloudy|0|1|4408|success
+首|shǒu|m.w.piece|0|2|4409|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|2|0|4410|success
+祝|zhù|wish hope|2|0|4411|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|2|0|4412|success
+话|huà|discussion|2|1|4413|fail
+话|huà|discussion|2|1|4413|success
+话|huà|discussion|2|1|4413|success
+电影|diànyǐng|movie|2|0|4414|success
+预报|yùbào|weather forecast|1|0|4415|fail
+预报|yùbào|weather forecast|1|0|4415|success
+预报|yùbào|weather forecast|1|0|4415|success
+恔子|jiǎozi|dumpling|2|0|4416|success
+话|huà|discussion|2|0|4417|success
+同学|tóngxué|classmate|1|2|4418|success
+首|shǒu|m.w.piece|0|2|4419|success
+前面|qiánmiàn|in front|2|0|4420|success
+祝|zhù|wish hope|2|0|4421|success
+后|hòu|after|2|1|4422|fail
+后|hòu|after|2|1|4422|success
+后|hòu|after|2|1|4422|success
+话|huà|discussion|2|1|4423|fail
+话|huà|discussion|2|1|4423|success
+话|huà|discussion|2|1|4423|fail
+猴|hóu|monkey|1|2|4424|success
+预报|yùbào|weather forecast|1|0|4425|success
+多云|duōyún|cloudy|0|1|4426|success
+草莓|cǎoméi|strawberry|1|0|4427|success
+橙子|chéngzi|orange|1|2|4428|success
+首|shǒu|m.w.piece|0|2|4429|success
+水果|shuǐguǒ|fruit|1|2|4430|success
+祝|zhù|wish hope|2|0|4431|success
+后|hòu|after|2|1|4432|success
+话|huà|discussion|2|1|4433|success
+虎|hǔ|tiger|0|2|4434|success
+多云|duōyún|cloudy|1|0|4435|success
+签证|qiānzhèng|visa|2|0|4436|success
+留学|liúxué|study abroad|2|0|4437|success
+领英|lǐngyīng|linkedin|0|2|4438|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|2|0|4439|success
+祝|zhù|wish hope|2|1|4440|success
+祝|zhù|wish hope|2|0|4441|success
+后|hòu|after|2|1|4442|success
+话|huà|discussion|2|1|4443|success
+预报|yùbào|weather forecast|1|0|4444|success
+打网球|dǎwǎngqiú|play tennis|1|0|4445|success
+首|shǒu|m.w.piece|0|2|4446|success
+起床|qǐchuáng|get up|1|0|4447|success
+快乐|kuàiyuè|happy|2|0|4448|fail
+快乐|kuàiyuè|happy|2|0|4448|success
+快乐|kuàiyuè|happy|2|0|4448|success
+养花|yǎnghuā|gardening flowers|1|0|4449|success
+上海中心大厦|shànghǎizhōngxīndàshà|shanghai tower|0|2|4450|success
+祝|zhù|wish hope|2|0|4451|success
+月|yuè|month|2|0|4452|success
+话|huà|discussion|2|1|4453|success
+猴|hóu|monkey|1|2|4454|success
+多云|duōyún|cloudy|0|1|4455|success
+修理汽车|xiūlǐqìchē|repair car|0|2|4456|success
+橘子|júzi|tangerine|0|2|4457|success
+快乐|kuàiyuè|happy|2|0|4458|success
+后|hòu|after|2|1|4459|success
+刮风|guāfēng|windy|1|0|4460|fail
+刮风|guāfēng|windy|1|0|4460|fail
+刮风|guāfēng|windy|1|0|4460|success
+祝|zhù|wish hope|2|0|4461|success
+下班|xiàbān|get off work|0|2|4462|success
+话|huà|discussion|2|1|4463|success
+蛇|shé|snake|0|1|4464|success
+兔|tù|rabbit|0|1|4465|success
+知道|zhīdào|know|2|0|4466|success
+华山|huáshān|mount hua|1|0|4467|success
+预报|yùbào|weather forecast|2|0|4468|success
+菠萝|bōluó|pineapple|0|1|4469|success
+刮风|guāfēng|windy|1|0|4470|success
+领英|lǐngyīng|linkedin|2|0|4471|success
+自行车|zìxíngchē|bike|0|2|4472|success
+话|huà|discussion|2|1|4473|success
+预报|yùbào|weather forecast|1|0|4474|success
+快乐|kuàiyuè|happy|2|0|4475|success
+首|shǒu|m.w.piece|0|2|4476|success
+把|bǎ|m.w.handful|0|1|4477|fail
+把|bǎ|m.w.handful|0|1|4477|success
+把|bǎ|m.w.handful|0|1|4477|success
+祝|zhù|wish hope|2|0|4478|success
+支|zhī|m.w.long and straight|1|0|4479|fail
+支|zhī|m.w.long and straight|1|0|4479|success
+支|zhī|m.w.long and straight|1|0|4479|success
+刮风|guāfēng|windy|1|0|4480|success
+只|zhǐ|m.w.animal|0|1|4481|success
+长城|zhǎngchéng|great wall|1|0|4482|fail
+长城|zhǎngchéng|great wall|1|0|4482|success
+长城|zhǎngchéng|great wall|1|0|4482|success
+话|huà|discussion|2|1|4483|success
+鼠|shǔ|mouse|0|2|4484|success
+骑|qí|ride|0|2|4485|success
+杯子|bēizi|cup|0|1|4486|success
+把|bǎ|m.w.handful|0|1|4487|success
+后|hòu|after|2|1|4488|success
+支|zhī|m.w.long and straight|1|0|4489|success
+刮风|guāfēng|windy|1|0|4490|fail
+刮风|guāfēng|windy|1|0|4490|success
+刮风|guāfēng|windy|1|0|4490|success
+音乐|yīnyuè|music|0|1|4491|success
+长城|zhǎngchéng|great wall|1|0|4492|success
+话|huà|discussion|2|1|4493|success
+还是|háishì|still more|2|0|4494|success
+面条|miàntiáo|noodles|2|0|4495|fail
+面条|miàntiáo|noodles|2|0|4495|success
+面条|miàntiáo|noodles|2|0|4495|success
+樱桃|yīngtáo|cherry|2|0|4496|success
+请问|qǐngwèn|excuse me|1|0|4497|fail
+请问|qǐngwèn|excuse me|1|0|4497|success
+请问|qǐngwèn|excuse me|1|0|4497|success
+漂亮|piàoliang|beautiful|1|2|4498|success
+支|zhī|m.w.long and straight|1|0|4499|success
+刮风|guāfēng|windy|1|0|4500|success
+天气|tiānqì|weather|1|0|4501|success
+羊|yáng|sheep|0|2|4502|success
+刮风|guāfēng|windy|0|1|4503|success
+把|bǎ|m.w.handful|0|1|4504|success
+面条|miàntiáo|noodles|2|0|4505|success
+快乐|kuàiyuè|happy|2|0|4506|success
+请问|qǐngwèn|excuse me|1|0|4507|success
+祝|zhù|wish hope|2|0|4508|success
+支|zhī|m.w.long and straight|1|0|4509|success
+刮风|guāfēng|windy|1|0|4510|success
+话|huà|discussion|2|1|4511|success
+长城|zhǎngchéng|great wall|1|0|4512|fail
+长城|zhǎngchéng|great wall|1|0|4512|success
+长城|zhǎngchéng|great wall|1|0|4512|success
+只|zhǐ|m.w.animal|0|1|4513|success
+祝|zhù|wish hope|0|2|4514|fail
+祝|zhù|wish hope|0|2|4514|success
+祝|zhù|wish hope|0|2|4514|success
+话|huà|discussion|2|0|4515|success
+这些|zhèxiē|these|1|0|4516|success
+服务员|fúwùyuán|waiter|2|0|4517|fail
+服务员|fúwùyuán|waiter|2|0|4517|success
+服务员|fúwùyuán|waiter|2|0|4517|success
+新年|xīnnián|new year|1|0|4518|fail
+新年|xīnnián|new year|1|0|4518|success
+新年|xīnnián|new year|1|0|4518|success
+泳池|yǒngchí|pool|0|1|4519|fail
+泳池|yǒngchí|pool|0|1|4519|success
+泳池|yǒngchí|pool|0|1|4519|success
+刮风|guāfēng|windy|1|0|4520|success
+恭喜|gōngxǐ|congratulations|2|0|4521|success
+长城|zhǎngchéng|great wall|1|0|4522|success
+面条|miàntiáo|noodles|2|0|4523|success
+祝|zhù|wish hope|0|2|4524|fail
+祝|zhù|wish hope|0|2|4524|success
+祝|zhù|wish hope|0|2|4524|success
+话|huà|discussion|2|0|4525|success
+请问|qǐngwèn|excuse me|1|0|4526|success
+服务员|fúwùyuán|waiter|2|0|4527|success
+新年|xīnnián|new year|1|0|4528|success
+泳池|yǒngchí|pool|0|1|4529|success
+刮风|guāfēng|windy|1|0|4530|success
+支|zhī|m.w.long and straight|1|0|4531|success
+长城|zhǎngchéng|great wall|1|0|4532|success
+把|bǎ|m.w.handful|0|1|4533|success
+祝|zhù|wish hope|0|2|4534|success
+话|huà|discussion|2|0|4535|success
+万|wàn|ten thousand|2|1|4536|success
+后面|hòumiàn|behind|0|2|4537|success
+旁边|pángbiān|on the side of|0|2|4538|fail
+旁边|pángbiān|on the side of|0|2|4538|success
+旁边|pángbiān|on the side of|0|2|4538|success
+少|shǎo|less little|2|1|4539|fail
+少|shǎo|less little|2|1|4539|success
+少|shǎo|less little|2|1|4539|success
+刮风|guāfēng|windy|1|0|4540|success
+首|shǒu|m.w.piece|1|2|4541|success
+长城|zhǎngchéng|great wall|1|0|4542|success
+话|huà|discussion|2|1|4543|success
+祝|zhù|wish hope|0|2|4544|fail
