@@ -1,5 +1,6 @@
 
 一家人|family
+一点儿|a bit
 一起|together
 一路平安|safe journey
 一遍|again
@@ -23,6 +24,7 @@
 亿|hundred million
 今天|today
 从|from
+份|portion
 会|can
 你|you
 修理汽车|repair car
@@ -30,10 +32,12 @@
 做水上运动|water sports
 健身房|gym
 先生|husband formal
+光临|honorable presence
 兔|rabbit
 养孩子|have children
 养花|gardening flowers
 再|again
+写|write
 冷|cold
 几|how many less than ten
 几岁|how old (young)
@@ -57,8 +61,11 @@
 口|mouth
 只|m.w.animal
 叫|called
+可乐|cola
+可以|possible
 号|date
 同学|classmate
+名单|name list
 名片|business card
 后|after
 后面|behind
@@ -72,6 +79,7 @@
 唱|sing
 喜欢|like
 喝|drink
+因为|because
 国家博物馆|National Museum
 土豆|potato
 土豆牛肉汤|goulash
@@ -88,6 +96,7 @@
 多少|how many ten plus
 天气|weather
 夫人|wife
+好久不见|long time no see
 好听|nice to hear
 好呀|okay (cute)
 妈妈|mother
@@ -101,6 +110,7 @@
 工作|work
 布达佩斯|Budapest
 帅|handsome
+希望|wish hope
 带|bring
 年|year
 年轻|young
@@ -114,6 +124,8 @@
 怎么样|what do you think
 恔子|dumpling
 恭喜|congratulations
+意大利|Italy
+所以|so
 手工|handmade
 打球|ball sports using hand
 打电话|give phone call
@@ -122,6 +134,7 @@
 拉小提琴|play violin
 支|m.w.long and straight
 收到|receive
+改天|the other day
 故宫|forbidden city
 新年|new year
 旁边|on the side of
@@ -139,8 +152,11 @@
 晚饭|dinner
 晴天|sunny
 更|more
+更喜欢|prefer
 月|month
+有一点|a bit
 有名|famous
+有点儿|a bit
 朋友|friend
 服务员|waiter
 本|m.w.book
@@ -157,9 +173,13 @@
 欢迎|welcome
 歌|song
 歌手|singer
+每天|every day
 水果|fruit
+汉字|chinese character
 汤|soup
+汽油|gasoline
 汽车|car
+油|oil
 泳池|pool
 消息|news
 渔人堡|Fisherman's bastion
@@ -170,6 +190,11 @@
 漂亮|beautiful
 火车|train
 火车站|train station
+点|choose
+点|count
+点|point out
+点菜|order dish
+点酒|order drink
 热|hot
 照片|photo
 爱|love
@@ -184,7 +209,9 @@
 猴|monkey
 玩|play
 环境|environment
+瓶|m.w.bottle|ping2
 生日|birthday
+电子邮件|email
 电影|movie
 电脑|computer
 画家|painter
@@ -193,6 +220,7 @@
 百万|million
 看书|read book
 看电影|watch movie
+看看|take a look
 真|so very
 睡觉|sleep
 知道|know
@@ -201,6 +229,7 @@
 程大宝|cheng dabao
 签证|visa
 米饭|cooked rice
+累|tired
 给|give
 羊|sheep
 美食|delicious food
@@ -210,6 +239,7 @@
 职位|title
 能|can
 自行车|bike
+节|m.w.class
 芒果|mango
 花|flower
 苹果|apple
@@ -217,25 +247,32 @@
 草莓|strawberry
 荔枝|lychee
 菜|dish
+菜单|menu
 菠萝|pineapple
 葡萄|grape
 蓝莓|blueberry
+蔬菜|vegetable
 虎|tiger
 蛇|snake
 衣服|clothes
 西安|Xi'an
 西瓜|watermelon
+西红柿鸡蛋汤|tomato egg soup
 要|gonna
 见到|see
 话|discussion
 说|say
 请问|excuse me
+课|class
+账单|bill
 起床|get up
+越来越|gradually
 踢球|play football
 过|celebrate
 过|celebrate, have
 过|cross
 过得|passing it
+还是|or
 还是|still more
 这些|these
 进|enter, come in
@@ -246,14 +283,17 @@
 阅读|reading
 阴天|overcast
 非常|very
+面包|bread
 面条|noodles
 音乐|music
 音乐会|concert
 预报|weather forecast
 领英|LinkedIn
+风|wind
 飞机|airplane
 饭店|restaurant
 首|m.w.piece
+香菇油菜|mushroom cole
 香蕉|banana
 马|horse
 骑|ride
