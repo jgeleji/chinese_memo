@@ -5743,3 +5743,18 @@
 长城|zhǎngchéng|great wall|1|0|4542|success
 话|huà|discussion|2|1|4543|success
 祝|zhù|wish hope|0|2|4544|fail
+泳池|yǒngchí|pool|0|1|4546|success
+新年|xīnnián|new year|1|0|4547|fail
+新年|xīnnián|new year|1|0|4547|success
+新年|xīnnián|new year|1|0|4547|success
+旁边|pángbiān|on the side of|0|2|4548|success
+少|shǎo|less little|2|1|4549|fail
+少|shǎo|less little|2|1|4549|success
+少|shǎo|less little|2|1|4549|success
+刮风|guāfēng|windy|1|0|4550|success
+一路平安|yīlùpíngān|safe journey|2|1|4551|fail
+一路平安|yīlùpíngān|safe journey|2|1|4551|success
+一路平安|yīlùpíngān|safe journey|2|1|4551|success
+面条|miàntiáo|noodles|2|0|4552|fail
+面条|miàntiáo|noodles|2|0|4552|success
+面条|miàntiáo|noodles|2|0|4552|success
