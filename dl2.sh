@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir data2
+cd data2
 wget http://hanzidb.org/character/%E8%A0%BC
 wget http://hanzidb.org/character/%E9%BD%87
 wget http://hanzidb.org/character/%E7%8E%83
@@ -8104,3 +8106,4 @@ wget http://hanzidb.org/character/%E6%8E%BE
 wget http://hanzidb.org/character/%E8%81%92
 wget http://hanzidb.org/character/%E7%8E%A1
 wget http://hanzidb.org/character/%E8%91%B8
+cd ..
