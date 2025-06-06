@@ -6,7 +6,6 @@
 #include <chrono>
 #include <thread>
 #include <cctype>
-#include <map>
 
 #include <ncurses.h>
 #include <curses.h>
@@ -158,6 +157,55 @@ bool questions::datapoint::ask(
 	return gave == get(asked);
 }
 
+void questions::statistics_screen(
+	std::map<questions::q_type, std::pair<size_t, double>> const& recurrence_scores,
+	int breaks
+) const
+{
+	PRINT(loaded_data.size());
+	PRINT(recurrence_scores.size());
+	size_t zero_score=0;
+	std::map<int, int> positive_score;
+	std::map<int, int> negative_score;
+	long double total_score=0.0l;
+	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+	{
+		double score = iter->second.second;
+		total_score += score;
+		if(score < 0.0)
+		{
+			++negative_score[floor(score)];
+		}
+		else if(score == 0.0)
+		{
+			++zero_score;
+		}
+		else
+		{
+			++negative_score[ceil(score)];
+		}
+	}
+	PRINT(negative_score.size());
+	for(auto iter = negative_score.begin(); iter != negative_score.end(); ++iter)
+	{
+		PRINT(iter->first);
+		PRINT(iter->second);
+	}
+	PRINT(zero_score);
+	PRINT(positive_score.size());
+	for(auto iter = positive_score.begin(); iter != positive_score.end(); ++iter)
+	{
+		PRINT(iter->first);
+		PRINT(iter->second);
+	}
+
+	PRINT(total_score);
+	PRINT(total_score/recurrence_scores.size());
+	PRINT(COLS);
+	PRINT(breaks);
+	std::cin.get();
+}
+
 bool questions::ask_all_until_fail(int breaks) const
 {
 	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
@@ -165,7 +213,6 @@ bool questions::ask_all_until_fail(int breaks) const
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;
 
-	typedef std::tuple<size_t, DATATYPE, DATATYPE> q_type;
 	//std::vector<q_type> myquestions;
 						// when it was asked, score(higher number means should be asked sooner)
 	std::map<q_type, std::pair<size_t, double>> recurrence_scores;
@@ -232,38 +279,7 @@ bool questions::ask_all_until_fail(int breaks) const
 
 
 	}
-	PRINT(loaded_data.size());
-	PRINT(recurrence_scores.size());
-	size_t zero_score=0;
-	size_t zero_score_and_occurrence=0;
-	size_t positive = 0;
-	long double total_score=0.0l;
-	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
-	{
-		total_score += iter->second.second;
-		if(iter->second.first == 0 && iter->second.second == 0)
-		{
-			++zero_score_and_occurrence;
-			datapoint const& d = loaded_data[std::get<0>(iter->first)];
-			std::cout << d.chinese << " " << d.pinyin << " " << d.english << " " << std::get<1>(iter->first) << " " << std::get<2>(iter->first) << "\r\n";
-		}
-		if(iter->second.second == 0.0)
-		{
-			++zero_score;
-		}
-		if(iter->second.second > 0)
-		{
-			++positive;
-		}
-	}
-	PRINT(total_score);
-	PRINT(total_score/recurrence_scores.size());
-	PRINT(zero_score);
-	PRINT(zero_score_and_occurrence);
-	PRINT(COLS);
-	PRINT(breaks);
-	PRINT(positive);
-	std::cin.get();
+	statistics_screen(recurrence_scores, breaks);
 
 	//PRINT(myquestions.size());
 reshuffle:

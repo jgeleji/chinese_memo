@@ -1,0 +1,6 @@
+上海|Shanghai
+北京|Beijing
+广州|Guangzhou
+香港|Hong Kong
+东莞|Dongguan
+商丘|Shangqiu

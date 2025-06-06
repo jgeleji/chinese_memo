@@ -2,6 +2,7 @@
 光临|honorable presence
 菜单|menu
 点菜|order dish
+点|hour
 点|choose
 点|count
 点|point out
