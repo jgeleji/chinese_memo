@@ -2,6 +2,7 @@
 #include <string>
 #include <unordered_set>
 #include <unordered_map>
+#include <map>
 #include "input.h"
 
 class questions
@@ -27,7 +28,6 @@ class questions
 		) const;
 
 		bool ask_all_until_fail(int breaks = 0) const;
-
 	private:
 		class datapoint
 		{
@@ -48,6 +48,12 @@ class questions
 					int breaks = 0
 				) const;
 		};
+		typedef std::tuple<size_t, DATATYPE, DATATYPE> q_type;
+		void statistics_screen(
+			std::map<q_type, std::pair<size_t, double>> const& recurrence_scores,
+			int breaks
+		) const;
+
 
 		std::vector<datapoint> loaded_data;
 		std::unordered_map<std::string, std::unordered_set<int>> pinyin_overlaps;

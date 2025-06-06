@@ -5761,3 +5761,68 @@
 祝|zhù|wish hope|0|2|4554|fail
 祝|zhù|wish hope|0|2|4554|success
 祝|zhù|wish hope|0|2|4554|success
+请问|qǐngwèn|excuse me|1|0|4556|success
+新年|xīnnián|new year|1|0|4557|success
+油|yóu|oil|2|1|4558|fail
+油|yóu|oil|2|1|4558|success
+油|yóu|oil|2|1|4558|success
+少|shǎo|less little|2|1|4559|fail
+少|shǎo|less little|2|1|4559|fail
+少|shǎo|less little|2|1|4559|success
+刮风|guāfēng|windy|1|0|4560|success
+一路平安|yīlùpíngān|safe journey|2|1|4561|success
+面条|miàntiáo|noodles|2|0|4562|success
+长城|zhǎngchéng|great wall|1|0|4563|fail
+长城|zhǎngchéng|great wall|1|0|4563|success
+长城|zhǎngchéng|great wall|1|0|4563|success
+祝|zhù|wish hope|0|2|4564|success
+旁边|pángbiān|on the side of|0|2|4565|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|1|4566|fail
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|1|4566|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|1|4566|success
+新年|xīnnián|new year|1|0|4567|success
+油|yóu|oil|2|1|4568|success
+少|shǎo|less little|2|1|4569|success
+刮风|guāfēng|windy|1|0|4570|success
+每天|měitiān|every day|1|2|4571|fail
+每天|měitiān|every day|1|2|4571|success
+每天|měitiān|every day|1|2|4571|success
+面条|miàntiáo|noodles|2|0|4572|success
+长城|zhǎngchéng|great wall|1|0|4573|success
+祝|zhù|wish hope|0|2|4574|success
+泳池|yǒngchí|pool|0|1|4575|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|1|4576|success
+新年|xīnnián|new year|1|0|4577|success
+一路平安|yīlùpíngān|safe journey|2|1|4578|success
+少|shǎo|less little|2|1|4579|success
+写|xiě|write|0|2|4580|success
+每天|měitiān|every day|1|2|4581|success
+蔬菜|shūcài|vegetable|1|0|4582|fail
+蔬菜|shūcài|vegetable|1|0|4582|success
+蔬菜|shūcài|vegetable|1|0|4582|success
+长城|zhǎngchéng|great wall|1|0|4583|success
+祝|zhù|wish hope|0|2|4584|success
+油|yóu|oil|2|1|4585|success
+服务员|fúwùyuán|waiter|2|0|4586|success
+刮风|guāfēng|windy|1|0|4587|success
+课|kè|class|1|2|4588|fail
+课|kè|class|1|2|4588|success
+课|kè|class|1|2|4588|success
+少|shǎo|less little|2|1|4589|success
+面条|miàntiáo|noodles|2|0|4590|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4591|fail
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4591|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4591|success
+蔬菜|shūcài|vegetable|1|0|4592|success
+长城|zhǎngchéng|great wall|1|0|4593|success
+祝|zhù|wish hope|0|2|4594|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|1|4595|success
+新年|xīnnián|new year|1|0|4596|success
+旁边|pángbiān|on the side of|0|2|4597|success
+课|kè|class|1|2|4598|success
+少|shǎo|less little|2|1|4599|success
+每天|měitiān|every day|1|2|4600|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4601|fail
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4601|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4601|success
+点|diǎn|point out|0|1|4602|fail

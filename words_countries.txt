@@ -1,0 +1,12 @@
+英国|Great Britain
+德国|Germany
+法国|France
+匈牙利|Hungary
+日本|Japan
+美国|USA
+中国|China
+意大利|Italy
+斯洛伐克|Slovakia
+奥地利|Austria
+澳大利亚|Australia
+新西兰|New Zealand
