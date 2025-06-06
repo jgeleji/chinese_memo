@@ -168,9 +168,31 @@ void questions::statistics_screen(
 	std::map<int, int> positive_score;
 	std::map<int, int> negative_score;
 	long double total_score=0.0l;
+	bool have_overloaded = false;
 	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
 	{
 		double score = iter->second.second;
+		if(false && score < -4)
+		{
+			have_overloaded = true;
+			std::cout << "Overloaded score(" << score << "). ";
+			std::cout << loaded_data[std::get<0>(iter->first)].chinese;
+			int provided = std::get<1>(iter->first);
+			int asked = std::get<2>(iter->first);
+			std::cout << " " << provided;
+			std::cout << " " << asked;
+			std::cout << "\r\n";
+			std::fstream statusfile;
+			statusfile.open("status.txt", std::fstream::out | std::fstream::app);
+			statusfile << loaded_data[std::get<0>(iter->first)].chinese;
+			statusfile << "|";
+			statusfile << loaded_data[std::get<0>(iter->first)].pinyin;
+			statusfile << "|";
+			statusfile << loaded_data[std::get<0>(iter->first)].english;
+			statusfile << "|" << ((int)provided);
+			statusfile << "|" << ((int)asked);
+			statusfile << "|0|fail\n";
+		}
 		total_score += score;
 		if(score < 0.0)
 		{
@@ -185,6 +207,7 @@ void questions::statistics_screen(
 			++negative_score[ceil(score)];
 		}
 	}
+	if(have_overloaded)	std::cin.get();
 	PRINT(negative_score.size());
 	for(auto iter = negative_score.begin(); iter != negative_score.end(); ++iter)
 	{

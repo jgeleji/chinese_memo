@@ -5826,3 +5826,173 @@
 香菇油菜|xiānggūyóucài|mushroom cole|1|0|4601|success
 香菇油菜|xiānggūyóucài|mushroom cole|1|0|4601|success
 点|diǎn|point out|0|1|4602|fail
+一路平安|yīlùpíngān|safe journey|2|0|0|fail
+万|wàn|ten thousand|1|2|0|fail
+万|wàn|ten thousand|2|0|0|fail
+下面|xiàmiàn|below|0|1|0|fail
+不|bù|no|2|0|0|fail
+不客气|bùkèqì|you are welcome|0|1|0|fail
+不客气|bùkèqì|you are welcome|0|2|0|fail
+不客气|bùkèqì|you are welcome|1|0|0|fail
+不客气|bùkèqì|you are welcome|1|2|0|fail
+不客气|bùkèqì|you are welcome|2|1|0|fail
+买|mǎi|buy|0|1|0|fail
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|0|fail
+先生|xiānshēng|husband formal|2|0|0|fail
+几|jǐ|how many less than ten|2|0|0|fail
+出生|chūshēng|birth|2|1|0|fail
+刮风|guāfēng|windy|2|1|0|fail
+包子|bāozi|steamed bun|2|0|0|fail
+医生|yīshēng|physician|2|1|0|fail
+十万|shíwàn|hundred thousand|0|1|0|fail
+十万|shíwàn|hundred thousand|1|2|0|fail
+千|qiān|thousand|0|1|0|fail
+华山|huáshān|mount hua|0|1|0|fail
+去年|qùnián|last year|1|0|0|fail
+只|zhǐ|m.w.animal|0|1|0|fail
+叫|jiào|called|0|2|0|fail
+叫|jiào|called|2|0|0|fail
+叫|jiào|called|2|1|0|fail
+同学|tóngxué|classmate|0|2|0|fail
+后面|hòumiàn|behind|1|0|0|fail
+后面|hòumiàn|behind|1|2|0|fail
+后面|hòumiàn|behind|2|0|0|fail
+吗|ma|yes no question|2|1|0|fail
+听|tīng|listen, hear|0|1|0|fail
+听|tīng|listen, hear|0|2|0|fail
+听|tīng|listen, hear|1|0|0|fail
+听|tīng|listen, hear|1|2|0|fail
+听|tīng|listen, hear|2|0|0|fail
+听|tīng|listen, hear|2|1|0|fail
+咖啡|kāfēi|coffee|2|1|0|fail
+喜欢|xǐhuān|like|1|0|0|fail
+喝|hē|drink|2|1|0|fail
+国家博物馆|guójiābówùguǎn|national museum|0|1|0|fail
+土豆|tǔdòu|potato|0|1|0|fail
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|0|fail
+坐|zuò|take|0|1|0|fail
+坐|zuò|take|0|2|0|fail
+坐|zuò|take|1|0|0|fail
+坐|zuò|take|1|2|0|fail
+坐|zuò|take|2|0|0|fail
+坐|zuò|take|2|1|0|fail
+多大|duōdà|how old (middle)|0|2|0|fail
+夫人|fūrén|wife|0|1|0|fail
+夫人|fūrén|wife|1|0|0|fail
+好呀|hǎoya|okay (cute)|0|1|0|fail
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|0|fail
+少|shǎo|less little|0|1|0|fail
+工作|gōngzuò|work|1|0|0|fail
+帅|shuài|handsome|2|1|0|fail
+年轻|niánqīng|young|0|1|0|fail
+年轻|niánqīng|young|0|2|0|fail
+年轻|niánqīng|young|1|0|0|fail
+年轻|niánqīng|young|1|2|0|fail
+年轻|niánqīng|young|2|0|0|fail
+年轻|niánqīng|young|2|1|0|fail
+开车|kāichē|drive car|2|1|0|fail
+忙|máng|busy|2|1|0|fail
+恭喜|gōngxǐ|congratulations|0|2|0|fail
+把|bǎ|m.w.handful|0|2|0|fail
+支|zhī|m.w.long and straight|1|0|0|fail
+旅行|lǚxíng|travel|0|2|0|fail
+早上|zǎoshàng|morning|1|2|0|fail
+时间|shíjiān|time|0|2|0|fail
+时间|shíjiān|time|2|0|0|fail
+星期六|xīngqīliù|saturday|1|2|0|fail
+晚上|wǎnshàng|evening|2|0|0|fail
+晴天|qíngtiān|sunny|1|2|0|fail
+有名|yǒumíng|famous|0|1|0|fail
+来|lái|come|0|1|0|fail
+来|lái|come|0|2|0|fail
+来|lái|come|1|2|0|fail
+来|lái|come|2|0|0|fail
+来|lái|come|2|1|0|fail
+杯子|bēizi|cup|1|2|0|fail
+椰子|yēzi|coconut|2|1|0|fail
+欢迎|huānyíng|welcome|0|1|0|fail
+欢迎|huānyíng|welcome|0|2|0|fail
+欢迎|huānyíng|welcome|1|0|0|fail
+欢迎|huānyíng|welcome|1|2|0|fail
+欢迎|huānyíng|welcome|2|0|0|fail
+歌|gē|song|0|2|0|fail
+歌|gē|song|1|0|0|fail
+歌手|gēshǒu|singer|0|1|0|fail
+歌手|gēshǒu|singer|0|2|0|fail
+歌手|gēshǒu|singer|1|0|0|fail
+歌手|gēshǒu|singer|1|2|0|fail
+歌手|gēshǒu|singer|2|0|0|fail
+歌手|gēshǒu|singer|2|1|0|fail
+汽车|qìchē|car|0|2|0|fail
+汽车|qìchē|car|1|0|0|fail
+汽车|qìchē|car|1|2|0|fail
+汽车|qìchē|car|2|0|0|fail
+汽车|qìchē|car|2|1|0|fail
+游泳|yóuyǒng|swim|1|2|0|fail
+漂亮|piàoliang|beautiful|0|1|0|fail
+火车|huǒchē|train|1|0|0|fail
+火车|huǒchē|train|1|2|0|fail
+火车|huǒchē|train|2|1|0|fail
+照片|zhàopiàn|photo|1|2|0|fail
+照片|zhàopiàn|photo|2|1|0|fail
+爱|ài|love|0|1|0|fail
+爱|ài|love|1|2|0|fail
+爱|ài|love|2|0|0|fail
+猫|māo|cat|1|0|0|fail
+猫|māo|cat|2|0|0|fail
+猴|hóu|monkey|1|2|0|fail
+玩|wán|play|1|2|0|fail
+环境|huánjìng|environment|1|2|0|fail
+环境|huánjìng|environment|2|0|0|fail
+百万|bǎiwàn|million|0|2|0|fail
+百万|bǎiwàn|million|1|0|0|fail
+睡觉|shuìjiào|sleep|1|0|0|fail
+祝|zhù|wish hope|2|0|0|fail
+米饭|mǐfàn|cooked rice|1|0|0|fail
+羊|yáng|sheep|0|1|0|fail
+羊|yáng|sheep|2|0|0|fail
+美食|měishí|delicious food|1|2|0|fail
+老公|lǎogōng|husband spoken|0|1|0|fail
+老婆|lǎopó|wife spoken|0|1|0|fail
+职位|zhíwèi|title|0|1|0|fail
+能|néng|can|1|0|0|fail
+芒果|mángguǒ|mango|2|1|0|fail
+苹果|píngguǒ|apple|0|2|0|fail
+草莓|cǎoméi|strawberry|0|2|0|fail
+菜|cài|dish|2|0|0|fail
+蓝莓|lánméi|blueberry|0|1|0|fail
+虎|hǔ|tiger|2|0|0|fail
+蛇|shé|snake|1|0|0|fail
+西瓜|xīguā|watermelon|0|1|0|fail
+要|yào|gonna|1|0|0|fail
+要|yào|gonna|2|1|0|fail
+话|huà|discussion|2|0|0|fail
+请问|qǐngwèn|excuse me|2|1|0|fail
+起床|qǐchuáng|get up|2|0|0|fail
+过|guò|cross|0|1|0|fail
+过|guò|cross|0|2|0|fail
+过|guò|cross|1|0|0|fail
+过|guò|cross|1|2|0|fail
+过|guò|cross|2|0|0|fail
+过|guò|cross|2|1|0|fail
+这些|zhèxiē|these|1|2|0|fail
+这些|zhèxiē|these|2|0|0|fail
+都|dōu|all|0|1|0|fail
+都|dōu|all|0|2|0|fail
+都|dōu|all|1|0|0|fail
+都|dōu|all|1|2|0|fail
+都|dōu|all|2|0|0|fail
+都|dōu|all|2|1|0|fail
+非常|fēicháng|very|0|2|0|fail
+音乐会|yīnyuèhuì|concert|0|1|0|fail
+首|shǒu|m.w.piece|1|2|0|fail
+骑|qí|ride|0|1|0|fail
+鱼|yú|fish|1|0|0|fail
+黄山|huángshān|yellow mountain|2|0|0|fail
+黑狗|hēigǒu|black dog|1|0|0|fail
+龙|lóng|dragon|1|2|0|fail
+听|tīng|listen, hear|0|2|0|fail
+过|guò|cross|0|1|0|fail
+过|guò|cross|1|0|0|fail
+过|guò|cross|1|2|0|fail
+过|guò|cross|2|1|0|fail
