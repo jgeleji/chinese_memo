@@ -204,7 +204,7 @@ void questions::statistics_screen(
 		}
 		else
 		{
-			++negative_score[ceil(score)];
+			++positive_score[ceil(score)];
 		}
 	}
 	if(have_overloaded)	std::cin.get();
