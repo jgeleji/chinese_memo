@@ -408,9 +408,24 @@ repeat_question:
 				for(size_t index: iter->second)
 				{
 					//to punish the question also where the answer would have been correct!
+		//datapoint const* current = &loaded_data[std::get<0>(which_q)];
+		//DATATYPE provided = std::get<1>(which_q);
+		//DATATYPE asked = std::get<2>(which_q);
+					datapoint const* punishable = &loaded_data[index];
+					DATATYPE punishable_provided = asked;
+					DATATYPE punishable_asked = provided;
 
 					q_type val = q_type(index, asked, provided);
-					recurrence_scores[val].second += 3;
+					recurrence_scores[val].second = std::min(recurrence_scores[val].second + score_deteriorate_if_fail+(gen()%5000)*.00001, max_complexity* punishable->get(DATATYPE_CHINESE).size()/2);
+					statusfile << "\n";
+					statusfile << punishable->get(DATATYPE_CHINESE);
+					statusfile << "|";
+					statusfile << punishable->get(DATATYPE_PINYIN);
+					statusfile << "|";
+					statusfile << punishable->get(DATATYPE_ENGLISH);
+					statusfile << "|" << ((int)punishable_provided);
+					statusfile << "|" << ((int)punishable_asked);
+					statusfile << "|" << sequence_number << "|fail";
 					//datapoint const* identical = &loaded_data[index];
 					//if(identical->get(asked) != current->get(asked))
 					//{

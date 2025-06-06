@@ -5758,3 +5758,6 @@
 面条|miàntiáo|noodles|2|0|4552|fail
 面条|miàntiáo|noodles|2|0|4552|success
 面条|miàntiáo|noodles|2|0|4552|success
+祝|zhù|wish hope|0|2|4554|fail
+祝|zhù|wish hope|0|2|4554|success
+祝|zhù|wish hope|0|2|4554|success
