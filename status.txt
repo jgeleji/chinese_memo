@@ -5999,5 +5999,214 @@
 过|guò|cross|1|0|0|fail
 过|guò|cross|1|2|0|fail
 过|guò|cross|2|1|0|fail
-
 #overloaded end
+
+祝|zhù|wish hope|0|2|4604|success
+早上|zǎoshàng|morning|1|2|4605|success
+椰子|yēzi|coconut|2|1|4606|success
+华山|huáshān|mount hua|0|1|4607|success
+忙|máng|busy|2|1|4608|success
+少|shǎo|less little|2|1|4609|success
+要|yào|gonna|2|1|4610|fail
+油|yóu|oil|1|2|4610|fail
+要|yào|gonna|2|1|4610|success
+要|yào|gonna|2|1|4610|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4611|success
+油|yóu|oil|1|2|4612|fail
+油|yóu|oil|1|2|4612|success
+油|yóu|oil|1|2|4612|success
+点|diǎn|point out|0|1|4613|fail
+点|diǎn|point out|0|1|4613|success
+点|diǎn|point out|0|1|4613|success
+猫|māo|cat|1|0|4614|success
+菜|cài|dish|2|0|4615|success
+起床|qǐchuáng|get up|2|0|4616|success
+杯子|bēizi|cup|1|2|4617|success
+刮风|guāfēng|windy|2|1|4618|success
+千|qiān|thousand|0|1|4619|success
+要|yào|gonna|2|1|4620|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4621|success
+油|yóu|oil|1|2|4622|fail
+油|yóu|oil|1|2|4622|success
+油|yóu|oil|1|2|4622|success
+点|diǎn|point out|0|1|4623|success
+黄山|huángshān|yellow mountain|2|0|4624|fail
+黄山|huángshān|yellow mountain|2|0|4624|success
+黄山|huángshān|yellow mountain|2|0|4624|success
+爱|ài|love|1|2|4625|success
+开车|kāichē|drive car|2|1|4626|success
+叫|jiào|called|0|2|4627|success
+睡觉|shuìjiào|sleep|1|0|4628|success
+后面|hòumiàn|behind|1|0|4629|success
+要|yào|gonna|2|1|4630|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4631|success
+油|yóu|oil|1|2|4632|success
+点|diǎn|point out|0|1|4633|success
+黄山|huángshān|yellow mountain|2|0|4634|success
+喜欢|xǐhuān|like|1|0|4635|success
+不|bù|no|2|0|4636|success
+这些|zhèxiē|these|2|0|4637|success
+少|shǎo|less little|2|1|4638|success
+夫人|fūrén|wife|1|0|4639|success
+要|yào|gonna|2|1|4640|success
+吗|ma|yes no question|2|1|4641|success
+油|yóu|oil|1|2|4642|success
+点|diǎn|point out|0|1|4643|success
+黄山|huángshān|yellow mountain|2|0|4644|success
+下面|xiàmiàn|below|0|1|4645|success
+照片|zhàopiàn|photo|2|1|4646|success
+夫人|fūrén|wife|0|1|4647|success
+都|dōu|all|1|0|4648|success
+这些|zhèxiē|these|1|2|4649|success
+芒果|mángguǒ|mango|2|1|4650|success
+猫|māo|cat|2|0|4651|success
+油|yóu|oil|1|2|4652|success
+点|diǎn|point out|0|1|4653|success
+黄山|huángshān|yellow mountain|2|0|4654|success
+叫|jiào|called|2|0|4655|success
+老婆|lǎopó|wife spoken|0|1|4656|success
+旅行|lǚxíng|travel|0|2|4657|fail
+旅行|lǚxíng|travel|0|2|4657|fail
+旅行|lǚxíng|travel|0|2|4657|success
+美食|měishí|delicious food|1|2|4658|fail
+美食|měishí|delicious food|1|2|4658|success
+美食|měishí|delicious food|1|2|4658|success
+把|bǎ|m.w.handful|0|2|4659|fail
+吧|ba|imperative|2|0|4659|fail
+把|bǎ|m.w.handful|0|2|4659|success
+把|bǎ|m.w.handful|0|2|4659|success
+吧|ba|imperative|2|0|4660|success
+晚上|wǎnshàng|evening|2|0|4661|success
+油|yóu|oil|1|2|4662|success
+点|diǎn|point out|0|1|4663|success
+老公|lǎogōng|husband spoken|0|1|4664|success
+黄山|huángshān|yellow mountain|2|0|4665|success
+爱|ài|love|0|1|4666|success
+旅行|lǚxíng|travel|0|2|4667|fail
+旅游|lǚyóu|tourism|2|0|4667|fail
+旅行|lǚxíng|travel|0|2|4667|success
+旅行|lǚxíng|travel|0|2|4667|success
+美食|měishí|delicious food|1|2|4668|success
+把|bǎ|m.w.handful|0|2|4669|fail
+吧|ba|imperative|2|0|4669|fail
+把|bǎ|m.w.handful|0|2|4669|success
+把|bǎ|m.w.handful|0|2|4669|success
+吧|ba|imperative|2|0|4670|success
+旅游|lǚyóu|tourism|2|0|4671|success
+油|yóu|oil|1|2|4672|success
+火车|huǒchē|train|1|2|4673|success
+土豆|tǔdòu|potato|0|1|4674|success
+万|wàn|ten thousand|2|0|4675|success
+一路平安|yīlùpíngān|safe journey|2|0|4676|success
+旅行|lǚxíng|travel|0|2|4677|success
+美食|měishí|delicious food|1|2|4678|success
+把|bǎ|m.w.handful|0|2|4679|success
+吧|ba|imperative|2|0|4680|success
+歌|gē|song|1|0|4682|success
+万|wàn|ten thousand|1|2|4683|success
+漂亮|piàoliang|beautiful|0|1|4684|success
+欢迎|huānyíng|welcome|1|0|4685|success
+羊|yáng|sheep|0|1|4686|success
+旅行|lǚxíng|travel|0|2|4687|success
+美食|měishí|delicious food|1|2|4688|success
+把|bǎ|m.w.handful|0|2|4689|success
+吧|ba|imperative|2|0|4690|success
+叫|jiào|called|2|1|4691|success
+医生|yīshēng|physician|2|1|4692|success
+十万|shíwàn|hundred thousand|0|1|4693|success
+首|shǒu|m.w.piece|1|2|4694|fail
+个|gè|m.w.individual person or object|2|1|4694|fail
+首|shǒu|m.w.piece|1|2|4694|success
+首|shǒu|m.w.piece|1|2|4694|success
+个|gè|m.w.individual person or object|2|1|4695|success
+能|néng|can|1|0|4696|success
+旅行|lǚxíng|travel|0|2|4697|success
+草莓|cǎoméi|strawberry|0|2|4698|success
+把|bǎ|m.w.handful|0|2|4699|success
+吧|ba|imperative|2|0|4700|success
+黑狗|hēigǒu|black dog|1|0|4701|fail
+黑狗|hēigǒu|black dog|1|0|4701|success
+黑狗|hēigǒu|black dog|1|0|4701|success
+星期六|xīngqīliù|saturday|1|2|4702|success
+非常|fēicháng|very|0|2|4703|success
+首|shǒu|m.w.piece|1|2|4704|success
+个|gè|m.w.individual person or object|2|1|4705|success
+好呀|hǎoya|okay (cute)|0|1|4706|fail
+好听|hǎotīng|nice to hear|1|0|4706|fail
+好呀|hǎoya|okay (cute)|0|1|4706|fail
+好呀|hǎoya|okay (cute)|0|1|4706|fail
+旅行|lǚxíng|travel|0|2|4707|success
+好听|hǎotīng|nice to hear|1|0|4708|success
+把|bǎ|m.w.handful|0|2|4709|success
+吧|ba|imperative|2|0|4710|success
+黑狗|hēigǒu|black dog|1|0|4711|success
+去年|qùnián|last year|1|0|4712|success
+苹果|píngguǒ|apple|0|2|4713|fail
+苹果|píngguǒ|apple|0|2|4713|success
+苹果|píngguǒ|apple|0|2|4713|success
+首|shǒu|m.w.piece|1|2|4714|success
+同学|tóngxué|classmate|0|2|4715|success
+好呀|hǎoya|okay (cute)|0|1|4716|success
+旅行|lǚxíng|travel|0|2|4717|success
+好听|hǎotīng|nice to hear|1|0|4718|success
+汽车|qìchē|car|2|0|4719|success
+帅|shuài|handsome|2|1|4720|success
+黑狗|hēigǒu|black dog|1|0|4721|success
+包子|bāozi|steamed bun|2|0|4722|success
+苹果|píngguǒ|apple|0|2|4723|success
+首|shǒu|m.w.piece|1|2|4724|success
+鱼|yú|fish|1|0|4725|success
+好呀|hǎoya|okay (cute)|0|1|4726|success
+旅行|lǚxíng|travel|0|2|4727|success
+有名|yǒumíng|famous|0|1|4728|success
+爱|ài|love|2|0|4729|success
+十万|shíwàn|hundred thousand|1|2|4730|success
+黑狗|hēigǒu|black dog|1|0|4731|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4732|fail
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4732|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4732|success
+苹果|píngguǒ|apple|0|2|4733|success
+买|mǎi|buy|0|1|4734|success
+火车|huǒchē|train|1|0|4735|success
+好呀|hǎoya|okay (cute)|0|1|4736|success
+旅行|lǚxíng|travel|0|2|4737|success
+火车|huǒchē|train|2|1|4738|success
+音乐会|yīnyuèhuì|concert|0|1|4739|success
+龙|lóng|dragon|1|2|4740|success
+蓝莓|lánméi|blueberry|0|1|4741|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4742|success
+苹果|píngguǒ|apple|0|2|4743|success
+蛇|shé|snake|1|0|4744|success
+喝|hē|drink|2|1|4745|success
+好呀|hǎoya|okay (cute)|0|1|4746|success
+旅行|lǚxíng|travel|0|2|4747|success
+咖啡|kāfēi|coffee|2|1|4748|success
+要|yào|gonna|1|0|4749|success
+游泳|yóuyǒng|swim|1|2|4750|success
+百万|bǎiwàn|million|0|2|4751|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4752|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|4753|success
+工作|gōngzuò|work|1|0|4754|success
+米饭|mǐfàn|cooked rice|1|0|4755|success
+好呀|hǎoya|okay (cute)|0|1|4756|success
+旅行|lǚxíng|travel|0|2|4757|success
+汽车|qìchē|car|1|0|4758|success
+照片|zhàopiàn|photo|1|2|4759|success
+请问|qǐngwèn|excuse me|2|1|4760|success
+时间|shíjiān|time|2|0|4761|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4762|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|4763|success
+西瓜|xīguā|watermelon|0|1|4764|success
+百万|bǎiwàn|million|1|0|4765|success
+好呀|hǎoya|okay (cute)|0|1|4766|success
+旅行|lǚxíng|travel|0|2|4767|success
+苹果|píngguǒ|apple|0|2|4768|success
+多大|duōdà|how old (middle)|0|2|4769|success
+几|jǐ|how many less than ten|2|0|4770|success
+先生|xiānshēng|husband formal|2|0|4771|success
+后面|hòumiàn|behind|2|0|4772|success
+把|bǎ|m.w.handful|0|2|4773|success
+歌|gē|song|0|2|4774|success
+过|guò|cross|0|1|4775|success
+好呀|hǎoya|okay (cute)|0|1|4776|success
+旅行|lǚxíng|travel|0|2|4777|success
