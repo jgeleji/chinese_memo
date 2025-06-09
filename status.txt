@@ -6210,3 +6210,472 @@
 过|guò|cross|0|1|4775|success
 好呀|hǎoya|okay (cute)|0|1|4776|success
 旅行|lǚxíng|travel|0|2|4777|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4779|fail
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4779|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4779|success
+不客气|bùkèqì|you are welcome|1|0|4780|fail
+欢迎|huānyíng|welcome|0|1|4780|fail
+不客气|bùkèqì|you are welcome|1|0|4780|fail
+不客气|bùkèqì|you are welcome|1|0|4780|success
+欢迎|huānyíng|welcome|0|1|4781|success
+吧|ba|imperative|2|0|4782|success
+玩|wán|play|1|2|4783|success
+首|shǒu|m.w.piece|1|2|4784|success
+汽车|qìchē|car|0|2|4785|success
+好呀|hǎoya|okay (cute)|0|1|4786|success
+旅行|lǚxíng|travel|0|2|4787|success
+支|zhī|m.w.long and straight|1|0|4788|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4789|success
+不客气|bùkèqì|you are welcome|1|0|4790|success
+欢迎|huānyíng|welcome|0|1|4791|success
+歌手|gēshǒu|singer|0|1|4792|success
+要|yào|gonna|2|1|4793|success
+听|tīng|listen, hear|0|2|4794|success
+美食|měishí|delicious food|1|2|4795|success
+好呀|hǎoya|okay (cute)|0|1|4796|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4797|success
+过|guò|cross|1|0|4798|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4799|success
+不客气|bùkèqì|you are welcome|1|0|4800|success
+欢迎|huānyíng|welcome|0|1|4801|success
+晴天|qíngtiān|sunny|1|2|4802|success
+过|guò|cross|2|1|4803|success
+环境|huánjìng|environment|2|0|4804|fail
+环境|huánjìng|environment|2|0|4804|success
+环境|huánjìng|environment|2|0|4804|success
+旅游|lǚyóu|tourism|2|0|4805|success
+好呀|hǎoya|okay (cute)|0|1|4806|success
+旅行|lǚxíng|travel|0|2|4807|success
+欢迎|huānyíng|welcome|1|2|4808|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4809|success
+不客气|bùkèqì|you are welcome|1|0|4810|success
+少|shǎo|less little|2|1|4811|success
+去年|qùnián|last year|1|0|4812|success
+吗|ma|yes no question|2|1|4813|success
+环境|huánjìng|environment|2|0|4814|success
+油|yóu|oil|1|2|4815|fail
+油|yóu|oil|1|2|4815|success
+油|yóu|oil|1|2|4815|success
+好呀|hǎoya|okay (cute)|0|1|4816|success
+能|néng|can|1|0|4817|success
+祝|zhù|wish hope|0|2|4818|fail
+话|huà|discussion|2|0|4818|fail
+祝|zhù|wish hope|0|2|4818|success
+祝|zhù|wish hope|0|2|4818|success
+话|huà|discussion|2|0|4819|success
+不客气|bùkèqì|you are welcome|1|0|4820|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4821|success
+黑狗|hēigǒu|black dog|1|0|4822|success
+都|dōu|all|1|0|4823|success
+环境|huánjìng|environment|2|0|4824|success
+油|yóu|oil|1|2|4825|fail
+油|yóu|oil|1|2|4825|success
+油|yóu|oil|1|2|4825|success
+好呀|hǎoya|okay (cute)|0|1|4826|success
+夫人|fūrén|wife|0|1|4827|success
+祝|zhù|wish hope|0|2|4828|success
+话|huà|discussion|2|0|4829|success
+不客气|bùkèqì|you are welcome|1|0|4830|success
+点|diǎn|point out|0|1|4831|success
+歌手|gēshǒu|singer|2|1|4832|success
+爱|ài|love|1|2|4833|success
+环境|huánjìng|environment|2|0|4834|success
+油|yóu|oil|1|2|4835|success
+好呀|hǎoya|okay (cute)|0|1|4836|success
+下面|xiàmiàn|below|0|1|4837|success
+祝|zhù|wish hope|0|2|4838|success
+话|huà|discussion|2|0|4839|success
+不客气|bùkèqì|you are welcome|1|0|4840|success
+坐|zuò|take|0|2|4841|success
+蛇|shé|snake|1|0|4842|success
+百万|bǎiwàn|million|1|0|4843|success
+环境|huánjìng|environment|2|0|4844|success
+油|yóu|oil|1|2|4845|success
+好呀|hǎoya|okay (cute)|0|1|4846|success
+火车|huǒchē|train|1|2|4847|success
+祝|zhù|wish hope|0|2|4848|success
+话|huà|discussion|2|0|4849|success
+不客气|bùkèqì|you are welcome|1|0|4850|success
+火车|huǒchē|train|1|0|4851|success
+老公|lǎogōng|husband spoken|0|1|4852|success
+猴|hóu|monkey|1|2|4853|success
+照片|zhàopiàn|photo|2|1|4854|success
+油|yóu|oil|1|2|4855|success
+好呀|hǎoya|okay (cute)|0|1|4856|success
+同学|tóngxué|classmate|0|2|4857|success
+汽车|qìchē|car|1|0|4858|success
+杯子|bēizi|cup|1|2|4859|success
+不客气|bùkèqì|you are welcome|1|0|4860|success
+蓝莓|lánméi|blueberry|0|1|4861|success
+坐|zuò|take|2|0|4862|success
+晚上|wǎnshàng|evening|2|0|4863|success
+刮风|guāfēng|windy|2|1|4864|success
+油|yóu|oil|1|2|4865|success
+好呀|hǎoya|okay (cute)|0|1|4866|success
+叫|jiào|called|2|1|4867|success
+鱼|yú|fish|1|0|4868|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|4869|success
+不客气|bùkèqì|you are welcome|1|0|4870|success
+几|jǐ|how many less than ten|2|0|4871|success
+草莓|cǎoméi|strawberry|0|2|4872|success
+坐|zuò|take|2|1|4873|success
+包子|bāozi|steamed bun|2|0|4874|success
+油|yóu|oil|1|2|4875|success
+买|mǎi|buy|0|1|4876|success
+羊|yáng|sheep|2|0|4877|success
+十万|shíwàn|hundred thousand|1|2|4878|success
+坐|zuò|take|0|1|4879|success
+不客气|bùkèqì|you are welcome|1|0|4880|success
+不客气|bùkèqì|you are welcome|1|2|4881|success
+百万|bǎiwàn|million|0|2|4882|success
+把|bǎ|m.w.handful|0|2|4883|fail
+把|bǎ|m.w.handful|0|2|4883|success
+把|bǎ|m.w.handful|0|2|4883|success
+汽车|qìchē|car|2|0|4884|success
+来|lái|come|1|2|4885|fail
+来|lái|come|1|2|4885|success
+来|lái|come|1|2|4885|success
+西瓜|xīguā|watermelon|0|1|4886|success
+这些|zhèxiē|these|1|2|4887|success
+汽车|qìchē|car|2|1|4888|success
+工作|gōngzuò|work|1|0|4889|success
+多大|duōdà|how old (middle)|0|2|4890|success
+万|wàn|ten thousand|1|2|4891|success
+油|yóu|oil|1|2|4892|success
+把|bǎ|m.w.handful|0|2|4893|success
+歌手|gēshǒu|singer|1|2|4894|success
+来|lái|come|1|2|4895|success
+忙|máng|busy|2|1|4896|success
+音乐会|yīnyuèhuì|concert|0|1|4897|success
+爱|ài|love|2|0|4899|success
+千|qiān|thousand|0|1|4900|success
+十万|shíwàn|hundred thousand|0|1|4901|success
+蔬菜|shūcài|vegetable|1|0|4902|fail
+蔬菜|shūcài|vegetable|1|0|4902|success
+蔬菜|shūcài|vegetable|1|0|4902|success
+把|bǎ|m.w.handful|0|2|4903|success
+坐|zuò|take|1|0|4904|success
+来|lái|come|1|2|4905|success
+土豆|tǔdòu|potato|0|1|4906|success
+个|gè|m.w.individual person or object|2|1|4907|success
+课|kè|class|1|2|4908|success
+叫|jiào|called|0|2|4909|success
+出生|chūshēng|birth|2|1|4910|success
+星期六|xīngqīliù|saturday|1|2|4911|success
+把|bǎ|m.w.handful|0|2|4913|success
+歌|gē|song|0|2|4914|success
+来|lái|come|1|2|4915|success
+漂亮|piàoliang|beautiful|0|1|4916|success
+猫|māo|cat|1|0|4917|success
+欢迎|huānyíng|welcome|0|2|4918|success
+要|yào|gonna|1|0|4919|success
+早上|zǎoshàng|morning|1|2|4920|success
+喝|hē|drink|2|1|4921|success
+蔬菜|shūcài|vegetable|1|0|4922|success
+叫|jiào|called|2|0|4923|success
+照片|zhàopiàn|photo|1|2|4924|success
+爱|ài|love|0|1|4925|success
+老婆|lǎopó|wife spoken|0|1|4926|success
+万|wàn|ten thousand|2|0|4927|success
+不客气|bùkèqì|you are welcome|0|2|4928|success
+时间|shíjiān|time|2|0|4929|success
+支|zhī|m.w.long and straight|1|0|4930|success
+后面|hòumiàn|behind|2|0|4931|success
+蔬菜|shūcài|vegetable|1|0|4932|fail
+蔬菜|shūcài|vegetable|1|0|4932|success
+蔬菜|shūcài|vegetable|1|0|4932|success
+这些|zhèxiē|these|2|0|4933|success
+咖啡|kāfēi|coffee|2|1|4934|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|4935|success
+非常|fēicháng|very|0|2|4936|success
+龙|lóng|dragon|1|2|4937|success
+医生|yīshēng|physician|2|1|4939|success
+美食|měishí|delicious food|1|2|4940|success
+游泳|yóuyǒng|swim|1|2|4941|success
+蔬菜|shūcài|vegetable|1|0|4942|success
+听|tīng|listen, hear|1|2|4943|success
+祝|zhù|wish hope|0|2|4944|success
+羊|yáng|sheep|0|1|4945|success
+后面|hòumiàn|behind|1|0|4946|success
+喜欢|xǐhuān|like|1|0|4947|success
+虎|hǔ|tiger|2|0|4948|success
+年轻|niánqīng|young|1|0|4949|success
+菜|cài|dish|2|0|4950|success
+有名|yǒumíng|famous|0|1|4951|success
+蔬菜|shūcài|vegetable|1|0|4952|success
+不|bù|no|2|0|4953|success
+听|tīng|listen, hear|2|0|4954|success
+起床|qǐchuáng|get up|2|0|4955|success
+帅|shuài|handsome|2|1|4956|success
+只|zhǐ|m.w.animal|0|1|4957|success
+米饭|mǐfàn|cooked rice|1|0|4958|success
+芒果|mángguǒ|mango|2|1|4959|success
+都|dōu|all|2|1|4960|success
+歌|gē|song|1|0|4961|success
+蔬菜|shūcài|vegetable|1|0|4962|success
+火车|huǒchē|train|2|1|4963|success
+椰子|yēzi|coconut|2|1|4964|success
+好听|hǎotīng|nice to hear|1|0|4965|success
+睡觉|shuìjiào|sleep|1|0|4966|success
+一路平安|yīlùpíngān|safe journey|2|0|4967|success
+华山|huáshān|mount hua|0|1|4968|success
+欢迎|huānyíng|welcome|1|0|4969|success
+少|shǎo|less little|0|1|4970|success
+猫|māo|cat|2|0|4971|success
+蔬菜|shūcài|vegetable|1|0|4972|success
+听|tīng|listen, hear|0|2|4973|success
+把|bǎ|m.w.handful|0|2|4974|success
+先生|xiānshēng|husband formal|2|0|4975|success
+黄山|huángshān|yellow mountain|2|0|4976|success
+后面|hòumiàn|behind|1|2|4977|success
+开车|kāichē|drive car|2|1|4978|success
+夫人|fūrén|wife|1|0|4979|success
+玩|wán|play|1|2|4980|success
+汽车|qìchē|car|0|2|4981|success
+蔬菜|shūcài|vegetable|1|0|4982|success
+黑狗|hēigǒu|black dog|1|0|4983|success
+来|lái|come|1|2|4984|success
+欢迎|huānyíng|welcome|0|1|4985|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|4986|success
+吧|ba|imperative|2|0|4987|success
+首|shǒu|m.w.piece|1|2|4988|success
+要|yào|gonna|2|1|4990|success
+过|guò|cross|1|2|4991|success
+过|guò|cross|2|1|4992|success
+旅游|lǚyóu|tourism|2|0|4993|success
+歌手|gēshǒu|singer|0|1|4994|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|4995|success
+苹果|píngguǒ|apple|0|2|4996|success
+职位|zhíwèi|title|0|1|4997|fail
+职位|zhíwèi|title|0|1|4997|fail
+职位|zhíwèi|title|0|1|4997|success
+过|guò|cross|0|1|4998|success
+晴天|qíngtiān|sunny|1|2|4999|success
+蔬菜|shūcài|vegetable|1|0|5000|success
+过|guò|cross|1|0|5001|success
+听|tīng|listen, hear|0|1|5002|success
+环境|huánjìng|environment|2|0|5003|success
+话|huà|discussion|2|0|5004|success
+长城|zhǎngchéng|great wall|1|0|5005|success
+旅行|lǚxíng|travel|0|2|5006|success
+职位|zhíwèi|title|0|1|5007|success
+不客气|bùkèqì|you are welcome|1|0|5008|success
+好呀|hǎoya|okay (cute)|0|1|5009|success
+欢迎|huānyíng|welcome|1|2|5010|success
+不客气|bùkèqì|you are welcome|2|1|5011|success
+工作|gōngzuò|work|1|0|5012|success
+下面|xiàmiàn|below|0|1|5013|success
+时间|shíjiān|time|2|0|5014|success
+龙|lóng|dragon|1|2|5015|success
+爱|ài|love|0|1|5016|success
+职位|zhíwèi|title|0|1|5017|success
+坐|zuò|take|0|2|5018|success
+都|dōu|all|1|0|5019|success
+后面|hòumiàn|behind|1|2|5020|success
+这些|zhèxiē|these|2|0|5021|success
+忙|máng|busy|2|1|5022|success
+百万|bǎiwàn|million|1|0|5023|success
+后面|hòumiàn|behind|2|0|5024|success
+漂亮|piàoliang|beautiful|0|1|5025|success
+只|zhǐ|m.w.animal|0|1|5026|success
+职位|zhíwèi|title|0|1|5027|success
+几|jǐ|how many less than ten|2|0|5028|success
+油|yóu|oil|1|2|5029|success
+杯子|bēizi|cup|1|2|5030|success
+汽车|qìchē|car|2|0|5031|success
+十万|shíwàn|hundred thousand|1|2|5032|success
+一路平安|yīlùpíngān|safe journey|2|0|5033|success
+汽车|qìchē|car|1|0|5034|success
+坐|zuò|take|0|1|5035|success
+虎|hǔ|tiger|2|0|5036|success
+职位|zhíwèi|title|0|1|5037|success
+歌|gē|song|1|0|5038|success
+夫人|fūrén|wife|1|0|5039|success
+汽车|qìchē|car|1|2|5040|success
+火车|huǒchē|train|1|2|5041|success
+早上|zǎoshàng|morning|1|2|5042|success
+都|dōu|all|0|2|5043|success
+帅|shuài|handsome|2|1|5044|success
+点|diǎn|point out|0|1|5045|success
+少|shǎo|less little|2|1|5046|success
+职位|zhíwèi|title|0|1|5047|success
+都|dōu|all|2|1|5048|success
+照片|zhàopiàn|photo|1|2|5049|success
+夫人|fūrén|wife|0|1|5050|success
+非常|fēicháng|very|0|2|5051|success
+欢迎|huānyíng|welcome|0|2|5052|success
+听|tīng|listen, hear|2|0|5053|success
+老公|lǎogōng|husband spoken|0|1|5054|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|1|5055|success
+咖啡|kāfēi|coffee|2|1|5056|success
+职位|zhíwèi|title|0|1|5057|success
+叫|jiào|called|0|2|5059|success
+听|tīng|listen, hear|1|0|5060|success
+年轻|niánqīng|young|2|1|5061|success
+都|dōu|all|2|0|5062|success
+叫|jiào|called|2|0|5063|success
+照片|zhàopiàn|photo|2|1|5064|success
+后面|hòumiàn|behind|1|0|5065|success
+爱|ài|love|2|0|5066|success
+请问|qǐngwèn|excuse me|2|1|5068|success
+欢迎|huānyíng|welcome|1|0|5069|success
+晚上|wǎnshàng|evening|2|0|5070|success
+刮风|guāfēng|windy|2|1|5071|success
+有名|yǒumíng|famous|0|1|5072|success
+好听|hǎotīng|nice to hear|1|0|5073|success
+火车|huǒchē|train|1|0|5074|success
+万|wàn|ten thousand|2|0|5075|success
+喜欢|xǐhuān|like|1|0|5076|success
+职位|zhíwèi|title|0|1|5077|success
+爱|ài|love|1|2|5078|success
+国家博物馆|guójiābówùguǎn|national museum|0|1|5079|success
+吗|ma|yes no question|2|1|5080|success
+歌手|gēshǒu|singer|1|0|5081|success
+音乐会|yīnyuèhuì|concert|0|1|5082|success
+坐|zuò|take|2|0|5083|success
+多大|duōdà|how old (middle)|0|2|5084|success
+听|tīng|listen, hear|1|2|5085|success
+猫|māo|cat|1|0|5086|success
+职位|zhíwèi|title|0|1|5087|success
+不客气|bùkèqì|you are welcome|0|2|5088|success
+买|mǎi|buy|0|1|5089|success
+猴|hóu|monkey|1|2|5090|success
+千|qiān|thousand|0|1|5091|success
+要|yào|gonna|1|0|5092|success
+万|wàn|ten thousand|1|2|5093|success
+能|néng|can|1|0|5094|success
+喝|hē|drink|2|1|5095|success
+同学|tóngxué|classmate|0|2|5096|success
+汽车|qìchē|car|2|1|5098|success
+西瓜|xīguā|watermelon|0|1|5099|success
+包子|bāozi|steamed bun|2|0|5100|success
+个|gè|m.w.individual person or object|2|1|5101|success
+这些|zhèxiē|these|1|2|5102|success
+菜|cài|dish|2|0|5103|success
+起床|qǐchuáng|get up|2|0|5104|success
+坐|zuò|take|2|1|5105|success
+油|yóu|oil|2|1|5106|fail
+油|yóu|oil|2|1|5106|success
+油|yóu|oil|2|1|5106|success
+玩|wán|play|1|2|5107|success
+请问|qǐngwèn|excuse me|2|1|5108|success
+歌手|gēshǒu|singer|2|1|5109|success
+蛇|shé|snake|1|0|5110|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|5111|success
+少|shǎo|less little|0|1|5112|fail
+少|shǎo|less little|0|1|5112|success
+少|shǎo|less little|0|1|5112|success
+十万|shíwàn|hundred thousand|0|1|5113|success
+职位|zhíwèi|title|0|1|5114|success
+叫|jiào|called|2|1|5115|success
+油|yóu|oil|2|1|5116|success
+草莓|cǎoméi|strawberry|0|2|5117|success
+去年|qùnián|last year|1|0|5118|success
+课|kè|class|1|2|5119|success
+土豆|tǔdòu|potato|0|1|5120|success
+出生|chūshēng|birth|2|1|5121|success
+少|shǎo|less little|0|1|5122|success
+火车|huǒchē|train|2|1|5123|success
+百万|bǎiwàn|million|0|2|5124|success
+华山|huáshān|mount hua|0|1|5125|success
+油|yóu|oil|2|1|5126|success
+年轻|niánqīng|young|0|1|5127|success
+来|lái|come|2|0|5128|success
+开车|kāichē|drive car|2|1|5129|success
+老婆|lǎopó|wife spoken|0|1|5130|success
+游泳|yóuyǒng|swim|1|2|5131|success
+少|shǎo|less little|0|1|5132|success
+睡觉|shuìjiào|sleep|1|0|5133|success
+坐|zuò|take|1|0|5134|success
+星期六|xīngqīliù|saturday|1|2|5135|success
+鱼|yú|fish|1|0|5136|success
+不|bù|no|2|0|5137|success
+年轻|niánqīng|young|1|0|5138|success
+先生|xiānshēng|husband formal|2|0|5139|success
+羊|yáng|sheep|0|1|5140|success
+芒果|mángguǒ|mango|2|1|5141|success
+歌手|gēshǒu|singer|1|2|5142|success
+油|yóu|oil|2|1|5143|success
+听|tīng|listen, hear|2|1|5144|success
+羊|yáng|sheep|2|0|5145|success
+坐|zuò|take|1|2|5147|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|5148|success
+少|shǎo|less little|0|1|5149|success
+汽车|qìchē|car|0|2|5150|success
+蓝莓|lánméi|blueberry|0|1|5151|success
+医生|yīshēng|physician|2|1|5152|success
+米饭|mǐfàn|cooked rice|1|0|5153|success
+椰子|yēzi|coconut|2|1|5154|success
+猫|māo|cat|2|0|5155|success
+歌|gē|song|0|2|5156|success
+祝|zhù|wish hope|0|2|5157|success
+不客气|bùkèqì|you are welcome|1|2|5158|fail
+欢迎|huānyíng|welcome|2|1|5158|fail
+不客气|bùkèqì|you are welcome|1|2|5158|success
+不客气|bùkèqì|you are welcome|1|2|5158|success
+欢迎|huānyíng|welcome|2|1|5159|success
+把|bǎ|m.w.handful|0|2|5160|success
+欢迎|huānyíng|welcome|2|0|5161|success
+旅游|lǚyóu|tourism|2|0|5162|success
+每天|měitiān|every day|1|2|5163|fail
+每天|měitiān|every day|1|2|5163|success
+每天|měitiān|every day|1|2|5163|success
+美食|měishí|delicious food|1|2|5164|success
+支|zhī|m.w.long and straight|1|0|5165|success
+晴天|qíngtiān|sunny|1|2|5166|success
+来|lái|come|1|2|5167|success
+不客气|bùkèqì|you are welcome|1|2|5168|success
+欢迎|huānyíng|welcome|2|1|5169|success
+服务员|fúwùyuán|waiter|2|0|5170|success
+过|guò|cross|1|2|5171|success
+吧|ba|imperative|2|0|5172|success
+每天|měitiān|every day|1|2|5173|success
+黑狗|hēigǒu|black dog|1|0|5174|success
+要|yào|gonna|2|1|5175|success
+一路平安|yīlùpíngān|safe journey|2|1|5176|success
+来|lái|come|0|1|5177|success
+不客气|bùkèqì|you are welcome|1|2|5178|success
+欢迎|huānyíng|welcome|0|1|5179|success
+听|tīng|listen, hear|0|2|5180|success
+年轻|niánqīng|young|2|0|5181|success
+话|huà|discussion|2|0|5182|success
+每天|měitiān|every day|1|2|5183|success
+歌手|gēshǒu|singer|2|0|5184|success
+首|shǒu|m.w.piece|1|2|5185|success
+欢迎|huānyíng|welcome|2|1|5186|success
+做水上运动|zuòshuǐshàngyùndòng|water sports|1|0|5187|success
+黄山|huángshān|yellow mountain|2|0|5188|success
+听|tīng|listen, hear|0|1|5189|success
+苹果|píngguǒ|apple|0|2|5190|success
+少|shǎo|less little|0|1|5191|success
+来|lái|come|0|2|5192|success
+过|guò|cross|2|1|5193|success
+油|yóu|oil|2|1|5194|success
+不客气|bùkèqì|you are welcome|1|2|5195|success
+祝|zhù|wish hope|2|0|5196|success
+过|guò|cross|1|0|5197|success
+歌手|gēshǒu|singer|0|1|5198|success
+面条|miàntiáo|noodles|2|0|5199|success
+每天|měitiān|every day|1|2|5200|success
+长城|zhǎngchéng|great wall|1|0|5201|success
+旅行|lǚxíng|travel|0|2|5202|success
+刮风|guāfēng|windy|1|0|5203|success
+蔬菜|shūcài|vegetable|1|0|5204|success
+环境|huánjìng|environment|2|0|5205|success
+不客气|bùkèqì|you are welcome|1|0|5206|success
+过|guò|cross|0|1|5207|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|0|5208|success
+好呀|hǎoya|okay (cute)|0|1|5209|success
+新年|xīnnián|new year|1|0|5210|success
+职位|zhíwèi|title|0|1|5211|success
+欢迎|huānyíng|welcome|1|2|5212|success
+去年|qùnián|last year|1|0|5213|success
+广州|guǎngzhōu|guangzhou|2|0|5214|success
+欢迎|huānyíng|welcome|2|1|5215|success
+中国|zhōngguó|china|0|1|5216|success
+英国|yīngguó|great britain|2|0|5217|fail
+英国|yīngguó|great britain|2|0|5217|success
+英国|yīngguó|great britain|2|0|5217|success
+看看|kànkàn|take a look|2|1|5218|fail
+看看|kànkàn|take a look|2|1|5218|success
+看看|kànkàn|take a look|2|1|5218|success
