@@ -6896,3 +6896,189 @@
 因为|yīnwèi|because|0|1|5372|success
 瓶|píng|m.w.bottle|0|2|5373|success
 汉字|hànzì|chinese character|0|2|5374|success
+光临|guānglín|honorable presence|0|1|5376|success
+点|diǎn|point out|0|1|5377|success
+玩|wán|play|1|2|5378|success
+少|shǎo|less little|2|1|5379|success
+斯洛伐克|sīluòfákè|slovakia|2|1|5380|success
+点菜|diǎncài|order dish|2|1|5381|success
+瓶|píng|m.w.bottle|0|2|5383|success
+瓶|píng|m.w.bottle|0|1|5384|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5385|success
+老公|lǎogōng|husband spoken|0|1|5386|success
+蔬菜|shūcài|vegetable|2|1|5387|success
+别的|biéde|others|0|1|5388|fail
+别的|biéde|others|0|1|5388|success
+别的|biéde|others|0|1|5388|success
+因为|yīnwèi|because|0|1|5389|success
+白色|báisè|white|2|1|5390|success
+点菜|diǎncài|order dish|2|1|5391|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5392|success
+瓶|píng|m.w.bottle|0|2|5393|success
+瓶|píng|m.w.bottle|1|0|5394|success
+风|fēng|wind|0|1|5395|success
+看看|kànkàn|take a look|1|2|5396|success
+名单|míngdān|name list|1|0|5397|success
+别的|biéde|others|0|1|5398|success
+紫色|zǐsè|purple|0|2|5399|fail
+紫色|zǐsè|purple|0|2|5399|success
+紫色|zǐsè|purple|0|2|5399|success
+更喜欢|gèngxǐhuān|prefer|1|2|5400|success
+点菜|diǎncài|order dish|2|1|5401|success
+光临|guānglín|honorable presence|0|2|5402|fail
+光临|guānglín|honorable presence|0|2|5402|success
+光临|guānglín|honorable presence|0|2|5402|success
+课|kè|class|2|1|5403|success
+鸭|yā|duck|1|2|5404|fail
+鸭|yā|duck|1|2|5404|success
+鸭|yā|duck|1|2|5404|success
+光临|guānglín|honorable presence|0|1|5405|success
+碗|wǎn|bowl|0|1|5406|fail
+碗|wǎn|bowl|0|1|5406|success
+碗|wǎn|bowl|0|1|5406|success
+别的|biéde|other|0|2|5407|success
+电子邮件|diànziyóujiàn|email|2|0|5408|fail
+电子邮件|diànziyóujiàn|email|2|0|5408|success
+电子邮件|diànziyóujiàn|email|2|0|5408|success
+紫色|zǐsè|purple|0|2|5409|success
+瓶|píng|m.w.bottle|0|2|5410|success
+点菜|diǎncài|order dish|2|1|5411|success
+光临|guānglín|honorable presence|0|2|5412|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5413|success
+鸭|yā|duck|1|2|5414|success
+别的|biéde|others|0|1|5415|success
+碗|wǎn|bowl|0|1|5416|fail
+碗|wǎn|bowl|0|1|5416|success
+碗|wǎn|bowl|0|1|5416|success
+瓶|píng|m.w.bottle|0|1|5417|success
+电子邮件|diànziyóujiàn|email|2|0|5418|success
+紫色|zǐsè|purple|0|2|5419|success
+因为|yīnwèi|because|0|1|5420|success
+点菜|diǎncài|order dish|2|1|5421|success
+更喜欢|gèngxǐhuān|prefer|2|1|5422|success
+名单|míngdān|name list|2|1|5423|success
+希望|xīwàng|wish hope|1|0|5424|fail
+希望|xīwàng|wish hope|1|0|5424|success
+希望|xīwàng|wish hope|1|0|5424|success
+写|xiě|write|2|0|5425|success
+碗|wǎn|bowl|0|1|5426|fail
+碗|wǎn|bowl|0|1|5426|success
+碗|wǎn|bowl|0|1|5426|success
+每天|měitiān|every day|0|1|5427|success
+课|kè|class|1|0|5428|fail
+课|kè|class|1|0|5428|success
+课|kè|class|1|0|5428|success
+光临|guānglín|honorable presence|0|2|5429|success
+香港|xiānggǎng|hong kong|2|1|5430|success
+点菜|diǎncài|order dish|2|1|5431|success
+鸭|yā|duck|1|2|5432|success
+香菇油菜|xiānggūyóucài|mushroom cole|0|1|5433|success
+希望|xīwàng|wish hope|1|0|5434|fail
+希望|xīwàng|wish hope|1|0|5434|success
+希望|xīwàng|wish hope|1|0|5434|success
+电子邮件|diànziyóujiàn|email|2|0|5435|success
+碗|wǎn|bowl|0|1|5436|success
+紫色|zǐsè|purple|0|2|5437|success
+课|kè|class|1|0|5438|success
+瓶|píng|m.w.bottle|0|2|5439|success
+生菜|shēngcài|lettuce|2|1|5440|fail
+生菜|shēngcài|lettuce|2|1|5440|success
+生菜|shēngcài|lettuce|2|1|5440|success
+生菜|shēngcài|lettuce|2|0|5441|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5442|success
+别的|biéde|others|1|2|5443|success
+希望|xīwàng|wish hope|1|0|5444|success
+别的|biéde|others|0|1|5445|success
+碗|wǎn|bowl|0|1|5446|success
+点酒|diǎnjiǔ|order drink|1|0|5447|fail
+点酒|diǎnjiǔ|order drink|1|0|5447|success
+点酒|diǎnjiǔ|order drink|1|0|5447|success
+点菜|diǎncài|order dish|2|1|5448|success
+更喜欢|gèngxǐhuān|prefer|0|1|5449|success
+生菜|shēngcài|lettuce|2|1|5450|success
+点|diǎn|hour|2|0|5451|success
+好久不见|hǎojiǔbùjiàn|long time no see|1|0|5452|fail
+好久不见|hǎojiǔbùjiàn|long time no see|1|0|5452|success
+好久不见|hǎojiǔbùjiàn|long time no see|1|0|5452|success
+再|zài|again|1|0|5453|success
+希望|xīwàng|wish hope|1|0|5454|success
+课|kè|class|1|0|5455|success
+碗|wǎn|bowl|0|1|5456|success
+点酒|diǎnjiǔ|order drink|1|0|5457|fail
+点酒|diǎnjiǔ|order drink|1|0|5457|success
+点酒|diǎnjiǔ|order drink|1|0|5457|success
+光临|guānglín|honorable presence|0|2|5458|success
+鸭|yā|duck|2|1|5459|success
+法国|fǎguó|france|1|2|5460|success
+鸭|yā|duck|1|2|5461|success
+好久不见|hǎojiǔbùjiàn|long time no see|1|0|5462|success
+点菜|diǎncài|order dish|2|0|5463|success
+希望|xīwàng|wish hope|1|0|5464|success
+电子邮件|diànziyóujiàn|email|2|0|5465|success
+碗|wǎn|bowl|0|1|5466|success
+点酒|diǎnjiǔ|order drink|1|0|5467|success
+生菜|shēngcài|lettuce|2|1|5468|success
+紫色|zǐsè|purple|0|2|5469|success
+新西兰|xīnxīlán|new zealand|1|0|5470|fail
+新西兰|xīnxīlán|new zealand|1|0|5470|success
+新西兰|xīnxīlán|new zealand|1|0|5470|success
+还是|háishì|or|0|2|5471|fail
+还是|háishì|or|0|2|5471|success
+还是|háishì|or|0|2|5471|success
+电子邮件|diànziyóujiàn|email|1|0|5472|success
+广州|guǎngzhōu|guangzhou|2|1|5473|success
+希望|xīwàng|wish hope|1|0|5474|success
+可以|kěyǐ|possible|2|0|5475|fail
+可以|kěyǐ|possible|2|0|5475|success
+可以|kěyǐ|possible|2|0|5475|success
+碗|wǎn|bowl|0|1|5476|success
+点酒|diǎnjiǔ|order drink|1|0|5477|success
+点菜|diǎncài|order dish|2|1|5478|success
+好久不见|hǎojiǔbùjiàn|long time no see|1|0|5479|success
+新西兰|xīnxīlán|new zealand|1|0|5480|success
+还是|háishì|or|0|2|5481|success
+份|fèn|portion|1|0|5482|fail
+份|fèn|portion|1|0|5482|fail
+份|fèn|portion|1|0|5482|success
+生人|shēngrén|acquaintance|2|1|5483|fail
+生菜|shēngcài|stranger|1|2|5483|fail
+生人|shēngrén|acquaintance|2|1|5483|success
+生人|shēngrén|acquaintance|2|1|5483|success
+生菜|shēngcài|stranger|1|2|5484|fail
+生菜|shēngcài|stranger|1|2|5484|success
+生菜|shēngcài|stranger|1|2|5484|success
+可以|kěyǐ|possible|2|0|5485|success
+课|kè|class|1|0|5486|success
+点酒|diǎnjiǔ|order drink|1|0|5487|success
+澳大利亚|àodàlìyà|australia|1|2|5488|fail
+澳大利亚|àodàlìyà|australia|1|2|5488|success
+澳大利亚|àodàlìyà|australia|1|2|5488|success
+点|diǎn|hour|1|2|5489|success
+别的|biéde|others|1|0|5490|success
+希望|xīwàng|wish hope|1|0|5491|success
+份|fèn|portion|1|0|5492|success
+生人|shēngrén|acquaintance|2|1|5493|success
+生菜|shēngcài|stranger|1|2|5494|success
+碗|wǎn|bowl|0|1|5495|success
+绿色|lǜsè|green|0|1|5496|fail
+绿色|lǜsè|green|0|1|5496|success
+绿色|lǜsè|green|0|1|5496|success
+点酒|diǎnjiǔ|order drink|1|0|5497|success
+澳大利亚|àodàlìyà|australia|1|2|5498|fail
+澳大利亚|àodàlìyà|australia|1|2|5498|success
+澳大利亚|àodàlìyà|australia|1|2|5498|success
+新西兰|xīnxīlán|new zealand|1|0|5499|success
+还是|háishì|or|0|2|5500|success
+生菜|shēngcài|lettuce|2|1|5501|success
+份|fèn|portion|1|0|5502|success
+可以|kěyǐ|possible|2|0|5503|success
+生菜|shēngcài|stranger|1|2|5504|success
+累|lèi|tired|2|1|5505|success
+绿色|lǜsè|green|0|1|5506|success
+商丘|shāngqiū|shangqiu|1|2|5507|fail
+商丘|shāngqiū|shangqiu|1|2|5507|success
+商丘|shāngqiū|shangqiu|1|2|5507|success
+澳大利亚|àodàlìyà|australia|1|2|5508|success
+好久不见|hǎojiǔbùjiàn|long time no see|1|0|5509|success
+生人|shēngrén|acquaintance|2|1|5510|success
+更喜欢|gèngxǐhuān|prefer|1|0|5511|fail
