@@ -6679,3 +6679,220 @@
 看看|kànkàn|take a look|2|1|5218|fail
 看看|kànkàn|take a look|2|1|5218|success
 看看|kànkàn|take a look|2|1|5218|success
+瓶|ping2|m.w.bottle|0|1|5220|fail
+瓶|ping2|m.w.bottle|0|1|5220|success
+瓶|ping2|m.w.bottle|0|1|5220|fail
+希望|xīwàng|wish hope|0|1|5221|fail
+希望|xīwàng|wish hope|0|1|5221|success
+希望|xīwàng|wish hope|0|1|5221|success
+点|diǎn|count|0|2|5222|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5223|fail
+斯洛伐克|sīluòfákè|slovakia|1|0|5223|fail
+斯洛伐克|sīluòfákè|slovakia|1|0|5223|success
+不客气|bùkèqì|you are welcome|1|2|5224|success
+面包|miànbāo|bread|0|2|5225|success
+灰色|huīsè|grey|2|1|5226|success
+英国|yīngguó|great britain|2|0|5227|success
+看看|kànkàn|take a look|2|1|5228|success
+每天|měitiān|every day|1|2|5229|success
+瓶|ping2|m.w.bottle|0|1|5230|fail
+瓶|ping2|m.w.bottle|0|1|5230|success
+瓶|ping2|m.w.bottle|0|1|5230|success
+希望|xīwàng|wish hope|0|1|5231|success
+香港|xiānggǎng|hong kong|1|0|5232|fail
+香港|xiānggǎng|hong kong|1|0|5232|success
+香港|xiānggǎng|hong kong|1|0|5232|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5233|success
+上海|shànghǎi|shanghai|1|0|5234|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5235|fail
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5235|fail
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5235|success
+棕色|zōngsè|brown|2|1|5236|fail
+棕色|zōngsè|brown|2|1|5236|success
+棕色|zōngsè|brown|2|1|5236|success
+名单|míngdān|name list|1|2|5237|fail
+名单|míngdān|name list|1|2|5237|success
+名单|míngdān|name list|1|2|5237|success
+橙色|chéngsè|orange color|2|1|5238|success
+奥地利|àodelì|austria|0|1|5239|fail
+奥地利|àodelì|austria|0|1|5239|success
+奥地利|àodelì|austria|0|1|5239|success
+瓶|ping2|m.w.bottle|0|1|5240|success
+职位|zhíwèi|title|0|1|5241|success
+香港|xiānggǎng|hong kong|1|0|5242|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5243|success
+英国|yīngguó|great britain|2|0|5244|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5245|fail
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5245|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5245|success
+棕色|zōngsè|brown|2|1|5246|success
+名单|míngdān|name list|1|2|5247|fail
+名单|míngdān|name list|1|2|5247|success
+名单|míngdān|name list|1|2|5247|success
+看看|kànkàn|take a look|2|1|5248|success
+奥地利|àodelì|austria|0|1|5249|success
+瓶|ping2|m.w.bottle|0|1|5250|success
+希望|xīwàng|wish hope|0|1|5251|success
+意大利|yìdàlì|italy|2|1|5252|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5253|success
+紫色|zǐsè|purple|1|2|5254|fail
+紫色|zǐsè|purple|1|2|5254|success
+紫色|zǐsè|purple|1|2|5254|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5255|success
+累|lèi|tired|0|1|5256|fail
+累|lèi|tired|0|1|5256|success
+累|lèi|tired|0|1|5256|success
+名单|míngdān|name list|1|2|5257|success
+汽油|qìyóu|gasoline|2|1|5258|success
+香港|xiānggǎng|hong kong|1|0|5259|success
+瓶|ping2|m.w.bottle|0|1|5260|success
+英国|yīngguó|great britain|1|0|5261|success
+节|jié|m.w.class|2|0|5262|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5263|success
+紫色|zǐsè|purple|1|2|5264|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5265|success
+累|lèi|tired|0|1|5266|fail
+累|lèi|tired|0|1|5266|success
+累|lèi|tired|0|1|5266|success
+名单|míngdān|name list|1|2|5267|success
+奥地利|àodelì|austria|0|1|5268|success
+奥地利|àodelì|austria|0|1|5268|success
+棕色|zōngsè|brown|2|1|5269|fail
+棕色|zōngsè|brown|2|1|5269|success
+棕色|zōngsè|brown|2|1|5269|success
+瓶|ping2|m.w.bottle|0|1|5270|success
+香蕉|xiāngjiāo|banana|2|0|5271|success
+医院|yīyuàn|hospital|1|0|5272|fail
+医院|yīyuàn|hospital|1|0|5272|success
+医院|yīyuàn|hospital|1|0|5272|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5273|fail
+斯洛伐克|sīluòfákè|slovakia|1|0|5273|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5273|success
+英国|yīngguó|great britain|2|0|5274|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5275|fail
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5275|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5275|success
+累|lèi|tired|0|1|5276|success
+名单|míngdān|name list|1|2|5277|success
+奥地利|àodelì|austria|0|1|5278|success
+棕色|zōngsè|brown|2|1|5279|success
+瓶|ping2|m.w.bottle|0|1|5280|fail
+瓶|ping2|m.w.bottle|0|1|5280|success
+瓶|ping2|m.w.bottle|0|1|5280|success
+紫色|zǐsè|purple|1|2|5281|success
+医院|yīyuàn|hospital|1|0|5282|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5283|success
+看看|kànkàn|take a look|2|1|5284|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5285|success
+累|lèi|tired|0|1|5286|success
+名单|míngdān|name list|1|2|5287|success
+奥地利|àodelì|austria|0|1|5288|success
+棕色|zōngsè|brown|2|1|5289|success
+瓶|ping2|m.w.bottle|0|1|5290|success
+香港|xiānggǎng|hong kong|1|0|5291|success
+希望|xīwàng|wish hope|0|1|5292|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5293|success
+还是|háishì|or|1|2|5294|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5295|success
+累|lèi|tired|0|1|5296|success
+有一点|yǒuyīdiǎn|a bit|0|2|5297|fail
+有一点|yǒuyīdiǎn|a bit|0|2|5297|success
+有一点|yǒuyīdiǎn|a bit|0|2|5297|success
+奥地利|àodelì|austria|0|1|5298|success
+棕色|zōngsè|brown|2|1|5299|success
+瓶|ping2|m.w.bottle|0|1|5300|success
+医院|yīyuàn|hospital|1|0|5301|success
+白色|báisè|white|1|0|5302|fail
+白色|báisè|white|1|0|5302|success
+白色|báisè|white|1|0|5302|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5303|success
+名单|míngdān|name list|1|2|5304|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5305|success
+累|lèi|tired|0|1|5306|success
+有一点|yǒuyīdiǎn|a bit|0|2|5307|success
+新西兰|xīnxīlán|new zealand|2|0|5308|fail
+新西兰|xīnxīlán|new zealand|2|0|5308|success
+新西兰|xīnxīlán|new zealand|2|0|5308|success
+汉字|hànzì|chinese character|0|2|5309|fail
+汉字|hànzì|chinese character|0|2|5309|success
+汉字|hànzì|chinese character|0|2|5309|success
+瓶|ping2|m.w.bottle|0|1|5310|success
+紫色|zǐsè|purple|1|2|5311|success
+白色|báisè|white|1|0|5312|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5313|success
+中国|zhōngguó|china|0|2|5314|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5315|success
+奥地利|àodelì|austria|0|1|5316|success
+棕色|zōngsè|brown|2|1|5317|success
+新西兰|xīnxīlán|new zealand|2|0|5318|success
+汉字|hànzì|chinese character|0|2|5319|success
+瓶|ping2|m.w.bottle|0|1|5320|success
+点菜|diǎncài|order dish|2|1|5321|fail
+点菜|diǎncài|order dish|2|1|5321|fail
+点菜|diǎncài|order dish|2|1|5321|success
+蓝色|lánsè|blue|2|1|5322|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5323|success
+有一点|yǒuyīdiǎn|a bit|0|2|5324|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5325|success
+累|lèi|tired|0|1|5326|success
+点|diǎn|point out|2|1|5327|success
+北京|běijīng|beijing|0|1|5328|success
+白色|báisè|white|1|0|5329|success
+医院|yīyuàn|hospital|1|0|5330|success
+点菜|diǎncài|order dish|2|1|5331|success
+点菜|diǎncài|order dish|0|2|5332|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5333|success
+名单|míngdān|name list|1|2|5334|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5335|success
+新西兰|xīnxīlán|new zealand|2|0|5336|success
+瓶|ping2|m.w.bottle|0|1|5337|fail
+瓶|ping2|m.w.bottle|0|1|5337|success
+瓶|ping2|m.w.bottle|0|1|5337|success
+汉字|hànzì|chinese character|0|2|5338|success
+美国|měiguó|usa|1|0|5339|success
+名单|míngdān|name list|1|0|5340|fail
+名单|míngdān|name list|1|0|5340|success
+名单|míngdān|name list|1|0|5340|success
+点菜|diǎncài|order dish|2|1|5341|success
+紫色|zǐsè|purple|0|2|5342|fail
+紫色|zǐsè|purple|0|2|5342|success
+紫色|zǐsè|purple|0|2|5342|success
+更喜欢|gèngxǐhuān|prefer|1|2|5343|fail
+更喜欢|gèngxǐhuān|prefer|1|2|5343|success
+更喜欢|gèngxǐhuān|prefer|1|2|5343|success
+风|fēng|wind|1|2|5344|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5345|success
+奥地利|àodelì|austria|0|1|5346|success
+瓶|ping2|m.w.bottle|0|1|5347|success
+棕色|zōngsè|brown|2|1|5348|success
+光临|guānglín|honorable presence|0|1|5349|fail
+光临|guānglín|honorable presence|0|1|5349|success
+光临|guānglín|honorable presence|0|1|5349|success
+名单|míngdān|name list|1|0|5350|success
+点菜|diǎncài|order dish|2|1|5351|success
+紫色|zǐsè|purple|0|2|5352|success
+更喜欢|gèngxǐhuān|prefer|1|2|5353|success
+斯洛伐克|sīluòfákè|slovakia|1|0|5354|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5355|success
+有一点|yǒuyīdiǎn|a bit|0|2|5356|success
+瓶|ping2|m.w.bottle|0|1|5357|success
+白色|báisè|white|1|0|5358|success
+光临|guānglín|honorable presence|0|1|5359|success
+累|lèi|tired|0|1|5360|success
+点菜|diǎncài|order dish|2|1|5361|fail
+点菜|diǎncài|order dish|2|1|5361|success
+点菜|diǎncài|order dish|2|1|5361|success
+因为|yīnwèi|because|0|1|5362|fail
+因为|yīnwèi|because|0|1|5362|success
+因为|yīnwèi|because|0|1|5362|success
+瓶|ping2|m.w.bottle|0|2|5363|fail
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5365|success
+新西兰|xīnxīlán|new zealand|2|0|5366|success
+瓶|píng|m.w.bottle|0|1|5367|success
+名单|míngdān|name list|1|0|5368|success
+紫色|zǐsè|purple|0|2|5369|success
+更喜欢|gèngxǐhuān|prefer|1|2|5370|success
+点菜|diǎncài|order dish|2|1|5371|success
+因为|yīnwèi|because|0|1|5372|success
+瓶|píng|m.w.bottle|0|2|5373|success
+汉字|hànzì|chinese character|0|2|5374|success
