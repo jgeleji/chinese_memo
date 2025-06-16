@@ -9,3 +9,4 @@
 棕色|brown
 黄色|yellow
 灰色|grey
+颜色|color
