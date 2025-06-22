@@ -7082,3 +7082,13 @@
 好久不见|hǎojiǔbùjiàn|long time no see|1|0|5509|success
 生人|shēngrén|acquaintance|2|1|5510|success
 更喜欢|gèngxǐhuān|prefer|1|0|5511|fail
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|2|5513|success
+生菜|shēngcài|stranger|1|2|5514|fail
+蔬菜|shūcài|vegetable|2|1|5514|fail
+生菜|shēngcài|stranger|1|2|5514|success
+生菜|shēngcài|stranger|1|2|5514|success
+蔬菜|shūcài|vegetable|2|1|5515|success
+点酒|diǎnjiǔ|order drink|1|0|5516|success
+商丘|shāngqiū|shangqiu|1|2|5517|fail
+商丘|shāngqiū|shangqiu|1|2|5517|success
+商丘|shāngqiū|shangqiu|1|2|5517|success
