@@ -10,3 +10,4 @@
 黄色|yellow
 灰色|grey
 颜色|color
+金色|golden color
