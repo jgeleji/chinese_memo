@@ -15,3 +15,12 @@
 学校|school
 有人|some people
 可以啊|sure
+看见|see
+国会大厦|parliament
+歌剧院|opera
+机场|airport
+杜丽|duli name
+左立|zuoli name
+商店|store
+超市|supermarket
+北京外国语大学|Beijing foreign studies university
