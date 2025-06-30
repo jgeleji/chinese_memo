@@ -7458,3 +7458,382 @@
 桥|qiáo|bridge|0|1|5791|success
 汉字|hànzì|chinese character|1|0|5792|fail
 汉字|hànzì|chinese character|1|0|5792|success
+买单|mǎidān|pay the bill|2|1|5794|success
+紫色|zǐsè|purple|1|0|5795|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|0|5796|success
+万|wàn|ten thousand|2|0|5797|success
+多瑙河|duōnǎohé|danube|0|1|5798|success
+当然|dāngrán|of course|1|2|5799|success
+节|jié|m.w.class|1|2|5800|success
+动物园|dòngwùyuán|zoo|0|2|5801|fail
+动物园|dòngwùyuán|zoo|0|2|5801|success
+动物园|dòngwùyuán|zoo|0|2|5801|success
+汉字|hànzì|chinese character|1|0|5802|fail
+汉字|hànzì|chinese character|1|0|5802|success
+汉字|hànzì|chinese character|1|0|5802|success
+账单|zhàngdān|bill|1|2|5803|success
+买单|mǎidān|pay the bill|2|1|5804|success
+紫色|zǐsè|purple|1|0|5805|success
+菜单|càidān|menu|1|2|5806|success
+课|kè|class|2|1|5807|success
+有意思|yǒuyìsī|interesting|0|2|5808|fail
+有意思|yǒuyìsī|interesting|0|2|5808|success
+有意思|yǒuyìsī|interesting|0|2|5808|success
+当然|dāngrán|of course|1|2|5809|fail
+当然|dāngrán|of course|1|2|5809|success
+当然|dāngrán|of course|1|2|5809|success
+节|jié|m.w.class|1|2|5810|success
+动物园|dòngwùyuán|zoo|0|2|5811|success
+汉字|hànzì|chinese character|1|0|5812|success
+账单|zhàngdān|bill|1|2|5813|success
+买单|mǎidān|pay the bill|2|1|5814|success
+紫色|zǐsè|purple|1|0|5815|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|0|5816|success
+电子邮件|diànziyóujiàn|email|0|2|5817|success
+有意思|yǒuyìsī|interesting|0|2|5818|fail
+有意思|yǒuyìsī|interesting|0|2|5818|success
+有意思|yǒuyìsī|interesting|0|2|5818|success
+当然|dāngrán|of course|1|2|5819|success
+陶诗|táoshī|tao shi|0|2|5820|fail
+陶诗|táoshī|tao shi|0|2|5820|success
+陶诗|táoshī|tao shi|0|2|5820|success
+几位|jǐwèi|how many of you|0|1|5821|success
+汉字|hànzì|chinese character|1|0|5822|success
+账单|zhàngdān|bill|1|2|5823|success
+买单|mǎidān|pay the bill|2|1|5824|success
+紫色|zǐsè|purple|1|0|5825|success
+火|huǒ|fire|2|0|5826|success
+节|jié|m.w.class|1|2|5827|success
+有意思|yǒuyìsī|interesting|0|2|5828|success
+当然|dāngrán|of course|1|2|5829|fail
+当然|dāngrán|of course|1|2|5829|success
+当然|dāngrán|of course|1|2|5829|success
+陶诗|táoshī|tao shi|0|2|5830|success
+动物园|dòngwùyuán|zoo|0|2|5831|success
+汉字|hànzì|chinese character|1|0|5832|success
+账单|zhàngdān|bill|1|2|5833|success
+买单|mǎidān|pay the bill|2|1|5834|success
+菜单|càidān|menu|1|2|5835|success
+越来越|yuèláiyuè|gradually|2|0|5836|fail
+越来越|yuèláiyuè|gradually|2|0|5836|success
+越来越|yuèláiyuè|gradually|2|0|5836|success
+可以啊|kěyǐa|sure|1|0|5837|fail
+可以啊|kěyǐa|sure|1|0|5837|success
+可以啊|kěyǐa|sure|1|0|5837|success
+有意思|yǒuyìsī|interesting|0|2|5838|fail
+有意思|yǒuyìsī|interesting|0|2|5838|success
+有意思|yǒuyìsī|interesting|0|2|5838|success
+当然|dāngrán|of course|1|2|5839|success
+陶诗|táoshī|tao shi|0|2|5840|fail
+陶诗|táoshī|tao shi|0|2|5840|success
+陶诗|táoshī|tao shi|0|2|5840|success
+几位|jǐwèi|how many of you|1|0|5841|success
+汉字|hànzì|chinese character|1|0|5842|success
+紫色|zǐsè|purple|1|0|5843|success
+买单|mǎidān|pay the bill|2|1|5844|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|0|5845|success
+越来越|yuèláiyuè|gradually|2|0|5846|success
+可以啊|kěyǐa|sure|1|0|5847|success
+有意思|yǒuyìsī|interesting|0|2|5848|success
+当然|dāngrán|of course|1|2|5849|success
+陶诗|táoshī|tao shi|0|2|5850|success
+账单|zhàngdān|bill|1|2|5851|success
+汉字|hànzì|chinese character|1|0|5852|success
+越来越|yuèláiyuè|gradually|0|1|5853|success
+买单|mǎidān|pay the bill|2|1|5854|success
+洋葱|yángcōng|onion|1|0|5855|fail
+洋葱|yángcōng|onion|1|0|5855|fail
+洋葱|yángcōng|onion|1|0|5855|success
+节|jié|m.w.class|1|2|5856|success
+美国|měiguó|usa|2|1|5857|success
+有意思|yǒuyìsī|interesting|0|2|5858|success
+当然|dāngrán|of course|1|2|5859|success
+陶诗|táoshī|tao shi|0|2|5860|success
+动物园|dòngwùyuán|zoo|0|2|5861|fail
+动物园|dòngwùyuán|zoo|0|2|5861|success
+动物园|dòngwùyuán|zoo|0|2|5861|success
+山|shān|hill|1|2|5862|success
+越来越|yuèláiyuè|gradually|2|0|5863|success
+买单|mǎidān|pay the bill|2|1|5864|success
+洋葱|yángcōng|onion|1|0|5865|fail
+洋葱|yángcōng|onion|1|0|5865|success
+洋葱|yángcōng|onion|1|0|5865|success
+可以啊|kěyǐa|sure|1|0|5866|fail
+可以啊|kěyǐa|sure|1|0|5866|success
+可以啊|kěyǐa|sure|1|0|5866|success
+学校|xuéxiào|school|1|2|5867|fail
+学校|xuéxiào|school|1|2|5867|success
+学校|xuéxiào|school|1|2|5867|success
+有意思|yǒuyìsī|interesting|0|2|5868|fail
+有意思|yǒuyìsī|interesting|0|2|5868|success
+有意思|yǒuyìsī|interesting|0|2|5868|success
+当然|dāngrán|of course|1|2|5869|success
+陶诗|táoshī|tao shi|0|2|5870|fail
+陶诗|táoshī|tao shi|0|2|5870|success
+陶诗|táoshī|tao shi|0|2|5870|success
+动物园|dòngwùyuán|zoo|0|2|5871|fail
+动物园|dòngwùyuán|zoo|0|2|5871|fail
+动物园|dòngwùyuán|zoo|0|2|5871|success
+汉字|hànzì|chinese character|1|0|5872|success
+白色|báisè|white|1|2|5873|fail
+白色|báisè|white|1|2|5873|success
+白色|báisè|white|1|2|5873|success
+生菜|shēngcài|lettuce|0|1|5874|fail
+生菜|shēngcài|lettuce|0|1|5874|success
+生菜|shēngcài|lettuce|0|1|5874|success
+洋葱|yángcōng|onion|1|0|5875|fail
+洋葱|yángcōng|onion|1|0|5875|fail
+洋葱|yángcōng|onion|1|0|5875|success
+可以啊|kěyǐa|sure|1|0|5876|fail
+当然|dāngrán|of course|0|1|5876|fail
+可以啊|kěyǐa|sure|1|0|5876|success
+可以啊|kěyǐa|sure|1|0|5876|success
+当然|dāngrán|of course|0|1|5877|success
+有意思|yǒuyìsī|interesting|0|2|5878|fail
+有意思|yǒuyìsī|interesting|0|2|5878|success
+有意思|yǒuyìsī|interesting|0|2|5878|success
+当然|dāngrán|of course|1|2|5879|success
+陶诗|táoshī|tao shi|0|2|5880|success
+动物园|dòngwùyuán|zoo|0|2|5881|success
+学校|xuéxiào|school|1|2|5882|fail
+学校|xuéxiào|school|1|2|5882|success
+学校|xuéxiào|school|1|2|5882|success
+白色|báisè|white|1|2|5883|success
+生菜|shēngcài|lettuce|0|1|5884|success
+洋葱|yángcōng|onion|1|0|5885|fail
+洋葱|yángcōng|onion|1|0|5885|success
+洋葱|yángcōng|onion|1|0|5885|success
+可以啊|kěyǐa|sure|1|0|5886|success
+当然|dāngrán|of course|0|1|5887|success
+有意思|yǒuyìsī|interesting|0|2|5888|success
+当然|dāngrán|of course|1|2|5889|success
+陶诗|táoshī|tao shi|0|2|5890|success
+动物园|dòngwùyuán|zoo|0|2|5891|success
+学校|xuéxiào|school|1|2|5892|success
+买单|mǎidān|pay the bill|2|1|5893|success
+越来越|yuèláiyuè|gradually|2|0|5894|success
+洋葱|yángcōng|onion|1|0|5895|fail
+洋葱|yángcōng|onion|1|0|5895|success
+洋葱|yángcōng|onion|1|0|5895|success
+可以啊|kěyǐa|sure|1|0|5896|success
+当然|dāngrán|of course|0|1|5897|success
+有意思|yǒuyìsī|interesting|0|2|5898|success
+当然|dāngrán|of course|1|2|5899|success
+陶诗|táoshī|tao shi|0|2|5900|success
+动物园|dòngwùyuán|zoo|0|2|5901|success
+学校|xuéxiào|school|1|2|5902|success
+白色|báisè|white|1|2|5903|success
+生菜|shēngcài|lettuce|0|1|5904|success
+洋葱|yángcōng|onion|1|0|5905|success
+可以啊|kěyǐa|sure|1|0|5906|success
+汉字|hànzì|chinese character|1|0|5907|success
+有意思|yǒuyìsī|interesting|0|2|5908|success
+当然|dāngrán|of course|1|2|5909|success
+陶诗|táoshī|tao shi|0|2|5910|success
+动物园|dòngwùyuán|zoo|0|2|5911|success
+学校|xuéxiào|school|1|2|5912|success
+账单|zhàngdān|bill|1|2|5913|fail
+账单|zhàngdān|bill|1|2|5913|success
+账单|zhàngdān|bill|1|2|5913|success
+当然|dāngrán|of course|0|1|5914|success
+洋葱|yángcōng|onion|1|0|5915|success
+可以啊|kěyǐa|sure|1|0|5916|success
+紫色|zǐsè|purple|1|0|5917|success
+有意思|yǒuyìsī|interesting|0|2|5918|success
+当然|dāngrán|of course|1|2|5919|success
+陶诗|táoshī|tao shi|0|2|5920|success
+动物园|dòngwùyuán|zoo|0|2|5921|success
+学校|xuéxiào|school|1|2|5922|success
+账单|zhàngdān|bill|1|2|5923|success
+买单|mǎidān|pay the bill|2|1|5924|success
+洋葱|yángcōng|onion|1|0|5925|success
+可以啊|kěyǐa|sure|1|0|5926|success
+生菜|shēngcài|stranger|2|1|5927|success
+有意思|yǒuyìsī|interesting|0|2|5928|success
+当然|dāngrán|of course|1|2|5929|success
+时候|shíhou|when|1|0|5930|fail
+时候|shíhou|when|1|0|5930|fail
+白色|báisè|white|1|2|5932|success
+账单|zhàngdān|bill|1|2|5933|success
+生菜|shēngcài|lettuce|0|1|5934|success
+洋葱|yángcōng|onion|1|0|5935|success
+可以啊|kěyǐa|sure|1|0|5936|success
+陶诗|táoshī|tao shi|0|2|5937|success
+有意思|yǒuyìsī|interesting|0|2|5938|success
+当然|dāngrán|of course|1|2|5939|success
+时候|shíhou|when|1|0|5940|fail
+时候|shíhou|when|1|0|5940|success
+时候|shíhou|when|1|0|5940|success
+动物园|dòngwùyuán|zoo|0|2|5941|success
+学校|xuéxiào|school|1|2|5942|success
+账单|zhàngdān|bill|1|2|5943|success
+当然|dāngrán|of course|0|1|5944|success
+洋葱|yángcōng|onion|1|0|5945|success
+话|huà|discussion|2|1|5946|fail
+话|huà|discussion|2|1|5946|success
+话|huà|discussion|2|1|5946|success
+课|kè|class|1|2|5947|success
+有意思|yǒuyìsī|interesting|0|2|5948|success
+当然|dāngrán|of course|1|2|5949|success
+时候|shíhou|when|1|0|5950|success
+动物园|dòngwùyuán|zoo|0|2|5951|success
+新年|xīnnián|new year|2|0|5952|success
+可以啊|kěyǐa|sure|1|0|5953|success
+生活|shēnghuó|life|0|1|5954|fail
+生活|shēnghuó|life|0|1|5954|success
+生活|shēnghuó|life|0|1|5954|success
+洋葱|yángcōng|onion|1|0|5955|success
+话|huà|discussion|2|1|5956|success
+没意思|méiyìsī|boring|0|2|5957|fail
+没意思|méiyìsī|boring|0|2|5957|success
+没意思|méiyìsī|boring|0|2|5957|success
+有意思|yǒuyìsī|interesting|0|2|5958|success
+当然|dāngrán|of course|1|2|5959|success
+时候|shíhou|when|1|0|5960|success
+动物园|dòngwùyuán|zoo|0|2|5961|success
+账单|zhàngdān|bill|1|2|5962|success
+翻毛鸡|fānmáojī|birds nest|2|1|5963|success
+生活|shēnghuó|life|0|1|5964|success
+洋葱|yángcōng|onion|1|0|5965|success
+陶诗|táoshī|tao shi|0|2|5966|success
+没意思|méiyìsī|boring|0|2|5967|success
+有意思|yǒuyìsī|interesting|0|2|5968|success
+歌剧院|gējùyuàn|opera|2|1|5969|fail
+歌剧院|gējùyuàn|opera|2|1|5969|success
+歌剧院|gējùyuàn|opera|2|1|5969|success
+时候|shíhou|when|1|0|5970|success
+动物园|dòngwùyuán|zoo|0|2|5971|success
+学校|xuéxiào|school|1|2|5972|success
+话|huà|discussion|2|1|5973|success
+汉字|hànzì|chinese character|2|1|5974|success
+洋葱|yángcōng|onion|1|0|5975|success
+当然|dāngrán|of course|1|2|5976|success
+站|zhàn|stand|1|2|5977|fail
+站|zhàn|stand|1|2|5977|success
+站|zhàn|stand|1|2|5977|success
+有意思|yǒuyìsī|interesting|0|2|5978|success
+歌剧院|gējùyuàn|opera|2|1|5979|success
+时候|shíhou|when|1|0|5980|success
+动物园|dòngwùyuán|zoo|0|2|5981|success
+生活|shēnghuó|life|0|1|5982|success
+可以啊|kěyǐa|sure|1|0|5983|success
+没意思|méiyìsī|boring|0|2|5984|success
+洋葱|yángcōng|onion|1|0|5985|success
+看见|kànjiàn|see|1|2|5986|fail
+看见|kànjiàn|see|1|2|5986|success
+看见|kànjiàn|see|1|2|5986|success
+站|zhàn|stand|1|2|5987|success
+杏子|xìngzi|apricot|2|0|5988|fail
+杏子|xìngzi|apricot|2|0|5988|success
+杏子|xìngzi|apricot|2|0|5988|success
+电视|diànshì|tv|0|2|5989|fail
+电脑|diànnǎo|computer|2|0|5989|fail
+电视|diànshì|tv|0|2|5989|success
+电视|diànshì|tv|0|2|5989|success
+时候|shíhou|when|1|0|5990|success
+电脑|diànnǎo|computer|2|0|5991|fail
+电脑|diànnǎo|computer|2|0|5991|success
+电脑|diànnǎo|computer|2|0|5991|success
+账单|zhàngdān|bill|1|2|5992|success
+肉|ròu|meat|1|2|5993|success
+红茶|hóngchá|black tea|1|2|5994|success
+洋葱|yángcōng|onion|1|0|5995|success
+看见|kànjiàn|see|1|2|5996|success
+歌剧院|gējùyuàn|opera|2|1|5997|success
+杏子|xìngzi|apricot|2|0|5998|success
+电视|diànshì|tv|0|2|5999|fail
+电视|diànshì|tv|0|2|5999|success
+电视|diànshì|tv|0|2|5999|success
+时候|shíhou|when|1|0|6000|success
+电脑|diànnǎo|computer|2|0|6001|success
+动物园|dòngwùyuán|zoo|0|2|6002|success
+有意思|yǒuyìsī|interesting|0|2|6003|success
+站|zhàn|stand|1|2|6004|success
+洋葱|yángcōng|onion|1|0|6005|success
+话|huà|discussion|2|1|6006|success
+当然|dāngrán|of course|1|2|6007|success
+可乐|kěyuè|cola|1|0|6008|success
+电视|diànshì|tv|0|2|6009|success
+时候|shíhou|when|1|0|6010|success
+电脑|diànnǎo|computer|2|0|6011|success
+生活|shēnghuó|life|0|1|6012|success
+看见|kànjiàn|see|1|2|6013|success
+没意思|méiyìsī|boring|0|2|6014|fail
+没意思|méiyìsī|boring|0|2|6014|success
+没意思|méiyìsī|boring|0|2|6014|success
+洋葱|yángcōng|onion|1|0|6015|success
+杏子|xìngzi|apricot|2|0|6016|success
+可以啊|kěyǐa|sure|1|2|6017|success
+盘|pán|plate|0|1|6018|fail
+盘|pán|plate|0|1|6018|success
+盘|pán|plate|0|1|6018|success
+电视|diànshì|tv|0|2|6019|success
+时候|shíhou|when|1|0|6020|success
+电脑|diànnǎo|computer|2|0|6021|success
+你真可爱|nǐzhēnkěài|you look so cute|1|0|6022|fail
+你真可爱|nǐzhēnkěài|you look so cute|1|0|6022|success
+你真可爱|nǐzhēnkěài|you look so cute|1|0|6022|success
+碗|wǎn|bowl|2|1|6023|fail
+玩|wán|play|1|2|6023|fail
+碗|wǎn|bowl|2|1|6023|success
+碗|wǎn|bowl|2|1|6023|success
+玩|wán|play|1|2|6024|success
+洋葱|yángcōng|onion|1|0|6025|success
+没意思|méiyìsī|boring|0|2|6026|success
+歌剧院|gējùyuàn|opera|2|1|6027|success
+盘|pán|plate|0|1|6028|fail
+碗|wǎn|bowl|1|0|6028|fail
+盘|pán|plate|0|1|6028|success
+盘|pán|plate|0|1|6028|success
+碗|wǎn|bowl|1|0|6029|fail
+碗|wǎn|bowl|1|0|6029|success
+碗|wǎn|bowl|1|0|6029|success
+时候|shíhou|when|1|0|6030|success
+电脑|diànnǎo|computer|2|0|6031|success
+电视|diànshì|tv|0|2|6032|success
+碗|wǎn|bowl|2|1|6033|success
+你真可爱|nǐzhēnkěài|you look so cute|1|0|6034|success
+洋葱|yángcōng|onion|1|0|6035|success
+玩|wán|play|1|2|6036|success
+没意思|méiyìsī|boring|0|2|6037|success
+盘|pán|plate|0|1|6038|success
+碗|wǎn|bowl|1|0|6039|success
+时候|shíhou|when|1|0|6040|success
+电脑|diànnǎo|computer|2|0|6041|success
+电视|diànshì|tv|0|2|6042|success
+看见|kànjiàn|see|1|2|6043|success
+站|zhàn|stand|1|2|6044|success
+杏子|xìngzi|apricot|2|0|6045|success
+动物园|dòngwùyuán|zoo|0|2|6046|success
+有意思|yǒuyìsī|interesting|0|2|6047|success
+盘|pán|plate|0|1|6048|success
+碗|wǎn|bowl|1|0|6049|success
+时候|shíhou|when|1|0|6050|success
+电脑|diànnǎo|computer|2|0|6051|success
+你真可爱|nǐzhēnkěài|you look so cute|1|0|6052|success
+碗|wǎn|bowl|2|1|6053|success
+洋葱|yángcōng|onion|1|0|6054|success
+没意思|méiyìsī|boring|0|2|6055|success
+玩|wán|play|1|2|6056|fail
+碗|wǎn|bowl|2|1|6056|fail
+玩|wán|play|1|2|6056|success
+玩|wán|play|1|2|6056|success
+有一点|yǒuyīdiǎn|a bit|2|1|6057|success
+盘|pán|plate|0|1|6058|success
+碗|wǎn|bowl|1|0|6059|success
+电视|diànshì|tv|0|2|6060|success
+油|yóu|oil|0|1|6061|fail
+油|yóu|oil|0|1|6061|success
+油|yóu|oil|0|1|6061|success
+站|zhàn|stand|0|1|6063|success
+新西兰|xīnxīlán|new zealand|1|2|6064|success
+商丘|shāngqiū|shangqiu|2|0|6065|fail
+商丘|shāngqiū|shangqiu|2|0|6065|success
+商丘|shāngqiū|shangqiu|2|0|6065|success
+碗|wǎn|bowl|2|1|6066|success
+玩|wán|play|1|2|6067|success
+盘|pán|plate|0|1|6068|success
+碗|wǎn|bowl|1|0|6069|success
+电脑|diànnǎo|computer|2|0|6070|success
+油|yóu|oil|0|1|6071|success
+时候|shíhou|when|1|0|6072|success
