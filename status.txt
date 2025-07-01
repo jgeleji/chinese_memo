@@ -7837,3 +7837,38 @@
 电脑|diànnǎo|computer|2|0|6070|success
 油|yóu|oil|0|1|6071|success
 时候|shíhou|when|1|0|6072|success
+节|jié|m.w.class|1|2|6074|success
+商丘|shāngqiū|shangqiu|2|0|6075|success
+碗|wǎn|bowl|2|1|6076|success
+玩|wán|play|1|2|6077|success
+动物园|dòngwùyuán|zoo|0|2|6078|success
+碗|wǎn|bowl|1|0|6079|success
+桥|qiáo|bridge|0|1|6080|fail
+桥|qiáo|bridge|0|1|6080|success
+桥|qiáo|bridge|0|1|6080|success
+你真可爱|nǐzhēnkěài|you look so cute|1|0|6081|success
+苹果|píngguǒ|apple|2|1|6082|success
+洋葱|yángcōng|onion|1|0|6083|success
+没意思|méiyìsī|boring|0|2|6084|success
+盘|pán|plate|0|1|6085|success
+碗|wǎn|bowl|2|1|6086|success
+玩|wán|play|1|2|6087|success
+油|yóu|oil|0|1|6088|success
+电视|diànshì|tv|0|2|6089|success
+桥|qiáo|bridge|0|1|6090|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6091|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6091|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6091|success
+商丘|shāngqiū|shangqiu|2|0|6092|success
+消防局|xiāofángjú|fire station|2|1|6093|fail
+消防局|xiāofángjú|fire station|2|1|6093|success
+消防局|xiāofángjú|fire station|2|1|6093|success
+杜丽|dùlì|duli name|1|2|6094|success
+火|huǒ|fire|1|0|6095|success
+碗|wǎn|bowl|2|1|6096|success
+碗|wǎn|bowl|1|0|6097|success
+北京|běijīng|beijing|0|2|6098|success
+电脑|diànnǎo|computer|2|0|6099|success
+香港|xiānggǎng|hong kong|0|2|6100|fail
+香港|xiānggǎng|hong kong|0|2|6100|success
+香港|xiānggǎng|hong kong|0|2|6100|success
