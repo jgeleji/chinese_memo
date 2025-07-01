@@ -779,4 +779,6 @@ std::string chinese::Input::convert_chinese_to_pinyin(std::string chinese) const
 	return ret;
 }
 
-
+template class std::unordered_map<std::string, std::unordered_set<std::string>>;
+template class std::unordered_map<std::string, std::string>; 
+template class std::unordered_map<std::string, int>; 
