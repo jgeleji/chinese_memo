@@ -1,6 +1,6 @@
 阴天|overcast
 多云|cloudy
 刮风|windy
-下雪|snow
+下雪|snowing
 后|after
 过|cross
