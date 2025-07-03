@@ -7872,3 +7872,188 @@
 香港|xiānggǎng|hong kong|0|2|6100|fail
 香港|xiānggǎng|hong kong|0|2|6100|success
 香港|xiānggǎng|hong kong|0|2|6100|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6101|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6101|success
+时候|shíhou|when|1|0|6102|fail
+时候|shíhou|when|1|0|6102|success
+时候|shíhou|when|1|0|6102|success
+消防局|xiāofángjú|fire station|2|1|6103|fail
+消防局|xiāofángjú|fire station|2|1|6103|success
+消防局|xiāofángjú|fire station|2|1|6103|success
+玩|wán|play|1|2|6104|success
+看看|kànkàn|take a look|0|1|6105|success
+好臭|hǎochòu|smelly|0|2|6106|fail
+好臭|hǎochòu|smelly|0|2|6106|success
+好臭|hǎochòu|smelly|0|2|6106|success
+桥|qiáo|bridge|0|1|6107|success
+对面|duìmiàn|opposite|1|2|6108|fail
+对面|duìmiàn|opposite|1|2|6108|success
+对面|duìmiàn|opposite|1|2|6108|success
+教堂|jiàotáng|church|2|1|6109|fail
+教堂|jiàotáng|church|2|1|6109|success
+教堂|jiàotáng|church|2|1|6109|success
+香港|xiānggǎng|hong kong|0|2|6110|fail
+香港|xiānggǎng|hong kong|0|2|6110|success
+香港|xiānggǎng|hong kong|0|2|6110|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6111|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6111|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6111|success
+时候|shíhou|when|1|0|6112|success
+消防局|xiāofángjú|fire station|2|1|6113|fail
+消防局|xiāofángjú|fire station|2|1|6113|success
+消防局|xiāofángjú|fire station|2|1|6113|success
+碗|wǎn|bowl|2|1|6114|success
+盘|pán|plate|0|1|6115|success
+好臭|hǎochòu|smelly|0|2|6116|success
+油|yóu|oil|0|1|6117|success
+对面|duìmiàn|opposite|1|2|6118|success
+教堂|jiàotáng|church|2|1|6119|fail
+教堂|jiàotáng|church|2|1|6119|success
+教堂|jiàotáng|church|2|1|6119|success
+香港|xiānggǎng|hong kong|0|2|6120|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6121|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6121|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6121|success
+时候|shíhou|when|1|0|6122|success
+消防局|xiāofángjú|fire station|2|1|6123|success
+商丘|shāngqiū|shangqiu|2|0|6124|success
+好臭|hǎochòu|smelly|2|0|6125|success
+碗|wǎn|bowl|1|0|6126|success
+法国|fǎguó|france|2|1|6127|success
+账单|zhàngdān|bill|1|0|6128|fail
+账单|zhàngdān|bill|1|0|6128|success
+账单|zhàngdān|bill|1|0|6128|fail
+教堂|jiàotáng|church|2|1|6129|fail
+教堂|jiàotáng|church|2|1|6129|success
+教堂|jiàotáng|church|2|1|6129|success
+香港|xiānggǎng|hong kong|0|2|6130|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6131|success
+有人|yǒurén|some people|1|0|6132|success
+消防局|xiāofángjú|fire station|2|1|6133|success
+好臭|hǎochòu|smelly|0|2|6134|fail
+好臭|hǎochòu|smelly|0|2|6134|success
+好臭|hǎochòu|smelly|0|2|6134|success
+对面|duìmiàn|opposite|1|2|6135|success
+桥|qiáo|bridge|0|1|6136|success
+玩|wán|play|1|2|6137|success
+账单|zhàngdān|bill|1|0|6138|fail
+账单|zhàngdān|bill|1|0|6138|success
+账单|zhàngdān|bill|1|0|6138|success
+教堂|jiàotáng|church|2|1|6139|success
+香港|xiānggǎng|hong kong|0|2|6140|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6141|success
+时候|shíhou|when|1|0|6142|success
+消防局|xiāofángjú|fire station|2|1|6143|success
+好臭|hǎochòu|smelly|0|2|6144|fail
+好臭|hǎochòu|smelly|0|2|6144|success
+好臭|hǎochòu|smelly|0|2|6144|success
+碗|wǎn|bowl|2|1|6145|success
+牛肉干|niúròugàn|beef jerky|1|0|6146|fail
+牛肉干|niúròugàn|beef jerky|1|0|6146|success
+牛肉干|niúròugàn|beef jerky|1|0|6146|success
+三餐|sāncān|three meals|0|2|6147|fail
+三餐|sāncān|three meals|0|2|6147|success
+三餐|sāncān|three meals|0|2|6147|success
+账单|zhàngdān|bill|1|0|6148|success
+教堂|jiàotáng|church|2|1|6149|success
+香港|xiānggǎng|hong kong|0|2|6150|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6151|success
+麦片|màipiàn|cereal|1|2|6152|fail
+麦片|màipiàn|cereal|1|2|6152|success
+麦片|màipiàn|cereal|1|2|6152|success
+消防局|xiāofángjú|fire station|2|1|6153|success
+好臭|hǎochòu|smelly|0|2|6154|success
+幸福|xìngfú|happiness|2|1|6155|fail
+幸福|xìngfú|happiness|2|1|6155|success
+幸福|xìngfú|happiness|2|1|6155|success
+牛肉干|niúròugàn|beef jerky|1|0|6156|success
+三餐|sāncān|three meals|0|2|6157|success
+账单|zhàngdān|bill|1|0|6158|success
+教堂|jiàotáng|church|2|1|6159|success
+面包|miànbāo|bread|1|2|6160|fail
+面条|miàntiáo|noodles|2|1|6160|fail
+面包|miànbāo|bread|1|2|6160|success
+面包|miànbāo|bread|1|2|6160|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6161|success
+面条|miàntiáo|noodles|2|1|6162|success
+消防局|xiāofángjú|fire station|2|1|6163|success
+好臭|hǎochòu|smelly|0|2|6164|success
+麦片|màipiàn|cereal|1|2|6165|fail
+麦片|màipiàn|cereal|1|2|6165|success
+麦片|màipiàn|cereal|1|2|6165|success
+幸福|xìngfú|happiness|2|1|6166|success
+香港|xiānggǎng|hong kong|0|2|6167|success
+账单|zhàngdān|bill|1|0|6168|success
+教堂|jiàotáng|church|2|1|6169|success
+面包|miànbāo|bread|1|2|6170|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6171|success
+面条|miàntiáo|noodles|2|1|6172|success
+消防局|xiāofángjú|fire station|2|1|6173|success
+好臭|hǎochòu|smelly|0|2|6174|success
+麦片|màipiàn|cereal|1|2|6175|success
+三餐|sāncān|three meals|0|2|6176|success
+牛肉干|niúròugàn|beef jerky|1|0|6177|success
+账单|zhàngdān|bill|1|0|6178|success
+教堂|jiàotáng|church|2|1|6179|success
+对面|duìmiàn|opposite|1|2|6180|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6181|success
+时候|shíhou|when|1|0|6182|success
+消防局|xiāofángjú|fire station|2|1|6183|success
+好臭|hǎochòu|smelly|0|2|6184|success
+麦片|màipiàn|cereal|1|2|6185|success
+幸福|xìngfú|happiness|2|1|6186|success
+面包|miànbāo|bread|1|2|6187|success
+账单|zhàngdān|bill|1|0|6188|success
+教堂|jiàotáng|church|2|1|6189|success
+面条|miàntiáo|noodles|2|1|6190|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6191|success
+面包|miànbāo|bread|2|1|6192|success
+超市|chāoshì|supermarket|0|2|6193|fail
+超市|chāoshì|supermarket|0|2|6193|success
+超市|chāoshì|supermarket|0|2|6193|success
+好臭|hǎochòu|smelly|0|2|6194|success
+麦片|màipiàn|cereal|1|2|6195|success
+香港|xiānggǎng|hong kong|0|2|6196|success
+饺子|jiǎozi|dumpling|2|1|6197|success
+账单|zhàngdān|bill|1|0|6198|success
+教堂|jiàotáng|church|2|1|6199|success
+消防局|xiāofángjú|fire station|2|1|6200|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6201|success
+好臭|hǎochòu|smelly|1|2|6202|success
+超市|chāoshì|supermarket|0|2|6203|success
+好臭|hǎochòu|smelly|0|2|6204|success
+麦片|màipiàn|cereal|1|2|6205|success
+三餐|sāncān|three meals|0|2|6206|success
+牛肉干|niúròugàn|beef jerky|1|0|6207|success
+账单|zhàngdān|bill|1|0|6208|success
+歌剧院|gējùyuàn|opera|1|2|6209|fail
+歌剧院|gējùyuàn|opera|1|2|6209|success
+歌剧院|gējùyuàn|opera|1|2|6209|success
+粉色|fěnsè|pink|1|2|6210|fail
+粉色|fěnsè|pink|1|2|6210|success
+粉色|fěnsè|pink|1|2|6210|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|2|6211|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6212|fail
+面包|miànbāo|bread|2|0|6212|fail
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6212|fail
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6212|success
+面包|miànbāo|bread|2|0|6213|success
+加|jiā|add something|1|2|6214|success
+幸福|xìngfú|happiness|2|1|6215|success
+教堂|jiàotáng|church|2|1|6216|success
+面包|miànbāo|bread|1|2|6217|success
+账单|zhàngdān|bill|1|0|6218|success
+歌剧院|gējùyuàn|opera|1|2|6219|success
+粉色|fěnsè|pink|1|2|6220|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6222|success
+面包|miànbāo|bread|2|0|6223|success
+麦片|màipiàn|cereal|1|2|6224|success
+好臭|hǎochòu|smelly|0|2|6225|success
+面条|miàntiáo|noodles|2|1|6226|success
+米饭|mǐfàn|cooked rice|2|1|6227|success
+账单|zhàngdān|bill|1|0|6228|success
+消防局|xiāofángjú|fire station|2|1|6229|success
+桥|qiáo|bridge|1|2|6230|success
+机场|jīchǎng|airport|0|1|6231|fail
+机场|jīchǎng|airport|0|1|6231|success
+机场|jīchǎng|airport|0|1|6231|success
