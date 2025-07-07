@@ -8057,3 +8057,87 @@
 机场|jīchǎng|airport|0|1|6231|fail
 机场|jīchǎng|airport|0|1|6231|success
 机场|jīchǎng|airport|0|1|6231|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6232|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6232|success
+面包|miànbāo|bread|2|0|6233|success
+超市|chāoshì|supermarket|0|2|6234|fail
+超市|chāoshì|supermarket|0|2|6234|success
+超市|chāoshì|supermarket|0|2|6234|success
+坐|zuò|take|1|0|6235|success
+歌剧院|gējùyuàn|opera|1|2|6236|fail
+歌剧院|gējùyuàn|opera|1|2|6236|success
+歌剧院|gējùyuàn|opera|1|2|6236|success
+粉色|fěnsè|pink|1|2|6237|fail
+粉色|fěnsè|pink|1|2|6237|success
+粉色|fěnsè|pink|1|2|6237|success
+账单|zhàngdān|bill|1|0|6238|success
+收到|shōudào|receive|0|1|6239|fail
+收到|shōudào|receive|0|1|6239|fail
+收到|shōudào|receive|0|1|6239|success
+没意思|méiyìsī|boring|1|2|6240|fail
+没意思|méiyìsī|boring|1|2|6240|success
+没意思|méiyìsī|boring|1|2|6240|success
+机场|jīchǎng|airport|0|1|6241|fail
+机场|jīchǎng|airport|0|1|6241|fail
+机场|jīchǎng|airport|0|1|6241|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6242|success
+千米|qiānmǐ|kilometre|1|2|6243|fail
+千米|qiānmǐ|kilometre|1|2|6243|success
+千米|qiānmǐ|kilometre|1|2|6243|success
+超市|chāoshì|supermarket|0|2|6244|success
+教堂|jiàotáng|church|2|1|6245|success
+歌剧院|gējùyuàn|opera|1|2|6246|success
+粉色|fěnsè|pink|1|2|6247|success
+坐地铁|zuòdetiě|take subway|0|1|6248|fail
+收到|shōudào|receive|0|1|6249|success
+收到|shōudào|receive|0|1|6249|success
+没意思|méiyìsī|boring|1|2|6250|fail
+没意思|méiyìsī|boring|1|2|6250|success
+没意思|méiyìsī|boring|1|2|6250|success
+机场|jīchǎng|airport|0|1|6251|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6252|success
+千米|qiānmǐ|kilometre|1|2|6253|success
+超市|chāoshì|supermarket|0|2|6254|success
+面包|miànbāo|bread|2|0|6255|success
+歌剧院|gējùyuàn|opera|1|2|6256|success
+粉色|fěnsè|pink|1|2|6257|success
+坐地铁|zuòdetiě|take subway|0|1|6258|success
+收到|shōudào|receive|0|1|6259|success
+没意思|méiyìsī|boring|1|2|6260|success
+机场|jīchǎng|airport|0|1|6261|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6262|success
+账单|zhàngdān|bill|1|0|6263|success
+超市|chāoshì|supermarket|0|2|6264|success
+麦片|màipiàn|cereal|1|2|6265|success
+歌剧院|gējùyuàn|opera|1|2|6266|success
+粉色|fěnsè|pink|1|2|6267|success
+坐地铁|zuòdetiě|take subway|0|1|6268|success
+收到|shōudào|receive|0|1|6269|success
+没意思|méiyìsī|boring|1|2|6270|success
+机场|jīchǎng|airport|0|1|6271|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6272|success
+千米|qiānmǐ|kilometre|1|2|6273|success
+好臭|hǎochòu|smelly|0|2|6274|success
+龙|lóng|dragon|1|2|6275|success
+多大年纪|duōdàniánjì|how old (older)|1|0|6276|fail
+多大年纪|duōdàniánjì|how old (older)|1|0|6276|success
+多大年纪|duōdàniánjì|how old (older)|1|0|6276|success
+加油站|jiāyóuzhàn|gas station|0|1|6277|success
+坐地铁|zuòdetiě|take subway|0|1|6278|success
+收到|shōudào|receive|0|1|6279|success
+没意思|méiyìsī|boring|1|2|6280|success
+机场|jīchǎng|airport|0|1|6281|success
+超市|chāoshì|supermarket|0|2|6282|success
+歌剧院|gējùyuàn|opera|1|2|6283|success
+粉色|fěnsè|pink|1|2|6284|success
+面包|miànbāo|bread|2|0|6285|success
+多大年纪|duōdàniánjì|how old (older)|1|0|6286|success
+鸡蛋|jīdàn|egg|1|2|6287|success
+一个人|yīgèrén|alone|1|2|6288|fail
+一个人|yīgèrén|alone|1|2|6288|success
+一个人|yīgèrén|alone|1|2|6288|success
+收到|shōudào|receive|0|1|6289|success
+没意思|méiyìsī|boring|1|2|6290|success
+机场|jīchǎng|airport|0|1|6291|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6292|success
+账单|zhàngdān|bill|1|0|6293|success
