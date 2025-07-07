@@ -1,5 +1,5 @@
 千米|kilometre
-坐地铁|take subway
+坐地铁|take subway|zuòdìtiě
 多长时间|how long
 请假|request leave
 办公室|office
