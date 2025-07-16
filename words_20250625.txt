@@ -10,5 +10,5 @@
 麦片|cereal
 哪里|there
 糖|sugar
-蘋果汁|apple juice
+苹果汁|apple juice
 橙汁|orange juice
