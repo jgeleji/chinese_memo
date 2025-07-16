@@ -8141,3 +8141,723 @@
 机场|jīchǎng|airport|0|1|6291|success
 面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6292|success
 账单|zhàngdān|bill|1|0|6293|success
+坐地铁|zuòdìtiě|take subway|0|1|6295|success
+杏子|xìngzi|apricot|2|0|6296|fail
+杏子|xìngzi|apricot|2|0|6296|success
+杏子|xìngzi|apricot|2|0|6296|success
+同学|tóngxué|classmate|0|2|6297|fail
+同学|tóngxué|classmate|0|2|6297|success
+同学|tóngxué|classmate|0|2|6297|success
+一个人|yīgèrén|alone|1|2|6298|fail
+一个人|yīgèrén|alone|1|2|6298|success
+一个人|yīgèrén|alone|1|2|6298|success
+收到|shōudào|receive|0|1|6299|fail
+收到|shōudào|receive|0|1|6299|success
+收到|shōudào|receive|0|1|6299|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6300|fail
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6300|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6300|success
+机场|jīchǎng|airport|0|1|6301|success
+千米|qiānmǐ|kilometre|1|2|6302|fail
+千米|qiānmǐ|kilometre|1|2|6302|success
+千米|qiānmǐ|kilometre|1|2|6302|success
+多大年纪|duōdàniánjì|how old (older)|1|0|6303|success
+问题|wèntí|question|2|0|6304|fail
+问题|wèntí|question|2|0|6304|success
+问题|wèntí|question|2|0|6304|success
+点菜|diǎncài|order dish|1|2|6305|success
+杏子|xìngzi|apricot|2|0|6306|success
+同学|tóngxué|classmate|0|2|6307|success
+一个人|yīgèrén|alone|1|2|6308|success
+收到|shōudào|receive|0|1|6309|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6310|success
+机场|jīchǎng|airport|0|1|6311|success
+千米|qiānmǐ|kilometre|1|2|6312|success
+没意思|méiyìsī|boring|1|2|6313|success
+问题|wèntí|question|2|0|6314|success
+歌剧院|gējùyuàn|opera|1|2|6315|success
+粉色|fěnsè|pink|1|2|6316|success
+超市|chāoshì|supermarket|0|2|6317|success
+一个人|yīgèrén|alone|1|2|6318|success
+收到|shōudào|receive|0|1|6319|success
+上海|shànghǎi|shanghai|0|2|6320|success
+机场|jīchǎng|airport|0|1|6321|fail
+机场|jīchǎng|airport|0|1|6321|success
+机场|jīchǎng|airport|0|1|6321|success
+千米|qiānmǐ|kilometre|1|2|6322|success
+杏子|xìngzi|apricot|2|0|6323|success
+同学|tóngxué|classmate|0|2|6324|success
+坐地铁|zuòdìtiě|take subway|0|1|6325|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6326|fail
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6326|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6326|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6327|success
+一个人|yīgèrén|alone|1|2|6328|success
+收到|shōudào|receive|0|1|6329|success
+警察局|jǐngchájú|police station|1|2|6330|fail
+警察局|jǐngchájú|police station|1|2|6330|success
+警察局|jǐngchájú|police station|1|2|6330|success
+机场|jīchǎng|airport|0|1|6331|success
+问题|wèntí|question|2|0|6332|success
+多大年纪|duōdàniánjì|how old (older)|1|0|6333|success
+食堂|shítáng|canteen|1|2|6334|fail
+食堂|shítáng|canteen|1|2|6334|success
+食堂|shítáng|canteen|1|2|6334|success
+汉字|hànzì|chinese character|2|0|6335|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6336|success
+百合|bǎihé|lily|2|0|6337|fail
+百合|bǎihé|lily|2|0|6337|fail
+百合|bǎihé|lily|2|0|6337|success
+一个人|yīgèrén|alone|1|2|6338|success
+收到|shōudào|receive|0|1|6339|success
+警察局|jǐngchájú|police station|1|2|6340|success
+机场|jīchǎng|airport|0|1|6341|success
+千米|qiānmǐ|kilometre|1|2|6342|success
+没意思|méiyìsī|boring|1|2|6343|success
+食堂|shítáng|canteen|1|2|6344|success
+富人|fùrén|rich person|1|2|6345|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6346|success
+百合|bǎihé|lily|2|0|6347|success
+广州|guǎngzhōu|guangzhou|1|2|6348|fail
+广州|guǎngzhōu|guangzhou|1|2|6348|success
+广州|guǎngzhōu|guangzhou|1|2|6348|success
+越来越|yuèláiyuè|gradually|1|0|6349|success
+培根|péigēn|bacon|2|1|6350|fail
+培根|péigēn|bacon|2|1|6350|success
+培根|péigēn|bacon|2|1|6350|success
+机场|jīchǎng|airport|0|1|6351|success
+杏子|xìngzi|apricot|2|0|6352|success
+同学|tóngxué|classmate|0|2|6353|success
+彩虹|cǎihóng|rainbow|2|0|6354|fail
+收到|shōudào|receive|0|1|6356|success
+百合|bǎihé|lily|2|0|6357|success
+广州|guǎngzhōu|guangzhou|1|2|6358|success
+警察局|jǐngchájú|police station|1|2|6359|fail
+警察局|jǐngchájú|police station|1|2|6359|success
+警察局|jǐngchájú|police station|1|2|6359|success
+培根|péigēn|bacon|2|1|6360|fail
+培根|péigēn|bacon|2|1|6360|success
+培根|péigēn|bacon|2|1|6360|success
+机场|jīchǎng|airport|0|1|6361|fail
+机场|jīchǎng|airport|0|1|6361|success
+机场|jīchǎng|airport|0|1|6361|success
+食堂|shítáng|canteen|1|2|6362|fail
+食堂|shítáng|canteen|1|2|6362|success
+食堂|shítáng|canteen|1|2|6362|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6363|success
+彩虹|cǎihóng|rainbow|2|0|6364|fail
+彩虹|cǎihóng|rainbow|2|0|6364|success
+彩虹|cǎihóng|rainbow|2|0|6364|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6365|fail
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6365|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6365|success
+问题|wèntí|question|2|0|6366|success
+百合|bǎihé|lily|2|0|6367|success
+北京|běijīng|beijing|1|0|6368|success
+警察局|jǐngchájú|police station|1|2|6369|success
+培根|péigēn|bacon|2|1|6370|success
+机场|jīchǎng|airport|0|1|6371|success
+食堂|shítáng|canteen|1|2|6372|success
+千米|qiānmǐ|kilometre|1|2|6373|success
+彩虹|cǎihóng|rainbow|2|0|6374|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6375|success
+广州|guǎngzhōu|guangzhou|1|2|6376|success
+百合|bǎihé|lily|2|0|6377|success
+糖|táng|sugar|2|1|6378|fail
+糖|táng|sugar|2|1|6378|success
+糖|táng|sugar|2|1|6378|success
+警察局|jǐngchájú|police station|1|2|6379|success
+培根|péigēn|bacon|2|1|6380|success
+机场|jīchǎng|airport|0|1|6381|success
+食堂|shítáng|canteen|1|2|6382|success
+看见|kànjiàn|see|1|0|6383|fail
+看见|kànjiàn|see|1|0|6383|success
+看见|kànjiàn|see|1|0|6383|success
+彩虹|cǎihóng|rainbow|2|0|6384|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6385|success
+一个人|yīgèrén|alone|1|2|6386|success
+百合|bǎihé|lily|2|0|6387|success
+糖|táng|sugar|2|1|6388|success
+警察局|jǐngchájú|police station|1|2|6389|success
+培根|péigēn|bacon|2|1|6390|success
+机场|jīchǎng|airport|0|1|6391|success
+食堂|shítáng|canteen|1|2|6392|success
+看见|kànjiàn|see|1|0|6393|success
+彩虹|cǎihóng|rainbow|2|0|6394|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|2|6395|success
+收到|shōudào|receive|0|1|6396|success
+百合|bǎihé|lily|2|0|6397|success
+蓝色|lánsè|blue|0|1|6398|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6399|fail
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6399|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6399|success
+培根|péigēn|bacon|2|1|6400|success
+机场|jīchǎng|airport|0|1|6401|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6402|success
+土豆泥|tǔdòuní|mashed potato|0|1|6403|success
+彩虹|cǎihóng|rainbow|2|0|6404|success
+糖|táng|sugar|2|1|6405|fail
+糖|táng|sugar|2|1|6405|success
+糖|táng|sugar|2|1|6405|success
+警察局|jǐngchájú|police station|1|2|6406|success
+百合|bǎihé|lily|2|0|6407|success
+广州|guǎngzhōu|guangzhou|1|2|6408|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6409|fail
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6409|fail
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6409|success
+看见|kànjiàn|see|1|0|6410|success
+机场|jīchǎng|airport|0|1|6411|success
+食堂|shítáng|canteen|1|2|6412|success
+豆浆|dòujiāng|soy milk|0|2|6413|fail
+豆浆|dòujiāng|soy milk|0|2|6413|success
+豆浆|dòujiāng|soy milk|0|2|6413|fail
+彩虹|cǎihóng|rainbow|2|0|6414|success
+糖|táng|sugar|2|1|6415|success
+腿|tuǐ|leg|1|2|6416|fail
+腿|tuǐ|leg|1|2|6416|success
+腿|tuǐ|leg|1|2|6416|success
+培根|péigēn|bacon|2|1|6417|success
+重要|zhòngyào|important|1|2|6418|fail
+重要|zhòngyào|important|1|2|6418|success
+重要|zhòngyào|important|1|2|6418|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6419|success
+交响曲|jiāoxiǎngqū|symphony|2|1|6420|fail
+交响曲|jiāoxiǎngqū|symphony|2|1|6420|success
+交响曲|jiāoxiǎngqū|symphony|2|1|6420|success
+机场|jīchǎng|airport|0|1|6421|success
+筷子|kuàizi|chopstick|1|2|6422|success
+豆浆|dòujiāng|soy milk|0|2|6423|success
+彩虹|cǎihóng|rainbow|2|0|6424|success
+糖|táng|sugar|2|1|6425|success
+腿|tuǐ|leg|1|2|6426|success
+百合|bǎihé|lily|2|0|6427|success
+重要|zhòngyào|important|1|2|6428|fail
+重要|zhòngyào|important|1|2|6428|success
+重要|zhòngyào|important|1|2|6428|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6429|success
+交响曲|jiāoxiǎngqū|symphony|2|1|6430|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|1|6431|success
+生菜|shēngcài|stranger|0|2|6432|success
+豆浆|dòujiāng|soy milk|0|2|6433|success
+彩虹|cǎihóng|rainbow|2|1|6434|success
+糖|táng|sugar|2|1|6435|success
+警察局|jǐngchájú|police station|1|2|6436|success
+绿灯|lǜdēng|green|2|0|6437|fail
+绿灯|lǜdēng|green|2|0|6437|success
+绿灯|lǜdēng|green|2|0|6437|success
+重要|zhòngyào|important|1|2|6438|fail
+重要|zhòngyào|important|1|2|6438|success
+重要|zhòngyào|important|1|2|6438|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6439|fail
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6439|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6439|success
+机场|jīchǎng|airport|0|1|6440|success
+彩虹|cǎihóng|rainbow|2|0|6441|success
+看见|kànjiàn|see|1|0|6442|success
+豆浆|dòujiāng|soy milk|0|2|6443|success
+腿|tuǐ|leg|1|2|6444|success
+食堂|shítáng|canteen|1|2|6445|success
+培根|péigēn|bacon|2|1|6446|success
+绿灯|lǜdēng|green|2|0|6447|success
+重要|zhòngyào|important|1|2|6448|fail
+重要|zhòngyào|important|1|2|6448|success
+重要|zhòngyào|important|1|2|6448|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6449|fail
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6449|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6449|success
+交响曲|jiāoxiǎngqū|symphony|2|1|6450|success
+上个周末|shànggèzhōumò|last weekend|0|2|6451|fail
+上个周末|shànggèzhōumò|last weekend|0|2|6451|success
+上个周末|shànggèzhōumò|last weekend|0|2|6451|success
+糖|táng|sugar|2|1|6452|success
+豆浆|dòujiāng|soy milk|0|2|6453|success
+炖肉|dùnròu|stew|0|2|6454|fail
+炖肉|dùnròu|stew|0|2|6454|success
+炖肉|dùnròu|stew|0|2|6454|success
+白色|báisè|white|2|0|6455|success
+百合|bǎihé|lily|2|0|6456|success
+账单|zhàngdān|bill|0|2|6457|success
+重要|zhòngyào|important|1|2|6458|fail
+重要|zhòngyào|important|1|2|6458|success
+重要|zhòngyào|important|1|2|6458|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6459|success
+有的|yǒude|some|2|0|6460|success
+上个周末|shànggèzhōumò|last weekend|0|2|6461|success
+重|zhòng|heavy|2|1|6462|fail
+重|zhòng|heavy|2|1|6462|success
+重|zhòng|heavy|2|1|6462|success
+豆浆|dòujiāng|soy milk|0|2|6463|success
+炖肉|dùnròu|stew|0|2|6464|success
+绿灯|lǜdēng|green|2|0|6465|success
+芝士面包|zhīshìmiànbāo|cheese bread|0|1|6466|fail
+芝士面包|zhīshìmiànbāo|cheese bread|0|1|6466|success
+芝士面包|zhīshìmiànbāo|cheese bread|0|1|6466|success
+有的|yǒude|some|1|0|6467|success
+重要|zhòngyào|important|1|2|6468|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6469|success
+彩虹|cǎihóng|rainbow|2|0|6470|success
+机场|jīchǎng|airport|0|1|6471|success
+重|zhòng|heavy|2|1|6472|success
+豆浆|dòujiāng|soy milk|0|2|6473|success
+腿|tuǐ|leg|1|2|6474|success
+累|lèi|tired|1|2|6475|success
+芝士面包|zhīshìmiànbāo|cheese bread|0|1|6476|success
+公交车|gōngjiāochē|bus|1|0|6477|fail
+公交车|gōngjiāochē|bus|1|0|6477|success
+公交车|gōngjiāochē|bus|1|0|6477|success
+重要|zhòngyào|important|1|2|6478|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6479|success
+上个周末|shànggèzhōumò|last weekend|0|2|6480|success
+炖肉|dùnròu|stew|0|2|6481|success
+交响曲|jiāoxiǎngqū|symphony|2|1|6482|success
+豆浆|dòujiāng|soy milk|0|2|6483|success
+糖|táng|sugar|2|1|6484|success
+黄油|huángyóu|butter|0|1|6485|fail
+黄油|huángyóu|butter|0|1|6485|success
+黄油|huángyóu|butter|0|1|6485|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6486|fail
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6486|fail
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6486|success
+公交车|gōngjiāochē|bus|1|0|6487|fail
+公交车|gōngjiāochē|bus|1|0|6487|success
+公交车|gōngjiāochē|bus|1|0|6487|success
+重要|zhòngyào|important|1|2|6488|fail
+重要|zhòngyào|important|1|2|6488|success
+重要|zhòngyào|important|1|2|6488|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6489|success
+重|zhòng|heavy|2|1|6490|success
+份|fèn|portion|0|1|6491|fail
+份|fèn|portion|0|1|6491|success
+份|fèn|portion|0|1|6491|success
+近|jìn|near|2|1|6492|fail
+坐|zuò|sit|1|2|6492|fail
+近|jìn|near|2|1|6492|success
+近|jìn|near|2|1|6492|success
+坐|zuò|sit|1|2|6493|success
+芝士面包|zhīshìmiànbāo|cheese bread|0|1|6494|success
+黄油|huángyóu|butter|0|1|6495|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6496|fail
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6496|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6496|success
+公交车|gōngjiāochē|bus|1|0|6497|success
+重要|zhòngyào|important|1|2|6498|fail
+重要|zhòngyào|important|1|2|6498|success
+重要|zhòngyào|important|1|2|6498|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6499|success
+豆浆|dòujiāng|soy milk|0|2|6500|success
+份|fèn|portion|0|1|6501|success
+近|jìn|near|2|1|6502|success
+坐|zuò|sit|1|2|6503|success
+绿灯|lǜdēng|green|2|0|6504|success
+动物园|dòngwùyuán|zoo|0|1|6505|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6506|success
+公交车|gōngjiāochē|bus|1|0|6507|success
+重要|zhòngyào|important|1|2|6508|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6509|success
+炖肉|dùnròu|stew|0|2|6510|success
+上个周末|shànggèzhōumò|last weekend|0|2|6511|success
+黄油|huángyóu|butter|0|1|6512|success
+远|yuǎn|far|1|0|6513|success
+日本|rìběn|japan|1|0|6514|success
+三餐|sāncān|three meals|0|1|6515|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6516|success
+公交车|gōngjiāochē|bus|1|0|6517|success
+重要|zhòngyào|important|1|2|6518|fail
+重要|zhòngyào|important|1|2|6518|success
+重要|zhòngyào|important|1|2|6518|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6519|success
+份|fèn|portion|0|1|6520|success
+近|jìn|near|2|1|6521|success
+坐|zuò|sit|1|2|6522|success
+重|zhòng|heavy|2|1|6523|success
+芝士面包|zhīshìmiànbāo|cheese bread|0|1|6524|success
+红烧肉|hóngshāoròu|braised pork|2|1|6525|fail
+红烧肉|hóngshāoròu|braised pork|2|1|6525|success
+红烧肉|hóngshāoròu|braised pork|2|1|6525|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6526|success
+公交车|gōngjiāochē|bus|1|0|6527|success
+重要|zhòngyào|important|1|2|6528|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6529|success
+豆浆|dòujiāng|soy milk|0|2|6530|success
+奶酪|nǎilào|cheese|0|1|6531|success
+告诉|gàosù|tell|2|1|6532|fail
+告诉|gàosù|tell|2|1|6532|success
+告诉|gàosù|tell|2|1|6532|success
+问题|wèntí|question|0|1|6533|fail
+起床|qǐchuáng|get up|1|0|6533|fail
+问题|wèntí|question|0|1|6533|success
+问题|wèntí|question|0|1|6533|success
+起床|qǐchuáng|get up|1|0|6534|fail
+起床|qǐchuáng|get up|1|0|6534|success
+起床|qǐchuáng|get up|1|0|6534|success
+红烧肉|hóngshāoròu|braised pork|2|1|6535|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6536|success
+学校|xuéxiào|school|0|1|6537|success
+重要|zhòngyào|important|1|2|6538|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6539|success
+果汁|guǒzhī|fruit juice|1|2|6540|fail
+果汁|guǒzhī|fruit juice|1|2|6540|success
+果汁|guǒzhī|fruit juice|1|2|6540|success
+黄油|huángyóu|butter|0|1|6541|success
+告诉|gàosù|tell|2|1|6542|success
+问题|wèntí|question|0|1|6543|fail
+问题|wèntí|question|0|1|6543|success
+问题|wèntí|question|0|1|6543|success
+起床|qǐchuáng|get up|1|0|6544|success
+公交车|gōngjiāochē|bus|1|0|6545|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6546|success
+点|diǎn|point out|0|2|6547|success
+重要|zhòngyào|important|1|2|6548|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6549|success
+果汁|guǒzhī|fruit juice|1|2|6550|success
+近|jìn|near|2|1|6551|success
+红烧肉|hóngshāoròu|braised pork|2|1|6552|success
+问题|wèntí|question|0|1|6553|success
+起床|qǐchuáng|get up|1|0|6554|success
+份|fèn|portion|0|1|6555|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6556|success
+坐|zuò|sit|1|2|6557|success
+重要|zhòngyào|important|1|2|6558|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6559|success
+告诉|gàosù|tell|2|1|6560|success
+盘|pán|plate|1|2|6561|fail
+盘|pán|plate|1|2|6561|success
+盘|pán|plate|1|2|6561|success
+问题|wèntí|question|0|1|6563|success
+起床|qǐchuáng|get up|1|0|6564|success
+碗|wǎn|bowl|1|0|6565|fail
+碗|wǎn|bowl|1|0|6565|fail
+碗|wǎn|bowl|1|0|6565|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6566|success
+果汁|guǒzhī|fruit juice|1|2|6567|success
+重要|zhòngyào|important|1|2|6568|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6569|success
+滑冰|huábīng|skate|0|2|6570|fail
+滑冰|huábīng|skate|0|2|6570|success
+滑冰|huábīng|skate|0|2|6570|success
+盘|pán|plate|1|2|6571|success
+叫|jiào|called|2|1|6572|success
+问题|wèntí|question|0|1|6573|success
+起床|qǐchuáng|get up|1|0|6574|success
+碗|wǎn|bowl|1|0|6575|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6576|success
+公交车|gōngjiāochē|bus|1|0|6577|success
+重要|zhòngyào|important|1|2|6578|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6579|success
+滑冰|huábīng|skate|0|2|6580|success
+红烧肉|hóngshāoròu|braised pork|2|1|6581|success
+课|kè|class|2|0|6582|fail
+课|kè|class|2|0|6582|success
+课|kè|class|2|0|6582|success
+起床|qǐchuáng|get up|1|0|6584|success
+碗|wǎn|bowl|1|0|6585|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6586|success
+一个人|yīgèrén|alone|1|2|6587|success
+重要|zhòngyào|important|1|2|6588|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6589|success
+盘|pán|plate|1|2|6590|success
+告诉|gàosù|tell|2|1|6591|success
+课|kè|class|2|0|6592|success
+叫|jiào|called|2|0|6593|success
+燕麦粥|yànmàizhōu|oatmeal|2|1|6594|success
+碗|wǎn|bowl|1|0|6595|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6596|success
+滑冰|huábīng|skate|0|2|6597|success
+重要|zhòngyào|important|1|2|6598|success
+果汁|guǒzhī|fruit juice|1|2|6599|success
+问题|wèntí|question|0|1|6600|success
+起床|qǐchuáng|get up|1|0|6601|success
+有一点|yǒuyīdiǎn|a bit|2|0|6602|success
+周一|zhōuyī|monday|1|0|6603|fail
+周一|zhōuyī|monday|1|0|6603|success
+周一|zhōuyī|monday|1|0|6603|success
+送给|sònggěi|give to|2|0|6604|fail
+送给|sònggěi|give to|2|0|6604|success
+送给|sònggěi|give to|2|0|6604|success
+碗|wǎn|bowl|1|0|6605|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6606|success
+问题|wèntí|question|0|2|6607|fail
+问题|wèntí|question|0|2|6607|success
+问题|wèntí|question|0|2|6607|success
+重要|zhòngyào|important|1|2|6608|success
+课|kè|class|2|0|6609|success
+杏子|xìngzi|apricot|2|1|6610|success
+船|chuán|ship|0|1|6611|fail
+船|chuán|ship|0|1|6611|success
+船|chuán|ship|0|1|6611|success
+左立|zuǒlì|zuoli name|1|2|6612|fail
+左立|zuǒlì|zuoli name|1|2|6612|success
+左立|zuǒlì|zuoli name|1|2|6612|success
+周一|zhōuyī|monday|1|0|6613|success
+送给|sònggěi|give to|2|0|6614|success
+碗|wǎn|bowl|1|0|6615|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6616|success
+问题|wèntí|question|0|2|6617|success
+重要|zhòngyào|important|1|2|6618|success
+盘|pán|plate|1|2|6619|fail
+盘|pán|plate|1|2|6619|success
+盘|pán|plate|1|2|6619|success
+桥|qiáo|bridge|1|0|6620|fail
+桥|qiáo|bridge|1|0|6620|success
+桥|qiáo|bridge|1|0|6620|success
+船|chuán|ship|0|1|6621|fail
+船|chuán|ship|0|1|6621|success
+船|chuán|ship|0|1|6621|success
+左立|zuǒlì|zuoli name|1|2|6622|fail
+左立|zuǒlì|zuoli name|1|2|6622|success
+左立|zuǒlì|zuoli name|1|2|6622|success
+生菜|shēngcài|lettuce|1|0|6623|success
+匈牙利|xiōngyálì|hungary|2|0|6624|fail
+匈牙利|xiōngyálì|hungary|2|0|6624|success
+匈牙利|xiōngyálì|hungary|2|0|6624|success
+碗|wǎn|bowl|1|0|6625|success
+滑冰|huábīng|skate|0|2|6626|success
+有的|yǒude|some|1|2|6627|fail
+有的|yǒude|some|1|2|6627|success
+有的|yǒude|some|1|2|6627|success
+重要|zhòngyào|important|1|2|6628|success
+盘|pán|plate|1|2|6629|success
+桥|qiáo|bridge|1|0|6630|success
+船|chuán|ship|0|1|6631|success
+左立|zuǒlì|zuoli name|1|2|6632|success
+送给|sònggěi|give to|2|0|6633|success
+匈牙利|xiōngyálì|hungary|2|0|6634|success
+问题|wèntí|question|0|2|6635|success
+周一|zhōuyī|monday|1|0|6636|success
+有的|yǒude|some|1|2|6637|success
+重要|zhòngyào|important|1|2|6638|success
+盘|pán|plate|1|2|6639|success
+课|kè|class|2|0|6640|success
+船|chuán|ship|0|1|6641|success
+左立|zuǒlì|zuoli name|1|2|6642|success
+碗|wǎn|bowl|1|0|6643|success
+问题|wèntí|question|0|1|6644|success
+盖勒赫山|gàilēihèshān|gellért hill|1|2|6645|success
+起床|qǐchuáng|get up|1|0|6646|success
+桥|qiáo|bridge|1|0|6647|success
+重要|zhòngyào|important|1|2|6648|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6649|fail
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6649|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6649|success
+莲藕|liánǒu|lotus root|2|0|6650|fail
+莲藕|liánǒu|lotus root|2|0|6650|success
+莲藕|liánǒu|lotus root|2|0|6650|success
+船|chuán|ship|0|1|6651|success
+左立|zuǒlì|zuoli name|1|2|6652|success
+匈牙利|xiōngyálì|hungary|2|0|6653|success
+有的|yǒude|some|1|2|6654|success
+奥地利|àodelì|austria|2|0|6655|success
+奥地利|àodelì|austria|2|0|6655|success
+盘|pán|plate|1|2|6656|success
+酒|jiǔ|alcohol|1|0|6657|success
+重要|zhòngyào|important|1|2|6658|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6659|success
+莲藕|liánǒu|lotus root|2|0|6660|success
+船|chuán|ship|0|1|6661|success
+左立|zuǒlì|zuoli name|1|2|6662|success
+送给|sònggěi|give to|2|0|6663|success
+问题|wèntí|question|0|2|6664|fail
+问题|wèntí|question|0|2|6664|success
+问题|wèntí|question|0|2|6664|success
+奥地利|àodelì|austria|2|0|6665|success
+周一|zhōuyī|monday|1|0|6666|success
+瓶|píng|m.w.bottle|2|0|6667|fail
+瓶|píng|m.w.bottle|2|0|6667|success
+瓶|píng|m.w.bottle|2|0|6667|success
+黑色|hēisè|black|1|0|6668|success
+蛇|shé|snake|1|0|6670|success
+工作|gōngzuò|work|1|0|6671|success
+碗|wǎn|bowl|1|0|6672|success
+问题|wèntí|question|0|1|6673|success
+问题|wèntí|question|0|2|6674|success
+重要|zhòngyào|important|1|2|6675|success
+桥|qiáo|bridge|1|0|6676|success
+瓶|píng|m.w.bottle|2|0|6677|success
+莲藕|liánǒu|lotus root|2|0|6678|success
+左立|zuǒlì|zuoli name|1|2|6679|success
+船|chuán|ship|0|1|6680|success
+金色|jīnsè|golden color|1|2|6681|fail
+金色|jīnsè|golden color|1|2|6681|success
+金色|jīnsè|golden color|1|2|6681|success
+匈牙利|xiōngyálì|hungary|2|0|6682|success
+有的|yǒude|some|1|2|6683|success
+问题|wèntí|question|0|2|6684|success
+盘|pán|plate|1|2|6685|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6686|success
+梅子|méizi|plum|2|0|6687|fail
+梅子|méizi|plum|2|0|6687|success
+梅子|méizi|plum|2|0|6687|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6688|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6688|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6688|success
+就|jiù|just|0|1|6689|fail
+就|jiù|just|0|1|6689|success
+就|jiù|just|0|1|6689|success
+莲子|liánzi|lotus seed|0|2|6690|fail
+莲子|liánzi|lotus seed|0|2|6690|success
+莲子|liánzi|lotus seed|0|2|6690|success
+金色|jīnsè|golden color|1|2|6691|success
+周|zhōu|week|0|1|6692|success
+胳膊|gēbó|arm|1|2|6693|fail
+胳膊|gēbó|arm|1|2|6693|success
+胳膊|gēbó|arm|1|2|6693|success
+瓶|píng|m.w.bottle|2|0|6694|success
+西红柿|xīhóngshì|tomato|0|1|6695|fail
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6695|fail
+西红柿|xīhóngshì|tomato|0|1|6695|success
+西红柿|xīhóngshì|tomato|0|1|6695|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6696|fail
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6696|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6696|success
+梅子|méizi|plum|2|0|6697|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6698|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6698|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6698|success
+就|jiù|just|0|1|6699|success
+莲子|liánzi|lotus seed|0|2|6700|fail
+梅子|méizi|plum|2|0|6700|fail
+莲子|liánzi|lotus seed|0|2|6700|success
+莲子|liánzi|lotus seed|0|2|6700|success
+问题|wèntí|question|0|2|6701|success
+光临|guānglín|honorable presence|2|1|6702|fail
+光临|guānglín|honorable presence|2|1|6702|success
+光临|guānglín|honorable presence|2|1|6702|success
+胳膊|gēbó|arm|1|2|6703|fail
+胳膊|gēbó|arm|1|2|6703|success
+胳膊|gēbó|arm|1|2|6703|success
+重要|zhòngyào|important|1|2|6704|fail
+重要|zhòngyào|important|1|2|6704|success
+重要|zhòngyào|important|1|2|6704|success
+西红柿|xīhóngshì|tomato|0|1|6705|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6706|success
+梅子|méizi|plum|2|0|6707|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6708|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6708|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6708|success
+金色|jīnsè|golden color|1|2|6709|success
+莲子|liánzi|lotus seed|0|2|6710|success
+左立|zuǒlì|zuoli name|1|2|6711|success
+光临|guānglín|honorable presence|2|1|6712|success
+胳膊|gēbó|arm|1|2|6713|fail
+胳膊|gēbó|arm|1|2|6713|success
+胳膊|gēbó|arm|1|2|6713|success
+重要|zhòngyào|important|1|2|6714|success
+莲藕|liánǒu|lotus root|2|0|6715|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6716|success
+梅子|méizi|plum|2|0|6717|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6718|success
+就|jiù|just|0|1|6719|success
+莲子|liánzi|lotus seed|0|2|6720|success
+船|chuán|ship|0|1|6721|success
+西红柿|xīhóngshì|tomato|0|1|6722|success
+胳膊|gēbó|arm|1|2|6723|success
+重要|zhòngyào|important|1|2|6724|success
+瓶|píng|m.w.bottle|2|0|6725|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6726|success
+梅子|méizi|plum|2|0|6727|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6728|success
+光临|guānglín|honorable presence|2|1|6729|success
+莲子|liánzi|lotus seed|0|2|6730|success
+问题|wèntí|question|0|2|6731|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6732|success
+胳膊|gēbó|arm|1|2|6733|success
+绿色|lǜsè|green|1|0|6734|fail
+绿色|lǜsè|green|1|0|6734|success
+绿色|lǜsè|green|1|0|6734|success
+杜丽|dùlì|duli name|2|0|6735|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6736|success
+梅子|méizi|plum|2|0|6737|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6738|success
+金色|jīnsè|golden color|1|2|6739|success
+莲子|liánzi|lotus seed|0|2|6740|success
+重要|zhòngyào|important|1|2|6741|fail
+重要|zhòngyào|important|1|2|6741|fail
+重要|zhòngyào|important|1|2|6741|success
+红灯|hóngdēng|red light|2|1|6742|success
+胳膊|gēbó|arm|1|2|6743|success
+绿色|lǜsè|green|1|0|6744|success
+三餐|sāncān|three meals|0|2|6745|success
+三餐|sāncān|three meals|0|2|6745|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6746|success
+梅子|méizi|plum|2|0|6747|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6748|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6748|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6748|success
+就|jiù|just|0|1|6749|success
+广州|guǎngzhōu|guangzhou|1|2|6750|success
+重要|zhòngyào|important|1|2|6751|fail
+重要|zhòngyào|important|1|2|6751|success
+重要|zhòngyào|important|1|2|6751|success
+西红柿|xīhóngshì|tomato|0|1|6752|success
+胳膊|gēbó|arm|1|2|6753|fail
+胳膊|gēbó|arm|1|2|6753|success
+胳膊|gēbó|arm|1|2|6753|success
+碗|wǎn|bowl|1|2|6754|success
+三餐|sāncān|three meals|0|2|6755|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6756|fail
+西红柿|xīhóngshì|tomato|0|1|6756|fail
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6756|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6756|success
+梅子|méizi|plum|2|0|6757|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6758|success
+莲子|liánzi|lotus seed|0|2|6759|fail
+莲子|liánzi|lotus seed|0|2|6759|success
+莲子|liánzi|lotus seed|0|2|6759|success
+光临|guānglín|honorable presence|2|1|6760|success
+重要|zhòngyào|important|1|2|6761|success
+西红柿|xīhóngshì|tomato|0|1|6762|success
+胳膊|gēbó|arm|1|2|6763|success
+绿色|lǜsè|green|1|0|6764|success
+绿豆汤|lǜdòutāng|mung bean soup|1|2|6765|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6766|success
+梅子|méizi|plum|2|0|6767|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6768|success
+莲子|liánzi|lotus seed|0|2|6769|fail
+莲子|liánzi|lotus seed|0|2|6769|success
+莲子|liánzi|lotus seed|0|2|6769|success
+德国|déguó|germany|2|0|6770|success
+重要|zhòngyào|important|1|2|6771|success
+西红柿|xīhóngshì|tomato|0|1|6772|success
+胳膊|gēbó|arm|1|2|6773|success
+三餐|sāncān|three meals|0|2|6774|success
+食堂|shítáng|canteen|1|0|6775|fail
+食堂|shítáng|canteen|1|0|6775|success
+食堂|shítáng|canteen|1|0|6775|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6776|success
+梅子|méizi|plum|2|0|6777|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6778|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6778|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6778|success
+莲子|liánzi|lotus seed|0|2|6779|success
+西红柿|xīhóngshì|tomato|0|2|6780|success
+重要|zhòngyào|important|1|2|6781|success
+西红柿|xīhóngshì|tomato|0|1|6782|success
+胳膊|gēbó|arm|1|2|6783|success
+香港|xiānggǎng|hong kong|1|2|6784|fail
+香港|xiānggǎng|hong kong|1|2|6784|success
+香港|xiānggǎng|hong kong|1|2|6784|success
+食堂|shítáng|canteen|1|0|6785|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6786|success
+梅子|méizi|plum|2|0|6787|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6788|success
+莲子|liánzi|lotus seed|0|2|6789|success
+糖|táng|sugar|0|1|6790|fail
+糖|táng|sugar|0|1|6790|success
+糖|táng|sugar|0|1|6790|success
+重要|zhòngyào|important|1|2|6791|success
+上个周末|shànggèzhōumò|last weekend|2|1|6792|success
+胳膊|gēbó|arm|1|2|6793|success
+香港|xiānggǎng|hong kong|1|2|6794|success
+绿色|lǜsè|green|1|0|6795|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6796|success
+梅子|méizi|plum|2|0|6797|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6798|success
+莲子|liánzi|lotus seed|0|2|6799|success
+糖|táng|sugar|0|1|6800|success
+重要|zhòngyào|important|1|2|6801|success
+食堂|shítáng|canteen|1|0|6802|success
+胳膊|gēbó|arm|1|2|6803|success
+西红柿|xīhóngshì|tomato|0|1|6804|success
+三餐|sāncān|three meals|0|2|6805|success
+蘋果汁|pínguǒzhī|apple juice|1|2|6806|fail
+蘋果汁|pínguǒzhī|apple juice|1|2|6806|fail
