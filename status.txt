@@ -8861,3 +8861,129 @@
 三餐|sāncān|three meals|0|2|6805|success
 蘋果汁|pínguǒzhī|apple juice|1|2|6806|fail
 蘋果汁|pínguǒzhī|apple juice|1|2|6806|fail
+梅子|méizi|plum|2|0|6807|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6808|success
+莲子|liánzi|lotus seed|0|2|6809|success
+歌手|gēshǒu|singer|1|0|6810|success
+重要|zhòngyào|important|1|2|6811|success
+香港|xiānggǎng|hong kong|1|2|6812|success
+胳膊|gēbó|arm|1|2|6813|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6814|success
+面条|miàntiáo|noodles|1|0|6815|fail
+面条|miàntiáo|noodles|1|0|6815|success
+面条|miàntiáo|noodles|1|0|6815|success
+已经|yǐjīng|already|2|1|6816|success
+糖|táng|sugar|0|1|6817|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6818|success
+莲子|liánzi|lotus seed|0|2|6819|success
+火锅|huǒguō|hot pot|0|2|6820|fail
+火锅|huǒguō|hot pot|0|2|6820|success
+火锅|huǒguō|hot pot|0|2|6820|success
+重要|zhòngyào|important|1|2|6821|success
+火|huǒ|fire|1|2|6822|success
+胳膊|gēbó|arm|1|2|6823|success
+梅子|méizi|plum|2|0|6824|success
+面条|miàntiáo|noodles|1|0|6825|success
+奥地利|àodelì|austria|2|1|6826|success
+洋葱|yángcōng|onion|0|1|6827|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6828|success
+莲子|liánzi|lotus seed|0|2|6829|success
+火锅|huǒguō|hot pot|0|2|6830|success
+重要|zhòngyào|important|1|2|6831|success
+食堂|shítáng|canteen|1|0|6832|success
+西红柿|xīhóngshì|tomato|0|1|6833|success
+工程师|gōngchéngshī|engineer|2|0|6834|fail
+工程师|gōngchéngshī|engineer|2|0|6834|success
+工程师|gōngchéngshī|engineer|2|0|6834|success
+汽油|qìyóu|gasoline|1|2|6835|fail
+汽油|qìyóu|gasoline|1|2|6835|success
+汽油|qìyóu|gasoline|1|2|6835|success
+商丘|shāngqiū|shangqiu|2|1|6836|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6837|fail
+竹笋|zhúsǔn|bamboo shoot|2|0|6837|fail
+竹笋|zhúsǔn|bamboo shoot|2|0|6837|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6838|success
+问题|wèntí|question|2|1|6839|success
+胳膊|gēbó|arm|1|2|6840|success
+重要|zhòngyào|important|1|2|6841|success
+面条|miàntiáo|noodles|1|0|6842|success
+香港|xiānggǎng|hong kong|1|2|6843|success
+工程师|gōngchéngshī|engineer|2|0|6844|success
+汽油|qìyóu|gasoline|1|2|6845|success
+莲子|liánzi|lotus seed|0|2|6846|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6847|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6848|success
+火锅|huǒguō|hot pot|0|2|6849|success
+糖|táng|sugar|0|1|6850|success
+重要|zhòngyào|important|1|2|6851|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6852|fail
+西红柿|xīhóngshì|tomato|0|1|6852|fail
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6852|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6852|success
+西红柿|xīhóngshì|tomato|0|1|6853|success
+梅子|méizi|plum|2|0|6854|success
+越来越|yuèláiyuè|gradually|2|0|6855|success
+越来越|yuèláiyuè|gradually|2|0|6855|success
+碗|wǎn|bowl|0|1|6856|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6857|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6858|success
+洋葱|yángcōng|onion|1|0|6859|success
+油|yóu|oil|1|2|6860|success
+重要|zhòngyào|important|1|2|6861|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6862|fail
+西红柿|xīhóngshì|tomato|0|1|6862|fail
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6862|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6862|success
+西红柿|xīhóngshì|tomato|0|1|6863|success
+汽油|qìyóu|gasoline|1|2|6864|fail
+汽油|qìyóu|gasoline|1|2|6864|success
+汽油|qìyóu|gasoline|1|2|6864|success
+越来越|yuèláiyuè|gradually|2|0|6865|success
+工程师|gōngchéngshī|engineer|2|0|6866|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6867|success
+意大利|yìdàlì|italy|0|1|6868|fail
+意大利|yìdàlì|italy|0|1|6868|success
+意大利|yìdàlì|italy|0|1|6868|success
+胳膊|gēbó|arm|1|2|6869|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6870|fail
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6870|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6870|fail
+土豆|tǔdòu|potato|2|0|6870|fail
+土豆|tǔdòu|potato|2|0|6871|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6872|success
+西红柿|xīhóngshì|tomato|0|1|6873|success
+汽油|qìyóu|gasoline|1|2|6874|success
+重要|zhòngyào|important|1|2|6875|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6876|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6877|success
+意大利|yìdàlì|italy|0|1|6878|success
+面条|miàntiáo|noodles|1|0|6879|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6880|success
+土豆|tǔdòu|potato|2|0|6881|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6882|success
+西红柿|xīhóngshì|tomato|0|1|6883|success
+汽油|qìyóu|gasoline|1|2|6884|success
+越来越|yuèláiyuè|gradually|2|0|6885|success
+火锅|huǒguō|hot pot|0|2|6886|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6887|success
+莲子|liánzi|lotus seed|0|2|6888|success
+右边|yòubiān|right|0|2|6889|fail
+右边|yòubiān|right|0|2|6889|success
+右边|yòubiān|right|0|2|6889|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6890|success
+别的|biéde|other|1|0|6891|fail
+别的|biéde|other|1|0|6891|success
+别的|biéde|other|1|0|6891|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6892|success
+西红柿|xīhóngshì|tomato|0|1|6893|success
+汽油|qìyóu|gasoline|1|2|6894|success
+意大利|yìdàlì|italy|0|1|6895|success
+重要|zhòngyào|important|1|2|6896|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6897|success
+土豆|tǔdòu|potato|2|0|6898|success
+右边|yòubiān|right|0|2|6899|fail
+右边|yòubiān|right|0|2|6899|success
+右边|yòubiān|right|0|2|6899|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6900|success
+别的|biéde|other|1|0|6901|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6902|success
