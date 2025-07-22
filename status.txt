@@ -8987,3 +8987,396 @@
 土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6900|success
 别的|biéde|other|1|0|6901|success
 西红柿汤|xīhóngshìtāng|tomato soup|1|0|6902|success
+工程师|gōngchéngshī|engineer|2|0|6904|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|2|6905|success
+猫|māo|cat|1|0|6906|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6907|success
+重|zhòng|heavy|0|1|6908|fail
+重|zhòng|heavy|0|1|6908|success
+重|zhòng|heavy|0|1|6908|success
+右边|yòubiān|right|0|2|6909|fail
+右边|yòubiān|right|0|2|6909|success
+右边|yòubiān|right|0|2|6909|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6910|success
+汽油|qìyóu|gasoline|1|2|6911|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6912|success
+西红柿|xīhóngshì|tomato|0|1|6913|success
+茄子|jiāzi|eggplant|1|2|6914|fail
+茄子|jiāzi|eggplant|1|2|6914|success
+茄子|jiāzi|eggplant|1|2|6914|success
+常常|chángcháng|often|1|0|6915|fail
+常常|chángcháng|often|1|0|6915|success
+常常|chángcháng|often|1|0|6915|success
+左立|zuǒlì|zuoli name|0|1|6916|fail
+左立|zuǒlì|zuoli name|0|1|6916|fail
+左立|zuǒlì|zuoli name|0|1|6916|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6917|success
+重|zhòng|heavy|0|1|6918|success
+右边|yòubiān|right|0|2|6919|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6920|success
+别的|biéde|other|1|0|6921|success
+意大利|yìdàlì|italy|0|2|6922|success
+西红柿|xīhóngshì|tomato|0|1|6923|success
+茄子|jiāzi|eggplant|1|2|6924|success
+常常|chángcháng|often|1|0|6925|success
+左立|zuǒlì|zuoli name|0|1|6926|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6927|success
+土豆|tǔdòu|potato|2|0|6928|success
+右边|yòubiān|right|0|2|6929|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6930|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6931|success
+意大利|yìdàlì|italy|0|1|6932|success
+重要|zhòngyào|important|1|2|6933|success
+豆浆|dòujiāng|soy milk|0|1|6934|fail
+豆浆|dòujiāng|soy milk|0|1|6934|success
+豆浆|dòujiāng|soy milk|0|1|6934|success
+重|zhòng|heavy|0|1|6935|success
+左立|zuǒlì|zuoli name|0|1|6936|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6937|success
+电视|diànshì|tv|0|1|6938|fail
+电视|diànshì|tv|0|1|6938|success
+电视|diànshì|tv|0|1|6938|success
+右边|yòubiān|right|0|2|6939|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6940|success
+茄子|jiāzi|eggplant|1|2|6941|success
+常常|chángcháng|often|1|0|6942|success
+西红柿|xīhóngshì|tomato|0|1|6943|success
+豆浆|dòujiāng|soy milk|0|1|6944|success
+汽油|qìyóu|gasoline|1|2|6945|success
+左立|zuǒlì|zuoli name|0|1|6946|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6947|success
+电视|diànshì|tv|0|1|6948|success
+右边|yòubiān|right|0|2|6949|success
+别的|biéde|other|1|0|6950|success
+美国|měiguó|usa|2|0|6951|success
+酸奶|suānnǎi|yogurt|1|2|6952|fail
+酸奶|suānnǎi|yogurt|1|2|6952|success
+酸奶|suānnǎi|yogurt|1|2|6952|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6953|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6953|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6953|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|1|6954|fail
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|1|6954|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|1|6954|success
+就|jiù|just|1|2|6955|fail
+就|jiù|just|1|2|6955|success
+就|jiù|just|1|2|6955|success
+左立|zuǒlì|zuoli name|0|1|6956|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6957|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6958|success
+右边|yòubiān|right|0|2|6959|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|0|6960|success
+豆浆|dòujiāng|soy milk|0|1|6961|success
+酸奶|suānnǎi|yogurt|1|2|6962|fail
+酸奶|suānnǎi|yogurt|1|2|6962|success
+酸奶|suānnǎi|yogurt|1|2|6962|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6963|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6963|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6963|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|1|6964|success
+就|jiù|just|1|2|6965|fail
+就|jiù|just|1|2|6965|success
+就|jiù|just|1|2|6965|success
+左立|zuǒlì|zuoli name|0|1|6966|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6967|success
+电视|diànshì|tv|0|1|6968|fail
+电视|diànshì|tv|0|1|6968|success
+电视|diànshì|tv|0|1|6968|success
+右边|yòubiān|right|0|2|6969|success
+茄子|jiāzi|eggplant|1|2|6970|success
+常常|chángcháng|often|1|0|6971|success
+酸奶|suānnǎi|yogurt|1|2|6972|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6973|success
+重|zhòng|heavy|0|1|6974|success
+就|jiù|just|1|2|6975|success
+左立|zuǒlì|zuoli name|0|1|6976|success
+西红柿|xīhóngshì|tomato|0|1|6977|success
+电视|diànshì|tv|0|1|6978|success
+右边|yòubiān|right|0|2|6979|success
+富人|fùrén|rich person|1|0|6980|fail
+富人|fùrén|rich person|1|0|6980|success
+富人|fùrén|rich person|1|0|6980|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|1|6981|success
+酸奶|suānnǎi|yogurt|1|2|6982|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6983|success
+竹笋|zhúsǔn|bamboo shoot|2|0|6984|success
+就|jiù|just|1|2|6985|success
+左立|zuǒlì|zuoli name|0|1|6986|success
+土豆牛肉汤|tǔdòuniúròutāng|goulash|0|2|6987|success
+电视|diànshì|tv|0|1|6988|success
+修车|xiūchē|repair car|2|0|6989|fail
+修车|xiūchē|repair car|2|0|6989|success
+修车|xiūchē|repair car|2|0|6989|success
+富人|fùrén|rich person|1|0|6990|success
+豆浆|dòujiāng|soy milk|0|1|6991|success
+酸奶|suānnǎi|yogurt|1|2|6992|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|6993|success
+阴天|yīntiān|overcast|2|0|6994|success
+阴天|yīntiān|overcast|2|0|6994|success
+就|jiù|just|1|2|6995|fail
+就|jiù|just|1|2|6995|success
+就|jiù|just|1|2|6995|success
+右边|yòubiān|right|0|2|6996|fail
+右边|yòubiān|right|0|2|6996|success
+右边|yòubiān|right|0|2|6996|success
+年轻|niánqīng|young|2|1|6997|success
+电视|diànshì|tv|0|1|6998|success
+修车|xiūchē|repair car|2|0|6999|success
+远|yuǎn|far|1|2|7000|fail
+远|yuǎn|far|1|2|7000|success
+远|yuǎn|far|1|2|7000|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|7001|fail
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|7001|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|7001|success
+酸奶|suānnǎi|yogurt|1|2|7002|fail
+酸奶|suānnǎi|yogurt|1|2|7002|success
+酸奶|suānnǎi|yogurt|1|2|7002|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|7003|success
+阴天|yīntiān|overcast|2|0|7004|success
+就|jiù|just|1|2|7005|success
+右边|yòubiān|right|0|2|7006|success
+富人|fùrén|rich person|1|0|7007|fail
+富人|fùrén|rich person|1|0|7007|success
+富人|fùrén|rich person|1|0|7007|success
+左立|zuǒlì|zuoli name|0|1|7008|success
+西红柿|xīhóngshì|tomato|0|1|7009|success
+远|yuǎn|far|1|2|7010|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|7011|success
+酸奶|suānnǎi|yogurt|1|2|7012|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|1|7013|success
+竹笋|zhúsǔn|bamboo shoot|2|0|7014|success
+就|jiù|just|1|2|7015|success
+右边|yòubiān|right|0|2|7016|success
+富人|fùrén|rich person|1|0|7017|success
+修车|xiūchē|repair car|2|0|7018|success
+电视|diànshì|tv|0|1|7019|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|7020|success
+阴天|yīntiān|overcast|2|0|7021|success
+酸奶|suānnǎi|yogurt|1|2|7022|success
+几|jǐ|how many less than ten|2|0|7023|success
+几|jǐ|how many less than ten|2|0|7023|success
+碗|wǎn|bowl|1|0|7024|success
+就|jiù|just|1|2|7025|success
+右边|yòubiān|right|0|2|7026|success
+富人|fùrén|rich person|1|0|7027|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|7028|success
+远|yuǎn|far|1|2|7029|success
+香肠|xiāngcháng|sausage|0|2|7030|fail
+香肠|xiāngcháng|sausage|0|2|7030|success
+香肠|xiāngcháng|sausage|0|2|7030|success
+几十个|jǐshígè|multiple of ten|1|2|7031|fail
+几十个|jǐshígè|multiple of ten|1|2|7031|success
+几十个|jǐshígè|multiple of ten|1|2|7031|success
+酸奶|suānnǎi|yogurt|1|2|7032|fail
+酸奶|suānnǎi|yogurt|1|2|7032|success
+酸奶|suānnǎi|yogurt|1|2|7032|success
+几|jǐ|how many less than ten|2|0|7033|success
+彩虹|cǎihóng|rainbow|0|1|7034|fail
+彩虹|cǎihóng|rainbow|0|1|7034|fail
+彩虹|cǎihóng|rainbow|0|1|7034|success
+就|jiù|just|1|2|7035|success
+蓝色|lánsè|blue|0|2|7036|success
+富人|fùrén|rich person|1|0|7037|success
+左立|zuǒlì|zuoli name|0|1|7038|success
+糖|táng|sugar|1|0|7039|fail
+糖|táng|sugar|1|0|7039|success
+糖|táng|sugar|1|0|7039|success
+香肠|xiāngcháng|sausage|0|2|7040|success
+几十个|jǐshígè|multiple of ten|1|2|7041|success
+酸奶|suānnǎi|yogurt|1|2|7042|success
+右边|yòubiān|right|0|2|7043|success
+彩虹|cǎihóng|rainbow|0|1|7044|success
+就|jiù|just|1|2|7045|success
+西红柿汤|xīhóngshìtāng|tomato soup|2|0|7046|fail
+西红柿汤|xīhóngshìtāng|tomato soup|2|0|7046|success
+西红柿汤|xīhóngshìtāng|tomato soup|2|0|7046|success
+修车|xiūchē|repair car|2|0|7047|success
+电视|diànshì|tv|0|1|7048|success
+糖|táng|sugar|1|0|7049|success
+几|jǐ|how many less than ten|2|0|7050|success
+酸奶|suānnǎi|yogurt|1|2|7052|success
+面包|miànbāo|bread|2|0|7053|success
+彩虹|cǎihóng|rainbow|0|1|7054|success
+富人|fùrén|rich person|1|0|7055|success
+西红柿汤|xīhóngshìtāng|tomato soup|2|0|7056|success
+香肠|xiāngcháng|sausage|0|2|7057|success
+几十个|jǐshígè|multiple of ten|1|2|7058|fail
+十几个|shíjǐgè|ten plus|2|1|7058|fail
+几十个|jǐshígè|multiple of ten|1|2|7058|success
+几十个|jǐshígè|multiple of ten|1|2|7058|success
+十几个|shíjǐgè|ten plus|2|1|7059|fail
+十几个|shíjǐgè|ten plus|2|1|7059|success
+十几个|shíjǐgè|ten plus|2|1|7059|success
+远|yuǎn|far|1|2|7060|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|7061|success
+酸奶|suānnǎi|yogurt|1|2|7062|success
+就|jiù|just|1|2|7063|success
+彩虹|cǎihóng|rainbow|0|1|7064|success
+翻毛鸡|fānmáojī|birds nest|0|2|7065|fail
+翻毛鸡|fānmáojī|birds nest|0|2|7065|success
+翻毛鸡|fānmáojī|birds nest|0|2|7065|success
+糖|táng|sugar|1|0|7066|success
+问题|wèntí|question|1|0|7067|success
+几十个|jǐshígè|multiple of ten|1|2|7068|success
+十几个|shíjǐgè|ten plus|2|1|7069|success
+奶酪|nǎilào|cheese|1|2|7070|success
+这里|zhèlǐ|here|2|0|7071|fail
+这里|zhèlǐ|here|2|0|7071|success
+这里|zhèlǐ|here|2|0|7071|success
+酸奶|suānnǎi|yogurt|1|2|7072|success
+西红柿汤|xīhóngshìtāng|tomato soup|2|0|7073|success
+彩虹|cǎihóng|rainbow|0|1|7074|success
+翻毛鸡|fānmáojī|birds nest|0|2|7075|success
+右边|yòubiān|right|0|2|7076|success
+猪肉|zhūròu|pork|2|1|7077|success
+几十个|jǐshígè|multiple of ten|1|2|7078|success
+十几个|shíjǐgè|ten plus|2|1|7079|success
+这里|zhèlǐ|here|2|0|7081|success
+酸奶|suānnǎi|yogurt|1|2|7082|success
+菜单|càidān|menu|1|2|7083|fail
+菜单|càidān|menu|1|2|7083|success
+菜单|càidān|menu|1|2|7083|success
+彩虹|cǎihóng|rainbow|0|1|7084|success
+富人|fùrén|rich person|1|0|7085|success
+香肠|xiāngcháng|sausage|0|2|7086|success
+茄子|jiāzi|eggplant|1|2|7087|fail
+茄子|jiāzi|eggplant|1|2|7087|success
+茄子|jiāzi|eggplant|1|2|7087|success
+几十个|jǐshígè|multiple of ten|1|2|7088|success
+十几个|shíjǐgè|ten plus|2|1|7089|success
+就|jiù|exactly|0|1|7090|success
+已经|yǐjīng|already|2|0|7091|fail
+已经|yǐjīng|already|2|0|7091|success
+已经|yǐjīng|already|2|0|7091|success
+翻毛鸡|fānmáojī|birds nest|0|2|7092|success
+菜单|càidān|menu|1|2|7093|success
+彩虹|cǎihóng|rainbow|0|1|7094|success
+糖|táng|sugar|1|0|7095|success
+就|jiù|just|1|2|7096|success
+茄子|jiāzi|eggplant|1|2|7097|success
+这里|zhèlǐ|here|2|0|7098|success
+十几个|shíjǐgè|ten plus|2|1|7099|fail
+几十个|jǐshígè|multiple of ten|1|2|7099|fail
+十几个|shíjǐgè|ten plus|2|1|7099|success
+十几个|shíjǐgè|ten plus|2|1|7099|success
+几十个|jǐshígè|multiple of ten|1|2|7100|success
+已经|yǐjīng|already|2|0|7101|success
+酸奶|suānnǎi|yogurt|1|2|7102|success
+西红柿汤|xīhóngshìtāng|tomato soup|2|0|7103|success
+彩虹|cǎihóng|rainbow|0|1|7104|success
+陶诗|táoshī|tao shi|0|1|7105|fail
+陶诗|táoshī|tao shi|0|1|7105|success
+陶诗|táoshī|tao shi|0|1|7105|success
+彩虹|cǎihóng|rainbow|1|2|7106|fail
+彩虹|cǎihóng|rainbow|1|2|7106|success
+彩虹|cǎihóng|rainbow|1|2|7106|success
+个|gè|m.w.individual person or object|2|1|7108|success
+十几个|shíjǐgè|ten plus|2|1|7109|success
+几十个|jǐshígè|multiple of ten|1|2|7110|success
+菜单|càidān|menu|1|2|7111|success
+燕麦粥|yànmàizhōu|porridge|1|2|7112|fail
+燕麦粥|yànmàizhōu|porridge|1|2|7112|success
+燕麦粥|yànmàizhōu|porridge|1|2|7112|success
+国会大厦|guóhuìdàshà|parliament|2|1|7113|fail
+国会大厦|guóhuìdàshà|parliament|2|1|7113|success
+国会大厦|guóhuìdàshà|parliament|2|1|7113|success
+茄子|jiāzi|eggplant|1|2|7114|success
+陶诗|táoshī|tao shi|0|1|7115|success
+彩虹|cǎihóng|rainbow|1|2|7116|fail
+彩虹|cǎihóng|rainbow|1|2|7116|success
+彩虹|cǎihóng|rainbow|1|2|7116|success
+便宜|biànyí|cheap|1|2|7117|fail
+便宜|biànyí|cheap|1|2|7117|success
+十几个|shíjǐgè|ten plus|2|1|7119|success
+几十个|jǐshígè|multiple of ten|1|2|7120|success
+彩虹|cǎihóng|rainbow|0|1|7121|success
+燕麦粥|yànmàizhōu|porridge|1|2|7122|fail
+燕麦粥|yànmàizhōu|porridge|1|2|7122|success
+燕麦粥|yànmàizhōu|porridge|1|2|7122|success
+国会大厦|guóhuìdàshà|parliament|2|1|7123|success
+翻毛鸡|fānmáojī|birds nest|0|2|7124|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|1|7125|success
+彩虹|cǎihóng|rainbow|1|2|7126|success
+便宜|biànyí|cheap|1|2|7127|fail
+十几个|shíjǐgè|ten plus|2|1|7129|success
+几十个|jǐshígè|multiple of ten|1|2|7130|success
+这里|zhèlǐ|here|2|0|7131|success
+燕麦粥|yànmàizhōu|porridge|1|2|7132|success
+陶诗|táoshī|tao shi|0|1|7133|success
+酸奶|suānnǎi|yogurt|1|2|7134|success
+重要|zhòngyào|important|2|0|7135|fail
+重要|zhòngyào|important|2|0|7135|success
+重要|zhòngyào|important|2|0|7135|success
+彩虹|cǎihóng|rainbow|1|2|7136|success
+便宜|piányi|cheap|1|2|7137|fail
+便宜|piányi|cheap|1|2|7137|success
+便宜|piányi|cheap|1|2|7137|success
+葡萄干|pútáogàn|raisin|0|2|7138|fail
+葡萄干|pútáogàn|raisin|0|2|7138|success
+葡萄干|pútáogàn|raisin|0|2|7138|success
+十几个|shíjǐgè|ten plus|2|1|7139|success
+几十个|jǐshígè|multiple of ten|1|2|7140|success
+国会大厦|guóhuìdàshà|parliament|2|1|7141|success
+燕麦粥|yànmàizhōu|porridge|1|2|7142|success
+菜单|càidān|menu|1|2|7143|success
+茄子|jiāzi|eggplant|1|2|7144|success
+重要|zhòngyào|important|2|0|7145|success
+彩虹|cǎihóng|rainbow|1|2|7146|success
+便宜|piányi|cheap|1|2|7147|success
+葡萄干|pútáogàn|raisin|0|2|7148|fail
+葡萄干|pútáogàn|raisin|0|2|7148|success
+葡萄干|pútáogàn|raisin|0|2|7148|success
+十几个|shíjǐgè|ten plus|2|1|7149|success
+彩虹|cǎihóng|rainbow|0|1|7150|success
+燕麦粥|yànmàizhōu|porridge|1|2|7152|success
+消息|xiāoxī|news|0|1|7153|fail
+陶诗|táoshī|tao shi|1|0|7153|fail
+消息|xiāoxī|news|0|1|7153|success
+消息|xiāoxī|news|0|1|7153|success
+陶诗|táoshī|tao shi|1|0|7154|fail
+陶诗|táoshī|tao shi|1|0|7154|success
+陶诗|táoshī|tao shi|1|0|7154|success
+对面|duìmiàn|opposite|0|1|7155|fail
+前面|qiánmiàn|in front|1|0|7155|fail
+对面|duìmiàn|opposite|0|1|7155|success
+对面|duìmiàn|opposite|0|1|7155|success
+前面|qiánmiàn|in front|1|0|7156|success
+便宜|piányi|cheap|1|2|7157|success
+葡萄干|pútáogàn|raisin|0|2|7158|fail
+葡萄干|pútáogàn|raisin|0|2|7158|success
+葡萄干|pútáogàn|raisin|0|2|7158|success
+十几个|shíjǐgè|ten plus|2|1|7159|success
+彩虹|cǎihóng|rainbow|1|2|7160|success
+几十个|jǐshígè|multiple of ten|1|2|7161|success
+燕麦粥|yànmàizhōu|porridge|1|2|7162|success
+消息|xiāoxī|news|0|1|7163|fail
+陶诗|táoshī|tao shi|1|0|7163|fail
+消息|xiāoxī|news|0|1|7163|success
+消息|xiāoxī|news|0|1|7163|success
+陶诗|táoshī|tao shi|1|0|7164|success
+对面|duìmiàn|opposite|0|1|7165|success
+前面|qiánmiàn|in front|1|0|7166|success
+便宜|piányi|cheap|1|2|7167|success
+葡萄干|pútáogàn|raisin|0|2|7168|fail
+葡萄干|pútáogàn|raisin|0|2|7168|success
+葡萄干|pútáogàn|raisin|0|2|7168|success
+已经|yǐjīng|already|2|0|7170|success
+国会大厦|guóhuìdàshà|parliament|2|1|7171|success
+陶诗|táoshī|tao shi|0|1|7172|success
+消息|xiāoxī|news|0|1|7173|success
+陶诗|táoshī|tao shi|1|0|7174|success
+红烧肉|hóngshāoròu|braised pork|2|0|7175|fail
+红烧肉|hóngshāoròu|braised pork|2|0|7175|fail
+红烧肉|hóngshāoròu|braised pork|2|0|7175|success
+油条|yóutiáo|deep fried dough|0|2|7176|fail
+油条|yóutiáo|deep fried dough|0|2|7176|success
+油条|yóutiáo|deep fried dough|0|2|7176|success
+一般|yībān|normally|1|2|7177|fail
+一般|yībān|normally|1|2|7177|success
+一般|yībān|normally|1|2|7177|success
+葡萄干|pútáogàn|raisin|0|2|7178|success
+燕麦粥|yànmàizhōu|porridge|1|2|7179|success
+凉快|liángkuài|cool|0|1|7180|fail
+凉快|liángkuài|cool|0|1|7180|fail
+凉快|liángkuài|cool|0|1|7180|success
+筷子|kuàizi|chopstick|1|0|7181|fail

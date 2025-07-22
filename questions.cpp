@@ -297,7 +297,13 @@ bool questions::ask_all_until_fail(int breaks) const
 		}
 		else if(tokens[6] == "fail")
 		{
-			iter->second.second = std::min(max_complexity*tokens[0].size()/2, iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001);
+			iter->second.second = std::min(
+				std::max(
+					(int)4,
+					(int)(max_complexity*tokens[0].size()/6)
+				),
+				(int)(iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001)
+			);
 		}
 
 
@@ -439,7 +445,13 @@ repeat_question:
 		else
 		{
 			statusfile << "fail";
-			iter0->second.second = std::min(iter0->second.second + score_deteriorate_if_fail+(gen()%5000)*.00001, max_complexity* current->get(DATATYPE_CHINESE).size()/2);
+			iter0->second.second = std::min(
+				(int)(iter0->second.second + score_deteriorate_if_fail+(gen()%5000)*.00001),
+				std::max(
+					(int)4,
+					(int)(max_complexity* current->get(DATATYPE_CHINESE).size()/6)
+				)
+			);
 			auto iter = asked_overlaps->find(gave);
 ;
 			if(iter != asked_overlaps->end())

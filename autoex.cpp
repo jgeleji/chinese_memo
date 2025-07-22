@@ -18,7 +18,7 @@ int main(int argc, const char* argv[])
 
 	for(int i=1; i<argc; ++i)
 	{
-		std::cout << "Converting " << argv[i] << "\n";
+		//std::cout << "Converting " << argv[i] << "\n";
 		std::fstream infile;
 		infile.open(argv[i], std::fstream::in);
 		std::vector<datapoint> data;
@@ -46,7 +46,7 @@ int main(int argc, const char* argv[])
 			data.push_back(curr);
 		}
 		std::string outfilename = std::string("autoex_") + argv[i];
-		std::cout << "Writing " << outfilename << "\n";
+		//std::cout << "Writing " << outfilename << "\n";
 		std::fstream outfile;
 		outfile.open(outfilename, std::fstream::out);
 		for(int i=0; i<data.size(); ++i)
@@ -54,7 +54,7 @@ int main(int argc, const char* argv[])
 			datapoint const& dp = data[i];
 			outfile << dp.chinese << "|" << dp.english << "|" << dp.pinyin << "|" << dp.auto_pinyin << "\n";
 		}
-		std::cout << "Done.\n";
+		//std::cout << "Done.\n";
 	}
 	return 0;
 }
