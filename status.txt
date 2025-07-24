@@ -9380,3 +9380,204 @@
 凉快|liángkuài|cool|0|1|7180|fail
 凉快|liángkuài|cool|0|1|7180|success
 筷子|kuàizi|chopstick|1|0|7181|fail
+消息|xiāoxī|news|0|1|7183|success
+陶诗|táoshī|tao shi|1|0|7184|success
+红烧肉|hóngshāoròu|braised pork|2|0|7185|success
+油条|yóutiáo|deep fried dough|0|2|7186|fail
+油条|yóutiáo|deep fried dough|0|2|7186|success
+油条|yóutiáo|deep fried dough|0|2|7186|success
+一般|yībān|normally|1|2|7187|fail
+一般|yībān|normally|1|2|7187|success
+一般|yībān|normally|1|2|7187|success
+葡萄干|pútáogàn|raisin|0|2|7188|success
+前面|qiánmiàn|in front|1|0|7189|success
+凉快|liángkuài|cool|0|1|7190|fail
+凉快|liángkuài|cool|0|1|7190|success
+凉快|liángkuài|cool|0|1|7190|success
+筷子|kuàizi|chopstick|1|0|7191|fail
+筷子|kuàizi|chopstick|1|0|7191|fail
+筷子|kuàizi|chopstick|1|0|7191|fail
+重要|zhòngyào|important|2|0|7192|success
+超市|chāoshì|supermarket|2|1|7193|success
+红烧肉|hóngshāoròu|braised pork|2|0|7195|success
+油条|yóutiáo|deep fried dough|0|2|7196|fail
+油条|yóutiáo|deep fried dough|0|2|7196|success
+油条|yóutiáo|deep fried dough|0|2|7196|success
+一般|yībān|normally|1|2|7197|success
+葡萄干|pútáogàn|raisin|0|2|7198|success
+对面|duìmiàn|opposite|0|1|7199|success
+凉快|liángkuài|cool|0|1|7200|fail
+凉快|liángkuài|cool|0|1|7200|success
+凉快|liángkuài|cool|0|1|7200|success
+筷子|kuàizi|chopstick|1|0|7201|fail
+筷子|kuàizi|chopstick|1|0|7201|success
+筷子|kuàizi|chopstick|1|0|7201|success
+消息|xiāoxī|news|0|1|7202|success
+已经|yǐjīng|already|2|0|7203|success
+便宜|piányi|cheap|1|2|7204|success
+红烧肉|hóngshāoròu|braised pork|2|0|7205|success
+油条|yóutiáo|deep fried dough|0|2|7206|fail
+油条|yóutiáo|deep fried dough|0|2|7206|success
+油条|yóutiáo|deep fried dough|0|2|7206|success
+一般|yībān|normally|1|2|7207|success
+葡萄干|pútáogàn|raisin|0|2|7208|success
+燕麦粥|yànmàizhōu|porridge|1|2|7209|success
+凉快|liángkuài|cool|0|1|7210|success
+筷子|kuàizi|chopstick|1|0|7211|success
+陶诗|táoshī|tao shi|1|0|7212|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|1|0|7213|fail
+程晓青|chéngxiǎoqīng|cheng xiaoqing|1|0|7213|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|1|0|7213|success
+热可可|rèkěkě|hot cocoa|2|0|7214|fail
+热可可|rèkěkě|hot cocoa|2|0|7214|success
+热可可|rèkěkě|hot cocoa|2|0|7214|success
+红烧肉|hóngshāoròu|braised pork|2|0|7215|success
+油条|yóutiáo|deep fried dough|0|2|7216|fail
+油条|yóutiáo|deep fried dough|0|2|7216|success
+油条|yóutiáo|deep fried dough|0|2|7216|success
+迟到|chídào|late|2|1|7217|fail
+知道|zhīdào|know|1|2|7217|fail
+迟到|chídào|late|2|1|7217|success
+迟到|chídào|late|2|1|7217|success
+知道|zhīdào|know|1|2|7218|success
+葡萄干|pútáogàn|raisin|0|2|7219|success
+凉快|liángkuài|cool|0|1|7220|success
+筷子|kuàizi|chopstick|1|0|7221|success
+重要|zhòngyào|important|2|0|7222|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|1|0|7223|success
+热可可|rèkěkě|hot cocoa|2|0|7224|success
+红烧肉|hóngshāoròu|braised pork|2|0|7225|success
+油条|yóutiáo|deep fried dough|0|2|7226|fail
+油条|yóutiáo|deep fried dough|0|2|7226|success
+油条|yóutiáo|deep fried dough|0|2|7226|success
+迟到|chídào|late|2|1|7227|success
+知道|zhīdào|know|1|2|7228|success
+一般|yībān|normally|1|2|7229|success
+对面|duìmiàn|opposite|0|1|7230|fail
+对面|duìmiàn|opposite|0|1|7230|success
+对面|duìmiàn|opposite|0|1|7230|success
+消息|xiāoxī|news|0|1|7231|success
+红灯|hóngdēng|red light|1|2|7232|success
+觉得|jiàodé|think feel|0|1|7233|fail
+见到|jiàndào|see|1|0|7233|fail
+看见|kànjiàn|see|1|0|7233|fail
+觉得|jiàodé|think feel|0|1|7233|success
+觉得|jiàodé|think feel|0|1|7233|success
+见到|jiàndào|see|1|0|7234|fail
+见到|jiàndào|see|1|0|7234|success
+见到|jiàndào|see|1|0|7234|success
+看见|kànjiàn|see|1|0|7235|success
+油条|yóutiáo|deep fried dough|0|2|7236|success
+红烧肉|hóngshāoròu|braised pork|2|0|7237|success
+筷子|kuàizi|chopstick|1|0|7238|success
+凉快|liángkuài|cool|0|1|7239|success
+对面|duìmiàn|opposite|0|1|7240|success
+热可可|rèkěkě|hot cocoa|2|0|7241|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|1|0|7242|success
+觉得|jiàodé|think feel|0|1|7243|success
+见到|jiàndào|see|1|0|7244|success
+看见|kànjiàn|see|1|0|7245|success
+油条|yóutiáo|deep fried dough|0|2|7246|success
+知道|zhīdào|know|1|2|7247|success
+迟到|chídào|late|2|1|7248|success
+葡萄干|pútáogàn|raisin|0|2|7249|success
+前面|qiánmiàn|in front|1|0|7251|success
+美国|měiguó|usa|0|2|7252|success
+豆浆|dòujiāng|soy milk|2|0|7253|fail
+豆浆|dòujiāng|soy milk|2|0|7253|fail
+豆浆|dòujiāng|soy milk|2|0|7253|success
+见到|jiàndào|see|1|0|7254|fail
+豆浆|dòujiāng|soy milk|0|1|7254|fail
+见到|jiàndào|see|1|0|7254|success
+见到|jiàndào|see|1|0|7254|success
+豆浆|dòujiāng|soy milk|0|1|7255|success
+红烧肉|hóngshāoròu|braised pork|2|0|7256|success
+对面|duìmiàn|opposite|0|1|7257|success
+一般|yībān|normally|1|2|7258|success
+点|diǎn|choose|0|2|7259|success
+觉得|jiàodé|think feel|0|1|7260|success
+洋葱|yángcōng|onion|2|0|7261|fail
+洋葱|yángcōng|onion|2|0|7261|success
+洋葱|yángcōng|onion|2|0|7261|success
+看见|kànjiàn|see|1|0|7262|success
+豆浆|dòujiāng|soy milk|2|0|7263|success
+见到|jiàndào|see|1|0|7264|success
+豆浆|dòujiāng|soy milk|0|1|7265|success
+油条|yóutiáo|deep fried dough|0|2|7266|fail
+油条|yóutiáo|deep fried dough|0|2|7266|success
+油条|yóutiáo|deep fried dough|0|2|7266|success
+筷子|kuàizi|chopstick|1|0|7267|success
+凉快|liángkuài|cool|0|1|7268|success
+请假|qǐngjiǎ|request leave|2|0|7269|fail
+请假|qǐngjiǎ|request leave|2|0|7269|fail
+请假|qǐngjiǎ|request leave|2|0|7269|success
+热可可|rèkěkě|hot cocoa|2|0|7270|success
+洋葱|yángcōng|onion|2|0|7271|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|1|0|7272|success
+豆浆|dòujiāng|soy milk|2|0|7273|success
+见到|jiàndào|see|1|0|7274|success
+豆浆|dòujiāng|soy milk|0|1|7275|success
+油条|yóutiáo|deep fried dough|0|2|7276|fail
+油条|yóutiáo|deep fried dough|0|2|7276|success
+油条|yóutiáo|deep fried dough|0|2|7276|success
+知道|zhīdào|know|1|2|7277|success
+迟到|chídào|late|2|1|7278|success
+请假|qǐngjiǎ|request leave|2|0|7279|success
+陶诗|táoshī|tao shi|1|0|7280|success
+葡萄干|pútáogàn|raisin|0|2|7281|success
+周一|zhōuyī|monday|0|2|7282|fail
+周一|zhōuyī|monday|0|2|7282|success
+周一|zhōuyī|monday|0|2|7282|success
+豆浆|dòujiāng|soy milk|2|0|7283|success
+点|diǎn|choose|2|0|7284|success
+红烧肉|hóngshāoròu|braised pork|2|0|7285|success
+油条|yóutiáo|deep fried dough|0|2|7286|success
+对面|duìmiàn|opposite|0|1|7287|success
+洋葱|yángcōng|onion|2|0|7288|success
+请假|qǐngjiǎ|request leave|2|0|7289|success
+觉得|jiàodé|think feel|0|1|7290|success
+见到|jiàndào|see|1|0|7291|success
+周一|zhōuyī|monday|0|2|7292|success
+豆浆|dòujiāng|soy milk|0|1|7293|success
+看见|kànjiàn|see|1|0|7294|success
+生活|shēnghuó|life|1|2|7295|fail
+生活|shēnghuó|life|1|2|7295|success
+生活|shēnghuó|life|1|2|7295|success
+油条|yóutiáo|deep fried dough|0|2|7296|success
+中国|zhōngguó|china|1|0|7297|success
+请假|qǐngjiǎ|request leave|2|0|7299|success
+豆浆|dòujiāng|soy milk|2|0|7300|success
+没意思|méiyìsī|boring|0|1|7301|fail
+没意思|méiyìsī|boring|0|1|7301|success
+没意思|méiyìsī|boring|0|1|7301|success
+东莞|dōngguǎn|dongguan|2|1|7303|success
+有钱人|yǒuqiánrén|rich person|0|2|7304|success
+生活|shēnghuó|life|1|2|7305|fail
+生活|shēnghuó|life|1|2|7305|success
+生活|shēnghuó|life|1|2|7305|success
+萨拉米|sàlāmǐ|salami|2|0|7306|fail
+萨拉米|sàlāmǐ|salami|2|0|7306|fail
+得|de|particule|0|2|7308|fail
+得|de|particule|0|2|7308|success
+得|de|particule|0|2|7308|success
+周一|zhōuyī|monday|0|2|7309|fail
+周一|zhōuyī|monday|0|2|7309|success
+周一|zhōuyī|monday|0|2|7309|success
+没意思|méiyìsī|boring|0|1|7311|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|1|2|7312|success
+油条|yóutiáo|deep fried dough|0|2|7313|success
+粉色|fěnsè|pink|0|1|7314|success
+生活|shēnghuó|life|1|2|7315|fail
+生活|shēnghuó|life|1|2|7315|success
+生活|shēnghuó|life|1|2|7315|success
+萨拉米|sàlāmǐ|salami|2|0|7316|success
+请假|qǐngjiǎ|request leave|2|0|7317|success
+洋葱|yángcōng|onion|2|0|7318|success
+周一|zhōuyī|monday|0|2|7319|success
+见到|jiàndào|see|1|0|7320|success
+炖肉|dùnròu|stew|2|0|7321|fail
+炖肉|dùnròu|stew|2|0|7321|success
+炖肉|dùnròu|stew|2|0|7321|success
+香港|xiānggǎng|hong kong|2|0|7322|fail
+香港|xiānggǎng|hong kong|2|0|7322|success
+香港|xiānggǎng|hong kong|2|0|7322|success
