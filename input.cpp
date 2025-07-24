@@ -103,6 +103,7 @@ std::vector<std::string> chinese::Input::get_possibles_fromflat(std::string cons
 
 chinese::Input::Input()
 {
+	std::unordered_set<std::string> chinese_chars;
 	std::string infile_name = "data/general-standard?page=";
 
 	size_t failcount = 0;
@@ -123,6 +124,7 @@ chinese::Input::Input()
 				line = line.substr(28);
 				size_t pos = line.find("\"");
 				std::string chinese = line.substr(0, pos);
+				chinese_chars.insert(chinese);
 				pos = line.find("<td>");
 				line = line.substr(pos+4);
 				pos = line.find("</td>");
@@ -237,8 +239,24 @@ chinese::Input::Input()
 		std::string pinyin = iter->second;
 		chinese_to_pinyin[chinese].insert(pinyin);
 		pinyin_to_chinese[pinyin].insert(chinese);
+		chinese_chars.insert(chinese);
+	}
+	for(std::string chinese: chinese_chars)
+	{
+		all_chinese_chars.push_back(chinese);
 	}
 	//chinese_to_preferred_pinyin[] = "";
+}
+
+std::vector<std::string> chinese::Input::get_some_random_chinese_chars(int num, std::mt19937& rnd) const
+{
+	std::vector<std::string> ret;
+	for(int i=0; i<num; ++i)
+	{
+		int num = rnd();
+		ret.push_back(all_chinese_chars[num%all_chinese_chars.size()]);
+	}
+	return ret;
 }
 
 std::unordered_set<std::string> const& chinese::Input::get_chinese(std::string const& pinyin)
@@ -573,7 +591,7 @@ std::string chinese::Input::do_input_english(std::string description) const
 	return ret;
 }
 
-std::string chinese::Input::do_input_chinese(std::string description, bool shuffle, int breaks) const
+std::string chinese::Input::do_input_chinese(std::string description, bool shuffle, int breaks, const char* expected) const
 {
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
@@ -587,7 +605,15 @@ std::string chinese::Input::do_input_chinese(std::string description, bool shuff
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color        << "0 " << ret << "\r\n";
-		std::string add = this->do_input_1char_chinese(ret, state_number, description, shuffle, breaks);
+		std::string add = this->do_input_1char_chinese(
+			ret,
+			state_number,
+			description,
+			shuffle,
+			shuffle,
+			expected,
+			breaks
+		);
 		if(add=="-")
 		{
 			ret.clear();
@@ -600,22 +626,102 @@ std::string chinese::Input::do_input_chinese(std::string description, bool shuff
 	return ret;
 }
 
+
+std::vector<std::string> chinese::Input::split_into_chinese_characters(std::string chinese) const
+{
+	std::vector<std::string> ret;
+	for(size_t i = 0; i < chinese.size(); ++i)
+	{
+		char c = chinese.at(i);
+		if(0 == (c & 0x80)) // single byte case
+		{
+			ret.push_back(std::string(1, c));
+			//single byte cannot be chinese character. don't even try converting.
+		}
+		else if((c & 0xC0) == 0xC0 && (c & 0x20) == 0) // 2 byte case
+		{
+			std::string utf8_char;
+			utf8_char += c;
+			++i;
+			c = chinese.at(i);
+			utf8_char += c;
+			ret.push_back(utf8_char);
+		}
+		else if((c & 0xE0) == 0xE0 && (c & 0x10) == 0) // 3 byte case
+		{
+			std::string utf8_char;
+			utf8_char += c;
+			++i;
+			c = chinese.at(i);
+			utf8_char += c;
+			++i;
+			c = chinese.at(i);
+			utf8_char += c;
+			ret.push_back(utf8_char);
+		}
+		else if((c & 0xF0) == 0xF0 && (c & 0x08) == 0) // 4 byte case
+		{
+			std::string utf8_char;
+			utf8_char += c;
+			++i;
+			c = chinese.at(i);
+			utf8_char += c;
+			++i;
+			c = chinese.at(i);
+			utf8_char += c;
+			++i;
+			c = chinese.at(i);
+			utf8_char += c;
+			ret.push_back(utf8_char);
+		}
+	}
+	return ret;
+}
+
 std::string chinese::Input::do_input_1char_chinese(
 	std::string const& top_row,
 	INPUT_STATE& state_number,
 	std::string const& description,
 	bool shuffle,
+	bool show_others,
+	const char* expected,
 	int breaks) const
 {
 	std::string debug_string, raw_input, chinese, pinyin;
+	std::vector<std::string> expected_chinese_chars_vec;
+	if(expected)
+	{
+		expected_chinese_chars_vec = split_into_chinese_characters(expected);
+	}
+	std::unordered_set<std::string> expected_chinese_chars(expected_chinese_chars_vec.begin(), expected_chinese_chars_vec.end());
 	std::vector<std::string> ch_ch_vec;
 	do
 	{
 		pinyin = this->do_input_inner(debug_string, raw_input, state_number);
 		ch_ch_vec = this->get_possibles(pinyin);
-		if(shuffle)
+		std::unordered_set<std::string> ch_ch(ch_ch_vec.begin(), ch_ch_vec.end());
+		static std::mt19937 rnd;
+		if(show_others)
 		{
-			static std::mt19937 rnd;
+			std::vector<std::string> tmp = ch_ch_vec;
+			ch_ch_vec.clear();
+			for(std::string solution: tmp)
+			{
+				if(expected_chinese_chars.find(solution) != expected_chinese_chars.end())
+				{
+					ch_ch_vec.push_back(solution);
+				}
+				//MICSODA
+			}
+			tmp = get_some_random_chinese_chars(10 - ch_ch_vec.size(), rnd);
+			for(std::string random_char:tmp)
+			{
+				ch_ch_vec.push_back(random_char);
+			}
+			std::shuffle(ch_ch_vec.begin(), ch_ch_vec.end(), rnd);
+		}
+		else if(shuffle)
+		{
 			std::shuffle(ch_ch_vec.begin(), ch_ch_vec.end(), rnd);
 		}
 		std::vector<std::stringstream> chinese_choices;
@@ -782,3 +888,4 @@ std::string chinese::Input::convert_chinese_to_pinyin(std::string chinese) const
 template class std::unordered_map<std::string, std::unordered_set<std::string>>;
 template class std::unordered_map<std::string, std::string>; 
 template class std::unordered_map<std::string, int>; 
+template class std::unordered_set<std::string>;

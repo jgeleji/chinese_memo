@@ -2,6 +2,7 @@
 #include <unordered_set>
 #include <vector>
 #include <string>
+#include <random>
 
 extern const char* reset_color;
 extern const char* blue_background;
@@ -21,6 +22,7 @@ class Input
 		std::unordered_map<std::string, std::unordered_set<std::string>> chinese_to_pinyin;
 		std::unordered_map<std::string, std::string> chinese_to_preferred_pinyin;
 		std::unordered_map<std::string, int> chinese_to_frequency;
+		std::vector<std::string> all_chinese_chars;
 
 		void load_extra_pinyins(std::string chinese);
 
@@ -30,11 +32,20 @@ class Input
 			INPUT_STATE_EXIT
 		};
 	public:
+		std::vector<std::string> split_into_chinese_characters(std::string val) const;
+		std::vector<std::string> get_some_random_chinese_chars(int num, std::mt19937& rnd) const;
 
-		std::string do_input_chinese(std::string description="", bool shuffle=true, int breaks = 0) const;
+		std::string do_input_chinese(std::string description="", bool shuffle=true, int breaks = 0, const char* expected=nullptr) const;
 		std::string do_input_english(std::string description="") const;
 		std::string do_input_pinyin(std::string description="") const;
-		std::string do_input_1char_chinese(std::string const& top_row, INPUT_STATE& state_number, std::string const& description, bool shuffle=true, int breaks = 0) const;
+		std::string do_input_1char_chinese(
+			std::string const& top_row,
+			INPUT_STATE& state_number,
+			std::string const& description,
+			bool shuffle=true,
+			bool show_others=false,
+			const char* expected=nullptr,
+			int breaks = 0) const;
 		std::string do_input_1char_english(std::string const& top_row, INPUT_STATE& state_number, std::string const& description) const;
 		std::string do_input_1char_pinyin(std::string const& top_row, INPUT_STATE& state_number, std::string const& description) const;
 

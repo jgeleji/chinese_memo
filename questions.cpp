@@ -145,7 +145,7 @@ bool questions::datapoint::ask(
 	switch(asked)
 	{
 		case DATATYPE_CHINESE:
-			gave = input.do_input_chinese(question_to_ask.str(), true, breaks);
+			gave = input.do_input_chinese(question_to_ask.str(), true, breaks, chinese.c_str());
 			break;
 		case DATATYPE_ENGLISH:
 			gave = tolower(input.do_input_english(question_to_ask.str()));
