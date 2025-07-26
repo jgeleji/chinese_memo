@@ -208,12 +208,12 @@ void questions::statistics_screen(
 		}
 	}
 	if(have_overloaded)	std::cin.get();
-	PRINT(negative_score.size());
 	for(auto iter = negative_score.begin(); iter != negative_score.end(); ++iter)
 	{
 		PRINT(iter->first);
 		PRINT(iter->second);
 	}
+	PRINT(negative_score.size());
 	PRINT(zero_score);
 	PRINT(positive_score.size());
 	for(auto iter = positive_score.begin(); iter != positive_score.end(); ++iter)
@@ -467,7 +467,7 @@ repeat_question:
 					DATATYPE punishable_asked = provided;
 
 					q_type val = q_type(index, asked, provided);
-					recurrence_scores[val].second = std::min(recurrence_scores[val].second + score_deteriorate_if_fail+(gen()%5000)*.00001, max_complexity* punishable->get(DATATYPE_CHINESE).size()/2);
+					recurrence_scores[val].second = std::min(recurrence_scores[val].second + score_deteriorate_if_fail+(gen()%5000)*.00001, max_complexity* punishable->get(DATATYPE_CHINESE).size()/6);
 					statusfile << "\n";
 					statusfile << punishable->get(DATATYPE_CHINESE);
 					statusfile << "|";
