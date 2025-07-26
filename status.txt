@@ -9581,3 +9581,203 @@
 香港|xiānggǎng|hong kong|2|0|7322|fail
 香港|xiānggǎng|hong kong|2|0|7322|success
 香港|xiānggǎng|hong kong|2|0|7322|success
+重要|zhòngyào|important|0|2|7324|success
+生活|shēnghuó|life|1|2|7325|fail
+生活|shēnghuó|life|1|2|7325|success
+生活|shēnghuó|life|1|2|7325|success
+萨拉米|sàlāmǐ|salami|2|0|7326|success
+得|de|particule|0|2|7327|success
+没意思|méiyìsī|boring|0|1|7328|success
+周一|zhōuyī|monday|0|2|7329|success
+豆浆|dòujiāng|soy milk|2|0|7330|success
+炖肉|dùnròu|stew|2|0|7331|success
+香港|xiānggǎng|hong kong|2|0|7332|success
+点单|diǎndān|order|1|0|7333|fail
+点单|diǎndān|order|1|0|7333|success
+点单|diǎndān|order|1|0|7333|success
+右边|yòubiān|right|2|0|7334|fail
+右边|yòubiān|right|2|0|7334|success
+右边|yòubiān|right|2|0|7334|success
+生活|shēnghuó|life|1|2|7335|success
+萨拉米|sàlāmǐ|salami|2|0|7336|success
+梨|lí|pear|0|1|7337|fail
+梨|lí|pear|0|1|7337|success
+梨|lí|pear|0|1|7337|success
+肉|ròu|meat|2|0|7338|success
+练功夫|liàngōngfū|practice kung fu|0|2|7339|fail
+练功夫|liàngōngfū|practice kung fu|0|2|7339|success
+练功夫|liàngōngfū|practice kung fu|0|2|7339|success
+一般|yībān|normally|2|1|7340|fail
+一般|yībān|normally|2|1|7340|success
+一般|yībān|normally|2|1|7340|success
+会|huì|can|2|0|7341|success
+油条|yóutiáo|deep fried dough|0|2|7342|success
+点单|diǎndān|order|1|0|7343|fail
+点|diǎn|point out|0|1|7343|fail
+点|diǎn|hour|0|1|7343|fail
+点|diǎn|count|0|1|7343|fail
+点|diǎn|choose|0|1|7343|fail
+点单|diǎndān|order|1|0|7343|success
+点单|diǎndān|order|1|0|7343|success
+点|diǎn|count|0|1|7344|fail
+点|diǎn|count|0|1|7344|success
+点|diǎn|count|0|1|7344|success
+点|diǎn|hour|0|1|7345|fail
+点|diǎn|count|1|0|7345|fail
+点|diǎn|hour|0|1|7345|success
+点|diǎn|hour|0|1|7345|success
+萨拉米|sàlāmǐ|salami|2|0|7346|success
+点|diǎn|count|1|0|7347|success
+点|diǎn|choose|0|1|7348|success
+练功夫|liàngōngfū|practice kung fu|0|2|7349|success
+练功夫|liàngōngfū|practice kung fu|0|2|7349|success
+一般|yībān|normally|2|1|7350|success
+右边|yòubiān|right|2|0|7351|success
+生活|shēnghuó|life|1|2|7352|success
+点单|diǎndān|order|1|0|7353|fail
+点|diǎn|point out|0|1|7353|fail
+点|diǎn|hour|0|1|7353|fail
+点|diǎn|count|0|1|7353|fail
+点|diǎn|choose|0|1|7353|fail
+点单|diǎndān|order|1|0|7353|success
+点单|diǎndān|order|1|0|7353|success
+点|diǎn|count|0|1|7354|success
+点|diǎn|hour|0|1|7355|fail
+点|diǎn|hour|0|1|7355|success
+点|diǎn|hour|0|1|7355|success
+萨拉米|sàlāmǐ|salami|2|0|7356|success
+点|diǎn|point out|0|1|7357|success
+点|diǎn|choose|0|1|7358|fail
+点|diǎn|choose|0|1|7358|success
+点|diǎn|choose|0|1|7358|success
+练功夫|liàngōngfū|practice kung fu|0|2|7359|success
+点|diǎn|count|1|0|7360|success
+梨|lí|pear|0|1|7361|fail
+梨|lí|pear|0|1|7361|success
+梨|lí|pear|0|1|7361|success
+香港|xiānggǎng|hong kong|2|0|7362|success
+点单|diǎndān|order|1|0|7363|success
+点|diǎn|count|0|1|7364|fail
+点|diǎn|count|0|1|7364|success
+点|diǎn|count|0|1|7364|success
+炖肉|dùnròu|stew|2|0|7365|success
+萨拉米|sàlāmǐ|salami|2|0|7366|success
+点|diǎn|point out|0|1|7367|success
+一般|yībān|normally|2|1|7368|success
+练功夫|liàngōngfū|practice kung fu|0|2|7369|success
+生活|shēnghuó|life|1|2|7370|success
+右边|yòubiān|right|2|0|7371|success
+点|diǎn|hour|0|1|7372|success
+点单|diǎndān|order|1|0|7373|success
+周一|zhōuyī|monday|0|2|7374|success
+点|diǎn|choose|0|1|7375|success
+萨拉米|sàlāmǐ|salami|2|0|7376|success
+点|diǎn|count|1|0|7377|success
+梨|lí|pear|0|1|7378|success
+练功夫|liàngōngfū|practice kung fu|0|2|7379|success
+得|de|particule|0|2|7380|success
+点|diǎn|count|0|1|7381|success
+没意思|méiyìsī|boring|0|1|7382|success
+请假|qǐngjiǎ|request leave|2|0|7383|fail
+请假|qǐngjiǎ|request leave|2|0|7383|success
+请假|qǐngjiǎ|request leave|2|0|7383|success
+点|diǎn|point out|0|1|7384|success
+陶诗|táoshī|tao shi|1|0|7385|success
+狮子|shīzi|lion|0|1|7386|fail
+狮子|shīzi|lion|0|1|7386|success
+狮子|shīzi|lion|0|1|7386|success
+香菇油菜|xiānggūyóucài|mushroom cole|2|1|7387|fail
+香菇油菜|xiānggūyóucài|mushroom cole|2|1|7387|success
+香菇油菜|xiānggūyóucài|mushroom cole|2|1|7387|success
+粥|zhōu|porridge|2|0|7388|fail
+进|jìn|enter, come in|0|2|7388|fail
+粥|zhōu|porridge|2|0|7388|success
+粥|zhōu|porridge|2|0|7388|success
+进|jìn|enter, come in|0|2|7389|fail
+进|jìn|enter, come in|0|2|7389|success
+进|jìn|enter, come in|0|2|7389|success
+练功夫|liàngōngfū|practice kung fu|0|2|7390|success
+点单|diǎndān|order|1|0|7391|success
+香港|xiānggǎng|hong kong|2|0|7392|success
+请假|qǐngjiǎ|request leave|2|0|7393|success
+萨拉米|sàlāmǐ|salami|2|0|7394|success
+炖肉|dùnròu|stew|2|0|7395|success
+狮子|shīzi|lion|0|1|7396|fail
+狮子|shīzi|lion|0|1|7396|fail
+狮子|shīzi|lion|0|1|7396|success
+香菇油菜|xiānggūyóucài|mushroom cole|2|1|7397|success
+一般|yībān|normally|2|1|7398|success
+生活|shēnghuó|life|1|2|7399|fail
+生活|shēnghuó|life|1|2|7399|success
+生活|shēnghuó|life|1|2|7399|success
+右边|yòubiān|right|2|0|7400|success
+点|diǎn|hour|0|1|7401|success
+当然|dāngrán|of course|2|1|7402|success
+周一|zhōuyī|monday|0|2|7403|success
+点|diǎn|choose|0|1|7404|success
+粥|zhōu|porridge|2|0|7405|success
+狮子|shīzi|lion|0|1|7406|success
+进|jìn|enter, come in|0|2|7407|success
+练功夫|liàngōngfū|practice kung fu|0|2|7408|success
+生活|shēnghuó|life|1|2|7409|fail
+生活|shēnghuó|life|1|2|7409|success
+生活|shēnghuó|life|1|2|7409|success
+请假|qǐngjiǎ|request leave|2|0|7410|success
+点|diǎn|count|0|1|7411|success
+梨|lí|pear|0|1|7412|fail
+梨|lí|pear|0|1|7412|success
+梨|lí|pear|0|1|7412|success
+点|diǎn|point out|0|1|7413|success
+香菇油菜|xiānggūyóucài|mushroom cole|2|1|7414|success
+点|diǎn|count|1|0|7415|success
+狮子|shīzi|lion|0|1|7416|success
+萨拉米|sàlāmǐ|salami|0|2|7417|success
+写|xiě|write|1|0|7418|fail
+鸟|niǎo|bird|0|1|7418|fail
+写|xiě|write|1|0|7418|success
+写|xiě|write|1|0|7418|success
+鸟|niǎo|bird|0|1|7419|fail
+鸟|niǎo|bird|0|1|7419|success
+鸟|niǎo|bird|0|1|7419|success
+生活|shēnghuó|life|1|2|7420|success
+点单|diǎndān|order|1|0|7421|success
+左边|zuǒbiān|left|1|0|7422|success
+左边|zuǒbiān|left|1|0|7422|success
+萨拉米|sàlāmǐ|salami|2|0|7423|success
+最|zuì|the most|0|1|7424|fail
+最|zuì|the most|0|1|7424|success
+最|zuì|the most|0|1|7424|success
+超市|chāoshì|supermarket|2|0|7425|fail
+超市|chāoshì|supermarket|2|0|7425|success
+超市|chāoshì|supermarket|2|0|7425|success
+狮子|shīzi|lion|0|1|7426|success
+糖|táng|sugar|2|0|7427|success
+橙色|chéngsè|orange color|1|2|7428|success
+梨|lí|pear|0|1|7429|success
+生活|shēnghuó|life|1|2|7430|fail
+生活|shēnghuó|life|1|2|7430|success
+生活|shēnghuó|life|1|2|7430|success
+有人|yǒurén|some people|2|1|7431|fail
+有人|yǒurén|some people|2|1|7431|success
+有人|yǒurén|some people|2|1|7431|success
+左边|zuǒbiān|left|1|0|7432|success
+国会大厦|guóhuìdàshà|parliament|2|0|7433|fail
+国会大厦|guóhuìdàshà|parliament|2|0|7433|success
+国会大厦|guóhuìdàshà|parliament|2|0|7433|success
+粥|zhōu|porridge|2|0|7434|success
+超市|chāoshì|supermarket|2|0|7435|success
+鸟|niǎo|bird|0|1|7436|success
+写|xiě|write|1|0|7437|success
+进|jìn|enter, come in|0|2|7438|success
+请假|qǐngjiǎ|request leave|2|0|7439|success
+生活|shēnghuó|life|1|2|7440|fail
+生活|shēnghuó|life|1|2|7440|success
+生活|shēnghuó|life|1|2|7440|success
+有人|yǒurén|some people|2|1|7441|success
+最|zuì|the most|0|1|7442|success
+国会大厦|guóhuìdàshà|parliament|2|0|7443|success
+狮子|shīzi|lion|0|1|7444|success
+香菇油菜|xiānggūyóucài|mushroom cole|2|1|7445|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7446|fail
+斯洛伐克|sīluòfákè|slovakia|0|1|7446|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7446|success
