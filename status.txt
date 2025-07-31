@@ -9781,3 +9781,47 @@
 斯洛伐克|sīluòfákè|slovakia|0|1|7446|fail
 斯洛伐克|sīluòfákè|slovakia|0|1|7446|success
 斯洛伐克|sīluòfákè|slovakia|0|1|7446|success
+山西|shānxī|shanxi|2|0|7448|fail
+山西|shānxī|shanxi|2|0|7448|success
+山西|shānxī|shanxi|2|0|7448|success
+酒|jiǔ|alcohol|2|0|7449|success
+生活|shēnghuó|life|1|2|7450|fail
+生活|shēnghuó|life|1|2|7450|success
+生活|shēnghuó|life|1|2|7450|success
+海|hǎi|ocean|2|1|7451|fail
+海|hǎi|ocean|2|1|7451|success
+海|hǎi|ocean|2|1|7451|success
+超市|chāoshì|supermarket|2|0|7452|success
+意思|yìsī|meaning|0|2|7453|fail
+意思|yìsī|meaning|0|2|7453|success
+意思|yìsī|meaning|0|2|7453|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7454|fail
+面包|miànbāo|bread|0|1|7454|fail
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7454|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7454|success
+面包|miànbāo|bread|0|1|7455|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7456|fail
+斯洛伐克|sīluòfákè|slovakia|0|1|7456|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7456|success
+点酒|diǎnjiǔ|order drink|0|1|7457|success
+山西|shānxī|shanxi|2|0|7458|success
+有人|yǒurén|some people|2|1|7459|fail
+有人|yǒurén|some people|2|1|7459|success
+有人|yǒurén|some people|2|1|7459|success
+生活|shēnghuó|life|1|2|7460|success
+国会大厦|guóhuìdàshà|parliament|2|0|7461|success
+梨|lí|pear|0|1|7462|success
+意思|yìsī|meaning|0|2|7463|fail
+意思|yìsī|meaning|0|2|7463|success
+意思|yìsī|meaning|0|2|7463|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7464|fail
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7464|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7464|success
+面包|miànbāo|bread|0|1|7465|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7466|success
+写|xiě|write|1|0|7467|success
+海|hǎi|ocean|2|1|7468|success
+有人|yǒurén|some people|2|1|7469|success
+生活|shēnghuó|life|1|2|7470|success
+鸟|niǎo|bird|0|1|7471|success
+最|zuì|the most|0|1|7472|success
