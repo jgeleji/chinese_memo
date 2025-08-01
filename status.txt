@@ -9825,3 +9825,286 @@
 生活|shēnghuó|life|1|2|7470|success
 鸟|niǎo|bird|0|1|7471|success
 最|zuì|the most|0|1|7472|success
+意思|yìsī|meaning|0|2|7473|success
+意思|yìsī|meaning|0|2|7473|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7474|fail
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7474|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7474|success
+面包|miànbāo|bread|0|1|7475|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7476|success
+山西|shānxī|shanxi|2|0|7477|success
+狮子|shīzi|lion|0|1|7478|fail
+狮子|shīzi|lion|0|1|7478|success
+狮子|shīzi|lion|0|1|7478|success
+有人|yǒurén|some people|2|1|7479|success
+土豆泥|tǔdòuní|mashed potato|2|0|7480|fail
+土豆泥|tǔdòuní|mashed potato|2|0|7480|success
+土豆泥|tǔdòuní|mashed potato|2|0|7480|success
+超市|chāoshì|supermarket|2|0|7481|success
+虫|chóng|insect worm|1|2|7482|fail
+虫|chóng|insect worm|1|2|7482|success
+虫|chóng|insect worm|1|2|7482|success
+意思|yìsī|meaning|0|2|7483|fail
+意思|yìsī|meaning|0|2|7483|success
+意思|yìsī|meaning|0|2|7483|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7484|success
+歌剧院|gējùyuàn|opera|1|0|7485|fail
+歌剧院|gējùyuàn|opera|1|0|7485|fail
+歌剧院|gējùyuàn|opera|1|0|7485|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7486|success
+生活|shēnghuó|life|1|2|7487|fail
+生活|shēnghuó|life|1|2|7487|success
+生活|shēnghuó|life|1|2|7487|success
+狮子|shīzi|lion|0|1|7488|success
+酒店|jiǔdiàn|hotel|0|1|7489|fail
+酒店|jiǔdiàn|hotel|0|1|7489|success
+酒店|jiǔdiàn|hotel|0|1|7489|success
+土豆泥|tǔdòuní|mashed potato|2|0|7490|fail
+土豆泥|tǔdòuní|mashed potato|2|0|7490|success
+土豆泥|tǔdòuní|mashed potato|2|0|7490|success
+国会大厦|guóhuìdàshà|parliament|2|0|7491|success
+面包|miànbāo|bread|0|1|7492|success
+意思|yìsī|meaning|0|2|7493|fail
+意思|yìsī|meaning|0|2|7493|success
+意思|yìsī|meaning|0|2|7493|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7494|success
+歌剧院|gējùyuàn|opera|1|0|7495|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7496|success
+生活|shēnghuó|life|1|2|7497|success
+有人|yǒurén|some people|2|1|7498|success
+酒店|jiǔdiàn|hotel|0|1|7499|success
+土豆泥|tǔdòuní|mashed potato|2|0|7500|success
+虫|chóng|insect worm|1|2|7501|fail
+虫|chóng|insect worm|1|2|7501|success
+虫|chóng|insect worm|1|2|7501|success
+海|hǎi|ocean|2|1|7502|success
+意思|yìsī|meaning|0|2|7503|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7504|success
+歌剧院|gējùyuàn|opera|1|0|7505|success
+狮子|shīzi|lion|0|1|7506|success
+生活|shēnghuó|life|1|2|7507|success
+山西|shānxī|shanxi|2|0|7508|success
+绳子|shéngzi|rope|2|0|7509|fail
+绳子|shéngzi|rope|2|0|7509|fail
+绳子|shéngzi|rope|2|0|7509|success
+土豆泥|tǔdòuní|mashed potato|2|0|7510|success
+工程师|gōngchéngshī|engineer|1|2|7511|fail
+工程师|gōngchéngshī|engineer|1|2|7511|success
+工程师|gōngchéngshī|engineer|1|2|7511|success
+早饭|zǎofàn|breakfast|1|0|7512|success
+意思|yìsī|meaning|0|2|7513|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7514|success
+歌剧院|gējùyuàn|opera|1|0|7515|success
+酒店|jiǔdiàn|hotel|0|1|7516|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7517|success
+虫|chóng|insect worm|1|2|7518|success
+绳子|shéngzi|rope|2|0|7519|success
+土豆泥|tǔdòuní|mashed potato|2|0|7520|success
+工程师|gōngchéngshī|engineer|1|2|7521|success
+面包|miànbāo|bread|0|1|7522|success
+芝士面包|zhīshìmiànbāo|cheese bread|0|2|7523|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7524|success
+歌剧院|gējùyuàn|opera|1|0|7525|success
+生活|shēnghuó|life|1|2|7526|success
+有人|yǒurén|some people|2|1|7527|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|1|0|7528|fail
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|1|0|7528|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|1|0|7528|success
+绳子|shéngzi|rope|2|0|7529|success
+土豆泥|tǔdòuní|mashed potato|2|0|7530|success
+意思|yìsī|meaning|0|2|7531|success
+汽油|qìyóu|gasoline|2|0|7532|success
+鸟|niǎo|bird|2|1|7533|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7534|success
+歌剧院|gējùyuàn|opera|1|0|7535|success
+狮子|shīzi|lion|0|1|7536|success
+北京|běijīng|beijing|1|2|7537|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|1|0|7538|success
+绳子|shéngzi|rope|2|0|7539|success
+工程师|gōngchéngshī|engineer|1|2|7540|success
+快一点儿|kuàiyīdiǎner|faster|0|1|7541|success
+颜色|yánsè|color|0|1|7542|fail
+颜色|yánsè|color|0|1|7542|success
+颜色|yánsè|color|0|1|7542|success
+办公室|bàngōngshì|office|2|0|7543|fail
+办公室|bàngōngshì|office|2|0|7543|success
+办公室|bàngōngshì|office|2|0|7543|success
+法国|fǎguó|france|1|0|7544|fail
+法国|fǎguó|france|1|0|7544|success
+法国|fǎguó|france|1|0|7544|success
+歌剧院|gējùyuàn|opera|1|0|7545|success
+酒店|jiǔdiàn|hotel|0|1|7546|success
+土豆泥|tǔdòuní|mashed potato|2|0|7547|success
+虫|chóng|insect worm|1|2|7548|success
+斯洛伐克|sīluòfákè|slovakia|0|1|7549|success
+紫色|zǐsè|purple|0|1|7550|fail
+紫色|zǐsè|purple|0|1|7550|success
+紫色|zǐsè|purple|0|1|7550|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7551|success
+颜色|yánsè|color|0|1|7552|success
+办公室|bàngōngshì|office|2|0|7553|success
+法国|fǎguó|france|1|0|7554|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|1|0|7555|success
+绳子|shéngzi|rope|2|0|7556|success
+生活|shēnghuó|life|1|2|7557|success
+贝|bèi|shell|0|1|7558|fail
+见到|jiàndào|see|1|0|7558|fail
+看见|kànjiàn|see|1|0|7558|fail
+贝|bèi|shell|0|1|7558|success
+贝|bèi|shell|0|1|7558|success
+看见|kànjiàn|see|1|0|7559|success
+见到|jiàndào|see|1|0|7560|fail
+见到|jiàndào|see|1|0|7560|success
+见到|jiàndào|see|1|0|7560|success
+紫色|zǐsè|purple|0|1|7561|success
+歌剧院|gējùyuàn|opera|1|0|7562|success
+意思|yìsī|meaning|0|2|7563|success
+东西|dōngxī|thing|1|0|7564|success
+近|jìn|near|1|0|7565|success
+塑胶|sùjiāo|plastic|2|1|7566|fail
+塑胶|sùjiāo|plastic|2|1|7566|success
+塑胶|sùjiāo|plastic|2|1|7566|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7568|fail
+面包|miànbāo|bread|0|1|7568|fail
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7568|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7568|success
+面包|miànbāo|bread|0|1|7569|success
+见到|jiàndào|see|1|0|7570|success
+看见|kànjiàn|see|1|0|7571|success
+法国|fǎguó|france|1|0|7572|success
+颜色|yánsè|color|0|1|7573|success
+办公室|bàngōngshì|office|2|0|7574|success
+贝|bèi|shell|0|1|7575|fail
+贝|bèi|shell|0|1|7575|success
+贝|bèi|shell|0|1|7575|success
+塑胶|sùjiāo|plastic|2|1|7576|success
+工程师|gōngchéngshī|engineer|1|2|7577|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7578|success
+面包|miànbāo|bread|0|1|7579|success
+见到|jiàndào|see|1|0|7580|success
+紫色|zǐsè|purple|0|1|7581|success
+土豆泥|tǔdòuní|mashed potato|2|0|7582|success
+晚|wǎn|late|1|0|7583|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|1|0|7584|success
+绳子|shéngzi|rope|2|0|7585|success
+点菜|diǎncài|order dish|0|1|7586|success
+有钱人|yǒuqiánrén|rich person|1|2|7587|fail
+有钱人|yǒuqiánrén|rich person|1|2|7587|success
+有钱人|yǒuqiánrén|rich person|1|2|7587|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7588|success
+面包|miànbāo|bread|0|1|7589|success
+看见|kànjiàn|see|1|0|7590|success
+歌剧院|gējùyuàn|opera|1|0|7591|success
+贝|bèi|shell|0|1|7592|success
+塑胶|sùjiāo|plastic|2|1|7593|success
+燕麦粥|yànmàizhōu|porridge|2|1|7594|success
+周|zhōu|week|2|0|7595|success
+国会大厦|guóhuìdàshà|parliament|1|0|7596|fail
+国会大厦|guóhuìdàshà|parliament|1|0|7596|success
+国会大厦|guóhuìdàshà|parliament|1|0|7596|success
+有钱人|yǒuqiánrén|rich person|1|2|7597|success
+见到|jiàndào|see|1|0|7598|success
+坐船|zuòchuán|take ship|2|1|7599|fail
+坐船|zuòchuán|take ship|2|1|7599|success
+坐船|zuòchuán|take ship|2|1|7599|success
+美|měi|beautiful|0|1|7600|fail
+美|měi|beautiful|0|1|7600|success
+美|měi|beautiful|0|1|7600|success
+法国|fǎguó|france|1|0|7601|success
+颜色|yánsè|color|0|1|7602|success
+办公室|bàngōngshì|office|2|0|7603|success
+豆浆|dòujiāng|soy milk|1|0|7604|fail
+豆浆|dòujiāng|soy milk|1|0|7604|success
+豆浆|dòujiāng|soy milk|1|0|7604|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7605|success
+国会大厦|guóhuìdàshà|parliament|1|0|7606|success
+面包|miànbāo|bread|0|1|7607|success
+时候|shíhou|when|0|1|7608|fail
+时候|shíhou|when|0|1|7608|success
+时候|shíhou|when|0|1|7608|success
+坐船|zuòchuán|take ship|2|1|7609|success
+紫色|zǐsè|purple|0|1|7610|success
+理发店|lǐfādiàn|barber shop|2|0|7611|fail
+理发店|lǐfādiàn|barber shop|2|0|7611|success
+理发店|lǐfādiàn|barber shop|2|0|7611|success
+重|zhòng|heavy|2|0|7612|success
+黄色|huángsè|yellow|0|2|7613|success
+豆浆|dòujiāng|soy milk|1|0|7614|success
+有钱人|yǒuqiánrén|rich person|1|2|7615|success
+火锅|huǒguō|hot pot|1|0|7616|fail
+火锅|huǒguō|hot pot|1|0|7616|fail
+火锅|huǒguō|hot pot|1|0|7616|success
+美|měi|beautiful|0|1|7617|fail
+美|měi|beautiful|0|1|7617|success
+美|měi|beautiful|0|1|7617|success
+时候|shíhou|when|0|1|7618|success
+看见|kànjiàn|see|1|0|7619|success
+别的|biéde|other|2|1|7620|fail
+别的|biéde|other|2|1|7620|success
+别的|biéde|other|2|1|7620|success
+理发店|lǐfādiàn|barber shop|2|0|7621|success
+贝|bèi|shell|0|1|7622|success
+国会大厦|guóhuìdàshà|parliament|1|0|7623|success
+塑胶|sùjiāo|plastic|2|1|7624|success
+练功夫|liàngōngfū|practice kung fu|2|1|7625|success
+火锅|huǒguō|hot pot|1|0|7626|success
+坐船|zuòchuán|take ship|2|1|7627|success
+见到|jiàndào|see|1|0|7628|success
+可乐|kěyuè|cola|2|1|7629|fail
+别的|biéde|other|2|1|7630|success
+别的|biéde|other|2|1|7630|success
+豆浆|dòujiāng|soy milk|1|0|7631|success
+棕色|zōngsè|brown|1|0|7632|fail
+棕色|zōngsè|brown|1|0|7632|success
+棕色|zōngsè|brown|1|0|7632|success
+送人|sòngrén|send someone off|2|0|7633|fail
+送人|sòngrén|send someone off|2|0|7633|success
+送人|sòngrén|send someone off|2|0|7633|success
+美|měi|beautiful|0|1|7634|success
+时候|shíhou|when|0|1|7635|success
+火锅|huǒguō|hot pot|1|0|7636|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7637|success
+理发店|lǐfādiàn|barber shop|2|0|7638|success
+可乐|kěyuè|cola|2|1|7639|success
+船|chuán|ship|0|2|7641|fail
+船|chuán|ship|0|2|7641|success
+船|chuán|ship|0|2|7641|success
+棕色|zōngsè|brown|1|0|7642|success
+送人|sòngrén|send someone off|2|0|7643|success
+有钱人|yǒuqiánrén|rich person|1|2|7644|success
+红烧肉|hóngshāoròu|braised pork|0|1|7645|fail
+红烧肉|hóngshāoròu|braised pork|0|1|7645|success
+红烧肉|hóngshāoròu|braised pork|0|1|7645|success
+火锅|huǒguō|hot pot|1|0|7646|success
+送礼物|sònglǐwù|give gift|0|2|7647|fail
+送礼物|sònglǐwù|give gift|0|2|7647|success
+送礼物|sònglǐwù|give gift|0|2|7647|success
+看见|kànjiàn|see|1|0|7648|success
+可乐|kělè|cola|2|1|7649|success
+西红柿汤|xīhóngshìtāng|tomato soup|0|1|7650|success
+酒店|jiǔdiàn|hotel|2|1|7651|success
+国会大厦|guóhuìdàshà|parliament|1|0|7652|success
+问题|wèntí|question|1|2|7653|success
+黑色|hēisè|black|0|2|7654|success
+红烧肉|hóngshāoròu|braised pork|0|1|7655|success
+坐船|zuòchuán|take ship|2|1|7656|success
+送礼物|sònglǐwù|give gift|0|2|7657|fail
+送礼物|sònglǐwù|give gift|0|2|7657|success
+送礼物|sònglǐwù|give gift|0|2|7657|fail
+船|chuán|ship|0|2|7658|success
+可乐|kělè|cola|2|1|7659|success
+送人|sòngrén|send someone off|2|0|7660|success
+棕色|zōngsè|brown|1|0|7661|success
+别的|biéde|other|2|1|7662|success
+火锅|huǒguō|hot pot|1|0|7663|success
+美|měi|beautiful|0|1|7664|fail
+美|měi|beautiful|0|1|7664|success
+美|měi|beautiful|0|1|7664|success
+豆浆|dòujiāng|soy milk|1|0|7665|success
+时候|shíhou|when|0|1|7666|success
+送礼物|sònglǐwù|give gift|0|2|7667|success
+理发店|lǐfādiàn|barber shop|2|0|7668|success
+牛油果|niúyóuguǒ|avocado|2|1|7669|fail
+牛油果|niúyóuguǒ|avocado|2|1|7669|success
+牛油果|niúyóuguǒ|avocado|2|1|7669|success
+地铁|detiě|subway|1|0|7670|fail
