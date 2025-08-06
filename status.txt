@@ -10108,3 +10108,152 @@
 牛油果|niúyóuguǒ|avocado|2|1|7669|success
 牛油果|niúyóuguǒ|avocado|2|1|7669|success
 地铁|detiě|subway|1|0|7670|fail
+德国|déguó|germany|1|0|7671|success
+德国|déguó|germany|1|0|7671|success
+红烧肉|hóngshāoròu|braised pork|0|1|7672|success
+黄瓜|huángguā|cucumber|0|1|7673|fail
+黄瓜|huángguā|cucumber|0|1|7673|success
+黄瓜|huángguā|cucumber|0|1|7673|success
+觉得|jiàodé|think feel|1|2|7674|fail
+燕麦粥|yànmàizhōu|porridge|0|2|7675|success
+燕麦粥|yànmàizhōu|porridge|0|2|7675|success
+可乐|kělè|cola|2|1|7676|success
+送礼物|sònglǐwù|give gift|0|2|7677|fail
+送礼物|sònglǐwù|give gift|0|2|7677|success
+送礼物|sònglǐwù|give gift|0|2|7677|success
+东西|dōngxī|thing|1|2|7678|success
+牛油果|niúyóuguǒ|avocado|2|1|7679|fail
+牛油果|niúyóuguǒ|avocado|2|1|7679|success
+牛油果|niúyóuguǒ|avocado|2|1|7679|success
+地铁|dìtiě|subway|1|0|7680|fail
+地铁|dìtiě|subway|1|0|7680|fail
+地铁|dìtiě|subway|1|0|7680|success
+美|měi|beautiful|0|1|7681|success
+颜色|yánsè|color|0|2|7682|fail
+颜色|yánsè|color|0|2|7682|success
+颜色|yánsè|color|0|2|7682|success
+黄瓜|huángguā|cucumber|0|1|7683|success
+觉得|juédé|think feel|1|2|7684|success
+燕麦粥|yànmàizhōu|porridge|0|2|7685|success
+英国|yīngguó|great britain|0|2|7686|success
+送礼物|sònglǐwù|give gift|0|2|7687|fail
+送礼物|sònglǐwù|give gift|0|2|7687|success
+送礼物|sònglǐwù|give gift|0|2|7687|success
+船|chuán|ship|0|2|7688|success
+牛油果|niúyóuguǒ|avocado|2|1|7689|success
+地铁|dìtiě|subway|1|0|7690|success
+棕色|zōngsè|brown|1|0|7691|success
+颜色|yánsè|color|0|2|7692|success
+送人|sòngrén|send someone off|2|0|7693|success
+觉得|juédé|think feel|1|2|7694|success
+火锅|huǒguō|hot pot|1|0|7695|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7696|fail
+送礼物|sònglǐwù|give gift|0|2|7697|success
+送礼物|sònglǐwù|give gift|0|2|7697|success
+回答|huídá|answer|1|0|7698|fail
+回答|huídá|answer|1|0|7698|success
+回答|huídá|answer|1|0|7698|success
+牛油果|niúyóuguǒ|avocado|2|1|7699|success
+地铁|dìtiě|subway|1|0|7700|success
+黄瓜|huángguā|cucumber|0|1|7701|fail
+黄瓜|huángguā|cucumber|0|1|7701|fail
+黄瓜|huángguā|cucumber|0|1|7701|success
+红烧肉|hóngshāoròu|braised pork|0|1|7702|success
+十多个|shíduōgè|about ten|2|1|7703|fail
+十多个|shíduōgè|about ten|2|1|7703|success
+十多个|shíduōgè|about ten|2|1|7703|success
+觉得|juédé|think feel|1|2|7704|success
+可乐|kělè|cola|2|1|7705|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7706|fail
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7706|fail
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7706|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7706|success
+送礼物|sònglǐwù|give gift|0|2|7707|fail
+送礼物|sònglǐwù|give gift|0|2|7707|success
+送礼物|sònglǐwù|give gift|0|2|7707|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7708|fail
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7708|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7708|success
+牛油果|niúyóuguǒ|avocado|2|1|7709|success
+回答|huídá|answer|1|0|7710|fail
+回答|huídá|answer|1|0|7710|success
+回答|huídá|answer|1|0|7710|success
+黄瓜|huángguā|cucumber|0|1|7711|success
+地铁|dìtiě|subway|1|0|7712|success
+十多个|shíduōgè|about ten|2|1|7713|success
+颜色|yánsè|color|0|2|7714|success
+美|měi|beautiful|0|1|7715|fail
+美|měi|beautiful|0|1|7715|success
+美|měi|beautiful|0|1|7715|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7716|success
+送礼物|sònglǐwù|give gift|0|2|7717|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7718|success
+牛油果|niúyóuguǒ|avocado|2|1|7719|success
+回答|huídá|answer|1|0|7720|fail
+回答|huídá|answer|1|0|7720|success
+回答|huídá|answer|1|0|7720|success
+黄瓜|huángguā|cucumber|0|1|7721|success
+觉得|juédé|think feel|1|2|7722|success
+加油|jiāyóu|come on|0|2|7723|fail
+加油|jiāyóu|come on|0|2|7723|success
+加油|jiāyóu|come on|0|2|7723|success
+肉|ròu|meat|0|2|7724|success
+灰色|huīsè|grey|1|2|7725|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7726|success
+送礼物|sònglǐwù|give gift|0|2|7727|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7728|success
+地铁|dìtiě|subway|1|0|7729|success
+回答|huídá|answer|1|0|7730|success
+黄瓜|huángguā|cucumber|0|1|7731|success
+十多个|shíduōgè|about ten|2|1|7732|success
+加油|jiāyóu|come on|0|2|7733|success
+美|měi|beautiful|0|1|7734|success
+坐船|zuòchuán|take ship|1|2|7735|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7736|success
+送礼物|sònglǐwù|give gift|0|2|7737|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7738|success
+牛油果|niúyóuguǒ|avocado|2|1|7739|success
+回答|huídá|answer|1|0|7740|success
+牛角包|niújiǎobāo|croissant|1|0|7741|fail
+牛角包|niújiǎobāo|croissant|1|0|7741|success
+牛角包|niújiǎobāo|croissant|1|0|7741|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|2|7742|fail
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|2|7742|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|2|7742|success
+颜色|yánsè|color|0|2|7743|success
+左边|zuǒbiān|left|2|0|7744|fail
+左边|zuǒbiān|left|2|0|7744|success
+左边|zuǒbiān|left|2|0|7744|success
+匈牙利|xiōngyálì|hungary|2|1|7745|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7746|success
+送礼物|sònglǐwù|give gift|0|2|7747|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7748|success
+黄瓜|huángguā|cucumber|0|1|7749|success
+加油|jiāyóu|come on|0|2|7750|success
+牛角包|niújiǎobāo|croissant|1|0|7751|fail
+牛角包|niújiǎobāo|croissant|1|0|7751|success
+牛角包|niújiǎobāo|croissant|1|0|7751|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|2|7752|success
+觉得|juédé|think feel|1|2|7753|success
+左边|zuǒbiān|left|2|0|7754|success
+修车|xiūchē|repair car|1|2|7755|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7756|success
+送礼物|sònglǐwù|give gift|0|2|7757|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7758|success
+回答|huídá|answer|1|0|7759|success
+地铁|dìtiě|subway|1|0|7760|success
+牛角包|niújiǎobāo|croissant|1|0|7761|fail
+牛|niú|cattle|0|1|7761|fail
+牛角包|niújiǎobāo|croissant|1|0|7761|fail
+牛角包|niújiǎobāo|croissant|1|0|7761|success
+牛|niú|cattle|0|1|7762|fail
+牛|niú|cattle|0|1|7762|success
+牛|niú|cattle|0|1|7762|success
+十多个|shíduōgè|about ten|2|1|7763|success
+美|měi|beautiful|0|1|7764|success
+鱼丸|yúwán|fish ball|0|1|7765|fail
+鱼丸|yúwán|fish ball|0|1|7765|success
+鱼丸|yúwán|fish ball|0|1|7765|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7766|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7767|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7767|fail

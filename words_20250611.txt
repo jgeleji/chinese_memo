@@ -4,7 +4,7 @@
 盘|plate
 肉|meat
 猪肉|pork
-觉得|think feel
+觉得|think feel|juédé
 买单|pay the bill
 陶诗|Tao shi
 生活|life
