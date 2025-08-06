@@ -13,3 +13,7 @@
 啤酒|beer
 吃饱了吗|are you full
 绳子|rope
+担心|worry spoken
+忧虑|worry
+最近|lately
+总是|always

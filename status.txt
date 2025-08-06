@@ -10257,3 +10257,79 @@
 蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7766|success
 野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7767|fail
 野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7767|fail
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|2|7769|success
+右边|yòubiān|right|2|1|7770|success
+牛角包|niújiǎobāo|croissant|1|0|7771|success
+左边|zuǒbiān|left|2|0|7772|success
+得|de|particule|1|2|7773|success
+送礼物|sònglǐwù|give gift|0|2|7774|success
+鱼丸|yúwán|fish ball|0|1|7775|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7776|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7777|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7777|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7777|success
+黄瓜|huángguā|cucumber|0|1|7778|success
+牛|niú|cattle|0|1|7779|success
+加油|jiāyóu|come on|0|2|7780|success
+牛角包|niújiǎobāo|croissant|1|0|7781|success
+送给|sònggěi|give to|1|0|7782|fail
+送给|sònggěi|give to|1|0|7782|success
+送给|sònggěi|give to|1|0|7782|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7783|success
+彩虹|cǎihóng|rainbow|0|2|7784|fail
+彩虹|cǎihóng|rainbow|0|2|7784|success
+彩虹|cǎihóng|rainbow|0|2|7784|success
+快一点儿|kuàiyīdiǎner|faster|2|1|7785|success
+彩虹|cǎihóng|rainbow|1|0|7786|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7787|success
+回答|huídá|answer|1|0|7788|fail
+回答|huídá|answer|1|0|7788|success
+回答|huídá|answer|1|0|7788|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7789|fail
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7789|fail
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7789|success
+牛角包|niújiǎobāo|croissant|2|0|7790|success
+牛角包|niújiǎobāo|croissant|1|0|7791|success
+送给|sònggěi|give to|1|0|7792|success
+鱼丸|yúwán|fish ball|0|1|7793|success
+彩虹|cǎihóng|rainbow|0|2|7794|fail
+彩虹|cǎihóng|rainbow|0|2|7794|success
+彩虹|cǎihóng|rainbow|0|2|7794|success
+恭喜|gōngxǐ|congratulations|0|2|7795|fail
+恭喜|gōngxǐ|congratulations|0|2|7795|success
+恭喜|gōngxǐ|congratulations|0|2|7795|success
+金色|jīnsè|golden color|0|1|7796|fail
+金色|jīnsè|golden color|0|1|7796|fail
+金色|jīnsè|golden color|0|1|7796|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7797|success
+回答|huídá|answer|1|0|7798|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7799|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|1|2|7800|success
+牛角包|niújiǎobāo|croissant|1|0|7801|success
+左边|zuǒbiān|left|2|0|7802|success
+送礼物|sònglǐwù|give gift|0|2|7803|success
+彩虹|cǎihóng|rainbow|0|2|7804|success
+恭喜|gōngxǐ|congratulations|0|2|7805|success
+金色|jīnsè|golden color|0|1|7806|fail
+金色|jīnsè|golden color|0|1|7806|success
+金色|jīnsè|golden color|0|1|7806|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7807|success
+牛|niú|cattle|0|1|7808|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7809|success
+送给|sònggěi|give to|1|0|7810|success
+牛角包|niújiǎobāo|croissant|1|0|7811|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|7812|success
+生菜|shēngcài|stranger|1|0|7813|fail
+生菜|shēngcài|stranger|1|0|7813|success
+生菜|shēngcài|stranger|1|0|7813|success
+彩虹|cǎihóng|rainbow|0|2|7814|success
+回答|huídá|answer|1|0|7815|success
+金色|jīnsè|golden color|0|1|7816|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7817|success
+公共汽车|gōnggòngqìchē|bus|1|0|7818|fail
+公共汽车|gōnggòngqìchē|bus|1|0|7818|success
+公共汽车|gōnggòngqìchē|bus|1|0|7818|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7819|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7820|success
+牛角包|niújiǎobāo|croissant|1|0|7821|success
+恭喜|gōngxǐ|congratulations|0|2|7822|success
