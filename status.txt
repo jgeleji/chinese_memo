@@ -10801,3 +10801,20 @@
 账单|zhàngdān|bill|2|0|8154|fail
 账单|zhàngdān|bill|2|0|8154|success
 账单|zhàngdān|bill|2|0|8154|success
+担心|dānxīn|worry spoken|1|0|8156|fail
+担心|dānxīn|worry spoken|1|0|8156|fail
+担心|dānxīn|worry spoken|1|0|8156|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8157|success
+点单|diǎndān|order|1|2|8158|fail
+账单|zhàngdān|bill|2|1|8158|fail
+点单|diǎndān|order|1|2|8158|success
+点单|diǎndān|order|1|2|8158|success
+账单|zhàngdān|bill|2|1|8159|fail
+账单|zhàngdān|bill|2|1|8159|success
+账单|zhàngdān|bill|2|1|8159|success
+常常|chángcháng|often|0|1|8160|success
+觉得|juédé|think feel|1|0|8161|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8162|success
+杏子|xìngzi|apricot|1|2|8163|success
+账单|zhàngdān|bill|2|0|8164|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|0|8165|success
