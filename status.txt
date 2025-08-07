@@ -10333,3 +10333,471 @@
 蛋煎面包|dànjiānmiànbāo|egg fried bread|0|1|7820|success
 牛角包|niújiǎobāo|croissant|1|0|7821|success
 恭喜|gōngxǐ|congratulations|0|2|7822|success
+生菜|shēngcài|stranger|1|0|7823|success
+生菜|shēngcài|stranger|1|0|7823|success
+鱼丸|yúwán|fish ball|0|1|7824|success
+对面|duìmiàn|opposite|0|1|7825|success
+金色|jīnsè|golden color|0|1|7826|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7827|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7827|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7827|success
+公共汽车|gōnggòngqìchē|bus|1|0|7828|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7829|success
+牛油果|niúyóuguǒ|avocado|2|1|7830|success
+彩虹|cǎihóng|rainbow|0|2|7831|success
+送给|sònggěi|see off|0|2|7832|success
+生菜|shēngcài|stranger|1|0|7833|success
+意思|yìsī|meaning|2|0|7834|fail
+意思|yìsī|meaning|2|0|7834|success
+意思|yìsī|meaning|2|0|7834|success
+这个|zhègè|this|1|0|7835|success
+红茶|hóngchá|black tea|2|1|7836|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7837|success
+牛角包|niújiǎobāo|croissant|1|0|7838|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7839|success
+送给|sònggěi|give to|1|0|7840|success
+酒店|jiǔdiàn|hotel|1|0|7841|success
+火腿|huǒtuǐ|sausage|1|0|7842|fail
+火腿|huǒtuǐ|sausage|1|0|7842|success
+火腿|huǒtuǐ|sausage|1|0|7842|success
+生菜|shēngcài|stranger|1|0|7843|success
+意思|yìsī|meaning|2|0|7844|success
+公共汽车|gōnggòngqìchē|bus|1|0|7845|success
+金色|jīnsè|golden color|0|1|7846|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7847|success
+回答|huídá|answer|1|0|7848|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7849|success
+买单|mǎidān|pay the bill|1|0|7850|fail
+买单|mǎidān|pay the bill|1|0|7850|success
+买单|mǎidān|pay the bill|1|0|7850|success
+恭喜|gōngxǐ|congratulations|0|2|7851|success
+火腿|huǒtuǐ|sausage|1|0|7852|fail
+腿|tuǐ|leg|0|1|7852|fail
+火腿|huǒtuǐ|sausage|1|0|7852|success
+火腿|huǒtuǐ|sausage|1|0|7852|success
+腿|tuǐ|leg|0|1|7853|fail
+腿|tuǐ|leg|0|1|7853|success
+腿|tuǐ|leg|0|1|7853|success
+无花果|wúhuāguǒ|fig|0|2|7854|fail
+无花果|wúhuāguǒ|fig|0|2|7854|fail
+无花果|wúhuāguǒ|fig|0|2|7854|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7855|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7855|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7855|success
+可乐|kělè|cola|1|2|7856|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7857|success
+多瑙河|duōnǎohé|danube|0|2|7858|fail
+多瑙河|duōnǎohé|danube|0|2|7858|success
+多瑙河|duōnǎohé|danube|0|2|7858|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7859|success
+买单|mǎidān|pay the bill|1|0|7860|success
+意思|yìsī|meaning|2|0|7861|success
+火腿|huǒtuǐ|sausage|1|0|7862|success
+生菜|shēngcài|stranger|1|0|7863|success
+无花果|wúhuāguǒ|fig|0|2|7864|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7865|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7865|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7865|success
+彩虹|cǎihóng|rainbow|0|2|7866|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7867|success
+多瑙河|duōnǎohé|danube|0|2|7868|success
+牛油果|niúyóuguǒ|avocado|2|0|7869|success
+腿|tuǐ|leg|0|1|7870|success
+无花果|wúhuāguǒ|fig|1|2|7871|fail
+无花果|wúhuāguǒ|fig|1|2|7871|success
+无花果|wúhuāguǒ|fig|1|2|7871|success
+火腿|huǒtuǐ|sausage|1|0|7872|success
+炖肉|dùnròu|stew|0|1|7873|fail
+红烧肉|hóngshāoròu|braised pork|1|0|7873|fail
+炖肉|dùnròu|stew|0|1|7873|success
+炖肉|dùnròu|stew|0|1|7873|success
+无花果|wúhuāguǒ|fig|0|2|7874|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7875|success
+红烧肉|hóngshāoròu|braised pork|1|0|7876|fail
+红烧肉|hóngshāoròu|braised pork|1|0|7876|success
+红烧肉|hóngshāoròu|braised pork|1|0|7876|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7877|success
+买单|mǎidān|pay the bill|1|0|7878|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7879|success
+公共汽车|gōnggòngqìchē|bus|1|0|7880|success
+无花果|wúhuāguǒ|fig|1|2|7881|success
+金色|jīnsè|golden color|0|1|7882|success
+炖肉|dùnròu|stew|0|1|7883|success
+无花果|wúhuāguǒ|fig|0|2|7884|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7885|success
+红烧肉|hóngshāoròu|braised pork|1|0|7886|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7887|success
+多瑙河|duōnǎohé|danube|0|2|7888|fail
+多瑙河|duōnǎohé|danube|0|2|7888|success
+多瑙河|duōnǎohé|danube|0|2|7888|success
+火腿|huǒtuǐ|sausage|1|0|7889|success
+意思|yìsī|meaning|2|0|7890|success
+牛角包|niújiǎobāo|croissant|1|0|7891|success
+生菜|shēngcài|stranger|1|0|7892|success
+牛奶|niúnǎi|milk|1|2|7893|success
+无花果|wúhuāguǒ|fig|0|2|7894|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7895|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7895|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7895|success
+红烧肉|hóngshāoròu|braised pork|1|0|7896|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7897|success
+多瑙河|duōnǎohé|danube|0|2|7898|success
+无花果|wúhuāguǒ|fig|1|2|7899|success
+炖肉|dùnròu|stew|0|1|7900|success
+腿|tuǐ|leg|0|1|7901|success
+黄色|huángsè|yellow|2|0|7902|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|2|1|7903|success
+无花果|wúhuāguǒ|fig|0|2|7904|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7905|success
+红烧肉|hóngshāoròu|braised pork|1|0|7906|fail
+红烧肉|hóngshāoròu|braised pork|1|0|7906|success
+红烧肉|hóngshāoròu|braised pork|1|0|7906|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7907|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7907|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7907|success
+多瑙河|duōnǎohé|danube|0|2|7908|success
+买单|mǎidān|pay the bill|1|0|7909|success
+这里|zhèlǐ|here|0|2|7910|success
+一点儿|yīdiǎner|a bit|0|2|7911|success
+点酒|diǎnjiǔ|order drink|2|1|7912|success
+棕色|zōngsè|brown|0|1|7913|fail
+棕色|zōngsè|brown|0|1|7913|success
+棕色|zōngsè|brown|0|1|7913|success
+无花果|wúhuāguǒ|fig|0|2|7914|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7915|success
+红烧肉|hóngshāoròu|braised pork|1|0|7916|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7917|success
+火腿|huǒtuǐ|sausage|1|0|7918|success
+香菇油菜|xiānggūyóucài|mushroom cole|1|2|7919|success
+写|xiě|write|2|1|7920|success
+美|měi|beautiful|2|1|7921|success
+练功夫|liàngōngfū|practice kung fu|2|0|7922|fail
+练功夫|liàngōngfū|practice kung fu|2|0|7922|success
+练功夫|liàngōngfū|practice kung fu|2|0|7922|success
+棕色|zōngsè|brown|0|1|7923|success
+无花果|wúhuāguǒ|fig|0|2|7924|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7925|success
+红烧肉|hóngshāoròu|braised pork|1|0|7926|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7927|success
+多瑙河|duōnǎohé|danube|0|2|7928|success
+无花果|wúhuāguǒ|fig|1|2|7929|success
+炖肉|dùnròu|stew|0|1|7930|success
+筷子|kuàizi|chopstick|0|1|7931|fail
+筷子|kuàizi|chopstick|0|1|7931|success
+筷子|kuàizi|chopstick|0|1|7931|success
+练功夫|liàngōngfū|practice kung fu|2|0|7932|success
+白葡萄酒|báipútáojiǔ|white wine|2|1|7933|success
+像|xiàng|resemble|2|1|7934|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7935|success
+红烧肉|hóngshāoròu|braised pork|1|0|7936|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7937|success
+虫|chóng|insect worm|2|1|7938|fail
+狮子|shīzi|lion|1|2|7938|fail
+虫|chóng|insect worm|2|1|7938|success
+虫|chóng|insect worm|2|1|7938|success
+狮子|shīzi|lion|1|2|7939|fail
+狮子|shīzi|lion|1|2|7939|success
+狮子|shīzi|lion|1|2|7939|success
+棕色|zōngsè|brown|0|1|7940|success
+筷子|kuàizi|chopstick|0|1|7941|success
+无花果|wúhuāguǒ|fig|0|2|7942|success
+蘑菇|mógū|mushroom|1|0|7943|fail
+蘑菇|mógū|mushroom|1|0|7943|success
+蘑菇|mógū|mushroom|1|0|7943|success
+蓝色|lánsè|blue|1|2|7944|fail
+蓝色|lánsè|blue|1|2|7944|success
+蓝色|lánsè|blue|1|2|7944|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7945|success
+红烧肉|hóngshāoròu|braised pork|1|0|7946|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7947|success
+离|lí|away from|1|0|7948|fail
+离|lí|away from|1|0|7948|success
+离|lí|away from|1|0|7948|success
+狮子|shīzi|lion|1|2|7949|success
+练功夫|liàngōngfū|practice kung fu|2|0|7950|success
+奥地利|àodelì|austria|1|2|7951|fail
+奥地利|àodelì|austria|1|2|7951|success
+奥地利|àodelì|austria|1|2|7951|success
+节|jié|m.w.class|0|2|7952|fail
+节|jié|m.w.class|0|2|7952|success
+节|jié|m.w.class|0|2|7952|success
+蘑菇|mógū|mushroom|1|0|7953|success
+蓝色|lánsè|blue|1|2|7954|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7955|success
+红烧肉|hóngshāoròu|braised pork|1|0|7956|success
+虫|chóng|insect worm|2|1|7957|success
+筷子|kuàizi|chopstick|0|1|7958|success
+狮子|shīzi|lion|1|2|7959|success
+多瑙河|duōnǎohé|danube|0|2|7960|success
+奥地利|àodelì|austria|1|2|7961|success
+绳子|shéngzi|rope|2|1|7962|fail
+绳子|shéngzi|rope|2|1|7962|success
+绳子|shéngzi|rope|2|1|7962|success
+多瑙河|duōnǎohé|danube|1|0|7963|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7964|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7965|success
+离|lí|away from|1|0|7966|success
+休息|xiūxī|rest|0|1|7967|fail
+休息|xiūxī|rest|0|1|7967|success
+粉色|fěnsè|pink|0|2|7968|success
+粉色|fěnsè|pink|0|2|7968|success
+节|jié|m.w.class|0|2|7969|fail
+节|jié|m.w.class|0|2|7969|success
+节|jié|m.w.class|0|2|7969|success
+蘑菇|mógū|mushroom|1|0|7970|success
+蓝色|lánsè|blue|1|2|7971|success
+绳子|shéngzi|rope|2|1|7972|success
+红烧肉|hóngshāoròu|braised pork|1|0|7973|success
+棕色|zōngsè|brown|0|1|7974|success
+便宜|piányi|cheap|0|1|7975|fail
+便宜|piányi|cheap|0|1|7975|success
+便宜|piányi|cheap|0|1|7975|success
+狮子|shīzi|lion|1|2|7976|success
+休息|xiūxī|rest|0|1|7977|fail
+休息|xiūxī|rest|0|1|7977|success
+休息|xiūxī|rest|0|1|7977|success
+粉色|fěnsè|pink|0|2|7978|success
+奥地利|àodelì|austria|1|2|7979|success
+练功夫|liàngōngfū|practice kung fu|2|0|7980|success
+无花果|wúhuāguǒ|fig|0|2|7981|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7982|success
+晚|wǎn|late|1|2|7983|success
+近|jìn|near|0|1|7984|success
+便宜|piányi|cheap|0|1|7985|success
+节|jié|m.w.class|0|2|7986|success
+休息|xiūxī|rest|0|1|7987|success
+虫|chóng|insect worm|2|1|7988|success
+绳子|shéngzi|rope|2|1|7989|success
+筷子|kuàizi|chopstick|0|1|7990|success
+多瑙河|duōnǎohé|danube|0|2|7991|success
+教堂|jiàotáng|church|1|0|7992|fail
+教堂|jiàotáng|church|1|0|7992|fail
+教堂|jiàotáng|church|1|0|7992|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|7993|success
+生人|shēngrén|acquaintance|2|0|7994|fail
+生人|shēngrén|acquaintance|2|0|7994|success
+生人|shēngrén|acquaintance|2|0|7994|success
+粉色|fěnsè|pink|0|2|7995|success
+离|lí|away from|1|0|7996|success
+休息|xiūxī|rest|0|1|7997|success
+湿豆|shīdòu|white bean|0|2|7998|fail
+湿豆|shīdòu|white bean|0|2|7998|success
+湿豆|shīdòu|white bean|0|2|7998|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|7999|success
+蓝色|lánsè|blue|1|2|8000|success
+蘑菇|mógū|mushroom|1|0|8001|success
+教堂|jiàotáng|church|1|0|8002|success
+便宜|piányi|cheap|0|1|8003|success
+生人|shēngrén|acquaintance|2|0|8004|success
+狮子|shīzi|lion|1|2|8005|success
+红烧肉|hóngshāoròu|braised pork|1|0|8006|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8007|fail
+湿豆|shīdòu|white bean|0|2|8008|success
+湿豆|shīdòu|white bean|0|2|8008|success
+奥地利|àodelì|austria|1|2|8009|success
+辣|là|spicy|1|0|8010|fail
+辣|là|spicy|1|0|8010|success
+辣|là|spicy|1|0|8010|success
+芝士面包|zhīshìmiànbāo|cheese bread|2|0|8011|success
+教堂|jiàotáng|church|1|0|8012|success
+消防局|xiāofángjú|fire station|2|0|8013|fail
+消防局|xiāofángjú|fire station|2|0|8013|success
+消防局|xiāofángjú|fire station|2|0|8013|success
+休息|xiūxī|rest|0|1|8014|success
+节|jié|m.w.class|0|2|8015|success
+绳子|shéngzi|rope|1|0|8016|fail
+绳子|shéngzi|rope|1|0|8016|success
+绳子|shéngzi|rope|1|0|8016|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8017|fail
+北京|běijīng|beijing|2|0|8017|fail
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8017|fail
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8017|fail
+北京|běijīng|beijing|2|0|8018|success
+湿豆|shīdòu|white bean|0|2|8019|success
+绳子|shéngzi|rope|2|1|8020|success
+生人|shēngrén|acquaintance|2|0|8021|success
+教堂|jiàotáng|church|1|0|8022|success
+消防局|xiāofángjú|fire station|2|0|8023|success
+东莞|dōngguǎn|dongguan|1|0|8024|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8025|fail
+柠檬水|níngméngshuǐ|lemonade|1|0|8025|fail
+柠檬水|níngméngshuǐ|lemonade|1|0|8025|success
+绳子|shéngzi|rope|1|0|8026|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8027|success
+北京|běijīng|beijing|2|0|8028|success
+湿豆|shīdòu|white bean|0|2|8029|success
+辣|là|spicy|1|0|8030|fail
+辣|là|spicy|1|0|8030|success
+辣|là|spicy|1|0|8030|success
+点|diǎn|count|2|0|8031|success
+便宜|piányi|cheap|0|1|8032|success
+看看|kànkàn|take a look|0|2|8033|success
+酸奶|suānnǎi|yogurt|2|1|8034|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8035|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|8036|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8037|success
+北京|běijīng|beijing|2|0|8038|success
+教堂|jiàotáng|church|1|0|8039|success
+消防局|xiāofángjú|fire station|2|0|8040|fail
+消防局|xiāofángjú|fire station|2|0|8040|success
+消防局|xiāofángjú|fire station|2|0|8040|success
+忧虑|yōulǜ|worry|1|2|8041|fail
+忧虑|yōulǜ|worry|1|2|8041|success
+忧虑|yōulǜ|worry|1|2|8041|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|0|2|8042|success
+绳子|shéngzi|rope|1|0|8043|success
+休息|xiūxī|rest|0|1|8044|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8045|success
+湿豆|shīdòu|white bean|0|2|8046|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8047|success
+辣|là|spicy|1|0|8048|fail
+辣|là|spicy|1|0|8048|success
+辣|là|spicy|1|0|8048|success
+以前|yǐqián|before|1|2|8049|fail
+以前|yǐqián|before|1|2|8049|success
+以前|yǐqián|before|1|2|8049|success
+消防局|xiāofángjú|fire station|2|0|8050|success
+忧虑|yōulǜ|worry|1|2|8051|fail
+忧虑|yōulǜ|worry|1|2|8051|success
+忧虑|yōulǜ|worry|1|2|8051|success
+生人|shēngrén|acquaintance|2|0|8052|success
+升|shēng|liter|0|1|8053|fail
+升|shēng|liter|0|1|8053|fail
+升|shēng|liter|0|1|8053|success
+桥|qiáo|bridge|2|0|8054|fail
+桥|qiáo|bridge|2|0|8054|success
+桥|qiáo|bridge|2|0|8054|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8055|success
+北京|běijīng|beijing|2|0|8056|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8057|success
+牛角包|niújiǎobāo|croissant|0|1|8058|success
+以前|yǐqián|before|1|2|8059|success
+消防局|xiāofángjú|fire station|2|0|8060|success
+忧虑|yōulǜ|worry|1|2|8061|success
+送人|sòngrén|send someone off|1|2|8062|success
+升|shēng|liter|0|1|8063|success
+土豆泥|tǔdòuní|mashed potato|1|2|8064|fail
+土豆泥|tǔdòuní|mashed potato|1|2|8064|success
+土豆泥|tǔdòuní|mashed potato|1|2|8064|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8065|success
+辣|là|spicy|1|0|8066|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8067|success
+教堂|jiàotáng|church|1|0|8068|success
+所以|suǒyǐ|so|1|2|8069|fail
+所以|suǒyǐ|so|1|2|8069|success
+所以|suǒyǐ|so|1|2|8069|success
+消防局|xiāofángjú|fire station|2|0|8070|success
+忧虑|yōulǜ|worry|1|2|8071|success
+桥|qiáo|bridge|2|0|8072|success
+绳子|shéngzi|rope|1|0|8073|success
+土豆泥|tǔdòuní|mashed potato|1|2|8074|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8075|success
+以前|yǐqián|before|1|2|8076|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8077|success
+湿豆|shīdòu|white bean|0|2|8078|success
+所以|suǒyǐ|so|1|2|8079|success
+升|shēng|liter|0|1|8080|success
+窄|zhǎi|narrow|1|2|8081|fail
+窄|zhǎi|narrow|1|2|8081|success
+窄|zhǎi|narrow|1|2|8081|success
+果汁|guǒzhī|fruit juice|2|0|8082|fail
+果汁|guǒzhī|fruit juice|2|0|8082|success
+果汁|guǒzhī|fruit juice|2|0|8082|success
+电子邮件|diànziyóujiàn|email|2|1|8083|fail
+电子邮件|diànziyóujiàn|email|2|1|8083|fail
+电子邮件|diànziyóujiàn|email|2|1|8083|success
+红灯|hóngdēng|red light|1|0|8084|fail
+红灯|hóngdēng|red light|1|0|8084|success
+红灯|hóngdēng|red light|1|0|8084|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8085|success
+北京|běijīng|beijing|2|0|8086|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8087|success
+忧虑|yōulǜ|worry|1|2|8088|success
+消防局|xiāofángjú|fire station|2|0|8089|success
+以前|yǐqián|before|2|1|8090|success
+土豆泥|tǔdòuní|mashed potato|1|2|8091|success
+果汁|guǒzhī|fruit juice|2|0|8092|success
+电子邮件|diànziyóujiàn|email|2|1|8093|success
+红灯|hóngdēng|red light|1|0|8094|success
+辣|là|spicy|1|0|8095|success
+所以|suǒyǐ|so|1|2|8096|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8097|fail
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8097|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8097|success
+窄|zhǎi|narrow|1|2|8098|fail
+窄|zhǎi|narrow|1|2|8098|success
+窄|zhǎi|narrow|1|2|8098|success
+鸟|niǎo|bird|1|2|8099|success
+点单|diǎndān|order|1|2|8100|fail
+点|diǎn|point out|2|1|8100|fail
+点|diǎn|hour|2|1|8100|fail
+点|diǎn|count|2|1|8100|fail
+点|diǎn|choose|2|1|8100|fail
+点单|diǎndān|order|1|2|8100|success
+点单|diǎndān|order|1|2|8100|success
+点|diǎn|point out|2|1|8101|fail
+点|diǎn|point out|2|1|8101|success
+点|diǎn|point out|2|1|8101|success
+点|diǎn|count|2|1|8102|success
+电子邮件|diànziyóujiàn|email|2|1|8103|success
+点|diǎn|hour|2|1|8104|success
+点|diǎn|choose|2|1|8105|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8106|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8107|success
+以前|yǐqián|before|1|2|8108|success
+果汁|guǒzhī|fruit juice|2|0|8109|success
+点单|diǎndān|order|1|2|8110|success
+红灯|hóngdēng|red light|1|0|8111|success
+升|shēng|liter|0|1|8112|success
+电子邮件|diànziyóujiàn|email|2|1|8113|success
+桥|qiáo|bridge|2|0|8114|success
+窄|zhǎi|narrow|1|2|8115|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|2|8116|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8117|success
+点|diǎn|point out|2|1|8118|success
+点|diǎn|count|2|1|8119|success
+土豆泥|tǔdòuní|mashed potato|1|2|8120|success
+点|diǎn|hour|2|1|8121|success
+点|diǎn|choose|2|1|8122|success
+电子邮件|diànziyóujiàn|email|2|1|8123|success
+忧虑|yōulǜ|worry|1|2|8124|success
+所以|suǒyǐ|so|1|2|8125|success
+消防局|xiāofángjú|fire station|2|0|8126|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8127|success
+点单|diǎndān|order|1|2|8128|success
+远|yuǎn|far|0|2|8129|success
+一个人|yīgèrén|alone|0|1|8130|fail
+一个人|yīgèrén|alone|0|1|8130|success
+一个人|yīgèrén|alone|0|1|8130|success
+一个人|yīgèrén|alone|0|1|8131|success
+一个人|yīgèrén|alone|0|1|8132|success
+电子邮件|diànziyóujiàn|email|2|1|8133|success
+一个人|yīgèrén|alone|0|1|8134|success
+杏子|xìngzi|apricot|1|2|8135|fail
+杏子|xìngzi|apricot|1|2|8135|success
+杏子|xìngzi|apricot|1|2|8135|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|0|8136|fail
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|0|8136|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|0|8136|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8137|success
+果汁|guǒzhī|fruit juice|2|0|8138|success
+离|lí|away from|1|2|8139|success
+红灯|hóngdēng|red light|1|0|8140|success
+工程师|gōngchéngshī|engineer|1|0|8141|success
+柠檬水|níngméngshuǐ|lemonade|1|0|8142|success
+电子邮件|diànziyóujiàn|email|2|1|8143|success
+窄|zhǎi|narrow|1|2|8144|success
+杏子|xìngzi|apricot|1|2|8145|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|0|8146|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8147|success
+点|diǎn|count|2|1|8148|success
+点|diǎn|point out|2|1|8149|success
+点|diǎn|hour|2|1|8150|success
+点|diǎn|choose|2|1|8151|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8152|fail
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8152|fail
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8152|success
+电子邮件|diànziyóujiàn|email|2|1|8153|success
+账单|zhàngdān|bill|2|0|8154|fail
+账单|zhàngdān|bill|2|0|8154|success
+账单|zhàngdān|bill|2|0|8154|success
