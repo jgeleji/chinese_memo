@@ -10899,3 +10899,250 @@
 点|diǎn|hour|1|0|8219|success
 点|diǎn|point out|2|1|8220|success
 账单|zhàngdān|bill|2|0|8221|success
+点|diǎn|hour|2|1|8223|success
+点|diǎn|choose|2|1|8224|success
+干豆|gàndòu|dried bean|2|1|8225|fail
+干豆|gàndòu|dried bean|2|1|8225|success
+干豆|gàndòu|dried bean|2|1|8225|success
+理发店|lǐfādiàn|barber shop|1|0|8226|fail
+理发店|lǐfādiàn|barber shop|1|0|8226|success
+理发店|lǐfādiàn|barber shop|1|0|8226|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8227|fail
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8227|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8227|success
+账单|zhàngdān|bill|2|1|8228|success
+洋葱|yángcōng|onion|0|2|8229|success
+食堂|shítáng|canteen|2|0|8230|fail
+食堂|shítáng|canteen|2|0|8230|success
+食堂|shítáng|canteen|2|0|8230|success
+杏子|xìngzi|apricot|1|2|8231|success
+猪肉|zhūròu|pork|2|0|8232|success
+常常|chángcháng|often|1|2|8233|fail
+常常|chángcháng|often|1|2|8233|success
+常常|chángcháng|often|1|2|8233|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8234|success
+干豆|gàndòu|dried bean|2|1|8235|success
+理发店|lǐfādiàn|barber shop|1|0|8236|fail
+理发店|lǐfādiàn|barber shop|1|0|8236|success
+理发店|lǐfādiàn|barber shop|1|0|8236|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8237|fail
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8237|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8237|success
+点|diǎn|hour|1|0|8238|success
+账单|zhàngdān|bill|2|0|8239|success
+食堂|shítáng|canteen|2|0|8240|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8241|success
+百合|bǎihé|lily|2|1|8242|success
+常常|chángcháng|often|1|2|8243|fail
+常常|chángcháng|often|1|2|8243|success
+常常|chángcháng|often|1|2|8243|success
+贝|bèi|shell|1|2|8244|fail
+贝|bèi|shell|1|2|8244|success
+贝|bèi|shell|1|2|8244|success
+电子邮件|diànziyóujiàn|email|2|1|8245|success
+理发店|lǐfādiàn|barber shop|1|0|8246|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8247|fail
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8247|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8247|success
+点|diǎn|count|2|1|8248|success
+点|diǎn|point out|2|1|8249|success
+点单|diǎndān|order|1|2|8250|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8251|fail
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8251|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8251|success
+干豆|gàndòu|dried bean|2|1|8252|success
+干豆|gàndòu|dried bean|2|1|8252|success
+常常|chángcháng|often|1|2|8253|fail
+常常|chángcháng|often|1|2|8253|success
+常常|chángcháng|often|1|2|8253|success
+点|diǎn|hour|2|1|8254|success
+点|diǎn|choose|2|1|8255|success
+理发店|lǐfādiàn|barber shop|1|0|8256|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8257|success
+食堂|shítáng|canteen|2|0|8258|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8259|success
+杏子|xìngzi|apricot|1|2|8260|fail
+杏子|xìngzi|apricot|1|2|8260|fail
+杏子|xìngzi|apricot|1|2|8260|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8261|success
+干豆|gàndòu|dried bean|2|1|8262|success
+常常|chángcháng|often|1|2|8263|success
+贝|bèi|shell|1|2|8264|fail
+贝|bèi|shell|1|2|8264|success
+贝|bèi|shell|1|2|8264|success
+西红柿汤|xīhóngshìtāng|tomato soup|0|2|8265|success
+理发店|lǐfādiàn|barber shop|1|0|8266|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8267|success
+点|diǎn|hour|1|0|8268|success
+账单|zhàngdān|bill|2|0|8269|success
+杏子|xìngzi|apricot|1|2|8270|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8271|success
+干豆|gàndòu|dried bean|2|1|8272|success
+常常|chángcháng|often|1|2|8273|success
+卖|mài|sell|2|1|8274|success
+黄色|huángsè|yellow|0|1|8275|success
+理发店|lǐfādiàn|barber shop|1|0|8276|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8277|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8278|fail
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8278|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8278|success
+火腿|huǒtuǐ|sausage|2|1|8279|success
+杏子|xìngzi|apricot|1|2|8280|success
+贝|bèi|shell|1|2|8281|success
+商丘|shāngqiū|shangqiu|0|2|8282|fail
+商丘|shāngqiū|shangqiu|0|2|8282|success
+商丘|shāngqiū|shangqiu|0|2|8282|success
+黄色|huángsè|yellow|1|0|8283|success
+豆浆|dòujiāng|soy milk|2|1|8284|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|0|2|8285|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|0|2|8285|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|0|2|8285|success
+火锅|huǒguō|hot pot|2|1|8286|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8287|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8288|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8289|success
+杏子|xìngzi|apricot|1|2|8290|success
+干豆|gàndòu|dried bean|2|1|8291|success
+商丘|shāngqiū|shangqiu|0|2|8292|success
+常常|chángcháng|often|1|2|8293|success
+理发店|lǐfādiàn|barber shop|1|0|8294|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|0|2|8295|success
+食堂|shítáng|canteen|2|0|8296|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8297|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8298|success
+点单|diǎndān|order|2|1|8299|success
+点酒|diǎnjiǔ|order drink|1|2|8300|fail
+点酒|diǎnjiǔ|order drink|1|2|8300|success
+点酒|diǎnjiǔ|order drink|1|2|8300|success
+英国|yīngguó|great britain|0|1|8301|success
+一般|yībān|general|2|1|8302|success
+热可可|rèkěkě|hot cocoa|1|2|8303|success
+干豆|gàndòu|dried bean|1|0|8304|fail
+干豆|gàndòu|dried bean|1|0|8304|success
+干豆|gàndòu|dried bean|1|0|8304|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8305|success
+鸡蛋|jīdàn|egg|0|2|8306|success
+杏子|xìngzi|apricot|1|2|8307|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8308|fail
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8308|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8308|success
+商丘|shāngqiū|shangqiu|0|2|8309|success
+点酒|diǎnjiǔ|order drink|1|2|8310|success
+贝|bèi|shell|1|2|8311|fail
+贝|bèi|shell|1|2|8311|success
+贝|bèi|shell|1|2|8311|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|0|2|8312|success
+哪里|nǎlǐ|there|0|1|8313|success
+干豆|gàndòu|dried bean|1|0|8314|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8315|success
+英国|yīngguó|great britain|2|1|8316|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|0|1|8317|fail
+兄弟姐妹|xiōngdìjiěmèi|siblings|0|1|8317|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|0|1|8317|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8318|fail
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8318|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8318|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8319|success
+干豆|gàndòu|dried bean|2|1|8320|success
+风|fēng|wind|1|0|8321|success
+常常|chángcháng|often|1|2|8322|success
+理发店|lǐfādiàn|barber shop|1|0|8323|success
+白色|báisè|white|0|2|8324|fail
+白色|báisè|white|0|2|8324|success
+白色|báisè|white|0|2|8324|success
+一般|yībān|general|0|1|8325|success
+盐|yán|salt|1|2|8326|fail
+盐|yán|salt|1|2|8326|success
+盐|yán|salt|1|2|8326|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|0|1|8327|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8328|success
+贝|bèi|shell|1|2|8329|fail
+贝|bèi|shell|1|2|8329|success
+贝|bèi|shell|1|2|8329|success
+点酒|diǎnjiǔ|order drink|1|2|8330|success
+干豆|gàndòu|dried bean|1|0|8331|success
+腿|tuǐ|leg|2|1|8332|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|1|2|8333|success
+白色|báisè|white|0|2|8334|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8335|fail
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8335|fail
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8335|success
+杏子|xìngzi|apricot|1|2|8336|success
+哪里|nǎlǐ|there|1|0|8337|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8338|success
+商丘|shāngqiū|shangqiu|0|2|8339|success
+炖肉|dùnròu|stew|2|1|8340|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|0|2|8341|success
+吃饱了吗|chībǎolema|are you full|0|1|8342|fail
+吃饱了吗|chībǎolema|are you full|0|1|8342|success
+吃饱了吗|chībǎolema|are you full|0|1|8342|success
+盐|yán|salt|1|2|8343|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|0|1|8344|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8345|success
+贝|bèi|shell|1|2|8346|success
+绿豆汤|lǜdòutāng|mung bean soup|0|2|8347|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8348|success
+千米|qiānmǐ|kilometre|0|1|8349|fail
+千米|qiānmǐ|kilometre|0|1|8349|success
+千米|qiānmǐ|kilometre|0|1|8349|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|1|0|8350|success
+白色|báisè|white|0|2|8351|success
+吃饱了吗|chībǎolema|are you full|0|1|8352|success
+虫|chóng|insect worm|1|0|8353|fail
+虫|chóng|insect worm|1|0|8353|success
+虫|chóng|insect worm|1|0|8353|success
+油条|yóutiáo|deep fried dough|2|1|8354|fail
+油条|yóutiáo|deep fried dough|2|1|8354|success
+油条|yóutiáo|deep fried dough|2|1|8354|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8355|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|0|2|8356|success
+站|zhàn|stand|0|2|8357|fail
+站|zhàn|stand|0|2|8357|success
+站|zhàn|stand|0|2|8357|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8358|success
+千米|qiānmǐ|kilometre|0|1|8359|success
+点酒|diǎnjiǔ|order drink|1|2|8360|fail
+点酒|diǎnjiǔ|order drink|1|2|8360|success
+点酒|diǎnjiǔ|order drink|1|2|8360|success
+干豆|gàndòu|dried bean|1|0|8361|success
+莲藕|liánǒu|lotus root|1|2|8362|fail
+莲藕|liánǒu|lotus root|1|2|8362|success
+莲藕|liánǒu|lotus root|1|2|8362|success
+盐|yán|salt|2|1|8363|success
+油条|yóutiáo|deep fried dough|2|1|8364|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8365|success
+商丘|shāngqiū|shangqiu|0|1|8366|fail
+商丘|shāngqiū|shangqiu|0|1|8366|success
+商丘|shāngqiū|shangqiu|0|1|8366|success
+苹果汁|píngguǒzhī|apple juice|2|0|8367|success
+凉快|liángkuài|cool|2|0|8368|fail
+凉快|liángkuài|cool|2|0|8368|success
+凉快|liángkuài|cool|2|0|8368|success
+吃饱了吗|chībǎolema|are you full|0|1|8369|success
+点酒|diǎnjiǔ|order drink|1|2|8370|success
+虫|chóng|insect worm|1|0|8371|success
+莲藕|liánǒu|lotus root|1|2|8372|success
+盐|yán|salt|1|2|8373|success
+站|zhàn|stand|0|2|8374|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8375|success
+商丘|shāngqiū|shangqiu|0|1|8376|success
+千米|qiānmǐ|kilometre|0|1|8377|success
+凉快|liángkuài|cool|2|0|8378|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8379|success
+贝|bèi|shell|1|2|8380|fail
+贝|bèi|shell|1|2|8380|success
+贝|bèi|shell|1|2|8380|success
+油条|yóutiáo|deep fried dough|2|1|8381|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|0|1|8382|success
+白色|báisè|white|0|2|8383|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8384|fail
+燕麦粥|yànmàizhōu|oatmeal|1|0|8384|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8384|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8385|success
+公共汽车|gōnggòngqìchē|bus|0|1|8386|success
+点酒|diǎnjiǔ|order drink|1|2|8387|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8388|fail
+芝士面包|zhīshìmiànbāo|cheese bread|2|0|8388|fail
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8388|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8388|success
+芝士面包|zhīshìmiànbāo|cheese bread|2|0|8389|success
