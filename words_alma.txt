@@ -18,3 +18,5 @@
 最近|lately
 总是|always
 盐|salt
+软件|software
+卖|sell

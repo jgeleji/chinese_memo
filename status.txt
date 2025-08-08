@@ -10818,3 +10818,84 @@
 杏子|xìngzi|apricot|1|2|8163|success
 账单|zhàngdān|bill|2|0|8164|success
 冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|0|8165|success
+担心|dānxīn|worry spoken|1|0|8166|success
+担心|dānxīn|worry spoken|1|0|8166|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8167|success
+点单|diǎndān|order|1|2|8168|fail
+点|diǎn|point out|2|1|8168|fail
+点|diǎn|hour|2|1|8168|fail
+点|diǎn|count|2|1|8168|fail
+点|diǎn|choose|2|1|8168|fail
+点单|diǎndān|order|1|2|8168|success
+点单|diǎndān|order|1|2|8168|success
+账单|zhàngdān|bill|2|1|8169|success
+点|diǎn|point out|2|1|8170|success
+点|diǎn|count|2|1|8171|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8172|fail
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8172|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8172|success
+点|diǎn|hour|2|1|8173|success
+点|diǎn|choose|2|1|8174|success
+电子邮件|diànziyóujiàn|email|2|1|8175|fail
+电子邮件|diànziyóujiàn|email|2|1|8175|success
+电子邮件|diànziyóujiàn|email|2|1|8175|success
+担心|dānxīn|worry spoken|1|0|8176|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8177|success
+点单|diǎndān|order|1|2|8178|success
+账单|zhàngdān|bill|2|1|8179|success
+贝|bèi|shell|1|2|8180|fail
+贝|bèi|shell|1|2|8180|success
+贝|bèi|shell|1|2|8180|success
+账单|zhàngdān|bill|2|0|8181|fail
+账单|zhàngdān|bill|2|0|8181|success
+账单|zhàngdān|bill|2|0|8181|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8182|success
+窄|zhǎi|narrow|2|1|8183|success
+百合|bǎihé|lily|2|1|8184|fail
+百合|bǎihé|lily|2|1|8184|success
+百合|bǎihé|lily|2|1|8184|success
+电子邮件|diànziyóujiàn|email|2|1|8185|success
+担心|dānxīn|worry spoken|1|0|8186|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8187|success
+点单|diǎndān|order|1|2|8188|success
+点|diǎn|count|2|1|8189|success
+点|diǎn|point out|2|1|8190|success
+账单|zhàngdān|bill|2|0|8191|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8192|success
+点|diǎn|choose|2|1|8193|success
+百合|bǎihé|lily|2|1|8194|success
+电子邮件|diànziyóujiàn|email|2|1|8195|success
+点|diǎn|hour|2|1|8196|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8197|success
+贝|bèi|shell|1|2|8198|fail
+贝|bèi|shell|1|2|8198|success
+贝|bèi|shell|1|2|8198|success
+账单|zhàngdān|bill|2|1|8199|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|0|8200|success
+账单|zhàngdān|bill|2|0|8201|fail
+账单|zhàngdān|bill|2|0|8201|success
+账单|zhàngdān|bill|2|0|8201|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8202|success
+担心|dānxīn|worry spoken|1|0|8203|success
+杏子|xìngzi|apricot|1|2|8204|fail
+杏子|xìngzi|apricot|1|2|8204|success
+杏子|xìngzi|apricot|1|2|8204|success
+点单|diǎndān|order|1|2|8205|success
+猪肉|zhūròu|pork|1|2|8206|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8207|success
+周|zhōu|week|1|2|8208|success
+点|diǎn|hour|1|0|8209|fail
+点|diǎn|hour|1|0|8209|fail
+点|diǎn|hour|1|0|8209|success
+贵|guì|expensive|1|2|8210|success
+账单|zhàngdān|bill|2|0|8211|success
+绿豆汤|lǜdòutāng|mung bean soup|0|1|8212|success
+百合|bǎihé|lily|2|1|8213|success
+杏子|xìngzi|apricot|1|2|8214|success
+贝|bèi|shell|1|2|8215|success
+电子邮件|diànziyóujiàn|email|2|1|8216|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|8217|success
+点|diǎn|count|2|1|8218|success
+点|diǎn|hour|1|0|8219|success
+点|diǎn|point out|2|1|8220|success
+账单|zhàngdān|bill|2|0|8221|success
