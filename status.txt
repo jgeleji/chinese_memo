@@ -11146,3 +11146,492 @@
 蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8388|success
 蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8388|success
 芝士面包|zhīshìmiànbāo|cheese bread|2|0|8389|success
+莲藕|liánǒu|lotus root|1|2|8390|success
+莲藕|liánǒu|lotus root|1|2|8390|success
+广州|guǎngzhōu|guangzhou|0|2|8391|fail
+广州|guǎngzhōu|guangzhou|0|2|8391|success
+广州|guǎngzhōu|guangzhou|0|2|8391|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|2|1|8392|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|2|1|8392|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|2|1|8392|success
+商丘|shāngqiū|shangqiu|0|1|8393|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8394|fail
+燕麦粥|yànmàizhōu|oatmeal|1|0|8394|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8394|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8395|success
+凉快|liángkuài|cool|2|0|8396|fail
+凉快|liángkuài|cool|2|0|8396|success
+凉快|liángkuài|cool|2|0|8396|success
+贝|bèi|shell|1|2|8397|fail
+贝|bèi|shell|1|2|8397|success
+贝|bèi|shell|1|2|8397|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8398|fail
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8398|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8398|success
+芝士面包|zhīshìmiànbāo|cheese bread|2|0|8399|success
+莲藕|liánǒu|lotus root|1|2|8400|success
+广州|guǎngzhōu|guangzhou|0|2|8401|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|2|1|8402|success
+虫|chóng|insect worm|1|0|8403|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8404|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8405|success
+凉快|liángkuài|cool|2|0|8406|success
+站|zhàn|stand|0|2|8407|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8408|success
+千米|qiānmǐ|kilometre|0|1|8409|success
+莲藕|liánǒu|lotus root|1|2|8410|success
+吃饱了吗|chībǎolema|are you full|0|1|8411|success
+油条|yóutiáo|deep fried dough|2|1|8412|success
+盖勒赫山|gàilēihèshān|gellért hill|0|2|8413|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8414|success
+贝|bèi|shell|1|2|8415|fail
+贝|bèi|shell|1|2|8415|success
+贝|bèi|shell|1|2|8415|success
+凉快|liángkuài|cool|2|0|8416|success
+芝士面包|zhīshìmiànbāo|cheese bread|2|0|8417|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8418|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|2|1|8419|success
+广州|guǎngzhōu|guangzhou|0|2|8420|success
+点酒|diǎnjiǔ|order drink|1|2|8421|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8422|success
+商丘|shāngqiū|shangqiu|0|1|8423|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8424|success
+筷子|kuàizi|chopstick|0|2|8425|fail
+筷子|kuàizi|chopstick|0|2|8425|success
+筷子|kuàizi|chopstick|0|2|8425|success
+苹果汁|píngguǒzhī|apple juice|0|2|8426|success
+莲藕|liánǒu|lotus root|1|2|8427|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8428|success
+一般|yībān|normally|2|0|8429|fail
+一般|yībān|normally|2|0|8429|success
+一般|yībān|normally|2|0|8429|success
+法国|fǎguó|france|0|1|8430|success
+贵|guì|expensive|0|2|8431|fail
+贵|guì|expensive|0|2|8431|success
+贵|guì|expensive|0|2|8431|success
+贝|bèi|shell|1|2|8432|fail
+贝|bèi|shell|1|2|8432|success
+贝|bèi|shell|1|2|8432|success
+凉快|liángkuài|cool|2|0|8433|fail
+凉快|liángkuài|cool|2|0|8433|success
+凉快|liángkuài|cool|2|0|8433|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8434|success
+筷子|kuàizi|chopstick|0|2|8435|success
+筷子|kuàizi|chopstick|2|1|8436|success
+汽油|qìyóu|gasoline|0|1|8437|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8438|success
+一般|yībān|normally|2|0|8439|success
+莲子|liánzi|lotus seed|2|1|8440|fail
+莲子|liánzi|lotus seed|2|1|8440|success
+莲子|liánzi|lotus seed|2|1|8440|success
+没意思|méiyìsī|boring|1|0|8441|success
+多瑙河|duōnǎohé|danube|1|2|8442|success
+凉快|liángkuài|cool|2|0|8443|success
+公共汽车|gōnggòngqìchē|bus|1|2|8444|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|0|8445|success
+芝士面包|zhīshìmiànbāo|cheese bread|2|0|8446|success
+告诉|gàosù|tell|1|0|8447|fail
+告诉|gàosù|tell|1|0|8447|fail
+告诉|gàosù|tell|1|0|8447|fail
+贵|guì|expensive|0|2|8448|success
+贝|bèi|shell|1|2|8449|success
+莲子|liánzi|lotus seed|2|1|8450|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8451|success
+筷子|kuàizi|chopstick|0|2|8452|success
+凉快|liángkuài|cool|2|0|8453|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|2|1|8454|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8455|success
+一般|yībān|normally|2|0|8456|success
+告诉|gàosù|tell|1|0|8457|success
+广州|guǎngzhōu|guangzhou|0|2|8458|success
+莲藕|liánǒu|lotus root|1|2|8459|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8460|success
+送给|sònggěi|see off|1|0|8461|fail
+送给|sònggěi|see off|1|0|8461|success
+送给|sònggěi|see off|1|0|8461|success
+教堂|jiàotáng|church|2|0|8462|success
+法国|fǎguó|france|2|0|8463|success
+多长时间|duōzhǎngshíjiān|how long|0|1|8464|fail
+多长时间|duōzhǎngshíjiān|how long|0|1|8464|success
+多长时间|duōzhǎngshíjiān|how long|0|1|8464|success
+十多个|shíduōgè|about ten|0|2|8465|success
+环境|huánjìng|environment|1|2|8466|fail
+环境|huánjìng|environment|1|2|8466|success
+环境|huánjìng|environment|1|2|8466|success
+告诉|gàosù|tell|1|0|8467|success
+莲子|liánzi|lotus seed|2|1|8468|success
+早饭|zǎofàn|breakfast|2|1|8469|success
+凉快|liángkuài|cool|2|0|8470|success
+送给|sònggěi|see off|1|0|8471|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|2|8472|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|2|8472|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|2|8472|success
+哪里|nǎlǐ|there|2|0|8473|success
+多长时间|duōzhǎngshíjiān|how long|0|1|8474|success
+梅子|méizi|plum|0|1|8475|fail
+梅子|méizi|plum|0|1|8475|success
+梅子|méizi|plum|0|1|8475|success
+环境|huánjìng|environment|1|2|8476|success
+告诉|gàosù|tell|1|0|8477|success
+贝|bèi|shell|1|2|8478|success
+贵|guì|expensive|0|2|8479|success
+燕麦粥|yànmàizhōu|oatmeal|1|0|8480|success
+筷子|kuàizi|chopstick|0|2|8481|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|2|8482|success
+坐船|zuòchuán|take ship|0|2|8483|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|0|2|8484|success
+梅子|méizi|plum|0|1|8485|success
+一般|yībān|normally|2|0|8486|success
+告诉|gàosù|tell|1|0|8487|success
+送给|sònggěi|see off|1|0|8488|success
+风|fēng|wind|2|1|8489|success
+莲藕|liánǒu|lotus root|0|2|8490|fail
+莲藕|liánǒu|lotus root|0|2|8490|success
+莲藕|liánǒu|lotus root|0|2|8490|success
+多长时间|duōzhǎngshíjiān|how long|0|1|8491|success
+丰富|fēngfù|rich|2|1|8492|fail
+丰富|fēngfù|rich|2|1|8492|success
+丰富|fēngfù|rich|2|1|8492|success
+鱼丸|yúwán|fish ball|1|0|8494|fail
+鱼丸|yúwán|fish ball|1|0|8494|success
+鱼丸|yúwán|fish ball|1|0|8494|success
+蔬菜|shūcài|vegetable|1|2|8495|success
+梅子|méizi|plum|2|1|8496|success
+莲子|liánzi|lotus seed|2|1|8497|success
+消防局|xiāofángjú|fire station|1|0|8498|fail
+消防局|xiāofángjú|fire station|1|0|8498|success
+消防局|xiāofángjú|fire station|1|0|8498|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|2|8499|success
+莲藕|liánǒu|lotus root|0|2|8500|success
+凉快|liángkuài|cool|2|0|8501|success
+丰富|fēngfù|rich|2|1|8502|success
+梅子|méizi|plum|0|1|8503|success
+鱼丸|yúwán|fish ball|1|0|8504|success
+告诉|gàosù|tell|1|0|8505|success
+便宜|piányi|cheap|0|2|8506|fail
+便宜|piányi|cheap|0|2|8506|fail
+便宜|piányi|cheap|0|2|8506|success
+担心|dānxīn|worry spoken|0|1|8507|fail
+担心|dānxīn|worry spoken|0|1|8507|success
+担心|dānxīn|worry spoken|0|1|8507|success
+消防局|xiāofángjú|fire station|1|0|8508|fail
+消防局|xiāofángjú|fire station|1|0|8508|success
+消防局|xiāofángjú|fire station|1|0|8508|success
+软件|ruǎnjiàn|software|1|0|8509|fail
+软件|ruǎnjiàn|software|1|0|8509|success
+软件|ruǎnjiàn|software|1|0|8509|success
+右边|yòubiān|right|1|0|8510|success
+好久不见|hǎojiǔbùjiàn|long time no see|0|2|8511|fail
+好久不见|hǎojiǔbùjiàn|long time no see|0|2|8511|success
+好久不见|hǎojiǔbùjiàn|long time no see|0|2|8511|success
+梨|lí|pear|2|1|8512|fail
+梨|lí|pear|2|1|8512|success
+梨|lí|pear|2|1|8512|success
+竹笋|zhúsǔn|bamboo shoot|0|1|8513|fail
+竹笋|zhúsǔn|bamboo shoot|0|1|8513|success
+竹笋|zhúsǔn|bamboo shoot|0|1|8513|success
+理发店|lǐfādiàn|barber shop|2|1|8514|success
+牛奶|niúnǎi|milk|2|0|8515|success
+便宜|piányi|cheap|0|2|8516|fail
+便宜|piányi|cheap|0|2|8516|success
+便宜|piányi|cheap|0|2|8516|success
+担心|dānxīn|worry spoken|0|1|8517|success
+消防局|xiāofángjú|fire station|1|0|8518|success
+软件|ruǎnjiàn|software|1|0|8519|fail
+软件|ruǎnjiàn|software|1|0|8519|success
+软件|ruǎnjiàn|software|1|0|8519|success
+莲藕|liánǒu|lotus root|0|2|8520|success
+好久不见|hǎojiǔbùjiàn|long time no see|0|2|8521|success
+丰富|fēngfù|rich|2|1|8522|success
+竹笋|zhúsǔn|bamboo shoot|0|1|8523|fail
+竹笋|zhúsǔn|bamboo shoot|0|1|8523|success
+竹笋|zhúsǔn|bamboo shoot|0|1|8523|success
+鱼丸|yúwán|fish ball|1|0|8524|success
+多长时间|duōzhǎngshíjiān|how long|0|1|8525|success
+便宜|piányi|cheap|0|2|8526|success
+环境|huánjìng|environment|1|2|8527|success
+消防局|xiāofángjú|fire station|1|0|8528|success
+软件|ruǎnjiàn|software|1|0|8529|fail
+软件|ruǎnjiàn|software|1|0|8529|success
+软件|ruǎnjiàn|software|1|0|8529|success
+梨|lí|pear|2|1|8530|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|2|8531|success
+梅子|méizi|plum|0|1|8532|fail
+梅子|méizi|plum|0|1|8532|success
+梅子|méizi|plum|0|1|8532|success
+竹笋|zhúsǔn|bamboo shoot|0|1|8533|success
+担心|dānxīn|worry spoken|0|1|8534|success
+送给|sònggěi|see off|1|0|8535|success
+便宜|piányi|cheap|0|2|8536|success
+告诉|gàosù|tell|1|0|8537|success
+消防局|xiāofángjú|fire station|1|0|8538|success
+软件|ruǎnjiàn|software|1|0|8539|success
+好久不见|hǎojiǔbùjiàn|long time no see|0|2|8540|success
+奶酪|nǎilào|cheese|0|2|8541|success
+梅子|méizi|plum|0|1|8542|success
+竹笋|zhúsǔn|bamboo shoot|0|1|8543|success
+就|jiù|exactly|1|0|8544|fail
+就|jiù|exactly|1|0|8544|success
+就|jiù|exactly|1|0|8544|success
+黄油|huángyóu|butter|2|0|8545|success
+忧虑|yōulǜ|worry|1|0|8546|fail
+忧虑|yōulǜ|worry|1|0|8546|success
+忧虑|yōulǜ|worry|1|0|8546|success
+扁豆|biǎndòu|lentil|1|0|8547|fail
+扁豆|biǎndòu|lentil|1|0|8547|success
+扁豆|biǎndòu|lentil|1|0|8547|success
+消防局|xiāofángjú|fire station|1|0|8548|success
+软件|ruǎnjiàn|software|1|0|8549|success
+莲藕|liánǒu|lotus root|0|2|8550|success
+丰富|fēngfù|rich|2|1|8551|success
+东西|dōngxī|thing|0|2|8552|success
+便宜|piányi|cheap|0|2|8553|success
+鱼丸|yúwán|fish ball|1|0|8554|success
+加油站|jiāyóuzhàn|gas station|1|2|8555|success
+忧虑|yōulǜ|worry|1|0|8556|success
+扁豆|biǎndòu|lentil|1|0|8557|success
+交响曲|jiāoxiǎngqū|symphony|0|1|8558|fail
+交响曲|jiāoxiǎngqū|symphony|0|1|8558|success
+交响曲|jiāoxiǎngqū|symphony|0|1|8558|success
+梅子|méizi|plum|0|1|8559|success
+竹笋|zhúsǔn|bamboo shoot|0|1|8560|success
+就|jiù|exactly|1|0|8561|fail
+就|jiù|exactly|1|0|8561|success
+就|jiù|exactly|1|0|8561|success
+梨|lí|pear|2|1|8562|success
+担心|dānxīn|worry spoken|0|1|8563|success
+雪|xuě|snow|0|2|8564|fail
+雪|xuě|snow|0|2|8564|success
+雪|xuě|snow|0|2|8564|success
+消防局|xiāofángjú|fire station|1|0|8565|fail
+消防局|xiāofángjú|fire station|1|0|8565|success
+消防局|xiāofángjú|fire station|1|0|8565|success
+软件|ruǎnjiàn|software|1|0|8566|success
+千米|qiānmǐ|kilometre|2|0|8567|success
+交响曲|jiāoxiǎngqū|symphony|0|1|8568|success
+好久不见|hǎojiǔbùjiàn|long time no see|0|2|8569|success
+黑色|hēisè|black|2|1|8570|success
+瓶|píng|m.w.bottle|1|2|8571|success
+左边|zuǒbiān|left|0|2|8572|fail
+左边|zuǒbiān|left|0|2|8572|success
+左边|zuǒbiān|left|0|2|8572|success
+忧虑|yōulǜ|worry|1|0|8573|success
+扁豆|biǎndòu|lentil|1|0|8574|success
+消防局|xiāofángjú|fire station|1|0|8575|success
+杜丽|dùlì|duli name|0|2|8576|fail
+就|jiù|exactly|1|0|8578|success
+近|jìn|near|1|2|8579|success
+看见|kànjiàn|see|0|1|8580|success
+雪|xuě|snow|0|2|8581|success
+左边|zuǒbiān|left|0|2|8582|success
+便宜|piányi|cheap|0|2|8583|success
+你真可爱|nǐzhēnkěài|you look so cute|0|1|8584|success
+消防局|xiāofángjú|fire station|1|0|8585|success
+杜丽|dùlì|duli name|0|2|8586|fail
+杜丽|dùlì|duli name|0|2|8586|success
+杜丽|dùlì|duli name|0|2|8586|success
+交响曲|jiāoxiǎngqū|symphony|0|1|8587|success
+梅子|méizi|plum|0|1|8588|success
+竹笋|zhúsǔn|bamboo shoot|0|1|8589|success
+常常|chángcháng|often|0|2|8590|success
+机场|jīchǎng|airport|2|1|8591|fail
+机场|jīchǎng|airport|2|1|8591|success
+机场|jīchǎng|airport|2|1|8591|success
+翻毛鸡|fānmáojī|birds nest|1|2|8592|success
+国王|guówáng|king|0|2|8593|fail
+国王|guówáng|king|0|2|8593|success
+国王|guówáng|king|0|2|8593|success
+虫|chóng|insect worm|0|2|8594|success
+软件|ruǎnjiàn|software|1|0|8595|success
+杜丽|dùlì|duli name|0|2|8596|success
+区|qū|district|2|1|8597|fail
+区|qū|district|2|1|8597|success
+区|qū|district|2|1|8597|success
+以前|yǐqián|before|0|1|8598|fail
+对面|duìmiàn|opposite|1|0|8598|fail
+以前|yǐqián|before|0|1|8598|success
+以前|yǐqián|before|0|1|8598|success
+对面|duìmiàn|opposite|1|0|8599|success
+左边|zuǒbiān|left|0|2|8600|success
+机场|jīchǎng|airport|2|1|8601|success
+消防局|xiāofángjú|fire station|1|0|8602|success
+国王|guówáng|king|0|2|8603|success
+扁豆|biǎndòu|lentil|1|0|8604|success
+忧虑|yōulǜ|worry|1|0|8605|success
+杜丽|dùlì|duli name|0|2|8606|success
+就|jiù|exactly|1|0|8607|success
+以前|yǐqián|before|0|1|8608|success
+对面|duìmiàn|opposite|1|0|8609|success
+雪|xuě|snow|0|2|8610|success
+早饭|zǎofàn|breakfast|1|2|8611|success
+吃饱了吗|chībǎolema|are you full|2|1|8612|success
+可以|kěyǐ|possible|1|0|8613|fail
+可以|kěyǐ|possible|1|0|8613|success
+可以|kěyǐ|possible|1|0|8613|success
+区|qū|district|2|1|8614|fail
+区|qū|district|2|1|8614|success
+区|qū|district|2|1|8614|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|1|8615|fail
+交响曲|jiāoxiǎngqū|symphony|1|2|8615|fail
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|1|8615|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|1|8615|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8616|fail
+交响曲|jiāoxiǎngqū|symphony|1|2|8616|fail
+交响曲|jiāoxiǎngqū|symphony|1|2|8616|success
+交响曲|jiāoxiǎngqū|symphony|0|1|8617|success
+机场|jīchǎng|airport|2|1|8618|success
+对面|duìmiàn|opposite|1|0|8619|success
+国王|guówáng|king|0|2|8620|success
+有的时候|yǒudeshíhòu|sometimes|2|0|8621|fail
+有的时候|yǒudeshíhòu|sometimes|2|0|8621|success
+有的时候|yǒudeshíhòu|sometimes|2|0|8621|success
+坐地铁|zuòdìtiě|take subway|2|0|8622|fail
+坐地铁|zuòdìtiě|take subway|2|0|8622|success
+坐地铁|zuòdìtiě|take subway|2|0|8622|success
+可以|kěyǐ|possible|1|0|8623|success
+杜丽|dùlì|duli name|0|2|8624|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|1|8625|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8626|success
+以前|yǐqián|before|0|1|8627|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8628|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8628|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8628|success
+左边|zuǒbiān|left|0|2|8629|success
+富人|fùrén|rich person|2|1|8630|fail
+富人|fùrén|rich person|2|1|8630|success
+富人|fùrén|rich person|2|1|8630|success
+有的时候|yǒudeshíhòu|sometimes|2|0|8631|success
+坐地铁|zuòdìtiě|take subway|2|0|8632|success
+区|qū|district|2|1|8633|success
+消防局|xiāofángjú|fire station|1|0|8634|success
+黄油|huángyóu|butter|2|1|8635|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8636|success
+对面|duìmiàn|opposite|1|0|8637|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8638|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8638|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8638|success
+湿豆|shīdòu|white bean|2|0|8639|fail
+湿豆|shīdòu|white bean|2|0|8639|success
+湿豆|shīdòu|white bean|2|0|8639|success
+富人|fùrén|rich person|2|1|8640|success
+可以|kěyǐ|possible|1|0|8641|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|1|8642|success
+銀行|yínháng|bank|1|2|8643|success
+火|huǒ|fire|2|1|8644|success
+累|lèi|tired|0|2|8645|fail
+累|lèi|tired|0|2|8645|success
+累|lèi|tired|0|2|8645|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8646|success
+机场|jīchǎng|airport|2|1|8647|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8648|success
+湿豆|shīdòu|white bean|2|0|8649|success
+有的时候|yǒudeshíhòu|sometimes|2|0|8651|success
+国王|guówáng|king|0|2|8652|success
+环境|huánjìng|environment|1|2|8653|success
+梅子|méizi|plum|0|1|8654|success
+点酒|diǎnjiǔ|order drink|1|2|8655|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8656|success
+富人|fùrén|rich person|2|1|8657|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8658|success
+以前|yǐqián|before|0|1|8659|success
+杜丽|dùlì|duli name|0|2|8660|success
+橙色|chéngsè|orange color|0|2|8661|success
+累|lèi|tired|0|2|8662|success
+区|qū|district|2|1|8663|success
+船|chuán|ship|1|2|8664|success
+地铁|dìtiě|subway|2|0|8665|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8666|success
+湿豆|shīdòu|white bean|2|0|8667|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8668|success
+对面|duìmiàn|opposite|1|0|8669|success
+可以|kěyǐ|possible|1|0|8670|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|1|8671|success
+美|měi|beautiful|1|0|8672|success
+国王|guówáng|king|1|2|8673|success
+棕色|zōngsè|brown|0|2|8674|success
+再|zài|again|2|0|8675|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8676|success
+风|fēng|wind|0|2|8677|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8678|success
+坐地铁|zuòdìtiě|take subway|2|0|8679|success
+有的时候|yǒudeshíhòu|sometimes|2|0|8680|success
+陕西|shǎnxī|shaanxi|1|0|8681|fail
+陕西|shǎnxī|shaanxi|1|0|8681|success
+陕西|shǎnxī|shaanxi|1|0|8681|success
+吃饱了吗|chībǎolema|are you full|1|2|8682|fail
+吃饱了吗|chībǎolema|are you full|1|2|8682|success
+吃饱了吗|chībǎolema|are you full|1|2|8682|success
+意思|yìsī|meaning|0|1|8683|fail
+意思|yìsī|meaning|0|1|8683|success
+意思|yìsī|meaning|0|1|8683|success
+一般|yībān|general|1|0|8684|fail
+一般|yībān|general|1|0|8684|success
+一般|yībān|general|1|0|8684|success
+狮子|shīzi|lion|2|1|8685|fail
+狮子|shīzi|lion|2|1|8685|success
+狮子|shīzi|lion|2|1|8685|success
+富人|fùrén|rich person|2|1|8686|success
+有钱人|yǒuqiánrén|rich person|0|1|8687|success
+鸟|niǎo|bird|0|2|8688|success
+总是|zǒngshì|always|1|0|8689|fail
+总是|zǒngshì|always|1|0|8689|success
+总是|zǒngshì|always|1|0|8689|success
+匈牙利|xiōngyálì|hungary|0|1|8690|success
+陕西|shǎnxī|shaanxi|1|0|8691|success
+吃饱了吗|chībǎolema|are you full|1|2|8692|success
+意思|yìsī|meaning|0|1|8693|success
+一般|yībān|general|1|0|8694|success
+狮子|shīzi|lion|2|1|8695|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8696|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8697|success
+累|lèi|tired|0|2|8698|success
+总是|zǒngshì|always|1|0|8699|fail
+总是|zǒngshì|always|1|0|8699|success
+总是|zǒngshì|always|1|0|8699|success
+湿豆|shīdòu|white bean|2|0|8700|success
+饺子|jiǎozi|dumpling|0|1|8701|success
+红色|hóngsè|red|0|2|8702|success
+五谷|wǔgǔ|five grains|2|0|8703|fail
+五谷|wǔgǔ|five grains|2|0|8703|success
+五谷|wǔgǔ|five grains|2|0|8703|success
+陕西|shǎnxī|shaanxi|2|1|8704|success
+菜单|càidān|menu|0|2|8705|success
+五谷|wǔgǔ|five grains|1|2|8706|success
+贝|bèi|shell|1|0|8707|fail
+贝|bèi|shell|1|0|8707|success
+贝|bèi|shell|1|0|8707|success
+陕西|shǎnxī|shaanxi|1|0|8708|success
+总是|zǒngshì|always|1|0|8709|success
+吃饱了吗|chībǎolema|are you full|1|2|8710|success
+一般|yībān|general|1|0|8711|success
+狮子|shīzi|lion|2|1|8712|success
+五谷|wǔgǔ|five grains|2|0|8713|success
+意思|yìsī|meaning|0|1|8714|success
+再|zài|again|1|2|8715|success
+十多个|shíduōgè|about ten|1|2|8716|fail
+十几个|shíjǐgè|ten plus|2|1|8716|fail
+十多个|shíduōgè|about ten|1|2|8716|success
+十多个|shíduōgè|about ten|1|2|8716|success
+十几个|shíjǐgè|ten plus|2|1|8717|success
+千米|qiānmǐ|kilometre|2|1|8718|success
+总是|zǒngshì|always|1|0|8719|success
+会|huì|can|0|1|8720|success
+商店|shāngdiàn|store|0|1|8721|fail
+酒店|jiǔdiàn|hotel|1|0|8721|fail
+商店|shāngdiàn|store|0|1|8721|success
+商店|shāngdiàn|store|0|1|8721|success
+酒店|jiǔdiàn|hotel|1|0|8722|success
+快一点儿|kuàiyīdiǎner|faster|0|2|8723|success
+贝|bèi|shell|1|0|8724|fail
+贝|bèi|shell|1|0|8724|success
+贝|bèi|shell|1|0|8724|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|0|1|8725|success
+十多个|shíduōgè|about ten|1|2|8726|fail
+十几个|shíjǐgè|ten plus|2|1|8726|fail
+十多个|shíduōgè|about ten|1|2|8726|success
+十多个|shíduōgè|about ten|1|2|8726|success
+十几个|shíjǐgè|ten plus|2|1|8727|success
+交响曲|jiāoxiǎngqū|symphony|1|2|8728|success
+休息|xiūxī|rest|1|2|8729|fail
+休息|xiūxī|rest|1|2|8729|success
+休息|xiūxī|rest|1|2|8729|success
