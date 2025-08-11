@@ -11648,3 +11648,277 @@
 十几个|shíjǐgè|ten plus|2|1|8737|fail
 十几个|shíjǐgè|ten plus|2|1|8737|success
 十几个|shíjǐgè|ten plus|2|1|8737|success
+休息|xiūxī|rest|1|2|8739|success
+总是|zǒngshì|always|1|0|8740|fail
+总是|zǒngshì|always|1|0|8740|success
+总是|zǒngshì|always|1|0|8740|success
+商店|shāngdiàn|store|0|1|8741|fail
+商店|shāngdiàn|store|0|1|8741|fail
+商店|shāngdiàn|store|0|1|8741|success
+贝|bèi|shell|1|0|8742|fail
+贝|bèi|shell|1|0|8742|success
+贝|bèi|shell|1|0|8742|success
+吃饱了吗|chībǎolema|are you full|1|2|8743|success
+一般|yībān|general|1|0|8744|fail
+一般|yībān|general|1|0|8744|success
+一般|yībān|general|1|0|8744|success
+陕西|shǎnxī|shaanxi|1|0|8745|success
+十多个|shíduōgè|about ten|1|2|8746|fail
+几十个|jǐshígè|multiple of ten|2|1|8746|fail
+十多个|shíduōgè|about ten|1|2|8746|success
+十多个|shíduōgè|about ten|1|2|8746|success
+十几个|shíjǐgè|ten plus|2|1|8747|success
+几十个|jǐshígè|multiple of ten|2|1|8748|success
+酒店|jiǔdiàn|hotel|1|0|8749|success
+总是|zǒngshì|always|1|0|8750|success
+商店|shāngdiàn|store|0|1|8751|success
+狮子|shīzi|lion|2|1|8752|success
+意思|yìsī|meaning|0|1|8753|fail
+意思|yìsī|meaning|0|1|8753|success
+意思|yìsī|meaning|0|1|8753|success
+一般|yībān|general|1|0|8754|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8755|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8755|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8755|success
+十多个|shíduōgè|about ten|1|2|8756|success
+十几个|shíjǐgè|ten plus|2|1|8757|success
+几十个|jǐshígè|multiple of ten|2|1|8758|success
+贝|bèi|shell|1|0|8759|success
+总是|zǒngshì|always|1|0|8760|success
+商店|shāngdiàn|store|0|1|8761|success
+休息|xiūxī|rest|1|2|8762|success
+意思|yìsī|meaning|0|1|8763|success
+歌手|gēshǒu|singer|0|2|8764|fail
+歌手|gēshǒu|singer|0|2|8764|success
+歌手|gēshǒu|singer|0|2|8764|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8765|success
+十多个|shíduōgè|about ten|1|2|8766|success
+十几个|shíjǐgè|ten plus|2|1|8767|success
+几十个|jǐshígè|multiple of ten|2|1|8768|success
+五谷|wǔgǔ|five grains|2|0|8769|success
+坐船|zuòchuán|take ship|1|0|8770|success
+商店|shāngdiàn|store|0|1|8771|success
+一般|yībān|general|1|0|8772|success
+最近|zuìjìn|lately|1|0|8773|success
+歌手|gēshǒu|singer|0|2|8774|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8775|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8775|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8775|success
+十多个|shíduōgè|about ten|1|2|8776|success
+十几个|shíjǐgè|ten plus|2|1|8777|success
+总是|zǒngshì|always|1|0|8778|success
+酒店|jiǔdiàn|hotel|1|0|8779|success
+意思|yìsī|meaning|0|1|8780|success
+送给|sònggěi|give to|2|1|8781|fail
+送给|sònggěi|give to|2|1|8781|success
+送给|sònggěi|give to|2|1|8781|success
+送给|sònggěi|give to|0|2|8782|success
+成龙|chénglóng|jackie chan|1|2|8783|fail
+成龙|chénglóng|jackie chan|1|2|8783|success
+成龙|chénglóng|jackie chan|1|2|8783|success
+疼不疼|téngbùténg|does it hurt|1|2|8784|fail
+疼不疼|téngbùténg|does it hurt|1|2|8784|success
+疼不疼|téngbùténg|does it hurt|1|2|8784|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8785|success
+十多个|shíduōgè|about ten|1|2|8786|success
+十几个|shíjǐgè|ten plus|2|1|8787|success
+几十个|jǐshígè|multiple of ten|2|1|8788|success
+商店|shāngdiàn|store|0|1|8789|success
+贝|bèi|shell|1|0|8790|success
+送给|sònggěi|give to|2|1|8791|success
+歌手|gēshǒu|singer|0|2|8792|success
+成龙|chénglóng|jackie chan|1|2|8793|success
+疼不疼|téngbùténg|does it hurt|1|2|8794|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8795|success
+十多个|shíduōgè|about ten|1|2|8796|success
+休息|xiūxī|rest|1|2|8797|success
+右边|yòubiān|right|1|2|8798|fail
+右边|yòubiān|right|1|2|8798|success
+右边|yòubiān|right|1|2|8798|success
+别的|biéde|other|2|0|8799|fail
+别的|biéde|other|2|0|8799|success
+别的|biéde|other|2|0|8799|success
+醋|cù|vinegar|2|0|8800|fail
+醋|cù|vinegar|2|0|8800|success
+醋|cù|vinegar|2|0|8800|success
+一般|yībān|general|1|0|8801|success
+鸟|niǎo|bird|1|0|8802|success
+贝|bèi|shell|2|0|8803|success
+十几个|shíjǐgè|ten plus|2|1|8804|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8805|success
+鸭|yā|duck|0|1|8806|fail
+鸭|yā|duck|0|1|8806|success
+鸭|yā|duck|0|1|8806|success
+总是|zǒngshì|always|1|0|8807|success
+右边|yòubiān|right|1|2|8808|success
+别的|biéde|other|2|0|8809|success
+成龙|chénglóng|jackie chan|1|2|8810|success
+送给|sònggěi|give to|2|1|8811|success
+疼不疼|téngbùténg|does it hurt|1|2|8812|success
+十多个|shíduōgè|about ten|1|2|8813|success
+意思|yìsī|meaning|0|1|8814|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8815|success
+西红柿|xīhóngshì|tomato|1|0|8816|success
+醋|cù|vinegar|2|0|8817|success
+几十个|jǐshígè|multiple of ten|2|1|8818|success
+商店|shāngdiàn|store|0|1|8819|success
+电视|diànshì|tv|1|0|8820|fail
+电视|diànshì|tv|1|0|8820|success
+电视|diànshì|tv|1|0|8820|success
+歌手|gēshǒu|singer|0|2|8821|success
+区|qū|district|0|2|8822|fail
+区|qū|district|0|2|8822|success
+区|qū|district|0|2|8822|success
+鸭|yā|duck|0|1|8823|success
+香港|xiānggǎng|hong kong|0|1|8824|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8825|success
+别的|biéde|other|2|0|8826|success
+右边|yòubiān|right|1|2|8827|success
+酸奶|suānnǎi|yogurt|1|0|8828|fail
+酸奶|suānnǎi|yogurt|1|0|8828|success
+酸奶|suānnǎi|yogurt|1|0|8828|success
+有意思|yǒuyìsi|interesting|1|0|8829|success
+电视|diànshì|tv|1|0|8830|fail
+电视|diànshì|tv|1|0|8830|success
+电视|diànshì|tv|1|0|8830|success
+中国|zhōngguó|china|2|1|8831|success
+送人|sòngrén|send someone off|1|0|8832|success
+十几个|shíjǐgè|ten plus|2|1|8833|success
+重要|zhòngyào|important|1|0|8834|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8835|success
+白菜|báicài|chinese cabbage|2|0|8836|success
+回答|huídá|answer|2|1|8837|fail
+回答|huídá|answer|2|1|8837|success
+回答|huídá|answer|2|1|8837|success
+酸奶|suānnǎi|yogurt|1|0|8838|success
+区|qū|district|0|2|8839|success
+电视|diànshì|tv|1|0|8840|success
+成龙|chénglóng|jackie chan|1|2|8841|success
+送给|sònggěi|give to|2|1|8842|success
+疼不疼|téngbùténg|does it hurt|1|2|8843|success
+几十个|jǐshígè|multiple of ten|2|0|8844|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8845|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8845|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8845|success
+醋|cù|vinegar|2|0|8846|success
+回答|huídá|answer|2|1|8847|success
+柠檬水|níngméngshuǐ|lemonade|0|2|8848|success
+十多个|shíduōgè|about ten|1|2|8849|success
+电视|diànshì|tv|1|0|8850|success
+啤酒|píjiǔ|beer|0|2|8851|fail
+啤酒|píjiǔ|beer|0|2|8851|success
+啤酒|píjiǔ|beer|0|2|8851|success
+鸭|yā|duck|0|1|8852|success
+加油|jiāyóu|come on|0|1|8853|fail
+加油|jiāyóu|come on|0|1|8853|success
+加油|jiāyóu|come on|0|1|8853|success
+休息|xiūxī|rest|2|1|8854|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8855|success
+酸奶|suānnǎi|yogurt|1|0|8856|success
+别的|biéde|other|2|0|8857|success
+右边|yòubiān|right|1|2|8858|success
+理发店|lǐfādiàn|barber shop|0|2|8859|success
+肉|ròu|meat|2|1|8860|success
+啤酒|píjiǔ|beer|0|2|8861|success
+公交车|gōngjiāochē|bus|2|1|8862|success
+加油|jiāyóu|come on|0|1|8863|success
+回答|huídá|answer|2|1|8864|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8865|success
+陕西|shǎnxī|shaanxi|2|0|8866|success
+电视|diànshì|tv|1|0|8867|success
+区|qū|district|0|2|8868|success
+贵|guì|expensive|2|1|8869|success
+醋|cù|vinegar|0|2|8870|success
+牛奶|niúnǎi|milk|0|2|8871|success
+粉色|fěnsè|pink|1|0|8872|success
+山西|shānxī|shanxi|1|2|8873|success
+近|jìn|near|0|2|8874|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8875|success
+陕西|shǎnxī|shaanxi|0|2|8876|success
+翻毛鸡|fānmáojī|birds nest|0|1|8877|fail
+翻毛鸡|fānmáojī|birds nest|0|1|8877|success
+翻毛鸡|fānmáojī|birds nest|0|1|8877|success
+啤酒|píjiǔ|beer|0|2|8878|success
+一点儿|yīdiǎner|a bit|1|2|8879|success
+加油|jiāyóu|come on|0|1|8880|success
+莲藕|liánǒu|lotus root|0|1|8881|fail
+莲藕|liánǒu|lotus root|0|1|8881|success
+莲藕|liánǒu|lotus root|0|1|8881|success
+红茶|hóngchá|black tea|1|0|8882|success
+得|de|particule|2|1|8883|fail
+得|de|particule|2|1|8883|success
+得|de|particule|2|1|8883|success
+十几个|shíjǐgè|ten plus|1|0|8884|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8885|success
+酸奶|suānnǎi|yogurt|1|0|8886|success
+翻毛鸡|fānmáojī|birds nest|0|1|8887|success
+无花果干|wúhuāguǒgàn|dried fig|0|2|8888|fail
+无花果干|wúhuāguǒgàn|dried fig|0|2|8888|success
+无花果干|wúhuāguǒgàn|dried fig|0|2|8888|success
+最近|zuìjìn|lately|2|0|8889|success
+机场|jīchǎng|airport|0|2|8890|fail
+飞机|fēijī|airplane|2|0|8890|fail
+机场|jīchǎng|airport|0|2|8890|success
+机场|jīchǎng|airport|0|2|8890|success
+飞机|fēijī|airplane|2|0|8891|success
+莲藕|liánǒu|lotus root|0|1|8892|success
+回答|huídá|answer|2|1|8893|success
+白葡萄酒|báipútáojiǔ|white wine|0|1|8894|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8895|success
+电视|diànshì|tv|1|0|8896|success
+香肠|xiāngcháng|sausage|0|1|8897|fail
+蘑菇|mógū|mushroom|1|0|8897|fail
+香肠|xiāngcháng|sausage|0|1|8897|success
+香肠|xiāngcháng|sausage|0|1|8897|fail
+蘑菇|mógū|mushroom|1|0|8898|fail
+蘑菇|mógū|mushroom|1|0|8898|success
+蘑菇|mógū|mushroom|1|0|8898|success
+无花果干|wúhuāguǒgàn|dried fig|0|2|8899|success
+机场|jīchǎng|airport|0|2|8900|success
+飞机|fēijī|airplane|2|0|8901|success
+得|de|particule|2|1|8902|success
+香肠|xiāngcháng|sausage|2|0|8903|success
+翻毛鸡|fānmáojī|birds nest|0|1|8904|success
+酒|jiǔ|alcohol|0|1|8905|success
+最|zuì|the most|1|2|8906|success
+香肠|xiāngcháng|sausage|0|1|8907|success
+蘑菇|mógū|mushroom|1|0|8908|success
+莲藕|liánǒu|lotus root|0|1|8909|fail
+意思|yìsī|meaning|1|0|8909|fail
+莲藕|liánǒu|lotus root|0|1|8909|success
+莲藕|liánǒu|lotus root|0|1|8909|success
+意思|yìsī|meaning|1|0|8910|success
+加油|jiāyóu|come on|0|1|8911|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8912|success
+啤酒|píjiǔ|beer|0|2|8913|success
+牛肉干|niúròugàn|beef jerky|0|2|8914|success
+山|shān|hill|0|2|8915|success
+无花果干|wúhuāguǒgàn|dried fig|0|2|8916|success
+香肠|xiāngcháng|sausage|0|1|8917|success
+蘑菇|mógū|mushroom|1|0|8918|success
+莲藕|liánǒu|lotus root|0|1|8919|success
+意思|yìsī|meaning|1|0|8920|success
+飞机|fēijī|airplane|2|0|8921|success
+机场|jīchǎng|airport|0|2|8922|success
+牛奶|niúnǎi|milk|1|0|8923|success
+休息|xiūxī|rest|1|0|8924|fail
+休息|xiūxī|rest|1|0|8924|success
+休息|xiūxī|rest|1|0|8924|success
+中间|zhōngjiān|between|2|0|8925|fail
+中间|zhōngjiān|between|2|0|8925|success
+中间|zhōngjiān|between|2|0|8925|success
+地铁|dìtiě|subway|0|2|8926|success
+香肠|xiāngcháng|sausage|0|1|8927|success
+重要|zhòngyào|important|0|1|8928|success
+莲藕|liánǒu|lotus root|0|1|8929|success
+意思|yìsī|meaning|1|0|8930|success
+得|de|particule|2|1|8931|success
+山西|shānxī|shanxi|2|1|8932|success
+翻毛鸡|fānmáojī|birds nest|0|1|8933|success
+休息|xiūxī|rest|1|0|8934|success
+中间|zhōngjiān|between|2|0|8935|success
+蘑菇|mógū|mushroom|1|0|8936|success
+香肠|xiāngcháng|sausage|0|1|8937|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|2|1|8938|success
+这个|zhègè|this|1|2|8939|success
+斯洛伐克|sīluòfákè|slovakia|2|0|8940|fail
