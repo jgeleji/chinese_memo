@@ -11635,3 +11635,16 @@
 休息|xiūxī|rest|1|2|8729|fail
 休息|xiūxī|rest|1|2|8729|success
 休息|xiūxī|rest|1|2|8729|success
+商店|shāngdiàn|store|0|1|8731|fail
+商店|shāngdiàn|store|0|1|8731|fail
+商店|shāngdiàn|store|0|1|8731|success
+酒店|jiǔdiàn|hotel|1|0|8732|success
+坐地铁|zuòdìtiě|take subway|2|0|8733|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|0|1|8735|success
+十多个|shíduōgè|about ten|1|2|8736|fail
+十几个|shíjǐgè|ten plus|2|1|8736|fail
+十多个|shíduōgè|about ten|1|2|8736|success
+十多个|shíduōgè|about ten|1|2|8736|success
+十几个|shíjǐgè|ten plus|2|1|8737|fail
+十几个|shíjǐgè|ten plus|2|1|8737|success
+十几个|shíjǐgè|ten plus|2|1|8737|success
