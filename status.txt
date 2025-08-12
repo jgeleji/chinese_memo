@@ -11922,3 +11922,153 @@
 冷水果汤|lěngshuǐguǒtāng|cold fruit soup|2|1|8938|success
 这个|zhègè|this|1|2|8939|success
 斯洛伐克|sīluòfákè|slovakia|2|0|8940|fail
+一般|yībān|general|1|0|8942|success
+警察局|jǐngchájú|police station|0|2|8943|fail
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8943|fail
+警察局|jǐngchájú|police station|0|2|8943|success
+警察局|jǐngchájú|police station|0|2|8943|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8944|fail
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8944|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8944|success
+无花果干|wúhuāguǒgàn|dried fig|0|2|8945|success
+莲藕|liánǒu|lotus root|0|1|8946|success
+意思|yìsī|meaning|1|0|8947|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|8948|success
+区|qū|district|2|0|8949|success
+斯洛伐克|sīluòfákè|slovakia|2|0|8950|fail
+斯洛伐克|sīluòfákè|slovakia|2|0|8950|success
+斯洛伐克|sīluòfákè|slovakia|2|0|8950|success
+休息|xiūxī|rest|1|0|8951|success
+中间|zhōngjiān|between|2|0|8952|success
+警察局|jǐngchájú|police station|0|2|8953|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8954|success
+香肠|xiāngcháng|sausage|0|1|8955|success
+飞机|fēijī|airplane|2|0|8956|success
+机场|jīchǎng|airport|0|2|8957|success
+意思|yìsī|meaning|0|1|8959|success
+斯洛伐克|sīluòfákè|slovakia|2|0|8960|success
+莲藕|liánǒu|lotus root|2|1|8961|success
+芝士面包|zhīshìmiànbāo|cheese bread|2|1|8962|success
+还是|háishì|or|2|0|8963|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8964|success
+蘑菇|mógū|mushroom|1|0|8965|success
+所以|suǒyǐ|so|0|1|8966|fail
+可以|kěyǐ|possible|1|0|8966|fail
+所以|suǒyǐ|so|0|1|8966|success
+所以|suǒyǐ|so|0|1|8966|success
+可以|kěyǐ|possible|1|0|8967|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|0|8968|success
+花生|huāshēng|peanut|0|1|8969|fail
+花生|huāshēng|peanut|0|1|8969|success
+花生|huāshēng|peanut|0|1|8969|success
+斯洛伐克|sīluòfákè|slovakia|2|0|8970|success
+警察局|jǐngchájú|police station|0|2|8971|fail
+警察局|jǐngchájú|police station|0|2|8971|success
+警察局|jǐngchájú|police station|0|2|8971|success
+扁豆|biǎndòu|lentil|0|2|8972|fail
+扁豆|biǎndòu|lentil|0|2|8972|success
+扁豆|biǎndòu|lentil|0|2|8972|success
+累|lèi|tired|1|0|8973|fail
+累|lèi|tired|1|0|8973|success
+累|lèi|tired|1|0|8973|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8974|fail
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8974|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8974|success
+莲藕|liánǒu|lotus root|0|1|8975|success
+所以|suǒyǐ|so|0|1|8976|success
+可以|kěyǐ|possible|1|0|8977|success
+意思|yìsī|meaning|1|0|8978|success
+花生|huāshēng|peanut|0|1|8979|success
+斯洛伐克|sīluòfákè|slovakia|2|0|8980|success
+警察局|jǐngchájú|police station|0|2|8981|success
+扁豆|biǎndòu|lentil|0|2|8982|success
+中间|zhōngjiān|between|2|0|8983|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8984|success
+休息|xiūxī|rest|1|0|8985|success
+香肠|xiāngcháng|sausage|0|1|8986|success
+可以|kěyǐ|possible|1|0|8987|success
+新西兰|xīnxīlán|new zealand|2|1|8988|success
+工程师|gōngchéngshī|engineer|2|1|8989|success
+斯洛伐克|sīluòfákè|slovakia|2|0|8990|success
+警察局|jǐngchájú|police station|0|2|8991|success
+累|lèi|tired|1|0|8992|success
+所以|suǒyǐ|so|0|1|8993|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|8994|success
+教堂|jiàotáng|church|1|2|8995|success
+花生|huāshēng|peanut|0|1|8996|success
+醋|cù|vinegar|2|1|8997|success
+美国|měiguó|usa|1|2|8998|success
+扁豆|biǎndòu|lentil|0|2|8999|success
+斯洛伐克|sīluòfákè|slovakia|2|0|9000|success
+警察局|jǐngchájú|police station|0|2|9001|success
+迟到|chídào|late|2|0|9002|fail
+迟到|chídào|late|2|0|9002|success
+迟到|chídào|late|2|0|9002|success
+三餐|sāncān|three meals|1|2|9003|fail
+三餐|sāncān|three meals|1|2|9003|success
+三餐|sāncān|three meals|1|2|9003|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|9004|success
+可以|kěyǐ|possible|1|0|9005|success
+因为|yīnwèi|because|1|2|9006|fail
+因为|yīnwèi|because|1|2|9006|success
+因为|yīnwèi|because|1|2|9006|success
+意思|yìsī|meaning|2|1|9007|success
+几位|jǐwèi|how many of you|1|2|9008|fail
+几位|jǐwèi|how many of you|1|2|9008|success
+几位|jǐwèi|how many of you|1|2|9008|success
+白葡萄酒|báipútáojiǔ|white wine|1|2|9009|success
+斯洛伐克|sīluòfákè|slovakia|2|0|9010|success
+送给|sònggěi|see off|1|2|9011|fail
+送人|sòngrén|send someone off|2|1|9011|fail
+送给|sònggěi|see off|1|2|9011|success
+送给|sònggěi|see off|1|2|9011|success
+送人|sòngrén|send someone off|2|1|9012|success
+三餐|sāncān|three meals|1|2|9013|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|9014|success
+迟到|chídào|late|2|0|9015|success
+因为|yīnwèi|because|1|2|9016|success
+雪|xuě|snow|1|2|9017|success
+几位|jǐwèi|how many of you|1|2|9018|success
+警察局|jǐngchájú|police station|0|2|9019|success
+香菇油菜|xiānggūyóucài|mushroom cole|0|2|9020|success
+送给|sònggěi|see off|1|2|9021|success
+送人|sòngrén|send someone off|2|1|9022|success
+累|lèi|tired|1|0|9023|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|9024|success
+所以|suǒyǐ|so|0|1|9025|success
+花生|huāshēng|peanut|0|1|9026|success
+斯洛伐克|sīluòfákè|slovakia|2|0|9027|success
+扁豆|biǎndòu|lentil|0|2|9028|success
+莲子|liánzi|lotus seed|1|0|9029|success
+三餐|sāncān|three meals|1|2|9030|success
+白色|báisè|white|0|1|9031|success
+送人|sòngrén|send someone off|2|1|9032|success
+迟到|chídào|late|2|0|9033|success
+因为|yīnwèi|because|1|2|9034|success
+几位|jǐwèi|how many of you|1|2|9035|success
+可以|kěyǐ|possible|1|0|9036|success
+上海|shànghǎi|shanghai|1|2|9037|success
+送给|sònggěi|see off|1|2|9038|success
+牛肉干|niúròugàn|beef jerky|0|1|9039|success
+陶诗|táoshī|tao shi|2|1|9040|fail
+陶诗|táoshī|tao shi|2|1|9040|success
+陶诗|táoshī|tao shi|2|1|9040|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|9041|success
+每天|měitiān|every day|2|1|9042|success
+疼不疼|téngbùténg|does it hurt|0|1|9043|fail
+疼不疼|téngbùténg|does it hurt|0|1|9043|success
+疼不疼|téngbùténg|does it hurt|0|1|9043|success
+一个人|yīgèrén|alone|2|1|9044|fail
+一个人|yīgèrén|alone|2|1|9044|success
+一个人|yīgèrén|alone|2|1|9044|success
+以前|yǐqián|before|1|0|9045|fail
+以前|yǐqián|before|1|0|9045|success
+以前|yǐqián|before|1|0|9045|success
+国会大厦|guóhuìdàshà|parliament|0|1|9046|success
+生人|shēngrén|acquaintance|1|2|9047|success
+警察局|jǐngchájú|police station|0|2|9048|success
+送人|sòngrén|send someone off|2|1|9049|success
+陶诗|táoshī|tao shi|2|1|9050|success
+百合|bǎihé|lily|1|0|9051|fail
+百合|bǎihé|lily|1|0|9051|success
+百合|bǎihé|lily|1|0|9051|success
