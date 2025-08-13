@@ -7,8 +7,8 @@
 动物园|zoo
 英雄广场|heroes square
 有意思|interesting|yǒuyìsi
-没意思|boring
-意思|meaning
+没意思|boring|méiyìsi
+意思|meaning|yìsi
 幸福|happiness
 就|exactly
 就|just

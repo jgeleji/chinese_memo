@@ -12072,3 +12072,359 @@
 百合|bǎihé|lily|1|0|9051|fail
 百合|bǎihé|lily|1|0|9051|success
 百合|bǎihé|lily|1|0|9051|success
+疼不疼|téngbùténg|does it hurt|0|1|9053|success
+一个人|yīgèrén|alone|2|1|9054|success
+以前|yǐqián|before|1|0|9055|fail
+以前|yǐqián|before|1|0|9055|success
+以前|yǐqián|before|1|0|9055|success
+办公室|bàngōngshì|office|0|2|9056|fail
+办公室|bàngōngshì|office|0|2|9056|success
+办公室|bàngōngshì|office|0|2|9056|success
+站|zhàn|stand|2|0|9057|success
+商店|shāngdiàn|store|1|2|9058|fail
+超市|chāoshì|supermarket|2|1|9058|fail
+商店|shāngdiàn|store|1|2|9058|success
+商店|shāngdiàn|store|1|2|9058|success
+超市|chāoshì|supermarket|2|1|9059|fail
+超市|chāoshì|supermarket|2|1|9059|success
+超市|chāoshì|supermarket|2|1|9059|success
+三餐|sāncān|three meals|1|2|9060|success
+百合|bǎihé|lily|1|0|9061|fail
+百合|bǎihé|lily|1|0|9061|success
+百合|bǎihé|lily|1|0|9061|success
+迟到|chídào|late|2|0|9062|success
+因为|yīnwèi|because|1|2|9063|fail
+因为|yīnwèi|because|1|2|9063|success
+因为|yīnwèi|because|1|2|9063|success
+几位|jǐwèi|how many of you|1|2|9064|fail
+几位|jǐwèi|how many of you|1|2|9064|success
+几位|jǐwèi|how many of you|1|2|9064|success
+以前|yǐqián|before|1|0|9065|success
+办公室|bàngōngshì|office|0|2|9066|fail
+办公室|bàngōngshì|office|0|2|9066|success
+办公室|bàngōngshì|office|0|2|9066|success
+陶诗|táoshī|tao shi|2|1|9067|success
+商店|shāngdiàn|store|1|2|9068|fail
+超市|chāoshì|supermarket|2|1|9068|fail
+商店|shāngdiàn|store|1|2|9068|success
+商店|shāngdiàn|store|1|2|9068|success
+超市|chāoshì|supermarket|2|1|9069|fail
+商店|shāngdiàn|store|1|2|9069|fail
+超市|chāoshì|supermarket|2|1|9069|fail
+超市|chāoshì|supermarket|2|1|9069|success
+疼不疼|téngbùténg|does it hurt|0|1|9070|success
+百合|bǎihé|lily|1|0|9071|success
+一个人|yīgèrén|alone|2|1|9072|success
+因为|yīnwèi|because|1|2|9073|fail
+因为|yīnwèi|because|1|2|9073|success
+因为|yīnwèi|because|1|2|9073|success
+几位|jǐwèi|how many of you|1|2|9074|success
+以前|yǐqián|before|1|0|9075|success
+办公室|bàngōngshì|office|0|2|9076|success
+送给|sònggěi|see off|1|2|9077|success
+商店|shāngdiàn|store|1|2|9078|success
+超市|chāoshì|supermarket|2|1|9079|success
+送人|sòngrén|send someone off|2|1|9080|fail
+送人|sòngrén|send someone off|2|1|9080|success
+送人|sòngrén|send someone off|2|1|9080|success
+百合|bǎihé|lily|1|0|9081|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|0|9082|success
+因为|yīnwèi|because|1|2|9083|fail
+因为|yīnwèi|because|1|2|9083|success
+因为|yīnwèi|because|1|2|9083|success
+几位|jǐwèi|how many of you|1|2|9084|success
+斯洛伐克|sīluòfákè|slovakia|2|0|9085|success
+办公室|bàngōngshì|office|0|2|9086|success
+白菜|báicài|chinese cabbage|0|2|9087|fail
+白菜|báicài|chinese cabbage|0|2|9087|success
+白菜|báicài|chinese cabbage|0|2|9087|success
+商店|shāngdiàn|store|1|2|9088|fail
+商店|shāngdiàn|store|1|2|9088|success
+商店|shāngdiàn|store|1|2|9088|success
+超市|chāoshì|supermarket|2|1|9089|success
+送人|sòngrén|send someone off|2|1|9090|fail
+送人|sòngrén|send someone off|2|1|9090|success
+送人|sòngrén|send someone off|2|1|9090|success
+已经|yǐjīng|already|0|2|9091|fail
+已经|yǐjīng|already|0|2|9091|success
+已经|yǐjīng|already|0|2|9091|success
+以前|yǐqián|before|1|0|9092|success
+因为|yīnwèi|because|1|2|9093|success
+贝|bèi|shell|2|1|9094|success
+肉|ròu|meat|1|0|9095|success
+办公室|bàngōngshì|office|0|2|9096|success
+白菜|báicài|chinese cabbage|0|2|9097|success
+商店|shāngdiàn|store|1|2|9098|success
+超市|chāoshì|supermarket|2|1|9099|success
+送人|sòngrén|send someone off|2|1|9100|success
+已经|yǐjīng|already|0|2|9101|fail
+已经|yǐjīng|already|0|2|9101|success
+已经|yǐjīng|already|0|2|9101|success
+百合|bǎihé|lily|1|0|9102|fail
+百合|bǎihé|lily|1|0|9102|success
+百合|bǎihé|lily|1|0|9102|success
+因为|yīnwèi|because|1|2|9103|fail
+以前|yǐqián|before|2|1|9103|fail
+因为|yīnwèi|because|1|2|9103|success
+因为|yīnwèi|because|1|2|9103|success
+以前|yǐqián|before|2|1|9104|fail
+以前|yǐqián|before|2|1|9104|success
+以前|yǐqián|before|2|1|9104|success
+几位|jǐwèi|how many of you|1|2|9105|success
+办公室|bàngōngshì|office|0|2|9106|success
+陶诗|táoshī|tao shi|2|1|9107|success
+商店|shāngdiàn|store|1|2|9108|success
+疼不疼|téngbùténg|does it hurt|0|1|9109|success
+送人|sòngrén|send someone off|2|1|9110|success
+已经|yǐjīng|already|0|2|9111|fail
+已经|yǐjīng|already|0|2|9111|success
+已经|yǐjīng|already|0|2|9111|success
+百合|bǎihé|lily|1|0|9112|success
+因为|yīnwèi|because|1|2|9113|success
+以前|yǐqián|before|2|1|9114|fail
+以前|yǐqián|before|2|1|9114|success
+以前|yǐqián|before|2|1|9114|success
+白菜|báicài|chinese cabbage|0|2|9115|success
+超市|chāoshì|supermarket|2|1|9116|success
+一个人|yīgèrén|alone|2|1|9117|success
+疼不疼|téngbùténg|does it hurt|0|2|9118|success
+有的时候|yǒudeshíhòu|sometimes|0|2|9119|fail
+有的时候|yǒudeshíhòu|sometimes|0|2|9119|success
+有的时候|yǒudeshíhòu|sometimes|0|2|9119|success
+加|jiā|add something|0|2|9120|success
+已经|yǐjīng|already|0|2|9121|success
+百合|bǎihé|lily|1|0|9122|success
+因为|yīnwèi|because|1|2|9123|fail
+因为|yīnwèi|because|1|2|9123|success
+因为|yīnwèi|because|1|2|9123|success
+以前|yǐqián|before|2|1|9124|success
+商店|shāngdiàn|store|1|2|9125|success
+办公室|bàngōngshì|office|0|2|9126|success
+送人|sòngrén|send someone off|2|1|9127|success
+以前|yǐqián|before|1|0|9128|success
+有的时候|yǒudeshíhòu|sometimes|0|2|9129|success
+对面|duìmiàn|opposite|2|1|9130|success
+已经|yǐjīng|already|0|2|9131|success
+黄油|huángyóu|butter|1|0|9132|success
+因为|yīnwèi|because|1|2|9133|success
+以前|yǐqián|before|2|1|9134|success
+几位|jǐwèi|how many of you|1|2|9135|success
+红灯|hóngdēng|red light|2|0|9136|success
+几位|jǐwèi|how many of you|2|1|9137|success
+山|shān|hill|2|1|9138|fail
+山|shān|hill|2|1|9138|success
+山|shān|hill|2|1|9138|success
+百合|bǎihé|lily|1|0|9139|success
+三餐|sāncān|three meals|1|0|9140|fail
+三餐|sāncān|three meals|1|0|9140|success
+三餐|sāncān|three meals|1|0|9140|success
+果汁|guǒzhī|fruit juice|1|0|9141|fail
+果汁|guǒzhī|fruit juice|1|0|9141|success
+果汁|guǒzhī|fruit juice|1|0|9141|success
+告诉|gàosù|tell|1|2|9142|success
+因为|yīnwèi|because|1|2|9143|success
+白菜|báicài|chinese cabbage|0|2|9144|success
+超市|chāoshì|supermarket|2|1|9145|success
+有的时候|yǒudeshíhòu|sometimes|0|2|9146|success
+富人|fùrén|rich person|2|0|9147|success
+已经|yǐjīng|already|0|2|9148|success
+卖|mài|sell|0|1|9149|success
+三餐|sāncān|three meals|1|0|9150|success
+果汁|guǒzhī|fruit juice|1|0|9151|success
+以前|yǐqián|before|2|1|9152|success
+橙色|chéngsè|orange color|2|0|9153|success
+商店|shāngdiàn|store|1|2|9154|success
+山|shān|hill|2|1|9155|success
+送人|sòngrén|send someone off|2|1|9156|success
+办公室|bàngōngshì|office|0|2|9157|success
+五谷|wǔgǔ|five grains|0|2|9158|success
+晚|wǎn|late|0|2|9159|success
+因为|yīnwèi|because|1|2|9160|success
+左立|zuǒlì|zuoli name|1|0|9161|fail
+左立|zuǒlì|zuoli name|1|0|9161|success
+左立|zuǒlì|zuoli name|1|0|9161|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9162|fail
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9162|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9162|fail
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9163|fail
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9163|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9163|success
+苹果汁|píngguǒzhī|apple juice|1|2|9164|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9165|fail
+多长时间|duōzhǎngshíjiān|how long|0|2|9165|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9165|success
+柠檬水|níngméngshuǐ|lemonade|1|2|9166|success
+三餐|sāncān|three meals|1|0|9167|success
+果汁|guǒzhī|fruit juice|1|0|9168|success
+百合|bǎihé|lily|1|0|9169|success
+多长时间|duōzhǎngshíjiān|how long|1|0|9170|fail
+多长时间|duōzhǎngshíjiān|how long|1|0|9170|success
+多长时间|duōzhǎngshíjiān|how long|1|0|9170|success
+左立|zuǒlì|zuoli name|1|0|9171|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9172|fail
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9172|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9172|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9173|success
+幸福|xìngfú|happiness|1|0|9174|fail
+幸福|xìngfú|happiness|1|0|9174|success
+幸福|xìngfú|happiness|1|0|9174|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9175|fail
+多长时间|duōzhǎngshíjiān|how long|0|2|9175|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9175|success
+有的时候|yǒudeshíhòu|sometimes|0|2|9176|success
+已经|yǐjīng|already|0|2|9177|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|0|2|9178|success
+大蒜|dàsuàn|garlic|1|0|9179|fail
+大蒜|dàsuàn|garlic|1|0|9179|success
+大蒜|dàsuàn|garlic|1|0|9179|success
+多长时间|duōzhǎngshíjiān|how long|1|0|9180|success
+以前|yǐqián|before|2|1|9181|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9182|success
+有意思|yǒuyìsi|interesting|1|2|9183|fail
+幸福|xìngfú|happiness|1|0|9184|success
+幸福|xìngfú|happiness|1|0|9184|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9185|success
+山|shān|hill|2|1|9186|success
+五谷|wǔgǔ|five grains|2|0|9187|success
+左立|zuǒlì|zuoli name|1|0|9188|success
+大蒜|dàsuàn|garlic|1|0|9189|fail
+大蒜|dàsuàn|garlic|1|0|9189|success
+大蒜|dàsuàn|garlic|1|0|9189|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9190|fail
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9190|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9190|success
+因为|yīnwèi|because|1|2|9191|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9192|success
+有意思|yǒuyìsi|interesting|1|2|9193|success
+幸福|xìngfú|happiness|1|0|9194|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9195|success
+三餐|sāncān|three meals|1|0|9196|fail
+三餐|sāncān|three meals|1|0|9196|success
+三餐|sāncān|three meals|1|0|9196|success
+多长时间|duōzhǎngshíjiān|how long|1|0|9197|success
+果汁|guǒzhī|fruit juice|1|0|9198|success
+大蒜|dàsuàn|garlic|1|0|9199|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9200|success
+回答|huídá|answer|0|1|9201|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9202|success
+有意思|yǒuyìsi|interesting|1|2|9203|success
+幸福|xìngfú|happiness|1|0|9204|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9205|success
+三餐|sāncān|three meals|1|0|9206|success
+萨拉米|sàlāmǐ|salami|0|1|9207|success
+胳膊|gēbó|arm|2|0|9208|fail
+胳膊|gēbó|arm|2|0|9208|success
+胳膊|gēbó|arm|2|0|9208|success
+大蒜|dàsuàn|garlic|1|0|9209|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9210|success
+麦片|màipiàn|cereal|0|1|9211|fail
+麦片|màipiàn|cereal|0|1|9211|success
+麦片|màipiàn|cereal|0|1|9211|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9212|success
+有意思|yǒuyìsi|interesting|1|2|9213|success
+绿色|lǜsè|green|0|2|9214|fail
+绿色|lǜsè|green|0|2|9214|success
+绿色|lǜsè|green|0|2|9214|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9215|success
+无花果干|wúhuāguǒgàn|dried fig|2|0|9216|fail
+无花果干|wúhuāguǒgàn|dried fig|2|0|9216|success
+无花果干|wúhuāguǒgàn|dried fig|2|0|9216|success
+左立|zuǒlì|zuoli name|1|0|9217|success
+胳膊|gēbó|arm|2|0|9218|success
+蘑菇|mógū|mushroom|2|0|9219|success
+无花果干|wúhuāguǒgàn|dried fig|2|1|9220|success
+麦片|màipiàn|cereal|0|1|9221|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9222|success
+三餐|sāncān|three meals|1|0|9223|success
+绿色|lǜsè|green|0|2|9224|success
+幸福|xìngfú|happiness|1|0|9225|success
+无花果干|wúhuāguǒgàn|dried fig|2|0|9226|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9227|success
+大蒜|dàsuàn|garlic|1|0|9228|success
+多长时间|duōzhǎngshíjiān|how long|1|0|9229|success
+有意思|yǒuyìsi|interesting|1|2|9230|success
+匈牙利|xiōngyálì|hungary|1|2|9231|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9232|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9233|success
+澳大利亚|àodàlìyà|australia|0|1|9234|fail
+澳大利亚|àodàlìyà|australia|0|1|9234|success
+澳大利亚|àodàlìyà|australia|0|1|9234|success
+胳膊|gēbó|arm|2|0|9235|success
+电子邮件|diànziyóujiàn|email|0|1|9236|success
+萨拉米|sàlāmǐ|salami|1|0|9237|success
+麦片|màipiàn|cereal|0|1|9238|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|9239|fail
+燕麦粥|yànmàizhōu|oatmeal|1|2|9239|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|9239|success
+会|huì|can|1|2|9240|success
+绿色|lǜsè|green|0|2|9241|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9242|success
+无花果干|wúhuāguǒgàn|dried fig|2|0|9243|success
+澳大利亚|àodàlìyà|australia|0|1|9244|success
+忧虑|yōulǜ|worry|0|1|9245|fail
+忧虑|yōulǜ|worry|0|1|9245|success
+忧虑|yōulǜ|worry|0|1|9245|success
+修车|xiūchē|repair car|1|0|9246|fail
+修车|xiūchē|repair car|1|0|9246|success
+修车|xiūchē|repair car|1|0|9246|success
+这里|zhèlǐ|here|2|1|9247|success
+升|shēng|liter|1|0|9248|fail
+升|shēng|liter|1|0|9248|success
+升|shēng|liter|1|0|9248|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|9249|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9250|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9250|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9250|success
+远|yuǎn|far|2|0|9251|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9252|success
+三餐|sāncān|three meals|1|0|9253|success
+幸福|xìngfú|happiness|1|0|9254|success
+忧虑|yōulǜ|worry|0|1|9255|fail
+忧虑|yōulǜ|worry|0|1|9255|success
+忧虑|yōulǜ|worry|0|1|9255|success
+修车|xiūchē|repair car|1|0|9256|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9257|success
+大蒜|dàsuàn|garlic|1|0|9258|success
+有意思|yǒuyìsi|interesting|1|2|9259|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9260|success
+澳大利亚|àodàlìyà|australia|0|1|9261|success
+多长时间|duōzhǎngshíjiān|how long|0|2|9262|success
+点酒|diǎnjiǔ|order drink|0|2|9263|success
+胳膊|gēbó|arm|2|0|9264|success
+忧虑|yōulǜ|worry|0|1|9265|success
+升|shēng|liter|1|0|9266|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|9267|success
+麦片|màipiàn|cereal|0|1|9268|fail
+麦片|màipiàn|cereal|0|1|9268|success
+麦片|màipiàn|cereal|0|1|9268|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9269|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9270|success
+绿色|lǜsè|green|0|2|9271|success
+无花果干|wúhuāguǒgàn|dried fig|2|0|9272|success
+修车|xiūchē|repair car|1|0|9273|success
+机场|jīchǎng|airport|1|2|9274|success
+忧虑|yōulǜ|worry|0|1|9275|success
+蔬菜|shūcài|vegetable|0|2|9276|fail
+蔬菜|shūcài|vegetable|0|2|9276|success
+蔬菜|shūcài|vegetable|0|2|9276|success
+点单|diǎndān|order|0|1|9277|success
+麦片|màipiàn|cereal|0|1|9278|success
+送给|sònggěi|see off|2|0|9279|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9280|success
+软件|ruǎnjiàn|software|2|0|9281|success
+总是|zǒngshì|always|0|2|9282|fail
+总是|zǒngshì|always|0|2|9282|success
+总是|zǒngshì|always|0|2|9282|success
+点单|diǎndān|order|0|2|9283|success
+东西|dōngxī|thing|2|0|9284|success
+快一点儿|kuàiyīdiǎner|faster|2|0|9285|success
+蔬菜|shūcài|vegetable|0|2|9286|success
+黄色|huángsè|yellow|1|2|9287|success
+有人|yǒurén|some people|0|1|9288|fail
+有人|yǒurén|some people|0|1|9288|success
+有人|yǒurén|some people|0|1|9288|success
+红葡萄酒|hóngpútáojiǔ|red wine|2|0|9289|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9290|success
+澳大利亚|àodàlìyà|australia|0|1|9291|success
+总是|zǒngshì|always|0|2|9292|success
+忧虑|yōulǜ|worry|0|1|9293|success
