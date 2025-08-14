@@ -12428,3 +12428,482 @@
 澳大利亚|àodàlìyà|australia|0|1|9291|success
 总是|zǒngshì|always|0|2|9292|success
 忧虑|yōulǜ|worry|0|1|9293|success
+麦片|màipiàn|cereal|0|1|9295|fail
+麦片|màipiàn|cereal|0|1|9295|success
+麦片|màipiàn|cereal|0|1|9295|success
+升|shēng|liter|1|0|9296|fail
+升|shēng|liter|1|0|9296|success
+升|shēng|liter|1|0|9296|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|9297|success
+有人|yǒurén|some people|0|1|9298|fail
+有人|yǒurén|some people|0|1|9298|success
+有人|yǒurén|some people|0|1|9298|success
+中国|zhōngguó|china|2|0|9299|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9300|success
+培根|péigēn|bacon|0|2|9301|fail
+培根|péigēn|bacon|0|2|9301|success
+培根|péigēn|bacon|0|2|9301|success
+修车|xiūchē|repair car|1|0|9302|success
+蔬菜|shūcài|vegetable|0|2|9303|fail
+蔬菜|shūcài|vegetable|0|2|9303|success
+蔬菜|shūcài|vegetable|0|2|9303|success
+歌剧院|gējùyuàn|opera|0|1|9304|success
+麦片|màipiàn|cereal|0|1|9305|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|2|9306|success
+黄瓜|huángguā|cucumber|2|0|9307|success
+有人|yǒurén|some people|0|1|9308|success
+总是|zǒngshì|always|0|2|9309|fail
+总是|zǒngshì|always|0|2|9309|success
+总是|zǒngshì|always|0|2|9309|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9310|success
+培根|péigēn|bacon|0|2|9311|fail
+培根|péigēn|bacon|0|2|9311|success
+培根|péigēn|bacon|0|2|9311|success
+东西|dōngxī|thing|2|1|9312|fail
+东西|dōngxī|thing|2|1|9312|success
+东西|dōngxī|thing|2|1|9312|success
+蔬菜|shūcài|vegetable|0|2|9313|success
+升|shēng|liter|1|0|9314|success
+麦片|màipiàn|cereal|0|1|9315|success
+日本|rìběn|japan|2|0|9316|success
+扁豆|biǎndòu|lentil|2|0|9317|success
+有人|yǒurén|some people|0|1|9318|success
+总是|zǒngshì|always|0|2|9319|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9320|success
+培根|péigēn|bacon|0|2|9321|success
+东西|dōngxī|thing|2|1|9322|success
+蔬菜|shūcài|vegetable|0|2|9323|success
+忧虑|yōulǜ|worry|0|1|9324|fail
+忧虑|yōulǜ|worry|0|1|9324|fail
+忧虑|yōulǜ|worry|0|1|9324|success
+酒|jiǔ|alcohol|1|2|9325|success
+有点儿|yǒudiǎner|a bit|2|1|9326|fail
+有点儿|yǒudiǎner|a bit|2|1|9326|success
+有点儿|yǒudiǎner|a bit|2|1|9326|success
+你真可爱|nǐzhēnkěài|you look so cute|2|0|9327|success
+再|zài|again|0|2|9328|success
+总是|zǒngshì|always|0|2|9329|success
+食堂|shítáng|canteen|0|2|9330|fail
+食堂|shítáng|canteen|0|2|9330|success
+食堂|shítáng|canteen|0|2|9330|success
+培根|péigēn|bacon|0|2|9331|fail
+培根|péigēn|bacon|0|2|9331|success
+培根|péigēn|bacon|0|2|9331|success
+麦片|màipiàn|cereal|0|1|9332|success
+红灯|hóngdēng|red light|0|2|9333|success
+忧虑|yōulǜ|worry|0|1|9334|success
+有人|yǒurén|some people|0|1|9335|success
+有点儿|yǒudiǎner|a bit|2|1|9336|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9337|success
+商店|shāngdiàn|store|0|2|9338|success
+东西|dōngxī|thing|2|1|9339|success
+食堂|shítáng|canteen|0|2|9340|success
+培根|péigēn|bacon|0|2|9341|success
+蔬菜|shūcài|vegetable|0|2|9342|success
+升|shēng|liter|1|0|9343|success
+忧虑|yōulǜ|worry|0|1|9344|success
+日本|rìběn|japan|0|2|9345|success
+总是|zǒngshì|always|0|2|9346|success
+有的|yǒude|some|2|1|9347|fail
+有的|yǒude|some|2|1|9347|success
+有的|yǒude|some|2|1|9347|success
+汉字|hànzì|chinese character|0|1|9348|fail
+汉字|hànzì|chinese character|0|1|9348|success
+汉字|hànzì|chinese character|0|1|9348|success
+动物园|dòngwùyuán|zoo|2|1|9349|success
+銀行|yínháng|bank|2|1|9350|success
+培根|péigēn|bacon|0|2|9351|success
+时候|shíhou|when|2|0|9352|fail
+时候|shíhou|when|2|0|9352|fail
+时候|shíhou|when|2|0|9352|success
+有点儿|yǒudiǎner|a bit|2|1|9353|success
+忧虑|yōulǜ|worry|0|1|9354|success
+离|lí|away from|0|2|9355|success
+国王|guówáng|king|2|1|9356|success
+有的|yǒude|some|2|1|9357|success
+汉字|hànzì|chinese character|0|1|9358|success
+食堂|shítáng|canteen|0|2|9359|success
+别的|biéde|others|0|2|9360|fail
+小时|xiǎoshí|hour duration|2|0|9360|fail
+别的|biéde|others|0|2|9360|success
+别的|biéde|others|0|2|9360|success
+小时|xiǎoshí|hour duration|2|0|9361|success
+时候|shíhou|when|2|0|9362|success
+麦片|màipiàn|cereal|0|1|9363|success
+有人|yǒurén|some people|0|1|9364|success
+酒店|jiǔdiàn|hotel|1|2|9365|fail
+酒店|jiǔdiàn|hotel|1|2|9365|success
+酒店|jiǔdiàn|hotel|1|2|9365|success
+塑胶|sùjiāo|plastic|1|0|9366|fail
+塑胶|sùjiāo|plastic|1|0|9366|success
+塑胶|sùjiāo|plastic|1|0|9366|success
+脸书|liǎnshū|facebook|0|2|9367|fail
+脸书|liǎnshū|facebook|0|2|9367|success
+脸书|liǎnshū|facebook|0|2|9367|success
+培根|péigēn|bacon|0|2|9368|success
+东西|dōngxī|thing|2|1|9369|success
+别的|biéde|others|0|2|9370|success
+小时|xiǎoshí|hour duration|2|0|9371|success
+时候|shíhou|when|2|0|9372|success
+忧虑|yōulǜ|worry|0|1|9373|success
+有的|yǒude|some|2|1|9374|success
+酒店|jiǔdiàn|hotel|1|2|9375|success
+塑胶|sùjiāo|plastic|1|0|9376|fail
+塑胶|sùjiāo|plastic|1|0|9376|success
+塑胶|sùjiāo|plastic|1|0|9376|success
+脸书|liǎnshū|facebook|0|2|9377|fail
+脸书|liǎnshū|facebook|0|2|9377|success
+脸书|liǎnshū|facebook|0|2|9377|success
+汉字|hànzì|chinese character|0|1|9378|success
+总是|zǒngshì|always|0|2|9379|success
+蔬菜|shūcài|vegetable|0|2|9380|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|2|1|9381|success
+时候|shíhou|when|2|0|9382|success
+有点儿|yǒudiǎner|a bit|2|1|9383|success
+海|hǎi|ocean|1|0|9384|success
+凉快|liángkuài|cool|0|2|9385|fail
+凉快|liángkuài|cool|0|2|9385|success
+凉快|liángkuài|cool|0|2|9385|success
+塑胶|sùjiāo|plastic|1|0|9386|success
+脸书|liǎnshū|facebook|0|2|9387|success
+别的|biéde|others|0|2|9388|success
+小时|xiǎoshí|hour duration|2|0|9389|success
+食堂|shítáng|canteen|0|2|9390|success
+无花果|wúhuāguǒ|fig|0|1|9391|success
+酒店|jiǔdiàn|hotel|1|2|9392|success
+得|de|particule|0|1|9393|success
+年轻|niánqīng|young|0|2|9394|fail
+年轻|niánqīng|young|0|2|9394|success
+年轻|niánqīng|young|0|2|9394|success
+凉快|liángkuài|cool|0|2|9395|success
+塑胶|sùjiāo|plastic|1|0|9396|success
+脸书|liǎnshū|facebook|0|2|9397|success
+培根|péigēn|bacon|0|2|9398|success
+时候|shíhou|when|2|0|9399|success
+觉得|juédé|think feel|2|1|9400|success
+牛肉干|niúròugàn|beef jerky|1|2|9401|success
+忧虑|yōulǜ|worry|0|1|9402|success
+有的|yǒude|some|2|1|9403|success
+年轻|niánqīng|young|0|2|9404|success
+红色|hóngsè|red|0|1|9405|success
+周一|zhōuyī|monday|2|1|9406|fail
+周一|zhōuyī|monday|2|1|9406|success
+周一|zhōuyī|monday|2|1|9406|success
+汉字|hànzì|chinese character|0|1|9407|success
+消防局|xiāofángjú|fire station|1|2|9408|success
+这里|zhèlǐ|here|0|1|9409|fail
+里面|lǐmiàn|inside|1|0|9409|fail
+这里|zhèlǐ|here|0|1|9409|success
+这里|zhèlǐ|here|0|1|9409|success
+里面|lǐmiàn|inside|1|0|9410|fail
+里面|lǐmiàn|inside|1|0|9410|success
+里面|lǐmiàn|inside|1|0|9410|success
+好久不见|hǎojiǔbùjiàn|long time no see|2|1|9411|success
+凉快|liángkuài|cool|0|2|9412|success
+塑胶|sùjiāo|plastic|1|0|9413|fail
+塑胶|sùjiāo|plastic|1|0|9413|success
+塑胶|sùjiāo|plastic|1|0|9413|success
+脸书|liǎnshū|facebook|0|2|9414|success
+啤酒|píjiǔ|beer|0|1|9415|success
+周一|zhōuyī|monday|2|1|9416|fail
+周一|zhōuyī|monday|2|1|9416|success
+周一|zhōuyī|monday|2|1|9416|success
+别的|biéde|others|0|2|9417|success
+小时|xiǎoshí|hour duration|2|0|9418|success
+这里|zhèlǐ|here|0|1|9419|success
+里面|lǐmiàn|inside|1|0|9420|success
+年轻|niánqīng|young|0|2|9421|success
+酒店|jiǔdiàn|hotel|1|2|9422|success
+塑胶|sùjiāo|plastic|1|0|9423|success
+因为|yīnwèi|because|0|2|9424|fail
+因为|yīnwèi|because|0|2|9424|success
+因为|yīnwèi|because|0|2|9424|success
+公共汽车|gōnggòngqìchē|bus|2|0|9425|success
+周一|zhōuyī|monday|2|1|9426|success
+豆浆|dòujiāng|soy milk|1|2|9427|success
+时候|shíhou|when|2|0|9428|success
+有人|yǒurén|some people|0|2|9429|fail
+有人|yǒurén|some people|0|2|9429|fail
+有人|yǒurén|some people|0|2|9429|success
+里面|lǐmiàn|inside|1|0|9430|fail
+里面|lǐmiàn|inside|1|0|9430|success
+里面|lǐmiàn|inside|1|0|9430|success
+再|zài|again|0|1|9431|success
+一般|yībān|general|1|2|9432|fail
+一般|yībān|general|1|2|9432|success
+一般|yībān|general|1|2|9432|success
+塑胶|sùjiāo|plastic|1|0|9433|success
+因为|yīnwèi|because|0|2|9434|success
+份|fèn|portion|1|2|9435|fail
+份|fèn|portion|1|2|9435|success
+份|fèn|portion|1|2|9435|success
+周一|zhōuyī|monday|2|1|9436|success
+这里|zhèlǐ|here|0|1|9437|success
+銀行|yínháng|bank|0|2|9438|success
+有人|yǒurén|some people|0|2|9439|success
+里面|lǐmiàn|inside|1|0|9440|success
+凉快|liángkuài|cool|0|2|9441|success
+一般|yībān|general|1|2|9442|success
+脸书|liǎnshū|facebook|0|2|9443|success
+忧虑|yōulǜ|worry|0|2|9444|success
+扁豆|biǎndòu|lentil|0|1|9445|success
+橙汁|chéngzhī|orange juice|2|1|9446|fail
+橙汁|chéngzhī|orange juice|2|1|9446|success
+橙汁|chéngzhī|orange juice|2|1|9446|success
+肉|ròu|meat|0|1|9447|success
+左边|zuǒbiān|left|0|1|9448|success
+有人|yǒurén|some people|0|2|9449|fail
+有人|yǒurén|some people|0|2|9449|success
+有人|yǒurén|some people|0|2|9449|success
+里面|lǐmiàn|inside|1|0|9450|success
+因为|yīnwèi|because|0|2|9451|success
+份|fèn|portion|1|2|9452|fail
+份|fèn|portion|1|2|9452|success
+份|fèn|portion|1|2|9452|success
+塑胶|sùjiāo|plastic|1|0|9453|success
+周一|zhōuyī|monday|2|1|9454|success
+年轻|niánqīng|young|0|2|9455|success
+橙汁|chéngzhī|orange juice|2|1|9456|success
+酒店|jiǔdiàn|hotel|0|2|9457|success
+海|hǎi|ocean|1|2|9458|success
+有人|yǒurén|some people|0|2|9459|success
+一般|yībān|general|1|2|9460|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|9461|fail
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|9461|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|9461|success
+雪|xuě|snow|2|0|9462|success
+脸书|liǎnshū|facebook|2|1|9463|success
+富人|fùrén|rich person|0|1|9464|fail
+富人|fùrén|rich person|0|1|9464|success
+富人|fùrén|rich person|0|1|9464|success
+百合|bǎihé|lily|0|1|9465|success
+这里|zhèlǐ|here|0|1|9466|success
+里面|lǐmiàn|inside|1|0|9467|success
+绿豆汤|lǜdòutāng|mung bean soup|1|0|9468|success
+有人|yǒurén|some people|0|2|9469|success
+份|fèn|portion|1|2|9470|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|9471|success
+绿灯|lǜdēng|green|2|1|9472|fail
+绿灯|lǜdēng|green|2|1|9472|fail
+绿灯|lǜdēng|green|2|1|9472|success
+富人|fùrén|rich person|0|1|9474|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|0|9475|success
+陕西|shǎnxī|shaanxi|0|1|9476|fail
+陕西|shǎnxī|shaanxi|0|1|9476|success
+陕西|shǎnxī|shaanxi|0|1|9476|success
+这里|zhèlǐ|here|1|0|9477|success
+加|jiā|add something|1|0|9478|success
+修车|xiūchē|repair car|0|2|9479|success
+因为|yīnwèi|because|0|2|9480|success
+份|fèn|portion|2|1|9481|success
+绿灯|lǜdēng|green light|2|1|9482|success
+塑胶|sùjiāo|plastic|1|0|9483|success
+周一|zhōuyī|monday|2|1|9484|success
+海|hǎi|ocean|0|2|9485|success
+陕西|shǎnxī|shaanxi|0|1|9486|success
+有人|yǒurén|some people|0|2|9487|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|9488|success
+一般|yībān|general|1|2|9489|success
+还是|háishì|or|2|1|9490|fail
+还是|háishì|or|2|1|9490|success
+还是|háishì|or|2|1|9490|success
+富人|fùrén|rich person|0|1|9491|success
+绿灯|lǜdēng|green light|2|1|9492|success
+一个人|yīgèrén|alone|1|0|9493|success
+斯洛伐克|sīluòfákè|slovakia|1|2|9494|fail
+斯洛伐克|sīluòfákè|slovakia|1|2|9494|success
+斯洛伐克|sīluòfákè|slovakia|1|2|9494|success
+绿豆汤|lǜdòutāng|mung bean soup|2|0|9495|success
+里面|lǐmiàn|inside|1|0|9496|success
+疼不疼|téngbùténg|does it hurt|1|0|9497|success
+风|fēng|wind|2|0|9498|success
+份|fèn|portion|1|2|9499|success
+还是|háishì|or|2|1|9500|success
+红茶|hóngchá|black tea|2|0|9501|success
+绿灯|lǜdēng|green light|2|1|9502|success
+陕西|shǎnxī|shaanxi|0|1|9503|success
+斯洛伐克|sīluòfákè|slovakia|1|2|9504|success
+橙汁|chéngzhī|orange juice|2|1|9505|success
+脸书|liǎnshū|facebook|0|1|9506|fail
+脸书|liǎnshū|facebook|0|1|9506|success
+脸书|liǎnshū|facebook|0|1|9506|success
+啤酒|píjiǔ|beer|1|0|9507|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|0|1|9508|success
+卖|mài|sell|1|0|9509|success
+酒店|jiǔdiàn|hotel|2|0|9510|success
+坐地铁|zuòdìtiě|take subway|2|1|9511|success
+像|xiàng|resemble|1|2|9512|success
+西红柿|xīhóngshì|tomato|2|0|9513|success
+老虎|lǎohǔ|tiger|1|0|9514|fail
+老虎|lǎohǔ|tiger|1|0|9514|success
+老虎|lǎohǔ|tiger|1|0|9514|success
+白葡萄酒|báipútáojiǔ|white wine|2|0|9515|success
+脸书|liǎnshū|facebook|0|1|9516|success
+还是|háishì|or|2|1|9517|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|9518|success
+绿灯|lǜdēng|green light|2|1|9519|success
+富人|fùrén|rich person|0|1|9520|success
+斯洛伐克|sīluòfákè|slovakia|1|2|9521|success
+有人|yǒurén|some people|0|2|9522|success
+希望|xīwàng|wish hope|0|2|9523|fail
+希望|xīwàng|wish hope|0|2|9523|success
+希望|xīwàng|wish hope|0|2|9523|success
+老虎|lǎohǔ|tiger|1|0|9524|success
+竹笋|zhúsǔn|bamboo shoot|2|1|9525|fail
+竹笋|zhúsǔn|bamboo shoot|2|1|9525|success
+竹笋|zhúsǔn|bamboo shoot|2|1|9525|success
+有一点|yǒuyīdiǎn|a bit|0|1|9526|success
+份|fèn|portion|2|0|9527|success
+当然|dāngrán|of course|2|0|9528|fail
+当然|dāngrán|of course|2|0|9528|success
+当然|dāngrán|of course|2|0|9528|success
+总是|zǒngshì|always|0|1|9529|success
+棕色|zōngsè|brown|1|2|9530|success
+好久不见|hǎojiǔbùjiàn|long time no see|0|1|9531|success
+陕西|shǎnxī|shaanxi|0|1|9532|success
+希望|xīwàng|wish hope|0|2|9533|fail
+希望|xīwàng|wish hope|0|2|9533|success
+希望|xīwàng|wish hope|0|2|9533|success
+脸书|liǎnshū|facebook|0|1|9534|success
+竹笋|zhúsǔn|bamboo shoot|2|1|9535|fail
+竹笋|zhúsǔn|bamboo shoot|2|1|9535|success
+竹笋|zhúsǔn|bamboo shoot|2|1|9535|success
+因为|yīnwèi|because|2|0|9536|success
+炖肉|dùnròu|stew|1|0|9537|success
+当然|dāngrán|of course|2|0|9538|success
+塑胶|sùjiāo|plastic|2|0|9539|success
+脸书|liǎnshū|facebook|1|0|9540|fail
+脸书|liǎnshū|facebook|1|0|9540|success
+脸书|liǎnshū|facebook|1|0|9540|success
+老虎|lǎohǔ|tiger|1|0|9541|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|2|0|9542|success
+希望|xīwàng|wish hope|0|2|9543|fail
+希望|xīwàng|wish hope|0|2|9543|success
+希望|xīwàng|wish hope|0|2|9543|success
+热可可|rèkěkě|hot cocoa|1|0|9544|success
+竹笋|zhúsǔn|bamboo shoot|2|1|9545|success
+还是|háishì|or|2|1|9546|success
+重|zhòng|heavy|1|2|9547|success
+绿灯|lǜdēng|green light|2|1|9548|success
+可以啊|kěyǐa|sure|2|0|9549|fail
+可以啊|kěyǐa|sure|2|0|9549|success
+可以啊|kěyǐa|sure|2|0|9549|success
+脸书|liǎnshū|facebook|1|0|9550|success
+斯洛伐克|sīluòfákè|slovakia|1|2|9551|success
+洋葱|yángcōng|onion|1|2|9552|fail
+洋葱|yángcōng|onion|1|2|9552|success
+洋葱|yángcōng|onion|1|2|9552|success
+希望|xīwàng|wish hope|0|2|9553|success
+火腿|huǒtuǐ|sausage|0|1|9554|fail
+火腿|huǒtuǐ|sausage|0|1|9554|success
+火腿|huǒtuǐ|sausage|0|1|9554|success
+竹笋|zhúsǔn|bamboo shoot|2|1|9555|success
+当然|dāngrán|of course|2|0|9556|success
+累|lèi|tired|2|0|9557|success
+麦片|màipiàn|cereal|1|0|9558|success
+可以啊|kěyǐa|sure|2|0|9559|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|1|9560|success
+火|huǒ|fire|0|1|9561|success
+洋葱|yángcōng|onion|1|2|9562|success
+希望|xīwàng|wish hope|0|2|9563|success
+火腿|huǒtuǐ|sausage|0|1|9564|success
+脸书|liǎnshū|facebook|0|1|9565|success
+十几个|shíjǐgè|ten plus|0|1|9566|success
+脸书|liǎnshū|facebook|1|0|9567|success
+中间|zhōngjiān|between|1|2|9568|fail
+中间|zhōngjiān|between|1|2|9568|success
+中间|zhōngjiān|between|1|2|9568|success
+山|shān|hill|2|0|9569|success
+老虎|lǎohǔ|tiger|1|0|9570|success
+燕麦粥|yànmàizhōu|oatmeal|2|0|9571|success
+竹笋|zhúsǔn|bamboo shoot|2|1|9572|success
+培根|péigēn|bacon|0|1|9573|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|2|0|9574|fail
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|2|0|9574|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|2|0|9574|success
+升|shēng|liter|2|0|9575|success
+可以啊|kěyǐa|sure|2|0|9576|success
+盖勒赫山|gàilēihèshān|gellért hill|2|1|9577|fail
+盖勒赫山|gàilēihèshān|gellért hill|2|1|9577|success
+盖勒赫山|gàilēihèshān|gellért hill|2|1|9577|success
+中间|zhōngjiān|between|1|2|9578|fail
+中间|zhōngjiān|between|1|2|9578|success
+中间|zhōngjiān|between|1|2|9578|success
+洋葱|yángcōng|onion|1|2|9579|success
+希望|xīwàng|wish hope|0|2|9580|success
+火腿|huǒtuǐ|sausage|0|1|9581|success
+鱼丸|yúwán|fish ball|1|2|9582|fail
+鱼丸|yúwán|fish ball|1|2|9582|success
+鱼丸|yúwán|fish ball|1|2|9582|success
+醋|cù|vinegar|1|0|9583|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|2|0|9584|success
+当然|dāngrán|of course|2|0|9585|success
+杜丽|dùlì|duli name|0|1|9586|success
+盖勒赫山|gàilēihèshān|gellért hill|2|1|9587|success
+中间|zhōngjiān|between|1|2|9588|success
+有的时候|yǒudeshíhòu|sometimes|1|0|9589|success
+最|zuì|the most|0|2|9590|fail
+最|zuì|the most|0|2|9590|success
+最|zuì|the most|0|2|9590|success
+交响曲|jiāoxiǎngqū|symphony|2|0|9591|success
+鱼丸|yúwán|fish ball|1|2|9592|success
+每天|měitiān|every day|0|2|9593|success
+奶酪|nǎilào|cheese|2|0|9594|success
+已经|yǐjīng|already|1|0|9595|success
+脸书|liǎnshū|facebook|1|0|9596|success
+看看|kànkàn|take a look|1|0|9597|success
+中间|zhōngjiān|between|1|2|9598|success
+橙汁|chéngzhī|orange juice|1|0|9599|success
+动物园|dòngwùyuán|zoo|1|2|9600|fail
+动物园|dòngwùyuán|zoo|1|2|9600|success
+动物园|dòngwùyuán|zoo|1|2|9600|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|2|0|9601|success
+竹笋|zhúsǔn|bamboo shoot|2|1|9602|success
+有一点|yǒuyīdiǎn|a bit|1|0|9603|success
+盖勒赫山|gàilēihèshān|gellért hill|2|1|9604|success
+可以啊|kěyǐa|sure|2|0|9605|success
+已经|yǐjīng|already|0|1|9606|success
+最|zuì|the most|0|2|9607|success
+洋葱|yángcōng|onion|1|2|9608|success
+鱼丸|yúwán|fish ball|1|2|9609|success
+动物园|dòngwùyuán|zoo|1|2|9610|success
+火腿|huǒtuǐ|sausage|0|1|9611|success
+希望|xīwàng|wish hope|0|2|9612|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|2|9613|success
+猪肉|zhūròu|pork|0|1|9614|success
+中间|zhōngjiān|between|1|2|9615|success
+节|jié|m.w.class|2|1|9616|success
+早饭|zǎofàn|breakfast|0|2|9617|success
+萨拉米|sàlāmǐ|salami|2|1|9618|success
+便宜|piányi|cheap|1|0|9619|fail
+便宜|piányi|cheap|1|0|9619|fail
+便宜|piányi|cheap|1|0|9619|success
+当然|dāngrán|of course|0|2|9620|success
+鸡蛋|jīdàn|egg|1|0|9621|success
+近|jìn|near|2|0|9622|success
+送礼物|sònglǐwù|give gift|2|1|9623|fail
+送礼物|sònglǐwù|give gift|2|1|9623|success
+送礼物|sònglǐwù|give gift|2|1|9623|success
+脸书|liǎnshū|facebook|2|0|9624|success
+花生|huāshēng|peanut|0|2|9625|success
+加油|jiāyóu|come on|1|2|9626|success
+动物园|dòngwùyuán|zoo|1|2|9627|success
+有的时候|yǒudeshíhòu|sometimes|2|1|9628|success
+便宜|piányi|cheap|1|0|9629|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|2|0|9631|success
+左立|zuǒlì|zuoli name|0|2|9632|success
+送礼物|sònglǐwù|give gift|2|1|9633|success
+盖勒赫山|gàilēihèshān|gellért hill|2|1|9634|success
+送礼物|sònglǐwù|give gift|2|0|9635|fail
+送礼物|sònglǐwù|give gift|2|0|9635|fail
+送礼物|sònglǐwù|give gift|2|0|9635|success
+最|zuì|the most|0|2|9636|success
+凉快|liángkuài|cool|1|2|9637|success
+鱼丸|yúwán|fish ball|1|2|9638|success
+便宜|piányi|cheap|1|0|9639|success
+橙汁|chéngzhī|orange juice|0|2|9640|success
+坐地铁|zuòdìtiě|take subway|1|2|9641|success
+饺子|jiǎozi|dumpling|1|2|9642|success
+区|qū|district|1|0|9643|success
+中间|zhōngjiān|between|1|2|9644|success
+送礼物|sònglǐwù|give gift|2|0|9645|success
