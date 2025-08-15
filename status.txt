@@ -12907,3 +12907,177 @@
 区|qū|district|1|0|9643|success
 中间|zhōngjiān|between|1|2|9644|success
 送礼物|sònglǐwù|give gift|2|0|9645|success
+课|kè|class|0|1|9647|fail
+课|kè|class|0|1|9647|success
+课|kè|class|0|1|9647|success
+电视|diànshì|tv|2|0|9648|success
+便宜|piányi|cheap|1|0|9649|success
+送礼物|sònglǐwù|give gift|2|1|9650|success
+一般|yībān|normally|1|0|9651|success
+蘑菇|mógū|mushroom|1|2|9652|success
+粥|zhōu|porridge|0|1|9653|success
+热可可|rèkěkě|hot cocoa|0|2|9654|success
+送礼物|sònglǐwù|give gift|2|0|9655|success
+动物园|dòngwùyuán|zoo|1|2|9656|fail
+动物园|dòngwùyuán|zoo|1|2|9656|success
+动物园|dòngwùyuán|zoo|1|2|9656|success
+告诉|gàosù|tell|0|1|9657|fail
+告诉|gàosù|tell|0|1|9657|success
+告诉|gàosù|tell|0|1|9657|success
+就|jiù|exactly|1|2|9658|fail
+就|jiù|exactly|1|2|9658|success
+就|jiù|exactly|1|2|9658|success
+有的时候|yǒudeshíhòu|sometimes|0|1|9659|fail
+有的时候|yǒudeshíhòu|sometimes|0|1|9659|success
+有的时候|yǒudeshíhòu|sometimes|0|1|9659|success
+最|zuì|the most|1|0|9660|success
+可乐|kělè|cola|2|0|9661|success
+杏子|xìngzi|apricot|1|0|9662|success
+公交车|gōngjiāochē|bus|2|0|9663|success
+课|kè|class|0|1|9664|success
+送礼物|sònglǐwù|give gift|2|0|9665|success
+动物园|dòngwùyuán|zoo|1|2|9666|success
+告诉|gàosù|tell|0|1|9667|success
+便宜|piányi|cheap|1|0|9668|success
+有的时候|yǒudeshíhòu|sometimes|0|1|9669|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|9670|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|9670|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|9670|success
+重|zhòng|heavy|1|0|9671|success
+休息|xiūxī|rest|2|0|9672|success
+热可可|rèkěkě|hot cocoa|0|1|9673|success
+担心|dānxīn|worry spoken|2|1|9674|fail
+担心|dānxīn|worry spoken|2|1|9674|success
+担心|dānxīn|worry spoken|2|1|9674|success
+送礼物|sònglǐwù|give gift|2|0|9675|success
+就|jiù|exactly|1|2|9676|fail
+就|jiù|exactly|1|2|9676|success
+就|jiù|exactly|1|2|9676|success
+苹果汁|píngguǒzhī|apple juice|1|0|9677|success
+无花果|wúhuāguǒ|fig|1|0|9678|success
+送礼物|sònglǐwù|give gift|2|1|9679|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|9680|success
+早饭|zǎofàn|breakfast|2|0|9681|fail
+早饭|zǎofàn|breakfast|2|0|9681|success
+早饭|zǎofàn|breakfast|2|0|9681|success
+还是|háishì|or|1|0|9682|success
+动物园|dòngwùyuán|zoo|1|2|9683|success
+担心|dānxīn|worry spoken|2|1|9684|success
+送礼物|sònglǐwù|give gift|2|0|9685|success
+告诉|gàosù|tell|0|1|9686|success
+有的时候|yǒudeshíhòu|sometimes|0|1|9687|success
+黑色|hēisè|black|0|1|9688|success
+每天|měitiān|every day|1|0|9689|success
+大蒜|dàsuàn|garlic|0|1|9690|success
+早饭|zǎofàn|breakfast|2|0|9691|success
+干豆|gàndòu|dried bean|2|0|9692|fail
+干豆|gàndòu|dried bean|2|0|9692|success
+干豆|gàndòu|dried bean|2|0|9692|success
+就|jiù|exactly|1|2|9693|success
+课|kè|class|0|1|9694|success
+送礼物|sònglǐwù|give gift|2|0|9695|success
+有人|yǒurén|some people|2|0|9696|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|9697|success
+便宜|piányi|cheap|1|0|9698|success
+左边|zuǒbiān|left|1|2|9699|success
+生菜|shēngcài|lettuce|1|2|9700|fail
+生菜|shēngcài|lettuce|1|2|9700|success
+生菜|shēngcài|lettuce|1|2|9700|success
+担心|dānxīn|worry spoken|2|1|9701|success
+干豆|gàndòu|dried bean|2|0|9702|success
+别的|biéde|others|2|0|9703|success
+热可可|rèkěkě|hot cocoa|2|1|9704|fail
+热可可|rèkěkě|hot cocoa|2|1|9704|success
+热可可|rèkěkě|hot cocoa|2|1|9704|success
+所以|suǒyǐ|so|2|0|9705|fail
+所以|suǒyǐ|so|2|0|9705|success
+所以|suǒyǐ|so|2|0|9705|success
+橙汁|chéngzhī|orange juice|1|2|9706|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9707|fail
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9707|fail
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9707|success
+早饭|zǎofàn|breakfast|2|0|9708|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|2|0|9709|success
+生菜|shēngcài|lettuce|1|2|9710|success
+疼不疼|téngbùténg|does it hurt|2|1|9711|success
+送礼物|sònglǐwù|give gift|2|0|9712|success
+动物园|dòngwùyuán|zoo|1|2|9713|success
+热可可|rèkěkě|hot cocoa|2|1|9714|success
+所以|suǒyǐ|so|2|0|9715|success
+有的时候|yǒudeshíhòu|sometimes|0|1|9716|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9717|success
+告诉|gàosù|tell|0|1|9718|success
+干豆|gàndòu|dried bean|2|0|9719|success
+陶诗|táoshī|tao shi|1|2|9720|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9721|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9721|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9721|success
+就|jiù|exactly|1|2|9722|success
+海|hǎi|ocean|2|0|9723|success
+老虎|lǎohǔ|tiger|2|0|9724|success
+火|huǒ|fire|0|2|9725|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|9726|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9727|success
+生菜|shēngcài|lettuce|1|2|9728|success
+杜丽|dùlì|duli name|1|0|9729|success
+担心|dānxīn|worry spoken|2|1|9730|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9731|success
+所以|suǒyǐ|so|2|0|9732|success
+热可可|rèkěkě|hot cocoa|2|1|9733|success
+德国|déguó|germany|0|1|9734|fail
+德国|déguó|germany|0|1|9734|success
+德国|déguó|germany|0|1|9734|success
+像|xiàng|resemble|1|0|9735|fail
+像|xiàng|resemble|1|0|9735|success
+像|xiàng|resemble|1|0|9735|success
+工程师|gōngchéngshī|engineer|0|1|9736|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9737|success
+早饭|zǎofàn|breakfast|2|0|9738|success
+已经|yǐjīng|already|1|2|9739|fail
+已经|yǐjīng|already|1|2|9739|success
+已经|yǐjīng|already|1|2|9739|success
+公交车|gōngjiāochē|bus|0|2|9740|success
+办公室|bàngōngshì|office|1|2|9741|success
+腿|tuǐ|leg|2|0|9742|success
+大蒜|dàsuàn|garlic|2|1|9743|fail
+大蒜|dàsuàn|garlic|2|1|9743|success
+大蒜|dàsuàn|garlic|2|1|9743|success
+德国|déguó|germany|0|1|9744|success
+桥|qiáo|bridge|2|1|9745|success
+日本|rìběn|japan|0|1|9746|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9747|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9748|success
+已经|yǐjīng|already|1|2|9749|success
+干豆|gàndòu|dried bean|2|0|9750|success
+送礼物|sònglǐwù|give gift|2|0|9751|success
+像|xiàng|resemble|1|0|9752|success
+大蒜|dàsuàn|garlic|2|1|9753|success
+洋葱|yángcōng|onion|2|1|9754|success
+卖|mài|sell|0|2|9755|success
+贵|guì|expensive|2|0|9756|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9757|success
+生菜|shēngcài|lettuce|1|2|9758|success
+茄子|jiāzi|eggplant|0|2|9759|fail
+茄子|jiāzi|eggplant|0|2|9759|success
+茄子|jiāzi|eggplant|0|2|9759|success
+干豆|gàndòu|dried bean|0|1|9760|success
+德国|déguó|germany|0|1|9761|success
+所以|suǒyǐ|so|2|0|9762|success
+热可可|rèkěkě|hot cocoa|2|1|9763|success
+可以|kěyǐ|possible|1|2|9764|success
+电子邮件|diànziyóujiàn|email|1|2|9765|fail
+电子邮件|diànziyóujiàn|email|1|2|9765|success
+电子邮件|diànziyóujiàn|email|1|2|9765|success
+已经|yǐjīng|already|1|2|9766|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9767|success
+国王|guówáng|king|1|0|9768|fail
+国王|guówáng|king|1|0|9768|success
+国王|guówáng|king|1|0|9768|success
+茄子|jiāzi|eggplant|0|2|9769|fail
+茄子|jiāzi|eggplant|0|2|9769|success
+茄子|jiāzi|eggplant|0|2|9769|success
+大蒜|dàsuàn|garlic|2|1|9770|success
+香肠|xiāngcháng|sausage|1|0|9771|success
+上个周末|shànggèzhōumò|last weekend|2|0|9772|fail
+上个周末|shànggèzhōumò|last weekend|2|0|9772|success
+上个周末|shànggèzhōumò|last weekend|2|0|9772|success
