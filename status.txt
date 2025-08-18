@@ -13081,3 +13081,320 @@
 上个周末|shànggèzhōumò|last weekend|2|0|9772|fail
 上个周末|shànggèzhōumò|last weekend|2|0|9772|success
 上个周末|shànggèzhōumò|last weekend|2|0|9772|success
+狮子|shīzi|lion|1|0|9774|success
+电子邮件|diànziyóujiàn|email|1|2|9775|fail
+电子邮件|diànziyóujiàn|email|1|2|9775|success
+电子邮件|diànziyóujiàn|email|1|2|9775|success
+生活|shēnghuó|life|2|1|9776|fail
+生活|shēnghuó|life|2|1|9776|success
+生活|shēnghuó|life|2|1|9776|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9777|success
+国王|guówáng|king|1|0|9778|success
+茄子|jiāzi|eggplant|0|2|9779|fail
+茄子|jiāzi|eggplant|0|2|9779|success
+茄子|jiāzi|eggplant|0|2|9779|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9780|fail
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9780|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9780|success
+像|xiàng|resemble|1|0|9781|success
+上个周末|shànggèzhōumò|last weekend|2|0|9782|success
+有点儿|yǒudiǎner|a bit|2|0|9783|success
+白菜|báicài|chinese cabbage|0|1|9784|fail
+白菜|báicài|chinese cabbage|0|1|9784|success
+白菜|báicài|chinese cabbage|0|1|9784|success
+电子邮件|diànziyóujiàn|email|1|2|9785|success
+生活|shēnghuó|life|2|1|9786|success
+中间|zhōngjiān|between|1|0|9787|fail
+中间|zhōngjiān|between|1|0|9787|success
+中间|zhōngjiān|between|1|0|9787|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|0|1|9788|success
+茄子|jiāzi|eggplant|0|2|9789|fail
+茄子|jiāzi|eggplant|0|2|9789|success
+茄子|jiāzi|eggplant|0|2|9789|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9790|success
+德国|déguó|germany|0|1|9791|fail
+德国|déguó|germany|0|1|9791|success
+德国|déguó|germany|0|1|9791|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|0|9792|fail
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|0|9792|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|0|9792|success
+船|chuán|ship|2|1|9793|fail
+船|chuán|ship|2|1|9793|success
+船|chuán|ship|2|1|9793|success
+白菜|báicài|chinese cabbage|0|1|9794|success
+电子邮件|diànziyóujiàn|email|1|2|9795|success
+国王|guówáng|king|1|0|9796|success
+中间|zhōngjiān|between|1|0|9797|fail
+中间|zhōngjiān|between|1|0|9797|success
+中间|zhōngjiān|between|1|0|9797|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9798|success
+茄子|jiāzi|eggplant|0|2|9799|fail
+茄子|jiāzi|eggplant|0|2|9799|success
+茄子|jiāzi|eggplant|0|2|9799|success
+上个周末|shànggèzhōumò|last weekend|2|0|9800|success
+德国|déguó|germany|0|1|9801|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|0|9802|success
+生活|shēnghuó|life|2|1|9803|success
+已经|yǐjīng|already|1|2|9804|fail
+已经|yǐjīng|already|1|2|9804|success
+已经|yǐjīng|already|1|2|9804|success
+电子邮件|diànziyóujiàn|email|1|2|9805|success
+大蒜|dàsuàn|garlic|2|1|9806|success
+中间|zhōngjiān|between|1|0|9807|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9808|success
+茄子|jiāzi|eggplant|0|2|9809|success
+船|chuán|ship|2|1|9810|success
+白菜|báicài|chinese cabbage|0|1|9811|success
+常常|chángcháng|often|2|1|9812|success
+一般|yībān|normally|0|1|9813|success
+已经|yǐjīng|already|1|2|9814|success
+电子邮件|diànziyóujiàn|email|1|2|9815|success
+油条|yóutiáo|deep fried dough|0|1|9816|fail
+油条|yóutiáo|deep fried dough|0|1|9816|success
+油条|yóutiáo|deep fried dough|0|1|9816|success
+中间|zhōngjiān|between|1|0|9817|success
+德国|déguó|germany|0|1|9818|success
+茄子|jiāzi|eggplant|0|2|9819|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|0|9820|success
+最近|zuìjìn|lately|0|2|9821|success
+上个周末|shànggèzhōumò|last weekend|1|0|9822|success
+成龙|chénglóng|jackie chan|1|0|9823|fail
+成龙|chénglóng|jackie chan|1|0|9823|success
+成龙|chénglóng|jackie chan|1|0|9823|success
+已经|yǐjīng|already|1|2|9824|success
+国王|guówáng|king|1|0|9825|success
+油条|yóutiáo|deep fried dough|0|1|9826|fail
+油条|yóutiáo|deep fried dough|0|1|9826|success
+油条|yóutiáo|deep fried dough|0|1|9826|success
+名单|míngdān|name list|2|0|9827|success
+辣|là|spicy|2|0|9828|fail
+辣|là|spicy|2|0|9828|success
+辣|là|spicy|2|0|9828|success
+上个周末|shànggèzhōumò|last weekend|2|0|9829|success
+粉色|fěnsè|pink|2|0|9830|fail
+粉色|fěnsè|pink|2|0|9830|success
+粉色|fěnsè|pink|2|0|9830|success
+电子邮件|diànziyóujiàn|email|1|2|9832|success
+成龙|chénglóng|jackie chan|1|0|9833|success
+中间|zhōngjiān|between|1|0|9834|success
+生活|shēnghuó|life|2|1|9835|success
+油条|yóutiáo|deep fried dough|0|1|9836|fail
+油条|yóutiáo|deep fried dough|0|1|9836|success
+油条|yóutiáo|deep fried dough|0|1|9836|success
+茄子|jiāzi|eggplant|0|2|9837|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|9838|success
+船|chuán|ship|2|1|9839|success
+粉色|fěnsè|pink|2|0|9840|success
+白菜|báicài|chinese cabbage|0|1|9841|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|0|9842|success
+胳膊|gēbó|arm|0|1|9843|fail
+胳膊|gēbó|arm|0|1|9843|success
+胳膊|gēbó|arm|0|1|9843|success
+湿豆|shīdòu|white bean|2|1|9844|fail
+湿豆|shīdòu|white bean|2|1|9844|success
+湿豆|shīdòu|white bean|2|1|9844|success
+辣|là|spicy|2|0|9845|success
+油条|yóutiáo|deep fried dough|0|1|9846|success
+德国|déguó|germany|0|1|9847|success
+点|diǎn|hour|0|2|9848|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|2|0|9849|success
+成龙|chénglóng|jackie chan|1|0|9850|success
+成龙|chénglóng|jackie chan|0|1|9851|success
+时间|shíjiān|time|0|2|9852|fail
+时间|shíjiān|time|0|2|9852|success
+时间|shíjiān|time|0|2|9852|success
+胳膊|gēbó|arm|0|1|9853|success
+湿豆|shīdòu|white bean|2|1|9854|success
+已经|yǐjīng|already|1|2|9855|fail
+已经|yǐjīng|already|1|2|9855|success
+已经|yǐjīng|already|1|2|9855|success
+油条|yóutiáo|deep fried dough|0|1|9856|success
+粉色|fěnsè|pink|2|0|9857|success
+再|zài|again|2|1|9858|success
+时候|shíhou|when|2|1|9859|fail
+时间|shíjiān|time|1|2|9859|fail
+时候|shíhou|when|2|1|9859|success
+时候|shíhou|when|2|1|9859|success
+时间|shíjiān|time|1|2|9860|success
+电子邮件|diànziyóujiàn|email|1|2|9861|success
+时间|shíjiān|time|0|2|9862|success
+中间|zhōngjiān|between|1|0|9863|success
+离|lí|away from|0|1|9864|success
+已经|yǐjīng|already|1|2|9865|success
+茄子|jiāzi|eggplant|0|2|9866|success
+新西兰|xīnxīlán|new zealand|0|1|9867|success
+希望|xīwàng|wish hope|2|1|9868|fail
+礼物|lǐwù|gift|1|2|9868|fail
+希望|xīwàng|wish hope|2|1|9868|success
+希望|xīwàng|wish hope|2|1|9868|success
+礼物|lǐwù|gift|1|2|9869|success
+时间|shíjiān|time|1|2|9870|success
+时候|shíhou|when|2|1|9871|success
+胳膊|gēbó|arm|0|1|9872|success
+油条|yóutiáo|deep fried dough|0|1|9873|success
+湿豆|shīdòu|white bean|2|1|9874|success
+辣|là|spicy|2|0|9875|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9876|fail
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9876|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9876|success
+重要|zhòngyào|important|2|1|9877|success
+希望|xīwàng|wish hope|2|1|9878|success
+礼物|lǐwù|gift|1|2|9879|success
+时间|shíjiān|time|0|2|9880|success
+成龙|chénglóng|jackie chan|1|0|9881|success
+已经|yǐjīng|already|1|2|9882|success
+塑胶|sùjiāo|plastic|1|2|9883|fail
+告诉|gàosù|tell|2|1|9883|fail
+塑胶|sùjiāo|plastic|1|2|9883|success
+塑胶|sùjiāo|plastic|1|2|9883|success
+告诉|gàosù|tell|2|1|9884|success
+交响曲|jiāoxiǎngqū|symphony|1|0|9885|fail
+交响曲|jiāoxiǎngqū|symphony|1|0|9885|success
+交响曲|jiāoxiǎngqū|symphony|1|0|9885|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9886|success
+时间|shíjiān|time|1|2|9887|success
+时候|shíhou|when|2|1|9888|success
+粉色|fěnsè|pink|2|0|9889|success
+加油|jiāyóu|come on|1|0|9890|success
+茄子|jiāzi|eggplant|2|1|9891|success
+没意思|méiyìsi|boring|2|0|9892|success
+塑胶|sùjiāo|plastic|1|2|9893|fail
+塑胶|sùjiāo|plastic|1|2|9893|success
+塑胶|sùjiāo|plastic|1|2|9893|success
+告诉|gàosù|tell|2|1|9894|success
+交响曲|jiāoxiǎngqū|symphony|1|0|9895|success
+礼物|lǐwù|gift|1|2|9896|success
+希望|xīwàng|wish hope|2|1|9897|success
+警察局|jǐngchájú|police station|1|0|9898|success
+觉得|juédé|think feel|2|0|9899|success
+酸奶|suānnǎi|yogurt|0|2|9900|success
+胳膊|gēbó|arm|0|1|9901|success
+油条|yóutiáo|deep fried dough|0|1|9902|success
+塑胶|sùjiāo|plastic|1|2|9903|fail
+塑胶|sùjiāo|plastic|1|2|9903|success
+塑胶|sùjiāo|plastic|1|2|9903|success
+告诉|gàosù|tell|2|1|9904|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9905|fail
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9905|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9905|success
+湿豆|shīdòu|white bean|2|1|9906|success
+日本|rìběn|japan|2|1|9907|success
+粉色|fěnsè|pink|2|1|9908|success
+时间|shíjiān|time|0|2|9909|success
+有意思|yǒuyìsi|interesting|2|1|9910|success
+已经|yǐjīng|already|1|2|9911|success
+交响曲|jiāoxiǎngqū|symphony|1|0|9912|success
+塑胶|sùjiāo|plastic|1|2|9913|fail
+塑胶|sùjiāo|plastic|1|2|9913|success
+塑胶|sùjiāo|plastic|1|2|9913|success
+橙汁|chéngzhī|orange juice|0|1|9914|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9915|success
+时间|shíjiān|time|1|2|9916|success
+时候|shíhou|when|2|1|9917|success
+送礼物|sònglǐwù|give gift|0|1|9918|success
+意大利|yìdàlì|italy|2|0|9919|fail
+意大利|yìdàlì|italy|2|0|9919|success
+意大利|yìdàlì|italy|2|0|9919|success
+盐|yán|salt|2|0|9920|success
+告诉|gàosù|tell|2|1|9921|success
+歌剧院|gējùyuàn|opera|2|0|9922|fail
+歌剧院|gējùyuàn|opera|2|0|9922|fail
+歌剧院|gējùyuàn|opera|2|0|9922|success
+塑胶|sùjiāo|plastic|1|2|9923|success
+周一|zhōuyī|monday|2|0|9924|fail
+周一|zhōuyī|monday|2|0|9924|success
+周一|zhōuyī|monday|2|0|9924|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9925|success
+礼物|lǐwù|gift|1|2|9926|success
+希望|xīwàng|wish hope|2|1|9927|success
+好久不见|hǎojiǔbùjiàn|long time no see|2|0|9928|success
+意大利|yìdàlì|italy|2|0|9929|success
+生人|shēngrén|acquaintance|0|1|9930|fail
+有钱人|yǒuqiánrén|rich person|1|0|9930|fail
+富人|fùrén|rich person|1|0|9930|fail
+生人|shēngrén|acquaintance|0|1|9930|success
+生人|shēngrén|acquaintance|0|1|9930|success
+有钱人|yǒuqiánrén|rich person|1|0|9931|success
+歌剧院|gējùyuàn|opera|2|0|9932|success
+富人|fùrén|rich person|1|0|9933|success
+周一|zhōuyī|monday|2|0|9934|success
+塑胶|sùjiāo|plastic|1|2|9935|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9936|fail
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9936|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9936|success
+哪里|nǎlǐ|there|2|1|9937|success
+区|qū|district|1|2|9938|success
+红色|hóngsè|red|2|0|9939|success
+生人|shēngrén|acquaintance|0|1|9940|success
+有钱人|yǒuqiánrén|rich person|1|0|9941|success
+歌剧院|gējùyuàn|opera|2|0|9942|success
+富人|fùrén|rich person|1|0|9943|success
+交响曲|jiāoxiǎngqū|symphony|1|0|9944|success
+东西|dōngxī|thing|0|1|9945|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9946|success
+意大利|yìdàlì|italy|2|0|9947|success
+像|xiàng|resemble|0|1|9948|success
+腿|tuǐ|leg|0|2|9949|fail
+腿|tuǐ|leg|0|2|9949|success
+腿|tuǐ|leg|0|2|9949|success
+告诉|gàosù|tell|2|1|9950|success
+有钱人|yǒuqiánrén|rich person|1|0|9951|success
+歌剧院|gējùyuàn|opera|2|0|9952|success
+周一|zhōuyī|monday|2|0|9953|success
+塑胶|sùjiāo|plastic|1|2|9954|success
+酸奶|suānnǎi|yogurt|0|1|9955|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9956|success
+生人|shēngrén|acquaintance|0|1|9957|success
+油|yóu|oil|2|0|9958|success
+几十个|jǐshígè|multiple of ten|1|0|9959|success
+富人|fùrén|rich person|1|0|9960|success
+法国|fǎguó|france|0|2|9961|success
+歌剧院|gējùyuàn|opera|2|0|9962|success
+坐地铁|zuòdìtiě|take subway|0|2|9963|success
+东莞|dōngguǎn|dongguan|1|2|9964|fail
+东莞|dōngguǎn|dongguan|1|2|9964|success
+东莞|dōngguǎn|dongguan|1|2|9964|success
+机场|jīchǎng|airport|2|0|9965|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9966|success
+腿|tuǐ|leg|0|2|9967|success
+有钱人|yǒuqiánrén|rich person|1|0|9968|success
+牛角包|niújiǎobāo|croissant|1|2|9969|fail
+牛角包|niújiǎobāo|croissant|1|2|9969|success
+牛角包|niújiǎobāo|croissant|1|2|9969|success
+学校|xuéxiào|school|1|0|9970|fail
+学校|xuéxiào|school|1|0|9970|success
+学校|xuéxiào|school|1|0|9970|success
+燕麦粥|yànmàizhōu|oatmeal|0|1|9971|success
+歌剧院|gējùyuàn|opera|2|0|9972|success
+红灯|hóngdēng|red light|0|1|9973|success
+东莞|dōngguǎn|dongguan|1|2|9974|success
+三餐|sāncān|three meals|2|0|9975|success
+意大利|yìdàlì|italy|2|0|9976|success
+苹果汁|píngguǒzhī|apple juice|0|1|9977|success
+十几个|shíjǐgè|ten plus|2|0|9978|success
+牛角包|niújiǎobāo|croissant|1|2|9979|success
+学校|xuéxiào|school|1|0|9980|success
+成龙|chénglóng|jackie chan|0|2|9981|success
+歌剧院|gējùyuàn|opera|2|0|9982|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|9983|success
+周一|zhōuyī|monday|2|0|9984|success
+塑胶|sùjiāo|plastic|1|2|9985|success
+生人|shēngrén|acquaintance|0|1|9986|success
+生人|shēngrén|acquaintance|0|2|9987|success
+牛油果|niúyóuguǒ|avocado|1|0|9988|fail
+牛油果|niúyóuguǒ|avocado|1|0|9988|success
+牛油果|niúyóuguǒ|avocado|1|0|9988|success
+富人|fùrén|rich person|1|0|9989|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|2|1|9990|fail
+蛋煎面包|dànjiānmiànbāo|egg fried bread|2|1|9990|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|2|1|9990|success
+东莞|dōngguǎn|dongguan|1|2|9991|success
+点|diǎn|count|1|2|9992|success
+大蒜|dàsuàn|garlic|0|2|9993|success
+超市|chāoshì|supermarket|1|2|9994|success
+坐船|zuòchuán|take ship|0|1|9995|success
+牛角包|niújiǎobāo|croissant|1|2|9996|success
+学校|xuéxiào|school|1|0|9997|success
+牛油果|niúyóuguǒ|avocado|1|0|9998|success
+歌剧院|gējùyuàn|opera|2|0|9999|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|2|1|10000|success
