@@ -13398,3 +13398,159 @@
 牛油果|niúyóuguǒ|avocado|1|0|9998|success
 歌剧院|gējùyuàn|opera|2|0|9999|success
 蛋煎面包|dànjiānmiànbāo|egg fried bread|2|1|10000|success
+橙汁|chéngzhī|orange juice|2|1|10002|success
+有钱人|yǒuqiánrén|rich person|1|0|10003|success
+德国|déguó|germany|0|1|10004|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|1|0|10005|fail
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|1|0|10005|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|1|0|10005|success
+葡萄干|pútáogàn|raisin|2|1|10006|success
+金色|jīnsè|golden color|2|0|10007|success
+食堂|shítáng|canteen|0|1|10008|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|2|10009|success
+花生|huāshēng|peanut|2|1|10010|fail
+花生|huāshēng|peanut|2|1|10010|success
+花生|huāshēng|peanut|2|1|10010|success
+便宜|piányi|cheap|2|0|10011|fail
+便宜|piányi|cheap|2|0|10011|success
+便宜|piányi|cheap|2|0|10011|success
+牛奶|niúnǎi|milk|0|1|10012|success
+澳大利亚|àodàlìyà|australia|2|1|10013|success
+迟到|chídào|late|1|2|10014|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|1|0|10015|success
+牛油果|niúyóuguǒ|avocado|1|0|10016|fail
+牛油果|niúyóuguǒ|avocado|1|0|10016|success
+牛油果|niúyóuguǒ|avocado|1|0|10016|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|2|1|10017|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|2|0|10018|success
+老虎|lǎohǔ|tiger|0|2|10019|fail
+老虎|lǎohǔ|tiger|0|2|10019|success
+老虎|lǎohǔ|tiger|0|2|10019|success
+花生|huāshēng|peanut|2|1|10020|success
+便宜|piányi|cheap|2|0|10021|success
+东莞|dōngguǎn|dongguan|1|2|10022|success
+酒|jiǔ|alcohol|0|2|10023|success
+生活|shēnghuó|life|0|2|10024|fail
+生活|shēnghuó|life|0|2|10024|success
+生活|shēnghuó|life|0|2|10024|success
+牛角包|niújiǎobāo|croissant|1|2|10025|fail
+牛角包|niújiǎobāo|croissant|1|2|10025|success
+牛角包|niújiǎobāo|croissant|1|2|10025|success
+牛油果|niúyóuguǒ|avocado|1|0|10026|success
+学校|xuéxiào|school|1|0|10027|success
+胳膊|gēbó|arm|2|1|10028|success
+老虎|lǎohǔ|tiger|0|2|10029|success
+吃饱了吗|chībǎolema|are you full|2|0|10030|fail
+吃饱了吗|chībǎolema|are you full|2|0|10030|success
+吃饱了吗|chībǎolema|are you full|2|0|10030|success
+别的|biéde|other|0|1|10031|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|1|0|10032|success
+颜色|yánsè|color|2|0|10033|fail
+颜色|yánsè|color|2|0|10033|success
+颜色|yánsè|color|2|0|10033|success
+生活|shēnghuó|life|0|2|10034|fail
+生活|shēnghuó|life|0|2|10034|success
+生活|shēnghuó|life|0|2|10034|success
+牛角包|niújiǎobāo|croissant|1|2|10035|success
+牛油果|niúyóuguǒ|avocado|1|0|10036|fail
+牛油果|niúyóuguǒ|avocado|1|0|10036|success
+牛油果|niúyóuguǒ|avocado|1|0|10036|success
+花生|huāshēng|peanut|2|1|10037|success
+便宜|piányi|cheap|2|0|10038|fail
+便宜|piányi|cheap|2|0|10038|success
+便宜|piányi|cheap|2|0|10038|success
+歌剧院|gējùyuàn|opera|2|0|10039|fail
+歌剧院|gējùyuàn|opera|2|0|10039|success
+歌剧院|gējùyuàn|opera|2|0|10039|success
+吃饱了吗|chībǎolema|are you full|2|0|10040|success
+有的|yǒude|some|0|1|10041|fail
+有的|yǒude|some|0|1|10041|success
+有的|yǒude|some|0|1|10041|success
+早饭|zǎofàn|breakfast|0|1|10042|success
+颜色|yánsè|color|2|0|10043|success
+生活|shēnghuó|life|0|2|10044|success
+中国|zhōngguó|china|1|2|10045|success
+牛油果|niúyóuguǒ|avocado|1|0|10046|success
+老虎|lǎohǔ|tiger|0|2|10047|success
+便宜|piányi|cheap|2|0|10048|success
+歌剧院|gējùyuàn|opera|2|0|10049|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|2|1|10050|success
+有的|yǒude|some|0|1|10051|success
+牛角包|niújiǎobāo|croissant|1|2|10052|success
+快一点儿|kuàiyīdiǎner|faster|1|2|10053|success
+生活|shēnghuó|life|0|2|10054|success
+得|de|particule|2|0|10055|fail
+得|de|particule|2|0|10055|success
+得|de|particule|2|0|10055|success
+牛油果|niúyóuguǒ|avocado|1|0|10056|success
+吃饱了吗|chībǎolema|are you full|2|0|10057|success
+便宜|piányi|cheap|2|0|10058|success
+担心|dānxīn|worry spoken|0|2|10059|fail
+担心|dānxīn|worry spoken|0|2|10059|success
+担心|dānxīn|worry spoken|0|2|10059|success
+颜色|yánsè|color|2|0|10060|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|1|0|10061|success
+晚|wǎn|late|2|0|10062|success
+商店|shāngdiàn|store|2|1|10063|fail
+商店|shāngdiàn|store|2|1|10063|success
+商店|shāngdiàn|store|2|1|10063|success
+总是|zǒngshì|always|2|0|10064|fail
+总是|zǒngshì|always|2|0|10064|success
+总是|zǒngshì|always|2|0|10064|success
+因为|yīnwèi|because|2|1|10065|fail
+因为|yīnwèi|because|2|1|10065|success
+因为|yīnwèi|because|2|1|10065|success
+牛油果|niúyóuguǒ|avocado|1|0|10066|success
+歌剧院|gējùyuàn|opera|2|0|10067|success
+有的|yǒude|some|0|1|10068|success
+担心|dānxīn|worry spoken|0|2|10069|success
+花生|huāshēng|peanut|2|1|10070|success
+生活|shēnghuó|life|0|2|10071|success
+得|de|particule|2|0|10072|success
+商店|shāngdiàn|store|2|1|10073|success
+总是|zǒngshì|always|2|0|10074|success
+因为|yīnwèi|because|2|1|10075|success
+牛油果|niúyóuguǒ|avocado|1|0|10076|success
+便宜|piányi|cheap|2|0|10077|success
+老虎|lǎohǔ|tiger|0|2|10078|success
+升|shēng|liter|2|1|10079|success
+担心|dānxīn|worry spoken|1|2|10080|success
+牛角包|niújiǎobāo|croissant|1|2|10081|success
+葡萄干|pútáogàn|raisin|1|2|10082|success
+猪肉|zhūròu|pork|0|2|10083|success
+办公室|bàngōngshì|office|1|0|10084|fail
+办公室|bàngōngshì|office|1|0|10084|success
+办公室|bàngōngshì|office|1|0|10084|success
+生活|shēnghuó|life|1|0|10085|success
+牛油果|niúyóuguǒ|avocado|1|0|10086|success
+担心|dānxīn|worry spoken|0|2|10087|success
+吃饱了吗|chībǎolema|are you full|2|0|10088|success
+颜色|yánsè|color|2|0|10089|success
+商店|shāngdiàn|store|2|1|10090|success
+总是|zǒngshì|always|2|0|10091|success
+因为|yīnwèi|because|2|1|10092|success
+培根|péigēn|bacon|1|0|10093|fail
+培根|péigēn|bacon|1|0|10093|success
+培根|péigēn|bacon|1|0|10093|success
+办公室|bàngōngshì|office|1|0|10094|success
+点单|diǎndān|order|2|0|10095|success
+歌剧院|gējùyuàn|opera|2|0|10096|success
+有的|yǒude|some|0|1|10097|success
+奥地利|àodelì|austria|0|2|10098|success
+鱼丸|yúwán|fish ball|2|1|10099|success
+生活|shēnghuó|life|0|2|10100|success
+得|de|particule|2|0|10101|success
+十多个|shíduōgè|about ten|2|0|10102|success
+培根|péigēn|bacon|1|0|10103|success
+牛油果|niúyóuguǒ|avocado|1|0|10104|success
+别的|biéde|others|2|1|10105|success
+便宜|piányi|cheap|2|0|10106|success
+五谷|wǔgǔ|five grains|0|1|10107|success
+白葡萄酒|báipútáojiǔ|white wine|1|0|10108|success
+有点儿|yǒudiǎner|a bit|0|2|10109|success
+十多个|shíduōgè|about ten|0|1|10110|fail
+十几个|shíjǐgè|ten plus|1|0|10110|fail
+十多个|shíduōgè|about ten|0|1|10110|success
+十多个|shíduōgè|about ten|0|1|10110|success
+十几个|shíjǐgè|ten plus|1|0|10111|success
+办公室|bàngōngshì|office|1|0|10112|success
