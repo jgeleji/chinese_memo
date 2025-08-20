@@ -1,3 +1,6 @@
+#ifndef _QUESTIONS_H_INCLUDED_
+#define _QUESTIONS_H_INCLUDED_
+
 #include <vector>
 #include <string>
 #include <unordered_set>
@@ -31,6 +34,18 @@ class questions
 		) const;
 
 		bool ask_all_until_fail(int breaks = 0) const;
+		void populate_chinese_char_to_index();
+
+		bool ask_1_chinese_char(
+			std::string const& chinese_char,
+			DATATYPE asked,
+			int breaks = 0
+		) const;
+
+		bool ask_all_chinese_chars(
+			int breaks = 0
+		) const;
+
 	private:
 		class datapoint
 		{
@@ -52,11 +67,26 @@ class questions
 				) const;
 		};
 		typedef std::tuple<size_t, DATATYPE, DATATYPE> q_type;
+		
+		std::map<q_type, std::pair<size_t, double>> load_status_file(
+			std::mt19937& gen,
+			size_t& sequence_number,
+			double score_improve_if_success = 1.04,
+			double score_deteriorate_if_fail = 5.19,
+			double max_complexity = 6.33
+		) const;
+
 		void statistics_screen(
 			std::map<q_type, std::pair<size_t, double>> const& recurrence_scores,
 			int breaks
 		) const;
 
+		void character_statistics_screen(
+			std::map<std::string, std::pair<size_t, double>> const& recurrence_scores,
+			int breaks
+		) const;
+
+		std::unordered_map<std::string, std::unordered_set<int>> chinese_char_to_index;
 
 		std::vector<datapoint> loaded_data;
 		std::unordered_map<std::string, std::unordered_set<int>> pinyin_overlaps;
@@ -67,3 +97,5 @@ class questions
 };
 
 }
+
+#endif // _QUESTIONS_H_INCLUDED_
