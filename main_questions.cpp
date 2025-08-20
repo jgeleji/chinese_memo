@@ -7,7 +7,7 @@
 
 int main()
 {
-	questions q;
+	chinese::questions q;
 	q.load_file("union_q.txt");
 
 

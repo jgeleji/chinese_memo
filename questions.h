@@ -5,6 +5,9 @@
 #include <map>
 #include "input.h"
 
+namespace chinese
+{
+
 class questions
 {
 	public:
@@ -62,3 +65,5 @@ class questions
 		std::unordered_map<std::string, std::unordered_map<std::string, std::unordered_map<std::string, int>>> question_index_finder;
 		chinese::Input m_input;
 };
+
+}

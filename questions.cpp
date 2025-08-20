@@ -22,11 +22,11 @@ std::string tolower(std::string data = "Abc")
 	return data;
 }
 
-questions::questions()
+chinese::questions::questions()
 {
 }
 
-void questions::load_file(std::string const& filename)
+void chinese::questions::load_file(std::string const& filename)
 {
 	std::fstream infile;
 	infile.open(filename, std::fstream::in);
@@ -78,7 +78,7 @@ void questions::load_file(std::string const& filename)
 
 }
 
-bool questions::ask_1(
+bool chinese::questions::ask_1(
 	size_t which,
 	DATATYPE provided,
 	DATATYPE asked
@@ -91,7 +91,7 @@ bool questions::ask_1(
 	return result;
 }
 
-std::string questions::to_string(DATATYPE val)
+std::string chinese::questions::to_string(DATATYPE val)
 {
 	switch(val)
 	{
@@ -105,7 +105,7 @@ std::string questions::to_string(DATATYPE val)
 	return "unknown";
 }
 
-std::string const& questions::datapoint::get(DATATYPE which) const
+std::string const& chinese::questions::datapoint::get(DATATYPE which) const
 {
 	static const std::string undefined = "undefined";
 	switch(which)
@@ -120,7 +120,7 @@ std::string const& questions::datapoint::get(DATATYPE which) const
 	return undefined;
 }
 
-bool questions::datapoint::ask(
+bool chinese::questions::datapoint::ask(
 	chinese::Input input,
 	questions::DATATYPE provided,
 	questions::DATATYPE asked,
@@ -157,7 +157,7 @@ bool questions::datapoint::ask(
 	return gave == get(asked);
 }
 
-void questions::statistics_screen(
+void chinese::questions::statistics_screen(
 	std::map<questions::q_type, std::pair<size_t, double>> const& recurrence_scores,
 	int breaks
 ) const
@@ -208,18 +208,32 @@ void questions::statistics_screen(
 		}
 	}
 	if(have_overloaded)	std::cin.get();
+	size_t total_positive = 0;
+	for(auto iter = positive_score.begin(); iter != positive_score.end(); ++iter)
+	{
+		total_positive += iter->second;
+	}
+	std::cout << "Total positive score: " << total_positive << "\r\n";
+	size_t total_negative = 0;
 	for(auto iter = negative_score.begin(); iter != negative_score.end(); ++iter)
 	{
-		PRINT(iter->first);
-		PRINT(iter->second);
+		total_negative += iter->second;
+	}
+	std::cout << "Total negative score: " << total_negative << "\r\n";
+	for(auto iter = negative_score.begin(); iter != negative_score.end(); ++iter)
+	{
+		std::cout << "Negative score: " << iter->first << " count: " << iter->second << "\r\n";
+		//PRINT(iter->first);
+		//PRINT(iter->second);
 	}
 	PRINT(negative_score.size());
 	PRINT(zero_score);
 	PRINT(positive_score.size());
 	for(auto iter = positive_score.begin(); iter != positive_score.end(); ++iter)
 	{
-		PRINT(iter->first);
-		PRINT(iter->second);
+		std::cout << "Positive score: " << iter->first << " count: " << iter->second << "\r\n";
+		//PRINT(iter->first);
+		//PRINT(iter->second);
 	}
 
 	PRINT(total_score);
@@ -229,7 +243,7 @@ void questions::statistics_screen(
 	std::cin.get();
 }
 
-bool questions::ask_all_until_fail(int breaks) const
+bool chinese::questions::ask_all_until_fail(int breaks) const
 {
 	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
 	double score_improve_if_success = 1.04;
