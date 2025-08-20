@@ -13554,3 +13554,328 @@
 十多个|shíduōgè|about ten|0|1|10110|success
 十几个|shíjǐgè|ten plus|1|0|10111|success
 办公室|bàngōngshì|office|1|0|10112|success
+已经|yǐjīng|already|1|2|10114|success
+牛角包|niújiǎobāo|croissant|1|2|10115|success
+担心|dānxīn|worry spoken|0|2|10116|success
+三餐|sāncān|three meals|1|0|10117|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|10118|fail
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|10118|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|10118|success
+商店|shāngdiàn|store|2|1|10119|success
+十多个|shíduōgè|about ten|0|1|10120|success
+十几个|shíjǐgè|ten plus|1|0|10121|success
+培根|péigēn|bacon|1|0|10122|success
+总是|zǒngshì|always|2|0|10123|success
+因为|yīnwèi|because|2|1|10124|success
+斯洛伐克|sīluòfákè|slovakia|0|2|10125|success
+贵|guì|expensive|1|0|10126|success
+老虎|lǎohǔ|tiger|2|1|10127|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|10128|success
+萨拉米|sàlāmǐ|salami|1|2|10129|success
+站|zhàn|stand|1|0|10130|success
+商店|shāngdiàn|store|2|0|10131|fail
+商店|shāngdiàn|store|2|0|10131|success
+商店|shāngdiàn|store|2|0|10131|success
+梨|lí|pear|0|2|10132|fail
+梨|lí|pear|0|2|10132|success
+梨|lí|pear|0|2|10132|success
+红茶|hóngchá|black tea|0|1|10133|success
+盖勒赫山|gàilēihèshān|gellért hill|1|0|10134|fail
+盖勒赫山|gàilēihèshān|gellért hill|1|0|10134|success
+盖勒赫山|gàilēihèshān|gellért hill|1|0|10134|success
+五谷|wǔgǔ|five grains|1|0|10135|success
+盘|pán|plate|2|0|10136|success
+十多个|shíduōgè|about ten|0|1|10137|success
+十几个|shíjǐgè|ten plus|1|0|10138|success
+金色|jīnsè|golden color|1|0|10139|success
+这个|zhègè|this|2|1|10140|success
+商店|shāngdiàn|store|2|0|10141|success
+办公室|bàngōngshì|office|1|0|10142|success
+绿色|lǜsè|green|2|0|10143|success
+盖勒赫山|gàilēihèshān|gellért hill|1|0|10144|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|10145|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|0|10146|fail
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|0|10146|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|0|10146|success
+蓝色|lánsè|blue|1|0|10147|success
+回答|huídá|answer|0|2|10148|fail
+回答|huídá|answer|0|2|10148|success
+回答|huídá|answer|0|2|10148|success
+梨|lí|pear|0|2|10149|success
+胳膊|gēbó|arm|0|2|10150|fail
+胳膊|gēbó|arm|0|2|10150|success
+胳膊|gēbó|arm|0|2|10150|success
+培根|péigēn|bacon|1|0|10151|success
+重|zhòng|heavy|0|2|10152|success
+辣|là|spicy|0|2|10153|success
+广州|guǎngzhōu|guangzhou|0|1|10154|success
+加|jiā|add something|2|1|10155|fail
+加|jiā|add something|2|1|10155|success
+加|jiā|add something|2|1|10155|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|0|10156|success
+学校|xuéxiào|school|2|0|10157|success
+回答|huídá|answer|0|2|10158|success
+商店|shāngdiàn|store|2|0|10159|success
+胳膊|gēbó|arm|0|2|10160|success
+盖勒赫山|gàilēihèshān|gellért hill|1|0|10161|success
+超市|chāoshì|supermarket|1|0|10162|fail
+超市|chāoshì|supermarket|1|0|10162|success
+超市|chāoshì|supermarket|1|0|10162|success
+动物园|dòngwùyuán|zoo|1|0|10163|fail
+动物园|dòngwùyuán|zoo|1|0|10163|success
+动物园|dòngwùyuán|zoo|1|0|10163|success
+升|shēng|liter|1|2|10164|success
+扁豆|biǎndòu|lentil|1|2|10165|success
+十多个|shíduōgè|about ten|0|1|10166|success
+十几个|shíjǐgè|ten plus|1|0|10167|success
+有点儿|yǒudiǎner|a bit|0|1|10168|success
+上海|shànghǎi|shanghai|2|0|10169|success
+英国|yīngguó|great britain|1|2|10170|success
+干豆|gàndòu|dried bean|1|2|10171|success
+超市|chāoshì|supermarket|1|0|10172|success
+动物园|dòngwùyuán|zoo|1|0|10173|success
+加|jiā|add something|2|1|10174|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|0|10175|success
+回答|huídá|answer|0|2|10176|success
+胳膊|gēbó|arm|0|2|10177|success
+梨|lí|pear|0|2|10178|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|10179|success
+坐地铁|zuòdìtiě|take subway|1|0|10180|success
+东莞|dōngguǎn|dongguan|2|0|10181|success
+有意思|yǒuyìsi|interesting|2|0|10182|success
+金色|jīnsè|golden color|0|2|10183|fail
+金色|jīnsè|golden color|0|2|10183|success
+金色|jīnsè|golden color|0|2|10183|success
+奶酪|nǎilào|cheese|2|1|10184|success
+红烧肉|hóngshāoròu|braised pork|1|2|10185|fail
+红烧肉|hóngshāoròu|braised pork|1|2|10185|success
+红烧肉|hóngshāoròu|braised pork|1|2|10185|success
+以前|yǐqián|before|0|2|10186|fail
+以前|yǐqián|before|0|2|10186|success
+以前|yǐqián|before|0|2|10186|success
+柠檬水|níngméngshuǐ|lemonade|0|1|10187|success
+商店|shāngdiàn|store|2|0|10188|success
+超市|chāoshì|supermarket|1|0|10189|success
+动物园|dòngwùyuán|zoo|1|0|10190|success
+盖勒赫山|gàilēihèshān|gellért hill|1|0|10191|success
+加油站|jiāyóuzhàn|gas station|0|2|10192|success
+金色|jīnsè|golden color|0|2|10193|success
+因为|yīnwèi|because|1|0|10194|success
+红烧肉|hóngshāoròu|braised pork|1|2|10195|success
+以前|yǐqián|before|0|2|10196|success
+橙汁|chéngzhī|orange juice|2|0|10197|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|0|1|10198|success
+蘑菇|mógū|mushroom|0|1|10199|fail
+蘑菇|mógū|mushroom|0|1|10199|success
+蘑菇|mógū|mushroom|0|1|10199|success
+土豆泥|tǔdòuní|mashed potato|0|2|10200|fail
+土豆泥|tǔdòuní|mashed potato|0|2|10200|success
+土豆泥|tǔdòuní|mashed potato|0|2|10200|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|2|10201|fail
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|2|10201|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|2|10201|success
+一般|yībān|general|2|0|10202|success
+加|jiā|add something|2|1|10203|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|0|10204|success
+回答|huídá|answer|0|2|10205|success
+胳膊|gēbó|arm|0|2|10206|success
+花生|huāshēng|peanut|1|0|10207|fail
+花生|huāshēng|peanut|1|0|10207|success
+花生|huāshēng|peanut|1|0|10207|success
+意大利|yìdàlì|italy|1|2|10208|success
+蘑菇|mógū|mushroom|0|1|10209|fail
+蘑菇|mógū|mushroom|0|1|10209|success
+蘑菇|mógū|mushroom|0|1|10209|success
+土豆泥|tǔdòuní|mashed potato|0|2|10210|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|2|10211|success
+红烧肉|hóngshāoròu|braised pork|1|2|10212|success
+以前|yǐqián|before|0|2|10213|success
+金色|jīnsè|golden color|0|2|10214|success
+果汁|guǒzhī|fruit juice|0|1|10215|success
+送给|sònggěi|see off|0|1|10216|fail
+礼物|lǐwù|gift|1|0|10216|fail
+送给|sònggěi|see off|0|1|10216|success
+送给|sònggěi|see off|0|1|10216|success
+花生|huāshēng|peanut|1|0|10217|success
+超市|chāoshì|supermarket|1|0|10218|success
+蘑菇|mógū|mushroom|0|1|10219|success
+动物园|dòngwùyuán|zoo|1|0|10220|success
+回答|huídá|answer|2|0|10221|success
+区|qū|district|0|1|10222|success
+希望|xīwàng|wish hope|1|2|10223|fail
+希望|xīwàng|wish hope|1|2|10223|success
+希望|xīwàng|wish hope|1|2|10223|success
+糖|táng|sugar|1|2|10224|success
+软件|ruǎnjiàn|software|0|2|10225|fail
+软件|ruǎnjiàn|software|0|2|10225|success
+软件|ruǎnjiàn|software|0|2|10225|success
+送给|sònggěi|see off|0|1|10226|success
+土豆泥|tǔdòuní|mashed potato|0|2|10227|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|2|10228|success
+蘑菇|mógū|mushroom|0|1|10229|success
+德国|déguó|germany|1|2|10230|fail
+德国|déguó|germany|1|2|10230|success
+德国|déguó|germany|1|2|10230|success
+加油站|jiāyóuzhàn|gas station|2|1|10231|fail
+加油站|jiāyóuzhàn|gas station|2|1|10231|success
+加油站|jiāyóuzhàn|gas station|2|1|10231|success
+燕麦粥|yànmàizhōu|porridge|2|0|10232|success
+希望|xīwàng|wish hope|1|2|10233|success
+花生|huāshēng|peanut|1|0|10234|success
+软件|ruǎnjiàn|software|0|2|10235|success
+地铁|dìtiě|subway|0|1|10236|success
+晚|wǎn|late|2|1|10237|success
+告诉|gàosù|tell|0|2|10238|fail
+告诉|gàosù|tell|0|2|10238|success
+告诉|gàosù|tell|0|2|10238|success
+莲藕|liánǒu|lotus root|1|0|10239|fail
+莲藕|liánǒu|lotus root|1|0|10239|success
+莲藕|liánǒu|lotus root|1|0|10239|success
+德国|déguó|germany|1|2|10240|success
+加油站|jiāyóuzhàn|gas station|2|1|10241|success
+红烧肉|hóngshāoròu|braised pork|1|2|10242|success
+送给|sònggěi|see off|0|1|10243|success
+以前|yǐqián|before|0|2|10244|success
+金色|jīnsè|golden color|0|2|10245|success
+蘑菇|mógū|mushroom|0|1|10246|success
+澳大利亚|àodàlìyà|australia|2|0|10247|fail
+澳大利亚|àodàlìyà|australia|2|0|10247|success
+澳大利亚|àodàlìyà|australia|2|0|10247|success
+告诉|gàosù|tell|0|2|10248|success
+莲藕|liánǒu|lotus root|1|0|10249|success
+希望|xīwàng|wish hope|1|2|10250|success
+盖勒赫山|gàilēihèshān|gellért hill|0|1|10251|fail
+盖勒赫山|gàilēihèshān|gellért hill|0|1|10251|success
+盖勒赫山|gàilēihèshān|gellért hill|0|1|10251|success
+软件|ruǎnjiàn|software|0|2|10252|success
+中间|zhōngjiān|between|0|1|10253|fail
+窄|zhǎi|narrow|1|0|10253|fail
+中间|zhōngjiān|between|0|1|10253|success
+中间|zhōngjiān|between|0|1|10253|success
+窄|zhǎi|narrow|1|0|10254|fail
+窄|zhǎi|narrow|1|0|10254|success
+窄|zhǎi|narrow|1|0|10254|success
+牛油果|niúyóuguǒ|avocado|0|2|10255|success
+土豆泥|tǔdòuní|mashed potato|0|2|10256|success
+澳大利亚|àodàlìyà|australia|2|0|10257|success
+加油站|jiāyóuzhàn|gas station|2|1|10258|success
+德国|déguó|germany|1|2|10259|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|2|10260|success
+盖勒赫山|gàilēihèshān|gellért hill|0|1|10261|success
+凉快|liángkuài|cool|1|0|10262|success
+中间|zhōngjiān|between|0|1|10263|success
+花生|huāshēng|peanut|1|0|10264|success
+告诉|gàosù|tell|0|2|10265|success
+莲藕|liánǒu|lotus root|1|0|10266|success
+好臭|hǎochòu|smelly|2|1|10267|success
+请假|qǐngjiǎ|request leave|0|1|10268|fail
+请假|qǐngjiǎ|request leave|0|1|10268|success
+请假|qǐngjiǎ|request leave|0|1|10268|success
+办公室|bàngōngshì|office|0|1|10269|success
+老虎|lǎohǔ|tiger|1|2|10270|success
+窄|zhǎi|narrow|1|0|10271|success
+送给|sònggěi|see off|0|1|10272|success
+疼不疼|téngbùténg|does it hurt|2|0|10273|success
+澳大利亚|àodàlìyà|australia|2|0|10274|success
+蘑菇|mógū|mushroom|0|1|10275|success
+离|lí|away from|2|1|10276|success
+果汁|guǒzhī|fruit juice|0|2|10277|success
+请假|qǐngjiǎ|request leave|0|1|10278|success
+盖勒赫山|gàilēihèshān|gellért hill|0|1|10279|success
+中间|zhōngjiān|between|0|1|10280|success
+希望|xīwàng|wish hope|1|2|10281|success
+软件|ruǎnjiàn|software|0|2|10282|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|1|10283|success
+丰富|fēngfù|rich|1|2|10284|fail
+丰富|fēngfù|rich|1|2|10284|success
+丰富|fēngfù|rich|1|2|10284|success
+蘑菇|mógū|mushroom|2|1|10285|success
+可以啊|kěyǐa|sure|2|1|10286|fail
+当然|dāngrán|of course|1|2|10286|fail
+可以啊|kěyǐa|sure|2|1|10286|success
+可以啊|kěyǐa|sure|2|1|10286|success
+加油站|jiāyóuzhàn|gas station|2|1|10287|success
+德国|déguó|germany|1|2|10288|success
+哪里|nǎlǐ|there|1|2|10289|fail
+这里|zhèlǐ|here|2|1|10289|fail
+哪里|nǎlǐ|there|1|2|10289|fail
+哪里|nǎlǐ|there|1|2|10289|success
+这里|zhèlǐ|here|2|1|10290|success
+鸭|yā|duck|1|0|10291|success
+菜单|càidān|menu|2|0|10292|success
+改天|gǎitiān|the other day|1|2|10293|success
+丰富|fēngfù|rich|1|2|10294|success
+请假|qǐngjiǎ|request leave|0|1|10295|fail
+请假|qǐngjiǎ|request leave|0|1|10295|success
+请假|qǐngjiǎ|request leave|0|1|10295|success
+可以啊|kěyǐa|sure|2|1|10296|success
+莲藕|liánǒu|lotus root|1|0|10297|success
+告诉|gàosù|tell|0|2|10298|success
+哪里|nǎlǐ|there|1|2|10299|success
+这里|zhèlǐ|here|2|1|10300|success
+窄|zhǎi|narrow|1|0|10301|success
+消防局|xiāofángjú|fire station|0|1|10302|fail
+消防局|xiāofángjú|fire station|0|1|10302|success
+消防局|xiāofángjú|fire station|0|1|10302|success
+澳大利亚|àodàlìyà|australia|2|0|10303|success
+这里|zhèlǐ|here|1|2|10304|success
+请假|qǐngjiǎ|request leave|0|1|10305|success
+得|de|particule|1|0|10306|success
+你真可爱|nǐzhēnkěài|you look so cute|2|1|10307|fail
+你真可爱|nǐzhēnkěài|you look so cute|2|1|10307|success
+你真可爱|nǐzhēnkěài|you look so cute|2|1|10307|success
+盖勒赫山|gàilēihèshān|gellért hill|0|1|10308|success
+哪里|nǎlǐ|there|1|2|10309|success
+中间|zhōngjiān|between|0|1|10310|success
+丰富|fēngfù|rich|1|2|10311|success
+消防局|xiāofángjú|fire station|0|1|10312|success
+可以啊|kěyǐa|sure|2|1|10313|success
+一点儿|yīdiǎner|a bit|1|0|10314|success
+请假|qǐngjiǎ|request leave|0|1|10315|success
+百合|bǎihé|lily|1|2|10316|fail
+百合|bǎihé|lily|1|2|10316|success
+百合|bǎihé|lily|1|2|10316|success
+你真可爱|nǐzhēnkěài|you look so cute|2|1|10317|success
+这里|zhèlǐ|here|2|1|10318|fail
+哪里|nǎlǐ|there|1|2|10318|fail
+这里|zhèlǐ|here|2|1|10318|success
+这里|zhèlǐ|here|2|1|10318|success
+哪里|nǎlǐ|there|1|2|10319|success
+都|dōu|all|1|2|10320|success
+卖|mài|sell|2|0|10321|success
+多瑙河|duōnǎohé|danube|2|0|10322|success
+牛油果|niúyóuguǒ|avocado|1|2|10323|success
+绿色|lǜsè|green|1|2|10324|success
+以前|yǐqián|before|2|0|10325|success
+百合|bǎihé|lily|1|2|10326|success
+一点儿|yīdiǎner|a bit|0|1|10327|success
+这里|zhèlǐ|here|2|1|10328|success
+哪里|nǎlǐ|there|1|2|10329|success
+消防局|xiāofángjú|fire station|0|1|10330|success
+盖勒赫山|gàilēihèshān|gellért hill|2|0|10331|success
+请假|qǐngjiǎ|request leave|0|1|10332|success
+更喜欢|gèngxǐhuān|prefer|0|2|10333|fail
+更喜欢|gèngxǐhuān|prefer|0|2|10333|success
+更喜欢|gèngxǐhuān|prefer|0|2|10333|success
+你真可爱|nǐzhēnkěài|you look so cute|2|1|10334|success
+有人|yǒurén|some people|1|2|10335|success
+奶酪|nǎilào|cheese|1|0|10336|success
+雪|xuě|snow|1|0|10337|success
+这里|zhèlǐ|here|2|1|10338|success
+哪里|nǎlǐ|there|1|2|10339|success
+丰富|fēngfù|rich|1|2|10340|success
+学校|xuéxiào|school|2|1|10341|success
+可以啊|kěyǐa|sure|2|1|10342|success
+更喜欢|gèngxǐhuān|prefer|0|2|10343|success
+百合|bǎihé|lily|1|2|10344|success
+金色|jīnsè|golden color|2|1|10345|success
+电视|diànshì|tv|1|2|10346|success
+山西|shānxī|shanxi|0|1|10347|fail
+山西|shānxī|shanxi|0|1|10347|success
+山西|shānxī|shanxi|0|1|10347|success
+红茶|hóngchá|black tea|0|2|10348|success
+哪里|nǎlǐ|there|1|2|10349|success
+黄瓜|huángguā|cucumber|1|0|10350|fail
+黄瓜|huángguā|cucumber|1|0|10350|success
+黄瓜|huángguā|cucumber|1|0|10350|success
+黄瓜|huángguā|cucumber|0|2|10351|success
