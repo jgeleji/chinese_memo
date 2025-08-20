@@ -13879,3 +13879,9 @@
 黄瓜|huángguā|cucumber|1|0|10350|success
 黄瓜|huángguā|cucumber|1|0|10350|success
 黄瓜|huángguā|cucumber|0|2|10351|success
+腿|tuǐ|leg|0|2|10352|success
+动物园|dòngwùyuán|zoo|1|2|10353|success
+请假|qǐngjiǎ|request leave|2|0|10354|success
+这里|zhèlǐ|here|2|1|10355|success
+牛油果|niúyóuguǒ|avocado|1|0|10356|success
+山西|shānxī|shanxi|0|1|10357|success
