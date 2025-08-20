@@ -27,16 +27,11 @@ class questions
 		questions();
 		void load_file(std::string const& filename);
 	
-		bool ask_1(
-			size_t which,
-			DATATYPE provided,
-			DATATYPE asked
-		) const;
-
 		bool ask_all_until_fail(int breaks = 0) const;
 		void populate_chinese_char_to_index();
 
 		bool ask_1_chinese_char(
+			std::string question_number,
 			std::string const& chinese_char,
 			DATATYPE asked,
 			int breaks = 0
@@ -76,14 +71,25 @@ class questions
 			double max_complexity = 6.33
 		) const;
 
+		typedef std::pair<std::string, DATATYPE> q_type_char;
+
+		std::map<q_type_char, std::pair<size_t, double>> load_status_file_char(
+			std::mt19937& gen,
+			size_t& sequence_number,
+			double score_improve_if_success = 1.04,
+			double score_deteriorate_if_fail = 5.19,
+			double max_complexity = 6.33
+		) const;
+
 		void statistics_screen(
 			std::map<q_type, std::pair<size_t, double>> const& recurrence_scores,
 			int breaks
 		) const;
 
 		void character_statistics_screen(
-			std::map<std::string, std::pair<size_t, double>> const& recurrence_scores,
-			int breaks
+			std::map<q_type_char, std::pair<size_t, double>> const& recurrence_scores,
+			int breaks,
+			size_t sequence_number
 		) const;
 
 		std::unordered_map<std::string, std::unordered_set<int>> chinese_char_to_index;
