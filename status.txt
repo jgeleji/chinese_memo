@@ -13885,3 +13885,159 @@
 这里|zhèlǐ|here|2|1|10355|success
 牛油果|niúyóuguǒ|avocado|1|0|10356|success
 山西|shānxī|shanxi|0|1|10357|success
+瓶|píng|m.w.bottle|2|1|10358|success
+消防局|xiāofángjú|fire station|0|1|10359|success
+黄瓜|huángguā|cucumber|1|0|10360|success
+更喜欢|gèngxǐhuān|prefer|0|2|10361|success
+请假|qǐngjiǎ|request leave|0|1|10362|success
+你真可爱|nǐzhēnkěài|you look so cute|2|1|10363|success
+有钱人|yǒuqiánrén|rich person|2|1|10364|success
+白菜|báicài|chinese cabbage|1|2|10365|fail
+白菜|báicài|chinese cabbage|1|2|10365|success
+白菜|báicài|chinese cabbage|1|2|10365|success
+哪里|nǎlǐ|there|1|2|10366|success
+升|shēng|liter|0|2|10367|fail
+升|shēng|liter|0|2|10367|success
+升|shēng|liter|0|2|10367|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|2|10368|fail
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|2|10368|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|2|10368|success
+这个|zhègè|this|0|2|10369|success
+美|měi|beautiful|1|2|10370|success
+成龙|chénglóng|jackie chan|2|1|10371|success
+澳大利亚|àodàlìyà|australia|0|2|10372|success
+百合|bǎihé|lily|1|2|10373|fail
+百合|bǎihé|lily|1|2|10373|success
+百合|bǎihé|lily|1|2|10373|success
+山西|shānxī|shanxi|0|1|10374|success
+白菜|báicài|chinese cabbage|1|2|10375|success
+休息|xiūxī|rest|0|2|10376|fail
+休息|xiūxī|rest|0|2|10376|success
+休息|xiūxī|rest|0|2|10376|success
+黄瓜|huángguā|cucumber|1|0|10377|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|2|10378|success
+好臭|hǎochòu|smelly|0|1|10379|success
+船|chuán|ship|2|0|10380|success
+紫色|zǐsè|purple|2|1|10381|success
+匈牙利|xiōngyálì|hungary|0|2|10382|success
+百合|bǎihé|lily|1|2|10383|success
+升|shēng|liter|0|2|10384|success
+这里|zhèlǐ|here|2|1|10385|success
+休息|xiūxī|rest|0|2|10386|success
+油|yóu|oil|0|2|10387|success
+饺子|jiǎozi|dumpling|2|0|10388|success
+吃饱了吗|chībǎolema|are you full|0|2|10389|success
+更喜欢|gèngxǐhuān|prefer|0|2|10390|success
+快一点儿|kuàiyīdiǎner|faster|1|0|10391|success
+白菜|báicài|chinese cabbage|1|2|10392|success
+德国|déguó|germany|2|1|10393|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|2|0|10394|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|2|10395|success
+哪里|nǎlǐ|there|1|2|10396|success
+左立|zuǒlì|zuoli name|2|0|10397|success
+脸书|liǎnshū|facebook|1|2|10398|fail
+脸书|liǎnshū|facebook|1|2|10398|success
+脸书|liǎnshū|facebook|1|2|10398|success
+橙色|chéngsè|orange color|0|1|10399|fail
+橙子|chéngzi|orange|1|0|10399|fail
+橙色|chéngsè|orange color|0|1|10399|success
+橙色|chéngsè|orange color|0|1|10399|success
+橙子|chéngzi|orange|1|0|10400|success
+百合|bǎihé|lily|1|2|10401|success
+国王|guówáng|king|2|0|10402|success
+休息|xiūxī|rest|0|2|10403|success
+山西|shānxī|shanxi|0|1|10404|success
+油条|yóutiáo|deep fried dough|1|0|10405|success
+黄瓜|huángguā|cucumber|1|0|10406|success
+看见|kànjiàn|see|2|0|10407|success
+脸书|liǎnshū|facebook|1|2|10408|success
+橙色|chéngsè|orange color|0|1|10409|success
+橙子|chéngzi|orange|1|0|10410|success
+离|lí|away from|2|0|10411|success
+可以啊|kěyǐa|sure|0|2|10412|success
+升|shēng|liter|0|2|10413|success
+糖|táng|sugar|0|2|10414|fail
+糖|táng|sugar|0|2|10414|success
+糖|táng|sugar|0|2|10414|success
+当然|dāngrán|of course|1|0|10415|fail
+当然|dāngrán|of course|1|0|10415|success
+当然|dāngrán|of course|1|0|10415|success
+富人|fùrén|rich person|0|2|10416|fail
+夫人|fūrén|wife|2|0|10416|fail
+富人|fùrén|rich person|0|2|10416|success
+富人|fùrén|rich person|0|2|10416|success
+夫人|fūrén|wife|2|0|10417|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|0|2|10418|success
+多瑙河|duōnǎohé|danube|2|1|10419|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10420|fail
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10420|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10420|success
+白菜|báicài|chinese cabbage|1|2|10421|success
+最近|zuìjìn|lately|2|1|10422|fail
+最近|zuìjìn|lately|2|1|10422|success
+最近|zuìjìn|lately|2|1|10422|success
+周|zhōu|week|2|1|10423|fail
+燕麦粥|yànmàizhōu|oatmeal|1|2|10423|fail
+周|zhōu|week|2|1|10423|success
+周|zhōu|week|2|1|10423|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10424|success
+当然|dāngrán|of course|1|0|10425|success
+富人|fùrén|rich person|0|2|10426|success
+夫人|fūrén|wife|2|0|10427|success
+橙子|chéngzi|orange|1|0|10428|success
+脸书|liǎnshū|facebook|1|2|10429|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10430|success
+糖|táng|sugar|0|2|10431|fail
+糖|táng|sugar|0|2|10431|success
+糖|táng|sugar|0|2|10431|success
+最近|zuìjìn|lately|2|1|10432|success
+橙色|chéngsè|orange color|0|1|10433|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10434|success
+休息|xiūxī|rest|0|2|10435|success
+百合|bǎihé|lily|1|2|10436|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|2|10437|success
+无花果干|wúhuāguǒgàn|dried fig|1|0|10438|success
+銀行|yínháng|bank|1|0|10439|fail
+銀行|yínháng|bank|1|0|10439|fail
+周|zhōu|week|2|1|10440|success
+就|jiù|just|2|0|10441|fail
+就|jiù|just|2|0|10441|success
+就|jiù|just|2|0|10441|success
+当然|dāngrán|of course|1|0|10442|success
+富人|fùrén|rich person|0|2|10443|success
+夫人|fūrén|wife|2|0|10444|success
+生人|shēngrén|acquaintance|1|0|10445|success
+红色|hóngsè|red|1|0|10446|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10447|fail
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10447|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10447|success
+糖|táng|sugar|0|2|10448|success
+銀行|yínháng|bank|1|0|10449|success
+最近|zuìjìn|lately|2|1|10450|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10451|success
+牛肉干|niúròugàn|beef jerky|2|1|10452|success
+啤酒|píjiǔ|beer|2|1|10453|success
+点菜|diǎncài|order dish|1|0|10454|success
+食堂|shítáng|canteen|2|1|10455|success
+盐|yán|salt|0|2|10456|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10457|success
+就|jiù|just|2|0|10458|success
+銀行|yínháng|bank|1|0|10459|success
+橙子|chéngzi|orange|1|0|10460|success
+脸书|liǎnshū|facebook|1|2|10461|success
+橙色|chéngsè|orange color|0|1|10462|success
+牛肉干|niúròugàn|beef jerky|2|0|10463|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|2|10464|fail
+红葡萄酒|hóngpútáojiǔ|red wine|1|2|10464|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|2|10464|success
+软件|ruǎnjiàn|software|2|1|10465|success
+有点儿|yǒudiǎner|a bit|1|2|10466|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10467|success
+地铁|dìtiě|subway|1|2|10468|success
+銀行|yínháng|bank|1|0|10469|success
+周|zhōu|week|2|1|10470|success
+当然|dāngrán|of course|1|0|10471|success
+富人|fùrén|rich person|0|2|10472|success
+夫人|fūrén|wife|2|0|10473|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|2|10474|success
+雪|xuě|snow|0|1|10475|success
