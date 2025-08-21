@@ -229,6 +229,7 @@ chinese::Input::Input()
 	chinese_to_preferred_pinyin["哪"] = pinyin_convert_1syll("na3");
 	chinese_to_preferred_pinyin["不"] = pinyin_convert_1syll("bu4");
 	chinese_to_preferred_pinyin["乐"] = pinyin_convert_1syll("yue4");
+	chinese_to_preferred_pinyin["銀"] = pinyin_convert_1syll("yin2");
 
 
 	chinese_to_preferred_pinyin["觉"] = pinyin_convert_1syll("jiao4");
