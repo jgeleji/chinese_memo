@@ -14041,3 +14041,308 @@
 夫人|fūrén|wife|2|0|10473|success
 红葡萄酒|hóngpútáojiǔ|red wine|1|2|10474|success
 雪|xuě|snow|0|1|10475|success
+翻毛鸡|fānmáojī|birds nest|1|0|10476|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10477|success
+糖|táng|sugar|0|2|10478|success
+銀行|yínháng|bank|1|0|10479|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10480|fail
+粥|zhōu|porridge|2|1|10480|fail
+周|zhōu|week|2|1|10480|fail
+燕麦粥|yànmàizhōu|oatmeal|1|2|10480|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10480|success
+粥|zhōu|porridge|2|1|10481|fail
+粥|zhōu|porridge|2|1|10481|success
+粥|zhōu|porridge|2|1|10481|success
+周|zhōu|week|2|1|10482|success
+最近|zuìjìn|lately|2|1|10483|success
+光临|guānglín|honorable presence|1|2|10484|success
+莲子|liánzi|lotus seed|2|0|10485|fail
+莲子|liánzi|lotus seed|2|0|10485|success
+莲子|liánzi|lotus seed|2|0|10485|success
+点|diǎn|choose|1|0|10486|fail
+点|diǎn|choose|1|0|10486|fail
+点|diǎn|choose|1|0|10486|success
+就|jiù|just|2|0|10487|success
+莲子|liánzi|lotus seed|0|1|10488|success
+商店|shāngdiàn|store|1|0|10489|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10490|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|2|10491|success
+西红柿汤|xīhóngshìtāng|tomato soup|2|1|10492|success
+牛角包|niújiǎobāo|croissant|0|2|10493|fail
+牛角包|niújiǎobāo|croissant|0|2|10493|success
+牛角包|niújiǎobāo|croissant|0|2|10493|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10494|success
+莲子|liánzi|lotus seed|2|0|10495|success
+点|diǎn|choose|1|0|10496|success
+銀行|yínháng|bank|1|0|10497|success
+粥|zhōu|porridge|2|1|10498|success
+周|zhōu|week|2|1|10499|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10500|success
+酒|jiǔ|alcohol|2|1|10501|success
+蔬菜|shūcài|vegetable|2|0|10502|success
+牛角包|niújiǎobāo|croissant|0|2|10503|success
+火锅|huǒguō|hot pot|1|2|10504|success
+绿色|lǜsè|green|2|1|10505|success
+几十个|jǐshígè|multiple of ten|0|2|10506|success
+杜丽|dùlì|duli name|2|1|10507|success
+盐|yán|salt|1|0|10508|success
+红色|hóngsè|red|2|1|10509|success
+山西|shānxī|shanxi|1|0|10510|success
+茄子|jiāzi|eggplant|0|1|10511|success
+莲子|liánzi|lotus seed|2|0|10512|success
+点|diǎn|choose|1|0|10513|success
+右边|yòubiān|right|0|1|10514|success
+最|zuì|the most|2|1|10515|success
+奥地利|àodelì|austria|1|0|10516|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10517|success
+饺子|jiǎozi|dumpling|1|0|10518|success
+警察局|jǐngchájú|police station|0|1|10519|success
+牛角包|niújiǎobāo|croissant|0|2|10520|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|2|10521|success
+绳子|shéngzi|rope|1|2|10522|fail
+绳子|shéngzi|rope|1|2|10522|success
+绳子|shéngzi|rope|1|2|10522|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|0|10523|success
+周|zhōu|week|2|1|10524|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|2|1|10525|success
+銀行|yínháng|bank|1|0|10526|success
+粥|zhōu|porridge|2|1|10527|success
+日本|rìběn|japan|1|2|10528|success
+警察局|jǐngchájú|police station|2|1|10529|success
+绳子|shéngzi|rope|0|2|10530|fail
+茄子|jiāzi|eggplant|2|0|10530|fail
+绳子|shéngzi|rope|0|2|10530|success
+绳子|shéngzi|rope|0|2|10530|success
+茄子|jiāzi|eggplant|2|0|10531|success
+绳子|shéngzi|rope|1|2|10532|success
+幸福|xìngfú|happiness|2|0|10533|fail
+幸福|xìngfú|happiness|2|0|10533|success
+幸福|xìngfú|happiness|2|0|10533|success
+对面|duìmiàn|opposite|0|2|10534|fail
+对面|duìmiàn|opposite|0|2|10534|success
+对面|duìmiàn|opposite|0|2|10534|success
+修车|xiūchē|repair car|2|1|10535|success
+菜单|càidān|menu|0|1|10536|success
+匈牙利|xiōngyálì|hungary|1|0|10537|success
+雪|xuě|snow|2|1|10538|success
+颜色|yánsè|color|2|1|10539|success
+绳子|shéngzi|rope|0|2|10540|success
+茄子|jiāzi|eggplant|2|0|10541|success
+点|diǎn|choose|1|0|10542|success
+幸福|xìngfú|happiness|2|0|10543|success
+对面|duìmiàn|opposite|0|2|10544|success
+莲子|liánzi|lotus seed|2|0|10545|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|10546|success
+上个周末|shànggèzhōumò|last weekend|0|1|10547|fail
+上个周末|shànggèzhōumò|last weekend|0|1|10547|success
+上个周末|shànggèzhōumò|last weekend|0|1|10547|success
+远|yuǎn|far|0|1|10548|success
+绳子|shéngzi|rope|1|2|10549|success
+牛角包|niújiǎobāo|croissant|0|2|10550|success
+茄子|jiāzi|eggplant|2|0|10551|success
+麦片|màipiàn|cereal|0|2|10552|fail
+麦片|màipiàn|cereal|0|2|10552|success
+麦片|màipiàn|cereal|0|2|10552|success
+周|zhōu|week|2|1|10553|success
+时候|shíhou|when|1|2|10554|fail
+时候|shíhou|when|1|2|10554|success
+时候|shíhou|when|1|2|10554|success
+工程师|gōngchéngshī|engineer|0|2|10555|fail
+工程师|gōngchéngshī|engineer|0|2|10555|success
+工程师|gōngchéngshī|engineer|0|2|10555|success
+油|yóu|oil|1|0|10556|success
+上个周末|shànggèzhōumò|last weekend|0|1|10557|success
+绳子|shéngzi|rope|0|2|10558|success
+生菜|shēngcài|lettuce|0|2|10559|success
+幸福|xìngfú|happiness|2|0|10560|success
+对面|duìmiàn|opposite|0|2|10561|success
+麦片|màipiàn|cereal|0|2|10562|success
+请假|qǐngjiǎ|request leave|0|2|10563|fail
+请假|qǐngjiǎ|request leave|0|2|10563|success
+请假|qǐngjiǎ|request leave|0|2|10563|success
+时候|shíhou|when|1|2|10564|success
+工程师|gōngchéngshī|engineer|0|2|10565|success
+扁豆|biǎndòu|lentil|2|1|10566|success
+一个人|yīgèrén|alone|2|0|10567|success
+茄子|jiāzi|eggplant|2|0|10568|success
+虫|chóng|insect worm|0|1|10569|success
+周|zhōu|week|1|0|10570|success
+棕色|zōngsè|brown|2|0|10571|fail
+棕色|zōngsè|brown|2|0|10571|success
+棕色|zōngsè|brown|2|0|10571|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|0|1|10572|success
+请假|qǐngjiǎ|request leave|0|2|10573|success
+上个周末|shànggèzhōumò|last weekend|0|1|10574|success
+翻毛鸡|fānmáojī|birds nest|2|0|10575|success
+更喜欢|gèngxǐhuān|prefer|2|0|10576|success
+杏子|xìngzi|apricot|0|2|10577|fail
+杏子|xìngzi|apricot|0|2|10577|success
+杏子|xìngzi|apricot|0|2|10577|success
+绳子|shéngzi|rope|1|2|10578|success
+麦片|màipiàn|cereal|0|2|10579|success
+十多个|shíduōgè|about ten|1|0|10580|success
+棕色|zōngsè|brown|2|0|10581|success
+工程师|gōngchéngshī|engineer|0|2|10582|success
+时候|shíhou|when|1|2|10583|success
+送给|sònggěi|give to|0|1|10584|fail
+送给|sònggěi|give to|0|1|10584|success
+送给|sònggěi|give to|0|1|10584|success
+练功夫|liàngōngfū|practice kung fu|1|0|10585|fail
+练功夫|liàngōngfū|practice kung fu|1|0|10585|success
+练功夫|liàngōngfū|practice kung fu|1|0|10585|success
+船|chuán|ship|1|0|10586|success
+杏子|xìngzi|apricot|0|2|10587|success
+绳子|shéngzi|rope|0|2|10588|success
+幸福|xìngfú|happiness|2|0|10589|success
+请假|qǐngjiǎ|request leave|0|2|10590|success
+对面|duìmiàn|opposite|0|2|10591|success
+告诉|gàosù|tell|2|0|10592|success
+节|jié|m.w.class|0|1|10593|success
+送给|sònggěi|give to|0|1|10594|success
+练功夫|liàngōngfū|practice kung fu|1|0|10595|success
+老虎|lǎohǔ|tiger|0|1|10596|success
+茄子|jiāzi|eggplant|2|0|10597|success
+棕色|zōngsè|brown|2|0|10598|success
+多长时间|duōzhǎngshíjiān|how long|1|2|10599|fail
+多长时间|duōzhǎngshíjiān|how long|1|2|10599|success
+多长时间|duōzhǎngshíjiān|how long|1|2|10599|success
+梅子|méizi|plum|1|0|10600|success
+可乐|kělè|cola|0|2|10601|success
+送人|sòngrén|send someone off|0|2|10602|success
+上个周末|shànggèzhōumò|last weekend|0|1|10603|success
+杏子|xìngzi|apricot|0|2|10604|success
+火腿|huǒtuǐ|sausage|2|0|10605|success
+花生|huāshēng|peanut|1|2|10606|success
+可乐|kělè|cola|0|1|10607|fail
+可乐|kělè|cola|0|1|10607|success
+可乐|kělè|cola|0|1|10607|success
+麦片|màipiàn|cereal|0|2|10608|success
+多长时间|duōzhǎngshíjiān|how long|1|2|10609|success
+红烧肉|hóngshāoròu|braised pork|0|2|10610|success
+送给|sònggěi|give to|0|1|10611|success
+练功夫|liàngōngfū|practice kung fu|1|0|10612|success
+工程师|gōngchéngshī|engineer|0|2|10613|success
+时候|shíhou|when|1|2|10614|success
+筷子|kuàizi|chopstick|2|0|10615|success
+送给|sònggěi|give to|1|2|10616|success
+可乐|kělè|cola|0|1|10617|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|2|0|10618|success
+请假|qǐngjiǎ|request leave|0|2|10619|success
+梅子|méizi|plum|0|2|10620|success
+丰富|fēngfù|rich|1|0|10621|fail
+丰富|fēngfù|rich|1|0|10621|success
+丰富|fēngfù|rich|1|0|10621|success
+越来越|yuèláiyuè|gradually|1|2|10622|success
+百合|bǎihé|lily|0|2|10623|success
+软件|ruǎnjiàn|software|1|2|10624|success
+越来越|yuèláiyuè|gradually|2|1|10625|success
+多长时间|duōzhǎngshíjiān|how long|1|2|10626|success
+棕色|zōngsè|brown|2|0|10627|success
+机场|jīchǎng|airport|1|0|10628|fail
+机场|jīchǎng|airport|1|0|10628|success
+机场|jīchǎng|airport|1|0|10628|success
+碗|wǎn|bowl|2|0|10629|fail
+碗|wǎn|bowl|2|0|10629|success
+碗|wǎn|bowl|2|0|10629|success
+灰色|huīsè|grey|2|0|10630|success
+丰富|fēngfù|rich|1|0|10631|success
+培根|péigēn|bacon|2|0|10632|success
+杏子|xìngzi|apricot|0|2|10633|success
+可乐|kělè|cola|0|1|10634|success
+上个周末|shànggèzhōumò|last weekend|1|2|10635|fail
+上个周末|shànggèzhōumò|last weekend|1|2|10635|success
+上个周末|shànggèzhōumò|last weekend|1|2|10635|success
+中间|zhōngjiān|between|0|2|10636|fail
+中间|zhōngjiān|between|0|2|10636|success
+中间|zhōngjiān|between|0|2|10636|success
+美|měi|beautiful|0|2|10637|success
+机场|jīchǎng|airport|1|0|10638|success
+鱼丸|yúwán|fish ball|2|0|10639|success
+送给|sònggěi|give to|0|1|10640|success
+练功夫|liàngōngfū|practice kung fu|1|0|10641|success
+绿豆汤|lǜdòutāng|mung bean soup|2|1|10642|success
+送给|sònggěi|see off|2|1|10643|fail
+送给|sònggěi|see off|2|1|10643|success
+送给|sònggěi|see off|2|1|10643|success
+有一点|yǒuyīdiǎn|a bit|1|2|10644|success
+上个周末|shànggèzhōumò|last weekend|1|2|10645|success
+中间|zhōngjiān|between|0|2|10646|success
+碗|wǎn|bowl|2|0|10647|success
+丰富|fēngfù|rich|1|0|10648|success
+加油站|jiāyóuzhàn|gas station|1|0|10649|success
+多长时间|duōzhǎngshíjiān|how long|2|1|10650|success
+看看|kànkàn|take a look|2|0|10651|success
+梨|lí|pear|2|0|10652|success
+送给|sònggěi|see off|2|1|10653|success
+海|hǎi|ocean|0|1|10654|success
+机场|jīchǎng|airport|1|0|10655|success
+多长时间|duōzhǎngshíjiān|how long|1|2|10656|success
+碗|wǎn|bowl|0|2|10657|success
+火腿|huǒtuǐ|sausage|0|2|10658|success
+辣|là|spicy|0|1|10659|success
+山|shān|hill|1|0|10660|success
+葡萄干|pútáogàn|raisin|0|1|10661|success
+上个周末|shànggèzhōumò|last weekend|1|2|10662|success
+中间|zhōngjiān|between|0|2|10663|success
+可乐|kělè|cola|0|1|10664|success
+卖|mài|sell|1|2|10665|success
+像|xiàng|resemble|2|0|10666|success
+粥|zhōu|porridge|0|2|10667|success
+点酒|diǎnjiǔ|order drink|2|0|10668|success
+修车|xiūchē|repair car|0|1|10669|success
+送给|sònggěi|see off|2|1|10670|success
+燕麦粥|yànmàizhōu|porridge|0|1|10671|fail
+麦片|màipiàn|cereal|1|0|10671|fail
+燕麦粥|yànmàizhōu|porridge|0|1|10671|success
+燕麦粥|yànmàizhōu|porridge|0|1|10671|success
+麦片|màipiàn|cereal|1|0|10672|fail
+麦片|màipiàn|cereal|1|0|10672|success
+麦片|màipiàn|cereal|1|0|10672|success
+燕麦粥|yànmàizhōu|oatmeal|0|2|10673|fail
+燕麦粥|yànmàizhōu|oatmeal|0|2|10673|success
+燕麦粥|yànmàizhōu|oatmeal|0|2|10673|success
+看见|kànjiàn|see|0|2|10674|success
+虫|chóng|insect worm|2|0|10675|success
+碗|wǎn|bowl|2|0|10676|success
+丰富|fēngfù|rich|1|0|10677|success
+教堂|jiàotáng|church|0|1|10678|fail
+教堂|jiàotáng|church|0|1|10678|fail
+教堂|jiàotáng|church|0|1|10678|success
+有钱人|yǒuqiánrén|rich person|2|0|10679|success
+无花果干|wúhuāguǒgàn|dried fig|1|2|10680|success
+燕麦粥|yànmàizhōu|porridge|0|1|10681|success
+麦片|màipiàn|cereal|1|0|10682|success
+燕麦粥|yànmàizhōu|oatmeal|0|2|10683|success
+机场|jīchǎng|airport|1|0|10684|success
+无花果|wúhuāguǒ|fig|2|0|10685|success
+桥|qiáo|bridge|0|2|10686|fail
+桥|qiáo|bridge|0|2|10686|success
+桥|qiáo|bridge|0|2|10686|success
+歌剧院|gējùyuàn|opera|0|2|10687|fail
+歌剧院|gējùyuàn|opera|0|2|10687|success
+歌剧院|gējùyuàn|opera|0|2|10687|success
+教堂|jiàotáng|church|0|1|10688|success
+土豆泥|tǔdòuní|mashed potato|1|0|10689|success
+窄|zhǎi|narrow|2|0|10690|success
+上个周末|shànggèzhōumò|last weekend|1|2|10691|success
+麦片|màipiàn|cereal|1|0|10692|success
+中间|zhōngjiān|between|0|2|10693|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|2|1|10694|success
+可以|kěyǐ|possible|2|1|10695|success
+幸福|xìngfú|happiness|0|2|10696|fail
+幸福|xìngfú|happiness|0|2|10696|success
+幸福|xìngfú|happiness|0|2|10696|success
+歌剧院|gējùyuàn|opera|0|2|10697|success
+教堂|jiàotáng|church|0|1|10698|success
+燕麦粥|yànmàizhōu|porridge|0|1|10699|success
+燕麦粥|yànmàizhōu|oatmeal|0|2|10700|success
+送给|sònggěi|see off|2|1|10701|success
+葡萄干|pútáogàn|raisin|1|0|10702|success
+桥|qiáo|bridge|0|2|10703|fail
+桥|qiáo|bridge|0|2|10703|success
+桥|qiáo|bridge|0|2|10703|success
+所以|suǒyǐ|so|0|2|10704|fail
+所以|suǒyǐ|so|0|2|10704|success
+所以|suǒyǐ|so|0|2|10704|fail
+生菜|shēngcài|stranger|2|0|10705|success
+幸福|xìngfú|happiness|0|2|10706|success
