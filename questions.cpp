@@ -820,13 +820,18 @@ bool chinese::questions::ask_all_chinese_chars(
 			<< std::to_string(iter0->second.first) << " "
 			<< std::to_string(iter0->second.second);
 
+
+
+		int repeat=3;
+repeat_question:
+
 		bool outcome = ask_1_chinese_char(
 			question_number.str(),
 			iter0->first.first,
 			DATATYPE(iter0->first.second),
 			breaks
 		);
-
+		iter0->second.first = sequence_number;
 	// the meaning of the tokens
 	// 0: chinese character
 	// 1: asked datatype (0=chinese, 1=pinyin, 2=english)
@@ -842,12 +847,18 @@ bool chinese::questions::ask_all_chinese_chars(
 		statusfile << "|" << sequence_number;
 		if(outcome)
 		{
-			statusfile << "|success";
+			statusfile << "|success\n";
 			iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
+			std::cout << "Answer accepted!\n";
+			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+			if(repeat == 3)
+			{
+				repeat = 0;
+			}
 		}
 		else
 		{
-			statusfile << "|fail";
+			statusfile << "|fail\n";
 			iter0->second.second = std::min(
 				(int)(iter0->second.second + score_deteriorate_if_fail+(gen()%5000)*.00001),
 				std::max(
@@ -855,8 +866,12 @@ bool chinese::questions::ask_all_chinese_chars(
 					(int)(max_complexity* iter0->first.first.size()/6)
 				)
 			);
+			--repeat;
+			if(repeat>0)
+			{
+				goto repeat_question;
+			}
 		}
-		statusfile << "\n";
 	}
 }
 
