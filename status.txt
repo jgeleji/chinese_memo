@@ -14346,3 +14346,250 @@
 所以|suǒyǐ|so|0|2|10704|fail
 生菜|shēngcài|stranger|2|0|10705|success
 幸福|xìngfú|happiness|0|2|10706|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|10707|success
+教堂|jiàotáng|church|0|1|10708|success
+麦片|màipiàn|cereal|1|0|10709|fail
+麦片|màipiàn|cereal|1|0|10709|success
+麦片|màipiàn|cereal|1|0|10709|success
+坐船|zuòchuán|take ship|2|0|10710|success
+名单|míngdān|name list|0|1|10711|success
+辣|là|spicy|2|1|10712|success
+所以|suǒyǐ|so|2|1|10713|success
+所以|suǒyǐ|so|0|2|10714|fail
+所以|suǒyǐ|so|0|2|10714|success
+所以|suǒyǐ|so|0|2|10714|success
+歌剧院|gējùyuàn|opera|0|2|10715|success
+无花果|wúhuāguǒ|fig|2|1|10716|success
+饺子|jiǎozi|dumpling|0|2|10717|success
+贵|guì|expensive|0|1|10718|success
+麦片|màipiàn|cereal|1|0|10719|success
+桥|qiáo|bridge|0|2|10720|success
+美|měi|beautiful|2|0|10721|success
+黄油|huángyóu|butter|0|2|10722|success
+幸福|xìngfú|happiness|0|2|10723|fail
+希望|xīwàng|wish hope|2|0|10723|fail
+幸福|xìngfú|happiness|0|2|10723|success
+幸福|xìngfú|happiness|0|2|10723|success
+希望|xīwàng|wish hope|2|0|10724|fail
+希望|xīwàng|wish hope|2|0|10724|success
+希望|xīwàng|wish hope|2|0|10724|success
+所以|suǒyǐ|so|0|2|10725|success
+教堂|jiàotáng|church|0|1|10726|success
+幸福|xìngfú|happiness|1|2|10727|success
+燕麦粥|yànmàizhōu|porridge|0|1|10728|success
+麦片|màipiàn|cereal|1|0|10729|success
+燕麦粥|yànmàizhōu|oatmeal|0|2|10730|success
+就|jiù|exactly|2|1|10731|success
+哪里|nǎlǐ|there|0|2|10732|success
+幸福|xìngfú|happiness|0|2|10733|success
+希望|xīwàng|wish hope|2|0|10734|success
+所以|suǒyǐ|so|0|2|10735|success
+炖肉|dùnròu|stew|1|2|10736|success
+牛油果|niúyóuguǒ|avocado|0|1|10737|success
+公共汽车|gōnggòngqìchē|bus|0|2|10738|success
+请假|qǐngjiǎ|request leave|2|1|10739|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|0|2|10740|success
+灰色|huīsè|grey|1|0|10741|fail
+灰色|huīsè|grey|1|0|10741|success
+灰色|huīsè|grey|1|0|10741|success
+塑胶|sùjiāo|plastic|0|1|10742|fail
+塑胶|sùjiāo|plastic|0|1|10742|success
+塑胶|sùjiāo|plastic|0|1|10742|success
+幸福|xìngfú|happiness|0|2|10743|success
+希望|xīwàng|wish hope|2|0|10744|success
+歌剧院|gējùyuàn|opera|0|2|10745|success
+麦片|màipiàn|cereal|1|0|10746|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|0|10747|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|0|10747|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|0|10747|success
+每天|měitiān|every day|2|0|10748|success
+桥|qiáo|bridge|0|2|10749|success
+塑胶|sùjiāo|plastic|0|2|10750|fail
+塑胶|sùjiāo|plastic|0|2|10750|success
+塑胶|sùjiāo|plastic|0|2|10750|success
+灰色|huīsè|grey|1|0|10751|success
+塑胶|sùjiāo|plastic|0|1|10752|success
+所以|suǒyǐ|so|0|2|10753|success
+这个|zhègè|this|0|1|10754|success
+教堂|jiàotáng|church|0|1|10755|success
+千米|qiānmǐ|kilometre|0|2|10756|fail
+千米|qiānmǐ|kilometre|0|2|10756|success
+千米|qiānmǐ|kilometre|0|2|10756|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|0|10757|success
+德国|déguó|germany|0|2|10758|success
+送礼物|sònglǐwù|give gift|1|0|10759|fail
+送礼物|sònglǐwù|give gift|1|0|10759|success
+送礼物|sònglǐwù|give gift|1|0|10759|success
+塑胶|sùjiāo|plastic|0|2|10760|success
+希望|xīwàng|wish hope|2|0|10761|success
+幸福|xìngfú|happiness|0|2|10762|success
+白菜|báicài|chinese cabbage|1|0|10763|success
+没意思|méiyìsi|boring|2|1|10764|success
+最近|zuìjìn|lately|0|1|10765|fail
+最近|zuìjìn|lately|0|1|10765|success
+最近|zuìjìn|lately|0|1|10765|success
+千米|qiānmǐ|kilometre|0|2|10766|success
+有意思|yǒuyìsi|interesting|0|1|10767|success
+灰色|huīsè|grey|1|0|10768|success
+送礼物|sònglǐwù|give gift|1|0|10769|success
+塑胶|sùjiāo|plastic|0|1|10770|fail
+塑胶|sùjiāo|plastic|0|1|10770|success
+塑胶|sùjiāo|plastic|0|1|10770|success
+账单|zhàngdān|bill|0|1|10771|fail
+账单|zhàngdān|bill|0|1|10771|success
+账单|zhàngdān|bill|0|1|10771|success
+陶诗|táoshī|tao shi|2|0|10772|fail
+陶诗|táoshī|tao shi|2|0|10772|success
+陶诗|táoshī|tao shi|2|0|10772|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|1|10773|fail
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|1|10773|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|1|10773|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|0|10774|success
+最近|zuìjìn|lately|0|1|10775|success
+麦片|màipiàn|cereal|1|0|10776|success
+塑胶|sùjiāo|plastic|0|2|10777|success
+练功夫|liàngōngfū|practice kung fu|0|1|10778|fail
+练功夫|liàngōngfū|practice kung fu|0|1|10778|success
+练功夫|liàngōngfū|practice kung fu|0|1|10778|success
+无花果干|wúhuāguǒgàn|dried fig|0|1|10779|success
+塑胶|sùjiāo|plastic|0|1|10780|success
+账单|zhàngdān|bill|0|1|10781|success
+陶诗|táoshī|tao shi|2|0|10782|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|1|10783|success
+千米|qiānmǐ|kilometre|0|2|10784|success
+所以|suǒyǐ|so|0|2|10785|success
+送礼物|sònglǐwù|give gift|1|0|10786|success
+会|huì|can|2|1|10787|success
+练功夫|liàngōngfū|practice kung fu|0|1|10788|fail
+练功夫|liàngōngfū|practice kung fu|0|1|10788|fail
+练功夫|liàngōngfū|practice kung fu|0|1|10788|success
+茄子|jiāzi|eggplant|1|0|10789|success
+塑胶|sùjiāo|plastic|0|1|10790|success
+希望|xīwàng|wish hope|2|0|10791|success
+最近|zuìjìn|lately|0|1|10792|success
+幸福|xìngfú|happiness|0|2|10793|success
+回答|huídá|answer|1|2|10794|success
+燕麦粥|yànmàizhōu|porridge|1|0|10795|success
+火锅|huǒguō|hot pot|2|0|10796|success
+灰色|huīsè|grey|1|0|10797|success
+练功夫|liàngōngfū|practice kung fu|0|1|10798|success
+陶诗|táoshī|tao shi|2|0|10799|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|1|10800|success
+账单|zhàngdān|bill|0|1|10801|success
+加|jiā|add something|2|0|10802|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|0|10803|success
+迟到|chídào|late|0|2|10804|fail
+迟到|chídào|late|0|2|10804|success
+迟到|chídào|late|0|2|10804|success
+越来越|yuèláiyuè|gradually|0|2|10805|success
+塑胶|sùjiāo|plastic|0|2|10806|fail
+塑胶|sùjiāo|plastic|0|2|10806|success
+塑胶|sùjiāo|plastic|0|2|10806|success
+塑胶|sùjiāo|plastic|0|1|10807|success
+练功夫|liàngōngfū|practice kung fu|0|1|10808|success
+黑色|hēisè|black|2|0|10809|success
+吃饱了吗|chībǎolema|are you full|1|0|10810|success
+觉得|juédé|think feel|0|2|10811|fail
+觉得|juédé|think feel|0|2|10811|success
+觉得|juédé|think feel|0|2|10811|success
+麦片|màipiàn|cereal|2|0|10812|success
+千米|qiānmǐ|kilometre|0|2|10813|success
+迟到|chídào|late|0|2|10814|fail
+迟到|chídào|late|0|2|10814|success
+迟到|chídào|late|0|2|10814|success
+送礼物|sònglǐwù|give gift|1|0|10815|success
+塑胶|sùjiāo|plastic|0|2|10816|success
+练功夫|liàngōngfū|practice kung fu|1|2|10817|fail
+练功夫|liàngōngfū|practice kung fu|1|2|10817|success
+练功夫|liàngōngfū|practice kung fu|1|2|10817|success
+练功夫|liàngōngfū|practice kung fu|0|1|10818|success
+站|zhàn|stand|2|1|10819|success
+干豆|gàndòu|dried bean|0|2|10820|fail
+土豆|tǔdòu|potato|2|0|10820|fail
+干豆|gàndòu|dried bean|0|2|10820|success
+干豆|gàndòu|dried bean|0|2|10820|success
+土豆|tǔdòu|potato|2|0|10821|success
+觉得|juédé|think feel|0|2|10822|success
+最近|zuìjìn|lately|0|1|10823|success
+迟到|chídào|late|0|2|10824|fail
+迟到|chídào|late|0|2|10824|success
+迟到|chídào|late|0|2|10824|success
+办公室|bàngōngshì|office|2|1|10825|success
+加油站|jiāyóuzhàn|gas station|2|0|10826|success
+练功夫|liàngōngfū|practice kung fu|1|2|10827|success
+练功夫|liàngōngfū|practice kung fu|0|1|10828|success
+陶诗|táoshī|tao shi|2|0|10829|success
+干豆|gàndòu|dried bean|0|2|10830|success
+土豆|tǔdòu|potato|2|0|10831|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|2|1|10832|success
+塑胶|sùjiāo|plastic|0|2|10833|success
+迟到|chídào|late|0|2|10834|success
+账单|zhàngdān|bill|0|1|10835|success
+塑胶|sùjiāo|plastic|0|1|10836|success
+上海|shànghǎi|shanghai|0|1|10837|success
+练功夫|liàngōngfū|practice kung fu|0|1|10838|success
+觉得|juédé|think feel|0|2|10839|success
+柠檬水|níngméngshuǐ|lemonade|2|1|10840|success
+土豆|tǔdòu|potato|2|0|10841|success
+左立|zuǒlì|zuoli name|2|1|10842|success
+北京|běijīng|beijing|2|1|10843|success
+迟到|chídào|late|0|2|10844|success
+练功夫|liàngōngfū|practice kung fu|1|2|10845|success
+总是|zǒngshì|always|1|2|10846|success
+干豆|gàndòu|dried bean|0|2|10847|success
+练功夫|liàngōngfū|practice kung fu|0|1|10848|success
+蘑菇|mógū|mushroom|0|2|10849|fail
+蘑菇|mógū|mushroom|0|2|10849|success
+蘑菇|mógū|mushroom|0|2|10849|success
+酸奶|suānnǎi|yogurt|2|0|10850|fail
+酸奶|suānnǎi|yogurt|2|0|10850|success
+酸奶|suānnǎi|yogurt|2|0|10850|success
+便宜|piányi|cheap|2|1|10851|success
+就|jiù|just|2|1|10852|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|1|2|10853|success
+请假|qǐngjiǎ|request leave|1|0|10854|success
+猪肉|zhūròu|pork|1|0|10855|success
+软件|ruǎnjiàn|software|0|1|10856|fail
+软件|ruǎnjiàn|software|0|1|10856|success
+软件|ruǎnjiàn|software|0|1|10856|success
+时候|shíhou|when|0|2|10857|fail
+时间|shíjiān|time|2|0|10857|fail
+时候|shíhou|when|0|2|10857|success
+时候|shíhou|when|0|2|10857|success
+时间|shíjiān|time|2|0|10858|success
+蘑菇|mógū|mushroom|0|2|10859|success
+酸奶|suānnǎi|yogurt|2|0|10860|success
+土豆|tǔdòu|potato|2|0|10861|success
+迟到|chídào|late|0|2|10862|success
+塑胶|sùjiāo|plastic|0|2|10863|success
+多长时间|duōzhǎngshíjiān|how long|2|0|10864|success
+练功夫|liàngōngfū|practice kung fu|0|1|10865|success
+软件|ruǎnjiàn|software|0|1|10866|success
+时候|shíhou|when|0|2|10867|success
+时间|shíjiān|time|2|0|10868|success
+觉得|juédé|think feel|0|2|10869|success
+东莞|dōngguǎn|dongguan|0|2|10870|success
+丰富|fēngfù|rich|0|1|10871|success
+交响曲|jiāoxiǎngqū|symphony|0|2|10872|success
+杏子|xìngzi|apricot|0|1|10873|success
+练功夫|liàngōngfū|practice kung fu|1|2|10874|success
+课|kè|class|0|2|10875|fail
+辣|là|spicy|2|0|10875|fail
+课|kè|class|0|2|10875|success
+课|kè|class|0|2|10875|success
+辣|là|spicy|2|0|10876|success
+蘑菇|mógū|mushroom|0|2|10877|success
+时间|shíjiān|time|2|0|10878|success
+酸奶|suānnǎi|yogurt|2|0|10879|success
+干豆|gàndòu|dried bean|0|2|10880|success
+点|diǎn|point out|2|0|10881|success
+红葡萄酒|hóngpútáojiǔ|red wine|0|2|10882|success
+软件|ruǎnjiàn|software|0|1|10883|success
+时候|shíhou|when|0|2|10884|success
+凉快|liángkuài|cool|2|1|10885|success
+份|fèn|portion|0|2|10886|fail
+份|fèn|portion|0|2|10886|success
+份|fèn|portion|0|2|10886|success
+就|jiù|exactly|2|0|10887|fail
+就|jiù|exactly|2|0|10887|success
+就|jiù|exactly|2|0|10887|success
