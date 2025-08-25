@@ -506,6 +506,7 @@ std::string chinese::Input::do_input_pinyin(std::string description) const
 		if(add == "-")
 		{
 			ret.clear();
+			state_number = INPUT_STATE_TYPE_PINYIN;
 		}
 		else
 		{
@@ -587,7 +588,15 @@ std::string chinese::Input::do_input_english(std::string description) const
 		refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color        << "0 " << ret << "\r\n";
-		ret += this->do_input_1char_english(ret, state_number, description);
+		std::string c = this->do_input_1char_english(ret, state_number, description);
+		if(c=="-")
+		{
+			ret.clear();
+		}
+		else
+		{
+			ret += c;
+		}
 	}
 	return ret;
 }

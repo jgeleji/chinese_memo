@@ -11,8 +11,9 @@
 告诉|tell
 白菜|chinese cabbage
 生菜|lettuce
-生菜|stranger
-生人|acquaintance
+陌生人|stranger
+生人|stranger
+熟人|acquaintance
 鸡|chicken
 鸭|duck
 鸟|bird
