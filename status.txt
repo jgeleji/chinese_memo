@@ -14593,3 +14593,862 @@
 就|jiù|exactly|2|0|10887|fail
 就|jiù|exactly|2|0|10887|success
 就|jiù|exactly|2|0|10887|success
+辣|là|spicy|2|0|10888|success
+有的时候|yǒudeshíhòu|sometimes|1|2|10889|success
+绿灯|lǜdēng|green light|0|2|10890|success
+迟到|chídào|late|0|2|10891|fail
+软件|ruǎnjiàn|software|2|0|10891|fail
+迟到|chídào|late|0|2|10891|success
+迟到|chídào|late|0|2|10891|success
+软件|ruǎnjiàn|software|2|0|10892|success
+课|kè|class|0|2|10893|fail
+辣|là|spicy|2|0|10893|fail
+课|kè|class|0|2|10893|success
+课|kè|class|0|2|10893|success
+练功夫|liàngōngfū|practice kung fu|0|1|10894|fail
+练功夫|liàngōngfū|practice kung fu|0|1|10894|success
+练功夫|liàngōngfū|practice kung fu|0|1|10894|success
+时间|shíjiān|time|2|0|10895|success
+可以|kěyǐ|possible|0|1|10896|success
+国会大厦|guóhuìdàshà|parliament|1|2|10897|success
+辣|là|spicy|2|0|10898|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|0|1|10899|success
+白菜|báicài|chinese cabbage|2|1|10900|success
+迟到|chídào|late|0|2|10901|fail
+迟到|chídào|late|0|2|10901|success
+迟到|chídào|late|0|2|10901|success
+软件|ruǎnjiàn|software|2|0|10902|success
+份|fèn|portion|0|2|10903|success
+练功夫|liàngōngfū|practice kung fu|0|1|10904|success
+就|jiù|exactly|2|0|10905|success
+蘑菇|mógū|mushroom|0|2|10906|success
+消防局|xiāofángjú|fire station|0|2|10907|fail
+消防局|xiāofángjú|fire station|0|2|10907|success
+消防局|xiāofángjú|fire station|0|2|10907|success
+酸奶|suānnǎi|yogurt|2|0|10908|success
+竹笋|zhúsǔn|bamboo shoot|1|2|10909|fail
+竹笋|zhúsǔn|bamboo shoot|1|2|10909|success
+竹笋|zhúsǔn|bamboo shoot|1|2|10909|success
+课|kè|class|0|2|10910|success
+迟到|chídào|late|0|2|10911|success
+软件|ruǎnjiàn|software|0|1|10912|success
+时候|shíhou|when|0|2|10913|success
+香肠|xiāngcháng|sausage|2|1|10914|success
+辣|là|spicy|2|0|10915|success
+丰富|fēngfù|rich|0|2|10916|success
+消防局|xiāofángjú|fire station|0|2|10917|success
+培根|péigēn|bacon|1|2|10918|success
+竹笋|zhúsǔn|bamboo shoot|1|2|10919|success
+软件|ruǎnjiàn|software|2|0|10920|success
+迟到|chídào|late|0|2|10921|success
+练功夫|liàngōngfū|practice kung fu|0|1|10922|success
+改天|gǎitiān|the other day|0|2|10923|fail
+改天|gǎitiān|the other day|0|2|10923|success
+改天|gǎitiān|the other day|0|2|10923|success
+时间|shíjiān|time|2|0|10924|success
+盘|pán|plate|2|1|10925|fail
+盘|pán|plate|2|1|10925|success
+盘|pán|plate|2|1|10925|success
+红色|hóngsè|red|1|2|10926|success
+忧虑|yōulǜ|worry|2|1|10927|fail
+担心|dānxīn|worry spoken|1|2|10927|fail
+忧虑|yōulǜ|worry|2|1|10927|success
+忧虑|yōulǜ|worry|2|1|10927|success
+担心|dānxīn|worry spoken|1|2|10928|fail
+担心|dānxīn|worry spoken|1|2|10928|success
+担心|dānxīn|worry spoken|1|2|10928|success
+山|shān|hill|0|1|10929|success
+就|jiù|exactly|0|2|10930|fail
+辣|là|spicy|2|0|10930|fail
+就|jiù|exactly|0|2|10930|success
+就|jiù|exactly|0|2|10930|success
+辣|là|spicy|2|0|10931|success
+份|fèn|portion|0|2|10932|success
+改天|gǎitiān|the other day|0|2|10933|success
+消防局|xiāofángjú|fire station|0|2|10934|success
+就|jiù|exactly|2|0|10935|success
+竹笋|zhúsǔn|bamboo shoot|1|2|10936|success
+忧虑|yōulǜ|worry|2|1|10937|success
+担心|dānxīn|worry spoken|1|2|10938|success
+迟到|chídào|late|0|2|10939|success
+课|kè|class|0|2|10940|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|0|10941|fail
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|0|10941|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|0|10941|success
+盘|pán|plate|2|1|10942|success
+节|jié|m.w.class|1|0|10943|fail
+节|jié|m.w.class|1|0|10943|success
+节|jié|m.w.class|1|0|10943|success
+一般|yībān|general|0|2|10944|success
+教堂|jiàotáng|church|0|2|10945|fail
+教堂|jiàotáng|church|0|2|10945|success
+教堂|jiàotáng|church|0|2|10945|success
+好久不见|hǎojiǔbùjiàn|long time no see|1|2|10946|success
+就|jiù|exactly|0|2|10947|fail
+就|jiù|exactly|0|2|10947|success
+就|jiù|exactly|0|2|10947|success
+担心|dānxīn|worry spoken|1|2|10948|success
+辣|là|spicy|2|0|10949|success
+改天|gǎitiān|the other day|0|2|10950|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|0|10951|success
+软件|ruǎnjiàn|software|2|0|10952|success
+练功夫|liàngōngfū|practice kung fu|0|1|10953|success
+忧虑|yōulǜ|worry|2|1|10954|success
+教堂|jiàotáng|church|0|2|10955|success
+常常|chángcháng|often|2|0|10956|success
+柠檬水|níngméngshuǐ|lemonade|2|0|10957|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|10958|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|10958|fail
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|10958|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10959|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10959|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10959|success
+节|jié|m.w.class|1|0|10960|success
+油条|yóutiáo|deep fried dough|1|2|10961|fail
+油条|yóutiáo|deep fried dough|1|2|10961|success
+油条|yóutiáo|deep fried dough|1|2|10961|success
+塑胶|sùjiāo|plastic|0|2|10962|success
+消防局|xiāofángjú|fire station|0|2|10963|success
+就|jiù|exactly|0|2|10964|fail
+就|jiù|exactly|0|2|10964|success
+就|jiù|exactly|0|2|10964|success
+担心|dānxīn|worry spoken|1|2|10965|success
+辣|là|spicy|2|0|10966|success
+竹笋|zhúsǔn|bamboo shoot|1|2|10967|fail
+竹笋|zhúsǔn|bamboo shoot|1|2|10967|success
+竹笋|zhúsǔn|bamboo shoot|1|2|10967|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|10968|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10969|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10969|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10969|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|0|10970|success
+油条|yóutiáo|deep fried dough|1|2|10971|fail
+油条|yóutiáo|deep fried dough|1|2|10971|success
+油条|yóutiáo|deep fried dough|1|2|10971|success
+教堂|jiàotáng|church|0|2|10972|fail
+教堂|jiàotáng|church|0|2|10972|success
+教堂|jiàotáng|church|0|2|10972|success
+盘|pán|plate|2|1|10973|success
+迟到|chídào|late|0|2|10974|success
+鸡蛋|jīdàn|egg|2|0|10975|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|1|10976|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|1|10976|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|1|10976|success
+竹笋|zhúsǔn|bamboo shoot|1|2|10977|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|10978|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10979|success
+改天|gǎitiān|the other day|0|2|10980|success
+油条|yóutiáo|deep fried dough|1|2|10981|success
+教堂|jiàotáng|church|0|2|10982|success
+就|jiù|exactly|0|2|10983|fail
+就|jiù|exactly|0|2|10983|success
+就|jiù|exactly|0|2|10983|success
+忧虑|yōulǜ|worry|2|1|10984|success
+澳大利亚|àodàlìyà|australia|1|0|10985|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|1|10986|success
+苹果汁|píngguǒzhī|apple juice|2|1|10987|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|10988|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10989|success
+节|jié|m.w.class|1|0|10990|success
+油条|yóutiáo|deep fried dough|1|2|10991|success
+教堂|jiàotáng|church|0|2|10992|success
+贝|bèi|shell|0|2|10993|fail
+贝|bèi|shell|0|2|10993|success
+贝|bèi|shell|0|2|10993|success
+竹笋|zhúsǔn|bamboo shoot|1|2|10994|success
+辣|là|spicy|2|0|10995|success
+担心|dānxīn|worry spoken|1|2|10996|success
+几位|jǐwèi|how many of you|2|0|10997|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|10998|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|10999|success
+就|jiù|exactly|0|2|11000|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|0|11001|success
+梨|lí|pear|1|2|11002|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|1|11003|success
+名单|míngdān|name list|0|2|11004|success
+迟到|chídào|late|0|1|11005|success
+香肠|xiāngcháng|sausage|1|2|11006|fail
+香肠|xiāngcháng|sausage|1|2|11006|success
+香肠|xiāngcháng|sausage|1|2|11006|success
+生菜|shēngcài|stranger|0|1|11007|fail
+生菜|shēngcài|stranger|0|1|11007|success
+生菜|shēngcài|stranger|0|1|11007|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|11008|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|11009|success
+贝|bèi|shell|0|2|11010|fail
+贝|bèi|shell|0|2|11010|success
+贝|bèi|shell|0|2|11010|success
+油条|yóutiáo|deep fried dough|1|2|11011|success
+教堂|jiàotáng|church|0|2|11012|success
+三餐|sāncān|three meals|2|1|11013|success
+西红柿|xīhóngshì|tomato|2|1|11014|success
+陕西|shǎnxī|shaanxi|1|2|11015|fail
+山西|shānxī|shanxi|2|1|11015|fail
+陕西|shǎnxī|shaanxi|1|2|11015|success
+陕西|shǎnxī|shaanxi|1|2|11015|success
+山西|shānxī|shanxi|2|1|11016|success
+香肠|xiāngcháng|sausage|1|2|11017|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|11018|success
+生菜|shēngcài|stranger|0|1|11019|success
+葡萄干|pútáogàn|raisin|2|0|11020|success
+晚|wǎn|late|0|1|11021|success
+土豆泥|tǔdòuní|mashed potato|2|1|11022|success
+竹笋|zhúsǔn|bamboo shoot|1|2|11023|success
+理发店|lǐfādiàn|barber shop|1|2|11024|fail
+理发店|lǐfādiàn|barber shop|1|2|11024|success
+理发店|lǐfādiàn|barber shop|1|2|11024|success
+陕西|shǎnxī|shaanxi|1|2|11025|success
+山西|shānxī|shanxi|2|1|11026|success
+贝|bèi|shell|0|2|11027|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|11028|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|11029|success
+就|jiù|exactly|0|2|11030|success
+油条|yóutiáo|deep fried dough|2|0|11031|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|2|1|11032|success
+有的|yǒude|some|0|2|11033|success
+理发店|lǐfādiàn|barber shop|1|2|11034|success
+香肠|xiāngcháng|sausage|1|2|11035|success
+生菜|shēngcài|stranger|0|1|11036|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|0|1|11037|success
+一般|yībān|normally|0|2|11038|success
+成龙|chénglóng|jackie chan|2|0|11039|success
+油条|yóutiáo|deep fried dough|1|2|11040|success
+教堂|jiàotáng|church|0|2|11041|success
+陕西|shǎnxī|shaanxi|1|2|11042|success
+山西|shānxī|shanxi|2|1|11043|success
+生活|shēnghuó|life|2|0|11044|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|11045|success
+担心|dānxīn|worry spoken|2|0|11046|fail
+担心|dānxīn|worry spoken|2|0|11046|success
+担心|dānxīn|worry spoken|2|0|11046|success
+盘|pán|plate|0|2|11047|success
+绳子|shéngzi|rope|0|1|11048|success
+窄|zhǎi|narrow|0|2|11049|fail
+窄|zhǎi|narrow|0|2|11049|success
+窄|zhǎi|narrow|0|2|11049|success
+十几个|shíjǐgè|ten plus|1|2|11050|fail
+十多个|shíduōgè|about ten|2|1|11050|fail
+十几个|shíjǐgè|ten plus|1|2|11050|success
+十几个|shíjǐgè|ten plus|1|2|11050|success
+十多个|shíduōgè|about ten|2|1|11051|success
+理发店|lǐfādiàn|barber shop|1|2|11052|success
+湿豆|shīdòu|white bean|0|1|11053|fail
+湿豆|shīdòu|white bean|0|1|11053|success
+湿豆|shīdòu|white bean|0|1|11053|success
+地铁|dìtiě|subway|2|1|11054|success
+可以啊|kěyǐa|sure|0|1|11055|success
+担心|dānxīn|worry spoken|2|0|11056|success
+贝|bèi|shell|0|2|11057|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|2|11058|success
+周|zhōu|week|0|2|11059|success
+十几个|shíjǐgè|ten plus|1|2|11060|success
+十多个|shíduōgè|about ten|2|1|11061|success
+超市|chāoshì|supermarket|0|1|11062|success
+湿豆|shīdòu|white bean|0|1|11063|success
+香肠|xiāngcháng|sausage|1|2|11064|success
+生菜|shēngcài|stranger|0|1|11065|success
+窄|zhǎi|narrow|0|2|11066|success
+意大利|yìdàlì|italy|1|0|11067|fail
+意大利|yìdàlì|italy|1|0|11067|success
+意大利|yìdàlì|italy|1|0|11067|success
+醋|cù|vinegar|0|1|11068|fail
+醋|cù|vinegar|0|1|11068|success
+醋|cù|vinegar|0|1|11068|success
+土豆|tǔdòu|potato|2|0|11069|success
+竹笋|zhúsǔn|bamboo shoot|1|2|11070|success
+陕西|shǎnxī|shaanxi|1|2|11071|success
+山西|shānxī|shanxi|2|1|11072|success
+担心|dānxīn|worry spoken|2|0|11073|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|2|11074|success
+幸福|xìngfú|happiness|0|1|11075|success
+你真可爱|nǐzhēnkěài|you look so cute|0|2|11076|fail
+你真可爱|nǐzhēnkěài|you look so cute|0|2|11076|success
+你真可爱|nǐzhēnkěài|you look so cute|0|2|11076|success
+意大利|yìdàlì|italy|1|0|11077|success
+十多个|shíduōgè|about ten|2|1|11078|success
+十几个|shíjǐgè|ten plus|1|2|11079|success
+湿豆|shīdòu|white bean|0|1|11080|success
+理发店|lǐfādiàn|barber shop|1|2|11081|success
+颜色|yánsè|color|1|0|11082|success
+理发店|lǐfādiàn|barber shop|0|1|11083|success
+好臭|hǎochòu|smelly|1|0|11084|fail
+好臭|hǎochòu|smelly|1|0|11084|success
+好臭|hǎochòu|smelly|1|0|11084|success
+醋|cù|vinegar|0|1|11085|success
+你真可爱|nǐzhēnkěài|you look so cute|0|2|11086|success
+梨|lí|pear|1|0|11087|success
+果汁|guǒzhī|fruit juice|2|1|11088|success
+汽油|qìyóu|gasoline|0|2|11089|fail
+汽车|qìchē|car|2|0|11089|fail
+汽油|qìyóu|gasoline|0|2|11089|success
+汽油|qìyóu|gasoline|0|2|11089|success
+汽车|qìchē|car|2|0|11090|success
+左边|zuǒbiān|left|2|1|11091|success
+鸭|yā|duck|2|0|11092|success
+辣|là|spicy|1|2|11093|success
+好臭|hǎochòu|smelly|1|0|11094|success
+意大利|yìdàlì|italy|1|0|11095|success
+窄|zhǎi|narrow|0|2|11096|success
+盐|yán|salt|0|1|11097|success
+汽油|qìyóu|gasoline|1|0|11098|success
+汽油|qìyóu|gasoline|0|2|11099|success
+汽车|qìchē|car|2|0|11100|success
+窄|zhǎi|narrow|0|1|11101|success
+担心|dānxīn|worry spoken|2|0|11102|fail
+担心|dānxīn|worry spoken|2|0|11102|success
+担心|dānxīn|worry spoken|2|0|11102|success
+你真可爱|nǐzhēnkěài|you look so cute|0|2|11103|success
+白葡萄酒|báipútáojiǔ|white wine|0|2|11104|success
+陌生人|mòshēngrén|stranger|0|1|11105|success
+陌生人|mòshēngrén|stranger|0|2|11106|success
+十多个|shíduōgè|about ten|2|1|11107|success
+十几个|shíjǐgè|ten plus|1|2|11108|success
+湿豆|shīdòu|white bean|0|1|11109|success
+汽车|qìchē|car|2|0|11110|success
+好臭|hǎochòu|smelly|1|0|11111|success
+担心|dānxīn|worry spoken|2|0|11112|success
+陌生人|mòshēngrén|stranger|1|2|11113|success
+醋|cù|vinegar|0|1|11114|success
+一个人|yīgèrén|alone|0|2|11115|success
+汽油|qìyóu|gasoline|0|2|11116|success
+鸭|yā|duck|0|2|11117|success
+迟到|chídào|late|1|0|11118|success
+就|jiù|just|1|0|11119|success
+意思|yìsi|meaning|1|2|11120|fail
+意思|yìsi|meaning|1|2|11120|success
+意思|yìsi|meaning|1|2|11120|success
+远|yuǎn|far|2|1|11121|success
+担心|dānxīn|worry spoken|2|0|11122|success
+光临|guānglín|honorable presence|2|0|11123|fail
+光临|guānglín|honorable presence|2|0|11123|success
+光临|guānglín|honorable presence|2|0|11123|success
+意大利|yìdàlì|italy|1|0|11124|success
+湿豆|shīdòu|white bean|1|2|11125|success
+蔬菜|shūcài|vegetable|0|1|11126|fail
+蔬菜|shūcài|vegetable|0|1|11126|success
+蔬菜|shūcài|vegetable|0|1|11126|fail
+汽车|qìchē|car|2|0|11127|success
+国王|guówáng|king|0|1|11128|success
+腿|tuǐ|leg|1|0|11129|success
+意思|yìsi|meaning|1|2|11130|success
+东莞|dōngguǎn|dongguan|0|1|11131|success
+你真可爱|nǐzhēnkěài|you look so cute|0|2|11132|success
+光临|guānglín|honorable presence|2|0|11133|success
+灰色|huīsè|grey|0|2|11134|success
+周一|zhōuyī|monday|1|2|11135|success
+蔬菜|shūcài|vegetable|0|1|11136|success
+銀行|yínháng|bank|2|0|11137|success
+黄油|huángyóu|butter|1|2|11138|success
+担心|dānxīn|worry spoken|2|0|11139|success
+好臭|hǎochòu|smelly|1|0|11140|success
+鸡蛋|jīdàn|egg|0|1|11141|success
+学校|xuéxiào|school|0|2|11142|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11143|fail
+竹笋|zhúsǔn|bamboo shoot|1|0|11143|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11143|success
+总是|zǒngshì|always|2|1|11144|success
+汽油|qìyóu|gasoline|0|2|11145|success
+蔬菜|shūcài|vegetable|0|1|11146|success
+意思|yìsi|meaning|1|2|11147|success
+中间|zhōngjiān|between|2|1|11148|success
+点|diǎn|point out|1|0|11149|success
+光临|guānglín|honorable presence|2|0|11150|success
+不客气|bùkèqì|you are welcome|0|1|11151|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|2|0|11152|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11153|success
+送人|sòngrén|send someone off|0|1|11154|fail
+送给|sònggěi|see off|1|0|11154|fail
+送人|sòngrén|send someone off|0|1|11154|success
+送人|sòngrén|send someone off|0|1|11154|fail
+送给|sònggěi|see off|1|0|11155|success
+蔬菜|shūcài|vegetable|0|1|11156|success
+汽车|qìchē|car|2|0|11157|success
+最近|zuìjìn|lately|1|2|11158|success
+看见|kànjiàn|see|2|1|11159|success
+警察局|jǐngchájú|police station|2|0|11160|fail
+警察局|jǐngchájú|police station|2|0|11160|success
+警察局|jǐngchájú|police station|2|0|11160|success
+熟人|shúrén|acquaintance|2|0|11161|fail
+熟人|shúrén|acquaintance|2|0|11161|success
+熟人|shúrén|acquaintance|2|0|11161|success
+湿豆|shīdòu|white bean|1|0|11162|success
+红葡萄酒|hóngpútáojiǔ|red wine|0|1|11163|success
+送人|sòngrén|send someone off|0|1|11164|success
+送给|sònggěi|see off|1|0|11165|success
+蔬菜|shūcài|vegetable|0|1|11166|success
+改天|gǎitiān|the other day|2|1|11167|fail
+改天|gǎitiān|the other day|2|1|11167|success
+改天|gǎitiān|the other day|2|1|11167|success
+担心|dānxīn|worry spoken|2|0|11168|success
+熟人|shúrén|acquaintance|0|1|11169|success
+警察局|jǐngchájú|police station|2|0|11170|success
+熟人|shúrén|acquaintance|2|0|11171|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11172|fail
+竹笋|zhúsǔn|bamboo shoot|1|0|11172|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11172|success
+牛奶|niúnǎi|milk|2|1|11173|success
+送人|sòngrén|send someone off|0|1|11174|success
+送给|sònggěi|see off|1|0|11175|success
+意思|yìsi|meaning|1|2|11176|success
+改天|gǎitiān|the other day|2|1|11177|success
+周一|zhōuyī|monday|0|1|11178|success
+光临|guānglín|honorable presence|2|0|11179|success
+熟人|shúrén|acquaintance|2|1|11180|success
+丰富|fēngfù|rich|2|0|11181|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11182|success
+蔬菜|shūcài|vegetable|0|1|11183|success
+送人|sòngrén|send someone off|0|1|11184|success
+大蒜|dàsuàn|garlic|1|2|11185|fail
+大蒜|dàsuàn|garlic|1|2|11185|success
+大蒜|dàsuàn|garlic|1|2|11185|success
+公共汽车|gōnggòngqìchē|bus|2|1|11186|success
+警察局|jǐngchájú|police station|2|0|11187|success
+熟人|shúrén|acquaintance|2|0|11188|success
+颜色|yánsè|color|1|2|11189|success
+黄瓜|huángguā|cucumber|1|2|11190|success
+西红柿|xīhóngshì|tomato|1|2|11191|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11192|success
+送给|sònggěi|see off|1|0|11193|success
+送人|sòngrén|send someone off|0|1|11194|success
+大蒜|dàsuàn|garlic|1|2|11195|success
+改天|gǎitiān|the other day|2|1|11196|success
+啤酒|píjiǔ|beer|2|0|11197|success
+买单|mǎidān|pay the bill|0|1|11198|fail
+买单|mǎidān|pay the bill|0|1|11198|success
+买单|mǎidān|pay the bill|0|1|11198|success
+一点儿|yīdiǎner|a bit|2|1|11199|success
+熟人|shúrén|acquaintance|1|0|11200|fail
+熟人|shúrén|acquaintance|1|0|11200|success
+熟人|shúrén|acquaintance|1|0|11200|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11201|fail
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11201|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11201|fail
+像|xiàng|resemble|0|2|11202|fail
+像|xiàng|resemble|0|2|11202|success
+像|xiàng|resemble|0|2|11202|success
+陌生人|mòshēngrén|stranger|1|0|11203|success
+竹笋|zhúsǔn|bamboo shoot|0|2|11204|success
+粥|zhōu|porridge|1|0|11205|success
+几十个|jǐshígè|multiple of ten|0|1|11206|success
+红葡萄酒|hóngpútáojiǔ|red wine|2|1|11207|success
+买单|mǎidān|pay the bill|0|1|11208|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11209|success
+熟人|shúrén|acquaintance|1|0|11210|fail
+熟人|shúrén|acquaintance|1|0|11210|success
+熟人|shúrén|acquaintance|1|0|11210|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11211|success
+大蒜|dàsuàn|garlic|1|2|11212|success
+送人|sòngrén|send someone off|0|1|11213|success
+蔬菜|shūcài|vegetable|0|1|11214|success
+这个|zhègè|this|2|0|11215|success
+警察局|jǐngchájú|police station|2|0|11216|success
+熟人|shúrén|acquaintance|2|0|11217|success
+国会大厦|guóhuìdàshà|parliament|0|2|11218|success
+像|xiàng|resemble|0|2|11219|success
+熟人|shúrén|acquaintance|1|0|11220|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11221|success
+送给|sònggěi|see off|1|0|11222|success
+一点儿|yīdiǎner|a bit|2|0|11223|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11224|fail
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11224|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11224|success
+买单|mǎidān|pay the bill|0|1|11225|success
+改天|gǎitiān|the other day|2|1|11226|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|0|1|11227|success
+面包加萨拉米和奶酪|miànbāojiāsàlāmǐhénǎilào|bread with salami and cheese|1|2|11228|success
+请假|qǐngjiǎ|request leave|1|2|11229|success
+熟人|shúrén|acquaintance|1|0|11230|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11231|success
+大蒜|dàsuàn|garlic|2|0|11232|success
+加|jiā|add something|0|1|11233|fail
+加|jiā|add something|0|1|11233|success
+加|jiā|add something|0|1|11233|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11234|success
+就|jiù|just|0|2|11235|success
+盘|pán|plate|1|0|11236|success
+忧虑|yōulǜ|worry|2|0|11237|fail
+忧虑|yōulǜ|worry|2|0|11237|success
+忧虑|yōulǜ|worry|2|0|11237|success
+竹笋|zhúsǔn|bamboo shoot|1|0|11238|success
+买单|mǎidān|pay the bill|2|0|11239|success
+牛角包|niújiǎobāo|croissant|2|1|11240|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11241|success
+大蒜|dàsuàn|garlic|1|2|11242|success
+送人|sòngrén|send someone off|0|1|11243|success
+最|zuì|the most|2|0|11244|success
+狮子|shīzi|lion|0|2|11245|fail
+狮子|shīzi|lion|0|2|11245|success
+狮子|shīzi|lion|0|2|11245|success
+熟人|shúrén|acquaintance|1|2|11246|success
+忧虑|yōulǜ|worry|2|0|11247|success
+熟人|shúrén|acquaintance|1|0|11248|success
+像|xiàng|resemble|0|2|11249|success
+加|jiā|add something|0|1|11250|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11251|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11252|success
+加油|jiāyóu|come on|2|0|11253|success
+买单|mǎidān|pay the bill|0|1|11254|success
+狮子|shīzi|lion|0|2|11255|success
+动物园|dòngwùyuán|zoo|2|0|11256|fail
+动物园|dòngwùyuán|zoo|2|0|11256|success
+动物园|dòngwùyuán|zoo|2|0|11256|success
+黄瓜|huángguā|cucumber|2|1|11257|success
+火腿|huǒtuǐ|sausage|1|2|11258|success
+熟人|shúrén|acquaintance|0|2|11259|success
+灰色|huīsè|grey|0|1|11260|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11261|success
+千米|qiānmǐ|kilometre|1|0|11262|success
+莲子|liánzi|lotus seed|1|2|11263|success
+忧虑|yōulǜ|worry|2|0|11264|success
+鱼丸|yúwán|fish ball|0|2|11265|success
+动物园|dòngwùyuán|zoo|2|0|11266|success
+送礼物|sònglǐwù|give gift|1|2|11267|success
+五谷|wǔgǔ|five grains|2|1|11268|success
+绿灯|lǜdēng|green light|1|0|11269|success
+电视|diànshì|tv|2|1|11270|fail
+电视|diànshì|tv|2|1|11270|success
+电视|diànshì|tv|2|1|11270|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11271|success
+狮子|shīzi|lion|0|2|11272|success
+醋|cù|vinegar|1|2|11273|success
+麦片|màipiàn|cereal|2|1|11274|success
+公交车|gōngjiāochē|bus|0|1|11275|success
+啤酒|píjiǔ|beer|1|2|11276|success
+熟人|shúrén|acquaintance|1|0|11277|success
+銀行|yínháng|bank|0|1|11278|success
+加|jiā|add something|0|1|11279|success
+电视|diànshì|tv|2|1|11280|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11281|success
+绿灯|lǜdēng|green light|1|2|11282|success
+动物园|dòngwùyuán|zoo|2|0|11283|success
+橙色|chéngsè|orange color|1|0|11284|success
+面包|miànbāo|bread|1|0|11285|success
+公交车|gōngjiāochē|bus|1|2|11286|fail
+公交车|gōngjiāochē|bus|1|2|11286|success
+公交车|gōngjiāochē|bus|1|2|11286|success
+胳膊|gēbó|arm|1|0|11287|fail
+胳膊|gēbó|arm|1|0|11287|success
+胳膊|gēbó|arm|1|0|11287|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11288|success
+花生|huāshēng|peanut|2|0|11289|success
+蓝色|lánsè|blue|2|0|11290|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|2|11291|fail
+西红柿|xīhóngshì|tomato|2|1|11291|fail
+西红柿汤|xīhóngshìtāng|tomato soup|1|2|11291|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|2|11291|success
+西红柿|xīhóngshì|tomato|2|1|11292|success
+忧虑|yōulǜ|worry|2|0|11293|success
+对面|duìmiàn|opposite|2|0|11294|success
+汉字|hànzì|chinese character|1|2|11295|fail
+汉字|hànzì|chinese character|1|2|11295|success
+汉字|hànzì|chinese character|1|2|11295|success
+公交车|gōngjiāochē|bus|1|2|11296|success
+胳膊|gēbó|arm|1|0|11297|success
+电视|diànshì|tv|2|1|11298|fail
+电视|diànshì|tv|2|1|11298|success
+电视|diànshì|tv|2|1|11298|success
+梅子|méizi|plum|1|2|11299|success
+所以|suǒyǐ|so|1|0|11300|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|2|11301|success
+西红柿|xīhóngshì|tomato|2|1|11302|success
+狮子|shīzi|lion|0|2|11303|success
+陌生人|mòshēngrén|stranger|2|1|11304|success
+汉字|hànzì|chinese character|1|2|11305|success
+陌生人|mòshēngrén|stranger|2|0|11306|success
+加油|jiāyóu|come on|2|1|11307|fail
+加油|jiāyóu|come on|2|1|11307|success
+加油|jiāyóu|come on|2|1|11307|success
+电视|diànshì|tv|2|1|11308|success
+绿灯|lǜdēng|green light|0|1|11309|success
+狮子|shīzi|lion|2|0|11310|success
+粥|zhōu|porridge|1|2|11311|success
+动物园|dòngwùyuán|zoo|2|0|11312|success
+公交车|gōngjiāochē|bus|1|2|11313|success
+胳膊|gēbó|arm|1|0|11314|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|2|11315|success
+山西|shānxī|shanxi|0|2|11316|success
+加油|jiāyóu|come on|2|1|11317|fail
+加油|jiāyóu|come on|2|1|11317|success
+加油|jiāyóu|come on|2|1|11317|success
+电视|diànshì|tv|2|1|11318|success
+西红柿|xīhóngshì|tomato|2|1|11319|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|2|11320|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|1|0|11321|success
+汉字|hànzì|chinese character|1|2|11322|success
+火锅|huǒguō|hot pot|0|1|11323|success
+鸡蛋|jīdàn|egg|2|1|11324|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|2|1|11325|success
+十几个|shíjǐgè|ten plus|0|2|11326|success
+加油|jiāyóu|come on|2|1|11327|success
+来|lái|come|0|1|11328|fail
+来|lái|come|0|1|11328|success
+来|lái|come|0|1|11328|success
+只|zhǐ|m.w.animal|0|1|11329|success
+都|dōu|all|2|1|11330|success
+欢迎|huānyíng|welcome|2|0|11331|success
+歌手|gēshǒu|singer|2|1|11332|success
+羊|yáng|sheep|2|0|11333|success
+听|tīng|listen, hear|1|2|11334|success
+电视|diànshì|tv|2|1|11335|success
+坐|zuò|take|0|2|11336|success
+加油|jiāyóu|come on|2|1|11337|success
+猴|hóu|monkey|1|2|11338|success
+不客气|bùkèqì|you are welcome|0|2|11339|success
+汽车|qìchē|car|2|1|11340|success
+下面|xiàmiàn|below|0|1|11341|success
+公交车|gōngjiāochē|bus|1|2|11342|success
+胳膊|gēbó|arm|1|0|11343|success
+过|guò|cross|1|2|11344|fail
+点|diǎn|point out|2|1|11344|fail
+点|diǎn|hour|2|1|11344|fail
+点|diǎn|count|2|1|11344|fail
+点|diǎn|choose|2|1|11344|fail
+过|guò|cross|1|2|11344|success
+过|guò|cross|1|2|11344|success
+点|diǎn|choose|2|1|11345|success
+点|diǎn|point out|2|1|11346|success
+点|diǎn|count|2|1|11347|success
+点|diǎn|hour|2|1|11348|success
+来|lái|come|0|1|11349|success
+西红柿|xīhóngshì|tomato|2|1|11350|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|2|11351|success
+汉字|hànzì|chinese character|1|2|11352|success
+听|tīng|listen, hear|2|0|11353|success
+加油|jiāyóu|come on|2|1|11354|success
+坐|zuò|take|2|0|11355|success
+后面|hòumiàn|behind|1|2|11356|success
+喜欢|xǐhuān|like|1|0|11357|success
+坐|zuò|take|2|1|11358|fail
+坐|zuò|take|2|1|11358|success
+坐|zuò|take|2|1|11358|success
+多大|duōdà|how old (middle)|0|2|11359|success
+出生|chūshēng|birth|2|1|11360|fail
+生活|shēnghuó|life|1|2|11360|fail
+出生|chūshēng|birth|2|1|11360|success
+出生|chūshēng|birth|2|1|11360|success
+生活|shēnghuó|life|1|2|11361|fail
+生活|shēnghuó|life|1|2|11361|success
+生活|shēnghuó|life|1|2|11361|success
+点|diǎn|choose|2|1|11362|success
+点|diǎn|point out|2|1|11363|success
+点|diǎn|count|2|1|11364|success
+点|diǎn|hour|2|1|11365|success
+过|guò|cross|1|2|11366|fail
+过|guò|cross|1|2|11366|success
+过|guò|cross|1|2|11366|success
+电视|diànshì|tv|2|1|11367|success
+椰子|yēzi|coconut|2|1|11368|fail
+椰子|yēzi|coconut|2|1|11368|success
+椰子|yēzi|coconut|2|1|11368|success
+歌手|gēshǒu|singer|1|2|11369|success
+出生|chūshēng|birth|2|1|11370|success
+生活|shēnghuó|life|1|2|11371|fail
+生活|shēnghuó|life|1|2|11371|success
+生活|shēnghuó|life|1|2|11371|success
+吗|ma|yes no question|2|1|11372|success
+这些|zhèxiē|these|1|2|11373|fail
+这些|zhèxiē|these|1|2|11373|success
+这些|zhèxiē|these|1|2|11373|success
+猫|māo|cat|2|0|11374|success
+坐|zuò|take|2|1|11375|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|11376|fail
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|11376|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|11376|success
+坐|zuò|take|0|1|11377|success
+椰子|yēzi|coconut|2|1|11378|success
+来|lái|come|0|1|11379|success
+叫|jiào|called|0|2|11380|success
+生活|shēnghuó|life|1|2|11381|success
+睡觉|shuìjiào|sleep|1|0|11382|success
+这些|zhèxiē|these|1|2|11383|success
+过|guò|cross|1|2|11384|success
+加油|jiāyóu|come on|2|1|11385|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|11386|success
+出生|chūshēng|birth|2|1|11387|success
+夫人|fūrén|wife|0|1|11388|fail
+有钱人|yǒuqiánrén|rich person|1|0|11388|fail
+富人|fùrén|rich person|1|0|11388|fail
+夫人|fūrén|wife|0|1|11388|success
+夫人|fūrén|wife|0|1|11388|success
+有钱人|yǒuqiánrén|rich person|1|0|11389|success
+富人|fùrén|rich person|1|0|11390|success
+生活|shēnghuó|life|1|2|11391|success
+点|diǎn|point out|2|1|11392|success
+点|diǎn|count|2|1|11393|success
+点|diǎn|hour|2|1|11394|success
+椰子|yēzi|coconut|2|1|11395|success
+点|diǎn|choose|2|1|11396|success
+开车|kāichē|drive car|2|1|11397|success
+夫人|fūrén|wife|0|1|11398|success
+有钱人|yǒuqiánrén|rich person|1|0|11399|success
+富人|fùrén|rich person|1|0|11400|success
+这些|zhèxiē|these|1|2|11401|success
+照片|zhàopiàn|photo|1|2|11402|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|11403|success
+坐|zuò|take|2|1|11404|success
+汽车|qìchē|car|1|0|11405|success
+爱|ài|love|2|0|11406|success
+草莓|cǎoméi|strawberry|0|2|11407|fail
+草莓|cǎoméi|strawberry|0|2|11407|success
+草莓|cǎoméi|strawberry|0|2|11407|success
+生活|shēnghuó|life|1|2|11408|success
+有钱人|yǒuqiánrén|rich person|1|0|11409|success
+辣|là|spicy|1|0|11410|success
+有名|yǒumíng|famous|0|1|11411|success
+土豆|tǔdòu|potato|0|1|11412|success
+过|guò|cross|1|2|11413|success
+十万|shíwàn|hundred thousand|1|2|11414|success
+夫人|fūrén|wife|0|1|11415|success
+出生|chūshēng|birth|2|1|11416|success
+草莓|cǎoméi|strawberry|0|2|11417|success
+富人|fùrén|rich person|1|0|11418|success
+后面|hòumiàn|behind|2|0|11419|fail
+后面|hòumiàn|behind|2|0|11419|success
+后面|hòumiàn|behind|2|0|11419|success
+喝|hē|drink|2|1|11420|success
+杯子|bēizi|cup|1|2|11421|fail
+杯子|bēizi|cup|1|2|11421|success
+杯子|bēizi|cup|1|2|11421|success
+非常|fēicháng|very|0|2|11422|success
+要|yào|gonna|1|0|11423|success
+椰子|yēzi|coconut|2|1|11424|success
+帅|shuài|handsome|2|1|11425|success
+有钱人|yǒuqiánrén|rich person|1|0|11426|success
+一路平安|yīlùpíngān|safe journey|2|0|11427|success
+点|diǎn|point out|2|1|11428|success
+后面|hòumiàn|behind|2|0|11429|success
+这些|zhèxiē|these|1|2|11430|success
+杯子|bēizi|cup|1|2|11431|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|11432|success
+点|diǎn|hour|2|1|11433|success
+草莓|cǎoméi|strawberry|0|2|11434|success
+点|diǎn|count|2|1|11435|success
+点|diǎn|choose|2|1|11436|success
+生活|shēnghuó|life|1|2|11437|success
+面包|miànbāo|bread|0|1|11438|success
+买|mǎi|buy|0|1|11439|success
+芝士面包|zhīshìmiànbāo|cheese bread|2|0|11440|success
+听|tīng|listen, hear|0|2|11441|success
+包子|bāozi|steamed bun|2|0|11442|success
+早上|zǎoshàng|morning|1|2|11443|success
+夫人|fūrén|wife|0|1|11444|success
+歌|gē|song|0|2|11445|success
+后面|hòumiàn|behind|2|0|11446|success
+富人|fùrén|rich person|1|0|11447|success
+杯子|bēizi|cup|1|2|11448|success
+火车|huǒchē|train|2|1|11449|success
+西瓜|xīguā|watermelon|0|1|11450|success
+刮风|guāfēng|windy|2|1|11451|success
+鱼|yú|fish|1|0|11452|success
+十多个|shíduōgè|about ten|2|1|11453|success
+都|dōu|all|1|0|11454|success
+有钱人|yǒuqiánrén|rich person|1|0|11455|success
+能|néng|can|1|0|11456|success
+周|zhōu|week|2|1|11457|fail
+燕麦粥|yànmàizhōu|oatmeal|1|2|11457|fail
+周|zhōu|week|2|1|11457|success
+周|zhōu|week|2|1|11457|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11458|fail
+燕麦粥|yànmàizhōu|oatmeal|1|2|11458|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11458|success
+十几个|shíjǐgè|ten plus|1|0|11459|success
+累|lèi|tired|1|0|11460|success
+过|guò|cross|1|0|11461|fail
+过|guò|cross|1|0|11461|success
+过|guò|cross|1|0|11461|success
+先生|xiānshēng|husband formal|2|0|11462|success
+草莓|cǎoméi|strawberry|0|2|11463|success
+雪|xuě|snow|0|2|11464|fail
+雪|xuě|snow|0|2|11464|success
+雪|xuě|snow|0|2|11464|success
+这些|zhèxiē|these|2|0|11465|success
+起床|qǐchuáng|get up|2|0|11466|fail
+起床|qǐchuáng|get up|2|0|11466|success
+起床|qǐchuáng|get up|2|0|11466|success
+写|xiě|write|1|0|11467|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11468|success
+火车|huǒchē|train|1|0|11469|success
+点|diǎn|hour|1|0|11470|success
+请问|qǐngwèn|excuse me|2|1|11471|success
+照片|zhàopiàn|photo|2|1|11472|success
+羊|yáng|sheep|0|1|11473|success
+周|zhōu|week|2|1|11474|fail
+麦片|màipiàn|cereal|1|2|11474|fail
+周|zhōu|week|2|1|11474|success
+周|zhōu|week|2|1|11474|success
+麦片|màipiàn|cereal|1|2|11475|fail
+麦片|màipiàn|cereal|1|2|11475|success
+麦片|màipiàn|cereal|1|2|11475|success
+起床|qǐchuáng|get up|2|0|11476|success
+后面|hòumiàn|behind|2|0|11477|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11478|success
+过|guò|cross|1|0|11479|success
+杯子|bēizi|cup|1|2|11480|success
+雪|xuě|snow|0|2|11481|success
+点|diǎn|choose|0|1|11482|success
+千|qiān|thousand|0|1|11483|success
+菜|cài|dish|2|0|11484|success
+麦片|màipiàn|cereal|1|2|11485|success
+火车|huǒchē|train|1|2|11486|success
+老婆|lǎopó|wife spoken|0|1|11487|fail
+妻子|qīzi|wife|1|0|11487|fail
+夫人|fūrén|wife|1|0|11487|fail
+老婆|lǎopó|wife spoken|0|1|11487|success
+老婆|lǎopó|wife spoken|0|1|11487|success
+夫人|fūrén|wife|1|0|11488|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11489|success
+妻子|qīzi|wife|1|0|11490|fail
+妻子|qīzi|wife|1|0|11490|success
+妻子|qīzi|wife|1|0|11490|success
+周|zhōu|week|2|1|11491|success
+爱|ài|love|0|1|11492|success
+起床|qǐchuáng|get up|2|0|11493|success
+鸭|yā|duck|0|1|11494|success
+麦片|màipiàn|cereal|1|2|11495|success
+升|shēng|liter|1|0|11496|success
+老婆|lǎopó|wife spoken|0|1|11497|fail
+老婆|lǎopó|wife spoken|0|1|11497|success
+老婆|lǎopó|wife spoken|0|1|11497|success
+夫人|fūrén|wife|1|0|11498|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11499|success
+妻子|qīzi|wife|1|0|11500|success
+山西|shānxī|shanxi|2|1|11501|success
+晚上|wǎnshàng|evening|2|0|11502|success
+星期六|xīngqīliù|saturday|1|2|11503|success
+医生|yīshēng|physician|2|1|11504|fail
+医生|yīshēng|physician|2|1|11504|success
+医生|yīshēng|physician|2|1|11504|success
+欢迎|huānyíng|welcome|1|0|11505|success
+十万|shíwàn|hundred thousand|0|1|11506|success
+老婆|lǎopó|wife spoken|0|1|11507|success
+夫人|fūrén|wife|1|0|11508|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11509|success
+妻子|qīzi|wife|1|0|11510|success
+雪|xuě|snow|0|2|11511|success
+麦片|màipiàn|cereal|1|2|11512|fail
+燕麦粥|yànmàizhōu|porridge|2|1|11512|fail
+燕麦粥|yànmàizhōu|oatmeal|2|1|11512|fail
+麦片|màipiàn|cereal|1|2|11512|success
+麦片|màipiàn|cereal|1|2|11512|success
+燕麦粥|yànmàizhōu|porridge|2|1|11513|success
+燕麦粥|yànmàizhōu|oatmeal|2|1|11514|success
+过|guò|cross|1|0|11515|success
+芒果|mángguǒ|mango|2|1|11516|success
+老婆|lǎopó|wife spoken|0|1|11517|success
+咖啡|kāfēi|coffee|2|1|11518|success
+万|wàn|ten thousand|1|2|11519|success
+周|zhōu|week|2|1|11520|success
+医生|yīshēng|physician|2|1|11521|success
+麦片|màipiàn|cereal|1|2|11522|success
+燕麦粥|yànmàizhōu|porridge|2|1|11523|success
+燕麦粥|yànmàizhōu|oatmeal|2|1|11524|success
+夫人|fūrén|wife|1|0|11525|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11526|success
+妻子|qīzi|wife|1|0|11527|success
+起床|qǐchuáng|get up|2|0|11528|success
+虫|chóng|insect worm|1|0|11529|success
+音乐会|yīnyuèhuì|concert|0|1|11530|success
+华山|huáshān|mount hua|0|1|11531|fail
+华山|huáshān|mount hua|0|1|11531|success
+华山|huáshān|mount hua|0|1|11531|success
+麦片|màipiàn|cereal|1|2|11532|success
