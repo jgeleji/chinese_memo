@@ -15452,3 +15452,668 @@
 华山|huáshān|mount hua|0|1|11531|success
 华山|huáshān|mount hua|0|1|11531|success
 麦片|màipiàn|cereal|1|2|11532|success
+年轻|niánqīng|young|0|1|11533|success
+老婆|lǎopó|wife spoken|0|1|11534|success
+欢迎|huānyíng|welcome|0|2|11535|fail
+欢迎|huānyíng|welcome|0|2|11535|success
+欢迎|huānyíng|welcome|0|2|11535|success
+蓝莓|lánméi|blueberry|0|1|11536|success
+虎|hǔ|tiger|2|0|11537|success
+医生|yīshēng|physician|2|1|11538|success
+百万|bǎiwàn|million|1|0|11539|success
+燕麦粥|yànmàizhōu|porridge|2|1|11540|success
+华山|huáshān|mount hua|0|1|11541|success
+燕麦粥|yànmàizhōu|oatmeal|2|1|11542|success
+不|bù|no|2|0|11543|success
+忙|máng|busy|2|1|11544|success
+欢迎|huānyíng|welcome|0|2|11545|success
+像|xiàng|resemble|1|0|11546|success
+后面|hòumiàn|behind|1|0|11547|success
+船|chuán|ship|2|1|11548|success
+麦片|màipiàn|cereal|1|2|11549|success
+课|kè|class|0|2|11550|success
+米饭|mǐfàn|cooked rice|1|0|11551|success
+爱|ài|love|1|2|11552|success
+累|lèi|tired|0|2|11553|fail
+辣|là|spicy|2|0|11553|fail
+累|lèi|tired|0|2|11553|success
+累|lèi|tired|0|2|11553|success
+辣|là|spicy|2|0|11554|success
+夫人|fūrén|wife|1|0|11555|success
+妻子|qīzi|wife|1|0|11556|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11557|success
+华山|huáshān|mount hua|0|1|11558|success
+得|de|particule|0|2|11559|fail
+得|de|particule|0|2|11559|success
+得|de|particule|0|2|11559|success
+碗|wǎn|bowl|2|0|11560|success
+时间|shíjiān|time|1|2|11561|success
+欢迎|huānyíng|welcome|0|2|11562|success
+老婆|lǎopó|wife spoken|0|1|11563|success
+就|jiù|exactly|2|0|11564|success
+像|xiàng|resemble|0|2|11565|success
+虫|chóng|insect worm|2|1|11566|success
+医生|yīshēng|physician|2|1|11567|success
+上个周末|shànggèzhōumò|last weekend|2|0|11568|success
+燕麦粥|yànmàizhōu|porridge|2|1|11569|success
+累|lèi|tired|0|2|11570|success
+辣|là|spicy|2|0|11571|success
+燕麦粥|yànmàizhōu|oatmeal|2|1|11572|success
+歌|gē|song|1|0|11573|success
+漂亮|piàoliang|beautiful|0|1|11574|success
+点|diǎn|hour|2|1|11575|success
+得|de|particule|0|2|11576|success
+虫|chóng|insect worm|1|2|11577|success
+麦片|màipiàn|cereal|1|2|11578|success
+知道|zhīdào|know|1|2|11579|success
+贝|bèi|shell|0|2|11580|success
+游泳|yóuyǒng|swim|1|2|11581|success
+节|jié|m.w.class|0|2|11582|fail
+节|jié|m.w.class|0|2|11582|success
+节|jié|m.w.class|0|2|11582|success
+快乐|kuàiyuè|happy|1|0|11583|fail
+快乐|kuàiyuè|happy|1|0|11583|success
+快乐|kuàiyuè|happy|1|0|11583|success
+就|jiù|just|2|0|11584|success
+点|diǎn|count|0|1|11585|success
+幸福|xìngfú|happiness|2|0|11586|success
+华山|huáshān|mount hua|0|1|11587|success
+橙子|chéngzi|orange|1|0|11588|success
+节|jié|m.w.class|1|0|11589|success
+盘|pán|plate|2|1|11590|success
+欢迎|huānyíng|welcome|0|2|11591|success
+火车|huǒchē|train|2|0|11592|success
+快乐|kuàiyuè|happy|1|0|11593|fail
+快乐|kuàiyuè|happy|1|0|11593|success
+快乐|kuàiyuè|happy|1|0|11593|success
+粥|zhōu|porridge|2|0|11594|success
+升|shēng|liter|0|1|11595|success
+得|de|particule|2|0|11596|success
+程晓青|chéngxiǎoqīng|cheng xiaoqing|1|0|11597|success
+点|diǎn|count|2|1|11598|success
+节|jié|m.w.class|0|2|11599|success
+辣|là|spicy|2|0|11600|success
+累|lèi|tired|0|2|11601|success
+夫人|fūrén|wife|2|0|11602|success
+快乐|kuàiyuè|happy|1|0|11603|success
+就|jiù|exactly|1|2|11604|success
+得|de|particule|0|2|11605|success
+面条|miàntiáo|noodles|2|1|11606|success
+花生|huāshēng|peanut|0|1|11607|success
+坐船|zuòchuán|take ship|2|1|11608|success
+出生|chūshēng|birth|0|1|11609|fail
+出生|chūshēng|birth|0|1|11609|success
+出生|chūshēng|birth|0|1|11609|success
+果汁|guǒzhī|fruit juice|1|0|11610|success
+加|jiā|add something|0|1|11611|success
+燕麦粥|yànmàizhōu|oatmeal|2|1|11612|success
+快乐|kuàiyuè|happy|1|0|11613|success
+踢球|tīqiú|play football|1|0|11614|fail
+踢球|tīqiú|play football|1|0|11614|success
+踢球|tīqiú|play football|1|0|11614|success
+桥|qiáo|bridge|0|2|11615|success
+贵|guì|expensive|0|2|11616|success
+吃饱了吗|chībǎolema|are you full|1|2|11617|fail
+吃饱了吗|chībǎolema|are you full|1|2|11617|success
+吃饱了吗|chībǎolema|are you full|1|2|11617|success
+点|diǎn|choose|1|0|11618|success
+鱼丸|yúwán|fish ball|0|1|11619|success
+金色|jīnsè|golden color|1|2|11620|fail
+金色|jīnsè|golden color|1|2|11620|success
+金色|jīnsè|golden color|1|2|11620|success
+有的|yǒude|some|1|2|11621|success
+更|gèng|more|2|1|11622|success
+燕麦粥|yànmàizhōu|porridge|2|1|11623|success
+点|diǎn|hour|0|1|11624|success
+区|qū|district|0|2|11625|success
+出生|chūshēng|birth|0|1|11626|success
+还是|háishì|or|0|2|11627|fail
+还是|háishì|or|0|2|11627|success
+还是|háishì|or|0|2|11627|success
+节|jié|m.w.class|0|2|11628|success
+盐|yán|salt|1|2|11629|success
+快乐|kuàiyuè|happy|1|0|11630|success
+踢球|tīqiú|play football|1|0|11631|success
+辣|là|spicy|2|0|11632|success
+都|dōu|all|0|2|11633|success
+吃饱了吗|chībǎolema|are you full|1|2|11634|success
+都|dōu|all|2|0|11635|success
+醋|cù|vinegar|2|0|11636|success
+金色|jīnsè|golden color|1|2|11637|success
+腿|tuǐ|leg|0|1|11638|success
+梨|lí|pear|0|1|11639|success
+贝|bèi|shell|0|1|11640|success
+醋|cù|vinegar|0|1|11641|success
+腿|tuǐ|leg|0|2|11642|success
+就|jiù|exactly|1|0|11643|success
+还是|háishì|or|0|2|11644|fail
+还是|háishì|or|0|2|11644|success
+还是|háishì|or|0|2|11644|success
+累|lèi|tired|0|2|11645|success
+窄|zhǎi|narrow|1|0|11646|success
+荔枝|lìzhī|lychee|0|1|11647|fail
+荔枝|lìzhī|lychee|0|1|11647|success
+荔枝|lìzhī|lychee|0|1|11647|success
+礼物|lǐwù|gift|1|2|11648|success
+区|qū|district|2|1|11649|success
+贝|bèi|shell|1|0|11650|success
+陶诗|táoshī|tao shi|2|1|11651|success
+份|fèn|portion|0|2|11652|success
+离|lí|away from|1|0|11653|success
+还是|háishì|or|0|2|11654|success
+出生|chūshēng|birth|0|1|11655|success
+湿豆|shīdòu|white bean|2|1|11656|success
+荔枝|lìzhī|lychee|0|1|11657|success
+西红柿|xīhóngshì|tomato|2|1|11658|success
+快乐|kuàiyuè|happy|1|0|11659|success
+踢球|tīqiú|play football|1|0|11660|success
+点|diǎn|choose|2|1|11661|success
+窄|zhǎi|narrow|0|2|11662|success
+吃饱了吗|chībǎolema|are you full|1|2|11663|success
+还是|háishì|or|0|2|11664|success
+红烧肉|hóngshāoròu|braised pork|0|1|11665|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11665|fail
+红烧肉|hóngshāoròu|braised pork|0|1|11665|success
+红烧肉|hóngshāoròu|braised pork|0|1|11665|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11666|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11666|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11666|success
+金色|jīnsè|golden color|1|2|11667|success
+炖肉|dùnròu|stew|0|1|11668|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11669|fail
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11669|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11669|success
+香菇油菜|xiānggūyóucài|mushroom cole|2|1|11670|success
+过|guò|cross|1|2|11671|success
+课|kè|class|0|1|11672|fail
+节|jié|m.w.class|1|0|11672|fail
+课|kè|class|0|1|11672|success
+课|kè|class|0|1|11672|success
+节|jié|m.w.class|1|0|11673|success
+荔枝|lìzhī|lychee|0|1|11674|success
+坐|zuò|sit|1|2|11675|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11676|success
+周|zhōu|week|2|1|11677|fail
+燕麦粥|yànmàizhōu|oatmeal|1|2|11677|fail
+周|zhōu|week|2|1|11677|success
+周|zhōu|week|2|1|11677|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11678|success
+牛|niú|cattle|0|1|11679|fail
+牛|niú|cattle|0|1|11679|success
+牛|niú|cattle|0|1|11679|success
+糖|táng|sugar|0|2|11680|fail
+糖|táng|sugar|0|2|11680|success
+糖|táng|sugar|0|2|11680|success
+还是|háishì|or|0|2|11681|success
+红烧肉|hóngshāoròu|braised pork|0|1|11682|success
+雪|xuě|snow|0|2|11683|success
+果汁|guǒzhī|fruit juice|2|0|11684|success
+最|zuì|the most|0|1|11685|fail
+所以|suǒyǐ|so|1|0|11685|fail
+最|zuì|the most|0|1|11685|success
+最|zuì|the most|0|1|11685|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11686|success
+所以|suǒyǐ|so|1|0|11687|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11688|success
+课|kè|class|0|1|11689|success
+节|jié|m.w.class|1|0|11690|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11691|success
+节|jié|m.w.class|0|2|11692|success
+坐|zuò|take|2|1|11693|success
+周|zhōu|week|2|1|11694|fail
+燕麦粥|yànmàizhōu|oatmeal|1|2|11694|fail
+周|zhōu|week|2|1|11694|success
+周|zhōu|week|2|1|11694|success
+出生|chūshēng|birth|0|1|11695|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11696|success
+所以|suǒyǐ|so|1|0|11697|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11698|success
+牛|niú|cattle|0|1|11699|success
+糖|táng|sugar|0|2|11700|success
+海|hǎi|ocean|2|1|11701|success
+最|zuì|the most|0|1|11702|success
+荔枝|lìzhī|lychee|0|1|11703|success
+盖勒赫山|gàilēihèshān|gellért hill|2|1|11704|success
+所以|suǒyǐ|so|2|0|11705|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11706|success
+金色|jīnsè|golden color|1|2|11707|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11708|success
+大蒜|dàsuàn|garlic|1|2|11709|success
+还是|háishì|or|0|2|11710|success
+周|zhōu|week|2|1|11711|success
+红烧肉|hóngshāoròu|braised pork|0|1|11712|success
+粥|zhōu|porridge|2|1|11713|success
+所以|suǒyǐ|so|1|0|11714|success
+吃饱了吗|chībǎolema|are you full|1|2|11715|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11716|success
+桥|qiáo|bridge|2|0|11717|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11718|success
+节|jié|m.w.class|1|0|11719|success
+课|kè|class|0|1|11720|fail
+累|lèi|tired|1|0|11720|fail
+课|kè|class|0|1|11720|success
+课|kè|class|0|1|11720|success
+累|lèi|tired|1|0|11721|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11722|success
+百合|bǎihé|lily|1|2|11723|fail
+百合|bǎihé|lily|1|2|11723|success
+百合|bǎihé|lily|1|2|11723|success
+听|tīng|listen, hear|1|0|11724|success
+来|lái|come|2|0|11725|success
+汽车|qìchē|car|1|2|11726|success
+过|guò|cross|1|0|11727|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11728|success
+牛|niú|cattle|0|1|11729|success
+糖|táng|sugar|0|2|11730|success
+最|zuì|the most|0|1|11731|success
+窄|zhǎi|narrow|1|2|11732|success
+百合|bǎihé|lily|1|2|11733|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11734|success
+得|de|particule|2|1|11735|fail
+得|de|particule|2|1|11735|success
+得|de|particule|2|1|11735|success
+北京烤鸭|běijīngkǎoyā|peking duck|0|1|11736|fail
+北京烤鸭|běijīngkǎoyā|peking duck|0|1|11736|success
+北京烤鸭|běijīngkǎoyā|peking duck|0|1|11736|success
+课|kè|class|0|1|11737|success
+累|lèi|tired|1|0|11738|success
+点|diǎn|point out|2|1|11739|success
+周|zhōu|week|2|1|11740|success
+更|gèng|more|1|0|11741|success
+辣|là|spicy|2|0|11742|success
+所以|suǒyǐ|so|1|0|11743|success
+音乐会|yīnyuèhuì|concert|2|0|11744|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11745|success
+课|kè|class|2|1|11746|success
+软件|ruǎnjiàn|software|2|0|11747|success
+西红柿汤|xīhóngshìtāng|tomato soup|1|2|11748|success
+好听|hǎotīng|nice to hear|1|0|11749|success
+百合|bǎihé|lily|1|2|11750|success
+樱桃|yīngtáo|cherry|0|1|11751|fail
+樱桃|yīngtáo|cherry|0|1|11751|success
+樱桃|yīngtáo|cherry|0|1|11751|success
+得|de|particule|2|1|11752|success
+北京烤鸭|běijīngkǎoyā|peking duck|0|1|11753|success
+红烧肉|hóngshāoròu|braised pork|0|1|11754|success
+香港|xiānggǎng|hong kong|2|0|11755|success
+以前|yǐqián|before|1|2|11756|fail
+以前|yǐqián|before|1|2|11756|success
+以前|yǐqián|before|1|2|11756|success
+练功夫|liàngōngfū|practice kung fu|2|0|11757|fail
+练功夫|liàngōngfū|practice kung fu|2|0|11757|success
+练功夫|liàngōngfū|practice kung fu|2|0|11757|success
+别的|biéde|other|2|1|11758|success
+节|jié|m.w.class|1|0|11759|success
+进|jìn|enter, come in|0|2|11760|success
+黄油|huángyóu|butter|0|1|11761|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|2|11762|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11763|fail
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11763|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11763|success
+梨|lí|pear|0|2|11764|success
+陕西|shǎnxī|shaanxi|1|0|11765|fail
+陕西|shǎnxī|shaanxi|1|0|11765|success
+陕西|shǎnxī|shaanxi|1|0|11765|success
+课|kè|class|0|1|11766|success
+累|lèi|tired|1|0|11767|success
+樱桃|yīngtáo|cherry|0|1|11768|success
+旅游|lǚyóu|tourism|0|1|11769|fail
+旅游|lǚyóu|tourism|0|1|11769|success
+旅游|lǚyóu|tourism|0|1|11769|success
+酸奶|suānnǎi|yogurt|1|0|11770|success
+踢球|tīqiú|play football|1|0|11771|success
+梨|lí|pear|2|1|11772|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11773|success
+以前|yǐqián|before|1|2|11774|success
+练功夫|liàngōngfū|practice kung fu|2|0|11775|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11776|success
+牛|niú|cattle|0|1|11777|success
+最|zuì|the most|0|2|11778|success
+百合|bǎihé|lily|1|2|11779|success
+酒店|jiǔdiàn|hotel|0|1|11780|success
+得|de|particule|2|1|11781|success
+陕西|shǎnxī|shaanxi|1|0|11782|success
+北京烤鸭|běijīngkǎoyā|peking duck|0|1|11783|success
+白色|báisè|white|1|2|11784|success
+白菜|báicài|chinese cabbage|0|2|11785|success
+旅游|lǚyóu|tourism|0|1|11786|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|0|11787|success
+杯子|bēizi|cup|1|2|11788|fail
+杯子|bēizi|cup|1|2|11788|success
+杯子|bēizi|cup|1|2|11788|success
+来|lái|come|0|1|11789|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11790|success
+有一点|yǒuyīdiǎn|a bit|0|2|11791|success
+茶|chá|tea|2|0|11792|success
+火腿|huǒtuǐ|sausage|0|1|11793|success
+滑滑板|huáhuábǎn|skateboarding|2|1|11794|fail
+滑滑板|huáhuábǎn|skateboarding|2|1|11794|success
+滑滑板|huáhuábǎn|skateboarding|2|1|11794|success
+幸福|xìngfú|happiness|2|1|11795|success
+飞机|fēijī|airplane|2|0|11796|success
+樱桃|yīngtáo|cherry|0|1|11797|success
+凉快|liángkuài|cool|0|2|11798|success
+商丘|shāngqiū|shangqiu|0|1|11799|fail
+商丘|shāngqiū|shangqiu|0|1|11799|success
+商丘|shāngqiū|shangqiu|0|1|11799|success
+得|de|particule|0|2|11800|success
+所以|suǒyǐ|so|1|0|11801|success
+百万|bǎiwàn|million|0|2|11802|fail
+百万|bǎiwàn|million|0|2|11802|success
+百万|bǎiwàn|million|0|2|11802|success
+以前|yǐqián|before|1|2|11803|success
+练功夫|liàngōngfū|practice kung fu|2|0|11804|success
+杯子|bēizi|cup|1|2|11805|success
+课|kè|class|0|1|11806|success
+累|lèi|tired|1|0|11807|success
+希望|xīwàng|wish hope|0|1|11808|fail
+希望|xīwàng|wish hope|0|1|11808|success
+希望|xīwàng|wish hope|0|1|11808|success
+欢迎|huānyíng|welcome|0|1|11809|success
+重要|zhòngyào|important|2|0|11810|success
+滑滑板|huáhuábǎn|skateboarding|2|1|11811|success
+陕西|shǎnxī|shaanxi|1|0|11812|success
+国会大厦|guóhuìdàshà|parliament|2|0|11813|success
+绿色|lǜsè|green|0|2|11814|success
+旅游|lǚyóu|tourism|0|1|11815|success
+商丘|shāngqiū|shangqiu|0|1|11816|success
+动物园|dòngwùyuán|zoo|2|0|11817|success
+船|chuán|ship|0|2|11818|fail
+份|fèn|portion|2|0|11818|fail
+船|chuán|ship|0|2|11818|success
+船|chuán|ship|0|2|11818|success
+份|fèn|portion|2|0|11819|success
+百万|bǎiwàn|million|0|2|11820|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|11821|success
+得|de|particule|2|1|11822|success
+北京烤鸭|běijīngkǎoyā|peking duck|0|1|11823|success
+加|jiā|add something|2|1|11824|success
+希望|xīwàng|wish hope|0|1|11825|success
+就|jiù|exactly|0|2|11826|success
+洋葱|yángcōng|onion|1|2|11827|success
+山|shān|hill|2|1|11828|success
+山西|shānxī|shanxi|0|1|11829|success
+回答|huídá|answer|1|0|11830|fail
+回答|huídá|answer|1|0|11830|success
+回答|huídá|answer|1|0|11830|success
+常常|chángcháng|often|1|0|11831|success
+疼不疼|téngbùténg|does it hurt|1|2|11832|success
+陶诗|táoshī|tao shi|2|0|11833|success
+杯子|bēizi|cup|1|2|11834|success
+船|chuán|ship|0|2|11835|success
+份|fèn|portion|2|0|11836|success
+你真可爱|nǐzhēnkěài|you look so cute|1|2|11837|success
+糖|táng|sugar|0|2|11838|success
+有的时候|yóudeshíhou|sometimes|2|0|11839|success
+滑滑板|huáhuábǎn|skateboarding|2|1|11840|success
+豆浆|dòujiāng|soy milk|0|1|11841|fail
+豆浆|dòujiāng|soy milk|0|1|11841|success
+豆浆|dòujiāng|soy milk|0|1|11841|success
+担心|dānxīn|worry spoken|0|2|11842|fail
+担心|dānxīn|worry spoken|0|2|11842|success
+担心|dānxīn|worry spoken|0|2|11842|success
+以前|yǐqián|before|1|2|11843|success
+练功夫|liàngōngfū|practice kung fu|2|0|11844|success
+商丘|shāngqiū|shangqiu|0|1|11845|success
+食堂|shítáng|canteen|0|2|11846|fail
+食堂|shítáng|canteen|0|2|11846|success
+食堂|shítáng|canteen|0|2|11846|success
+回答|huídá|answer|1|0|11847|success
+有的|yǒude|some|0|1|11848|success
+百万|bǎiwàn|million|0|2|11849|success
+意大利|yìdàlì|italy|1|0|11850|success
+酒店|jiǔdiàn|hotel|1|0|11851|success
+陕西|shǎnxī|shaanxi|1|0|11852|success
+上个周末|shànggèzhōumò|last weekend|0|1|11853|success
+希望|xīwàng|wish hope|0|1|11854|success
+蓝色|lánsè|blue|1|2|11855|success
+成龙|chénglóng|jackie chan|1|0|11856|success
+对面|duìmiàn|opposite|1|2|11857|success
+豆浆|dòujiāng|soy milk|0|1|11858|success
+担心|dānxīn|worry spoken|0|2|11859|success
+阴天|yīntiān|overcast|0|1|11860|fail
+明天|míngtiān|tomorrow|1|0|11860|fail
+阴天|yīntiān|overcast|0|1|11860|success
+阴天|yīntiān|overcast|0|1|11860|success
+明天|míngtiān|tomorrow|1|0|11861|success
+香港|xiānggǎng|hong kong|1|2|11862|success
+食堂|shítáng|canteen|0|2|11863|success
+船|chuán|ship|0|2|11864|success
+份|fèn|portion|2|0|11865|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|11866|fail
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|11866|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|11866|success
+出生|chūshēng|birth|2|1|11867|success
+养花|yǎnghuā|gardening flowers|0|2|11868|fail
+养花|yǎnghuā|gardening flowers|0|2|11868|success
+养花|yǎnghuā|gardening flowers|0|2|11868|success
+电子邮件|diànziyóujiàn|email|0|2|11869|fail
+电子邮件|diànziyóujiàn|email|0|2|11869|success
+电子邮件|diànziyóujiàn|email|0|2|11869|success
+加油站|jiāyóuzhàn|gas station|2|1|11870|fail
+加油站|jiāyóuzhàn|gas station|2|1|11870|success
+加油站|jiāyóuzhàn|gas station|2|1|11870|success
+明天|míngtiān|tomorrow|1|0|11871|success
+下雨|xiàyǔ|raining|2|1|11872|success
+问题|wèntí|question|2|0|11873|fail
+问题|wèntí|question|2|0|11873|success
+问题|wèntí|question|2|0|11873|success
+杯子|bēizi|cup|1|2|11874|success
+打球|dǎqiú|ball sports using hand|0|2|11875|fail
+打球|dǎqiú|ball sports using hand|0|2|11875|success
+打球|dǎqiú|ball sports using hand|0|2|11875|success
+回答|huídá|answer|1|0|11876|success
+阴天|yīntiān|overcast|0|1|11877|success
+时候|shíhou|when|1|2|11878|fail
+时候|shíhou|when|1|2|11878|success
+时候|shíhou|when|1|2|11878|success
+以前|yǐqián|before|0|2|11879|fail
+以前|yǐqián|before|0|2|11879|success
+以前|yǐqián|before|0|2|11879|success
+滑滑板|huáhuábǎn|skateboarding|2|1|11880|success
+站|zhàn|stand|0|2|11881|success
+同学|tóngxué|classmate|0|2|11882|fail
+同学|tóngxué|classmate|0|2|11882|success
+同学|tóngxué|classmate|0|2|11882|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|11883|success
+富人|fùrén|rich person|0|2|11884|success
+养花|yǎnghuā|gardening flowers|0|2|11885|success
+电子邮件|diànziyóujiàn|email|0|2|11886|success
+加油站|jiāyóuzhàn|gas station|2|1|11887|success
+明天|míngtiān|tomorrow|1|0|11888|success
+豆浆|dòujiāng|soy milk|0|1|11889|success
+问题|wèntí|question|2|0|11890|success
+担心|dānxīn|worry spoken|0|2|11891|success
+打球|dǎqiú|ball sports using hand|0|2|11892|fail
+打球|dǎqiú|ball sports using hand|0|2|11892|success
+打球|dǎqiú|ball sports using hand|0|2|11892|success
+食堂|shítáng|canteen|0|2|11893|success
+商丘|shāngqiū|shangqiu|0|1|11894|success
+时候|shíhou|when|1|2|11895|success
+以前|yǐqián|before|0|2|11896|success
+百万|bǎiwàn|million|0|2|11897|success
+希望|xīwàng|wish hope|0|1|11898|success
+同学|tóngxué|classmate|0|2|11899|success
+西红柿鸡蛋汤|xīhóngshìjīdàntāng|tomato egg soup|2|1|11900|success
+改天|gǎitiān|the other day|0|2|11901|success
+打球|dǎqiú|ball sports using hand|0|2|11902|success
+以前|yǐqián|before|0|1|11903|success
+船|chuán|ship|0|2|11904|success
+份|fèn|portion|2|0|11905|success
+阴天|yīntiān|overcast|0|1|11906|success
+吃饱了吗|chībǎolema|are you full|0|1|11907|success
+洋葱|yángcōng|onion|2|0|11908|fail
+洋葱|yángcōng|onion|2|0|11908|success
+洋葱|yángcōng|onion|2|0|11908|success
+汽车|qìchē|car|2|0|11909|success
+贝|bèi|shell|1|2|11910|success
+成龙|chénglóng|jackie chan|1|2|11911|success
+打球|dǎqiú|ball sports using hand|0|2|11912|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|11913|success
+养花|yǎnghuā|gardening flowers|0|2|11914|success
+电子邮件|diànziyóujiàn|email|0|2|11915|success
+加油站|jiāyóuzhàn|gas station|2|1|11916|success
+明天|míngtiān|tomorrow|1|0|11917|success
+北京|běijīng|beijing|2|0|11918|success
+问题|wèntí|question|2|0|11919|success
+国王|guówáng|king|0|2|11920|fail
+国王|guówáng|king|0|2|11920|success
+国王|guówáng|king|0|2|11920|success
+还是|háishì|or|2|1|11921|success
+法国|fǎguó|france|1|0|11922|success
+樱桃|yīngtáo|cherry|0|1|11923|success
+时候|shíhou|when|1|2|11924|success
+洋葱|yángcōng|onion|2|0|11925|success
+以前|yǐqián|before|0|2|11926|success
+可以啊|kěyǐa|sure|2|1|11927|success
+同学|tóngxué|classmate|0|2|11928|success
+打球|dǎqiú|ball sports using hand|0|2|11929|success
+豆浆|dòujiāng|soy milk|0|1|11930|success
+担心|dānxīn|worry spoken|0|2|11931|success
+周|zhōu|week|2|1|11932|success
+广州|guǎngzhōu|guangzhou|0|2|11933|fail
+广州|guǎngzhōu|guangzhou|0|2|11933|success
+广州|guǎngzhōu|guangzhou|0|2|11933|success
+坐|zuò|take|1|2|11934|success
+美|měi|beautiful|0|1|11935|fail
+真|zhēn|so very|1|0|11935|fail
+美|měi|beautiful|0|1|11935|success
+美|měi|beautiful|0|1|11935|success
+真|zhēn|so very|1|0|11936|success
+国王|guówáng|king|0|2|11937|success
+份|fèn|portion|1|2|11938|success
+旅游|lǚyóu|tourism|0|1|11939|success
+香蕉|xiāngjiāo|banana|1|0|11940|success
+最近|zuìjìn|lately|0|1|11941|success
+食堂|shítáng|canteen|0|2|11942|success
+点|diǎn|count|1|0|11943|success
+筷子|kuàizi|chopstick|0|2|11944|success
+加油站|jiāyóuzhàn|gas station|2|1|11945|success
+阴天|yīntiān|overcast|0|1|11946|success
+橙汁|chéngzhī|orange juice|2|1|11947|success
+觉得|juédé|think feel|1|2|11948|fail
+觉得|juédé|think feel|1|2|11948|success
+觉得|juédé|think feel|1|2|11948|success
+颜色|yánsè|color|2|0|11949|success
+广州|guǎngzhōu|guangzhou|0|2|11950|success
+消息|xiāoxī|news|2|0|11951|success
+美|měi|beautiful|0|1|11952|success
+真|zhēn|so very|1|0|11953|success
+洋葱|yángcōng|onion|2|0|11954|success
+养花|yǎnghuā|gardening flowers|0|2|11955|success
+机场|jīchǎng|airport|1|0|11956|success
+明天|míngtiān|tomorrow|1|0|11957|success
+打球|dǎqiú|ball sports using hand|0|2|11958|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|11959|fail
+国家博物馆|guójiābówùguǎn|national museum|1|0|11959|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|11959|success
+金色|jīnsè|golden color|0|2|11960|success
+酸奶|suānnǎi|yogurt|2|0|11961|success
+莲子|liánzi|lotus seed|2|0|11962|success
+酒店|jiǔdiàn|hotel|1|2|11963|success
+最|zuì|the most|0|1|11964|success
+觉得|juédé|think feel|1|2|11965|success
+国王|guówáng|king|0|2|11966|success
+以前|yǐqián|before|0|2|11967|success
+同学|tóngxué|classmate|0|2|11968|success
+绿灯|lǜdēng|green light|2|0|11969|success
+时候|shíhou|when|1|2|11970|success
+点|diǎn|point out|0|1|11971|success
+加油|jiāyóu|come on|0|1|11972|success
+买单|mǎidān|pay the bill|0|1|11973|success
+地方|defāng|place|1|2|11974|fail
+地方|defāng|place|1|2|11974|success
+地方|defāng|place|1|2|11974|success
+安徽|ānhuī|anhui province|2|0|11975|fail
+安徽|ānhuī|anhui province|2|0|11975|success
+安徽|ānhuī|anhui province|2|0|11975|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|11976|success
+当然|dāngrán|of course|0|1|11977|success
+夫人|fūrén|wife|0|1|11978|success
+广州|guǎngzhōu|guangzhou|0|2|11979|success
+有钱人|yǒuqiánrén|rich person|1|2|11980|success
+美|měi|beautiful|0|1|11981|success
+真|zhēn|so very|1|0|11982|success
+紫色|zǐsè|purple|1|2|11983|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|11984|success
+问题|wèntí|question|2|0|11985|success
+对面|duìmiàn|opposite|1|0|11986|success
+一个人|yīgèrén|alone|2|1|11987|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|2|1|11988|success
+还是|háishì|or|0|1|11989|fail
+更|gèng|more|1|0|11989|fail
+还是|háishì|or|0|1|11989|success
+还是|háishì|or|0|1|11989|success
+更|gèng|more|1|0|11990|success
+地方|defāng|place|1|2|11991|fail
+地方|defāng|place|1|2|11991|success
+地方|defāng|place|1|2|11991|success
+安徽|ānhuī|anhui province|2|0|11992|success
+培根|péigēn|bacon|1|0|11993|fail
+培根|péigēn|bacon|1|0|11993|success
+培根|péigēn|bacon|1|0|11993|success
+觉得|juédé|think feel|1|2|11994|success
+洋葱|yángcōng|onion|2|0|11995|success
+干豆|gàndòu|dried bean|0|2|11996|fail
+土豆|tǔdòu|potato|2|0|11996|fail
+干豆|gàndòu|dried bean|0|2|11996|success
+干豆|gàndòu|dried bean|0|2|11996|success
+土豆|tǔdòu|potato|2|0|11997|success
+左边|zuǒbiān|left|0|2|11998|success
+前面|qiánmiàn|in front|1|0|11999|fail
+前面|qiánmiàn|in front|1|0|11999|success
+前面|qiánmiàn|in front|1|0|11999|success
+英国|yīngguó|great britain|2|0|12000|success
+地方|defāng|place|1|2|12001|success
+兄弟姐妹|xiōngdìjiěmèi|siblings|0|1|12002|success
+练功夫|liàngōngfū|practice kung fu|1|0|12003|success
+回答|huídá|answer|1|0|12004|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12005|fail
+国家博物馆|guójiābówùguǎn|national museum|1|0|12005|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12005|success
+干豆|gàndòu|dried bean|0|2|12006|success
+土豆|tǔdòu|potato|2|0|12007|success
+更|gèng|more|1|0|12008|success
+还是|háishì|or|0|1|12009|success
+培根|péigēn|bacon|1|0|12010|success
+地方|defāng|place|1|2|12011|success
+真|zhēn|so very|1|0|12012|success
+歌剧院|gējùyuàn|opera|2|0|12013|success
+蛋煎面包|dànjiānmiànbāo|egg fried bread|1|0|12014|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12015|success
+前面|qiánmiàn|in front|1|0|12016|success
+土豆|tǔdòu|potato|2|0|12017|success
+虎皮蛋糕|hǔpídàngāo|tiger bread|1|0|12018|success
+修车|xiūchē|repair car|1|0|12019|success
+所以|suǒyǐ|so|1|2|12020|success
+安徽|ānhuī|anhui province|2|0|12021|success
+美|měi|beautiful|0|1|12022|success
+干豆|gàndòu|dried bean|0|2|12023|success
+商丘|shāngqiū|shangqiu|0|2|12024|fail
+商丘|shāngqiū|shangqiu|0|2|12024|success
+商丘|shāngqiū|shangqiu|0|2|12024|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12025|success
+冷水果汤|lěngshuǐguǒtāng|cold fruit soup|1|0|12026|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|2|1|12027|success
+地方|defāng|place|1|2|12028|success
+电子邮件|diànziyóujiàn|email|0|2|12029|fail
+电子邮件|diànziyóujiàn|email|0|2|12029|success
+电子邮件|diànziyóujiàn|email|0|2|12029|success
+送给|sònggěi|give to|2|1|12030|fail
+送给|sònggěi|give to|2|1|12030|success
+送给|sònggěi|give to|2|1|12030|success
+更喜欢|gèngxǐhuān|prefer|1|0|12031|fail
+更喜欢|gèngxǐhuān|prefer|1|0|12031|success
+更喜欢|gèngxǐhuān|prefer|1|0|12031|success
+商店|shāngdiàn|store|2|0|12032|success
+国王|guówáng|king|0|2|12033|fail
+国王|guówáng|king|0|2|12033|success
+国王|guówáng|king|0|2|12033|success
+土豆|tǔdòu|potato|2|0|12034|success
+旅行|lǚxíng|travel|1|0|12035|fail
+旅行|lǚxíng|travel|1|0|12035|fail
+旅行|lǚxíng|travel|1|0|12035|success
+交响曲|jiāoxiǎngqū|symphony|2|1|12036|success
+更|gèng|more|1|0|12037|success
+还是|háishì|or|0|1|12038|success
+培根|péigēn|bacon|1|0|12039|success
