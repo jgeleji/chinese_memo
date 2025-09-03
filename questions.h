@@ -41,6 +41,16 @@ class questions
 			int breaks = 0
 		) const;
 
+		bool ask_1_chinese_char_easy(
+			std::string question_number,
+			std::string const& chinese_char,
+			int breaks = 0
+		) const;
+
+		bool ask_all_chinese_chars_easy(
+			int breaks = 0
+		) const;
+
 	private:
 		class datapoint
 		{
@@ -61,6 +71,8 @@ class questions
 					int breaks = 0
 				) const;
 		};
+
+		// normal quesions
 		typedef std::tuple<size_t, DATATYPE, DATATYPE> q_type;
 		
 		std::map<q_type, std::pair<size_t, double>> load_status_file(
@@ -73,6 +85,18 @@ class questions
 
 		typedef std::pair<std::string, DATATYPE> q_type_char;
 
+		void statistics_screen(
+			std::map<q_type, std::pair<size_t, double>> const& recurrence_scores,
+			int breaks
+		) const;
+
+		// character questions
+		void character_statistics_screen(
+			std::map<q_type_char, std::pair<size_t, double>> const& recurrence_scores,
+			int breaks,
+			size_t sequence_number
+		) const;
+
 		std::map<q_type_char, std::pair<size_t, double>> load_status_file_char(
 			std::mt19937& gen,
 			size_t& sequence_number,
@@ -81,17 +105,24 @@ class questions
 			double max_complexity = 6.33
 		) const;
 
-		void statistics_screen(
-			std::map<q_type, std::pair<size_t, double>> const& recurrence_scores,
-			int breaks
+		// easy character questions
+		typedef std::string q_type_char_easy;
+
+		std::map<q_type_char_easy, std::pair<size_t, double>> load_status_file_char_easy(
+			std::mt19937& gen,
+			size_t& sequence_number,
+			double score_improve_if_success = 1.04,
+			double score_deteriorate_if_fail = 5.19,
+			double max_complexity = 6.33
 		) const;
 
-		void character_statistics_screen(
-			std::map<q_type_char, std::pair<size_t, double>> const& recurrence_scores,
+		void character_statistics_screen_easy(
+			std::map<q_type_char_easy, std::pair<size_t, double>> const& recurrence_scores,
 			int breaks,
 			size_t sequence_number
 		) const;
 
+		// data
 		std::unordered_map<std::string, std::unordered_set<int>> chinese_char_to_index;
 
 		std::vector<datapoint> loaded_data;

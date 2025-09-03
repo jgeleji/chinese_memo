@@ -814,16 +814,17 @@ bool chinese::questions::ask_all_chinese_chars(
 		std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
 		iter0 = equal_chances.front();
 
+
+
+		int repeat=3;
+repeat_question:
 		std::stringstream question_number;
+		question_number.str("");
 		question_number << iter0->first.first << "/" << chinese_char_to_index.size() << " "
 			<< std::to_string(sequence_number) << " "
 			<< std::to_string(iter0->second.first) << " "
 			<< std::to_string(iter0->second.second);
 
-
-
-		int repeat=3;
-repeat_question:
 
 		bool outcome = ask_1_chinese_char(
 			question_number.str(),
@@ -866,12 +867,343 @@ repeat_question:
 					(int)(max_complexity* iter0->first.first.size()/6)
 				)
 			);
-			--repeat;
-			if(repeat>0)
-			{
-				goto repeat_question;
-			}
+
+		}
+		--repeat;
+		if(repeat>0)
+		{
+			goto repeat_question;
 		}
 	}
 }
 
+bool chinese::questions::ask_1_chinese_char_easy(
+	std::string question_number,
+	std::string const& chinese_char,
+	int breaks
+) const
+{
+	if(chinese_char.empty())
+	{
+		std::cout << "Empty chinese character!\n";
+		return false;
+	}
+	auto iter = chinese_char_to_index.find(chinese_char);
+	if(iter == chinese_char_to_index.end())
+	{
+		std::cout << "Unknown chinese character: " << chinese_char << "\n";
+		return false;
+	}
+	std::vector<datapoint const*> good_answers_remaining;
+	std::vector<datapoint const*> good_answers_already_given;
+	for(size_t index: iter->second)
+	{
+		good_answers_remaining.push_back(&loaded_data[index]);
+	}
+	while(good_answers_remaining.size())
+	{
+		std::stringstream question_to_ask;
+		question_to_ask << question_number << " ";
+		question_to_ask << "Character is " << chinese_char << ", what is " << to_string(DATATYPE_CHINESE);
+		question_to_ask << "? The remaining good answer(s) is/are ";
+		for(size_t i = 0; i < good_answers_remaining.size(); ++i)
+		{
+			if(i > 0) question_to_ask << ", ";
+			question_to_ask << good_answers_remaining[i]->get(DATATYPE_ENGLISH);
+		}
+		question_to_ask << ".";
+		question_to_ask << " Already given: ";
+		for(size_t i = 0; i < good_answers_already_given.size(); ++i)
+		{
+			if(i > 0) question_to_ask << ", ";
+			question_to_ask << good_answers_already_given[i]->get(DATATYPE_CHINESE);
+		}
+		std::string gave;
+		std::stringstream chinese;
+		for(size_t i = 0; i < good_answers_remaining.size(); ++i)
+		{
+			chinese << good_answers_remaining[i]->get(DATATYPE_CHINESE);
+		}
+		gave = m_input.do_input_chinese(question_to_ask.str(), true, breaks, chinese.str().c_str());
+		bool found = false;
+		for(size_t i = 0; i < good_answers_remaining.size(); ++i)
+		{
+			if(gave == good_answers_remaining[i]->get(DATATYPE_CHINESE))
+			{
+				std::cout << "Answer accepted!\n";
+				std::this_thread::sleep_for(std::chrono::milliseconds(500));
+				good_answers_already_given.push_back(good_answers_remaining[i]);
+				good_answers_remaining.erase(good_answers_remaining.begin() + i);
+				found = true;
+				break;
+			}
+		}
+		if(!found)
+		{
+			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
+			std::cout << "Correct would have been one of: ";
+			for(size_t i = 0; i < good_answers_remaining.size(); ++i)
+			{
+				//std::cout << good_answers_remaining[i]->get(asked) << " ";
+				std::cout << good_answers_remaining[i]->get(DATATYPE_CHINESE) << " ("
+				          << good_answers_remaining[i]->get(DATATYPE_PINYIN) << ", "
+				          << good_answers_remaining[i]->get(DATATYPE_ENGLISH) << ") ";
+			}
+			std::cout << "\r\n";
+			getch();
+			break;
+		}
+	}
+	return good_answers_remaining.size() == 0;
+}
+
+bool chinese::questions::ask_all_chinese_chars_easy(
+	int breaks
+) const
+{
+	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
+	double score_improve_if_success = 1.04;
+	double score_deteriorate_if_fail = 5.19;
+	double max_complexity = 6.33;
+
+
+	size_t sequence_number = 40;
+	std::map<q_type_char_easy, std::pair<size_t, double>> recurrence_scores;
+	recurrence_scores = load_status_file_char_easy(gen, sequence_number, score_improve_if_success, score_deteriorate_if_fail, max_complexity);
+
+	character_statistics_screen_easy(recurrence_scores, breaks, sequence_number);
+
+	while(1)
+	{
+		++sequence_number;
+
+		std::vector<std::map<q_type_char_easy, std::pair<size_t, double>>::iterator> equal_chances;
+		auto iter0 = recurrence_scores.begin();
+		equal_chances.push_back(iter0);
+		for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+		{
+			int skipdistance = 10;
+			if(iter->second.second < 2.5) skipdistance = 17;
+			if(iter->second.second < 1.1) skipdistance = 29;
+			if(iter->second.second < .5) skipdistance = 36;
+			if(iter->second.second < 0)
+			{
+				int tmp = iter->second.second;
+				skipdistance = 40;
+				while(tmp++ < 0)
+				{
+					skipdistance *= 2;
+				}
+			}
+			if(iter->second.first + skipdistance > sequence_number) continue;
+			if(iter->second.second > iter0->second.second)
+			{
+				iter0 = iter;
+				equal_chances.clear();
+				equal_chances.push_back(iter);
+			}
+			else if(iter->second.second == iter0->second.second)
+			{
+				equal_chances.push_back(iter);
+			}
+		}
+		std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
+		iter0 = equal_chances.front();
+
+
+
+		int repeat=3;
+repeat_question:
+
+		std::stringstream question_number;
+		question_number.str("");
+		question_number << iter0->first << "/" << chinese_char_to_index.size() << " "
+			<< std::to_string(sequence_number) << " "
+			<< std::to_string(iter0->second.first) << " "
+			<< std::to_string(iter0->second.second);
+
+		bool outcome = ask_1_chinese_char_easy(
+			question_number.str(),
+			iter0->first,
+			breaks
+		);
+		iter0->second.first = sequence_number;
+	// the meaning of the tokens
+	// 0: chinese character
+	// 1: asked datatype (0=chinese, 1=pinyin, 2=english)
+	// 2: sequence number (when it was asked)
+	// 3: outcome (success or fail)
+
+		std::fstream statusfile;
+		statusfile.open("status_c_e.txt", std::fstream::out | std::fstream::app);
+		statusfile << iter0->first;
+
+		statusfile << "|" << sequence_number;
+		if(outcome)
+		{
+			statusfile << "|success\n";
+			iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
+			std::cout << "Answer accepted!\n";
+			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+			if(repeat == 3)
+			{
+				repeat = 0;
+			}
+		}
+		else
+		{
+			statusfile << "|fail\n";
+			iter0->second.second = std::min(
+				(int)(iter0->second.second + score_deteriorate_if_fail+(gen()%5000)*.00001),
+				std::max(
+					(int)4,
+					(int)(max_complexity* iter0->first.size()/6)
+				)
+			);
+		}
+		--repeat;
+		if(repeat>0)
+		{
+			goto repeat_question;
+		}
+	}
+}
+
+std::map<chinese::questions::q_type_char_easy, std::pair<size_t, double>> chinese::questions::load_status_file_char_easy(
+	std::mt19937& gen,
+	size_t& sequence_number,
+	double score_improve_if_success,
+	double score_deteriorate_if_fail,
+	double max_complexity
+) const
+{
+	std::map<chinese::questions::q_type_char_easy, std::pair<size_t, double>> recurrence_scores;
+	for(size_t q=0; q<loaded_data.size(); ++q)
+	{
+		std::vector<std::string> chinese_chars = m_input.split_into_chinese_characters(loaded_data[q].chinese);
+		for(const std::string& chinese_char: chinese_chars)
+		{
+			recurrence_scores[q_type_char_easy(chinese_char)] = std::pair<size_t, double>(0, 0.0);
+		}
+	}
+
+	// the meaning of the tokens
+	// 0: chinese character
+	// 1: sequence number (when it was asked)
+	// 2: outcome (success or fail)
+	sequence_number = 40;
+	std::fstream statusfile;
+	statusfile.open("status_c_e.txt", std::fstream::in);
+	while(statusfile.good())
+	{
+		std::string line;
+		getline(statusfile, line);
+		std::vector<std::string> tokens = tokenize(line, '|');
+		if(tokens.size() < 3)
+		{
+			continue;
+		}
+		std::string chinese_char = tokens[0];
+		q_type_char_easy key = q_type_char_easy(chinese_char);
+		auto iter = recurrence_scores.find(key);
+		if(iter == recurrence_scores.end())
+		{
+			std::cout << "Unknown chinese character: " << chinese_char << "\n";
+			continue;
+		}
+		iter->second.first = std::max(iter->second.first, (size_t)atoll(tokens[1].c_str()));
+		sequence_number = std::max(sequence_number, iter->second.first);
+		if(tokens[2] == "success")
+		{
+			iter->second.second -= score_improve_if_success + (gen()%5)*.01;
+		}
+		else if(tokens[2] == "fail")
+		{
+			iter->second.second = std::min(
+				std::max(
+					(int)4,
+					(int)(max_complexity*chinese_char.size()/6)
+				),
+				int(iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001)
+			);
+		}
+		
+	}
+	return recurrence_scores;
+}
+
+void chinese::questions::character_statistics_screen_easy(
+	std::map<chinese::questions::q_type_char_easy, std::pair<size_t, double>> const& recurrence_scores,
+	int breaks,
+	size_t sequence_number
+) const
+{
+	std::cout << "Chinese character (easy) statistics:\r\n";
+	size_t zero_score=0;
+	std::map<int, int> positive_score;
+	std::map<int, int> negative_score;
+	long double total_score=0.0l;
+	bool have_overloaded = false;
+	size_t total_positive = 0;
+	size_t total_negative = 0;
+	PRINT(recurrence_scores.size());
+	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+	{
+		double score = iter->second.second;
+		if(false && score < -4)
+		{
+			have_overloaded = true;
+			std::cout << "Overloaded score(" << score << "). ";
+			std::cout << iter->first << "\r\n";
+		}
+		total_score += score;
+		if(score < 0.0)
+		{
+			++negative_score[floor(score)];
+			++total_negative;
+		}
+		else if(score == 0.0)
+		{
+			++zero_score;
+		}
+		else
+		{
+			++positive_score[ceil(score)];
+			++total_positive;
+		}
+	}
+	std::cout << "Total positive score: " << total_positive << "\r\n";
+	std::cout << "Total negative score: " << total_negative << "\r\n";
+	for(auto iter = negative_score.begin(); iter != negative_score.end(); ++iter)
+	{
+		std::cout << "Negative score: " << iter->first << " count: " << iter->second << "\r\n";
+	}
+	std::cout << "Zero score: " << zero_score << "\r\n";
+	for(auto iter = positive_score.begin(); iter != positive_score.end(); ++iter)
+	{
+		std::cout << "Positive score: " << iter->first << " count: " << iter->second << "\r\n";
+	}
+	std::cout << "Total chinese characters: " << chinese_char_to_index.size() << "\r\n";
+	std::cout << "Total score: " << total_score << "\r\n";
+	std::cout << "Average score per character: "
+	          << (total_score/recurrence_scores.size()) 
+	          << "\r\n";
+	std::cout << "Sequence number: " << sequence_number << "\r\n";
+	if(COLS > 80 && breaks > 0)
+	{
+		std::cout << "Press any key to continue...\r\n";
+		//getch();
+		//move(0,0);
+		//clear();
+		//refresh();
+	}
+	else
+	{
+		std::cout << "Press enter to continue...\r\n";
+		//std::cin.get();
+		//move(0,0);
+		//clear();
+		//refresh();
+	}
+	std::cin.get();
+}
