@@ -16117,3 +16117,242 @@
 更|gèng|more|1|0|12037|success
 还是|háishì|or|0|1|12038|success
 培根|péigēn|bacon|1|0|12039|success
+电子邮件|diànziyóujiàn|email|0|2|12040|fail
+电子邮件|diànziyóujiàn|email|0|2|12040|success
+电子邮件|diànziyóujiàn|email|0|2|12040|success
+商丘|shāngqiū|shangqiu|0|2|12041|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12042|fail
+国家博物馆|guójiābówùguǎn|national museum|1|0|12042|fail
+国家博物馆|guójiābówùguǎn|national museum|1|0|12042|success
+送给|sònggěi|see off|2|1|12043|success
+超市|chāoshì|supermarket|2|0|12044|success
+旅行|lǚxíng|travel|1|0|12045|success
+生人|shēngrén|stranger|2|0|12046|success
+送给|sònggěi|give to|2|1|12047|success
+更喜欢|gèngxǐhuān|prefer|1|0|12048|success
+坐地铁|zuòdìtiě|take subway|0|1|12049|success
+电子邮件|diànziyóujiàn|email|0|2|12050|success
+国王|guówáng|king|0|2|12051|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12052|success
+真|zhēn|so very|1|0|12053|success
+恭喜|gōngxǐ|congratulations|1|0|12054|fail
+恭喜|gōngxǐ|congratulations|1|0|12054|success
+恭喜|gōngxǐ|congratulations|1|0|12054|success
+旅行|lǚxíng|travel|1|0|12055|success
+前面|qiánmiàn|in front|1|0|12056|success
+地方|defāng|place|1|2|12057|success
+广州|guǎngzhōu|guangzhou|0|2|12058|success
+油条|yóutiáo|deep fried dough|2|1|12059|success
+电子邮件|diànziyóujiàn|email|0|2|12060|success
+软件|ruǎnjiàn|software|0|1|12061|fail
+软件|ruǎnjiàn|software|0|1|12061|success
+软件|ruǎnjiàn|software|0|1|12061|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12062|success
+干豆|gàndòu|dried bean|0|2|12063|success
+恭喜|gōngxǐ|congratulations|1|0|12064|fail
+恭喜|gōngxǐ|congratulations|1|0|12064|success
+恭喜|gōngxǐ|congratulations|1|0|12064|success
+旅行|lǚxíng|travel|1|0|12065|success
+加油|jiāyóu|come on|0|2|12066|success
+牛角包|niújiǎobāo|croissant|0|2|12067|fail
+牛角包|niújiǎobāo|croissant|0|2|12067|success
+牛角包|niújiǎobāo|croissant|0|2|12067|success
+已经|yǐjīng|already|2|0|12068|success
+礼物|lǐwù|gift|2|1|12069|success
+电子邮件|diànziyóujiàn|email|0|2|12070|success
+商丘|shāngqiū|shangqiu|0|2|12071|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12072|success
+欢迎|huānyíng|welcome|0|2|12073|success
+恭喜|gōngxǐ|congratulations|1|0|12074|success
+德国|déguó|germany|1|2|12075|success
+送给|sònggěi|give to|2|1|12076|success
+更喜欢|gèngxǐhuān|prefer|1|0|12077|success
+软件|ruǎnjiàn|software|0|1|12078|success
+培根|péigēn|bacon|1|0|12079|success
+电子邮件|diànziyóujiàn|email|0|2|12080|success
+国王|guówáng|king|0|2|12081|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12082|success
+旅行|lǚxíng|travel|1|0|12083|success
+恭喜|gōngxǐ|congratulations|1|0|12084|success
+牛角包|niújiǎobāo|croissant|0|2|12085|success
+更|gèng|more|1|0|12086|success
+告诉|gàosù|tell|0|1|12087|fail
+告诉|gàosù|tell|0|1|12087|success
+告诉|gàosù|tell|0|1|12087|success
+可乐|kělè|cola|0|1|12088|success
+棕色|zōngsè|brown|2|0|12089|success
+一遍|yībiàn|again|0|1|12090|fail
+一遍|yībiàn|again|0|1|12090|success
+一遍|yībiàn|again|0|1|12090|success
+机场|jīchǎng|airport|2|1|12091|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12092|success
+紫色|zǐsè|purple|0|1|12093|success
+鱼丸|yúwán|fish ball|1|2|12094|fail
+鱼丸|yúwán|fish ball|1|2|12094|success
+鱼丸|yúwán|fish ball|1|2|12094|success
+香肠|xiāngcháng|sausage|1|2|12095|success
+椰子|yēzi|coconut|2|1|12096|fail
+椰子|yēzi|coconut|2|1|12096|success
+椰子|yēzi|coconut|2|1|12096|success
+电子邮件|diànziyóujiàn|email|0|2|12097|success
+商店|shāngdiàn|store|2|1|12098|fail
+超市|chāoshì|supermarket|1|2|12098|fail
+商店|shāngdiàn|store|2|1|12098|success
+商店|shāngdiàn|store|2|1|12098|success
+超市|chāoshì|supermarket|1|2|12099|success
+十多个|shíduōgè|about ten|0|1|12100|success
+恭喜|gōngxǐ|congratulations|1|0|12101|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12102|success
+时间|shíjiān|time|1|0|12103|success
+告诉|gàosù|tell|0|1|12104|fail
+告诉|gàosù|tell|0|1|12104|success
+告诉|gàosù|tell|0|1|12104|success
+歌剧院|gējùyuàn|opera|0|2|12105|fail
+歌剧院|gējùyuàn|opera|0|2|12105|success
+歌剧院|gējùyuàn|opera|0|2|12105|success
+环境|huánjìng|environment|0|1|12106|fail
+环境|huánjìng|environment|0|1|12106|success
+环境|huánjìng|environment|0|1|12106|success
+一遍|yībiàn|again|0|1|12107|fail
+一遍|yībiàn|again|0|1|12107|success
+一遍|yībiàn|again|0|1|12107|success
+软件|ruǎnjiàn|software|0|1|12108|success
+超市|chāoshì|supermarket|1|2|12109|success
+手工|shǒugōng|handmade|2|1|12110|fail
+手工|shǒugōng|handmade|2|1|12110|success
+手工|shǒugōng|handmade|2|1|12110|success
+鱼丸|yúwán|fish ball|1|2|12111|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12112|success
+椰子|yēzi|coconut|2|1|12113|success
+告诉|gàosù|tell|0|1|12114|success
+商店|shāngdiàn|store|2|1|12115|success
+牛角包|niújiǎobāo|croissant|0|2|12116|success
+一遍|yībiàn|again|0|1|12117|success
+旅行|lǚxíng|travel|1|0|12118|success
+商丘|shāngqiū|shangqiu|0|2|12119|success
+更喜欢|gèngxǐhuān|prefer|1|0|12120|success
+国王|guówáng|king|0|2|12121|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12122|success
+歌剧院|gējùyuàn|opera|0|2|12123|success
+告诉|gàosù|tell|0|1|12124|success
+环境|huánjìng|environment|0|1|12125|fail
+手工|shǒugōng|handmade|1|0|12125|fail
+环境|huánjìng|environment|0|1|12125|success
+环境|huánjìng|environment|0|1|12125|success
+手工|shǒugōng|handmade|1|0|12126|fail
+手工|shǒugōng|handmade|1|0|12126|success
+手工|shǒugōng|handmade|1|0|12126|success
+一遍|yībiàn|again|0|1|12127|success
+超市|chāoshì|supermarket|1|2|12128|success
+手工|shǒugōng|handmade|2|1|12129|success
+恭喜|gōngxǐ|congratulations|1|0|12130|success
+电子邮件|diànziyóujiàn|email|0|2|12131|success
+送给|sònggěi|give to|2|1|12132|success
+后面|hòumiàn|behind|2|1|12133|success
+觉得|juédé|think feel|1|2|12134|success
+环境|huánjìng|environment|0|1|12135|success
+手工|shǒugōng|handmade|1|0|12136|success
+还是|háishì|or|0|1|12137|success
+千米|qiānmǐ|kilometre|0|2|12138|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12139|success
+鱼丸|yúwán|fish ball|1|2|12140|success
+告诉|gàosù|tell|0|1|12141|success
+椰子|yēzi|coconut|2|1|12142|success
+安徽|ānhuī|anhui province|2|0|12143|success
+一遍|yībiàn|again|0|1|12144|success
+环境|huánjìng|environment|0|1|12145|fail
+告诉|gàosù|tell|1|0|12145|fail
+环境|huánjìng|environment|0|1|12145|success
+环境|huánjìng|environment|0|1|12145|success
+告诉|gàosù|tell|1|0|12146|success
+手工|shǒugōng|handmade|1|0|12147|success
+商店|shāngdiàn|store|2|1|12148|success
+软件|ruǎnjiàn|software|0|1|12149|success
+多长时间|duōzhǎngshíjiān|how long|0|1|12150|success
+老虎|lǎohǔ|tiger|0|2|12151|success
+歌剧院|gējùyuàn|opera|0|2|12152|success
+理发店|lǐfādiàn|barber shop|1|2|12153|fail
+理发店|lǐfādiàn|barber shop|1|2|12153|success
+理发店|lǐfādiàn|barber shop|1|2|12153|success
+商丘|shāngqiū|shangqiu|2|0|12154|success
+环境|huánjìng|environment|0|1|12155|success
+告诉|gàosù|tell|1|0|12156|success
+超市|chāoshì|supermarket|1|2|12157|success
+手工|shǒugōng|handmade|2|1|12158|success
+牛角包|niújiǎobāo|croissant|0|2|12159|success
+迟到|chídào|late|2|0|12160|success
+莲子|liánzi|lotus seed|2|1|12161|success
+下雪|xiàxuě|snowing|2|1|12162|success
+白菜|báicài|chinese cabbage|0|1|12163|fail
+白菜|báicài|chinese cabbage|0|1|12163|fail
+白菜|báicài|chinese cabbage|0|1|12163|success
+手工|shǒugōng|handmade|1|0|12164|success
+环境|huánjìng|environment|0|1|12165|success
+告诉|gàosù|tell|1|0|12166|success
+红葡萄酒|hóngpútáojiǔ|red wine|1|2|12167|success
+东西|dōngxī|thing|2|1|12168|success
+富人|fùrén|rich person|1|0|12169|success
+理发店|lǐfādiàn|barber shop|1|2|12170|success
+告诉|gàosù|tell|0|1|12171|success
+有意思|yǒuyìsi|interesting|1|2|12172|fail
+有意思|yǒuyìsi|interesting|1|2|12172|success
+有意思|yǒuyìsi|interesting|1|2|12172|success
+白菜|báicài|chinese cabbage|0|1|12173|success
+一遍|yībiàn|again|0|1|12174|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|12175|success
+食堂|shítáng|canteen|2|0|12176|success
+春节|chūnjié|spring festival|1|0|12177|fail
+春节|chūnjié|spring festival|1|0|12177|success
+春节|chūnjié|spring festival|1|0|12177|success
+花生|huāshēng|peanut|1|0|12178|success
+升|shēng|liter|0|2|12179|fail
+升|shēng|liter|0|2|12179|success
+升|shēng|liter|0|2|12179|success
+麦片|màipiàn|cereal|0|2|12180|success
+鸟|niǎo|bird|0|1|12181|success
+环境|huánjìng|environment|0|1|12182|success
+白菜|báicài|chinese cabbage|0|1|12183|success
+椰子|yēzi|coconut|2|1|12184|success
+中间|zhōngjiān|between|2|0|12185|fail
+中间|zhōngjiān|between|2|0|12185|success
+中间|zhōngjiān|between|2|0|12185|success
+觉得|juédé|think feel|0|1|12186|success
+丰富|fēngfù|rich|1|0|12187|fail
+丰富|fēngfù|rich|1|0|12187|success
+丰富|fēngfù|rich|1|0|12187|success
+商店|shāngdiàn|store|2|1|12188|success
+有意思|yǒuyìsi|interesting|1|2|12189|success
+鱼丸|yúwán|fish ball|1|2|12190|success
+别的|biéde|other|1|2|12191|success
+澳大利亚|àodàlìyà|australia|0|1|12192|success
+白菜|báicài|chinese cabbage|0|1|12193|success
+春节|chūnjié|spring festival|1|0|12194|success
+告诉|gàosù|tell|1|0|12195|success
+升|shēng|liter|0|2|12196|success
+手工|shǒugōng|handmade|1|0|12197|success
+手工|shǒugōng|handmade|2|1|12198|success
+理发店|lǐfādiàn|barber shop|1|2|12199|success
+超市|chāoshì|supermarket|1|2|12200|success
+葡萄|pútáo|grape|0|2|12201|success
+中间|zhōngjiān|between|2|0|12202|success
+绳子|shéngzi|rope|1|0|12203|fail
+绳子|shéngzi|rope|1|0|12203|success
+绳子|shéngzi|rope|1|0|12203|success
+丰富|fēngfù|rich|1|0|12204|success
+见到|jiàndào|see|0|2|12205|fail
+见到|jiàndào|see|0|2|12205|success
+见到|jiàndào|see|0|2|12205|success
+棕色|zōngsè|brown|0|1|12206|success
+份|fèn|portion|2|0|12207|success
+所以|suǒyǐ|so|0|1|12208|success
+红灯|hóngdēng|red light|1|0|12209|success
+白菜|báicài|chinese cabbage|0|1|12210|success
+环境|huánjìng|environment|0|1|12211|success
+时候|shíhou|when|0|2|12212|fail
+时间|shíjiān|time|2|0|12212|fail
+时候|shíhou|when|0|2|12212|success
+时候|shíhou|when|0|2|12212|success
+时间|shíjiān|time|2|0|12213|success
+狮子|shīzi|lion|0|1|12214|fail
+狮子|shīzi|lion|0|1|12214|success
+狮子|shīzi|lion|0|1|12214|success
