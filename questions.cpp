@@ -480,7 +480,6 @@ repeat_question:
 		{
 			std::cout << "Answer accepted!\n";
 			std::this_thread::sleep_for(std::chrono::milliseconds(500));
-			repeat = 0;
 		}
 		else
 		{
@@ -505,7 +504,7 @@ repeat_question:
 			}
 			else
 			{
-				q=size_t(-1);
+				//q=size_t(-1);
 				goto noreshuffle;
 			}
 		}
