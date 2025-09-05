@@ -16356,3 +16356,113 @@
 狮子|shīzi|lion|0|1|12214|fail
 狮子|shīzi|lion|0|1|12214|success
 狮子|shīzi|lion|0|1|12214|success
+周一|zhōuyī|monday|1|0|12215|success
+牛肉干|niúròugàn|beef jerky|1|0|12216|success
+菜单|càidān|menu|2|1|12217|success
+有意思|yǒuyìsi|interesting|1|2|12218|fail
+有意思|yǒuyìsi|interesting|1|2|12218|success
+有意思|yǒuyìsi|interesting|1|2|12218|success
+办公室|bàngōngshì|office|1|0|12219|success
+绳子|shéngzi|rope|1|0|12220|fail
+绳子|shéngzi|rope|1|0|12220|success
+绳子|shéngzi|rope|1|0|12220|success
+狮子|shīzi|lion|0|2|12221|success
+见到|jiàndào|see|0|2|12222|success
+时间|shíjiān|time|2|0|12223|success
+春节|chūnjié|spring festival|1|0|12224|fail
+春节|chūnjié|spring festival|1|0|12224|success
+春节|chūnjié|spring festival|1|0|12224|success
+升|shēng|liter|0|2|12225|success
+环境|huánjìng|environment|1|2|12226|success
+柠檬|níngméng|lemon|0|1|12227|fail
+柠檬|níngméng|lemon|0|1|12227|success
+柠檬|níngméng|lemon|0|1|12227|success
+有意思|yǒuyìsi|interesting|1|2|12228|success
+时候|shíhou|when|0|2|12229|fail
+时间|shíjiān|time|2|0|12229|fail
+时候|shíhou|when|0|2|12229|success
+时候|shíhou|when|0|2|12229|success
+绳子|shéngzi|rope|1|0|12230|success
+狮子|shīzi|lion|0|1|12231|success
+中间|zhōngjiān|between|2|0|12232|success
+时间|shíjiān|time|2|0|12233|success
+春节|chūnjié|spring festival|1|0|12234|success
+丰富|fēngfù|rich|1|0|12235|fail
+丰富|fēngfù|rich|1|0|12235|success
+丰富|fēngfù|rich|1|0|12235|success
+告诉|gàosù|tell|0|2|12236|fail
+软件|ruǎnjiàn|software|2|0|12236|fail
+告诉|gàosù|tell|0|2|12236|success
+告诉|gàosù|tell|0|2|12236|success
+软件|ruǎnjiàn|software|2|0|12237|success
+橙色|chéngsè|orange color|0|1|12238|success
+时候|shíhou|when|0|2|12239|success
+绳子|shéngzi|rope|1|0|12240|success
+白菜|báicài|chinese cabbage|0|1|12241|success
+请问|qǐngwèn|excuse me|0|2|12242|success
+时间|shíjiān|time|2|0|12243|success
+春节|chūnjié|spring festival|1|0|12244|success
+丰富|fēngfù|rich|1|0|12245|success
+柠檬|níngméng|lemon|0|1|12246|success
+软件|ruǎnjiàn|software|2|0|12247|success
+有意思|yǒuyìsi|interesting|1|2|12248|success
+时候|shíhou|when|0|2|12249|success
+忧虑|yōulǜ|worry|1|0|12250|fail
+忧虑|yōulǜ|worry|1|0|12250|success
+忧虑|yōulǜ|worry|1|0|12250|success
+见到|jiàndào|see|0|2|12251|fail
+见到|jiàndào|see|0|2|12251|success
+见到|jiàndào|see|0|2|12251|success
+好久不见|hǎojiǔbùjiàn|long time no see|0|2|12252|success
+时间|shíjiān|time|2|0|12253|success
+告诉|gàosù|tell|0|2|12254|success
+送给|sònggěi|see off|1|2|12255|success
+匈牙利|xiōngyálì|hungary|2|0|12256|success
+绳子|shéngzi|rope|1|0|12257|success
+别的|biéde|other|1|0|12258|success
+一般|yībān|general|1|2|12259|success
+狮子|shīzi|lion|0|1|12260|success
+见到|jiàndào|see|0|2|12261|success
+丰富|fēngfù|rich|1|0|12262|success
+时间|shíjiān|time|2|0|12263|success
+软件|ruǎnjiàn|software|2|0|12264|success
+春节|chūnjié|spring festival|1|0|12265|success
+时候|shíhou|when|0|2|12266|success
+忧虑|yōulǜ|worry|1|0|12267|success
+升|shēng|liter|0|2|12268|success
+樱花|yīnghuā|cherry blossom|0|2|12269|fail
+樱花|yīnghuā|cherry blossom|0|2|12269|success
+樱花|yīnghuā|cherry blossom|0|2|12269|success
+绿色|lǜsè|green|1|0|12270|success
+见到|jiàndào|see|0|2|12271|success
+消防局|xiāofángjú|fire station|0|1|12272|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|0|2|12273|success
+坐地铁|zuòdìtiě|take subway|2|0|12274|success
+柠檬|níngméng|lemon|0|1|12275|success
+机场|jīchǎng|airport|0|2|12276|success
+有意思|yǒuyìsi|interesting|1|2|12277|success
+颜色|yánsè|color|0|1|12278|fail
+颜色|yánsè|color|0|1|12278|success
+颜色|yánsè|color|0|1|12278|success
+警察局|jǐngchájú|police station|2|0|12279|fail
+警察局|jǐngchájú|police station|2|0|12279|success
+警察局|jǐngchájú|police station|2|0|12279|success
+时间|shíjiān|time|2|0|12280|success
+右边|yòubiān|right|2|0|12281|success
+湿豆|shīdòu|white bean|0|1|12282|success
+告诉|gàosù|tell|0|2|12283|success
+一般|yībān|normally|2|1|12284|success
+绳子|shéngzi|rope|2|1|12285|success
+樱花|yīnghuā|cherry blossom|0|2|12286|success
+绳子|shéngzi|rope|1|0|12287|success
+见到|jiàndào|see|0|2|12288|success
+看看|kànkàn|take a look|2|1|12289|success
+国王|guówáng|king|1|0|12290|success
+丰富|fēngfù|rich|1|0|12291|success
+干豆|gàndòu|dried bean|2|0|12292|success
+软件|ruǎnjiàn|software|2|0|12293|success
+春节|chūnjié|spring festival|1|0|12294|success
+颜色|yánsè|color|0|1|12295|success
+警察局|jǐngchájú|police station|2|0|12296|success
+忧虑|yōulǜ|worry|1|0|12297|success
+时候|shíhou|when|0|2|12298|success

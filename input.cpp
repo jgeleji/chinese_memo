@@ -362,15 +362,15 @@ std::string chinese::Input::pinyin_convert_1syll(std::string const& raw_input)
 
 	//find any vowel
 	static const std::vector<std::string> vowels = {"a", "o", "e", "i", "u", "ü"};
-	bool found_vowel = false;
-	for(size_t i=0; i<vowels.size(); ++i)
-	{
-		if(pinyin.find(vowels[i]) != std::string::npos)
-		{
-			found_vowel = true;
-			break;
-		}
-	}
+	//bool found_vowel = false;
+	//for(size_t i=0; i<vowels.size(); ++i)
+	//{
+	//	if(pinyin.find(vowels[i]) != std::string::npos)
+	//	{
+	//		found_vowel = true;
+	//		break;
+	//	}
+	//}
 	//if(!found_vowel)
 	//{
 	//	std::cout << "Vowel not found! \"" << raw_input << "\"\n";
