@@ -19,7 +19,7 @@
 燕麦粥|oatmeal
 蛋煎面包|egg fried bread
 鸡蛋液煎面包|egg liquid fried bread|jīdànyèjiānmiànbāo
-有的时候|sometimes|yóudeshíhou
+有的时候|sometimes|yǒudeshíhòu
 西红柿|tomato
 花生|peanut
 莲藕|lotus root

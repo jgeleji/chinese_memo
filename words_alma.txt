@@ -20,3 +20,5 @@
 盐|salt
 软件|software
 卖|sell
+外套|coat
+桌子|table
