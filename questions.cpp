@@ -7,9 +7,6 @@
 #include <thread>
 #include <cctype>
 
-//#include <ncurses.h>
-//#include <curses.h>
-
 #include "questions.h"
 #include "tokenize.h"
 

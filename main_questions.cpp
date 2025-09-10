@@ -2,18 +2,12 @@
 
 #include "questions.h"
 
-//#include <ncurses.h>
-//#include <curses.h>
-
 int main()
 {
 	chinese::questions q;
 	q.load_file("union_q.txt");
 
 	q.init();
-
-
-	int y, x;
 
 	q.ask_all_until_fail(std::max(0, q.cols()/7));
 
