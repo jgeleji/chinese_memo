@@ -169,7 +169,7 @@ void chinese::questions::statistics_screen(
 			std::cout << " " << asked;
 			std::cout << "\r\n";
 			std::fstream statusfile;
-			statusfile.open("status.txt", std::fstream::out | std::fstream::app);
+			statusfile.open("status1.txt", std::fstream::out | std::fstream::app);
 			statusfile << loaded_data[std::get<0>(iter->first)].chinese;
 			statusfile << "|";
 			statusfile << loaded_data[std::get<0>(iter->first)].pinyin;
@@ -251,7 +251,7 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 
 	sequence_number = 0;
 	std::fstream statusfile;
-	statusfile.open("status.txt", std::fstream::in);
+	statusfile.open("status1.txt", std::fstream::in);
 	while(statusfile.good())
 	{
 		std::string line;
@@ -426,7 +426,7 @@ repeat_question:
 			);
 		iter0->second.first = sequence_number;
 		std::fstream statusfile;
-		statusfile.open("status.txt", std::fstream::out | std::fstream::app);
+		statusfile.open("status1.txt", std::fstream::out | std::fstream::app);
 		statusfile << current->get(DATATYPE_CHINESE);
 		statusfile << "|";
 		statusfile << current->get(DATATYPE_PINYIN);
