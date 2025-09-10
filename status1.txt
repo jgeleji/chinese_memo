@@ -16687,3 +16687,11 @@
 意思|yìsi|meaning|1|2|12472|success
 蔬菜|shūcài|vegetable|2|0|12473|success
 休假|xiūjiǎ|take a vacation|0|2|12474|success
+考试|kǎoshì|take an exam|0|2|12475|success
+国王|guówáng|king|0|2|12476|success
+中间|zhōngjiān|between|2|0|12477|success
+斯洛伐克|sīluòfákè|slovakia|1|2|12478|success
+莲藕|liánǒu|lotus root|0|2|12479|fail
+莲藕|liánǒu|lotus root|0|2|12479|success
+莲藕|liánǒu|lotus root|0|2|12479|success
+狮子|shīzi|lion|2|1|12480|success
