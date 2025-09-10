@@ -14,6 +14,10 @@ namespace chinese
 class questions
 {
 	public:
+		void init() const;
+		void close() const;
+		void system_pause() const;
+		int cols() const;
 
 		enum DATATYPE
 		{

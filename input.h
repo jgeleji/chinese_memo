@@ -34,8 +34,14 @@ class Input
 			INPUT_STATE_CHOOSE_NUMBER,
 			INPUT_STATE_EXIT
 		};
+
 		void move_clear_refresh() const;
 	public:
+		void init() const;
+		void close() const;
+		void system_pause() const;
+		int cols() const;
+
 		std::vector<std::string> split_into_chinese_characters(std::string val) const;
 		std::vector<std::string> get_some_random_chinese_chars(int num, std::mt19937& rnd) const;
 

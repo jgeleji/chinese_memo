@@ -7,8 +7,8 @@
 #include <thread>
 #include <cctype>
 
-#include <ncurses.h>
-#include <curses.h>
+//#include <ncurses.h>
+//#include <curses.h>
 
 #include "questions.h"
 #include "tokenize.h"
@@ -220,7 +220,7 @@ void chinese::questions::statistics_screen(
 
 	PRINT(total_score);
 	PRINT(total_score/recurrence_scores.size());
-	PRINT(COLS);
+	PRINT(m_input.cols());
 	PRINT(breaks);
 	std::cin.get();
 }
@@ -490,7 +490,8 @@ repeat_question:
 				std::cout << "Btw CHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
 				std::cout << ", PYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
 				std::cout << ", ENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
-				getch();
+				//getch();
+				system_pause();
 			}
 			else
 			{
@@ -604,7 +605,8 @@ bool chinese::questions::ask_1_chinese_char(
 				          << good_answers_remaining[i]->get(DATATYPE_ENGLISH) << ") ";
 			}
 			std::cout << "\r\n";
-			getch();
+			//getch();
+			system_pause();
 			break;
 		}
 	}
@@ -672,7 +674,7 @@ void chinese::questions::character_statistics_screen(
 	          << "\r\n";
 	std::cout << "Sequence number: " << sequence_number << "\r\n";
 
-	if(COLS > 80 && breaks > 0)
+	if(cols() > 80 && breaks > 0)
 	{
 		std::cout << "Press any key to continue...\r\n";
 		//getch();
@@ -949,7 +951,8 @@ bool chinese::questions::ask_1_chinese_char_easy(
 				          << good_answers_remaining[i]->get(DATATYPE_ENGLISH) << ") ";
 			}
 			std::cout << "\r\n";
-			getch();
+			//getch();
+			system_pause();
 			break;
 		}
 	}
@@ -1188,7 +1191,7 @@ void chinese::questions::character_statistics_screen_easy(
 	          << (total_score/recurrence_scores.size()) 
 	          << "\r\n";
 	std::cout << "Sequence number: " << sequence_number << "\r\n";
-	if(COLS > 80 && breaks > 0)
+	if(cols() > 80 && breaks > 0)
 	{
 		std::cout << "Press any key to continue...\r\n";
 		//getch();
@@ -1205,4 +1208,24 @@ void chinese::questions::character_statistics_screen_easy(
 		//refresh();
 	}
 	std::cin.get();
+}
+
+void chinese::questions::init() const
+{
+	m_input.init();
+}
+
+void chinese::questions::close() const
+{
+	m_input.close();
+}
+
+void chinese::questions::system_pause() const
+{
+	m_input.system_pause();
+}
+
+int chinese::questions::cols() const
+{
+	return m_input.cols();
 }

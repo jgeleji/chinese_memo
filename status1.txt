@@ -16698,3 +16698,25 @@
 英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12481|fail
 英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12481|success
 英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12481|success
+国家博物馆|guójiābówùguǎn|national museum|0|1|12482|success
+蔬菜|shūcài|vegetable|2|0|12483|success
+樱花|yīnghuā|cherry blossom|0|2|12484|success
+服务员|fúwùyuán|waiter|0|2|12485|fail
+服务员|fúwùyuán|waiter|0|2|12485|success
+服务员|fúwùyuán|waiter|0|2|12485|success
+朋友|péngyǒu|friend|0|2|12486|fail
+朋友|péngyǒu|friend|0|2|12486|success
+朋友|péngyǒu|friend|0|2|12486|success
+黄瓜|huángguā|cucumber|1|0|12487|success
+更喜欢|gèngxǐhuān|prefer|1|2|12488|success
+莲藕|liánǒu|lotus root|0|2|12489|success
+因为|yīnwèi|because|0|1|12490|fail
+因为|yīnwèi|because|0|1|12490|success
+因为|yīnwèi|because|0|1|12490|success
+休假|xiūjiǎ|take a vacation|0|2|12491|success
+考试|kǎoshì|take an exam|0|2|12492|fail
+考试|kǎoshì|take an exam|0|2|12492|success
+考试|kǎoshì|take an exam|0|2|12492|success
+蔬菜|shūcài|vegetable|2|0|12493|success
+有的时候|yǒudeshíhòu|sometimes|0|2|12494|success
+胳膊|gēbó|arm|2|0|12495|success

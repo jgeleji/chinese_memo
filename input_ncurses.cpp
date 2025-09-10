@@ -90,3 +90,26 @@ void chinese::Input::move_clear_refresh() const
 	clear();
 	refresh();
 }
+
+void chinese::Input::init() const
+{
+	initscr();			/* Start curses mode 		*/
+	//raw();				/* Line buffering disabled	*/
+	keypad(stdscr, TRUE);		/* We get F1, F2 etc..		*/
+	noecho();			/* Don't echo() while we do getch */
+}
+
+void chinese::Input::close() const
+{
+	endwin();			/* End curses mode		  */
+}
+
+void chinese::Input::system_pause() const
+{
+	getch();
+}
+
+int chinese::Input::cols() const
+{
+	return COLS;
+}
