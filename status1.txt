@@ -16720,3 +16720,218 @@
 蔬菜|shūcài|vegetable|2|0|12493|success
 有的时候|yǒudeshíhòu|sometimes|0|2|12494|success
 胳膊|gēbó|arm|2|0|12495|success
+交响曲|jiāoxiǎngqū|symphony|0|1|12496|success
+回答|huídá|answer|2|1|12497|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12498|fail
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12498|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12498|success
+莲藕|liánǒu|lotus root|0|2|12499|fail
+莲藕|liánǒu|lotus root|0|2|12499|success
+莲藕|liánǒu|lotus root|0|2|12499|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|12500|fail
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|12500|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|12500|success
+交响乐|jiāoxiǎngyuè|symphony orchestra|2|1|12501|success
+考试|kǎoshì|take an exam|0|2|12502|fail
+考试|kǎoshì|take an exam|0|2|12502|success
+考试|kǎoshì|take an exam|0|2|12502|success
+服务员|fúwùyuán|waiter|0|2|12503|success
+朋友|péngyǒu|friend|0|2|12504|fail
+朋友|péngyǒu|friend|0|2|12504|success
+朋友|péngyǒu|friend|0|2|12504|success
+中间|zhōngjiān|between|0|1|12505|success
+时候|shíhòu|when|2|1|12506|success
+因为|yīnwèi|because|0|1|12507|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12508|success
+莲藕|liánǒu|lotus root|0|2|12509|success
+蔬菜|shūcài|vegetable|2|0|12510|success
+长城|zhǎngchéng|great wall|2|0|12511|success
+考试|kǎoshì|take an exam|0|2|12512|success
+丰富|fēngfù|rich|2|1|12513|success
+朋友|péngyǒu|friend|0|2|12514|success
+东莞|dōngguǎn|dongguan|1|2|12515|fail
+东莞|dōngguǎn|dongguan|1|2|12515|success
+东莞|dōngguǎn|dongguan|1|2|12515|success
+画家|huàjiā|painter|1|2|12516|fail
+画家|huàjiā|painter|1|2|12516|success
+画家|huàjiā|painter|1|2|12516|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|12517|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12518|success
+莲藕|liánǒu|lotus root|0|2|12519|success
+休假|xiūjiǎ|take a vacation|0|2|12520|fail
+休假|xiūjiǎ|take a vacation|0|2|12520|success
+休假|xiūjiǎ|take a vacation|0|2|12520|success
+服务员|fúwùyuán|waiter|1|2|12521|success
+考试|kǎoshì|take an exam|0|2|12522|success
+最近|zuìjìn|lately|2|1|12523|fail
+最近|zuìjìn|lately|2|1|12523|success
+最近|zuìjìn|lately|2|1|12523|success
+朋友|péngyǒu|friend|0|2|12524|success
+忧虑|yōulǜ|worry|2|0|12525|fail
+忧虑|yōulǜ|worry|2|0|12525|success
+忧虑|yōulǜ|worry|2|0|12525|success
+超市|chāoshì|supermarket|1|0|12526|success
+红烧肉|hóngshāoròu|braised pork|1|2|12527|fail
+红烧肉|hóngshāoròu|braised pork|1|2|12527|success
+红烧肉|hóngshāoròu|braised pork|1|2|12527|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12528|success
+练功夫|liàngōngfū|practice kung fu|0|1|12529|fail
+练功夫|liàngōngfū|practice kung fu|0|1|12529|success
+练功夫|liàngōngfū|practice kung fu|0|1|12529|success
+休假|xiūjiǎ|take a vacation|0|2|12530|success
+夫人|fūrén|wife|1|0|12531|fail
+夫人|fūrén|wife|1|0|12531|success
+夫人|fūrén|wife|1|0|12531|success
+东莞|dōngguǎn|dongguan|1|2|12532|success
+画家|huàjiā|painter|1|2|12533|success
+服务员|fúwùyuán|waiter|0|2|12534|success
+没意思|méiyìsi|boring|0|2|12535|success
+莲藕|liánǒu|lotus root|0|2|12536|success
+因为|yīnwèi|because|0|1|12537|success
+塑胶|sùjiāo|plastic|2|1|12538|success
+考试|kǎoshì|take an exam|0|2|12539|success
+最近|zuìjìn|lately|2|1|12540|success
+朋友|péngyǒu|friend|0|2|12541|success
+忧虑|yōulǜ|worry|2|0|12542|success
+蔬菜|shūcài|vegetable|2|0|12543|success
+红烧肉|hóngshāoròu|braised pork|1|2|12544|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12545|success
+练功夫|liàngōngfū|practice kung fu|0|1|12546|success
+休假|xiūjiǎ|take a vacation|0|2|12547|success
+夫人|fūrén|wife|1|0|12548|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|12549|success
+公共汽车|gōnggòngqìchē|bus|1|0|12550|success
+有点儿|yǒudiǎner|a bit|1|0|12551|success
+前面|qiánmiàn|in front|0|2|12552|fail
+前面|qiánmiàn|in front|0|2|12552|success
+前面|qiánmiàn|in front|0|2|12552|success
+回答|huídá|answer|0|2|12553|success
+阅读|yuèdú|reading|0|1|12554|fail
+阅读|yuèdú|reading|0|1|12554|success
+阅读|yuèdú|reading|0|1|12554|success
+脸书|liǎnshū|facebook|1|0|12555|fail
+脸书|liǎnshū|facebook|1|0|12555|success
+脸书|liǎnshū|facebook|1|0|12555|success
+豌豆|wāndòu|pea|1|0|12556|fail
+豌豆|wāndòu|pea|1|0|12556|success
+豌豆|wāndòu|pea|1|0|12556|success
+宝贝|bǎobèi|baby|2|0|12557|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12558|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12558|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12558|success
+城市|chéngshì|city|2|0|12559|success
+矮|ǎi|short|2|1|12560|success
+东莞|dōngguǎn|dongguan|1|2|12561|success
+画家|huàjiā|painter|1|2|12562|fail
+画家|huàjiā|painter|1|2|12562|success
+画家|huàjiā|painter|1|2|12562|success
+孔子|Kǒngzǐ|confucius|0|1|12563|fail
+孔子|Kǒngzǐ|confucius|0|1|12563|success
+孔子|Kǒngzǐ|confucius|0|1|12563|success
+城市|chéngshì|city|1|2|12564|fail
+城市|chéngshì|city|1|2|12564|success
+城市|chéngshì|city|1|2|12564|success
+莲藕|liánǒu|lotus root|0|2|12565|success
+豌豆|wāndòu|pea|1|0|12566|fail
+豌豆|wāndòu|pea|1|0|12566|success
+豌豆|wāndòu|pea|1|0|12566|success
+散步|sànbù|take a walk|2|0|12567|fail
+散步|sànbù|take a walk|2|0|12567|fail
+散步|sànbù|take a walk|2|0|12567|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12568|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12568|success
+前面|qiánmiàn|in front|0|2|12569|success
+最近|zuìjìn|lately|2|1|12570|success
+阅读|yuèdú|reading|0|1|12571|fail
+阅读|yuèdú|reading|0|1|12571|success
+阅读|yuèdú|reading|0|1|12571|success
+画家|huàjiā|painter|1|2|12572|success
+孔子|Kǒngzǐ|confucius|0|1|12573|fail
+孔子|Kǒngzǐ|confucius|0|1|12573|success
+孔子|Kǒngzǐ|confucius|0|1|12573|success
+城市|chéngshì|city|1|2|12574|success
+脸书|liǎnshū|facebook|1|0|12575|success
+豌豆|wāndòu|pea|1|0|12576|success
+散步|sànbù|take a walk|2|0|12577|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12578|success
+红烧肉|hóngshāoròu|braised pork|1|2|12579|success
+忧虑|yōulǜ|worry|2|0|12580|success
+阅读|yuèdú|reading|0|1|12581|success
+画家|huàjiā|painter|1|2|12582|success
+孔子|Kǒngzǐ|confucius|0|1|12583|success
+练功夫|liàngōngfū|practice kung fu|0|1|12584|success
+夫人|fūrén|wife|1|0|12585|success
+豌豆|wāndòu|pea|1|0|12586|success
+散步|sànbù|take a walk|2|0|12587|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12588|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12588|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12588|success
+朋友|péngyǒu|friend|0|2|12589|success
+考试|kǎoshì|take an exam|0|2|12590|success
+阅读|yuèdú|reading|0|1|12591|success
+城市|chéngshì|city|1|2|12592|success
+孔子|Kǒngzǐ|confucius|0|1|12593|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|12594|success
+宝贝|bǎobèi|baby|0|2|12595|success
+孔子|Kǒngzǐ|confucius|2|1|12596|success
+散步|sànbù|take a walk|2|0|12597|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12598|success
+画家|huàjiā|painter|1|2|12599|success
+前面|qiánmiàn|in front|0|2|12600|success
+蛋糕店|dàngāodiàn|cake shop|0|1|12601|success
+城市|chéngshì|city|1|0|12602|success
+豌豆|wāndòu|pea|1|0|12603|success
+脸书|liǎnshū|facebook|1|0|12604|success
+辣椒|làjiāo|chili pepper|0|1|12605|fail
+辣椒|làjiāo|chili pepper|0|1|12605|success
+辣椒|làjiāo|chili pepper|0|1|12605|success
+小名|xiǎomíng|nickname|0|2|12606|success
+不高|bùgāo|not tall|0|2|12607|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12608|success
+阅读|yuèdú|reading|0|1|12609|success
+孔子|Kǒngzǐ|confucius|0|1|12610|success
+辣椒|làjiāo|chili pepper|0|2|12611|fail
+辣椒|làjiāo|chili pepper|0|2|12611|success
+辣椒|làjiāo|chili pepper|0|2|12611|success
+散步|sànbù|take a walk|1|0|12612|fail
+散步|sànbù|take a walk|1|0|12612|success
+散步|sànbù|take a walk|1|0|12612|success
+臭豆腐|chòudòufu|stinky tofu|0|1|12613|fail
+臭豆腐|chòudòufu|stinky tofu|0|1|12613|success
+臭豆腐|chòudòufu|stinky tofu|0|1|12613|success
+散步|sànbù|take a walk|2|0|12614|success
+辣椒|làjiāo|chili pepper|0|1|12615|success
+蛋糕店|dàngāodiàn|cake shop|0|2|12616|success
+推荐|tuījiàn|recommend|1|0|12617|fail
+推荐|tuījiàn|recommend|1|0|12617|fail
+推荐|tuījiàn|recommend|1|0|12617|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12618|success
+臭豆腐|chòudòufu|stinky tofu|1|2|12619|success
+不高|bùgāo|not tall|1|2|12620|success
+辣椒|làjiāo|chili pepper|0|2|12621|success
+散步|sànbù|take a walk|1|0|12622|success
+臭豆腐|chòudòufu|stinky tofu|0|1|12623|success
+城市|chéngshì|city|1|2|12624|success
+面包店|miànbāodiàn|bakery|2|0|12625|success
+城市|chéngshì|city|0|2|12626|success
+推荐|tuījiàn|recommend|1|0|12627|fail
+推荐|tuījiàn|recommend|1|0|12627|success
+推荐|tuījiàn|recommend|1|0|12627|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12628|success
+画家|huàjiā|painter|1|2|12629|success
+回复|huífù|reply|0|1|12630|fail
+回复|huífù|reply|0|1|12630|success
+回复|huífù|reply|0|1|12630|success
+比|bǐ|compare|1|0|12631|success
+辣椒|làjiāo|chili pepper|0|1|12632|success
+豌豆|wāndòu|pea|1|0|12633|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|1|12634|success
+比|bǐ|compare|2|1|12635|success
+城市|chéngshì|city|2|1|12636|success
+推荐|tuījiàn|recommend|1|0|12637|fail
+推荐|tuījiàn|recommend|1|0|12637|success
+推荐|tuījiàn|recommend|1|0|12637|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12638|success
+辣椒|làjiāo|chili pepper|0|2|12639|success
+回复|huífù|reply|0|1|12640|success
+臭豆腐|chòudòufu|stinky tofu|0|1|12641|success
