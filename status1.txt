@@ -16935,3 +16935,931 @@
 辣椒|làjiāo|chili pepper|0|2|12639|success
 回复|huífù|reply|0|1|12640|success
 臭豆腐|chòudòufu|stinky tofu|0|1|12641|success
+散步|sànbù|take a walk|1|0|12642|fail
+散步|sànbù|take a walk|1|0|12642|success
+散步|sànbù|take a walk|1|0|12642|success
+散步|sànbù|take a walk|2|0|12643|success
+孔子|Kǒngzǐ|confucius|0|1|12644|fail
+孔子|Kǒngzǐ|confucius|0|1|12644|success
+孔子|Kǒngzǐ|confucius|0|1|12644|success
+阅读|yuèdú|reading|0|1|12645|fail
+阅读|yuèdú|reading|0|1|12645|success
+阅读|yuèdú|reading|0|1|12645|success
+发烧|fāshāo|fever|0|1|12646|success
+推荐|tuījiàn|recommend|1|0|12647|fail
+推荐|tuījiàn|recommend|1|0|12647|success
+推荐|tuījiàn|recommend|1|0|12647|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12648|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12648|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12648|success
+干净|gānjìng|clean|2|0|12649|fail
+干净|gānjìng|clean|2|0|12649|fail
+干净|gānjìng|clean|2|0|12649|success
+全身|quánshēn|whole body|2|1|12650|success
+牙|yá|tooth|2|1|12651|success
+散步|sànbù|take a walk|1|0|12652|fail
+散步|sànbù|take a walk|1|0|12652|success
+散步|sànbù|take a walk|1|0|12652|success
+小名|xiǎomíng|nickname|0|1|12653|success
+孔子|Kǒngzǐ|confucius|0|1|12654|success
+阅读|yuèdú|reading|0|1|12655|success
+吵|chǎo|noisy|0|2|12656|fail
+吵|chǎo|noisy|0|2|12656|success
+吵|chǎo|noisy|0|2|12656|success
+推荐|tuījiàn|recommend|1|0|12657|fail
+推荐|tuījiàn|recommend|1|0|12657|success
+推荐|tuījiàn|recommend|1|0|12657|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12658|success
+干净|gānjìng|clean|2|0|12659|success
+回复|huífù|reply|0|1|12660|success
+辣椒|làjiāo|chili pepper|0|1|12661|success
+散步|sànbù|take a walk|1|0|12662|fail
+散步|sànbù|take a walk|1|0|12662|success
+散步|sànbù|take a walk|1|0|12662|success
+干净|gānjìng|clean|0|2|12663|success
+散步|sànbù|take a walk|0|2|12664|success
+回复|huífù|reply|1|2|12665|fail
+回复|huífù|reply|1|2|12665|success
+回复|huífù|reply|1|2|12665|success
+豌豆|wāndòu|pea|1|2|12666|fail
+豌豆|wāndòu|pea|1|2|12666|success
+豌豆|wāndòu|pea|1|2|12666|success
+推荐|tuījiàn|recommend|1|0|12667|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12668|success
+干净|gānjìng|clean|2|0|12669|success
+辣椒|làjiāo|chili pepper|0|2|12670|fail
+辣椒|làjiāo|chili pepper|0|2|12670|success
+辣椒|làjiāo|chili pepper|0|2|12670|success
+孔子|Kǒngzǐ|confucius|0|1|12671|success
+散步|sànbù|take a walk|1|0|12672|success
+吵|chǎo|noisy|0|2|12673|success
+阅读|yuèdú|reading|0|1|12674|success
+回复|huífù|reply|1|2|12675|success
+豌豆|wāndòu|pea|1|2|12676|success
+推荐|tuījiàn|recommend|1|0|12677|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12678|success
+干净|gānjìng|clean|2|0|12679|success
+辣椒|làjiāo|chili pepper|0|2|12680|success
+臭豆腐|chòudòufu|stinky tofu|0|1|12681|success
+散步|sànbù|take a walk|1|0|12682|success
+豌豆|wāndòu|pea|0|1|12683|fail
+豌豆|wāndòu|pea|0|1|12683|success
+豌豆|wāndòu|pea|0|1|12683|success
+干净|gānjìng|clean|0|1|12684|success
+疼|téng|ache|0|2|12685|fail
+疼|téng|ache|0|2|12685|success
+疼|téng|ache|0|2|12685|success
+吵|chǎo|noisy|2|0|12686|success
+还没有|háiméiyǒu|not yet|2|0|12687|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12688|success
+回复|huífù|reply|0|1|12689|success
+辣椒|làjiāo|chili pepper|0|2|12690|success
+豌豆|wāndòu|pea|2|0|12691|success
+回复|huífù|reply|1|2|12692|success
+豌豆|wāndòu|pea|0|1|12693|success
+豌豆|wāndòu|pea|1|2|12694|success
+推荐|tuījiàn|recommend|1|0|12695|success
+干净|gānjìng|clean|2|0|12696|success
+牙医|yáyī|dentist|1|0|12697|success
+嗓子|sǎngzi|throat|1|2|12698|fail
+嗓子|sǎngzi|throat|1|2|12698|success
+嗓子|sǎngzi|throat|1|2|12698|success
+散步|sànbù|take a walk|1|0|12699|success
+孔子|Kǒngzǐ|confucius|0|1|12700|success
+比|bǐ|compare|2|0|12701|success
+疼|téng|ache|0|2|12702|success
+吵|chǎo|noisy|0|2|12703|fail
+吵|chǎo|noisy|0|2|12703|success
+吵|chǎo|noisy|0|2|12703|success
+阅读|yuèdú|reading|0|1|12704|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12705|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12705|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12705|success
+发烧|fāshāo|fever|1|0|12706|fail
+发烧|fāshāo|fever|1|0|12706|success
+发烧|fāshāo|fever|1|0|12706|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12707|fail
+很抱歉|hěn bàoqiàn|very sorry|0|2|12707|fail
+嗓子|sǎngzi|throat|1|2|12708|fail
+嗓子|sǎngzi|throat|1|2|12708|success
+嗓子|sǎngzi|throat|1|2|12708|success
+散步|sànbù|take a walk|1|2|12709|success
+豌豆|wāndòu|pea|0|1|12710|success
+生病|shēngbìng|sick|1|0|12711|fail
+生病|shēngbìng|sick|1|0|12711|success
+生病|shēngbìng|sick|1|0|12711|success
+对不起|duìbuqǐ|sorry|2|0|12712|success
+休假|xiūjiǎ|take a vacation|0|2|12713|success
+全身|quánshēn|whole body|1|0|12714|fail
+全身|quánshēn|whole body|1|0|12714|fail
+全身|quánshēn|whole body|1|0|12714|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12715|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12715|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12715|success
+发烧|fāshāo|fever|1|0|12716|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12717|fail
+很抱歉|hěn bàoqiàn|very sorry|0|2|12717|fail
+嗓子|sǎngzi|throat|1|2|12718|success
+辣椒|làjiāo|chili pepper|0|2|12719|success
+吵|chǎo|noisy|0|2|12720|success
+生病|shēngbìng|sick|1|0|12721|success
+回复|huífù|reply|1|2|12722|fail
+回复|huífù|reply|1|2|12722|success
+回复|huífù|reply|1|2|12722|success
+豌豆|wāndòu|pea|1|2|12723|success
+全身|quánshēn|whole body|1|0|12724|fail
+全身|quánshēn|whole body|1|0|12724|success
+全身|quánshēn|whole body|1|0|12724|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12725|success
+干净|gānjìng|clean|2|0|12726|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12727|fail
+很抱歉|hěn bàoqiàn|very sorry|0|2|12727|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12727|success
+嗓子|sǎngzi|throat|1|2|12728|success
+散步|sànbù|take a walk|1|0|12729|success
+推荐|tuījiàn|recommend|1|0|12730|fail
+推荐|tuījiàn|recommend|1|0|12730|success
+推荐|tuījiàn|recommend|1|0|12730|success
+疼|téng|ache|0|2|12731|success
+回复|huífù|reply|1|2|12732|fail
+回复|huífù|reply|1|2|12732|success
+回复|huífù|reply|1|2|12732|success
+发烧|fāshāo|fever|1|0|12733|success
+全身|quánshēn|whole body|1|0|12734|fail
+全身|quánshēn|whole body|1|0|12734|success
+全身|quánshēn|whole body|1|0|12734|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12735|success
+喂|wéi|hello (phone)|2|0|12736|fail
+喂|wéi|hello (phone)|2|0|12736|success
+喂|wéi|hello (phone)|2|0|12736|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12737|fail
+很抱歉|hěn bàoqiàn|very sorry|0|2|12737|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12737|success
+生病|shēngbìng|sick|1|0|12738|fail
+生病|shēngbìng|sick|1|0|12738|success
+生病|shēngbìng|sick|1|0|12738|success
+豌豆|wāndòu|pea|0|1|12739|success
+推荐|tuījiàn|recommend|1|0|12740|success
+牙医|yáyī|dentist|1|2|12741|success
+回复|huífù|reply|1|2|12742|success
+疼|téng|ache|1|2|12743|fail
+疼|téng|ache|1|2|12743|success
+疼|téng|ache|1|2|12743|success
+全身|quánshēn|whole body|1|0|12744|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12745|success
+嗓子|sǎngzi|throat|1|2|12746|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12747|success
+生病|shēngbìng|sick|1|0|12748|success
+吵|chǎo|noisy|0|2|12749|success
+吵|chǎo|noisy|1|2|12750|success
+对不起|duìbuqǐ|sorry|1|2|12751|fail
+对不起|duìbuqǐ|sorry|1|2|12751|success
+对不起|duìbuqǐ|sorry|1|2|12751|success
+回复|huífù|reply|1|2|12752|success
+喂|wéi|hello (phone)|2|0|12753|success
+全身|quánshēn|whole body|1|0|12754|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12755|success
+小名|xiǎomíng|nickname|2|1|12756|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12757|success
+生病|shēngbìng|sick|1|0|12758|success
+推荐|tuījiàn|recommend|1|0|12759|success
+疼|téng|ache|1|2|12760|success
+对不起|duìbuqǐ|sorry|1|2|12761|success
+发烧|fāshāo|fever|1|0|12762|success
+发烧|fāshāo|fever|0|2|12763|success
+些|xiē|m.w.a few|0|1|12764|fail
+些|xiē|m.w.a few|0|1|12764|success
+些|xiē|m.w.a few|0|1|12764|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12765|success
+景观|jǐngguān|landscape|1|2|12766|fail
+景观|jǐngguān|landscape|1|2|12766|success
+景观|jǐngguān|landscape|1|2|12766|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12767|fail
+很|hěn|very|2|0|12767|fail
+很抱歉|hěn bàoqiàn|very sorry|0|2|12767|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12767|success
+很|hěn|very|2|0|12768|success
+回复|huífù|reply|1|2|12769|success
+房间|fángjiān|room|0|1|12770|fail
+房间|fángjiān|room|0|1|12770|success
+房间|fángjiān|room|0|1|12770|success
+全身|quánshēn|whole body|1|0|12771|fail
+全身|quánshēn|whole body|1|0|12771|success
+全身|quánshēn|whole body|1|0|12771|success
+斑马|bānmǎ|zebra|2|0|12772|success
+前天|qiántiān|day before yesterday|1|0|12773|fail
+前天|qiántiān|day before yesterday|1|0|12773|success
+前天|qiántiān|day before yesterday|1|0|12773|success
+红枣茶|hóngzǎochá|red date tea|0|2|12774|fail
+红枣茶|hóngzǎochá|red date tea|0|2|12774|success
+红枣茶|hóngzǎochá|red date tea|0|2|12774|success
+生病|shēngbìng|sick|1|0|12775|success
+景观|jǐngguān|landscape|1|2|12776|fail
+景观|jǐngguān|landscape|1|2|12776|success
+景观|jǐngguān|landscape|1|2|12776|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12777|fail
+很抱歉|hěn bàoqiàn|very sorry|0|2|12777|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12777|success
+对不起|duìbuqǐ|sorry|1|2|12778|fail
+对不起|duìbuqǐ|sorry|1|2|12778|success
+对不起|duìbuqǐ|sorry|1|2|12778|success
+嗓子|sǎngzi|throat|1|2|12779|success
+房间|fángjiān|room|0|1|12780|success
+全身|quánshēn|whole body|1|0|12781|fail
+全身|quánshēn|whole body|1|0|12781|success
+全身|quánshēn|whole body|1|0|12781|success
+些|xiē|m.w.a few|0|1|12782|success
+前天|qiántiān|day before yesterday|1|0|12783|success
+红枣茶|hóngzǎochá|red date tea|0|2|12784|success
+很|hěn|very|2|0|12785|success
+景观|jǐngguān|landscape|1|2|12786|fail
+景观|jǐngguān|landscape|1|2|12786|success
+景观|jǐngguān|landscape|1|2|12786|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12787|success
+对不起|duìbuqǐ|sorry|1|2|12788|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12789|success
+喂|wéi|hello (phone)|2|0|12790|success
+全身|quánshēn|whole body|1|0|12791|success
+疼|téng|ache|1|2|12792|success
+推荐|tuījiàn|recommend|1|0|12793|fail
+推荐|tuījiàn|recommend|1|0|12793|success
+推荐|tuījiàn|recommend|1|0|12793|success
+玩笑|wánxiào|joke|0|1|12794|fail
+玩笑|wánxiào|joke|0|1|12794|success
+玩笑|wánxiào|joke|0|1|12794|success
+蛋糕店|dàngāodiàn|cake shop|2|1|12795|fail
+蛋糕店|dàngāodiàn|cake shop|2|1|12795|success
+蛋糕店|dàngāodiàn|cake shop|2|1|12795|success
+景观|jǐngguān|landscape|1|2|12796|fail
+景观|jǐngguān|landscape|1|2|12796|success
+景观|jǐngguān|landscape|1|2|12796|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12797|success
+对不起|duìbuqǐ|sorry|1|2|12798|success
+房间|fángjiān|room|0|1|12799|success
+前天|qiántiān|day before yesterday|1|0|12800|success
+全身|quánshēn|whole body|1|0|12801|success
+红枣茶|hóngzǎochá|red date tea|0|2|12802|success
+推荐|tuījiàn|recommend|1|0|12803|success
+玩笑|wánxiào|joke|0|1|12804|success
+蛋糕店|dàngāodiàn|cake shop|2|1|12805|success
+景观|jǐngguān|landscape|1|2|12806|fail
+景观|jǐngguān|landscape|1|2|12806|success
+景观|jǐngguān|landscape|1|2|12806|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12807|success
+对不起|duìbuqǐ|sorry|1|2|12808|success
+很|hěn|very|2|0|12809|success
+回复|huífù|reply|1|2|12810|success
+些|xiē|m.w.a few|0|1|12811|success
+生病|shēngbìng|sick|1|0|12812|success
+辣椒|làjiāo|chili pepper|0|2|12813|success
+嗓子|sǎngzi|throat|0|1|12814|fail
+嗓子|sǎngzi|throat|0|1|12814|success
+嗓子|sǎngzi|throat|0|1|12814|success
+休息|xiūxī|take rest|1|2|12815|fail
+休息|xiūxī|take rest|1|2|12815|success
+休息|xiūxī|take rest|1|2|12815|success
+景观|jǐngguān|landscape|1|2|12816|fail
+景观|jǐngguān|landscape|1|2|12816|success
+景观|jǐngguān|landscape|1|2|12816|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12817|success
+全身|quánshēn|whole body|1|0|12818|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|12819|success
+推荐|tuījiàn|recommend|1|0|12820|success
+玩笑|wánxiào|joke|0|1|12821|success
+蛋糕店|dàngāodiàn|cake shop|2|1|12822|success
+些|xiē|m.w.a few|1|2|12823|success
+嗓子|sǎngzi|throat|0|1|12824|success
+休息|xiūxī|take rest|1|2|12825|success
+景观|jǐngguān|landscape|1|2|12826|fail
+景观|jǐngguān|landscape|1|2|12826|success
+景观|jǐngguān|landscape|1|2|12826|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12827|success
+对不起|duìbuqǐ|sorry|1|2|12828|success
+房间|fángjiān|room|0|1|12829|success
+前天|qiántiān|day before yesterday|1|0|12830|success
+红枣茶|hóngzǎochá|red date tea|0|2|12831|success
+喂|wéi|hello (phone)|0|2|12832|fail
+喂|wéi|hello (phone)|0|2|12832|success
+喂|wéi|hello (phone)|0|2|12832|success
+孔子|Kǒngzǐ|confucius|1|2|12833|fail
+药草|yàocǎo|herbal|1|0|12834|fail
+药草|yàocǎo|herbal|1|0|12834|success
+药草|yàocǎo|herbal|1|0|12834|success
+游艇|yóutǐng|yacht|2|0|12835|fail
+游艇|yóutǐng|yacht|2|0|12835|success
+游艇|yóutǐng|yacht|2|0|12835|success
+景观|jǐngguān|landscape|1|2|12836|fail
+景观|jǐngguān|landscape|1|2|12836|success
+景观|jǐngguān|landscape|1|2|12836|success
+玩笑|wánxiào|joke|2|0|12837|success
+很|hěn|very|2|0|12838|success
+发烧|fāshāo|have a fever|0|1|12839|fail
+疾病|jíbìng|illness|0|2|12840|fail
+疾病|jíbìng|illness|0|2|12840|success
+疾病|jíbìng|illness|0|2|12840|success
+嗓子|sǎngzi|throat|0|1|12841|fail
+嗓子|sǎngzi|throat|0|1|12841|success
+嗓子|sǎngzi|throat|0|1|12841|success
+休息|xiūxī|take rest|1|2|12842|success
+孔子|Kǒngzǐ|confucius|1|2|12843|success
+药草|yàocǎo|herbal|1|0|12844|success
+游艇|yóutǐng|yacht|2|0|12845|success
+景观|jǐngguān|landscape|1|2|12846|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12847|success
+全身|quánshēn|whole body|1|0|12848|fail
+全身|quánshēn|whole body|1|0|12848|success
+全身|quánshēn|whole body|1|0|12848|success
+发烧|fāshāo|fever|0|1|12849|success
+疾病|jíbìng|illness|0|2|12850|fail
+疾病|jíbìng|illness|0|2|12850|success
+疾病|jíbìng|illness|0|2|12850|success
+嗓子|sǎngzi|throat|0|1|12851|success
+喂|wéi|hello (phone)|0|2|12852|fail
+喂|wéi|hello (phone)|0|2|12852|success
+喂|wéi|hello (phone)|0|2|12852|success
+孔子|Kǒngzǐ|confucius|1|2|12853|success
+推荐|tuījiàn|recommend|1|0|12854|success
+玩笑|wánxiào|joke|0|1|12855|success
+景观|jǐngguān|landscape|1|2|12856|success
+蛋糕店|dàngāodiàn|cake shop|2|1|12857|success
+全身|quánshēn|whole body|1|0|12858|success
+发烧|fāshāo|fever|0|1|12859|success
+疾病|jíbìng|illness|0|2|12860|success
+嗓子|sǎngzi|throat|0|1|12861|success
+药草|yàocǎo|herbal|1|0|12862|success
+孔子|Kǒngzǐ|confucius|1|2|12863|success
+游艇|yóutǐng|yacht|2|0|12864|success
+对不起|duìbuqǐ|sorry|1|2|12865|success
+小名|xiǎomíng|nickname|1|0|12866|success
+游艇|yóutǐng|yacht|1|0|12867|success
+眼睛|yǎnjīng|eye|0|2|12868|fail
+眼睛|yǎnjīng|eye|0|2|12868|success
+眼睛|yǎnjīng|eye|0|2|12868|success
+喂|wéi|hello (phone)|0|2|12869|success
+疾病|jíbìng|illness|0|2|12870|success
+休息|xiūxī|take rest|1|2|12871|success
+舒服|shūfu|feel good|1|0|12872|fail
+舒服|shūfu|feel good|1|0|12872|success
+舒服|shūfu|feel good|1|0|12872|success
+景观|jǐngguān|landscape|1|2|12873|success
+发烧|fāshāo|fever|2|0|12874|success
+全身|quánshēn|whole body|1|0|12875|success
+发烧|fāshāo|fever|0|1|12876|success
+打针|dǎzhēn|have injection|1|2|12877|success
+眼睛|yǎnjīng|eye|0|2|12878|fail
+眼睛|yǎnjīng|eye|0|2|12878|success
+眼睛|yǎnjīng|eye|0|2|12878|success
+嗓子|sǎngzi|throat|0|1|12879|success
+孔子|Kǒngzǐ|confucius|1|2|12880|success
+很抱歉|hěn bàoqiàn|very sorry|0|2|12881|success
+舒服|shūfu|feel good|1|0|12882|success
+中药|zhōngyào|chinese medicine|0|2|12883|success
+还没有|háiméiyǒu|not yet|0|2|12884|fail
+还没有|háiméiyǒu|not yet|0|2|12884|success
+还没有|háiméiyǒu|not yet|0|2|12884|success
+疼|téng|ache|1|0|12885|success
+秋天|qiūtiān|autumn|2|0|12886|fail
+秋天|qiūtiān|autumn|2|0|12886|success
+秋天|qiūtiān|autumn|2|0|12886|success
+疾病|jíbìng|illness|0|2|12887|success
+眼睛|yǎnjīng|eye|0|2|12888|success
+西药|xīyào|western medicine|2|1|12889|fail
+需要|xūyào|need|1|2|12889|fail
+用|yòng|need|1|2|12889|fail
+西药|xīyào|western medicine|2|1|12889|success
+西药|xīyào|western medicine|2|1|12889|success
+需要|xūyào|need|1|2|12890|success
+用|yòng|need|1|2|12891|fail
+用|yòng|need|1|2|12891|success
+用|yòng|need|1|2|12891|success
+药草|yàocǎo|herbal|1|0|12892|success
+游艇|yóutǐng|yacht|2|0|12893|success
+还没有|háiméiyǒu|not yet|0|2|12894|success
+但是|dànshì|but|1|2|12895|success
+秋天|qiūtiān|autumn|2|0|12896|success
+蛋糕店|dàngāodiàn|cake shop|2|0|12897|success
+眼睛|yǎnjīng|eye|0|2|12898|success
+西药|xīyào|western medicine|2|1|12899|success
+需要|xūyào|need|1|2|12900|success
+舒服|shūfu|feel good|1|0|12901|success
+喂|wéi|hello (phone)|0|2|12902|success
+景观|jǐngguān|landscape|1|2|12903|success
+全身|quánshēn|whole body|1|0|12904|success
+发烧|fāshāo|fever|0|1|12905|success
+药草茶|yàocǎochá|herbal tea|0|2|12906|fail
+药草茶|yàocǎochá|herbal tea|0|2|12906|success
+药草茶|yàocǎochá|herbal tea|0|2|12906|success
+药|yào|medicine|1|0|12907|success
+用|yòng|need|1|2|12908|success
+孔子|Kǒngzǐ|confucius|1|2|12909|success
+需要|xūyào|need|1|2|12910|success
+还没有|háiméiyǒu|not yet|0|2|12911|success
+嗓子|sǎngzi|throat|0|1|12912|success
+秋天|qiūtiān|autumn|2|0|12913|success
+面包卷|miànbāojuǎn|roll|0|1|12914|fail
+面包卷|miànbāojuǎn|roll|0|1|12914|success
+面包卷|miànbāojuǎn|roll|0|1|12914|success
+眼睛|yǎnjīng|eye|0|2|12915|fail
+眼睛|yǎnjīng|eye|0|2|12915|success
+眼睛|yǎnjīng|eye|0|2|12915|success
+药草茶|yàocǎochá|herbal tea|0|2|12916|success
+西药|xīyào|western medicine|2|1|12917|success
+疾病|jíbìng|illness|0|2|12918|success
+景观|jǐngguān|landscape|0|1|12919|fail
+景观|jǐngguān|landscape|0|1|12919|success
+景观|jǐngguān|landscape|0|1|12919|success
+吃药|chīyào|take medicine|0|2|12920|success
+试试|shìshì|try|2|1|12921|success
+试试|shìshì|try|2|0|12922|success
+头疼|tóuténg|headache|2|1|12923|success
+面包卷|miànbāojuǎn|roll|0|1|12924|success
+眼睛|yǎnjīng|eye|0|2|12925|success
+游艇|yóutǐng|yacht|0|2|12926|fail
+游艇|yóutǐng|yacht|0|2|12926|success
+游艇|yóutǐng|yacht|0|2|12926|success
+需要|xūyào|need|1|2|12927|success
+电影院|diànyǐngyuàn|cinema|1|0|12928|fail
+电影院|diànyǐngyuàn|cinema|1|0|12928|success
+电影院|diànyǐngyuàn|cinema|1|0|12928|success
+景观|jǐngguān|landscape|0|1|12929|success
+舒服|shūfu|feel good|1|0|12930|fail
+舒服|shūfu|feel good|1|0|12930|success
+舒服|shūfu|feel good|1|0|12930|success
+母鸡|mǔjī|hen|2|1|12931|fail
+母鸡|mǔjī|hen|2|1|12931|success
+母鸡|mǔjī|hen|2|1|12931|success
+中药|zhōngyào|chinese medicine|1|0|12932|success
+药草茶|yàocǎochá|herbal tea|0|2|12933|success
+面包店|miànbāodiàn|bakery|1|2|12934|fail
+面包店|miànbāodiàn|bakery|1|2|12934|success
+面包店|miànbāodiàn|bakery|1|2|12934|success
+眼睛|yǎnjīng|eye|0|2|12935|success
+游艇|yóutǐng|yacht|0|2|12936|success
+用|yòng|need|1|2|12937|success
+电影院|diànyǐngyuàn|cinema|1|0|12938|success
+恶心|ěxīn|nauseous|2|0|12939|fail
+恶心|ěxīn|nauseous|2|0|12939|success
+恶心|ěxīn|nauseous|2|0|12939|success
+舒服|shūfu|feel good|1|0|12940|success
+母鸡|mǔjī|hen|2|1|12941|success
+面包卷|miànbāojuǎn|roll|0|1|12942|success
+秋天|qiūtiān|autumn|2|0|12943|fail
+秋天|qiūtiān|autumn|2|0|12943|success
+秋天|qiūtiān|autumn|2|0|12943|success
+面包店|miànbāodiàn|bakery|1|2|12944|success
+还没有|háiméiyǒu|not yet|0|2|12945|success
+景观|jǐngguān|landscape|0|1|12946|fail
+景观|jǐngguān|landscape|0|1|12946|success
+景观|jǐngguān|landscape|0|1|12946|success
+西药|xīyào|western medicine|2|1|12947|success
+用|yòng|need|0|2|12948|success
+恶心|ěxīn|nauseous|2|0|12949|fail
+恶心|ěxīn|nauseous|2|0|12949|success
+恶心|ěxīn|nauseous|2|0|12949|success
+臭豆腐|chòudòufu|stinky tofu|2|1|12950|success
+秋天|qiūtiān|autumn|0|1|12951|success
+眼睛|yǎnjīng|eye|0|2|12952|success
+秋天|qiūtiān|autumn|2|0|12953|success
+游艇|yóutǐng|yacht|0|2|12954|fail
+游艇|yóutǐng|yacht|0|2|12954|success
+游艇|yóutǐng|yacht|0|2|12954|success
+电影院|diànyǐngyuàn|cinema|1|0|12955|success
+景观|jǐngguān|landscape|0|1|12956|success
+舒服|shūfu|feel good|1|0|12957|success
+母鸡|mǔjī|hen|2|1|12958|success
+恶心|ěxīn|nauseous|2|0|12959|success
+需要|xūyào|need|1|2|12960|success
+面包店|miànbāodiàn|bakery|1|2|12961|success
+药草茶|yàocǎochá|herbal tea|0|2|12962|success
+蛋糕店|dàngāodiàn|cake shop|1|0|12963|success
+游艇|yóutǐng|yacht|0|2|12964|success
+开|kāi|open|2|0|12965|success
+景观|jǐngguān|landscape|0|1|12966|success
+爱尔兰|àiěrlán|ireland|2|0|12967|fail
+爱尔兰|àiěrlán|ireland|2|0|12967|success
+爱尔兰|àiěrlán|ireland|2|0|12967|success
+胡萝卜|húluóbo|carrot|0|1|12968|fail
+胡萝卜|húluóbo|carrot|0|1|12968|success
+胡萝卜|húluóbo|carrot|0|1|12968|success
+恶心|ěxīn|nauseous|2|0|12969|success
+秋天|qiūtiān|autumn|2|0|12970|success
+面包卷|miànbāojuǎn|roll|0|1|12971|success
+嗓子|sǎngzi|throat|2|0|12972|success
+衬衫|chènshān|shirt|0|2|12973|fail
+衬衫|chènshān|shirt|0|2|12973|success
+衬衫|chènshān|shirt|0|2|12973|success
+游艇|yóutǐng|yacht|0|2|12974|success
+不高|bùgāo|not tall|1|0|12975|success
+开|kāi|start|1|2|12976|success
+爱尔兰|àiěrlán|ireland|2|0|12977|success
+胡萝卜|húluóbo|carrot|0|1|12978|success
+爱尔兰|àiěrlán|ireland|0|1|12979|success
+还没有|háiméiyǒu|not yet|2|1|12980|fail
+还没有|háiméiyǒu|not yet|2|1|12980|success
+还没有|háiméiyǒu|not yet|2|1|12980|success
+眼睛|yǎnjīng|eye|0|2|12981|success
+开玩笑|kāiwánxiào|just kidding|0|1|12982|fail
+开玩笑|kāiwánxiào|just kidding|0|1|12982|success
+开玩笑|kāiwánxiào|just kidding|0|1|12982|fail
+衬衫|chènshān|shirt|0|2|12983|fail
+衬衫|chènshān|shirt|0|2|12983|success
+衬衫|chènshān|shirt|0|2|12983|success
+景观|jǐngguān|landscape|0|1|12984|success
+电影院|diànyǐngyuàn|cinema|1|0|12985|success
+恶心|ěxīn|nauseous|2|0|12986|success
+母鸡|mǔjī|hen|2|1|12987|success
+舒服|shūfu|feel good|1|0|12988|success
+药草|yàocǎo|herbal|1|2|12989|success
+还没有|háiméiyǒu|not yet|2|1|12990|success
+游艇|yóutǐng|yacht|0|2|12991|success
+开玩笑|kāiwánxiào|just kidding|0|1|12992|success
+衬衫|chènshān|shirt|0|2|12993|success
+爱尔兰|àiěrlán|ireland|2|0|12994|success
+胡萝卜|húluóbo|carrot|0|1|12995|success
+面包店|miànbāodiàn|bakery|1|2|12996|success
+辣椒|làjiāo|chili pepper|1|2|12997|success
+对_很好奇|duì_hěnhǎoqí|curious about|0|1|12998|fail
+对_很好奇|duì_hěnhǎoqí|curious about|0|1|12998|success
+对_很好奇|duì_hěnhǎoqí|curious about|0|1|12998|success
+秋天|qiūtiān|autumn|2|0|12999|success
+药草茶|yàocǎochá|herbal tea|1|2|13000|success
+不高|bùgāo|not tall|0|1|13001|success
+开玩笑|kāiwánxiào|just kidding|0|1|13002|success
+衬衫|chènshān|shirt|0|2|13003|success
+好好|hǎohāo|well|2|0|13004|success
+试试|shìshì|try|1|2|13005|fail
+试试|shìshì|try|1|2|13005|success
+试试|shìshì|try|1|2|13005|success
+孔子|Kǒngzǐ|confucius|1|0|13006|success
+还没有|háiméiyǒu|not yet|2|1|13007|success
+对_很好奇|duì_hěnhǎoqí|curious about|0|1|13008|success
+用|yòng|need|0|1|13009|success
+喂|wéi|hello (phone)|1|2|13010|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|1|13011|success
+开玩笑|kāiwánxiào|just kidding|0|1|13012|success
+景观|jǐngguān|landscape|0|1|13013|success
+吵|chǎo|noisy|0|1|13014|success
+试试|shìshì|try|1|2|13015|fail
+试试|shìshì|try|1|2|13015|success
+试试|shìshì|try|1|2|13015|success
+恶心|ěxīn|nauseous|2|0|13016|success
+红枣茶|hóngzǎochá|red date tea|1|2|13017|fail
+红枣茶|hóngzǎochá|red date tea|1|2|13017|success
+红枣茶|hóngzǎochá|red date tea|1|2|13017|success
+生病|shēngbìng|sick|1|2|13018|success
+很|hěn|very|2|1|13019|success
+衬衫|chènshān|shirt|0|2|13020|success
+游艇|yóutǐng|yacht|0|2|13021|success
+开玩笑|kāiwánxiào|just kidding|0|1|13022|success
+爱尔兰|àiěrlán|ireland|2|0|13023|success
+胡萝卜|húluóbo|carrot|0|1|13024|success
+试试|shìshì|try|1|2|13025|success
+对_很好奇|duì_hěnhǎoqí|curious about|0|1|13026|success
+红枣茶|hóngzǎochá|red date tea|1|2|13027|success
+厕所|cèsuǒ|wc|2|0|13028|fail
+厕所|cèsuǒ|wc|2|0|13028|success
+厕所|cèsuǒ|wc|2|0|13028|success
+部|bù|m.w.movie|2|1|13029|fail
+部|bù|m.w.movie|2|1|13029|success
+部|bù|m.w.movie|2|1|13029|success
+喂|wéi|hello (phone)|2|1|13030|success
+胡萝卜|húluóbo|carrot|2|0|13031|success
+开玩笑|kāiwánxiào|just kidding|0|1|13032|success
+眼睛|yǎnjīng|eye|2|0|13033|success
+飞船|fēichuán|spaceship|1|2|13034|fail
+飞船|fēichuán|spaceship|1|2|13034|success
+飞船|fēichuán|spaceship|1|2|13034|success
+试试|shìshì|try|1|2|13035|success
+还没有|háiméiyǒu|not yet|2|1|13036|success
+开药|kāiyào|prescribe medicine|1|2|13037|success
+厕所|cèsuǒ|wc|2|0|13038|success
+生病|shēngbìng|sick|2|1|13039|success
+房间|fángjiān|room|2|1|13040|success
+部|bù|m.w.movie|0|2|13041|fail
+喂|wéi|hello (phone)|2|0|13041|fail
+部|bù|m.w.movie|0|2|13041|success
+部|bù|m.w.movie|0|2|13041|success
+开玩笑|kāiwánxiào|just kidding|0|1|13042|success
+喂|wéi|hello (phone)|2|0|13043|success
+飞船|fēichuán|spaceship|1|2|13044|success
+红枣茶|hóngzǎochá|red date tea|1|2|13045|success
+部|bù|m.w.movie|2|1|13046|success
+打针|dǎzhēn|have injection|1|0|13047|fail
+打针|dǎzhēn|have injection|1|0|13047|success
+打针|dǎzhēn|have injection|1|0|13047|success
+药|yào|medicine|2|0|13048|success
+衬衫|chènshān|shirt|0|2|13049|success
+红枣茶|hóngzǎochá|red date tea|1|0|13050|fail
+红枣茶|hóngzǎochá|red date tea|1|0|13050|success
+红枣茶|hóngzǎochá|red date tea|1|0|13050|success
+菊花茶|júhuāchá|chrysanthemum tea|0|1|13051|fail
+菊花茶|júhuāchá|chrysanthemum tea|0|1|13051|success
+菊花茶|júhuāchá|chrysanthemum tea|0|1|13051|success
+开玩笑|kāiwánxiào|just kidding|0|1|13052|success
+试试|shìshì|try|1|2|13053|success
+了|le|done|0|2|13054|success
+厕所|cèsuǒ|wc|2|0|13055|success
+对_很好奇|duì_hěnhǎoqí|curious about|0|1|13056|success
+打针|dǎzhēn|have injection|1|0|13057|success
+部|bù|m.w.movie|0|2|13058|success
+好奇|hǎoqí|curious|0|2|13059|success
+红枣茶|hóngzǎochá|red date tea|1|0|13060|success
+菊花茶|júhuāchá|chrysanthemum tea|0|1|13061|success
+喂|wéi|hello (phone)|2|0|13062|success
+飞船|fēichuán|spaceship|1|2|13063|success
+电影院|diànyǐngyuàn|cinema|2|1|13064|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13065|fail
+早日康复|zǎorìkāngfù|get well soon|0|2|13065|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13065|success
+需要|xūyào|need|0|2|13066|success
+感冒|gǎnmào|have cold|1|0|13067|fail
+感冒|gǎnmào|have cold|1|0|13067|success
+感冒|gǎnmào|have cold|1|0|13067|success
+玩笑|wánxiào|joke|1|0|13068|fail
+玩笑|wánxiào|joke|1|0|13068|success
+玩笑|wánxiào|joke|1|0|13068|success
+开玩笑|kāiwánxiào|just kidding|0|1|13069|success
+中药|zhōngyào|chinese medicine|1|2|13070|success
+药草|yàocǎo|herbal|0|1|13071|success
+打针|dǎzhēn|have injection|0|2|13072|success
+菊花茶|júhuāchá|chrysanthemum tea|1|2|13073|fail
+菊花茶|júhuāchá|chrysanthemum tea|1|2|13073|success
+菊花茶|júhuāchá|chrysanthemum tea|1|2|13073|success
+打针|dǎzhēn|have injection|1|0|13074|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13075|fail
+早日康复|zǎorìkāngfù|get well soon|0|2|13075|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13075|success
+部|bù|m.w.movie|2|1|13076|success
+感冒|gǎnmào|have cold|1|0|13077|success
+玩笑|wánxiào|joke|1|0|13078|fail
+玩笑|wánxiào|joke|1|0|13078|success
+玩笑|wánxiào|joke|1|0|13078|success
+红枣茶|hóngzǎochá|red date tea|1|0|13079|fail
+红枣茶|hóngzǎochá|red date tea|1|0|13079|success
+红枣茶|hóngzǎochá|red date tea|1|0|13079|success
+菊花茶|júhuāchá|chrysanthemum tea|0|1|13080|success
+红枣茶|hóngzǎochá|red date tea|1|2|13081|success
+试试|shìshì|try|1|2|13082|success
+菊花茶|júhuāchá|chrysanthemum tea|1|2|13083|success
+厕所|cèsuǒ|wc|2|0|13084|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13085|success
+开|kāi|open|0|2|13086|success
+部|bù|m.w.movie|0|2|13087|success
+玩笑|wánxiào|joke|1|0|13088|success
+红枣茶|hóngzǎochá|red date tea|1|0|13089|success
+道路|dàolù|road|1|2|13090|fail
+道路|dàolù|road|1|2|13090|success
+道路|dàolù|road|1|2|13090|success
+喂|wéi|hello (phone)|2|0|13091|success
+飞船|fēichuán|spaceship|1|2|13092|success
+生病|shēngbìng|sick|2|0|13093|success
+感冒|gǎnmào|have cold|1|0|13094|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13095|success
+试试|shìshì|try|0|2|13096|success
+打针|dǎzhēn|have injection|2|0|13097|success
+玩笑|wánxiào|joke|1|0|13098|success
+红枣茶|hóngzǎochá|red date tea|1|0|13099|success
+道路|dàolù|road|1|2|13100|success
+菊花茶|júhuāchá|chrysanthemum tea|1|2|13101|success
+开玩笑|kāiwánxiào|just kidding|0|1|13102|success
+打针|dǎzhēn|have injection|1|0|13103|success
+前天|qiántiān|day before yesterday|1|2|13104|fail
+前天|qiántiān|day before yesterday|1|2|13104|success
+前天|qiántiān|day before yesterday|1|2|13104|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13105|success
+菊花茶|júhuāchá|chrysanthemum tea|2|1|13106|success
+中药|zhōngyào|chinese medicine|0|1|13107|success
+舒服|shūfu|feel good|0|2|13108|success
+红枣茶|hóngzǎochá|red date tea|1|0|13109|success
+菊花茶|júhuāchá|chrysanthemum tea|0|1|13110|success
+疾病|jíbìng|illness|2|0|13111|success
+胡萝卜|húluóbo|carrot|1|0|13112|fail
+胡萝卜|húluóbo|carrot|1|0|13112|success
+胡萝卜|húluóbo|carrot|1|0|13112|success
+牙|yá|tooth|1|0|13113|success
+前天|qiántiān|day before yesterday|1|2|13114|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13115|success
+玩笑|wánxiào|joke|1|0|13116|success
+道路|dàolù|road|1|2|13117|success
+早日康复|zǎorìkāngfù|get well soon|2|1|13118|fail
+早日康复|zǎorìkāngfù|get well soon|2|1|13118|success
+早日康复|zǎorìkāngfù|get well soon|2|1|13118|success
+打针|dǎzhēn|have injection|2|1|13119|fail
+打针|dǎzhēn|have injection|2|1|13119|success
+打针|dǎzhēn|have injection|2|1|13119|success
+树|shù|tree|0|2|13120|fail
+树|shù|tree|0|2|13120|success
+树|shù|tree|0|2|13120|success
+推荐|tuījiàn|recommend|0|2|13121|fail
+推荐|tuījiàn|recommend|0|2|13121|success
+推荐|tuījiàn|recommend|0|2|13121|success
+胡萝卜|húluóbo|carrot|1|0|13122|success
+感冒|gǎnmào|have cold|1|0|13123|success
+用|yòng|need|2|1|13124|success
+回复|huífù|reply|2|1|13125|success
+红枣茶|hóngzǎochá|red date tea|1|0|13126|success
+喂|wéi|hello (phone)|2|0|13127|success
+早日康复|zǎorìkāngfù|get well soon|2|1|13128|success
+打针|dǎzhēn|have injection|2|1|13129|success
+菊花茶|júhuāchá|chrysanthemum tea|1|2|13130|success
+推荐|tuījiàn|recommend|0|2|13131|success
+前天|qiántiān|day before yesterday|1|2|13132|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13133|success
+飞船|fēichuán|spaceship|0|1|13134|success
+感冒|gǎnmào|have cold|0|2|13135|success
+感冒|gǎnmào|have cold|0|1|13136|fail
+感冒|gǎnmào|have cold|0|1|13136|success
+感冒|gǎnmào|have cold|0|1|13136|success
+树|shù|tree|0|2|13137|fail
+树|shù|tree|0|2|13137|success
+树|shù|tree|0|2|13137|success
+秋天|qiūtiān|autumn|0|2|13138|fail
+秋天|qiūtiān|autumn|0|2|13138|success
+秋天|qiūtiān|autumn|0|2|13138|success
+胡萝卜|húluóbo|carrot|1|0|13139|success
+面包店|miànbāodiàn|bakery|0|2|13140|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13141|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13141|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13141|success
+前天|qiántiān|day before yesterday|0|1|13142|success
+很|hěn|very|0|1|13143|success
+牙|yá|tooth|0|2|13144|success
+早日康复|zǎorìkāngfù|get well soon|2|1|13145|success
+感冒|gǎnmào|have cold|0|1|13146|success
+打针|dǎzhēn|have injection|2|1|13147|success
+秋天|qiūtiān|autumn|0|2|13148|success
+推荐|tuījiàn|recommend|0|2|13149|fail
+推荐|tuījiàn|recommend|0|2|13149|success
+推荐|tuījiàn|recommend|0|2|13149|success
+道路|dàolù|road|1|2|13150|fail
+道路|dàolù|road|1|2|13150|success
+道路|dàolù|road|1|2|13150|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13151|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13151|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13151|success
+玩笑|wánxiào|joke|1|0|13152|fail
+玩笑|wánxiào|joke|1|0|13152|fail
+玩笑|wánxiào|joke|1|0|13152|success
+药草|yàocǎo|herbal|0|2|13153|success
+树|shù|tree|0|2|13154|success
+红枣茶|hóngzǎochá|red date tea|1|0|13155|success
+恶心|ěxīn|nauseous|0|2|13156|success
+头疼|tóuténg|headache|1|0|13157|fail
+头疼|tóuténg|headache|1|0|13157|success
+头疼|tóuténg|headache|1|0|13157|success
+还没有|háiméiyǒu|not yet|0|1|13158|success
+推荐|tuījiàn|recommend|0|2|13159|success
+道路|dàolù|road|1|2|13160|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13161|success
+玩笑|wánxiào|joke|1|0|13162|success
+感冒|gǎnmào|have cold|0|1|13163|success
+前天|qiántiān|day before yesterday|1|2|13164|fail
+前天|qiántiān|day before yesterday|1|2|13164|success
+前天|qiántiān|day before yesterday|1|2|13164|success
+秋天|qiūtiān|autumn|0|2|13165|success
+早日康复|zǎorìkāngfù|get well soon|0|2|13166|success
+头疼|tóuténg|headache|1|0|13167|success
+胡萝卜|húluóbo|carrot|1|0|13168|fail
+胡萝卜|húluóbo|carrot|1|0|13168|success
+胡萝卜|húluóbo|carrot|1|0|13168|success
+推荐|tuījiàn|recommend|0|2|13169|success
+牙|yá|tooth|0|1|13170|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13171|success
+玩笑|wánxiào|joke|1|0|13172|fail
+玩笑|wánxiào|joke|1|0|13172|success
+玩笑|wánxiào|joke|1|0|13172|success
+舒服|shūfu|feel good|1|0|13173|success
+前天|qiántiān|day before yesterday|1|2|13174|success
+早日康复|zǎorìkāngfù|get well soon|2|1|13175|success
+打针|dǎzhēn|have injection|2|1|13176|success
+道路|dàolù|road|1|2|13177|success
+胡萝卜|húluóbo|carrot|1|0|13178|fail
+胡萝卜|húluóbo|carrot|1|0|13178|success
+胡萝卜|húluóbo|carrot|1|0|13178|success
+推荐|tuījiàn|recommend|1|0|13179|success
+秋天|qiūtiān|autumn|2|0|13180|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13181|fail
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13181|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13181|success
+玩笑|wánxiào|joke|1|0|13182|fail
+玩笑|wánxiào|joke|1|0|13182|success
+玩笑|wánxiào|joke|1|0|13182|success
+树|shù|tree|0|2|13183|fail
+树|shù|tree|0|2|13183|success
+树|shù|tree|0|2|13183|fail
+头疼|tóuténg|headache|1|0|13184|success
+疼|téng|ache|2|1|13185|success
+推荐|tuījiàn|recommend|0|2|13186|fail
+推荐|tuījiàn|recommend|0|2|13186|success
+推荐|tuījiàn|recommend|0|2|13186|success
+面包店|miànbāodiàn|bakery|0|1|13187|success
+胡萝卜|húluóbo|carrot|1|0|13188|success
+需要|xūyào|need|0|1|13189|success
+些|xiē|m.w.a few|2|1|13190|fail
+些|xiē|m.w.a few|2|1|13190|success
+些|xiē|m.w.a few|2|1|13190|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13191|success
+玩笑|wánxiào|joke|1|0|13192|success
+树|shù|tree|0|2|13193|success
+道路|dàolù|road|1|2|13194|success
+前天|qiántiān|day before yesterday|1|2|13195|success
+推荐|tuījiàn|recommend|0|2|13196|success
+感冒|gǎnmào|have cold|0|1|13197|success
+胡萝卜|húluóbo|carrot|1|0|13198|success
+秋天|qiūtiān|autumn|0|2|13199|fail
+秋天|qiūtiān|autumn|0|2|13199|success
+秋天|qiūtiān|autumn|0|2|13199|success
+飞船|fēichuán|spaceship|2|1|13200|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13201|success
+玩笑|wánxiào|joke|1|0|13202|success
+树|shù|tree|0|2|13203|success
+件|jiàn|m.w.clothes|1|0|13204|fail
+件|jiàn|m.w.clothes|1|0|13204|success
+件|jiàn|m.w.clothes|1|0|13204|success
+开玩笑|kāiwánxiào|just kidding|2|0|13205|success
+推荐|tuījiàn|recommend|0|2|13206|success
+些|xiē|m.w.a few|2|1|13207|success
+胡萝卜|húluóbo|carrot|1|0|13208|success
+秋天|qiūtiān|autumn|0|2|13209|success
+穿衣服|chuānyīfu|put on clothes|2|1|13210|fail
+穿衣服|chuānyīfu|put on clothes|2|1|13210|success
+穿衣服|chuānyīfu|put on clothes|2|1|13210|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13211|success
+头疼|tóuténg|headache|0|2|13212|success
+头疼|tóuténg|headache|1|0|13213|fail
+头疼|tóuténg|headache|1|0|13213|success
+头疼|tóuténg|headache|1|0|13213|success
+药草茶|yàocǎochá|herbal tea|0|1|13214|success
+城市|chéngshì|city|0|1|13215|fail
+城市|chéngshì|city|0|1|13215|success
+城市|chéngshì|city|0|1|13215|success
+飞船|fēichuán|spaceship|2|0|13216|success
+西药|xīyào|western medicine|1|2|13217|success
+胡萝卜|húluóbo|carrot|1|0|13218|success
+玩笑|wánxiào|joke|1|0|13219|success
+穿衣服|chuānyīfu|put on clothes|2|1|13220|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13221|success
+树|shù|tree|0|2|13222|success
+头疼|tóuténg|headache|1|0|13223|success
+件|jiàn|m.w.clothes|1|0|13224|fail
+件|jiàn|m.w.clothes|1|0|13224|success
+件|jiàn|m.w.clothes|1|0|13224|success
+城市|chéngshì|city|0|1|13225|success
+推荐|tuījiàn|recommend|0|2|13226|success
+秋天|qiūtiān|autumn|0|2|13227|success
+前天|qiántiān|day before yesterday|1|2|13228|success
+道路|dàolù|road|1|2|13229|success
+矮|ǎi|short|0|2|13230|fail
+矮|ǎi|short|0|2|13230|success
+矮|ǎi|short|0|2|13230|success
+斑马|bānmǎ|zebra|2|1|13231|fail
+斑马|bānmǎ|zebra|2|1|13231|success
+斑马|bānmǎ|zebra|2|1|13231|success
+好好|hǎohāo|well|0|2|13232|fail
+好好|hǎohāo|well|0|2|13232|success
+好好|hǎohāo|well|0|2|13232|success
+比|bǐ|compare|1|2|13233|success
+回复|huífù|reply|1|0|13234|success
+胡萝卜|húluóbo|carrot|1|0|13235|success
+些|xiē|m.w.a few|2|1|13236|success
+穿衣服|chuānyīfu|put on clothes|2|1|13237|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13238|success
+母鸡|mǔjī|hen|1|0|13239|fail
+母鸡|mǔjī|hen|1|0|13239|success
+母鸡|mǔjī|hen|1|0|13239|success
+头疼|tóuténg|headache|1|0|13240|success
+斑马|bānmǎ|zebra|2|1|13241|success
+好好|hǎohāo|well|0|2|13242|success
+件|jiàn|m.w.clothes|1|0|13243|success
+城市|chéngshì|city|0|1|13244|success
+怎么走|zěnmezóu|how about|1|0|13245|fail
+怎么走|zěnmezóu|how about|1|0|13245|fail
+怎么走|zěnmezóu|how about|1|0|13245|success
+树|shù|tree|0|1|13246|success
+矮|ǎi|short|0|2|13247|fail
+矮|ǎi|short|0|2|13247|success
+矮|ǎi|short|0|2|13247|success
+玩笑|wánxiào|joke|1|0|13248|success
+母鸡|mǔjī|hen|1|0|13249|success
+对_很好奇|duì_hěnhǎoqí|curious about|1|2|13250|fail
+对_很好奇|duì_hěnhǎoqí|curious about|1|2|13250|success
+对_很好奇|duì_hěnhǎoqí|curious about|1|2|13250|success
+树|shù|tree|0|2|13251|success
+好好|hǎohāo|well|1|2|13252|success
+部|bù|m.w.movie|1|0|13253|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13254|fail
+早日康复|zǎorìkāngfù|get well soon|1|0|13254|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13254|success
+怎么走|zěnmezóu|how about|1|0|13255|success
+推荐|tuījiàn|recommend|0|2|13256|success
+秋天|qiūtiān|autumn|0|2|13257|success
+斑马|bānmǎ|zebra|2|1|13258|success
+好好|hǎohāo|well|0|2|13259|success
+对_很好奇|duì_hěnhǎoqí|curious about|1|2|13260|success
+头疼|tóuténg|headache|1|2|13261|success
+好好|hǎohāo|well|0|1|13262|success
+图书馆|túshūguǎn|library|2|0|13263|fail
+图书馆|túshūguǎn|library|2|0|13263|success
+图书馆|túshūguǎn|library|2|0|13263|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13264|success
+怎么走|zěnmezóu|how about|1|0|13265|success

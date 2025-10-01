@@ -19,6 +19,12 @@ std::string tolower(std::string data = "Abc")
 	return data;
 }
 
+std::string nospace(std::string data)
+{
+	data.erase(std::remove(data.begin(), data.end(), ' '), data.end());
+	return data;
+}
+
 chinese::questions::questions()
 {
 }
@@ -131,13 +137,13 @@ bool chinese::questions::datapoint::ask(
 			gave = input.do_input_chinese(question_to_ask.str(), true, breaks, chinese.c_str());
 			break;
 		case DATATYPE_ENGLISH:
-			gave = tolower(input.do_input_english(question_to_ask.str()));
+			gave = input.do_input_english(question_to_ask.str());
 			break;
 		case DATATYPE_PINYIN:
 			gave = input.do_input_pinyin(question_to_ask.str());
 			break;
 	}
-	return gave == get(asked);
+	return nospace(tolower(gave)) == nospace(tolower(get(asked)));
 }
 
 void chinese::questions::statistics_screen(
@@ -408,15 +414,45 @@ noreshuffle:
 		int repeat=3;
 repeat_question:
 		std::string gave;
-		bool result =current->ask(
-				m_input,
-				provided,
-				asked,
+
+		std::map<int, int> negative_score, positive_score;
+
+		negative_score.clear();
+		positive_score.clear();
+
+		int zero_score = 0;
+		for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+		{
+			double score = iter->second.second;
+			if(score < 0.0)
+			{
+				++negative_score[floor(score)];
+			}
+			else if(score == 0.0)
+			{
+				++zero_score;
+			}
+			else
+			{
+				++positive_score[ceil(score)];
+			}
+		}
+
+		std::string stats = 
 				std::to_string(q)
 				+ "/" + std::to_string(6*loaded_data.size())
 				+ " " + std::to_string(sequence_number)
 				+ " " + std::to_string(iter0->second.first)
-				+ " " + std::to_string(iter0->second.second),
+				+ " " + std::to_string(iter0->second.second);
+		if(zero_score >0)
+		{
+			stats += " zero " + std::to_string(zero_score);
+		}
+		bool result =current->ask(
+				m_input,
+				provided,
+				asked,
+				stats,
 				others,
 				gave,
 				breaks

@@ -1,0 +1,20 @@
+疾病|illness
+昨天|yesterday
+感冒|have cold
+需要|need
+用|need
+吃药|take medicine
+打针|have injection
+但是|but
+开药|prescribe medicine
+开玩笑|just kidding
+玩笑|joke
+开|open
+开|start
+菊花茶|chrysanthemum tea
+红枣茶|Red date tea
+药草|herbal
+药草茶|herbal tea
+前天|day before yesterday
+部|m.w.movie
+些|m.w.a few
