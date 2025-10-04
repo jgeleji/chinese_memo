@@ -17863,3 +17863,397 @@
 图书馆|túshūguǎn|library|2|0|13263|success
 早日康复|zǎorìkāngfù|get well soon|1|0|13264|success
 怎么走|zěnmezóu|how about|1|0|13265|success
+矮|ǎi|short|0|2|13266|fail
+矮|ǎi|short|0|2|13266|success
+矮|ǎi|short|0|2|13266|success
+母鸡|mǔjī|hen|1|0|13267|success
+胡萝卜|húluóbo|carrot|1|0|13268|success
+头疼|tóuténg|headache|1|0|13269|success
+穿衣服|chuānyīfu|put on clothes|2|1|13270|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13271|success
+件|jiàn|m.w.clothes|1|0|13272|fail
+件|jiàn|m.w.clothes|1|0|13272|success
+件|jiàn|m.w.clothes|1|0|13272|success
+图书馆|túshūguǎn|library|2|0|13273|success
+城市|chéngshì|city|0|1|13274|success
+怎么走|zěnmezóu|how about|1|0|13275|fail
+怎么走|zěnmezóu|how about|1|0|13275|success
+怎么走|zěnmezóu|how about|1|0|13275|success
+汽车公司|qìchēgōngsī|car company|0|1|13276|success
+对_很好奇|duì_hěnhǎoqí|curious about|1|2|13277|success
+建议|jiànyì|suggestion|2|0|13278|fail
+建议|jiànyì|suggestion|2|0|13278|success
+建议|jiànyì|suggestion|2|0|13278|success
+辆|liàng|m.w.car|0|1|13279|fail
+辆|liàng|m.w.car|0|1|13279|success
+辆|liàng|m.w.car|0|1|13279|success
+婚礼|hūnlǐ|wedding|0|1|13280|fail
+婚礼|hūnlǐ|wedding|0|1|13280|success
+婚礼|hūnlǐ|wedding|0|1|13280|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13281|fail
+早日康复|zǎorìkāngfù|get well soon|1|0|13281|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13281|success
+练习|liànxí|practice|0|1|13282|fail
+练习|liànxí|practice|0|1|13282|success
+练习|liànxí|practice|0|1|13282|success
+矮|ǎi|short|0|2|13283|fail
+矮|ǎi|short|0|2|13283|success
+矮|ǎi|short|0|2|13283|success
+穿衣服|chuānyīfu|put on clothes|1|0|13284|fail
+穿衣服|chuānyīfu|put on clothes|1|0|13284|success
+穿衣服|chuānyīfu|put on clothes|1|0|13284|success
+怎么走|zěnmezóu|how about|1|0|13285|success
+秋天|qiūtiān|autumn|0|2|13286|success
+斑马|bānmǎ|zebra|2|1|13287|success
+建议|jiànyì|suggestion|2|0|13288|success
+件|jiàn|m.w.clothes|1|0|13289|success
+婚礼|hūnlǐ|wedding|0|1|13290|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13291|success
+练习|liànxí|practice|0|1|13292|fail
+练习|liànxí|practice|0|1|13292|success
+练习|liànxí|practice|0|1|13292|success
+图书馆|túshūguǎn|library|2|0|13293|success
+穿衣服|chuānyīfu|put on clothes|1|0|13294|success
+怎么走|zěnmezóu|how about|1|0|13295|success
+辆|liàng|m.w.car|0|1|13296|success
+好好|hǎohāo|well|0|2|13297|success
+母鸡|mǔjī|hen|1|0|13298|success
+胡萝卜|húluóbo|carrot|1|0|13299|success
+矮|ǎi|short|0|2|13300|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13301|success
+练习|liànxí|practice|0|1|13302|success
+车企|chē qǐ|car manufacturer|0|2|13303|fail
+车企|chē qǐ|car manufacturer|0|2|13303|success
+车企|chē qǐ|car manufacturer|0|2|13303|success
+交通堵塞|jiāotōngdǔsè|traffic jam|1|2|13304|success
+怎么走|zěnmezóu|how about|1|0|13305|success
+建议|jiànyì|suggestion|2|0|13306|success
+婚礼|hūnlǐ|wedding|0|1|13307|success
+对_很好奇|duì_hěnhǎoqí|curious about|1|2|13308|success
+可能|kěnéng|maybe|0|2|13309|success
+回复|huífù|reply|2|0|13310|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13311|success
+练习|liànxí|practice|0|1|13312|success
+车企|chē qǐ|car manufacturer|0|2|13313|success
+穿衣服|chuānyīfu|put on clothes|1|0|13314|fail
+穿衣服|chuānyīfu|put on clothes|1|0|13314|success
+穿衣服|chuānyīfu|put on clothes|1|0|13314|success
+怎么走|zěnmezóu|how about|1|0|13315|success
+酷|kù|cool|1|0|13316|fail
+酷|kù|cool|1|0|13316|success
+酷|kù|cool|1|0|13316|success
+感冒|gǎnmào|have cold|2|0|13317|success
+件|jiàn|m.w.clothes|1|0|13318|success
+出去|chūqù|go outside|0|1|13319|fail
+出去|chūqù|go outside|0|1|13319|success
+出去|chūqù|go outside|0|1|13319|success
+道路|dàolù|road|0|2|13320|success
+前天|qiántiān|day before yesterday|2|1|13321|success
+图书馆|túshūguǎn|library|2|0|13322|success
+运动|yùndòng|exercise|2|1|13323|fail
+运动|yùndòng|exercise|2|1|13323|success
+运动|yùndòng|exercise|2|1|13323|success
+穿衣服|chuānyīfu|put on clothes|1|0|13324|success
+怎么走|zěnmezóu|how about|1|0|13325|success
+辆|liàng|m.w.car|0|1|13326|success
+件|jiàn|m.w.clothes|1|2|13327|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13328|success
+出去|chūqù|go outside|0|1|13329|success
+车企|chē qǐ|car manufacturer|0|2|13330|success
+练习|liànxí|practice|0|1|13331|fail
+练习|liànxí|practice|0|1|13331|success
+练习|liànxí|practice|0|1|13331|success
+矮|ǎi|short|0|2|13332|success
+运动|yùndòng|exercise|2|1|13333|success
+穿衣服|chuānyīfu|put on clothes|1|0|13334|success
+酷|kù|cool|1|0|13335|success
+建议|jiànyì|suggestion|2|0|13336|success
+婚礼|hūnlǐ|wedding|0|1|13337|fail
+婚礼|hūnlǐ|wedding|0|1|13337|success
+婚礼|hūnlǐ|wedding|0|1|13337|success
+好奇|hǎoqí|curious|1|0|13338|success
+婚礼|hūnlǐ|wedding|1|2|13339|success
+穿|chuān|wear|0|2|13340|success
+练习|liànxí|practice|0|1|13341|success
+怎么走|zěnmezóu|how about|1|0|13342|success
+豌豆|wāndòu|pea|2|1|13343|success
+条|tiáo|m.w.pants, skirt, river|0|1|13344|fail
+条|tiáo|m.w.pants, skirt, river|0|1|13344|success
+条|tiáo|m.w.pants, skirt, river|0|1|13344|success
+汽车公司|qìchēgōngsī|car company|1|2|13345|fail
+汽车公司|qìchēgōngsī|car company|1|2|13345|success
+汽车公司|qìchēgōngsī|car company|1|2|13345|success
+出去|chūqù|go outside|0|1|13346|success
+婚礼|hūnlǐ|wedding|0|1|13347|fail
+婚礼|hūnlǐ|wedding|0|1|13347|success
+婚礼|hūnlǐ|wedding|0|1|13347|success
+出去|chūqù|go outside|2|0|13348|success
+衬衫|chènshān|shirt|2|1|13349|success
+运动|yùndòng|exercise|2|1|13350|success
+练习|liànxí|practice|0|1|13351|success
+穿衣服|chuānyīfu|put on clothes|1|0|13352|success
+部|bù|m.w.movie|2|0|13353|success
+道路|dàolù|road|1|0|13354|success
+汽车公司|qìchēgōngsī|car company|1|2|13355|success
+西药|xīyào|western medicine|1|0|13356|success
+婚礼|hūnlǐ|wedding|0|1|13357|success
+豌豆|wāndòu|pea|0|2|13358|success
+车企|chē qǐ|car manufacturer|0|2|13359|success
+早日康复|zǎorìkāngfù|get well soon|1|0|13360|success
+条|tiáo|m.w.pants, skirt, river|0|1|13361|fail
+条|tiáo|m.w.pants, skirt, river|0|1|13361|success
+条|tiáo|m.w.pants, skirt, river|0|1|13361|success
+交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13362|success
+很抱歉|hěn bàoqiàn|very sorry|2|1|13363|fail
+很抱歉|hěn bàoqiàn|very sorry|2|1|13363|success
+很抱歉|hěn bàoqiàn|very sorry|2|1|13363|success
+酷|kù|cool|1|0|13364|success
+房间|fángjiān|room|1|0|13365|success
+母鸡|mǔjī|hen|2|0|13366|success
+婚礼|hūnlǐ|wedding|0|1|13367|success
+练习|liànxí|practice|0|1|13368|success
+穿衣服|chuānyīfu|put on clothes|1|0|13369|success
+练习|liànxí|practice|2|0|13370|success
+休息|xiūxī|take rest|2|0|13371|success
+汽车公司|qìchēgōngsī|car company|1|2|13372|fail
+汽车公司|qìchēgōngsī|car company|1|2|13372|success
+汽车公司|qìchēgōngsī|car company|1|2|13372|success
+很抱歉|hěn bàoqiàn|very sorry|2|1|13373|success
+对_很好奇|duì_hěnhǎoqí|curious about|2|1|13374|success
+出去|chūqù|go outside|0|1|13375|success
+了|le|done|1|2|13376|fail
+了|le|done|1|2|13376|success
+了|le|done|1|2|13376|success
+推荐|tuījiàn|recommend|0|1|13377|fail
+推荐|tuījiàn|recommend|0|1|13377|success
+推荐|tuījiàn|recommend|0|1|13377|success
+条|tiáo|m.w.pants, skirt, river|0|1|13378|success
+运动|yùndòng|exercise|2|1|13379|success
+怎么走|zěnmezóu|how about|1|0|13380|success
+干净|gānjìng|clean|1|0|13381|fail
+干净|gānjìng|clean|1|0|13381|success
+干净|gānjìng|clean|1|0|13381|success
+汽车公司|qìchēgōngsī|car company|1|2|13382|success
+对_很好奇|duì_hěnhǎoqí|curious about|1|0|13383|success
+婚礼|hūnlǐ|wedding|0|1|13384|success
+同意|tóngyì|agree|1|2|13385|fail
+同意|tóngyì|agree|1|2|13385|success
+同意|tóngyì|agree|1|2|13385|success
+红枣茶|hóngzǎochá|red date tea|2|1|13386|success
+推荐|tuījiàn|recommend|0|1|13387|success
+吃药|chīyào|take medicine|2|0|13388|success
+很抱歉|hěn bàoqiàn|very sorry|1|2|13389|success
+很抱歉|hěn bàoqiàn|very sorry|2|1|13390|success
+干净|gānjìng|clean|1|0|13391|fail
+干净|gānjìng|clean|1|0|13391|success
+干净|gānjìng|clean|1|0|13391|success
+汽车公司|qìchēgōngsī|car company|1|2|13392|success
+了|le|done|1|2|13393|success
+同意|tóngyì|agree|0|2|13394|fail
+休息|xiūxī|take rest|2|0|13394|fail
+休息|xiūxī|rest|2|0|13394|fail
+同意|tóngyì|agree|0|2|13394|success
+同意|tóngyì|agree|0|2|13394|success
+休息|xiūxī|take rest|2|0|13395|success
+休息|xiūxī|rest|2|0|13396|success
+同意|tóngyì|agree|1|2|13397|success
+练习|liànxí|practice|0|1|13398|success
+穿衣服|chuānyīfu|put on clothes|1|0|13399|success
+面试|miànshì|interview|1|0|13400|fail
+面试|miànshì|interview|1|0|13400|success
+面试|miànshì|interview|1|0|13400|success
+干净|gānjìng|clean|1|0|13401|fail
+干净|gānjìng|clean|1|0|13401|success
+干净|gānjìng|clean|1|0|13401|fail
+汽车公司|qìchēgōngsī|car company|1|2|13402|success
+前天|qiántiān|day before yesterday|1|2|13403|success
+同意|tóngyì|agree|0|2|13404|fail
+同意|tóngyì|agree|0|2|13404|success
+同意|tóngyì|agree|0|2|13404|success
+休息|xiūxī|take rest|2|0|13405|success
+休息|xiūxī|rest|2|0|13406|success
+推荐|tuījiàn|recommend|0|1|13407|success
+条|tiáo|m.w.pants, skirt, river|0|1|13408|success
+头疼|tóuténg|headache|1|0|13409|success
+面试|miànshì|interview|1|0|13410|fail
+面试|miànshì|interview|1|0|13410|success
+面试|miànshì|interview|1|0|13410|success
+干净|gānjìng|clean|1|0|13411|success
+药草茶|yàocǎochá|herbal tea|2|0|13412|success
+婚礼|hūnlǐ|wedding|0|1|13413|success
+同意|tóngyì|agree|0|2|13414|success
+同意|tóngyì|agree|1|2|13415|success
+出去|chūqù|go outside|1|0|13416|fail
+出去|chūqù|go outside|1|0|13416|success
+出去|chūqù|go outside|1|0|13416|success
+开|kāi|start|0|1|13417|fail
+开|kāi|start|0|1|13417|success
+开|kāi|start|0|1|13417|success
+疼|téng|ache|0|1|13418|success
+汽车公司|qìchēgōngsī|car company|1|2|13419|success
+面试|miànshì|interview|1|0|13420|fail
+面试|miànshì|interview|1|0|13420|success
+面试|miànshì|interview|1|0|13420|success
+干净|gānjìng|clean|1|0|13421|fail
+干净|gānjìng|clean|1|0|13421|success
+干净|gānjìng|clean|1|0|13421|success
+休息|xiūxī|take rest|2|0|13422|success
+休息|xiūxī|rest|2|0|13423|success
+同意|tóngyì|agree|0|2|13424|success
+了|le|done|1|2|13425|success
+出去|chūqù|go outside|1|0|13426|success
+很抱歉|hěn bàoqiàn|very sorry|2|1|13427|success
+需要|xūyào|need|2|0|13428|success
+好奇|hǎoqí|curious|0|1|13429|success
+面试|miànshì|interview|1|0|13430|success
+干净|gānjìng|clean|1|0|13431|success
+嗓子|sǎngzi|throat|1|0|13432|success
+运动|yùndòng|exercise|0|2|13433|fail
+运动|yùndòng|exercise|0|2|13433|success
+运动|yùndòng|exercise|0|2|13433|success
+开|kāi|start|0|1|13434|success
+面试|miànshì|interview|2|1|13435|success
+推荐|tuījiàn|recommend|0|1|13436|success
+宿舍|sùshè|dormitory|1|0|13437|fail
+宿舍|sùshè|dormitory|1|0|13437|success
+宿舍|sùshè|dormitory|1|0|13437|success
+秋天|qiūtiān|autumn|2|1|13438|success
+推荐|tuījiàn|recommend|2|1|13439|success
+面试|miànshì|interview|1|0|13440|success
+干净|gānjìng|clean|1|0|13441|fail
+干净|gānjìng|clean|1|0|13441|success
+干净|gānjìng|clean|1|0|13441|success
+同意|tóngyì|agree|0|2|13442|fail
+同意|tóngyì|agree|0|2|13442|success
+同意|tóngyì|agree|0|2|13442|success
+运动|yùndòng|exercise|0|2|13443|fail
+运动|yùndòng|exercise|0|2|13443|success
+运动|yùndòng|exercise|0|2|13443|success
+出去|chūqù|go outside|1|0|13444|success
+同意|tóngyì|agree|1|2|13445|success
+汽车公司|qìchēgōngsī|car company|1|0|13446|fail
+汽车公司|qìchēgōngsī|car company|1|0|13446|success
+汽车公司|qìchēgōngsī|car company|1|0|13446|success
+宿舍|sùshè|dormitory|1|0|13447|fail
+宿舍|sùshè|dormitory|1|0|13447|success
+宿舍|sùshè|dormitory|1|0|13447|success
+汽车公司|qìchēgōngsī|car company|1|2|13448|success
+还没有|háiméiyǒu|not yet|1|0|13449|success
+菊花茶|júhuāchá|chrysanthemum tea|1|0|13450|fail
+菊花茶|júhuāchá|chrysanthemum tea|1|0|13450|success
+菊花茶|júhuāchá|chrysanthemum tea|1|0|13450|success
+干净|gānjìng|clean|1|0|13451|success
+同意|tóngyì|agree|0|2|13452|fail
+同意|tóngyì|agree|0|2|13452|success
+同意|tóngyì|agree|0|2|13452|success
+运动|yùndòng|exercise|0|2|13453|success
+休息|xiūxī|take rest|2|0|13454|success
+休息|xiūxī|rest|2|0|13455|success
+汽车公司|qìchēgōngsī|car company|1|0|13456|success
+宿舍|sùshè|dormitory|1|0|13457|fail
+宿舍|sùshè|dormitory|1|0|13457|success
+宿舍|sùshè|dormitory|1|0|13457|success
+面试|miànshì|interview|1|0|13458|fail
+面试|miànshì|interview|1|0|13458|success
+面试|miànshì|interview|1|0|13458|success
+眼睛|yǎnjīng|eye|1|2|13459|success
+菊花茶|júhuāchá|chrysanthemum tea|1|0|13460|success
+干净|gānjìng|clean|1|0|13461|success
+同意|tóngyì|agree|0|2|13462|success
+运动|yùndòng|exercise|0|2|13463|success
+开|kāi|start|0|1|13464|success
+好好|hǎohāo|well|2|1|13465|success
+房间|fángjiān|room|1|2|13466|success
+宿舍|sùshè|dormitory|1|0|13467|fail
+宿舍|sùshè|dormitory|1|0|13467|success
+宿舍|sùshè|dormitory|1|0|13467|success
+面试|miànshì|interview|1|0|13468|success
+母鸡|mǔjī|hen|0|2|13469|fail
+母鸡|mǔjī|hen|0|2|13469|success
+母鸡|mǔjī|hen|0|2|13469|success
+飞船|fēichuán|spaceship|1|0|13470|success
+孔子|Kǒngzǐ|confucius|0|2|13471|success
+同意|tóngyì|agree|0|2|13472|success
+汽车公司|qìchēgōngsī|car company|1|0|13473|success
+出去|chūqù|go outside|1|0|13474|success
+面包卷|miànbāojuǎn|roll|2|0|13475|fail
+面包卷|miànbāojuǎn|roll|2|0|13475|success
+面包卷|miànbāojuǎn|roll|2|0|13475|success
+散步|sànbù|take a walk|2|1|13476|fail
+散步|sànbù|take a walk|2|1|13476|success
+散步|sànbù|take a walk|2|1|13476|success
+宿舍|sùshè|dormitory|1|0|13477|success
+面试|miànshì|interview|1|0|13478|success
+母鸡|mǔjī|hen|0|2|13479|success
+菊花茶|júhuāchá|chrysanthemum tea|1|0|13480|success
+运动|yùndòng|exercise|0|2|13481|success
+干净|gānjìng|clean|1|0|13482|success
+辣椒|làjiāo|chili pepper|1|0|13483|success
+吃药|chīyào|take medicine|1|2|13484|success
+面包卷|miànbāojuǎn|roll|2|0|13485|success
+散步|sànbù|take a walk|2|1|13486|success
+宿舍|sùshè|dormitory|1|0|13487|success
+开药|kāiyào|prescribe medicine|1|0|13488|success
+同意|tóngyì|agree|0|2|13489|success
+红枣茶|hóngzǎochá|red date tea|0|1|13490|success
+道路|dàolù|road|2|1|13491|success
+开|kāi|start|2|0|13492|success
+辣椒|làjiāo|chili pepper|2|1|13493|fail
+辣椒|làjiāo|chili pepper|2|1|13493|success
+辣椒|làjiāo|chili pepper|2|1|13493|success
+很抱歉|hěn bàoqiàn|very sorry|2|0|13494|fail
+很抱歉|hěn bàoqiàn|very sorry|2|0|13494|success
+很抱歉|hěn bàoqiàn|very sorry|2|0|13494|success
+面试|miànshì|interview|1|0|13495|success
+母鸡|mǔjī|hen|0|2|13496|success
+恶心|ěxīn|nauseous|1|0|13497|fail
+恶心|ěxīn|nauseous|1|0|13497|success
+恶心|ěxīn|nauseous|1|0|13497|success
+开|kāi|open|1|2|13498|success
+练习|liànxí|practice|1|0|13499|fail
+练习|liànxí|practice|1|0|13499|success
+练习|liànxí|practice|1|0|13499|success
+牙|yá|tooth|1|2|13500|success
+对_很好奇|duì_hěnhǎoqí|curious about|2|0|13501|success
+面包卷|miànbāojuǎn|roll|2|0|13502|success
+辣椒|làjiāo|chili pepper|2|1|13503|success
+很抱歉|hěn bàoqiàn|very sorry|2|0|13504|success
+散步|sànbù|take a walk|2|1|13505|success
+宿舍|sùshè|dormitory|1|0|13506|fail
+宿舍|sùshè|dormitory|1|0|13506|success
+宿舍|sùshè|dormitory|1|0|13506|success
+恶心|ěxīn|nauseous|1|0|13507|success
+汽车公司|qìchēgōngsī|car company|1|0|13508|success
+练习|liànxí|practice|1|0|13509|success
+菊花茶|júhuāchá|chrysanthemum tea|1|0|13510|success
+运动|yùndòng|exercise|0|2|13511|success
+干净|gānjìng|clean|1|0|13512|success
+吵|chǎo|noisy|1|0|13513|fail
+吵|chǎo|noisy|1|0|13513|success
+吵|chǎo|noisy|1|0|13513|success
+游艇|yóutǐng|yacht|1|2|13514|fail
+游艇|yóutǐng|yacht|1|2|13514|success
+游艇|yóutǐng|yacht|1|2|13514|success
+对不起|duìbuqǐ|sorry|2|1|13515|success
+宿舍|sùshè|dormitory|1|0|13516|success
+对不起|duìbuqǐ|sorry|0|2|13517|success
+同意|tóngyì|agree|0|2|13518|success
+药|yào|medicine|1|2|13519|success
+辣椒|làjiāo|chili pepper|2|1|13520|success
+很抱歉|hěn bàoqiàn|very sorry|2|0|13521|success
+前天|qiántiān|day before yesterday|0|2|13522|success
+牙医|yáyī|dentist|0|2|13523|success
+游艇|yóutǐng|yacht|1|2|13524|success
+恶心|ěxīn|nauseous|1|0|13525|success
+宿舍|sùshè|dormitory|1|0|13526|success
+练习|liànxí|practice|1|0|13527|success
+母鸡|mǔjī|hen|0|2|13528|success
+面试|miànshì|interview|1|0|13529|success
+吵|chǎo|noisy|1|0|13530|success
+面包卷|miànbāojuǎn|roll|2|0|13531|success
+宿舍|sùshè|dormitory|0|1|13532|success
+开药|kāiyào|prescribe medicine|0|1|13533|success
+散步|sànbù|take a walk|2|1|13534|success
+酷|kù|cool|1|2|13535|success
+最近|zuìjìn|recently|1|2|13536|success
+穿衣服|chuānyīfu|put on clothes|1|2|13537|success
