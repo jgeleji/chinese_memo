@@ -18257,3 +18257,88 @@
 酷|kù|cool|1|2|13535|success
 最近|zuìjìn|recently|1|2|13536|success
 穿衣服|chuānyīfu|put on clothes|1|2|13537|success
+电影院|diànyǐngyuàn|cinema|2|0|13538|success
+车企|chē qǐ|car manufacturer|1|2|13539|success
+斑马|bānmǎ|zebra|0|2|13540|fail
+斑马|bānmǎ|zebra|0|2|13540|success
+斑马|bānmǎ|zebra|0|2|13540|success
+游艇|yóutǐng|yacht|1|2|13541|success
+条|tiáo|m.w.pants, skirt, river|1|0|13542|fail
+条|tiáo|m.w.pants, skirt, river|1|0|13542|success
+条|tiáo|m.w.pants, skirt, river|1|0|13542|success
+宿舍|sùshè|dormitory|1|0|13543|fail
+宿舍|sùshè|dormitory|1|0|13543|success
+宿舍|sùshè|dormitory|1|0|13543|success
+玩笑|wánxiào|joke|2|1|13544|fail
+玩笑|wánxiào|joke|2|1|13544|success
+玩笑|wánxiào|joke|2|1|13544|success
+前天|qiántiān|day before yesterday|2|0|13545|success
+汽车公司|qìchēgōngsī|car company|2|0|13546|success
+忧虑|yōulǜ|worry|2|0|13547|fail
+忧虑|yōulǜ|worry|2|0|13547|success
+忧虑|yōulǜ|worry|2|0|13547|success
+歌剧院|gējùyuàn|opera|0|2|13548|fail
+歌剧院|gējùyuàn|opera|0|2|13548|success
+歌剧院|gējùyuàn|opera|0|2|13548|success
+辣椒|làjiāo|chili pepper|2|1|13549|success
+斑马|bānmǎ|zebra|0|2|13550|success
+很抱歉|hěn bàoqiàn|very sorry|2|0|13551|success
+好好|hǎohāo|well|1|0|13552|success
+宿舍|sùshè|dormitory|1|0|13553|success
+玩笑|wánxiào|joke|2|1|13554|success
+恶心|ěxīn|nauseous|1|0|13555|success
+练习|liànxí|practice|1|0|13556|success
+忧虑|yōulǜ|worry|2|0|13557|success
+歌剧院|gējùyuàn|opera|0|2|13558|success
+条|tiáo|m.w.pants, skirt, river|1|0|13559|success
+吵|chǎo|noisy|1|0|13560|fail
+吵|chǎo|noisy|1|0|13560|success
+吵|chǎo|noisy|1|0|13560|success
+办婚礼|bànhūnlǐ|get married|2|0|13561|fail
+办婚礼|bànhūnlǐ|get married|2|0|13561|success
+办婚礼|bànhūnlǐ|get married|2|0|13561|success
+西药|xīyào|western medicine|2|0|13562|success
+宿舍|sùshè|dormitory|1|0|13563|success
+全身|quánshēn|whole body|0|2|13564|fail
+全身|quánshēn|whole body|0|2|13564|success
+全身|quánshēn|whole body|0|2|13564|success
+宝贝|bǎobèi|baby|0|1|13565|fail
+宝贝|bǎobèi|baby|0|1|13565|success
+宝贝|bǎobèi|baby|0|1|13565|success
+吃药|chīyào|take medicine|1|0|13566|success
+斑马|bānmǎ|zebra|0|2|13567|success
+跑步|pǎobù|run|1|2|13568|success
+打篮球|dǎlánqiú|play basketball|2|1|13569|success
+游艇|yóutǐng|yacht|1|2|13570|success
+办婚礼|bànhūnlǐ|get married|2|0|13571|success
+玩笑|wánxiào|joke|2|1|13572|success
+吃药|chīyào|take medicine|2|1|13573|success
+全身|quánshēn|whole body|0|2|13574|fail
+全身|quánshēn|whole body|0|2|13574|success
+全身|quánshēn|whole body|0|2|13574|success
+宝贝|bǎobèi|baby|0|1|13575|success
+歌剧院|gējùyuàn|opera|0|2|13576|success
+吵|chǎo|noisy|1|0|13577|success
+忧虑|yōulǜ|worry|2|0|13578|success
+衬衫|chènshān|shirt|0|1|13579|fail
+衬衫|chènshān|shirt|0|1|13579|success
+衬衫|chènshān|shirt|0|1|13579|success
+宿舍|sùshè|dormitory|1|0|13580|success
+疾病|jíbìng|illness|0|1|13581|fail
+疾病|jíbìng|illness|0|1|13581|success
+疾病|jíbìng|illness|0|1|13581|success
+可能|kěnéng|maybe|2|0|13582|success
+项链|xiàngliàn|necklace|2|0|13583|fail
+项链|xiàngliàn|necklace|2|0|13583|success
+项链|xiàngliàn|necklace|2|0|13583|success
+全身|quánshēn|whole body|0|2|13584|success
+运动场|yùndòngchǎng|sports field|2|0|13585|success
+广场|guǎngchǎng|square|2|0|13586|success
+厕所|cèsuǒ|wc|0|1|13587|fail
+厕所|cèsuǒ|wc|0|1|13587|success
+厕所|cèsuǒ|wc|0|1|13587|success
+办婚礼|bànhūnlǐ|get married|2|0|13588|success
+衬衫|chènshān|shirt|0|1|13589|success
+条|tiáo|m.w.pants, skirt, river|1|0|13590|success
+疾病|jíbìng|illness|0|1|13591|success
+宝贝|bǎobèi|baby|0|1|13592|success
