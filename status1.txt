@@ -19578,3 +19578,938 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14297|success
 动作片|dòngzuòpiàn|action film|1|0|14406|success
 网剧|wǎngjù|web series|2|1|14407|success
 或|huò|or|0|1|14408|success
+动画片|dònghuàpiàn|animated film|2|1|14409|fail
+动画片|dònghuàpiàn|animated film|2|1|14409|success
+动画片|dònghuàpiàn|animated film|2|1|14409|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14410|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14411|fail
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14411|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14411|success
+很久|hěnjiǔ|long time|2|1|14412|success
+动作片|dòngzuòpiàn|action film|1|2|14413|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14414|fail
+体育馆|tǐyùguǎn|gymnasium|0|1|14414|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14414|success
+建议|jiànyì|suggestion|0|1|14415|fail
+建议|jiànyì|suggestion|0|1|14415|success
+建议|jiànyì|suggestion|0|1|14415|success
+逛|guàng|hang out|0|1|14416|fail
+逛|guàng|hang out|0|1|14416|success
+逛|guàng|hang out|0|1|14416|success
+斑马|bānmǎ|zebra|0|2|14417|fail
+斑马|bānmǎ|zebra|0|2|14417|success
+斑马|bānmǎ|zebra|0|2|14417|success
+很久|hěnjiǔ|long time|1|0|14418|success
+动画片|dònghuàpiàn|animated film|2|1|14419|success
+西单|xīdān|xidan|0|2|14420|fail
+西单|xīdān|xidan|0|2|14420|success
+西单|xīdān|xidan|0|2|14420|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14421|success
+开|kāi|open|2|1|14422|fail
+开车|kāichē|drive car|1|2|14422|fail
+开|kāi|open|2|1|14422|success
+开|kāi|open|2|1|14422|success
+开车|kāichē|drive car|1|2|14423|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14424|success
+建议|jiànyì|suggestion|0|1|14425|success
+网剧|wǎngjù|web series|2|1|14426|fail
+网剧|wǎngjù|web series|2|1|14426|success
+网剧|wǎngjù|web series|2|1|14426|success
+斑马|bānmǎ|zebra|0|2|14427|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14428|success
+动画片|dònghuàpiàn|animated film|2|1|14429|success
+西单|xīdān|xidan|0|2|14430|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14431|success
+动作片|dòngzuòpiàn|action film|1|2|14432|success
+开车|kāichē|drive car|1|2|14433|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14434|success
+建议|jiànyì|suggestion|0|1|14435|success
+网剧|wǎngjù|web series|2|1|14436|success
+逛|guàng|hang out|0|1|14437|success
+很久|hěnjiǔ|long time|2|1|14438|success
+动画片|dònghuàpiàn|animated film|2|1|14439|success
+开|kāi|open|2|1|14440|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14441|success
+抽烟|chōuyān|smoke|1|2|14442|fail
+抽烟|chōuyān|smoke|1|2|14442|success
+抽烟|chōuyān|smoke|1|2|14442|success
+条|tiáo|m.w.pants, river, skirt|0|2|14443|fail
+条|tiáo|m.w.pants, river, skirt|0|2|14443|success
+条|tiáo|m.w.pants, river, skirt|0|2|14443|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14444|success
+斑马|bānmǎ|zebra|0|2|14445|success
+网剧|wǎngjù|web series|2|1|14446|success
+西单|xīdān|xidan|0|2|14447|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14448|success
+动画片|dònghuàpiàn|animated film|2|1|14449|success
+开车|kāichē|drive car|1|2|14450|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14451|success
+抽烟|chōuyān|smoke|1|2|14452|success
+建议|jiànyì|suggestion|0|1|14453|success
+既_又_|jì_yòu_|both_and_|1|2|14454|success
+动作片|dòngzuòpiàn|action film|1|0|14455|success
+和_聊天|hé_liáotiān|chat with _|1|0|14456|fail
+和_聊天|hé_liáotiān|chat with _|1|0|14456|fail
+和_聊天|hé_liáotiān|chat with _|1|0|14456|success
+拿|ná|take|2|1|14457|fail
+拿|ná|take|2|1|14457|success
+拿|ná|take|2|1|14457|success
+没找到|méizhǎodào|haven't found|0|1|14458|fail
+没找到|méizhǎodào|haven't found|0|1|14458|success
+没找到|méizhǎodào|haven't found|0|1|14458|success
+动画片|dònghuàpiàn|animated film|2|1|14459|success
+条|tiáo|m.w.pants, river, skirt|0|2|14460|fail
+条|tiáo|m.w.pants, river, skirt|0|2|14460|success
+条|tiáo|m.w.pants, river, skirt|0|2|14460|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14461|success
+抽烟|chōuyān|smoke|1|2|14462|success
+网剧|wǎngjù|web series|2|1|14463|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14464|success
+动作片|dòngzuòpiàn|action film|1|2|14465|success
+和_聊天|hé_liáotiān|chat with _|1|0|14466|success
+逛|guàng|hang out|0|1|14467|success
+没找到|méizhǎodào|haven't found|0|1|14468|success
+开|kāi|open|2|1|14469|success
+很久|hěnjiǔ|long time|2|1|14470|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14471|success
+辆|liàng|m.w.car|1|0|14472|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14473|fail
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14473|fail
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14473|success
+拿|ná|take|2|1|14474|success
+斑马|bānmǎ|zebra|0|2|14475|success
+和_聊天|hé_liáotiān|chat with _|1|0|14476|success
+条|tiáo|m.w.pants, river, skirt|0|2|14477|success
+动画片|dònghuàpiàn|animated film|2|1|14478|success
+抽烟|chōuyān|smoke|1|2|14479|success
+开车|kāichē|drive car|1|2|14480|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14481|success
+西单|xīdān|xidan|0|2|14482|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14483|success
+建议|jiànyì|suggestion|0|1|14484|success
+没找到|méizhǎodào|haven't found|0|1|14485|success
+和_聊天|hé_liáotiān|chat with _|1|0|14486|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14487|success
+斑马|bānmǎ|zebra|1|0|14488|success
+手表|shǒubiǎo|wristwatch|2|0|14489|fail
+手表|shǒubiǎo|wristwatch|2|0|14489|success
+手表|shǒubiǎo|wristwatch|2|0|14489|success
+出去|chūqù|go outside|1|2|14490|fail
+出去|chūqù|go outside|1|2|14490|success
+出去|chūqù|go outside|1|2|14490|success
+骑自行车|qízìxíngchē|bicycle riding|2|1|14491|fail
+网剧|wǎngjù|web series|2|1|14492|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14493|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14494|success
+眼镜|yǎnjìng|glasses|2|1|14495|fail
+眼镜|yǎnjìng|glasses|2|1|14495|success
+眼镜|yǎnjìng|glasses|2|1|14495|success
+和_聊天|hé_liáotiān|chat with _|1|0|14496|success
+跟|gēn|and|2|1|14497|fail
+跟|gēn|and|2|1|14497|success
+跟|gēn|and|2|1|14497|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14498|success
+手表|shǒubiǎo|wristwatch|2|0|14499|success
+出去|chūqù|go outside|1|2|14500|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14501|success
+着|zhe|used after verb to indicate state|0|1|14502|fail
+见到|jiàndào|see|1|0|14502|fail
+看见|kànjiàn|see|1|0|14502|fail
+着|zhe|used after verb to indicate state|0|1|14502|success
+着|zhe|used after verb to indicate state|0|1|14502|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14503|success
+见到|jiàndào|see|1|0|14504|fail
+见|jiàn|see you later|0|1|14504|fail
+见到|jiàndào|see|1|0|14504|success
+见到|jiàndào|see|1|0|14504|success
+看见|kànjiàn|see|1|0|14505|success
+和_聊天|hé_liáotiān|chat with _|1|0|14506|success
+见|jiàn|see you later|0|1|14507|fail
+见|jiàn|see you later|0|1|14507|success
+见|jiàn|see you later|0|1|14507|success
+眼镜|yǎnjìng|glasses|2|1|14508|success
+条|tiáo|m.w.pants, river, skirt|0|2|14509|success
+拿|ná|take|2|1|14510|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14511|success
+抽烟|chōuyān|smoke|1|2|14512|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14513|success
+见到|jiàndào|see|1|0|14514|success
+看见|kànjiàn|see|1|0|14515|success
+和_聊天|hé_liáotiān|chat with _|1|0|14516|success
+跟|gēn|and|2|1|14517|success
+手表|shǒubiǎo|wristwatch|2|0|14518|success
+着|zhe|used after verb to indicate state|0|1|14519|success
+出去|chūqù|go outside|1|2|14520|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14521|success
+没找到|méizhǎodào|haven't found|0|1|14522|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14523|success
+见到|jiàndào|see|1|0|14524|success
+见|jiàn|see you later|0|1|14525|success
+和_聊天|hé_liáotiān|chat with _|1|0|14526|success
+眼镜|yǎnjìng|glasses|2|1|14527|success
+动画片|dònghuàpiàn|animated film|2|1|14528|success
+面试|miànshì|interview|0|2|14529|success
+高|gāo|tall|1|2|14530|success
+网|wǎng|internet|0|1|14531|fail
+网|wǎng|internet|0|1|14531|success
+网|wǎng|internet|0|1|14531|success
+看见|kànjiàn|see|1|0|14532|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14533|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14534|success
+苹果比香焦多五个|píngguǒbǐxiāngjiāoduōwǔgè|five more apples than bananas|1|0|14535|fail
+苹果比香焦多五个|píngguǒbǐxiāngjiāoduōwǔgè|five more apples than bananas|1|0|14535|success
+苹果比香焦多五个|píngguǒbǐxiāngjiāoduōwǔgè|five more apples than bananas|1|0|14535|success
+找|zhǎo|look for|1|2|14536|fail
+找|zhǎo|look for|1|2|14536|success
+找|zhǎo|look for|1|2|14536|success
+就|jiù|then|1|0|14537|fail
+就|jiù|then|1|0|14537|success
+就|jiù|then|1|0|14537|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14538|fail
+骑自行车|qízìxíngchē|ride bicycle|2|1|14538|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14538|success
+米|mǐ|metre|0|2|14539|success
+牛仔裤|niúzǎikù|jeans|1|0|14540|fail
+牛仔裤|niúzǎikù|jeans|1|0|14540|success
+牛仔裤|niúzǎikù|jeans|1|0|14540|success
+见到|jiàndào|see|1|0|14541|success
+疾病|jíbìng|illness|2|1|14542|fail
+疾病|jíbìng|illness|2|1|14542|success
+疾病|jíbìng|illness|2|1|14542|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14543|success
+和_聊天|hé_liáotiān|chat with _|1|0|14544|success
+苹果比香焦多五个|píngguǒbǐxiāngjiāoduōwǔgè|five more apples than bananas|1|0|14545|success
+跟|gēn|and|2|1|14546|success
+手表|shǒubiǎo|wristwatch|2|0|14547|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14548|success
+网|wǎng|internet|0|1|14549|success
+牛仔裤|niúzǎikù|jeans|1|0|14550|success
+着|zhe|used after verb to indicate state|0|1|14551|success
+疾病|jíbìng|illness|2|1|14552|success
+找|zhǎo|look for|1|2|14553|success
+就|jiù|then|1|0|14554|success
+见|jiàn|see you later|0|1|14555|success
+眼镜|yǎnjìng|glasses|2|1|14556|success
+出去|chūqù|go outside|1|2|14557|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14558|success
+没用|méiyòng|useless|0|1|14559|fail
+没用|méiyòng|useless|0|1|14559|success
+没用|méiyòng|useless|0|1|14559|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14560|success
+看见|kànjiàn|see|1|0|14561|success
+苹果比香焦多五个|píngguǒbǐxiāngjiāoduōwǔgè|five more apples than bananas|1|0|14562|success
+新鲜|xīnxiān|fresh|1|0|14563|fail
+新鲜|xīnxiān|fresh|1|0|14563|success
+新鲜|xīnxiān|fresh|1|0|14563|success
+喜剧片|xǐjùpiàn|comedy film|2|1|14564|fail
+喜剧片|xǐjùpiàn|comedy film|2|1|14564|success
+喜剧片|xǐjùpiàn|comedy film|2|1|14564|success
+游泳馆|yóuyǒngguǎn|swimming pool|2|1|14565|success
+买卖|mǎimài|busy|1|0|14566|fail
+买卖|mǎimài|busy|1|0|14566|success
+买卖|mǎimài|busy|1|0|14566|success
+牛仔裤|niúzǎikù|jeans|1|0|14567|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14568|success
+没用|méiyòng|useless|0|1|14569|success
+疾病|jíbìng|illness|2|1|14570|success
+见到|jiàndào|see|1|0|14571|success
+有用|yǒuyòng|useful|2|0|14572|success
+新鲜|xīnxiān|fresh|1|0|14573|success
+喜剧片|xǐjùpiàn|comedy film|2|1|14574|success
+夫人|fūrén|wife|1|0|14575|success
+买卖|mǎimài|busy|1|0|14576|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14577|success
+网|wǎng|internet|0|1|14578|success
+穿衣服|chuānyīfu|put on clothes|0|1|14579|success
+和_聊天|hé_liáotiān|chat with _|1|0|14580|success
+等|děng|wait|1|0|14581|fail
+等|děng|wait|1|0|14581|success
+等|děng|wait|1|0|14581|success
+找|zhǎo|look for|1|2|14582|success
+就|jiù|then|1|0|14583|success
+校友会|xiàoyǒuhuì|alumni association|0|2|14584|fail
+校友会|xiàoyǒuhuì|alumni association|0|2|14584|success
+校友会|xiàoyǒuhuì|alumni association|0|2|14584|success
+或者|huòzhě|or|0|2|14585|fail
+或者|huòzhě|or|0|2|14585|success
+或者|huòzhě|or|0|2|14585|success
+没用|méiyòng|useless|0|1|14586|success
+全身|quánshēn|whole body|0|1|14587|fail
+生活|shēnghuó|life|1|0|14587|fail
+全身|quánshēn|whole body|0|1|14587|success
+全身|quánshēn|whole body|0|1|14587|fail
+生活|shēnghuó|life|1|0|14588|fail
+生活|shēnghuó|life|1|0|14588|success
+生活|shēnghuó|life|1|0|14588|success
+涂|tú|put on makeup|0|2|14589|fail
+涂|tú|put on makeup|0|2|14589|success
+涂|tú|put on makeup|0|2|14589|success
+新鲜|xīnxiān|fresh|1|0|14590|success
+喜剧片|xǐjùpiàn|comedy film|2|1|14591|success
+苹果比香焦多五个|píngguǒbǐxiāngjiāoduōwǔgè|five more apples than bananas|1|0|14592|success
+买卖|mǎimài|busy|1|0|14593|success
+校友会|xiàoyǒuhuì|alumni association|0|2|14594|success
+或者|huòzhě|or|0|2|14595|success
+牛仔裤|niúzǎikù|jeans|1|0|14596|success
+全身|quánshēn|whole body|0|1|14597|success
+生活|shēnghuó|life|1|0|14598|success
+等|děng|wait|1|0|14599|success
+疾病|jíbìng|illness|2|1|14600|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14601|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|0|14602|success
+客户|kèhù|customers|0|2|14603|fail
+客户|kèhù|customers|0|2|14603|success
+客户|kèhù|customers|0|2|14603|success
+作为|zuòwèi|as|0|2|14604|fail
+作为|zuòwèi|as|0|2|14604|success
+作为|zuòwèi|as|0|2|14604|success
+交朋友|jiāopéngyǒu|make friends|2|0|14605|success
+涂|tú|put on makeup|0|2|14606|fail
+涂|tú|put on makeup|0|2|14606|success
+涂|tú|put on makeup|0|2|14606|success
+全身|quánshēn|whole body|0|1|14607|success
+生活|shēnghuó|life|1|0|14608|success
+一定|yīdìng|surely|2|0|14609|fail
+一定|yīdìng|surely|2|0|14609|success
+一定|yīdìng|surely|2|0|14609|success
+面试|miànshì|interview|0|1|14610|fail
+面试|miànshì|interview|0|1|14610|success
+面试|miànshì|interview|0|1|14610|success
+校友会|xiàoyǒuhuì|alumni association|0|2|14611|success
+或者|huòzhě|or|0|2|14612|success
+客户|kèhù|customers|0|2|14613|fail
+客户|kèhù|customers|0|2|14613|success
+客户|kèhù|customers|0|2|14613|success
+作为|zuòwèi|as|0|2|14614|success
+没用|méiyòng|useless|0|1|14615|success
+同学会|tóngxuéhuì|reunion|1|0|14616|fail
+同学会|tóngxuéhuì|reunion|1|0|14616|success
+同学会|tóngxuéhuì|reunion|1|0|14616|success
+全身|quánshēn|whole body|0|1|14617|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14618|fail
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14618|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14618|success
+一定|yīdìng|surely|2|0|14619|success
+面试|miànshì|interview|0|1|14620|success
+喜剧片|xǐjùpiàn|comedy film|2|1|14621|success
+买卖|mǎimài|busy|1|0|14622|success
+客户|kèhù|customers|0|2|14623|success
+涂|tú|put on makeup|0|2|14624|fail
+涂|tú|put on makeup|0|2|14624|success
+涂|tú|put on makeup|0|2|14624|success
+生活|shēnghuó|life|1|0|14625|success
+同学会|tóngxuéhuì|reunion|1|0|14626|fail
+同学会|tóngxuéhuì|reunion|1|0|14626|success
+同学会|tóngxuéhuì|reunion|1|0|14626|success
+全身|quánshēn|whole body|0|1|14627|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14628|fail
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14628|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14628|success
+等|děng|wait|1|0|14629|success
+新鲜|xīnxiān|fresh|1|0|14630|success
+作为|zuòwèi|as|0|2|14631|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14632|fail
+豆浆机|dòujiāngjī|soy milk machine|1|2|14632|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14632|success
+客户|kèhù|customers|0|2|14633|success
+见|jiàn|see you later|1|2|14634|success
+短裙|duǎnqún|skirt|1|2|14635|fail
+短裙|duǎnqún|skirt|1|2|14635|success
+短裙|duǎnqún|skirt|1|2|14635|success
+同学会|tóngxuéhuì|reunion|1|0|14636|success
+一定|yīdìng|surely|2|0|14637|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14638|success
+面试|miànshì|interview|0|1|14639|success
+校友会|xiàoyǒuhuì|alumni association|0|2|14640|success
+涂|tú|put on makeup|0|2|14641|fail
+涂|tú|put on makeup|0|2|14641|success
+涂|tú|put on makeup|0|2|14641|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14642|success
+或者|huòzhě|or|0|2|14643|success
+全身|quánshēn|whole body|0|1|14644|fail
+全身|quánshēn|whole body|0|1|14644|success
+全身|quánshēn|whole body|0|1|14644|success
+短裙|duǎnqún|skirt|1|2|14645|fail
+短裙|duǎnqún|skirt|1|2|14645|success
+短裙|duǎnqún|skirt|1|2|14645|success
+同学会|tóngxuéhuì|reunion|1|0|14646|success
+工具|gōngjù|tool|2|0|14647|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14648|fail
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14648|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14648|success
+兴趣|xìngqù|hobby|1|2|14649|fail
+兴趣|xìngqù|hobby|1|2|14649|success
+兴趣|xìngqù|hobby|1|2|14649|success
+客户|kèhù|customers|0|2|14650|success
+甜|tián|sweet|2|0|14651|fail
+甜|tián|sweet|2|0|14651|success
+甜|tián|sweet|2|0|14651|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|2|1|14652|fail
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|2|1|14652|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|2|1|14652|success
+同意|tóngyì|agree|0|1|14653|fail
+同意|tóngyì|agree|0|1|14653|success
+同意|tóngyì|agree|0|1|14653|success
+全身|quánshēn|whole body|0|1|14654|success
+短裙|duǎnqún|skirt|1|2|14655|success
+同学会|tóngxuéhuì|reunion|1|0|14656|success
+生活|shēnghuó|life|1|0|14657|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14658|fail
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14658|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14658|success
+兴趣|xìngqù|hobby|1|2|14659|fail
+兴趣|xìngqù|hobby|1|2|14659|success
+兴趣|xìngqù|hobby|1|2|14659|success
+涂|tú|put on makeup|0|2|14660|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14661|fail
+豆浆机|dòujiāngjī|soy milk machine|1|2|14661|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14661|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|2|1|14662|success
+同意|tóngyì|agree|0|1|14663|fail
+同意|tóngyì|agree|0|1|14663|success
+同意|tóngyì|agree|0|1|14663|success
+全身|quánshēn|whole body|0|1|14664|success
+短裙|duǎnqún|skirt|1|2|14665|success
+同学会|tóngxuéhuì|reunion|1|0|14666|success
+作为|zuòwèi|as|0|2|14667|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14668|success
+兴趣|xìngqù|hobby|1|2|14669|fail
+兴趣|xìngqù|hobby|1|2|14669|success
+兴趣|xìngqù|hobby|1|2|14669|success
+甜|tián|sweet|2|0|14670|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14671|success
+一定|yīdìng|surely|2|0|14672|success
+同意|tóngyì|agree|0|1|14673|success
+面试|miànshì|interview|0|1|14674|success
+沙发|shāfā|sofa|2|0|14675|success
+性别|xìngbié|gender|2|0|14676|fail
+性别|xìngbié|gender|2|0|14676|success
+性别|xìngbié|gender|2|0|14676|success
+找不到|zhǎobùdào|can't find|0|1|14677|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14678|success
+兴趣|xìngqù|hobby|1|2|14679|fail
+兴趣|xìngqù|hobby|1|2|14679|success
+兴趣|xìngqù|hobby|1|2|14679|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|2|1|14680|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14681|fail
+豆浆机|dòujiāngjī|soy milk machine|1|2|14681|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14681|success
+全身|quánshēn|whole body|0|1|14682|success
+同意|tóngyì|agree|0|1|14683|success
+短裙|duǎnqún|skirt|1|2|14684|success
+同学会|tóngxuéhuì|reunion|1|0|14685|success
+性别|xìngbié|gender|2|0|14686|success
+客户|kèhù|customers|0|2|14687|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14688|success
+兴趣|xìngqù|hobby|1|2|14689|fail
+兴趣|xìngqù|hobby|1|2|14689|success
+兴趣|xìngqù|hobby|1|2|14689|success
+涂|tú|put on makeup|0|2|14690|fail
+兴趣|xìngqù|hobby|2|0|14690|fail
+涂|tú|put on makeup|0|2|14690|success
+涂|tú|put on makeup|0|2|14690|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14691|fail
+豆浆机|dòujiāngjī|soy milk machine|1|2|14691|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14691|success
+兴趣|xìngqù|hobby|2|0|14692|fail
+兴趣|xìngqù|hobby|2|0|14692|success
+兴趣|xìngqù|hobby|2|0|14692|success
+骑自行车|qízìxíngchē|ride bicycle|2|1|14693|success
+找不到|zhǎobùdào|can't find|2|1|14694|success
+游泳馆|yóuyǒngguǎn|swimming pool|1|2|14695|fail
+游泳馆|yóuyǒngguǎn|swimming pool|1|2|14695|success
+游泳馆|yóuyǒngguǎn|swimming pool|1|2|14695|success
+喂|wéi|hello (phone)|0|1|14696|fail
+喂|wéi|hello (phone)|0|1|14696|success
+喂|wéi|hello (phone)|0|1|14696|success
+病好了吗|bìnghǎolema|are you feeling better?|2|1|14697|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14698|success
+兴趣|xìngqù|hobby|1|2|14699|success
+同意|tóngyì|agree|0|1|14700|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14701|success
+兴趣|xìngqù|hobby|2|0|14702|success
+性别|xìngbié|gender|2|0|14703|fail
+性别|xìngbié|gender|2|0|14703|success
+性别|xìngbié|gender|2|0|14703|success
+甜|tián|sweet|2|0|14704|success
+游泳馆|yóuyǒngguǎn|swimming pool|1|2|14705|success
+休息|xiūxī|take rest|0|2|14706|fail
+休息|xiūxī|take rest|0|2|14706|success
+休息|xiūxī|take rest|0|2|14706|success
+涂|tú|put on makeup|0|2|14707|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14708|success
+兴趣|xìngqù|hobby|1|2|14709|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|2|1|14710|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14711|success
+兴趣|xìngqù|hobby|2|0|14712|success
+性别|xìngbié|gender|2|0|14713|success
+喂|wéi|hello (phone)|0|1|14714|fail
+喂|wéi|hello (phone)|0|1|14714|success
+喂|wéi|hello (phone)|0|1|14714|success
+短裙|duǎnqún|skirt|1|2|14715|success
+休息|xiūxī|take rest|0|2|14716|success
+全身|quánshēn|whole body|0|1|14717|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14718|success
+同学会|tóngxuéhuì|reunion|1|0|14719|success
+台|tái|m.w.computer|2|0|14720|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14721|success
+游泳馆|yóuyǒngguǎn|swimming pool|1|2|14722|success
+性别|xìngbié|gender|2|0|14723|fail
+性别|xìngbié|gender|2|0|14723|success
+性别|xìngbié|gender|2|0|14723|success
+方便面|fāngbiànmiàn|instant noodles|1|2|14724|fail
+方便面|fāngbiànmiàn|instant noodles|1|2|14724|success
+方便面|fāngbiànmiàn|instant noodles|1|2|14724|success
+广场|guǎngchǎng|square|1|0|14725|fail
+广场|guǎngchǎng|square|1|0|14725|success
+广场|guǎngchǎng|square|1|0|14725|success
+兴趣|xìngqù|hobby|1|2|14726|success
+同学会|tóngxuéhuì|reunion|0|1|14727|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14728|success
+兴趣|xìngqù|hobby|2|0|14729|fail
+兴趣|xìngqù|hobby|2|0|14729|success
+兴趣|xìngqù|hobby|2|0|14729|success
+同意|tóngyì|agree|0|1|14730|fail
+同意|tóngyì|agree|0|1|14730|success
+同意|tóngyì|agree|0|1|14730|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14731|success
+喂|wéi|hello (phone)|0|1|14732|fail
+喂|wéi|hello (phone)|0|1|14732|success
+喂|wéi|hello (phone)|0|1|14732|success
+性别|xìngbié|gender|2|0|14733|success
+方便面|fāngbiànmiàn|instant noodles|1|2|14734|success
+广场|guǎngchǎng|square|1|0|14735|fail
+广场|guǎngchǎng|square|1|0|14735|success
+广场|guǎngchǎng|square|1|0|14735|success
+休息|xiūxī|take rest|0|2|14736|success
+涂|tú|put on makeup|0|2|14737|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14738|success
+兴趣|xìngqù|hobby|2|0|14739|success
+同意|tóngyì|agree|0|1|14740|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14741|success
+上身|shàngshēn|upper body|1|2|14742|success
+性别|xìngbié|gender|2|0|14743|success
+安排|ānpái|plan|2|1|14744|success
+广场|guǎngchǎng|square|1|0|14745|success
+豆浆机|dòujiāngjī|soy milk machine|0|2|14746|success
+网球|wǎngqiú|tennis|1|0|14747|success
+抽烟|chōuyān|smoke|0|2|14748|fail
+抽烟|chōuyān|smoke|0|2|14748|success
+抽烟|chōuyān|smoke|0|2|14748|success
+兴趣|xìngqù|hobby|2|0|14749|success
+喂|wéi|hello (phone)|0|1|14750|fail
+喂|wéi|hello (phone)|0|1|14750|success
+喂|wéi|hello (phone)|0|1|14750|success
+方便面|fāngbiànmiàn|instant noodles|1|2|14751|success
+游泳馆|yóuyǒngguǎn|swimming pool|1|2|14752|success
+咱们|zánmen|we|2|0|14753|fail
+咱们|zánmen|we|2|0|14753|success
+咱们|zánmen|we|2|0|14753|success
+跑步|pǎobù|run|0|2|14754|fail
+跑步|pǎobù|run|0|2|14754|success
+跑步|pǎobù|run|0|2|14754|success
+广场|guǎngchǎng|square|1|0|14755|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14756|success
+同意|tóngyì|agree|0|1|14757|success
+抽烟|chōuyān|smoke|0|2|14758|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14759|success
+性别|xìngbié|gender|2|0|14760|success
+兴趣|xìngqù|hobby|1|2|14761|success
+笑容|xiàoróng|smile|1|2|14762|fail
+笑容|xiàoróng|smile|1|2|14762|success
+笑容|xiàoróng|smile|1|2|14762|success
+咱们|zánmen|we|2|0|14763|success
+跑步|pǎobù|run|0|2|14764|success
+休息|xiūxī|take rest|0|2|14765|success
+兴趣|xìngqù|hobby|2|0|14766|success
+喂|wéi|hello (phone)|0|1|14767|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14768|fail
+周星驰|zhōuxīngchí|stephen chow|2|0|14768|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14768|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|0|14769|fail
+去世的亲人|qùshìdeqīnrén|deceased relative|1|0|14769|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|0|14769|success
+别迟到|biéchídào|don't be late|2|0|14770|success
+笑容|xiàoróng|smile|0|1|14771|fail
+笑容|xiàoróng|smile|0|1|14771|success
+笑容|xiàoróng|smile|0|1|14771|success
+笑容|xiàoróng|smile|1|2|14772|success
+广场|guǎngchǎng|square|1|0|14773|success
+篮球场|lánqiúchǎng|basketball court|1|0|14774|fail
+篮球场|lánqiúchǎng|basketball court|1|0|14774|success
+篮球场|lánqiúchǎng|basketball court|1|0|14774|success
+抽烟|chōuyān|smoke|0|2|14775|success
+请找到|qǐngzhǎodào|please find|0|1|14776|fail
+请找到|qǐngzhǎodào|please find|0|1|14776|success
+请找到|qǐngzhǎodào|please find|0|1|14776|success
+牙医|yáyī|dentist|0|1|14777|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14778|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|0|14779|success
+咱们|zánmen|we|2|0|14780|success
+笑容|xiàoróng|smile|0|1|14781|fail
+笑容|xiàoróng|smile|0|1|14781|success
+笑容|xiàoróng|smile|0|1|14781|success
+跑步|pǎobù|run|0|2|14782|success
+方便面|fāngbiànmiàn|instant noodles|1|2|14783|success
+篮球场|lánqiúchǎng|basketball court|1|0|14784|success
+中国通|zhōngguótōng|people who know china well|2|0|14785|fail
+中国通|zhōngguótōng|people who know china well|2|0|14785|success
+中国通|zhōngguótōng|people who know china well|2|0|14785|success
+请找到|qǐngzhǎodào|please find|0|1|14786|success
+同意|tóngyì|agree|0|1|14787|success
+上班|shàngbān|go to work|0|2|14788|success
+笑容|xiàoróng|smile|1|2|14789|success
+性别|xìngbié|gender|2|0|14790|fail
+性别|xìngbié|gender|2|0|14790|success
+性别|xìngbié|gender|2|0|14790|success
+笑容|xiàoróng|smile|0|1|14791|fail
+笑容|xiàoróng|smile|0|1|14791|success
+笑容|xiàoróng|smile|0|1|14791|success
+环球旅游|huánqiúlǚyóu|global tourism|1|0|14792|success
+长|zhǎng|long|2|1|14793|fail
+长|zhǎng|long|2|1|14793|success
+长|zhǎng|long|2|1|14793|success
+老同学|lǎotóngxué|old classmate|2|0|14794|success
+中国通|zhōngguótōng|people who know china well|2|0|14795|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|0|14796|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14797|success
+喂|wéi|hello (phone)|0|1|14798|success
+兴趣|xìngqù|hobby|2|0|14799|success
+性别|xìngbié|gender|2|0|14800|success
+笑容|xiàoróng|smile|0|1|14801|success
+篮球场|lánqiúchǎng|basketball court|1|0|14802|success
+请找到|qǐngzhǎodào|please find|0|1|14803|success
+抽烟|chōuyān|smoke|0|2|14804|success
+广场|guǎngchǎng|square|1|0|14805|success
+豆浆机|dòujiāngjī|soy milk machine|1|2|14806|success
+客户|kèhù|customers|0|1|14807|fail
+_和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
+咱们|zánmen|we|2|0|14809|success
+长|zhǎng|long|2|1|14810|fail
+长|zhǎng|long|2|1|14810|success
+长|zhǎng|long|2|1|14810|success
+笑容|xiàoróng|smile|0|1|14811|success
+中国通|zhōngguótōng|people who know china well|2|0|14812|success
+跑步|pǎobù|run|0|2|14813|success
+网剧|wǎngjù|web series|1|2|14814|fail
+网剧|wǎngjù|web series|1|2|14814|success
+网剧|wǎngjù|web series|1|2|14814|success
+找到|zhǎodào|find|1|2|14815|success
+以后|yǐhòu|afterward|1|0|14816|fail
+后|hòu|after|0|1|14816|fail
+以后|yǐhòu|afterward|1|0|14816|success
+以后|yǐhòu|afterward|1|0|14816|success
+客户|kèhù|customer|0|1|14817|success
+后|hòu|after|0|1|14818|success
+性别|xìngbié|gender|2|0|14819|success
+笑容|xiàoróng|smile|1|2|14820|success
+逛|guàng|hang out|2|0|14821|fail
+逛|guàng|hang out|2|0|14821|success
+逛|guàng|hang out|2|0|14821|success
+试试|shìshì|try|0|1|14822|success
+打乒乓球|dǎpīngpāngqiú|play ping-pong|1|0|14823|success
+网剧|wǎngjù|web series|1|2|14824|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|0|14825|success
+以后|yǐhòu|afterward|1|0|14826|success
+客户|kèhù|customer|0|1|14827|success
+长|zhǎng|long|2|1|14828|success
+笑容|xiàoróng|smile|0|1|14829|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14830|fail
+周星驰|zhōuxīngchí|stephen chow|2|0|14830|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14830|success
+篮球场|lánqiúchǎng|basketball court|1|0|14831|success
+请找到|qǐngzhǎodào|please find|0|1|14832|success
+戴|dài|put on (hat)|1|2|14833|fail
+戴|dài|put on (hat)|1|2|14833|success
+戴|dài|put on (hat)|1|2|14833|success
+差不多|chàbùduō|almost the same|0|1|14834|fail
+差不多|chàbùduō|almost the same|0|1|14834|success
+差不多|chàbùduō|almost the same|0|1|14834|success
+后|hòu|after|0|1|14835|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14836|fail
+喜剧片|xǐjùpiàn|comedy film|1|2|14836|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14836|success
+客户|kèhù|customer|0|1|14837|success
+逛|guàng|hang out|2|0|14838|success
+了|le|done|0|1|14839|fail
+了|le|done|0|1|14839|success
+了|le|done|0|1|14839|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14840|success
+网剧|wǎngjù|web series|1|2|14841|fail
+网剧|wǎngjù|web series|1|2|14841|success
+网剧|wǎngjù|web series|1|2|14841|success
+中国通|zhōngguótōng|people who know china well|2|0|14842|success
+以后|yǐhòu|afterward|1|0|14843|success
+差不多|chàbùduō|almost the same|0|1|14844|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14845|fail
+先_然后_|xiān_ránhòu_|first_then_|1|2|14845|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14845|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14846|fail
+喜剧片|xǐjùpiàn|comedy film|1|2|14846|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14846|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14847|fail
+外语系|wàiyǔxì|school of foreign languages|1|0|14847|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14847|success
+性别|xìngbié|gender|2|0|14848|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14849|fail
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14849|fail
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14849|success
+戴|dài|put on (hat)|1|2|14850|success
+网剧|wǎngjù|web series|1|2|14851|success
+后|hòu|after|0|1|14852|success
+领带|lǐngdài|tie|1|2|14853|fail
+领带|lǐngdài|tie|1|2|14853|success
+领带|lǐngdài|tie|1|2|14853|success
+客户|kèhù|customer|0|1|14854|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14855|fail
+先_然后_|xiān_ránhòu_|first_then_|1|2|14855|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14855|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14856|fail
+喜剧片|xǐjùpiàn|comedy film|1|2|14856|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14856|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14857|fail
+外语系|wàiyǔxì|school of foreign languages|1|0|14857|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14857|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14858|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14859|success
+了|le|done|0|1|14860|success
+网剧|wǎngjù|web series|1|2|14861|success
+差不多|chàbùduō|almost the same|0|1|14862|success
+领带|lǐngdài|tie|1|2|14863|fail
+领带|lǐngdài|tie|1|2|14863|success
+领带|lǐngdài|tie|1|2|14863|success
+长|zhǎng|long|2|1|14864|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14865|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14866|fail
+喜剧片|xǐjùpiàn|comedy film|1|2|14866|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14866|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14867|success
+逛|guàng|hang out|2|0|14868|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14869|success
+笑容|xiàoróng|smile|0|1|14870|success
+路|lù|number of bus|0|2|14871|success
+以后|yǐhòu|afterward|1|0|14872|success
+领带|lǐngdài|tie|1|2|14873|fail
+领带|lǐngdài|tie|1|2|14873|success
+领带|lǐngdài|tie|1|2|14873|success
+如果_就_|rúguǒ_jiù_|if _ then _|2|1|14874|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14875|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14876|fail
+喜剧片|xǐjùpiàn|comedy film|1|2|14876|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14876|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14877|success
+网剧|wǎngjù|web series|1|2|14878|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14879|success
+戴|dài|put on (hat)|1|2|14880|success
+后|hòu|after|0|1|14881|success
+女|nǚ|female|1|0|14882|fail
+女|nǚ|female|1|0|14882|success
+女|nǚ|female|1|0|14882|success
+领带|lǐngdài|tie|1|2|14883|fail
+领带|lǐngdài|tie|1|2|14883|success
+领带|lǐngdài|tie|1|2|14883|success
+客户|kèhù|customer|0|1|14884|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14885|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14886|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14887|success
+周星驰|zhōuxīngchí|stephen chow|2|0|14888|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14889|success
+了|le|done|0|1|14890|success
+差不多|chàbùduō|almost the same|0|1|14891|success
+上网|shàngwǎng|online surfing|1|0|14892|fail
+网上|wǎngshàng|online|0|1|14892|fail
+上网|shàngwǎng|online surfing|1|0|14892|success
+上网|shàngwǎng|online surfing|1|0|14892|success
+网上|wǎngshàng|online|0|1|14893|success
+领带|lǐngdài|tie|1|2|14894|fail
+领带|lǐngdài|tie|1|2|14894|success
+领带|lǐngdài|tie|1|2|14894|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14895|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14896|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14897|success
+建议|jiànyì|suggestion|1|0|14898|fail
+建议|jiànyì|suggestion|1|0|14898|success
+建议|jiànyì|suggestion|1|0|14898|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14899|success
+女|nǚ|female|1|0|14900|success
+找到|zhǎodào|find|1|0|14901|success
+上网|shàngwǎng|online surfing|1|0|14902|success
+网上|wǎngshàng|online|0|1|14903|success
+领带|lǐngdài|tie|1|2|14904|success
+毛衣|máoyī|sweater|2|0|14905|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14906|success
+网剧|wǎngjù|web series|1|2|14907|success
+建议|jiànyì|suggestion|1|0|14908|fail
+建议|jiànyì|suggestion|1|0|14908|success
+建议|jiànyì|suggestion|1|0|14908|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14909|success
+网上|wǎngshàng|online|1|2|14910|fail
+上网|shàngwǎng|surf online|2|1|14910|fail
+上网|shàngwǎng|online surfing|2|1|14910|fail
+网上|wǎngshàng|online|1|2|14910|success
+网上|wǎngshàng|online|1|2|14910|success
+上网|shàngwǎng|online surfing|2|1|14911|fail
+上网|shàngwǎng|online surfing|2|1|14911|success
+上网|shàngwǎng|online surfing|2|1|14911|success
+上网|shàngwǎng|surf online|2|1|14912|success
+网上|wǎngshàng|online|0|1|14913|success
+领带|lǐngdài|tie|1|2|14914|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14915|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14916|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14917|success
+建议|jiànyì|suggestion|1|0|14918|fail
+建议|jiànyì|suggestion|1|0|14918|success
+建议|jiànyì|suggestion|1|0|14918|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14919|success
+网上|wǎngshàng|online|1|2|14920|success
+上网|shàngwǎng|online surfing|2|1|14921|success
+上网|shàngwǎng|surf online|2|1|14922|success
+上网|shàngwǎng|online surfing|1|0|14923|success
+车企|chē qǐ|car manufacturer|1|0|14924|fail
+车企|chē qǐ|car manufacturer|1|0|14924|success
+车企|chē qǐ|car manufacturer|1|0|14924|success
+周日|zhōurì|sunday|2|1|14925|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14926|success
+网络|wǎngluò|online game|2|0|14927|success
+建议|jiànyì|suggestion|1|0|14928|success
+女|nǚ|female|1|0|14929|success
+网上|wǎngshàng|online|0|1|14930|success
+上网|shàngwǎng|online surfing|2|1|14931|success
+上网|shàngwǎng|surf online|2|1|14932|success
+领带|lǐngdài|tie|1|2|14933|success
+车企|chē qǐ|car manufacturer|1|0|14934|success
+去世的亲人|qùshìdeqīnrén|deceased relative|2|1|14935|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14936|success
+网上|wǎngshàng|online|1|2|14937|success
+建议|jiànyì|suggestion|1|0|14938|fail
+建议|jiànyì|suggestion|1|0|14938|success
+建议|jiànyì|suggestion|1|0|14938|success
+手表|shǒubiǎo|wristwatch|1|0|14939|success
+短裙|duǎnqún|skirt|1|0|14940|fail
+短裙|duǎnqún|skirt|1|0|14940|fail
+短裙|duǎnqún|skirt|1|0|14940|success
+站|zhàn|station|2|1|14941|fail
+站|zhàn|station|2|1|14941|success
+站|zhàn|station|2|1|14941|success
+帽子|màozi|hat|0|1|14942|fail
+帽子|màozi|hat|0|1|14942|success
+帽子|màozi|hat|0|1|14942|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14943|success
+外语系|wàiyǔxì|school of foreign languages|1|0|14944|success
+脸|liǎn|face|2|0|14945|success
+先_然后_|xiān_ránhòu_|first_then_|1|2|14946|success
+慢一点儿|mànyīdiǎner|slower|2|1|14947|success
+建议|jiànyì|suggestion|1|0|14948|success
+上网|shàngwǎng|online surfing|2|1|14949|success
+短裙|duǎnqún|skirt|1|0|14950|success
+车企|chē qǐ|car manufacturer|1|0|14951|success
+帽子|màozi|hat|0|1|14952|success
+上网|shàngwǎng|surf online|2|1|14953|success
+上网|shàngwǎng|online surfing|1|0|14954|success
+一定|yīdìng|surely|1|0|14955|fail
+一定|yīdìng|surely|1|0|14955|success
+一定|yīdìng|surely|1|0|14955|success
+着|zhe|used after verb to indicate state|0|2|14956|success
+长|zhǎng|long|1|2|14957|success
+建议|jiànyì|suggestion|1|0|14958|success
+站|zhàn|station|2|1|14959|success
+短裙|duǎnqún|skirt|1|0|14960|success
+网上|wǎngshàng|online|0|1|14961|success
+领带|lǐngdài|tie|1|2|14962|success
+别|bié|pin|2|1|14963|fail
+别|bié|pin|2|1|14963|success
+别|bié|pin|2|1|14963|success
+辆|liàng|m.w.bike, car|2|1|14964|fail
+辆|liàng|m.w.bike, car|2|1|14964|success
+辆|liàng|m.w.bike, car|2|1|14964|success
+一定|yīdìng|surely|1|0|14965|success
+网上|wǎngshàng|online|1|2|14966|success
+最近|zuìjìn|recently|0|1|14967|fail
+最近|zuìjìn|recently|0|1|14967|success
+最近|zuìjìn|recently|0|1|14967|success
+涂|tú|put on makeup|2|1|14968|success
+帽子|màozi|hat|0|1|14969|success
+短裙|duǎnqún|skirt|1|0|14970|success
+辆|liàng|m.w.bike, car|2|0|14971|success
+如果_就_|rúguǒ_jiù_|if _ then _|0|2|14972|success
+西药|xīyào|western medicine|0|2|14973|fail
+西单|xīdān|xidan|2|0|14973|fail
+西药|xīyào|western medicine|0|2|14973|success
+西药|xīyào|western medicine|0|2|14973|success
+西单|xīdān|xidan|2|0|14974|success
+建议|jiànyì|suggestion|1|0|14975|success
+嘴巴|zuǐbā|mouth|0|1|14976|fail
+嘴巴|zuǐbā|mouth|0|1|14976|success
+嘴巴|zuǐbā|mouth|0|1|14976|success
+最近|zuìjìn|recently|0|1|14977|success
+上网|shàngwǎng|online surfing|2|1|14978|success
+喜剧片|xǐjùpiàn|comedy film|1|2|14979|success
+别|bié|pin|2|1|14980|success
+辆|liàng|m.w.bike, car|2|1|14981|success
+一定|yīdìng|surely|1|0|14982|success
+西药|xīyào|western medicine|0|2|14983|success
+西单|xīdān|xidan|2|0|14984|success
+车企|chē qǐ|car manufacturer|1|0|14985|success
+嘴巴|zuǐbā|mouth|0|1|14986|success
+短裙|duǎnqún|skirt|1|0|14987|success
+站|zhàn|station|2|1|14988|success
+上网|shàngwǎng|surf online|2|1|14989|success
+外语|wàiyǔ|foreign languages|0|2|14990|success
+运动场|yùndòngchǎng|sports field|2|1|14991|fail
+运动场|yùndòngchǎng|sports field|2|1|14991|success
+运动场|yùndòngchǎng|sports field|2|1|14991|success
+还没有|háiméiyǒu|not yet|1|2|14992|fail
+还没有|háiméiyǒu|not yet|1|2|14992|success
+还没有|háiméiyǒu|not yet|1|2|14992|success
+点外卖|diǎnwàimài|order takeout|2|1|14993|fail
+点外卖|diǎnwàimài|order takeout|2|1|14993|success
+点外卖|diǎnwàimài|order takeout|2|1|14993|success
+最近|zuìjìn|recently|0|1|14994|success
+上班|shàngbān|go to work|2|0|14995|success
+恐怖片|kǒngbùpiàn|horror film|2|0|14996|fail
+恐怖片|kǒngbùpiàn|horror film|2|0|14996|fail
+恐怖片|kǒngbùpiàn|horror film|2|0|14996|success
+一定|yīdìng|surely|0|2|14997|success
+帽子|màozi|hat|0|1|14998|success
+没关系|méiguānxì|doesn't matter|0|2|14999|fail
+没关系|méiguānxì|doesn't matter|0|2|14999|success
+没关系|méiguānxì|doesn't matter|0|2|14999|success
+西药|xīyào|western medicine|0|2|15000|success
+运动场|yùndòngchǎng|sports field|2|1|15001|success
+还没有|háiméiyǒu|not yet|1|2|15002|fail
+还没有|háiméiyǒu|not yet|1|2|15002|success
+还没有|háiméiyǒu|not yet|1|2|15002|success
+点外卖|diǎnwàimài|order takeout|2|1|15003|fail
+点外卖|diǎnwàimài|order takeout|2|1|15003|success
+点外卖|diǎnwàimài|order takeout|2|1|15003|success
+西单|xīdān|xidan|2|0|15004|success
+嘴巴|zuǐbā|mouth|0|1|15005|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15006|success
+建议|jiànyì|suggestion|1|0|15007|success
+新闻|xīnwén|news (public)|0|1|15008|fail
+新鲜|xīnxiān|fresh|1|0|15008|fail
+新闻|xīnwén|news (public)|0|1|15008|success
+新闻|xīnwén|news (public)|0|1|15008|success
+新鲜|xīnxiān|fresh|1|0|15009|success
+没关系|méiguānxì|doesn't matter|0|2|15010|success
+辆|liàng|m.w.bike, car|2|1|15011|success
+还没有|háiméiyǒu|not yet|1|2|15012|success
+点外卖|diǎnwàimài|order takeout|2|1|15013|success
+别|bié|pin|2|1|15014|success
+一定|yīdìng|surely|1|0|15015|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15016|success
+短裙|duǎnqún|skirt|1|0|15017|success
+新闻|xīnwén|news (public)|0|1|15018|success
+新鲜|xīnxiān|fresh|1|0|15019|success
+运动场|yùndòngchǎng|sports field|2|1|15020|success
+舒服|shūfu|feel good|0|1|15021|fail
+舒服|shūfu|feel good|0|1|15021|success
+舒服|shūfu|feel good|0|1|15021|success
+还没有|háiméiyǒu|not yet|1|2|15022|success
+点外卖|diǎnwàimài|order takeout|2|1|15023|success
+最近|zuìjìn|recently|0|1|15024|success
+墓地|mùde|cemetery|0|1|15025|fail
+墓地|mùde|cemetery|0|1|15025|success
+墓地|mùde|cemetery|0|1|15025|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15026|success
+没关系|méiguānxì|doesn't matter|0|2|15027|success
