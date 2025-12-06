@@ -15,7 +15,7 @@
 画画|painting
 刘慈欣|Liu Cixin
 拉小提琴|play violin
-爱好|hobby
+爱好|hobby|àihào
 弹琴|play piano
 去年|last year
 健身房|gym

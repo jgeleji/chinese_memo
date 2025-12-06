@@ -23,7 +23,7 @@
 出差|business trip
 旅游|tourism
 留学|study abroad
-消息|news
+消息|news (private)
 坏|bad
 要|gonna
 开心|happy

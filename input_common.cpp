@@ -190,6 +190,7 @@ chinese::Input::Input()
 	{
 		std::cout << "failcount = " << failcount << "\n";
 	}
+	chinese_to_preferred_pinyin["。"] = ".";
 	chinese_to_preferred_pinyin["家"] = pinyin_convert_1syll("jia1");
 	chinese_to_preferred_pinyin["吗"] = pinyin_convert_1syll("ma");
 	chinese_to_preferred_pinyin["漂"] = pinyin_convert_1syll("piao4");

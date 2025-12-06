@@ -17977,9 +17977,9 @@
 练习|liànxí|practice|0|1|13341|success
 怎么走|zěnmezóu|how about|1|0|13342|success
 豌豆|wāndòu|pea|2|1|13343|success
-条|tiáo|m.w.pants, skirt, river|0|1|13344|fail
-条|tiáo|m.w.pants, skirt, river|0|1|13344|success
-条|tiáo|m.w.pants, skirt, river|0|1|13344|success
+条|tiáo|m.w.pants, river, skirt|0|1|13344|fail
+条|tiáo|m.w.pants, river, skirt|0|1|13344|success
+条|tiáo|m.w.pants, river, skirt|0|1|13344|success
 汽车公司|qìchēgōngsī|car company|1|2|13345|fail
 汽车公司|qìchēgōngsī|car company|1|2|13345|success
 汽车公司|qìchēgōngsī|car company|1|2|13345|success
@@ -18000,9 +18000,9 @@
 豌豆|wāndòu|pea|0|2|13358|success
 车企|chē qǐ|car manufacturer|0|2|13359|success
 早日康复|zǎorìkāngfù|get well soon|1|0|13360|success
-条|tiáo|m.w.pants, skirt, river|0|1|13361|fail
-条|tiáo|m.w.pants, skirt, river|0|1|13361|success
-条|tiáo|m.w.pants, skirt, river|0|1|13361|success
+条|tiáo|m.w.pants, river, skirt|0|1|13361|fail
+条|tiáo|m.w.pants, river, skirt|0|1|13361|success
+条|tiáo|m.w.pants, river, skirt|0|1|13361|success
 交通堵塞|jiāotōngdǔsè|traffic jam|2|0|13362|success
 很抱歉|hěn bàoqiàn|very sorry|2|1|13363|fail
 很抱歉|hěn bàoqiàn|very sorry|2|1|13363|success
@@ -18027,7 +18027,7 @@
 推荐|tuījiàn|recommend|0|1|13377|fail
 推荐|tuījiàn|recommend|0|1|13377|success
 推荐|tuījiàn|recommend|0|1|13377|success
-条|tiáo|m.w.pants, skirt, river|0|1|13378|success
+条|tiáo|m.w.pants, river, skirt|0|1|13378|success
 运动|yùndòng|exercise|2|1|13379|success
 怎么走|zěnmezóu|how about|1|0|13380|success
 干净|gānjìng|clean|1|0|13381|fail
@@ -18073,7 +18073,7 @@
 休息|xiūxī|take rest|2|0|13405|success
 休息|xiūxī|rest|2|0|13406|success
 推荐|tuījiàn|recommend|0|1|13407|success
-条|tiáo|m.w.pants, skirt, river|0|1|13408|success
+条|tiáo|m.w.pants, river, skirt|0|1|13408|success
 头疼|tóuténg|headache|1|0|13409|success
 面试|miànshì|interview|1|0|13410|fail
 面试|miànshì|interview|1|0|13410|success
@@ -18263,9 +18263,9 @@
 斑马|bānmǎ|zebra|0|2|13540|success
 斑马|bānmǎ|zebra|0|2|13540|success
 游艇|yóutǐng|yacht|1|2|13541|success
-条|tiáo|m.w.pants, skirt, river|1|0|13542|fail
-条|tiáo|m.w.pants, skirt, river|1|0|13542|success
-条|tiáo|m.w.pants, skirt, river|1|0|13542|success
+条|tiáo|m.w.pants, river, skirt|1|0|13542|fail
+条|tiáo|m.w.pants, river, skirt|1|0|13542|success
+条|tiáo|m.w.pants, river, skirt|1|0|13542|success
 宿舍|sùshè|dormitory|1|0|13543|fail
 宿舍|sùshè|dormitory|1|0|13543|success
 宿舍|sùshè|dormitory|1|0|13543|success
@@ -18290,7 +18290,7 @@
 练习|liànxí|practice|1|0|13556|success
 忧虑|yōulǜ|worry|2|0|13557|success
 歌剧院|gējùyuàn|opera|0|2|13558|success
-条|tiáo|m.w.pants, skirt, river|1|0|13559|success
+条|tiáo|m.w.pants, river, skirt|1|0|13559|success
 吵|chǎo|noisy|1|0|13560|fail
 吵|chǎo|noisy|1|0|13560|success
 吵|chǎo|noisy|1|0|13560|success
@@ -18339,6 +18339,1242 @@
 厕所|cèsuǒ|wc|0|1|13587|success
 办婚礼|bànhūnlǐ|get married|2|0|13588|success
 衬衫|chènshān|shirt|0|1|13589|success
-条|tiáo|m.w.pants, skirt, river|1|0|13590|success
+条|tiáo|m.w.pants, river, skirt|1|0|13590|success
 疾病|jíbìng|illness|0|1|13591|success
 宝贝|bǎobèi|baby|0|1|13592|success
+项链|xiàngliàn|necklace|2|0|13593|fail
+项链|xiàngliàn|necklace|2|0|13593|success
+项链|xiàngliàn|necklace|2|0|13593|success
+全身|quánshēn|whole body|0|2|13594|fail
+全身|quánshēn|whole body|0|2|13594|success
+全身|quánshēn|whole body|0|2|13594|success
+条|tiáo|m.w.pants, river, skirt|1|2|13595|success
+斑马|bānmǎ|zebra|0|2|13596|fail
+斑马|bānmǎ|zebra|0|2|13596|success
+斑马|bānmǎ|zebra|0|2|13596|success
+厕所|cèsuǒ|wc|0|1|13597|fail
+厕所|cèsuǒ|wc|0|1|13597|success
+厕所|cèsuǒ|wc|0|1|13597|success
+些|xiē|m.w.a few|2|0|13598|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13599|fail
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13599|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13599|success
+或者|huòzhě|or|2|1|13600|success
+玩笑|wánxiào|joke|2|1|13601|success
+错|cuò|wrong|2|0|13602|fail
+错|cuò|wrong|2|0|13602|success
+错|cuò|wrong|2|0|13602|success
+项链|xiàngliàn|necklace|2|0|13603|success
+全身|quánshēn|whole body|0|2|13604|success
+药|yào|medicine|0|2|13605|success
+斑马|bānmǎ|zebra|0|2|13606|success
+厕所|cèsuǒ|wc|0|1|13607|success
+衬衫|chènshān|shirt|0|1|13608|fail
+衬衫|chènshān|shirt|0|1|13608|success
+衬衫|chènshān|shirt|0|1|13608|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13609|fail
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13609|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13609|success
+疾病|jíbìng|illness|0|1|13610|success
+吵|chǎo|noisy|1|0|13611|success
+宿舍|sùshè|dormitory|1|0|13612|success
+项链|xiàngliàn|necklace|2|0|13613|success
+全身|quánshēn|whole body|0|2|13614|success
+身体|shēntǐ|body|0|1|13615|fail
+身体|shēntǐ|body|0|1|13615|success
+身体|shēntǐ|body|0|1|13615|success
+教|jiào|teach|2|1|13616|fail
+教|jiào|teach|2|1|13616|success
+教|jiào|teach|2|1|13616|success
+厕所|cèsuǒ|wc|0|1|13617|success
+衬衫|chènshān|shirt|0|1|13618|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13619|success
+错|cuò|wrong|2|0|13620|success
+办婚礼|bànhūnlǐ|get married|2|0|13621|success
+宝贝|bǎobèi|baby|0|1|13622|success
+斑马|bānmǎ|zebra|0|2|13623|success
+跑步|pǎobù|run|2|0|13624|success
+身体|shēntǐ|body|0|1|13625|success
+抽烟|chōuyān|smoke|2|1|13626|fail
+抽烟|chōuyān|smoke|2|1|13626|success
+抽烟|chōuyān|smoke|2|1|13626|success
+干净|gānjìng|clean|1|2|13627|fail
+干净|gānjìng|clean|1|2|13627|success
+干净|gānjìng|clean|1|2|13627|success
+衬衫|chènshān|shirt|0|1|13628|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13629|success
+项链|xiàngliàn|necklace|2|0|13630|success
+全身|quánshēn|whole body|0|2|13631|success
+衬衫|chènshān|shirt|1|0|13632|success
+教|jiào|teach|2|1|13633|success
+厕所|cèsuǒ|wc|0|1|13634|success
+错|cuò|wrong|0|2|13635|success
+抽烟|chōuyān|smoke|2|1|13636|fail
+抽烟|chōuyān|smoke|2|1|13636|success
+抽烟|chōuyān|smoke|2|1|13636|success
+干净|gānjìng|clean|1|2|13637|success
+喂|wéi|hello (phone)|1|0|13638|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13639|success
+疾病|jíbìng|illness|0|1|13640|success
+以后|yǐhòu|afterward|1|2|13641|fail
+后|hòu|after|2|1|13641|fail
+以后|yǐhòu|afterward|1|2|13641|success
+以后|yǐhòu|afterward|1|2|13641|success
+身体|shēntǐ|body|0|1|13642|success
+后|hòu|after|2|1|13643|success
+别迟到|biéchídào|don't be late|1|2|13644|fail
+别迟到|biéchídào|don't be late|1|2|13644|success
+别迟到|biéchídào|don't be late|1|2|13644|success
+衬衫|chènshān|shirt|0|1|13645|success
+抽烟|chōuyān|smoke|2|1|13646|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13647|fail
+臭豆腐|chòudòufu|stinky tofu|0|2|13647|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13647|success
+中药|zhōngyào|chinese medicine|2|1|13648|fail
+重要|zhòngyào|important|1|2|13648|fail
+中药|zhōngyào|chinese medicine|2|1|13648|success
+中药|zhōngyào|chinese medicine|2|1|13648|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13649|success
+错|cuò|wrong|2|0|13650|fail
+错|cuò|wrong|2|0|13650|success
+错|cuò|wrong|2|0|13650|success
+以后|yǐhòu|afterward|1|2|13651|success
+斑马|bānmǎ|zebra|0|2|13652|success
+错|cuò|wrong|1|0|13653|success
+别迟到|biéchídào|don't be late|1|2|13654|success
+干净|gānjìng|clean|1|2|13655|success
+抽烟|chōuyān|smoke|2|1|13656|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13657|success
+中药|zhōngyào|chinese medicine|2|1|13658|success
+项链|xiàngliàn|necklace|2|0|13659|success
+全身|quánshēn|whole body|0|2|13660|success
+经常|jīngcháng|often|2|0|13661|fail
+经常|jīngcháng|often|2|0|13661|success
+经常|jīngcháng|often|2|0|13661|success
+教|jiào|teach|2|1|13662|success
+厕所|cèsuǒ|wc|0|1|13663|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|2|13664|fail
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|2|13664|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|2|13664|success
+游泳馆|yóuyǒngguǎn|swimming pool|2|0|13665|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13666|success
+错|cuò|wrong|2|0|13667|success
+以后|yǐhòu|afterward|1|2|13668|success
+回复|huífù|reply|0|2|13669|success
+考场|kǎochǎng|exam hall|2|1|13670|fail
+考场|kǎochǎng|exam hall|2|1|13670|success
+考场|kǎochǎng|exam hall|2|1|13670|success
+经常|jīngcháng|often|2|0|13671|success
+别迟到|biéchídào|don't be late|1|2|13672|success
+抽烟|chōuyān|smoke|2|1|13673|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|2|13674|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13675|fail
+臭豆腐|chòudòufu|stinky tofu|0|2|13675|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13675|success
+中药|zhōngyào|chinese medicine|2|1|13676|success
+身体|shēntǐ|body|0|1|13677|success
+衬衫|chènshān|shirt|0|1|13678|success
+休假|xiūjiǎ|take a vacation|0|2|13679|fail
+休假|xiūjiǎ|take a vacation|0|2|13679|success
+休假|xiūjiǎ|take a vacation|0|2|13679|success
+考场|kǎochǎng|exam hall|2|1|13680|success
+开|kāi|start|0|2|13681|success
+体育馆|tǐyùguǎn|gymnasium|2|0|13682|success
+考场|kǎochǎng|exam hall|0|1|13683|success
+干净|gānjìng|clean|1|2|13684|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13685|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|2|0|13686|success
+篮球场|lánqiúchǎng|basketball court|0|2|13687|success
+经常|jīngcháng|often|2|0|13688|success
+休假|xiūjiǎ|take a vacation|0|2|13689|fail
+休假|xiūjiǎ|take a vacation|0|2|13689|success
+休假|xiūjiǎ|take a vacation|0|2|13689|success
+别|bié|don't|0|1|13690|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|2|13691|success
+休息|xiūxī|take rest|1|0|13692|success
+好奇|hǎoqí|curious|2|0|13693|success
+别生气|biéshēngqì|don't get angry|0|2|13694|fail
+别生气|biéshēngqì|don't get angry|0|2|13694|success
+别生气|biéshēngqì|don't get angry|0|2|13694|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13695|success
+错|cuò|wrong|2|0|13696|success
+考场|kǎochǎng|exam hall|2|1|13697|success
+以后|yǐhòu|afterward|1|2|13698|success
+休假|xiūjiǎ|take a vacation|0|2|13699|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|0|13700|success
+别迟到|biéchídào|don't be late|1|2|13701|success
+抽烟|chōuyān|smoke|2|1|13702|success
+假的|jiǎde|lie|2|1|13703|fail
+假的|jiǎde|lie|2|1|13703|success
+假的|jiǎde|lie|2|1|13703|success
+别生气|biéshēngqì|don't get angry|0|2|13704|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13705|success
+中药|zhōngyào|chinese medicine|2|1|13706|success
+药草茶|yàocǎochá|herbal tea|2|1|13707|success
+办婚礼|bànhūnlǐ|get married|2|1|13708|fail
+办婚礼|bànhūnlǐ|get married|2|1|13708|success
+办婚礼|bànhūnlǐ|get married|2|1|13708|success
+休假|xiūjiǎ|take a vacation|0|2|13709|success
+草场|cǎochǎng|grassland|0|1|13710|fail
+草场|cǎochǎng|grassland|0|1|13710|success
+草场|cǎochǎng|grassland|0|1|13710|success
+网球场|wǎngqiúchǎng|tennis court|2|0|13711|success
+矮|ǎi|short|1|0|13712|fail
+矮|ǎi|short|1|0|13712|success
+矮|ǎi|short|1|0|13712|success
+假的|jiǎde|lie|2|1|13713|fail
+假的|jiǎde|lie|2|1|13713|success
+假的|jiǎde|lie|2|1|13713|success
+考场|kǎochǎng|exam hall|0|2|13714|fail
+考场|kǎochǎng|exam hall|0|2|13714|success
+考场|kǎochǎng|exam hall|0|2|13714|success
+不要紧|bùyàojǐn|it's okay|1|2|13715|fail
+不要紧|bùyàojǐn|it's okay|1|2|13715|success
+不要紧|bùyàojǐn|it's okay|1|2|13715|success
+婚礼|hūnlǐ|wedding|1|0|13716|success
+经常|jīngcháng|often|2|0|13717|success
+办婚礼|bànhūnlǐ|get married|2|1|13718|success
+操场|cāochǎng|playground|2|0|13719|success
+草场|cǎochǎng|grassland|0|1|13720|success
+别生气|biéshēngqì|don't get angry|0|2|13721|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13722|fail
+臭豆腐|chòudòufu|stinky tofu|0|2|13722|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13722|fail
+假的|jiǎde|lie|2|1|13723|success
+考场|kǎochǎng|exam hall|0|2|13724|success
+不要紧|bùyàojǐn|it's okay|1|2|13725|fail
+不要紧|bùyàojǐn|it's okay|1|2|13725|success
+不要紧|bùyàojǐn|it's okay|1|2|13725|success
+休假|xiūjiǎ|take a vacation|0|2|13726|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|2|13727|success
+考场|kǎochǎng|exam hall|2|1|13728|success
+矮|ǎi|short|1|0|13729|success
+汽车公司|qìchēgōngsī|car company|0|2|13730|fail
+汽车公司|qìchēgōngsī|car company|0|2|13730|success
+汽车公司|qìchēgōngsī|car company|0|2|13730|success
+不要紧|bùyàojǐn|it's okay|2|1|13731|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13732|success
+假的|jiǎde|lie|2|1|13733|success
+如果|rúguǒ|if|0|1|13734|fail
+如果|rúguǒ|if|0|1|13734|success
+如果|rúguǒ|if|0|1|13734|success
+不要紧|bùyàojǐn|it's okay|1|2|13735|fail
+不要紧|bùyàojǐn|it's okay|1|2|13735|success
+不要紧|bùyàojǐn|it's okay|1|2|13735|success
+办婚礼|bànhūnlǐ|get married|2|1|13736|success
+草场|cǎochǎng|grassland|0|1|13737|success
+了|le|done|2|0|13738|success
+用|yòng|need|1|0|13739|fail
+用|yòng|need|1|0|13739|success
+用|yòng|need|1|0|13739|success
+汽车公司|qìchēgōngsī|car company|0|2|13740|success
+考场|kǎochǎng|exam hall|0|2|13741|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13742|success
+图书馆|túshūguǎn|library|1|2|13743|fail
+图书馆|túshūguǎn|library|1|2|13743|success
+图书馆|túshūguǎn|library|1|2|13743|success
+如果|rúguǒ|if|0|1|13744|success
+不要紧|bùyàojǐn|it's okay|1|2|13745|success
+矮|ǎi|short|0|1|13746|success
+如果|rúguǒ|if|1|0|13747|success
+身体|shēntǐ|body|0|2|13748|success
+母鸡|mǔjī|hen|0|1|13749|success
+假的|jiǎde|lie|2|1|13750|success
+别生气|biéshēngqì|don't get angry|0|2|13751|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13752|success
+图书馆|túshūguǎn|library|1|2|13753|success
+条|tiáo|m.w.pants, river, skirt|2|1|13754|success
+条|tiáo|m.w.pants, river, skirt|2|1|13754|success
+条|tiáo|m.w.pants, river, skirt|2|1|13754|success
+不要紧|bùyàojǐn|it's okay|1|2|13755|success
+用|yòng|need|1|0|13756|success
+汽车公司|qìchēgōngsī|car company|0|2|13757|success
+矮|ǎi|short|1|0|13758|success
+休假|xiūjiǎ|take a vacation|0|2|13759|success
+胡萝卜|húluóbo|carrot|0|2|13760|success
+如果|rúguǒ|if|0|1|13761|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13762|success
+臭豆腐|chòudòufu|stinky tofu|2|0|13763|fail
+臭豆腐|chòudòufu|stinky tofu|2|0|13763|success
+臭豆腐|chòudòufu|stinky tofu|2|0|13763|success
+推荐|tuījiàn|recommend|2|0|13764|fail
+推荐|tuījiàn|recommend|2|0|13764|success
+推荐|tuījiàn|recommend|2|0|13764|success
+不要紧|bùyàojǐn|it's okay|1|2|13765|success
+草场|cǎochǎng|grassland|0|1|13766|success
+办婚礼|bànhūnlǐ|get married|2|1|13767|success
+外面|wàimiàn|outside|1|2|13768|success
+景观|jǐngguān|landscape|2|1|13769|fail
+景观|jǐngguān|landscape|2|1|13769|success
+景观|jǐngguān|landscape|2|1|13769|success
+图书馆|túshūguǎn|library|1|2|13770|success
+考场|kǎochǎng|exam hall|0|2|13771|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13772|success
+臭豆腐|chòudòufu|stinky tofu|2|0|13773|success
+推荐|tuījiàn|recommend|2|0|13774|success
+不要紧|bùyàojǐn|it's okay|1|2|13775|success
+跑步|pǎobù|run|0|1|13776|success
+可能|kěnéng|maybe|0|1|13777|fail
+可以|kěyǐ|possible|1|0|13777|fail
+可能|kěnéng|maybe|0|1|13777|success
+可能|kěnéng|maybe|0|1|13777|success
+可以|kěyǐ|possible|1|0|13778|success
+景观|jǐngguān|landscape|2|1|13779|fail
+景观|jǐngguān|landscape|2|1|13779|success
+景观|jǐngguān|landscape|2|1|13779|success
+假的|jiǎde|lie|2|1|13780|success
+早日见|zǎorìjiàn|see you soon|1|2|13781|fail
+早日见|zǎorìjiàn|see you soon|1|2|13781|success
+早日见|zǎorìjiàn|see you soon|1|2|13781|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13782|success
+身体|shēntǐ|body|1|2|13783|success
+操场|cāochǎng|playground|0|2|13784|fail
+操场|cāochǎng|playground|0|2|13784|success
+操场|cāochǎng|playground|0|2|13784|success
+不要紧|bùyàojǐn|it's okay|1|2|13785|success
+用|yòng|need|1|0|13786|success
+可能|kěnéng|maybe|0|1|13787|success
+可以|kěyǐ|possible|1|0|13788|success
+景观|jǐngguān|landscape|2|1|13789|fail
+景观|jǐngguān|landscape|2|1|13789|success
+景观|jǐngguān|landscape|2|1|13789|success
+臭豆腐|chòudòufu|stinky tofu|2|0|13790|success
+早日见|zǎorìjiàn|see you soon|1|2|13791|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13792|success
+推荐|tuījiàn|recommend|2|0|13793|success
+操场|cāochǎng|playground|0|2|13794|success
+汽车公司|qìchēgōngsī|car company|0|2|13795|success
+如果|rúguǒ|if|0|1|13796|success
+教|jiào|teach|2|0|13797|fail
+教|jiào|teach|2|0|13797|success
+教|jiào|teach|2|0|13797|success
+听说|tīngshuō|it is said|0|1|13798|fail
+听说|tīngshuō|it is said|0|1|13798|success
+听说|tīngshuō|it is said|0|1|13798|success
+景观|jǐngguān|landscape|2|1|13799|success
+图书馆|túshūguǎn|library|1|2|13800|success
+经常|jīngcháng|often|1|2|13801|fail
+经常|jīngcháng|often|1|2|13801|success
+经常|jīngcháng|often|1|2|13801|success
+不要紧|bùyàojǐn|it's okay|1|2|13802|success
+怎么走|zěnmezóu|how about|2|0|13803|fail
+怎么走|zěnmezóu|how about|2|0|13803|success
+怎么走|zěnmezóu|how about|2|0|13803|success
+可能|kěnéng|maybe|0|1|13804|success
+可以|kěyǐ|possible|1|0|13805|success
+运动场|yùndòngchǎng|sports field|1|0|13806|fail
+运动场|yùndòngchǎng|sports field|1|0|13806|success
+运动场|yùndòngchǎng|sports field|1|0|13806|success
+真的吗|zhēndema|really?|1|0|13807|fail
+真的吗|zhēndema|really?|1|0|13807|success
+真的吗|zhēndema|really?|1|0|13807|success
+听说|tīngshuō|it is said|0|1|13808|success
+景观|jǐngguān|landscape|2|1|13809|success
+早日见|zǎorìjiàn|see you soon|1|2|13810|success
+经常|jīngcháng|often|1|2|13811|success
+操场|cāochǎng|playground|0|2|13812|fail
+草场|cǎochǎng|grassland|2|0|13812|fail
+操场|cāochǎng|playground|0|2|13812|success
+操场|cāochǎng|playground|0|2|13812|success
+草场|cǎochǎng|grassland|2|0|13813|success
+怎么走|zěnmezóu|how about|2|0|13814|success
+教|jiào|teach|2|0|13815|success
+运动场|yùndòngchǎng|sports field|1|0|13816|success
+真的吗|zhēndema|really?|1|0|13817|fail
+真的吗|zhēndema|really?|1|0|13817|success
+真的吗|zhēndema|really?|1|0|13817|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13818|success
+臭豆腐|chòudòufu|stinky tofu|2|0|13819|success
+运动场|yùndòngchǎng|sports field|0|2|13820|success
+抽烟|chōuyān|smoke|1|0|13821|fail
+抽烟|chōuyān|smoke|1|0|13821|success
+抽烟|chōuyān|smoke|1|0|13821|success
+操场|cāochǎng|playground|0|2|13822|fail
+操场|cāochǎng|playground|0|2|13822|success
+操场|cāochǎng|playground|0|2|13822|success
+草场|cǎochǎng|grassland|2|0|13823|fail
+草场|cǎochǎng|grassland|2|0|13823|success
+草场|cǎochǎng|grassland|2|0|13823|success
+推荐|tuījiàn|recommend|2|0|13824|success
+听说|tīngshuō|it is said|0|1|13825|success
+景观|jǐngguān|landscape|2|1|13826|success
+真的吗|zhēndema|really?|1|0|13827|success
+经常|jīngcháng|often|1|2|13828|success
+踢足球|tīzúqiú|play football|2|1|13829|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|1|13830|fail
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|1|13830|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|1|13830|success
+抽烟|chōuyān|smoke|1|0|13831|success
+操场|cāochǎng|playground|0|2|13832|success
+草场|cǎochǎng|grassland|2|0|13833|success
+怎么走|zěnmezóu|how about|2|0|13834|success
+运动场|yùndòngchǎng|sports field|1|0|13835|success
+可能|kěnéng|maybe|0|1|13836|success
+真的吗|zhēndema|really?|1|0|13837|success
+不要紧|bùyàojǐn|it's okay|1|2|13838|fail
+不要紧|bùyàojǐn|it's okay|1|2|13838|success
+不要紧|bùyàojǐn|it's okay|1|2|13838|success
+早日见|zǎorìjiàn|see you soon|1|2|13839|fail
+早日见|zǎorìjiàn|see you soon|1|2|13839|success
+早日见|zǎorìjiàn|see you soon|1|2|13839|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|1|13840|success
+出去|chūqù|go outside|0|2|13841|fail
+出去|chūqù|go outside|0|2|13841|success
+出去|chūqù|go outside|0|2|13841|success
+操场|cāochǎng|playground|0|2|13842|success
+草场|cǎochǎng|grassland|2|0|13843|fail
+草场|cǎochǎng|grassland|2|0|13843|success
+草场|cǎochǎng|grassland|2|0|13843|success
+教|jiào|teach|2|0|13844|success
+真的吗|zhēndema|really?|1|2|13845|success
+陪|péi|accompany|0|1|13846|fail
+部|bù|m.w.movie|1|0|13846|fail
+陪|péi|accompany|0|1|13846|success
+陪|péi|accompany|0|1|13846|success
+真的吗|zhēndema|really?|1|0|13847|success
+部|bù|m.w.movie|1|0|13848|fail
+部|bù|m.w.movie|1|0|13848|success
+部|bù|m.w.movie|1|0|13848|success
+早日见|zǎorìjiàn|see you soon|1|2|13849|success
+不要紧|bùyàojǐn|it's okay|1|2|13850|fail
+不要紧|bùyàojǐn|it's okay|1|2|13850|success
+不要紧|bùyàojǐn|it's okay|1|2|13850|success
+出去|chūqù|go outside|0|2|13851|success
+抽烟|chōuyān|smoke|1|0|13852|fail
+抽烟|chōuyān|smoke|1|0|13852|success
+抽烟|chōuyān|smoke|1|0|13852|success
+草场|cǎochǎng|grassland|2|0|13853|success
+听说|tīngshuō|it is said|0|1|13854|success
+景观|jǐngguān|landscape|2|1|13855|success
+臭豆腐|chòudòufu|stinky tofu|0|2|13856|success
+真的吗|zhēndema|really?|1|0|13857|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|1|13858|success
+操场|cāochǎng|playground|0|2|13859|success
+不要紧|bùyàojǐn|it's okay|1|2|13860|success
+经常|jīngcháng|often|1|2|13861|success
+抽烟|chōuyān|smoke|1|0|13862|fail
+抽烟|chōuyān|smoke|1|0|13862|success
+抽烟|chōuyān|smoke|1|0|13862|success
+草场|cǎochǎng|grassland|2|0|13863|success
+陪|péi|accompany|0|1|13864|success
+部|bù|m.w.movie|1|0|13865|success
+早日见|zǎorìjiàn|see you soon|1|2|13866|success
+运动场|yùndòngchǎng|sports field|1|0|13867|success
+出去|chūqù|go outside|0|2|13868|success
+怎么走|zěnmezóu|how about|2|0|13869|success
+不要紧|bùyàojǐn|it's okay|1|2|13870|success
+宿舍|sùshè|dormitory|1|2|13871|success
+抽烟|chōuyān|smoke|1|0|13872|success
+开|kāi|start|1|0|13873|success
+真的吗|zhēndema|really?|1|0|13874|success
+办婚礼|bànhūnlǐ|get married|0|1|13875|success
+考场|kǎochǎng|exam hall|1|0|13876|fail
+考场|kǎochǎng|exam hall|1|0|13876|success
+考场|kǎochǎng|exam hall|1|0|13876|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|1|2|13877|success
+考场|kǎochǎng|exam hall|1|2|13878|success
+开玩笑|kāiwánxiào|just kidding|2|1|13879|fail
+开玩笑|kāiwánxiào|just kidding|2|1|13879|success
+开玩笑|kāiwánxiào|just kidding|2|1|13879|success
+不要紧|bùyàojǐn|it's okay|1|2|13880|success
+草场|cǎochǎng|grassland|2|0|13881|success
+抽烟|chōuyān|smoke|1|0|13882|success
+别|bié|don't|2|0|13883|success
+秋天|qiūtiān|autumn|1|0|13884|fail
+秋天|qiūtiān|autumn|1|0|13884|success
+秋天|qiūtiān|autumn|1|0|13884|success
+了|le|done|2|1|13885|success
+考场|kǎochǎng|exam hall|1|0|13886|success
+羽毛球馆|yǔmáoqiúguǎn|badminton hall|0|1|13887|success
+操场|cāochǎng|playground|0|2|13888|success
+开玩笑|kāiwánxiào|just kidding|2|1|13889|success
+不要紧|bùyàojǐn|it's okay|1|2|13890|success
+错|cuò|wrong|2|1|13891|success
+辆|liàng|m.w.car|2|0|13892|success
+陪|péi|accompany|0|1|13893|success
+秋天|qiūtiān|autumn|1|0|13894|success
+部|bù|m.w.movie|1|0|13895|success
+早日见|zǎorìjiàn|see you soon|1|2|13896|success
+出去|chūqù|go outside|0|2|13897|success
+很|hěn|very|1|0|13898|success
+抽烟|chōuyān|smoke|1|0|13899|success
+踢足球|tīzúqiú|play football|1|2|13900|fail
+踢足球|tīzúqiú|play football|1|2|13900|success
+踢足球|tīzúqiú|play football|1|2|13900|success
+既_又_|jì_yòu_|both_and_|2|1|13901|fail
+既_又_|jì_yòu_|both_and_|2|1|13901|success
+既_又_|jì_yòu_|both_and_|2|1|13901|success
+真的吗|zhēndema|really?|0|2|13902|success
+考场|kǎochǎng|exam hall|1|0|13903|success
+真的吗|zhēndema|really?|1|0|13904|success
+以后|yǐhòu|afterward|2|1|13905|fail
+以后|yǐhòu|afterward|2|1|13905|success
+以后|yǐhòu|afterward|2|1|13905|success
+开玩笑|kāiwánxiào|just kidding|2|1|13906|success
+不要紧|bùyàojǐn|it's okay|1|2|13907|success
+别生气|biéshēngqì|don't get angry|2|0|13908|fail
+别生气|biéshēngqì|don't get angry|2|0|13908|success
+别生气|biéshēngqì|don't get angry|2|0|13908|success
+面包店|miànbāodiàn|bakery|1|0|13909|success
+踢足球|tīzúqiú|play football|1|2|13910|success
+既_又_|jì_yòu_|both_and_|2|1|13911|success
+秋天|qiūtiān|autumn|1|0|13912|success
+草场|cǎochǎng|grassland|2|0|13913|success
+生病|shēngbìng|sick|0|2|13914|success
+以后|yǐhòu|afterward|2|1|13915|success
+玩笑|wánxiào|joke|1|2|13916|fail
+玩笑|wánxiào|joke|1|2|13916|success
+玩笑|wánxiào|joke|1|2|13916|success
+小名|xiǎomíng|nickname|2|0|13917|success
+别生气|biéshēngqì|don't get angry|2|0|13918|success
+如果|rúguǒ|if|2|0|13919|success
+试试|shìshì|try|1|0|13920|success
+不要|bùyào|don't|0|1|13921|fail
+不要|bùyào|don't|0|1|13921|success
+不要|bùyào|don't|0|1|13921|success
+不高|bùgāo|not tall|2|1|13922|fail
+不高|bùgāo|not tall|2|1|13922|success
+不高|bùgāo|not tall|2|1|13922|success
+面包店|miànbāodiàn|bakery|2|1|13923|success
+上班|shàngbān|go to work|2|1|13924|fail
+上班|shàngbān|go to work|2|1|13924|success
+上班|shàngbān|go to work|2|1|13924|success
+药|yào|medicine|2|1|13925|fail
+需要|xūyào|need|1|2|13925|fail
+用|yòng|need|1|2|13925|fail
+药|yào|medicine|2|1|13925|success
+药|yào|medicine|2|1|13925|success
+需要|xūyào|need|1|2|13926|success
+用|yòng|need|1|2|13927|success
+玩笑|wánxiào|joke|1|2|13928|success
+踢足球|tīzúqiú|play football|1|2|13929|success
+既_又_|jì_yòu_|both_and_|2|1|13930|success
+不要|bùyào|don't|0|1|13931|success
+不高|bùgāo|not tall|2|1|13932|success
+以后|yǐhòu|afterward|2|1|13933|success
+上班|shàngbān|go to work|2|1|13934|success
+别生气|biéshēngqì|don't get angry|2|0|13935|success
+需要|xūyào|need|1|2|13936|success
+开玩笑|kāiwánxiào|just kidding|2|1|13937|success
+考场|kǎochǎng|exam hall|1|0|13938|success
+抽烟|chōuyān|smoke|1|0|13939|success
+不要紧|bùyàojǐn|it's okay|1|2|13940|success
+秋天|qiūtiān|autumn|1|0|13941|success
+药|yào|medicine|2|1|13942|success
+早日康复|zǎorìkāngfù|get well soon|2|0|13943|fail
+早日康复|zǎorìkāngfù|get well soon|2|0|13943|success
+早日康复|zǎorìkāngfù|get well soon|2|0|13943|success
+用|yòng|need|1|2|13944|success
+玩笑|wánxiào|joke|1|2|13945|success
+需要|xūyào|need|1|2|13946|success
+身体|shēntǐ|body|2|0|13947|success
+不要|bùyào|don't|0|1|13948|success
+不高|bùgāo|not tall|2|1|13949|success
+旁边|pángbiān|beside|2|1|13950|success
+上班|shàngbān|go to work|2|1|13951|success
+方便|fāngbiàn|convenient|2|0|13952|fail
+方便|fāngbiàn|convenient|2|0|13952|fail
+方便|fāngbiàn|convenient|2|0|13952|success
+早日康复|zǎorìkāngfù|get well soon|2|0|13953|success
+斑马|bānmǎ|zebra|0|1|13954|success
+吃药|chīyào|take medicine|0|1|13955|success
+西药|xīyào|western medicine|0|1|13956|success
+上班|shàngbān|go to work|1|0|13957|success
+踢足球|tīzúqiú|play football|1|2|13958|success
+既_又_|jì_yòu_|both_and_|2|1|13959|success
+建议|jiànyì|suggestion|2|1|13960|fail
+建议|jiànyì|suggestion|2|1|13960|success
+建议|jiànyì|suggestion|2|1|13960|success
+旁边|pángbiān|beside|0|2|13961|fail
+旁边|pángbiān|beside|0|2|13961|success
+旁边|pángbiān|beside|0|2|13961|success
+方便|fāngbiàn|convenient|2|0|13962|success
+需要|xūyào|need|1|2|13963|success
+别生气|biéshēngqì|don't get angry|2|0|13964|success
+以后|yǐhòu|afterward|2|1|13965|success
+新鲜|xīnxiān|fresh|2|0|13966|fail
+新鲜|xīnxiān|fresh|2|0|13966|success
+新鲜|xīnxiān|fresh|2|0|13966|success
+办婚礼|bànhūnlǐ|get married|0|2|13967|fail
+办婚礼|bànhūnlǐ|get married|0|2|13967|success
+办婚礼|bànhūnlǐ|get married|0|2|13967|success
+跳舞|tiàowǔ|dance|0|2|13968|fail
+办婚礼|bànhūnlǐ|get married|2|0|13968|fail
+跳舞|tiàowǔ|dance|0|2|13968|success
+跳舞|tiàowǔ|dance|0|2|13968|success
+办婚礼|bànhūnlǐ|get married|2|0|13969|fail
+办婚礼|bànhūnlǐ|get married|2|0|13969|success
+办婚礼|bànhūnlǐ|get married|2|0|13969|success
+建议|jiànyì|suggestion|2|1|13970|success
+旁边|pángbiān|beside|0|2|13971|success
+方便|fāngbiàn|convenient|2|0|13972|fail
+方便|fāngbiàn|convenient|2|0|13972|success
+方便|fāngbiàn|convenient|2|0|13972|success
+早日康复|zǎorìkāngfù|get well soon|2|0|13973|success
+用|yòng|need|1|2|13974|success
+药|yào|medicine|2|1|13975|success
+新鲜|xīnxiān|fresh|2|0|13976|success
+办婚礼|bànhūnlǐ|get married|0|2|13977|success
+跳舞|tiàowǔ|dance|0|2|13978|success
+办婚礼|bànhūnlǐ|get married|2|0|13979|success
+玩笑|wánxiào|joke|1|2|13980|success
+上班|shàngbān|go to work|2|1|13981|success
+方便|fāngbiàn|convenient|2|0|13982|success
+不要|bùyào|don't|0|1|13983|success
+不高|bùgāo|not tall|2|1|13984|success
+开药|kāiyào|prescribe medicine|2|1|13985|success
+爱尔兰|àiěrlán|ireland|2|1|13986|success
+建议|jiànyì|suggestion|2|1|13987|success
+旁边|pángbiān|beside|0|2|13988|success
+办婚礼|bànhūnlǐ|get married|2|0|13989|success
+秋天|qiūtiān|autumn|1|2|13990|success
+听说|tīngshuō|it is said|1|0|13991|success
+方便|fāngbiàn|convenient|2|0|13992|success
+新鲜|xīnxiān|fresh|2|0|13993|success
+办婚礼|bànhūnlǐ|get married|0|2|13994|success
+跳舞|tiàowǔ|dance|0|2|13995|success
+需要|xūyào|need|1|2|13996|success
+早|zǎo|good morning|0|1|13997|success
+方便|fāngbiàn|convenient|1|2|13998|success
+办婚礼|bànhūnlǐ|get married|2|0|13999|success
+宿舍|sùshè|dormitory|0|2|14000|success
+教|jiào|teach|1|0|14001|success
+早日康复|zǎorìkāngfù|get well soon|2|0|14002|success
+教|jiào|teach|0|1|14003|success
+打针|dǎzhēn|have injection|0|1|14004|fail
+打针|dǎzhēn|have injection|0|1|14004|success
+打针|dǎzhēn|have injection|0|1|14004|success
+不要紧|bùyàojǐn|it's okay|2|0|14005|success
+别迟到|biéchídào|don't be late|2|1|14006|success
+开玩笑|kāiwánxiào|just kidding|1|2|14007|success
+疼|téng|ache|2|0|14008|success
+办婚礼|bànhūnlǐ|get married|2|0|14009|success
+方便|fāngbiàn|convenient|2|0|14010|success
+别担心|biédānxīn|don't worry|2|0|14011|success
+早|zǎo|good morning|0|2|14012|success
+打篮球|dǎlánqiú|play basketball|1|0|14013|fail
+打篮球|dǎlánqiú|play basketball|1|0|14013|success
+打篮球|dǎlánqiú|play basketball|1|0|14013|success
+打针|dǎzhēn|have injection|0|1|14014|success
+用|yòng|need|2|0|14015|success
+建议|jiànyì|suggestion|2|1|14016|success
+旁边|pángbiān|beside|0|2|14017|success
+矮|ǎi|short|2|0|14018|fail
+矮|ǎi|short|2|0|14018|success
+矮|ǎi|short|2|0|14018|success
+办婚礼|bànhūnlǐ|get married|2|0|14019|success
+早|zǎo|good morning|1|0|14020|success
+以后|yǐhòu|afterward|0|1|14021|success
+新鲜|xīnxiān|fresh|2|0|14022|success
+打篮球|dǎlánqiú|play basketball|1|0|14023|success
+办婚礼|bànhūnlǐ|get married|0|2|14024|success
+跳舞|tiàowǔ|dance|0|2|14025|success
+很|hěn|very|1|2|14026|success
+运动场|yùndòngchǎng|sports field|1|2|14027|success
+早日见|zǎorìjiàn|see you soon|0|1|14028|fail
+早日见|zǎorìjiàn|see you soon|0|1|14028|success
+早日见|zǎorìjiàn|see you soon|0|1|14028|success
+打篮球|dǎlánqiú|play basketball|2|0|14029|success
+经常|jīngcháng|often|0|1|14030|fail
+经常|jīngcháng|often|0|1|14030|success
+经常|jīngcháng|often|0|1|14030|success
+打针|dǎzhēn|have injection|0|1|14031|success
+踢足球|tīzúqiú|play football|2|0|14032|fail
+踢足球|tīzúqiú|play football|2|0|14032|success
+踢足球|tīzúqiú|play football|2|0|14032|success
+开玩笑|kāiwánxiào|just kidding|0|2|14033|success
+玩手机|wánshǒujī|play phone|2|0|14034|success
+矮|ǎi|short|2|0|14035|success
+办婚礼|bànhūnlǐ|get married|2|0|14036|success
+用|yòng|need|1|2|14037|success
+早日见|zǎorìjiàn|see you soon|0|1|14038|success
+忧虑|yōulǜ|worry|2|0|14039|success
+经常|jīngcháng|often|0|1|14040|success
+打篮球|dǎlánqiú|play basketball|1|0|14041|success
+踢足球|tīzúqiú|play football|2|0|14042|success
+方便|fāngbiàn|convenient|2|0|14043|success
+推荐|tuījiàn|recommend|1|2|14044|fail
+推荐|tuījiàn|recommend|1|2|14044|success
+推荐|tuījiàn|recommend|1|2|14044|success
+旁边|pángbiān|beside|1|0|14045|success
+交通|jiāotōng|transportation|0|2|14046|fail
+交通|jiāotōng|transportation|0|2|14046|success
+交通|jiāotōng|transportation|0|2|14046|success
+抽烟|chōuyān|smoke|1|2|14047|fail
+抽烟|chōuyān|smoke|1|2|14047|success
+抽烟|chōuyān|smoke|1|2|14047|success
+药|yào|medicine|0|1|14048|success
+早|zǎo|good morning|2|0|14049|success
+但是|dànshì|but|0|2|14050|fail
+但是|dànshì|but|0|2|14050|success
+但是|dànshì|but|0|2|14050|success
+不高|bùgāo|not tall|2|0|14051|success
+穿|chuān|wear|2|0|14052|success
+面包卷|miànbāojuǎn|roll|1|2|14053|fail
+面包卷|miànbāojuǎn|roll|1|2|14053|success
+面包卷|miànbāojuǎn|roll|1|2|14053|success
+推荐|tuījiàn|recommend|1|2|14054|success
+早日见|zǎorìjiàn|see you soon|0|1|14055|success
+交通|jiāotōng|transportation|0|2|14056|success
+抽烟|chōuyān|smoke|1|2|14057|success
+经常|jīngcháng|often|0|1|14058|success
+踢足球|tīzúqiú|play football|2|0|14059|success
+但是|dànshì|but|0|2|14060|success
+打针|dǎzhēn|have injection|0|1|14061|success
+牙医|yáyī|dentist|2|0|14062|success
+面包卷|miànbāojuǎn|roll|1|2|14063|success
+矮|ǎi|short|2|0|14064|success
+件|jiàn|m.w.clothes|0|1|14065|fail
+件|jiàn|m.w.clothes|0|1|14065|success
+件|jiàn|m.w.clothes|0|1|14065|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14066|fail
+工具人|gōngjùrén|person who is used as a tool|2|1|14066|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14066|success
+生病|shēngbìng|sick|0|1|14067|fail
+疾病|jíbìng|illness|1|0|14067|fail
+生病|shēngbìng|sick|0|1|14067|success
+生病|shēngbìng|sick|0|1|14067|success
+疾病|jíbìng|illness|1|0|14068|fail
+疾病|jíbìng|illness|1|0|14068|success
+疾病|jíbìng|illness|1|0|14068|success
+宝贝|bǎobèi|baby|1|2|14069|fail
+宝贝|bǎobèi|baby|1|2|14069|fail
+宝贝|bǎobèi|baby|1|2|14069|success
+打篮球|dǎlánqiú|play basketball|1|0|14070|success
+推荐|tuījiàn|recommend|1|2|14071|success
+办婚礼|bànhūnlǐ|get married|2|0|14072|fail
+办婚礼|bànhūnlǐ|get married|2|0|14072|success
+办婚礼|bànhūnlǐ|get married|2|0|14072|success
+交通|jiāotōng|transportation|0|2|14073|success
+抽烟|chōuyān|smoke|1|2|14074|success
+短|duǎn|short|1|2|14075|fail
+不高|bùgāo|not tall|2|1|14075|fail
+短|duǎn|short|1|2|14075|success
+短|duǎn|short|1|2|14075|success
+不高|bùgāo|not tall|2|1|14076|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14077|fail
+工具人|gōngjùrén|person who is used as a tool|2|1|14077|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14077|success
+疾病|jíbìng|illness|1|0|14078|fail
+疾病|jíbìng|illness|1|0|14078|success
+疾病|jíbìng|illness|1|0|14078|success
+宝贝|bǎobèi|baby|1|2|14079|fail
+宝贝|bǎobèi|baby|1|2|14079|success
+宝贝|bǎobèi|baby|1|2|14079|success
+生病|shēngbìng|sick|0|1|14080|success
+但是|dànshì|but|0|2|14081|fail
+但是|dànshì|but|0|2|14081|success
+但是|dànshì|but|0|2|14081|success
+办婚礼|bànhūnlǐ|get married|2|0|14082|success
+件|jiàn|m.w.clothes|0|1|14083|fail
+件|jiàn|m.w.clothes|0|1|14083|success
+件|jiàn|m.w.clothes|0|1|14083|success
+面包卷|miànbāojuǎn|roll|1|2|14084|fail
+面包卷|miànbāojuǎn|roll|1|2|14084|success
+面包卷|miànbāojuǎn|roll|1|2|14084|success
+早日见|zǎorìjiàn|see you soon|0|1|14085|success
+不高|bùgāo|not tall|2|1|14086|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14087|fail
+工具人|gōngjùrén|person who is used as a tool|2|1|14087|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14087|success
+疾病|jíbìng|illness|1|0|14088|success
+宝贝|bǎobèi|baby|1|2|14089|success
+踢足球|tīzúqiú|play football|2|0|14090|success
+但是|dànshì|but|0|2|14091|success
+短|duǎn|short|1|2|14092|fail
+短|duǎn|short|1|2|14092|success
+短|duǎn|short|1|2|14092|success
+经常|jīngcháng|often|0|1|14093|success
+面包卷|miànbāojuǎn|roll|1|2|14094|fail
+面包卷|miànbāojuǎn|roll|1|2|14094|success
+面包卷|miànbāojuǎn|roll|1|2|14094|success
+之后|zhīhòu|after that|1|2|14095|fail
+之后|zhīhòu|after that|1|2|14095|success
+之后|zhīhòu|after that|1|2|14095|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14096|fail
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14096|fail
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14096|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14097|success
+疾病|jíbìng|illness|1|0|14098|fail
+疾病|jíbìng|illness|1|0|14098|success
+疾病|jíbìng|illness|1|0|14098|success
+宝贝|bǎobèi|baby|1|2|14099|success
+件|jiàn|m.w.clothes|0|1|14100|success
+但是|dànshì|but|0|2|14101|success
+办婚礼|bànhūnlǐ|get married|2|0|14102|success
+不高|bùgāo|not tall|2|1|14103|success
+面包卷|miànbāojuǎn|roll|1|2|14104|success
+之后|zhīhòu|after that|1|2|14105|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14106|fail
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14106|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14106|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14107|success
+疾病|jíbìng|illness|1|0|14108|success
+短|duǎn|short|1|2|14109|success
+生病|shēngbìng|sick|0|1|14110|success
+抽烟|chōuyān|smoke|1|2|14111|fail
+抽烟|chōuyān|smoke|1|2|14111|success
+抽烟|chōuyān|smoke|1|2|14111|success
+推荐|tuījiàn|recommend|1|2|14112|success
+交通|jiāotōng|transportation|0|2|14113|success
+面包卷|miànbāojuǎn|roll|1|2|14114|success
+功夫片|gōngfūpiàn|kung fu film|2|0|14115|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14116|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14117|success
+疾病|jíbìng|illness|1|0|14118|success
+但是|dànshì|but|0|2|14119|success
+宝贝|bǎobèi|baby|1|2|14120|success
+抽烟|chōuyān|smoke|1|2|14121|success
+之后|zhīhòu|after that|1|2|14122|success
+跳舞|tiàowǔ|dance|2|0|14123|success
+面包卷|miànbāojuǎn|roll|1|2|14124|success
+树|shù|tree|1|2|14125|fail
+树|shù|tree|1|2|14125|success
+树|shù|tree|1|2|14125|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14126|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14127|success
+动画电影|dònghuàdiànyǐng|animated movie|2|1|14128|fail
+动画电影|dònghuàdiànyǐng|animated movie|2|1|14128|success
+动画电影|dònghuàdiànyǐng|animated movie|2|1|14128|success
+件|jiàn|m.w.clothes|0|1|14129|success
+客户|kèhù|customers|1|2|14130|fail
+客户|kèhù|customers|1|2|14130|success
+客户|kèhù|customers|1|2|14130|success
+办婚礼|bànhūnlǐ|get married|2|0|14131|success
+不高|bùgāo|not tall|2|1|14132|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14133|fail
+方便面|fāngbiànmiàn|instant noodles|0|2|14133|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14133|success
+面包卷|miànbāojuǎn|roll|1|2|14134|success
+疾病|jíbìng|illness|1|0|14135|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14136|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14137|success
+动画电影|dònghuàdiànyǐng|animated movie|2|1|14138|success
+抽烟|chōuyān|smoke|1|2|14139|success
+客户|kèhù|customers|1|2|14140|success
+短|duǎn|short|1|2|14141|success
+树|shù|tree|1|2|14142|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14143|fail
+方便面|fāngbiànmiàn|instant noodles|0|2|14143|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14143|success
+面包卷|miànbāojuǎn|roll|1|2|14144|success
+生病|shēngbìng|sick|0|1|14145|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14146|success
+母鸡|mǔjī|hen|1|2|14147|fail
+母鸡|mǔjī|hen|1|2|14147|success
+母鸡|mǔjī|hen|1|2|14147|success
+但是|dànshì|but|0|2|14148|success
+宝贝|bǎobèi|baby|1|2|14149|fail
+宝贝|bǎobèi|baby|1|2|14149|success
+宝贝|bǎobèi|baby|1|2|14149|success
+瘦|shòu|thin|1|0|14150|fail
+瘦|shòu|thin|1|0|14150|success
+瘦|shòu|thin|1|0|14150|success
+之后|zhīhòu|after that|1|2|14151|success
+全中国|quánzhōngguó|whole china|0|1|14152|fail
+全中国|quánzhōngguó|whole china|0|1|14152|fail
+全中国|quánzhōngguó|whole china|0|1|14152|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14153|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14154|success
+动画电影|dònghuàdiànyǐng|animated movie|2|1|14155|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14156|success
+母鸡|mǔjī|hen|1|2|14157|success
+客户|kèhù|customers|1|2|14158|success
+宝贝|bǎobèi|baby|1|2|14159|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14160|fail
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14160|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14160|success
+面包卷|miànbāojuǎn|roll|1|2|14161|success
+全中国|quánzhōngguó|whole china|0|1|14162|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14163|success
+疾病|jíbìng|illness|1|0|14164|success
+到|dào|reach|2|1|14165|fail
+到|dào|reach|2|1|14165|success
+到|dào|reach|2|1|14165|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14166|success
+瘦|shòu|thin|1|0|14167|fail
+瘦|shòu|thin|1|0|14167|success
+瘦|shòu|thin|1|0|14167|success
+抽烟|chōuyān|smoke|1|2|14168|success
+西单|xīdān|xidan|2|0|14169|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14170|fail
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14170|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14170|success
+树|shù|tree|1|2|14171|success
+全中国|quánzhōngguó|whole china|0|1|14172|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14173|success
+母鸡|mǔjī|hen|1|2|14174|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14175|fail
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14175|fail
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14175|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14176|success
+宝贝|bǎobèi|baby|1|2|14177|success
+或者|huòzhě|or|1|2|14178|fail
+或者|huòzhě|or|1|2|14178|success
+或者|huòzhě|or|1|2|14178|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14179|fail
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14179|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14179|fail
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14180|success
+去世的亲人|qùshìdeqīnrén|deceased relative|0|1|14181|success
+全中国|quánzhōngguó|whole china|0|1|14182|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14183|success
+到|dào|reach|2|1|14184|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14185|success
+瘦|shòu|thin|1|0|14186|success
+动画电影|dònghuàdiànyǐng|animated movie|2|1|14187|success
+或者|huòzhě|or|1|2|14188|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14189|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14190|success
+客户|kèhù|customers|1|2|14191|success
+全中国|quánzhōngguó|whole china|0|1|14192|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14193|success
+工具人|gōngjùrén|person who is used as a tool|2|1|14194|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14195|success
+电视剧|diànshìjù|television series|1|0|14196|fail
+电视剧|diànshìjù|television series|1|0|14196|success
+电视剧|diànshìjù|television series|1|0|14196|success
+面包卷|miànbāojuǎn|roll|1|2|14197|success
+等|děng|wait|1|2|14198|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14199|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14200|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14201|success
+全中国|quánzhōngguó|whole china|0|1|14202|success
+母鸡|mǔjī|hen|1|2|14203|success
+长|zhǎng|long|2|0|14204|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14205|success
+电视剧|diànshìjù|television series|1|0|14206|fail
+电视剧|diànshìjù|television series|1|0|14206|success
+电视剧|diànshìjù|television series|1|0|14206|success
+或者|huòzhě|or|1|2|14207|success
+宝贝|bǎobèi|baby|1|2|14208|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14209|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14210|success
+爱尔兰|àiěrlán|ireland|1|0|14211|fail
+爱尔兰|àiěrlán|ireland|1|0|14211|success
+爱尔兰|àiěrlán|ireland|1|0|14211|success
+全中国|quánzhōngguó|whole china|0|1|14212|success
+到|dào|reach|2|1|14213|success
+路|lù|number of bus|2|1|14214|fail
+路|lù|number of bus|2|1|14214|success
+路|lù|number of bus|2|1|14214|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14215|success
+电视剧|diànshìjù|television series|1|0|14216|success
+瘦|shòu|thin|1|0|14217|success
+树|shù|tree|1|0|14218|fail
+树|shù|tree|1|0|14218|success
+树|shù|tree|1|0|14218|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14219|success
+早日见|zǎorìjiàn|see you soon|1|2|14220|success
+爱尔兰|àiěrlán|ireland|1|0|14221|success
+穿衣服|chuānyīfu|put on clothes|0|1|14222|fail
+穿衣服|chuānyīfu|put on clothes|0|1|14222|success
+穿衣服|chuānyīfu|put on clothes|0|1|14222|success
+超人|chāorén|superman|0|1|14223|fail
+超人|chāorén|superman|0|1|14223|success
+超人|chāorén|superman|0|1|14223|success
+爱尔兰|àiěrlán|ireland|1|2|14224|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14225|success
+电视剧|diànshìjù|television series|1|0|14226|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14227|success
+为了|wèile|for the purpose of|2|0|14228|fail
+为了|wèile|for the purpose of|2|0|14228|success
+为了|wèile|for the purpose of|2|0|14228|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14229|success
+全中国|quánzhōngguó|whole china|0|1|14230|success
+路|lù|number of bus|2|1|14231|success
+穿衣服|chuānyīfu|put on clothes|0|1|14232|success
+超人|chāorén|superman|0|1|14233|success
+方便面|fāngbiànmiàn|instant noodles|0|2|14234|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14235|success
+电视剧|diànshìjù|television series|1|0|14236|success
+树|shù|tree|1|0|14237|success
+为了|wèile|for the purpose of|2|0|14238|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14239|success
+爱尔兰|àiěrlán|ireland|1|0|14240|success
+或者|huòzhě|or|1|2|14241|success
+如果_就_|rúguǒ_jiù_|if _ then _|1|2|14242|success
+外面|wàimiàn|outside|0|1|14243|fail
+外面|wàimiàn|outside|0|1|14243|success
+外面|wàimiàn|outside|0|1|14243|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|0|2|14244|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14245|success
+电视剧|diànshìjù|television series|1|0|14246|success
+工具人|gōngjùrén|person who is used as a tool|2|0|14247|fail
+工具人|gōngjùrén|person who is used as a tool|2|0|14247|success
+工具人|gōngjùrén|person who is used as a tool|2|0|14247|success
+条|tiáo|m.w.pants, river, skirt|0|2|14248|fail
+条|tiáo|m.w.pants, river, skirt|0|2|14248|success
+条|tiáo|m.w.pants, river, skirt|0|2|14248|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14249|success
+超人|chāorén|superman|0|1|14250|success
+穿衣服|chuānyīfu|put on clothes|0|1|14251|success
+跟|gēn|and|1|2|14252|fail
+跟|gēn|and|1|2|14252|success
+跟|gēn|and|1|2|14252|success
+外面|wàimiàn|outside|0|1|14253|success
+既_又_|jì_yòu_|both_and_|0|2|14254|success
+为了|wèile|for the purpose of|2|0|14255|success
+菊花茶|júhuāchá|chrysanthemum tea|0|2|14256|success
+工具人|gōngjùrén|person who is used as a tool|2|0|14257|success
+浪漫|làngmàn|romantic|2|0|14258|fail
+浪漫|làngmàn|romantic|2|0|14258|success
+浪漫|làngmàn|romantic|2|0|14258|success
+全中国|quánzhōngguó|whole china|0|1|14259|success
+路|lù|number of bus|2|1|14260|success
+很久|hěnjiǔ|long time ago|1|0|14261|fail
+很久|hěnjiǔ|long time ago|1|0|14261|success
+很久|hěnjiǔ|long time ago|1|0|14261|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14262|success
+电视剧|diànshìjù|television series|1|0|14263|success
+跳舞|tiàowǔ|dance|1|2|14264|success
+动作片|dòngzuòpiàn|action film|1|0|14265|fail
+动作片|dòngzuòpiàn|action film|1|0|14265|success
+动作片|dòngzuòpiàn|action film|1|0|14265|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14266|success
+既_又_|jì_yòu_|both_and_|1|2|14267|fail
+既_又_|jì_yòu_|both_and_|1|2|14267|success
+既_又_|jì_yòu_|both_and_|1|2|14267|success
+浪漫|làngmàn|romantic|2|0|14268|success
+跟|gēn|and|1|2|14269|success
+外面|wàimiàn|outside|0|1|14270|success
+很久|hěnjiǔ|long time ago|1|0|14271|success
+或|huò|or|0|1|14272|fail
+跟|gēn|and|1|0|14272|fail
+或|huò|or|0|1|14272|success
+或|huò|or|0|1|14272|success
+跟|gēn|and|1|0|14273|success
+工具人|gōngjùrén|person who is used as a tool|2|0|14274|success
+动作片|dòngzuòpiàn|action film|1|0|14275|fail
+动作片|dòngzuòpiàn|action film|1|0|14275|success
+动作片|dòngzuòpiàn|action film|1|0|14275|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14276|fail
+体育馆|tǐyùguǎn|gymnasium|0|1|14276|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14276|success
+既_又_|jì_yòu_|both_and_|1|2|14277|success
+逛|guàng|hang out|0|1|14278|fail
+逛|guàng|hang out|0|1|14278|success
+逛|guàng|hang out|0|1|14278|success
+超人|chāorén|superman|0|1|14279|success
+网剧|wǎngjù|web series|2|1|14280|fail
+网剧|wǎngjù|web series|2|1|14280|success
+网剧|wǎngjù|web series|2|1|14280|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14281|fail
+很久|hěnjiǔ|long time ago|2|1|14281|fail
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14281|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14281|success
+很久|hěnjiǔ|long time ago|2|1|14282|fail
+很久|hěnjiǔ|long time ago|2|1|14282|success
+很久|hěnjiǔ|long time ago|2|1|14282|success
+特别|tèbié|especially|2|1|14283|success
+为了|wèile|for the purpose of|2|0|14284|success
+动作片|dòngzuòpiàn|action film|1|0|14285|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14286|success
+浪漫|làngmàn|romantic|2|0|14287|success
+很久|hěnjiǔ|long time ago|1|0|14288|success
+或|huò|or|0|1|14289|fail
+或|huò|or|0|1|14289|success
+或|huò|or|0|1|14289|success
+网剧|wǎngjù|web series|2|1|14290|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14291|fail
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14291|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14291|success
+很久|hěnjiǔ|long time ago|2|1|14292|fail
+很久|hěnjiǔ|long time ago|2|1|14292|success
+很久|hěnjiǔ|long time ago|2|1|14292|success
+跟|gēn|and|1|0|14293|success
+既_又_|jì_yòu_|both_and_|1|2|14294|success
+动作片|dòngzuòpiàn|action film|1|0|14295|success
+逛|guàng|hang out|0|1|14296|success
+_和_一样_|_hé_yīyàng_|_and_are the same as_|1|2|14297|success
+跟|gēn|and|1|2|14298|success
+外面|wàimiàn|outside|0|1|14299|success
+电视剧|diànshìjù|television series|1|0|14300|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14301|fail
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14301|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14301|success
+很久|hěnjiǔ|long time ago|2|1|14302|fail
+很久|hěnjiǔ|long time ago|2|1|14302|success
+很久|hěnjiǔ|long time ago|2|1|14302|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14303|success
+工具人|gōngjùrén|person who is used as a tool|2|0|14304|success
+动作片|dòngzuòpiàn|action film|1|0|14305|success
+或|huò|or|0|1|14306|success
+网剧|wǎngjù|web series|2|1|14307|success
+去世的亲人|qùshìdeqīnrén|deceased relative|1|2|14308|success
+条|tiáo|m.w.pants, river, skirt|0|2|14309|fail
+条|tiáo|m.w.pants, river, skirt|0|2|14309|success
+条|tiáo|m.w.pants, river, skirt|0|2|14309|success
+跟|gēn|and|1|0|14310|fail
+跟|gēn|and|1|0|14310|success
+跟|gēn|and|1|0|14310|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14311|fail
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14311|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14311|success
+很久|hěnjiǔ|long time ago|2|1|14312|fail
+很久|hěnjiǔ|long time ago|2|1|14312|success
+很久|hěnjiǔ|long time ago|2|1|14312|success
+树|shù|tree|1|0|14313|success
+穿衣服|chuānyīfu|put on clothes|0|1|14314|fail
+穿衣服|chuānyīfu|put on clothes|0|1|14314|success
+穿衣服|chuānyīfu|put on clothes|0|1|14314|success
+动作片|dòngzuòpiàn|action film|1|0|14315|fail
+动作片|dòngzuòpiàn|action film|1|0|14315|success
+动作片|dòngzuòpiàn|action film|1|0|14315|success
+浪漫|làngmàn|romantic|2|0|14316|fail
+浪漫|làngmàn|romantic|2|0|14316|success
+浪漫|làngmàn|romantic|2|0|14316|success
+爱尔兰|àiěrlán|ireland|1|0|14317|success
+很久|hěnjiǔ|long time ago|1|0|14318|fail
+很久|hěnjiǔ|long time ago|1|0|14318|success
+很久|hěnjiǔ|long time ago|1|0|14318|success
+动画片|dònghuàpiàn|animation film|2|1|14319|fail
+动画片|dònghuàpiàn|animation film|2|1|14319|success
+动画片|dònghuàpiàn|animation film|2|1|14319|success
+别生气|biéshēngqì|don't get angry|2|1|14320|fail
+别生气|biéshēngqì|don't get angry|2|1|14320|success
+别生气|biéshēngqì|don't get angry|2|1|14320|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14321|fail
+很久|hěnjiǔ|long time ago|2|1|14321|fail
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14321|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14321|success
+很久|hěnjiǔ|long time ago|2|1|14322|fail
+很久|hěnjiǔ|long time ago|2|1|14322|success
+很久|hěnjiǔ|long time ago|2|1|14322|success
+既_又_|jì_yòu_|both_and_|1|2|14323|fail
+既_又_|jì_yòu_|both_and_|1|2|14323|success
+既_又_|jì_yòu_|both_and_|1|2|14323|success
+穿衣服|chuānyīfu|put on clothes|0|1|14324|success
+动作片|dòngzuòpiàn|action film|1|0|14325|success
+浪漫|làngmàn|romantic|2|0|14326|success
+跟|gēn|and|1|0|14327|success
+很久|hěnjiǔ|long time ago|1|0|14328|fail
+很久|hěnjiǔ|long time ago|1|0|14328|success
+很久|hěnjiǔ|long time ago|1|0|14328|success
+动画片|dònghuàpiàn|animation film|2|1|14329|fail
+动画电影|dònghuàdiànyǐng|animated movie|1|2|14329|fail
+动画片|dònghuàpiàn|animation film|2|1|14329|success
+动画片|dònghuàpiàn|animation film|2|1|14329|success
+动画电影|dònghuàdiànyǐng|animated movie|1|2|14330|fail
+动画电影|dònghuàdiànyǐng|animated movie|1|2|14330|success
+动画电影|dònghuàdiànyǐng|animated movie|1|2|14330|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14331|fail
+很久|hěnjiǔ|long time ago|2|1|14331|fail
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14331|success
+很长时间|hěnzhǎngshíjiān|a long time|1|2|14331|success
+很久|hěnjiǔ|long time ago|2|1|14332|success
+既_又_|jì_yòu_|both_and_|1|2|14333|fail
+既_又_|jì_yòu_|both_and_|1|2|14333|success
+既_又_|jì_yòu_|both_and_|1|2|14333|success
+别生气|biéshēngqì|don't get angry|2|1|14334|success
+动作片|dòngzuòpiàn|action film|1|0|14335|fail
+动作片|dòngzuòpiàn|action film|1|0|14335|success
+动作片|dòngzuòpiàn|action film|1|0|14335|success
+条|tiáo|m.w.pants, river, skirt|0|2|14336|fail
+条|tiáo|m.w.pants, river, skirt|0|2|14336|success
+条|tiáo|m.w.pants, river, skirt|0|2|14336|success
+或|huò|or|0|1|14337|fail
+或|huò|or|0|1|14337|success
+或|huò|or|0|1|14337|success
+很久|hěnjiǔ|long time ago|1|0|14338|success
+动画片|dònghuàpiàn|animation film|2|1|14339|fail
+动画电影|dònghuàdiànyǐng|animated film|1|2|14340|fail
+动画电影|dònghuàdiànyǐng|animated film|1|2|14340|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14340|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14341|success
+很久|hěnjiǔ|long time|2|1|14342|success
+既_又_|jì_yòu_|both_and_|1|2|14343|success
+穿衣服|chuānyīfu|put on clothes|0|1|14344|success
+动作片|dòngzuòpiàn|action film|1|0|14345|success
+浪漫|làngmàn|romantic|2|0|14346|success
+逛|guàng|hang out|0|1|14347|fail
+逛|guàng|hang out|0|1|14347|success
+逛|guàng|hang out|0|1|14347|success
+很久|hěnjiǔ|long time|1|0|14348|success
+动画片|dònghuàpiàn|animated film|2|1|14349|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14350|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14351|success
+很久|hěnjiǔ|long time|2|1|14352|success
+既_又_|jì_yòu_|both_and_|1|2|14353|success
+条|tiáo|m.w.pants, river, skirt|0|2|14354|fail
+条|tiáo|m.w.pants, river, skirt|0|2|14354|success
+条|tiáo|m.w.pants, river, skirt|0|2|14354|success
+动作片|dòngzuòpiàn|action film|1|0|14355|success
+别生气|biéshēngqì|don't get angry|2|1|14356|success
+或|huò|or|0|1|14357|fail
+或|huò|or|0|1|14357|success
+或|huò|or|0|1|14357|success
+网剧|wǎngjù|web series|2|1|14358|fail
+网剧|wǎngjù|web series|2|1|14358|success
+网剧|wǎngjù|web series|2|1|14358|success
+动画片|dònghuàpiàn|animated film|2|1|14359|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14360|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14361|success
+很久|hěnjiǔ|long time|2|1|14362|success
+既_又_|jì_yòu_|both_and_|1|2|14363|success
+逛|guàng|hang out|0|1|14364|success
+动作片|dòngzuòpiàn|action film|1|0|14365|success
+很久|hěnjiǔ|long time|1|0|14366|success
+跟|gēn|and|1|0|14367|success
+网剧|wǎngjù|web series|2|1|14368|success
+动画片|dònghuàpiàn|animated film|2|1|14369|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14370|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14371|success
+条|tiáo|m.w.pants, river, skirt|0|2|14372|fail
+条|tiáo|m.w.pants, river, skirt|0|2|14372|success
+条|tiáo|m.w.pants, river, skirt|0|2|14372|success
+既_又_|jì_yòu_|both_and_|1|2|14373|success
+或|huò|or|0|1|14374|success
+动作片|dòngzuòpiàn|action film|1|0|14375|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14376|fail
+体育馆|tǐyùguǎn|gymnasium|0|1|14376|success
+穿衣服|chuānyīfu|put on clothes|0|1|14377|success
+浪漫|làngmàn|romantic|2|0|14378|success
+动画片|dònghuàpiàn|animated film|2|1|14379|fail
+动画片|dònghuàpiàn|animated film|2|1|14379|success
+动画片|dònghuàpiàn|animated film|2|1|14379|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14380|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14381|fail
+很久|hěnjiǔ|long time|2|1|14381|fail
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14381|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14381|success
+很久|hěnjiǔ|long time|2|1|14382|success
+抽烟|chōuyān|smoke|1|2|14383|fail
+抽烟|chōuyān|smoke|1|2|14383|success
+抽烟|chōuyān|smoke|1|2|14383|success
+建议|jiànyì|suggestion|0|1|14384|fail
+建议|jiànyì|suggestion|0|1|14384|success
+建议|jiànyì|suggestion|0|1|14384|success
+动作片|dòngzuòpiàn|action film|1|0|14385|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14386|success
+网剧|wǎngjù|web series|2|1|14387|fail
+网剧|wǎngjù|web series|2|1|14387|success
+网剧|wǎngjù|web series|2|1|14387|success
+别生气|biéshēngqì|don't get angry|2|1|14388|success
+动画片|dònghuàpiàn|animated film|2|1|14389|fail
+动作片|dòngzuòpiàn|action film|1|2|14389|fail
+动画片|dònghuàpiàn|animated film|2|1|14389|success
+动画片|dònghuàpiàn|animated film|2|1|14389|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14390|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14391|success
+很久|hěnjiǔ|long time|2|1|14392|success
+动作片|dòngzuòpiàn|action film|1|2|14393|success
+抽烟|chōuyān|smoke|1|2|14394|success
+建议|jiànyì|suggestion|0|1|14395|fail
+建议|jiànyì|suggestion|0|1|14395|success
+建议|jiànyì|suggestion|0|1|14395|success
+体育馆|tǐyùguǎn|gymnasium|0|1|14396|success
+网剧|wǎngjù|web series|2|1|14397|success
+条|tiáo|m.w.pants, river, skirt|0|2|14398|success
+动画片|dònghuàpiàn|animated film|2|1|14399|success
+动画电影|dònghuàdiànyǐng|animated film|1|2|14400|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|14401|success
+很久|hěnjiǔ|long time|2|1|14402|success
+动作片|dòngzuòpiàn|action film|1|2|14403|success
+既_又_|jì_yòu_|both_and_|1|2|14404|success
+建议|jiànyì|suggestion|0|1|14405|fail
+建议|jiànyì|suggestion|0|1|14405|success
+建议|jiànyì|suggestion|0|1|14405|success
+动作片|dòngzuòpiàn|action film|1|0|14406|success
+网剧|wǎngjù|web series|2|1|14407|success
+或|huò|or|0|1|14408|success

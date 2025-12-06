@@ -4,7 +4,7 @@
 辆|m.w.car|liàng
 怎么走|how about|zěnmezóu
 件|m.w.clothes|jiàn
-条|m.w.pants, skirt, river|tiáo
+条|m.w.pants, river, skirt|tiáo
 酷|cool|kù
 错|wrong|cuò
 宿舍|dormitory|sùshè
