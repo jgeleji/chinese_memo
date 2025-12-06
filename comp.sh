@@ -1,6 +1,7 @@
 #!/bin/bash
 COMPILER=g++
 #COMPILER=clang++
+
 ${COMPILER} input_ncurses.cpp input_common.cpp utils.cpp main_input.cpp tokenize.cpp -lncurses -o input
 ${COMPILER} input_ncurses.cpp input_common.cpp utils.cpp main_questions.cpp tokenize.cpp questions.cpp -lncurses -o questions
 ${COMPILER} input_ncurses.cpp input_common.cpp utils.cpp main_questions_hun.cpp tokenize.cpp questions_hun.cpp -lncurses -o questions_hun
