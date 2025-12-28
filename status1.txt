@@ -20791,3 +20791,58 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 网络游戏|wǎngluòyóuxì|phone game|0|2|15186|success
 聊房子|liáofángzi|talk about houses|1|0|15187|success
 方便|fāngbiàn|convenient|2|0|15188|success
+景观|jǐngguān|landscape|0|2|15189|fail
+景观|jǐngguān|landscape|0|2|15189|success
+景观|jǐngguān|landscape|0|2|15189|success
+中国通|zhōngguótōng|people who know china well|1|2|15190|fail
+中国通|zhōngguótōng|people who know china well|1|2|15190|success
+中国通|zhōngguótōng|people who know china well|1|2|15190|success
+紧张|jǐnzhāng|anxious|2|1|15191|fail
+景观|jǐngguān|landscape|1|2|15191|fail
+紧张|jǐnzhāng|anxious|2|1|15191|success
+紧张|jǐnzhāng|anxious|2|1|15191|success
+景观|jǐngguān|landscape|1|2|15192|fail
+景观|jǐngguān|landscape|1|2|15192|success
+景观|jǐngguān|landscape|1|2|15192|success
+方便|fāngbiàn|convenient|0|2|15193|fail
+方便|fāngbiàn|convenient|0|2|15193|success
+方便|fāngbiàn|convenient|0|2|15193|success
+过万圣节|guòwànshèngjié|celebrate halloween|1|0|15194|fail
+过万圣节|guòwànshèngjié|celebrate halloween|1|0|15194|success
+过万圣节|guòwànshèngjié|celebrate halloween|1|0|15194|success
+嘴巴|zuǐbā|mouth|0|1|15195|fail
+嘴巴|zuǐbā|mouth|0|1|15195|success
+嘴巴|zuǐbā|mouth|0|1|15195|success
+同事|tóngshì|coworker|0|1|15196|fail
+同事|tóngshì|coworker|0|1|15196|success
+同事|tóngshì|coworker|0|1|15196|success
+聊房子|liáofángzi|talk about houses|1|0|15197|fail
+聊房子|liáofángzi|talk about houses|1|0|15197|success
+聊房子|liáofángzi|talk about houses|1|0|15197|success
+甜|tián|sweet|1|0|15198|success
+景观|jǐngguān|landscape|0|2|15199|fail
+景观|jǐngguān|landscape|0|2|15199|success
+景观|jǐngguān|landscape|0|2|15199|success
+方便|fāngbiàn|convenient|0|2|15200|fail
+聊房子|liáofángzi|talk about houses|1|0|15201|success
+聊房子|liáofángzi|talk about houses|1|0|15202|success
+同事|tóngshì|coworker|0|1|15203|success
+过万圣节|guòwànshèngjié|celebrate halloween|1|0|15204|fail
+过万圣节|guòwànshèngjié|celebrate halloween|1|0|15205|fail
+过万圣节|guòwànshèngjié|celebrate halloween|1|0|15206|success
+房间|fángjiān|room|2|0|15207|success
+嘴巴|zuǐbā|mouth|0|1|15208|success
+网络游戏|wǎngluòyóuxì|phone game|0|2|15209|fail
+嘴巴|zuǐbā|mouth|0|1|15210|fail
+网络游戏|wǎngluòyóuxì|phone game|1|0|15210|fail
+手游|shǒuyóu|phone game|1|0|15210|fail
+嘴巴|zuǐbā|mouth|0|1|15211|success
+网络游戏|wǎngluòyóuxì|phone game|0|2|15212|success
+同事|tóngshì|coworker|0|1|15213|success
+中国通|zhōngguótōng|people who know china well|1|2|15214|success
+方便|fāngbiàn|convenient|0|2|15215|fail
+嘴巴|zuǐbā|mouth|0|1|15216|success
+网络游戏|wǎngluòyóuxì|phone game|0|2|15217|success
+同事|tóngshì|coworker|0|1|15218|success
+中国通|zhōngguótōng|people who know china well|1|2|15219|success
+方便|fāngbiàn|convenient|0|2|15220|success

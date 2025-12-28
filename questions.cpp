@@ -310,6 +310,212 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 	return recurrence_scores;
 }
 
+bool chinese::questions::ask_all_until_fail_block10(int breaks) const
+{
+	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
+	double score_improve_if_success = 1.04;
+	double score_deteriorate_if_fail = 5.19;
+	double max_complexity = 6.33;
+
+	size_t sequence_number = 0;
+
+	auto recurrence_scores = load_status_file(gen, sequence_number, score_improve_if_success, score_deteriorate_if_fail, max_complexity);
+
+	statistics_screen(recurrence_scores, breaks);
+
+//noreshuffle:
+	std::map<double, std::map<q_type, std::pair<size_t, double>>::iterator> questions_block;
+	auto iter0 = recurrence_scores.begin();
+	questions_block.insert(std::pair<double, std::map<q_type, std::pair<size_t, double>>::iterator>(iter0->second.second, iter0));
+	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+	{
+		questions_block.insert(std::pair<double, std::map<q_type, std::pair<size_t, double>>::iterator>(iter->second.second, iter));
+		if(questions_block.size() > 15)
+		{
+			questions_block.erase(questions_block.begin());
+		}
+	}
+
+	std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances;
+	for(auto iter = questions_block.begin(); iter !=  questions_block.end() ; ++iter)
+	{
+		equal_chances.push_back(iter->second);
+
+	}
+	std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
+	int loc_seq=0;
+	while(1)
+	{
+		++sequence_number;
+
+		auto iter00 = equal_chances.begin();
+		std::advance(iter00, loc_seq);
+		iter0 = *iter00;
+
+		q_type which_q = iter0->first;
+		size_t q = std::get<0>(which_q);
+
+
+		std::vector<datapoint const*> others;
+		datapoint const* current = &loaded_data[std::get<0>(which_q)];
+		DATATYPE provided = std::get<1>(which_q);
+		DATATYPE asked = std::get<2>(which_q);
+
+		
+		std::string key = current->get(provided);
+		std::unordered_map<std::string, std::unordered_set<int>>::const_iterator iter;
+		std::unordered_map<std::string, std::unordered_set<int>> const* provided_overlaps, *asked_overlaps;
+		switch(asked)
+		{
+			case DATATYPE_PINYIN:
+				asked_overlaps = &pinyin_overlaps;
+				break;
+			case DATATYPE_ENGLISH:
+				asked_overlaps = &english_overlaps;
+				break;
+			case DATATYPE_CHINESE:
+				asked_overlaps = &chinese_overlaps;
+				break;
+		}
+		switch(provided)
+		{
+			case DATATYPE_PINYIN:
+				provided_overlaps = &pinyin_overlaps;
+				break;
+			case DATATYPE_ENGLISH:
+				provided_overlaps = &english_overlaps;
+				break;
+			case DATATYPE_CHINESE:
+				provided_overlaps = &chinese_overlaps;
+				break;
+		}
+		iter = provided_overlaps->find(key);
+		if(iter != provided_overlaps->end())
+		{
+			for(size_t index: iter->second)
+			{
+				datapoint const* identical = &loaded_data[index];
+				if(identical->get(asked) != current->get(asked))
+				{
+					others.push_back(identical);
+				}
+			}
+		}
+		
+		int repeat=3;
+
+		std::string gave;
+
+		std::map<int, int> negative_score, positive_score;
+
+		negative_score.clear();
+		positive_score.clear();
+
+		int zero_score = 0;
+		for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+		{
+			double score = iter->second.second;
+			if(score < 0.0)
+			{
+				++negative_score[floor(score)];
+			}
+			else if(score == 0.0)
+			{
+				++zero_score;
+			}
+			else
+			{
+				++positive_score[ceil(score)];
+			}
+		}
+
+		std::string stats = 
+				std::to_string(loc_seq)
+				+ " " + std::to_string(q)
+				+ "/" + std::to_string(6*loaded_data.size())
+				+ " " + std::to_string(sequence_number)
+				+ " " + std::to_string(iter0->second.first)
+				+ " " + std::to_string(iter0->second.second);
+		if(zero_score >0)
+		{
+			stats += " zero " + std::to_string(zero_score);
+		}
+		bool result =current->ask(
+				m_input,
+				provided,
+				asked,
+				stats,
+				others,
+				gave,
+				breaks
+			);
+		iter0->second.first = sequence_number;
+		std::fstream statusfile;
+		statusfile.open("status1.txt", std::fstream::out | std::fstream::app);
+		statusfile << current->get(DATATYPE_CHINESE);
+		statusfile << "|";
+		statusfile << current->get(DATATYPE_PINYIN);
+		statusfile << "|";
+		statusfile << current->get(DATATYPE_ENGLISH);
+		statusfile << "|" << ((int)provided);
+		statusfile << "|" << ((int)asked);
+		statusfile << "|" << sequence_number << "|";
+		if(result)
+		{
+			++loc_seq;
+			statusfile << "success";
+			iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
+			std::cout << "Answer accepted!\n";
+			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+		}
+		else
+		{
+			loc_seq=0;
+			statusfile << "fail";
+			iter0->second.second = std::min(
+				(int)(iter0->second.second + score_deteriorate_if_fail+(gen()%5000)*.00001),
+				std::max(
+					(int)4,
+					(int)(max_complexity* current->get(DATATYPE_CHINESE).size()/6)
+				)
+			);
+			auto iter = asked_overlaps->find(gave);
+			if(iter != asked_overlaps->end())
+			{
+				for(size_t index: iter->second)
+				{
+					//to punish the question also where the answer would have been correct!
+					datapoint const* punishable = &loaded_data[index];
+					DATATYPE punishable_provided = asked;
+					DATATYPE punishable_asked = provided;
+
+					q_type val = q_type(index, asked, provided);
+					recurrence_scores[val].second = std::min(recurrence_scores[val].second + score_deteriorate_if_fail+(gen()%5000)*.00001, max_complexity* punishable->get(DATATYPE_CHINESE).size()/6);
+					statusfile << "\n";
+					statusfile << punishable->get(DATATYPE_CHINESE);
+					statusfile << "|";
+					statusfile << punishable->get(DATATYPE_PINYIN);
+					statusfile << "|";
+					statusfile << punishable->get(DATATYPE_ENGLISH);
+					statusfile << "|" << ((int)punishable_provided);
+					statusfile << "|" << ((int)punishable_asked);
+					statusfile << "|" << sequence_number << "|fail";
+				}
+			}
+			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
+			std::cout << "Correct would have been " << loaded_data[std::get<0>(which_q)].get(std::get<2>(which_q)) << "\r\n";
+			std::cout << "Btw CHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
+			std::cout << ", PYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
+			std::cout << ", ENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
+			//getch();
+			system_pause();
+		}
+		statusfile << "\n";
+		statusfile.close();
+	}
+	return true;
+}
+
 bool chinese::questions::ask_all_until_fail(int breaks) const
 {
 	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
@@ -323,7 +529,7 @@ bool chinese::questions::ask_all_until_fail(int breaks) const
 
 	statistics_screen(recurrence_scores, breaks);
 
-noreshuffle:
+//noreshuffle:
 	while(1)
 	{
 		++sequence_number;
@@ -539,7 +745,7 @@ repeat_question:
 			else
 			{
 				//q=size_t(-1);
-				goto noreshuffle;
+				//goto noreshuffle;
 			}
 		}
 	}
