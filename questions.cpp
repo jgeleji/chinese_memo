@@ -324,7 +324,7 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 	statistics_screen(recurrence_scores, breaks);
 
 //noreshuffle:
-	std::map<double, std::map<q_type, std::pair<size_t, double>>::iterator> questions_block;
+	std::multimap<double, std::map<q_type, std::pair<size_t, double>>::iterator> questions_block;
 	auto iter0 = recurrence_scores.begin();
 	questions_block.insert(std::pair<double, std::map<q_type, std::pair<size_t, double>>::iterator>(iter0->second.second, iter0));
 	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
@@ -332,17 +332,32 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 		questions_block.insert(std::pair<double, std::map<q_type, std::pair<size_t, double>>::iterator>(iter->second.second, iter));
 		if(questions_block.size() > 15)
 		{
-			questions_block.erase(questions_block.begin());
+			int max_erase_index=0;
+			const double erase_val = questions_block.begin()->first;
+			auto max_erase_iter = questions_block.begin();
+			while(max_erase_iter->first <= erase_val && max_erase_iter != questions_block.end())
+			{
+				++max_erase_index;
+				++max_erase_iter;
+			}
+			int erase_which = 0;
+			if(max_erase_index > 0)
+			{
+				erase_which = gen()%max_erase_index;
+			}
+			auto erase_iter = questions_block.begin();
+			std::advance(erase_iter, erase_which );
+			questions_block.erase(erase_iter);
 		}
 	}
 
-	std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances;
-	for(auto iter = questions_block.begin(); iter !=  questions_block.end() ; ++iter)
+	std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances, rev;
+	for(auto iter = questions_block.rbegin(); iter !=  questions_block.rend() ; ++iter)
 	{
 		equal_chances.push_back(iter->second);
-
 	}
-	std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
+	//std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
+	//std::reverse(equal_chances.begin(), equal_chances.end());
 	int loc_seq=0;
 	while(1)
 	{
@@ -353,11 +368,11 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 		iter0 = *iter00;
 
 		q_type which_q = iter0->first;
-		size_t q = std::get<0>(which_q);
 
-
-		std::vector<datapoint const*> others;
 		datapoint const* current = &loaded_data[std::get<0>(which_q)];
+
+		size_t q = std::get<0>(which_q);
+		std::vector<datapoint const*> others;
 		DATATYPE provided = std::get<1>(which_q);
 		DATATYPE asked = std::get<2>(which_q);
 
@@ -430,7 +445,8 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 		}
 
 		std::string stats = 
-				std::to_string(loc_seq)
+				reset_color
+				+ std::to_string(loc_seq)
 				+ " " + std::to_string(q)
 				+ "/" + std::to_string(6*loaded_data.size())
 				+ " " + std::to_string(sequence_number)
@@ -450,58 +466,15 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 				breaks
 			);
 		iter0->second.first = sequence_number;
-		std::fstream statusfile;
-		statusfile.open("status1.txt", std::fstream::out | std::fstream::app);
-		statusfile << current->get(DATATYPE_CHINESE);
-		statusfile << "|";
-		statusfile << current->get(DATATYPE_PINYIN);
-		statusfile << "|";
-		statusfile << current->get(DATATYPE_ENGLISH);
-		statusfile << "|" << ((int)provided);
-		statusfile << "|" << ((int)asked);
-		statusfile << "|" << sequence_number << "|";
 		if(result)
 		{
 			++loc_seq;
-			statusfile << "success";
-			iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
 			std::cout << "Answer accepted!\n";
 			std::this_thread::sleep_for(std::chrono::milliseconds(500));
 		}
 		else
 		{
-			loc_seq=0;
-			statusfile << "fail";
-			iter0->second.second = std::min(
-				(int)(iter0->second.second + score_deteriorate_if_fail+(gen()%5000)*.00001),
-				std::max(
-					(int)4,
-					(int)(max_complexity* current->get(DATATYPE_CHINESE).size()/6)
-				)
-			);
-			auto iter = asked_overlaps->find(gave);
-			if(iter != asked_overlaps->end())
-			{
-				for(size_t index: iter->second)
-				{
-					//to punish the question also where the answer would have been correct!
-					datapoint const* punishable = &loaded_data[index];
-					DATATYPE punishable_provided = asked;
-					DATATYPE punishable_asked = provided;
-
-					q_type val = q_type(index, asked, provided);
-					recurrence_scores[val].second = std::min(recurrence_scores[val].second + score_deteriorate_if_fail+(gen()%5000)*.00001, max_complexity* punishable->get(DATATYPE_CHINESE).size()/6);
-					statusfile << "\n";
-					statusfile << punishable->get(DATATYPE_CHINESE);
-					statusfile << "|";
-					statusfile << punishable->get(DATATYPE_PINYIN);
-					statusfile << "|";
-					statusfile << punishable->get(DATATYPE_ENGLISH);
-					statusfile << "|" << ((int)punishable_provided);
-					statusfile << "|" << ((int)punishable_asked);
-					statusfile << "|" << sequence_number << "|fail";
-				}
-			}
+			loc_seq == 0;
 			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
 			std::cout << "Correct would have been " << loaded_data[std::get<0>(which_q)].get(std::get<2>(which_q)) << "\r\n";
 			std::cout << "Btw CHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
@@ -510,8 +483,30 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 			//getch();
 			system_pause();
 		}
-		statusfile << "\n";
-		statusfile.close();
+		if(loc_seq == questions_block.size())
+		{
+			std::fstream statusfile;
+			statusfile.open("status1.txt", std::fstream::out | std::fstream::app);
+			for(auto iter = questions_block.begin(); iter != questions_block.end(); ++iter)
+			{
+				q_type which_q = iter->second->first;
+
+				datapoint const* current = &loaded_data[std::get<0>(which_q)];
+
+				statusfile << current->get(DATATYPE_CHINESE);
+				statusfile << "|";
+				statusfile << current->get(DATATYPE_PINYIN);
+				statusfile << "|";
+				statusfile << current->get(DATATYPE_ENGLISH);
+				statusfile << "|" << ((int)provided);
+				statusfile << "|" << ((int)asked);
+				statusfile << "|" << sequence_number << "|";
+				statusfile << "success";
+				iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
+				statusfile << "\n";
+			}
+			statusfile.close();
+		}
 	}
 	return true;
 }
