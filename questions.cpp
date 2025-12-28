@@ -349,7 +349,7 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 		++sequence_number;
 
 		auto iter00 = equal_chances.begin();
-		std::advance(iter00, loc_seq);
+		std::advance(iter00, loc_seq%equal_chances.size());
 		iter0 = *iter00;
 
 		q_type which_q = iter0->first;
