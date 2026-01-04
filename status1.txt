@@ -20513,3 +20513,18 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 墓地|mùde|cemetery|0|1|15025|success
 恐怖片|kǒngbùpiàn|horror film|2|0|15026|success
 没关系|méiguānxì|doesn't matter|0|2|15027|success
+交通|jiāotōng|transportation|2|1|15116|success
+网上聊天|wǎngshàngliáotiān|online chat|2|1|15116|success
+裙子|qúnzi|dress|2|1|15116|success
+嘴巴|zuǐbā|mouth|2|1|15116|success
+没关系|méiguānxì|doesn't matter|2|1|15116|success
+运动场|yùndòngchǎng|sports field|2|1|15116|success
+西药|xīyào|western medicine|2|1|15116|success
+西单|xīdān|xidan|2|1|15116|success
+新闻|xīnwén|news (public)|2|1|15116|success
+新鲜|xīnxiān|fresh|2|1|15116|success
+墓地|mùde|cemetery|2|1|15116|success
+舒服|shūfu|feel good|2|1|15116|success
+还没有|háiméiyǒu|not yet|2|1|15116|success
+点外卖|diǎnwàimài|order takeout|2|1|15116|success
+恐怖片|kǒngbùpiàn|horror film|2|1|15116|success

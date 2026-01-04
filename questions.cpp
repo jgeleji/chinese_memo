@@ -330,25 +330,25 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
 	{
 		questions_block.insert(std::pair<double, std::map<q_type, std::pair<size_t, double>>::iterator>(iter->second.second, iter));
-		if(questions_block.size() > 15)
+	}
+	while(questions_block.size() > 15)
+	{
+		int max_erase_index=0;
+		const double erase_val = questions_block.begin()->first;
+		auto max_erase_iter = questions_block.begin();
+		while(max_erase_iter->first <= erase_val && max_erase_iter != questions_block.end())
 		{
-			int max_erase_index=0;
-			const double erase_val = questions_block.begin()->first;
-			auto max_erase_iter = questions_block.begin();
-			while(max_erase_iter->first <= erase_val && max_erase_iter != questions_block.end())
-			{
-				++max_erase_index;
-				++max_erase_iter;
-			}
-			int erase_which = 0;
-			if(max_erase_index > 0)
-			{
-				erase_which = gen()%max_erase_index;
-			}
-			auto erase_iter = questions_block.begin();
-			std::advance(erase_iter, erase_which );
-			questions_block.erase(erase_iter);
+			++max_erase_index;
+			++max_erase_iter;
 		}
+		int erase_which = 0;
+		if(max_erase_index > 0)
+		{
+			erase_which = gen()%max_erase_index;
+		}
+		auto erase_iter = questions_block.begin();
+		std::advance(erase_iter, erase_which );
+		questions_block.erase(erase_iter);
 	}
 
 	std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances, rev;
@@ -474,7 +474,7 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 		}
 		else
 		{
-			loc_seq == 0;
+			loc_seq = 0;
 			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
 			std::cout << "Correct would have been " << loaded_data[std::get<0>(which_q)].get(std::get<2>(which_q)) << "\r\n";
 			std::cout << "Btw CHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
