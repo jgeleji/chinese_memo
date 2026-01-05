@@ -20528,3 +20528,56 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 还没有|háiméiyǒu|not yet|2|1|15116|success
 点外卖|diǎnwàimài|order takeout|2|1|15116|success
 恐怖片|kǒngbùpiàn|horror film|2|1|15116|success
+假的|jiǎde|lie|0|1|15185|success
+胖|pàng|fat|0|1|15185|success
+衬衫|chènshān|shirt|0|1|15185|success
+周星驰|zhōuxīngchí|stephen chow|0|1|15185|success
+没关系|méiguānxì|doesn't matter|0|1|15185|success
+嘴巴|zuǐbā|mouth|0|1|15185|success
+西药|xīyào|western medicine|0|1|15185|success
+西单|xīdān|xidan|0|1|15185|success
+新闻|xīnwén|news (public)|0|1|15185|success
+新鲜|xīnxiān|fresh|0|1|15185|success
+点外卖|diǎnwàimài|order takeout|0|1|15185|success
+舒服|shūfu|feel good|0|1|15185|success
+墓地|mùde|cemetery|0|1|15185|success
+还没有|háiméiyǒu|not yet|0|1|15185|success
+恐怖片|kǒngbùpiàn|horror film|0|1|15185|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15186|success
+还没有|háiméiyǒu|not yet|1|2|15187|success
+点外卖|diǎnwàimài|order takeout|2|1|15188|success
+新鲜|xīnxiān|fresh|1|0|15189|success
+西单|xīdān|xidan|2|0|15190|success
+没关系|méiguānxì|doesn't matter|0|2|15191|success
+西药|xīyào|western medicine|0|2|15192|success
+周星驰|zhōuxīngchí|stephen chow|2|0|15193|success
+你跑得快吗？|nǐpǎodékuàima?|do you run fast?|0|1|15242|success
+别人|biérén|other people|0|1|15242|success
+玩手机|wánshǒujī|play phone|0|1|15242|success
+真的吗|zhēndema|really?|0|1|15242|success
+胖|pàng|fat|0|1|15242|success
+路|lù|number of bus|0|1|15242|success
+跳舞|tiàowǔ|dance|0|1|15242|success
+车企|chē qǐ|car manufacturer|0|1|15242|success
+新闻|xīnwén|news (public)|0|1|15242|success
+新鲜|xīnxiān|fresh|0|1|15242|success
+点外卖|diǎnwàimài|order takeout|0|1|15242|success
+舒服|shūfu|feel good|0|1|15242|success
+墓地|mùde|cemetery|0|1|15242|success
+还没有|háiméiyǒu|not yet|0|1|15242|success
+恐怖片|kǒngbùpiàn|horror film|0|1|15242|success
+上网|shàngwǎng|online surfing|1|2|15339|success
+同事|tóngshì|coworker|1|2|15339|success
+戴|dài|put on (hat)|1|2|15339|success
+找到|zhǎodào|find|1|2|15339|success
+旁边|pángbiān|beside|1|2|15339|success
+涂|tú|put on makeup|1|2|15339|success
+男|nán|male|1|2|15339|success
+脸|liǎn|face|1|2|15339|success
+鞋子|xiézi|shoes|1|2|15339|success
+新鲜|xīnxiān|fresh|1|2|15339|success
+舒服|shūfu|feel good|1|2|15339|success
+墓地|mùde|cemetery|1|2|15339|success
+点外卖|diǎnwàimài|order takeout|1|2|15339|success
+还没有|háiméiyǒu|not yet|1|2|15339|success
+恐怖片|kǒngbùpiàn|horror film|1|2|15339|success
