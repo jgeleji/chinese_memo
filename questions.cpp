@@ -491,6 +491,9 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 			{
 				q_type which_q = iter->second->first;
 
+				DATATYPE provided = std::get<1>(which_q);
+				DATATYPE asked = std::get<2>(which_q);
+
 				datapoint const* current = &loaded_data[std::get<0>(which_q)];
 
 				statusfile << current->get(DATATYPE_CHINESE);

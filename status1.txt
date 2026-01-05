@@ -20513,71 +20513,63 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 墓地|mùde|cemetery|0|1|15025|success
 恐怖片|kǒngbùpiàn|horror film|2|0|15026|success
 没关系|méiguānxì|doesn't matter|0|2|15027|success
-交通|jiāotōng|transportation|2|1|15116|success
-网上聊天|wǎngshàngliáotiān|online chat|2|1|15116|success
-裙子|qúnzi|dress|2|1|15116|success
-嘴巴|zuǐbā|mouth|2|1|15116|success
-没关系|méiguānxì|doesn't matter|2|1|15116|success
-运动场|yùndòngchǎng|sports field|2|1|15116|success
-西药|xīyào|western medicine|2|1|15116|success
-西单|xīdān|xidan|2|1|15116|success
-新闻|xīnwén|news (public)|2|1|15116|success
-新鲜|xīnxiān|fresh|2|1|15116|success
-墓地|mùde|cemetery|2|1|15116|success
-舒服|shūfu|feel good|2|1|15116|success
-还没有|háiméiyǒu|not yet|2|1|15116|success
-点外卖|diǎnwàimài|order takeout|2|1|15116|success
-恐怖片|kǒngbùpiàn|horror film|2|1|15116|success
-假的|jiǎde|lie|0|1|15185|success
-胖|pàng|fat|0|1|15185|success
-衬衫|chènshān|shirt|0|1|15185|success
-周星驰|zhōuxīngchí|stephen chow|0|1|15185|success
-没关系|méiguānxì|doesn't matter|0|1|15185|success
-嘴巴|zuǐbā|mouth|0|1|15185|success
-西药|xīyào|western medicine|0|1|15185|success
-西单|xīdān|xidan|0|1|15185|success
-新闻|xīnwén|news (public)|0|1|15185|success
-新鲜|xīnxiān|fresh|0|1|15185|success
-点外卖|diǎnwàimài|order takeout|0|1|15185|success
-舒服|shūfu|feel good|0|1|15185|success
-墓地|mùde|cemetery|0|1|15185|success
-还没有|háiméiyǒu|not yet|0|1|15185|success
-恐怖片|kǒngbùpiàn|horror film|0|1|15185|success
-恐怖片|kǒngbùpiàn|horror film|2|0|15186|success
-还没有|háiméiyǒu|not yet|1|2|15187|success
-点外卖|diǎnwàimài|order takeout|2|1|15188|success
-新鲜|xīnxiān|fresh|1|0|15189|success
-西单|xīdān|xidan|2|0|15190|success
-没关系|méiguānxì|doesn't matter|0|2|15191|success
-西药|xīyào|western medicine|0|2|15192|success
-周星驰|zhōuxīngchí|stephen chow|2|0|15193|success
-你跑得快吗？|nǐpǎodékuàima?|do you run fast?|0|1|15242|success
-别人|biérén|other people|0|1|15242|success
-玩手机|wánshǒujī|play phone|0|1|15242|success
-真的吗|zhēndema|really?|0|1|15242|success
-胖|pàng|fat|0|1|15242|success
-路|lù|number of bus|0|1|15242|success
-跳舞|tiàowǔ|dance|0|1|15242|success
-车企|chē qǐ|car manufacturer|0|1|15242|success
-新闻|xīnwén|news (public)|0|1|15242|success
-新鲜|xīnxiān|fresh|0|1|15242|success
-点外卖|diǎnwàimài|order takeout|0|1|15242|success
-舒服|shūfu|feel good|0|1|15242|success
-墓地|mùde|cemetery|0|1|15242|success
-还没有|háiméiyǒu|not yet|0|1|15242|success
-恐怖片|kǒngbùpiàn|horror film|0|1|15242|success
-上网|shàngwǎng|online surfing|1|2|15339|success
-同事|tóngshì|coworker|1|2|15339|success
-戴|dài|put on (hat)|1|2|15339|success
-找到|zhǎodào|find|1|2|15339|success
-旁边|pángbiān|beside|1|2|15339|success
-涂|tú|put on makeup|1|2|15339|success
-男|nán|male|1|2|15339|success
-脸|liǎn|face|1|2|15339|success
-鞋子|xiézi|shoes|1|2|15339|success
-新鲜|xīnxiān|fresh|1|2|15339|success
-舒服|shūfu|feel good|1|2|15339|success
-墓地|mùde|cemetery|1|2|15339|success
-点外卖|diǎnwàimài|order takeout|1|2|15339|success
-还没有|háiméiyǒu|not yet|1|2|15339|success
-恐怖片|kǒngbùpiàn|horror film|1|2|15339|success
+交通|jiāotōng|transportation|2|0|15093|success
+十年前|shíniánqián|ten years ago|2|1|15093|success
+沙发|shāfā|sofa|0|2|15093|success
+西药|xīyào|western medicine|0|2|15093|success
+嘴巴|zuǐbā|mouth|0|1|15093|success
+运动场|yùndòngchǎng|sports field|2|1|15093|success
+没关系|méiguānxì|doesn't matter|0|2|15093|success
+西单|xīdān|xidan|2|0|15093|success
+新闻|xīnwén|news (public)|0|1|15093|success
+新鲜|xīnxiān|fresh|1|0|15093|success
+墓地|mùde|cemetery|0|1|15093|success
+舒服|shūfu|feel good|0|1|15093|success
+点外卖|diǎnwàimài|order takeout|2|1|15093|success
+还没有|háiméiyǒu|not yet|1|2|15093|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15093|success
+他长得很高|tāzhǎngdéhěngāo|he is tall|1|2|15198|success
+在办公室Janos常常和同事们聊工作和车。|zàibàngōngshìJanoschángchánghétóngshìmenliáogōngzuòhéchē.|in the office, janos often talks with his colleagues about work and cars.|0|1|15198|success
+外语|wàiyǔ|foreign languages|0|1|15198|success
+方便面|fāngbiànmiàn|instant noodles|0|1|15198|success
+晚一点儿|wǎnyīdiǎner|later|2|1|15198|success
+过万圣节|guòwànshèngjié|celebrate halloween|2|0|15198|success
+周星驰|zhōuxīngchí|stephen chow|2|0|15198|success
+浪漫|làngmàn|romantic|2|0|15198|success
+新闻|xīnwén|news (public)|0|1|15198|success
+新鲜|xīnxiān|fresh|1|0|15198|success
+墓地|mùde|cemetery|0|1|15198|success
+舒服|shūfu|feel good|0|1|15198|success
+还没有|háiméiyǒu|not yet|1|2|15198|success
+点外卖|diǎnwàimài|order takeout|2|1|15198|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15198|success
+手表|shǒubiǎo|wristwatch|1|2|15311|success
+才|cái|until (late)|0|1|15311|success
+环球旅游|huánqiúlǚyóu|global tourism|1|2|15311|success
+生活照|shēnghuózhào|everyday photo|0|1|15311|success
+男朋友|nánpéngyǒu|boyfriend|0|1|15311|success
+男生|nánshēng|boy|2|1|15311|success
+病好了吗|bìnghǎolema|are you feeling better?|0|2|15311|success
+等|děng|wait|2|0|15311|success
+聊天|liáotiān|chat|2|1|15311|success
+跟|gēn|and|0|1|15311|success
+舒服|shūfu|feel good|0|1|15311|success
+墓地|mùde|cemetery|0|1|15311|success
+点外卖|diǎnwàimài|order takeout|2|1|15311|success
+还没有|háiméiyǒu|not yet|1|2|15311|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15311|success
+你跑得快吗？|nǐpǎodékuàima?|do you run fast?|1|2|15408|success
+怎么走|zěnmezóu|how about|0|1|15408|success
+慢一点儿|mànyīdiǎner|slower|1|0|15408|success
+新同学|xīntóngxué|new classmate|2|1|15408|success
+有的爱好一样|yǒudeàihǎoyīyàng|have same hobby|2|0|15408|success
+看来|kànlái|seems like|2|0|15408|success
+着|zhe|used after verb to indicate state|1|0|15408|success
+矮|ǎi|short|1|2|15408|success
+菊花茶|júhuāchá|chrysanthemum tea|2|0|15408|success
+面包卷|miànbāojuǎn|roll|0|2|15408|success
+项链|xiàngliàn|necklace|0|1|15408|success
+还没有|háiméiyǒu|not yet|1|2|15408|success
+点外卖|diǎnwàimài|order takeout|2|1|15408|success
+最近|zuìjìn|lately|2|1|15408|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15408|success
