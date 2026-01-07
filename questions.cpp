@@ -178,7 +178,7 @@ std::string chinese::questions::to_string(DATATYPE val)
 		case DATATYPE_CHINESE:
 			return "\033[38;5;226mchinese\033[0m";
 		case DATATYPE_PINYIN:
-			return "\033[38;5;236mpinyin\033[0m";
+			return "\033[38;5;242mpinyin\033[0m";
 		case DATATYPE_ENGLISH:
 			return "\033[38;5;27menglish\033[0m";
 	}
@@ -415,7 +415,7 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 
 bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 {
-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
+	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
 	double score_improve_if_success = 1.04;
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;
@@ -619,7 +619,7 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 
 bool chinese::questions::ask_all_until_fail(int breaks) const
 {
-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
+	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
 	double score_improve_if_success = 1.04;
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;
@@ -1106,7 +1106,7 @@ bool chinese::questions::ask_all_chinese_chars(
 	int breaks
 ) const
 {
-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
+	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
 	double score_improve_if_success = 1.04;
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;
@@ -1303,7 +1303,7 @@ bool chinese::questions::ask_all_chinese_chars_easy(
 	int breaks
 ) const
 {
-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());
+	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
 	double score_improve_if_success = 1.04;
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;

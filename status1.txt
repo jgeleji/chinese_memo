@@ -20708,3 +20708,18 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 疾病|jíbìng|illness|1|2|16185|success
 豆浆机|dòujiāngjī|soy milk machine|0|1|16185|success
 运动场|yùndòngchǎng|sports field|0|1|16185|success
+上网|shàngwǎng|online surfing|2|0|16285|success
+上身|shàngshēn|upper body|0|2|16285|success
+停车位|tíngchēwèi|parking spot|1|2|16285|success
+开|kāi|open|1|0|16285|success
+拿|ná|take|0|2|16285|success
+玩手机|wánshǒujī|play phone|2|1|16285|success
+男|nán|male|1|0|16285|success
+网|wǎng|internet|2|0|16285|success
+网络|wǎngluò|network|0|1|16285|success
+网络|wǎngluò|online game|0|2|16285|success
+节日上|jiérìshàng|on holidays|0|1|16285|success
+请找到|qǐngzhǎodào|please find|1|0|16285|success
+谁得了第一名？|shéidéledìyīmíng?|who got first place? |0|2|16285|success
+跟|gēn|and|0|2|16285|success
+需要|xūyào|need|2|1|16285|success
