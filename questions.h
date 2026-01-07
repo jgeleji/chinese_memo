@@ -28,7 +28,8 @@ class questions
 		
 		static std::string to_string(DATATYPE val);
 
-		questions();
+		questions(std::string statusfilename);
+		void load_file_hsk(std::string const& filename);
 		void load_file(std::string const& filename);
 	
 		bool ask_all_until_fail(int breaks = 0) const;
@@ -136,6 +137,7 @@ class questions
 		std::unordered_map<std::string, std::unordered_set<int>> chinese_overlaps;
 		std::unordered_map<std::string, std::unordered_map<std::string, std::unordered_map<std::string, int>>> question_index_finder;
 		chinese::Input m_input;
+		std::string statusfilename;
 };
 
 }

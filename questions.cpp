@@ -25,8 +25,100 @@ std::string nospace(std::string data)
 	return data;
 }
 
-chinese::questions::questions()
+chinese::questions::questions(std::string statusfilename) : statusfilename(statusfilename)
 {
+}
+
+void chinese::questions::load_file_hsk(std::string const& filename)
+{
+	std::fstream infile;
+	infile.open(filename, std::fstream::in);
+	size_t line_no = 0;
+	while(infile.good())
+	{
+		std::string line;
+		getline(infile, line);
+		++line_no;
+		std::vector<std::string> tokens;// = tokenize(line, '|');
+		try {
+			size_t pos0;
+			pos0 = line.find_first_of(")");
+			if(pos0 == line.npos)
+			{
+				pos0 = line.find_first_of(" ");
+				if(pos0 == line.npos) continue;
+			}
+			else
+			{
+				++pos0;
+			}
+			tokens.push_back(line.substr(0, pos0));
+			line = line.substr(pos0 + 1);
+			pos0 = line.find_first_of(")");
+			if(pos0 == line.npos)
+			{
+				pos0 = line.find_first_of(" ");
+				if(pos0 == line.npos) continue;
+			}
+			else
+			{
+				++pos0;
+			}
+			tokens.push_back(line.substr(pos0+1));
+			tokens.push_back(line.substr(0, pos0));
+			for(int i=0; i<tokens.size(); ++i)
+			{
+				while(!tokens[i].empty() && tokens[i][0] == ' ')
+				{
+					tokens[i].erase(0, 1);
+				}
+				while(!tokens[i].empty() && tokens[i][tokens[i].size()-1]==' ')
+				{
+					tokens[i].erase(tokens[i].size() - 1, 1);
+				}
+			}
+		}
+		catch(std::exception const& e)
+		{
+		}
+
+		if(tokens.size() < 3) continue;
+		datapoint dp;
+		dp.chinese = tokens[0];
+		dp.english = tolower(tokens[1]);
+		if(tokens.size()>2)
+		{
+			dp.pinyin = tokens[2];
+		}
+		else
+		{
+			dp.pinyin = m_input.convert_chinese_to_pinyin(dp.chinese);
+		}
+		auto iter0 = question_index_finder.find(dp.chinese);
+		if(iter0 != question_index_finder.end())
+		{
+			auto iter1 = iter0->second.find(dp.pinyin);
+			if(iter1 != iter0->second.end())
+			{
+				auto iter2 = iter1->second.find(dp.english);
+				if(iter2 != iter1->second.end())
+				{
+					continue;
+				}
+			}
+		}
+		loaded_data.push_back(dp);
+		pinyin_overlaps[dp.pinyin].insert(loaded_data.size()-1);
+		english_overlaps[dp.english].insert(loaded_data.size()-1);
+		chinese_overlaps[dp.chinese].insert(loaded_data.size()-1);
+
+		//std::tuple<std::string, std::string, std::string> key;
+		question_index_finder[dp.chinese][dp.pinyin][dp.english] = loaded_data.size() - 1;
+		//std::get<0>(key) = dp.chinese;
+		//std::get<1>(key) = dp.pinyin;
+		//std::get<2>(key) = dp.english;
+		//question_index_finder[key] = loaded_data.size() - 1;
+	}
 }
 
 void chinese::questions::load_file(std::string const& filename)
@@ -77,7 +169,6 @@ void chinese::questions::load_file(std::string const& filename)
 		//std::get<2>(key) = dp.english;
 		//question_index_finder[key] = loaded_data.size() - 1;
 	}
-
 }
 
 std::string chinese::questions::to_string(DATATYPE val)
@@ -172,7 +263,7 @@ void chinese::questions::statistics_screen(
 			std::cout << " " << asked;
 			std::cout << "\r\n";
 			std::fstream statusfile;
-			statusfile.open("status1.txt", std::fstream::out | std::fstream::app);
+			statusfile.open(statusfilename, std::fstream::out | std::fstream::app);
 			statusfile << loaded_data[std::get<0>(iter->first)].chinese;
 			statusfile << "|";
 			statusfile << loaded_data[std::get<0>(iter->first)].pinyin;
@@ -254,7 +345,8 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 
 	sequence_number = 0;
 	std::fstream statusfile;
-	statusfile.open("status1.txt", std::fstream::in);
+	statusfile.open(statusfilename, std::fstream::in);
+	long double global_total = 0.0;
 	while(statusfile.good())
 	{
 		std::string line;
@@ -292,17 +384,28 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 		sequence_number = std::max(sequence_number, iter->second.first);
 		if(tokens[6] == "success")
 		{
-			iter->second.second -= score_improve_if_success + (gen()%5)*.01;
+			double change = -1* score_improve_if_success + (gen()%5)*.01;
+			double before = iter->second.second;
+			
+			iter->second.second = std::max(before + change,
+					(double)global_total/recurrence_scores.size() - 15
+				);
+			global_total += change;
 		}
 		else if(tokens[6] == "fail")
 		{
-			iter->second.second = std::min(
-				std::max(
-					(int)4,
-					(int)(max_complexity*tokens[0].size()/6)
-				),
-				(int)(iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001)
-			);
+			typedef int mintype;
+			double before = iter->second.second;
+			iter->second.second = 
+				std::min(
+					std::max(
+						(mintype)4,
+						(mintype)(max_complexity*tokens[0].size()/6)
+					),
+					(mintype)(iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001)
+				);
+			double after = iter->second.second;
+			global_total += after - before;
 		}
 
 
@@ -351,7 +454,7 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 		questions_block.erase(erase_iter);
 	}
 
-	std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances, rev;
+	std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances; // rev
 	for(auto iter = questions_block.rbegin(); iter !=  questions_block.rend() ; ++iter)
 	{
 		equal_chances.push_back(iter->second);
@@ -483,10 +586,10 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 			//getch();
 			system_pause();
 		}
-		if(loc_seq == questions_block.size())
+		if(loc_seq > 0 && loc_seq % questions_block.size() == 0)
 		{
 			std::fstream statusfile;
-			statusfile.open("status1.txt", std::fstream::out | std::fstream::app);
+			statusfile.open(statusfilename, std::fstream::out | std::fstream::app);
 			for(auto iter = questions_block.begin(); iter != questions_block.end(); ++iter)
 			{
 				q_type which_q = iter->second->first;
@@ -505,7 +608,7 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 				statusfile << "|" << ((int)asked);
 				statusfile << "|" << sequence_number << "|";
 				statusfile << "success";
-				iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
+				iter->second->second.second -= score_improve_if_success +(gen()%5)*.01;
 				statusfile << "\n";
 			}
 			statusfile.close();
@@ -663,7 +766,7 @@ repeat_question:
 			);
 		iter0->second.first = sequence_number;
 		std::fstream statusfile;
-		statusfile.open("status1.txt", std::fstream::out | std::fstream::app);
+		statusfile.open(statusfilename, std::fstream::out | std::fstream::app);
 		statusfile << current->get(DATATYPE_CHINESE);
 		statusfile << "|";
 		statusfile << current->get(DATATYPE_PINYIN);

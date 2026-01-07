@@ -4,8 +4,9 @@
 
 int main()
 {
-	chinese::questions q("status1.txt");
+	chinese::questions q("status2.txt");
 	q.load_file("union_q.txt");
+	q.load_file_hsk("union_hsk.txt");
 
 	q.init();
 

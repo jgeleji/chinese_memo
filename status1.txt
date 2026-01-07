@@ -20573,3 +20573,138 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 点外卖|diǎnwàimài|order takeout|2|1|15408|success
 最近|zuìjìn|lately|2|1|15408|success
 恐怖片|kǒngbùpiàn|horror film|2|0|15408|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|15550|success
+北京外国语大学|běijīngwàiguóyǔdàxué|beijing foreign studies university|0|2|15550|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|15550|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|15550|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|15550|success
+重要|zhòngyào|important|1|2|15550|success
+当然|dāngrán|of course|1|2|15550|success
+过|guò|cross|0|2|15550|success
+过|guò|cross|2|0|15550|success
+年轻|niánqīng|young|1|2|15550|success
+都|dōu|all|0|1|15550|success
+来|lái|come|2|1|15550|success
+骑|qí|ride|0|1|15550|success
+礼物|lǐwù|gift|1|0|15550|success
+修理汽车|xiūlǐqìchē|repair car|1|0|15550|success
+不客气|bùkèqì|you are welcome|0|1|15592|success
+歌手|gēshǒu|singer|2|0|15592|success
+年轻|niánqīng|young|1|2|15592|success
+过|guò|cross|2|0|15592|success
+可以|kěyǐ|possible|1|0|15592|success
+来|lái|come|2|1|15592|success
+来|lái|come|0|2|15592|success
+都|dōu|all|0|1|15592|success
+听|tīng|listen, hear|2|1|15592|success
+歌剧院|gējùyuàn|opera|0|2|15592|success
+都|dōu|all|1|2|15592|success
+骑|qí|ride|0|1|15592|success
+练功夫|liàngōngfū|practice kung fu|0|1|15592|success
+礼物|lǐwù|gift|1|0|15592|success
+修理汽车|xiūlǐqìchē|repair car|1|0|15592|success
+孔子|Kǒngzǐ|confucius|0|1|15693|success
+全身|quánshēn|whole body|1|0|15693|success
+前面|qiánmiàn|in front|0|2|15693|success
+宝贝|bǎobèi|baby|1|2|15693|success
+新鲜|xīnxiān|fresh|1|0|15693|success
+前面|qiánmiàn|in front|1|0|15693|success
+可以|kěyǐ|possible|1|0|15693|success
+红烧肉|hóngshāoròu|braised pork|1|2|15693|success
+鸡蛋液煎面包|jīdànyèjiānmiànbāo|egg liquid fried bread|0|2|15693|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|15693|success
+豆浆|dòujiāng|soy milk|0|1|15693|success
+电子邮件|diànziyóujiàn|email|2|1|15693|success
+东莞|dōngguǎn|dongguan|1|2|15693|success
+看见|kànjiàn|see|1|0|15693|success
+后|hòu|after|2|1|15693|success
+燕麦粥|yànmàizhōu|oatmeal|1|2|15824|success
+消防局|xiāofángjú|fire station|1|0|15824|success
+同意|tóngyì|agree|0|1|15824|success
+歌剧院|gējùyuàn|opera|0|2|15824|success
+不高|bùgāo|not tall|2|1|15824|success
+百合|bǎihé|lily|1|2|15824|success
+练功夫|liàngōngfū|practice kung fu|0|1|15824|success
+因为|yīnwèi|because|0|1|15824|success
+狮子|shīzi|lion|0|1|15824|success
+忧虑|yōulǜ|worry|2|0|15824|success
+服务员|fúwùyuán|waiter|0|2|15824|success
+回答|huídá|answer|1|0|15824|success
+脸书|liǎnshū|facebook|1|0|15824|success
+炖肉夹馍|dùnròujiāmó|braised meat sandwich|1|0|15824|success
+后|hòu|after|2|1|15824|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|15959|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|15959|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|15959|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15959|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|15959|success
+电子邮件|diànziyóujiàn|email|0|2|15959|success
+不要紧|bùyàojǐn|it's okay|1|2|15959|success
+几十个|jǐshígè|multiple of ten|1|2|15959|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|15959|success
+办婚礼|bànhūnlǐ|get married|2|0|15959|success
+斑马|bānmǎ|zebra|0|2|15959|success
+看见|kànjiàn|see|1|0|15959|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|15959|success
+性别|xìngbié|gender|2|0|15959|success
+阅读|yuèdú|reading|0|1|15959|success
+交通堵塞|jiāotōngdǔsè|traffic jam|0|2|15974|success
+很长时间|hěnzhǎngshíjiān|for a long time|1|2|15974|success
+芝士面包|zhīshìmiànbāo|cheese bread|1|0|15974|success
+恐怖片|kǒngbùpiàn|horror film|2|0|15974|success
+火锅汤非常热|huǒguōtāngfēichángrè|the hot pot soup is very hot|1|0|15974|success
+电子邮件|diànziyóujiàn|email|0|2|15974|success
+不要紧|bùyàojǐn|it's okay|1|2|15974|success
+几十个|jǐshígè|multiple of ten|1|2|15974|success
+野生酸面包|yěshēngsuānmiànbāo|wild sourdough bread|1|0|15974|success
+办婚礼|bànhūnlǐ|get married|2|0|15974|success
+斑马|bānmǎ|zebra|0|2|15974|success
+看见|kànjiàn|see|1|0|15974|success
+英雄广场|yīngxióngguǎngchǎng|heroes square|1|0|15974|success
+性别|xìngbié|gender|2|0|15974|success
+阅读|yuèdú|reading|0|1|15974|success
+交朋友|jiāopéngyǒu|make friends|0|2|16044|success
+休息|xiūxī|take rest|0|1|16044|success
+假的|jiǎde|lie|2|0|16044|success
+开会|kāihuì|meeting|2|0|16044|success
+恐怖片|kǒngbùpiàn|horror film|1|2|16044|success
+新鲜|xīnxiān|fresh|2|1|16044|success
+男|nán|male|0|2|16044|success
+男朋友|nánpéngyǒu|boyfriend|0|2|16044|success
+笑容|xiàoróng|smile|2|0|16044|success
+等|děng|wait|0|2|16044|success
+经常|jīngcháng|often|1|0|16044|success
+聊运动|liáoyùndòng|talk about sports|0|2|16044|success
+音乐家|yīnyuèjiā|musician|2|0|16044|success
+食谱|shípǔ|recipe|1|2|16044|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|16044|success
+交朋友|jiāopéngyǒu|make friends|0|2|16059|success
+休息|xiūxī|take rest|0|1|16059|success
+假的|jiǎde|lie|2|0|16059|success
+开会|kāihuì|meeting|2|0|16059|success
+恐怖片|kǒngbùpiàn|horror film|1|2|16059|success
+新鲜|xīnxiān|fresh|2|1|16059|success
+男|nán|male|0|2|16059|success
+男朋友|nánpéngyǒu|boyfriend|0|2|16059|success
+笑容|xiàoróng|smile|2|0|16059|success
+等|děng|wait|0|2|16059|success
+经常|jīngcháng|often|1|0|16059|success
+聊运动|liáoyùndòng|talk about sports|0|2|16059|success
+音乐家|yīnyuèjiā|musician|2|0|16059|success
+食谱|shípǔ|recipe|1|2|16059|success
+国家博物馆|guójiābówùguǎn|national museum|1|0|16059|success
+下身|xiàshēn|lower body|1|2|16185|success
+为了|wèile|for the purpose of|1|0|16185|success
+他长得很高|tāzhǎngdéhěngāo|he is tall|0|2|16185|success
+低|dī|low|2|0|16185|success
+包|bāo|bag|1|0|16185|success
+圣诞节|shèngdànjié|christmas|0|2|16185|success
+开会|kāihuì|meeting|1|2|16185|success
+很长时间|hěnzhǎngshíjiān|for a long time|2|1|16185|success
+性|xìng|sex|2|1|16185|success
+晚一点儿|wǎnyīdiǎner|later|0|2|16185|success
+牙|yá|tooth|2|0|16185|success
+用|yòng|use|0|2|16185|success
+疾病|jíbìng|illness|1|2|16185|success
+豆浆机|dòujiāngjī|soy milk machine|0|1|16185|success
+运动场|yùndòngchǎng|sports field|0|1|16185|success

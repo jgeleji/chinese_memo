@@ -6,7 +6,7 @@
 
 int main(int argc, const char* argv[])
 {
-	chinese::questions ques;
+	chinese::questions ques("status1.txt");
 	ques.load_file("union_q.txt");
 	ques.populate_chinese_char_to_index();
 
