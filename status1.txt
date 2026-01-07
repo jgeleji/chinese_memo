@@ -20723,3 +20723,108 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 谁得了第一名？|shéidéledìyīmíng?|who got first place? |0|2|16285|success
 跟|gēn|and|0|2|16285|success
 需要|xūyào|need|2|1|16285|success
+年轻|niánqīng|young|0|1|16305|success
+来|lái|come|2|0|16305|success
+礼物|lǐwù|gift|1|0|16305|success
+过|guò|cross|2|1|16305|success
+国家博物馆|guójiābówùguǎn|national museum|0|1|16305|success
+听|tīng|listen, hear|2|1|16305|success
+都|dōu|all|1|2|16305|success
+不客气|bùkèqì|you are welcome|2|1|16305|success
+年轻|niánqīng|young|1|2|16305|success
+骑|qí|ride|0|1|16305|success
+当然|dāngrán|of course|1|2|16305|success
+重要|zhòngyào|important|1|2|16305|success
+年轻|niánqīng|young|2|0|16305|success
+祝|zhù|wish hope|2|0|16305|success
+过|guò|cross|0|2|16305|success
+年轻|niánqīng|young|0|1|16320|success
+来|lái|come|2|0|16320|success
+礼物|lǐwù|gift|1|0|16320|success
+过|guò|cross|2|1|16320|success
+国家博物馆|guójiābówùguǎn|national museum|0|1|16320|success
+听|tīng|listen, hear|2|1|16320|success
+都|dōu|all|1|2|16320|success
+不客气|bùkèqì|you are welcome|2|1|16320|success
+年轻|niánqīng|young|1|2|16320|success
+骑|qí|ride|0|1|16320|success
+当然|dāngrán|of course|1|2|16320|success
+重要|zhòngyào|important|1|2|16320|success
+年轻|niánqīng|young|2|0|16320|success
+祝|zhù|wish hope|2|0|16320|success
+过|guò|cross|0|2|16320|success
+年轻|niánqīng|young|0|1|16335|success
+来|lái|come|2|0|16335|success
+礼物|lǐwù|gift|1|0|16335|success
+过|guò|cross|2|1|16335|success
+国家博物馆|guójiābówùguǎn|national museum|0|1|16335|success
+听|tīng|listen, hear|2|1|16335|success
+都|dōu|all|1|2|16335|success
+不客气|bùkèqì|you are welcome|2|1|16335|success
+年轻|niánqīng|young|1|2|16335|success
+骑|qí|ride|0|1|16335|success
+当然|dāngrán|of course|1|2|16335|success
+重要|zhòngyào|important|1|2|16335|success
+年轻|niánqīng|young|2|0|16335|success
+祝|zhù|wish hope|2|0|16335|success
+过|guò|cross|0|2|16335|success
+恭喜|gōngxǐ|congratulations|0|2|16396|success
+歌手|gēshǒu|singer|0|2|16396|success
+听|tīng|listen, hear|1|0|16396|success
+来|lái|come|0|2|16396|success
+都|dōu|all|0|1|16396|success
+坐|zuò|take|1|2|16396|success
+年轻|niánqīng|young|1|0|16396|success
+年轻|niánqīng|young|2|1|16396|success
+来|lái|come|2|1|16396|success
+歌手|gēshǒu|singer|1|0|16396|success
+汽车|qìchē|car|1|2|16396|success
+过|guò|cross|0|1|16396|success
+都|dōu|all|0|2|16396|success
+时间|shíjiān|time|0|2|16396|success
+不客气|bùkèqì|you are welcome|0|1|16396|success
+恭喜|gōngxǐ|congratulations|0|2|16411|success
+歌手|gēshǒu|singer|0|2|16411|success
+听|tīng|listen, hear|1|0|16411|success
+来|lái|come|0|2|16411|success
+都|dōu|all|0|1|16411|success
+坐|zuò|take|1|2|16411|success
+年轻|niánqīng|young|1|0|16411|success
+年轻|niánqīng|young|2|1|16411|success
+来|lái|come|2|1|16411|success
+歌手|gēshǒu|singer|1|0|16411|success
+汽车|qìchē|car|1|2|16411|success
+过|guò|cross|0|1|16411|success
+都|dōu|all|0|2|16411|success
+时间|shíjiān|time|0|2|16411|success
+不客气|bùkèqì|you are welcome|0|1|16411|success
+上身|shàngshēn|upper body|1|0|16548|success
+免费|miǎnfèi|free|1|2|16548|success
+全中国|quánzhōngguó|whole china|2|1|16548|success
+嘴唇|zuǐchún|lips|0|2|16548|success
+女|nǚ|female|0|2|16548|success
+比|bǐ|compare|0|1|16548|success
+白雪公主|báixuěgōngzhǔ|snow white|1|0|16548|success
+修理汽车|xiūlǐqìchē|repair car|1|0|16548|success
+不客气|bùkèqì|you are welcome|1|2|16548|success
+年轻|niánqīng|young|0|2|16548|success
+过|guò|cross|2|0|16548|success
+听|tīng|listen, hear|0|1|16548|success
+欢迎|huānyíng|welcome|2|0|16548|success
+歌手|gēshǒu|singer|2|0|16548|success
+都|dōu|all|2|0|16548|success
+上网|shàngwǎng|online surfing|1|2|16685|success
+为了|wèile|for the purpose of|1|2|16685|success
+别|bié|pin|0|1|16685|success
+别|bié|pin|1|0|16685|success
+加班|jiābān|overtime|1|0|16685|success
+十年前|shíniánqián|ten years ago|2|0|16685|success
+图书馆|túshūguǎn|library|0|1|16685|success
+很久|hěnjiǔ|long time|0|1|16685|success
+性别|xìngbié|gender|1|2|16685|success
+正要|zhèngyào|about to do something else|1|2|16685|success
+练习|liànxí|practice|0|2|16685|success
+网上|wǎngshàng|online|1|0|16685|success
+老同学|lǎotóngxué|old classmate|0|2|16685|success
+胖|pàng|fat|0|1|16685|success
+音乐家|yīnyuèjiā|musician|0|1|16685|success

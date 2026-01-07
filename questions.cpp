@@ -388,7 +388,7 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 			double before = iter->second.second;
 			
 			iter->second.second = std::max(before + change,
-					(double)global_total/recurrence_scores.size() - 15
+					(double)global_total/recurrence_scores.size() - 1.5
 				);
 			global_total += change;
 		}
