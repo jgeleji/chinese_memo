@@ -20828,3 +20828,33 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 老同学|lǎotóngxué|old classmate|0|2|16685|success
 胖|pàng|fat|0|1|16685|success
 音乐家|yīnyuèjiā|musician|0|1|16685|success
+休婚假|xiūhūnjiǎ|take a marriage leave|2|0|16801|success
+停车位|tíngchēwèi|parking spot|0|2|16801|success
+同事|tóngshì|coworker|0|1|16801|success
+回来|huílái|come back|1|2|16801|success
+墨镜|mòjìng|sunglasses|2|1|16801|success
+学习|xuéxí|study|0|2|16801|success
+小学|xiǎoxué|primary school|0|1|16801|success
+打乒乓球|dǎpīngpāngqiú|play ping-pong|1|2|16801|success
+正要|zhèngyào|about to do something else|2|0|16801|success
+游泳馆|yóuyǒngguǎn|swimming pool|0|1|16801|success
+眼镜|yǎnjìng|glasses|1|2|16801|success
+线|xiàn|metro line|1|0|16801|success
+辆|liàng|m.w.car|0|2|16801|success
+长靴|zhǎngxuē|boots|1|0|16801|success
+鞋子|xiézi|shoes|2|0|16801|success
+80周年|80zhōunián|80th anniversary|0|1|16878|success
+交朋友|jiāopéngyǒu|make friends|0|1|16878|success
+他长得很高|tāzhǎngdéhěngāo|he is tall|2|0|16878|success
+体育馆|tǐyùguǎn|gymnasium|2|1|16878|success
+别人|biérén|other people|1|0|16878|success
+加班|jiābān|overtime|1|2|16878|success
+同事|tóngshì|coworker|1|0|16878|success
+回来|huílái|come back|2|0|16878|success
+学习|xuéxí|study|2|1|16878|success
+棒|bàng|great|2|1|16878|success
+男性|nánxìng|male|0|2|16878|success
+男性|nánxìng|male|2|0|16878|success
+网络|wǎngluò|network|0|2|16878|success
+袜子|wàzi|socks|2|1|16878|success
+西单|xīdān|xidan|0|1|16878|success
