@@ -20858,3 +20858,108 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 网络|wǎngluò|network|0|2|16878|success
 袜子|wàzi|socks|2|1|16878|success
 西单|xīdān|xidan|0|1|16878|success
+他长得很高|tāzhǎngdéhěngāo|he is tall|0|1|16977|success
+付|fù|pay|0|2|16977|success
+升职|shēngzhí|promotion|0|1|16977|success
+幽默|yōumò|humor|1|2|16977|success
+开|kāi|start|2|1|16977|success
+晚安|wǎnān|good night|1|0|16977|success
+有用|yǒuyòng|useful|0|2|16977|success
+电视剧|diànshìjù|television series|2|1|16977|success
+聊房子|liáofángzi|talk about houses|2|1|16977|success
+诊所|zhěnsuǒ|clinic|2|1|16977|success
+身体|shēntǐ|body|1|0|16977|success
+还是临时抱佛脚？|háishìlínshíbàofújiǎo?|still cramming at the last minute?|1|2|16977|success
+逛街|guàngjiē|go shopping|1|0|16977|success
+长|zhǎng|long|1|0|16977|success
+鞋子|xiézi|shoes|0|2|16977|success
+你周末过得好吗？|nǐzhōumòguòdéhǎoma?|did you enjoy the weekend?|0|1|17081|success
+全中国|quánzhōngguó|whole china|2|0|17081|success
+功夫片|gōngfūpiàn|kung fu film|0|2|17081|success
+听说|tīngshuō|it is said|2|1|17081|success
+和_聊天|hé_liáotiān|chat with _|0|1|17081|success
+和_聊天|hé_liáotiān|chat with _|2|1|17081|success
+宝贝|bǎobèi|baby|1|0|17081|success
+平时|píngshí|regular times|2|1|17081|success
+或者|huòzhě|or in affirmative sentence|2|1|17081|success
+晚安|wǎnān|good night|0|1|17081|success
+甜|tián|sweet|0|2|17081|success
+真的吗|zhēndema|really?|0|1|17081|success
+紧张|jǐnzhāng|anxious|1|0|17081|success
+网络|wǎngluò|network|2|1|17081|success
+节日上|jiérìshàng|on holidays|2|1|17081|success
+付|fù|pay|0|1|17171|success
+台|tái|m.w.computer|0|2|17171|success
+听说|tīngshuō|it is said|2|0|17171|success
+恐怖片|kǒngbùpiàn|horror film|2|1|17171|success
+打车|dǎchē|take taxi|0|2|17171|success
+树|shù|tree|2|1|17171|success
+棒|bàng|great|1|2|17171|success
+没关系|méiguānxì|doesn't matter|2|0|17171|success
+电视剧|diànshìjù|television series|1|2|17171|success
+看望|kànwàng|visit|1|2|17171|success
+聊朋友|liáopéngyǒu|chat with friends|0|2|17171|success
+衬衫|chènshān|shirt|2|0|17171|success
+裙子|qúnzi|dress|2|0|17171|success
+饭准备好了吗|fànzhǔnbèihǎolema|is food ready?|0|1|17171|success
+鼻子|bízi|nose|1|2|17171|success
+个子|gèzi|height|1|0|17274|success
+临时|línshí|temporary|2|1|17274|success
+以后|yǐhòu|afterward|2|0|17274|success
+公交车没有出租车快|gōngjiāochēméiyǒuchūzūchēkuài|bus is not faster than taxi|1|0|17274|success
+女|nǚ|female|2|0|17274|success
+性|xìng|sex|0|2|17274|success
+换了|huànle|changed|0|2|17274|success
+晚安|wǎnān|good night|1|2|17274|success
+正要|zhèngyào|about to do something else|0|1|17274|success
+用|yòng|use|1|2|17274|success
+系|xì|department, school|2|0|17274|success
+裙子|qúnzi|dress|0|2|17274|success
+西单|xīdān|xidan|1|0|17274|success
+谁得了第一名？|shéidéledìyīmíng?|who got first place? |2|1|17274|success
+身高|shēngāo|height|2|1|17274|success
+全中国|quánzhōngguó|whole china|1|2|17375|success
+准备|zhǔnbèi|prepare|2|0|17375|success
+台湾|táiwān|taiwan|2|1|17375|success
+同事|tóngshì|coworker|2|0|17375|success
+平时|píngshí|regular times|0|1|17375|success
+戏剧|xìjù|theater|2|0|17375|success
+热身|rèshēn|warm up|0|1|17375|success
+电视剧|diànshìjù|television series|0|1|17375|success
+练习|liànxí|practice|1|2|17375|success
+考试|kǎoshì|exam|2|1|17375|success
+耶稣|yésū|jesus|1|2|17375|success
+蛋糕店|dàngāodiàn|cake shop|1|2|17375|success
+见|jiàn|see you later|2|1|17375|success
+需要|xūyào|need|1|0|17375|success
+领带|lǐngdài|tie|2|0|17375|success
+件|jiàn|m.w.clothes|2|0|17513|success
+可靠|kěkào|reliable|0|2|17513|success
+听说|tīngshuō|it is said|1|2|17513|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|1|2|17513|success
+如果|rúguǒ|if|1|2|17513|success
+小学|xiǎoxué|primary school|2|1|17513|success
+广场|guǎngchǎng|square|0|2|17513|success
+开始|kāishǐ|start|1|2|17513|success
+找|zhǎo|look for|0|1|17513|success
+熬夜|áoyè|stay up late|0|2|17513|success
+熬夜|áoyè|stay up late|2|1|17513|success
+甜甜的笑容|tiántiándexiàoróng|sweet smile|2|0|17513|success
+瘦|shòu|thin|0|2|17513|success
+白马王子|báimǎwángzi|white horse prince|2|1|17513|success
+看望|kànwàng|visit|1|0|17513|success
+件|jiàn|m.w.clothes|2|0|17528|success
+可靠|kěkào|reliable|0|2|17528|success
+听说|tīngshuō|it is said|1|2|17528|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|1|2|17528|success
+如果|rúguǒ|if|1|2|17528|success
+小学|xiǎoxué|primary school|2|1|17528|success
+广场|guǎngchǎng|square|0|2|17528|success
+开始|kāishǐ|start|1|2|17528|success
+找|zhǎo|look for|0|1|17528|success
+熬夜|áoyè|stay up late|0|2|17528|success
+熬夜|áoyè|stay up late|2|1|17528|success
+甜甜的笑容|tiántiándexiàoróng|sweet smile|2|0|17528|success
+瘦|shòu|thin|0|2|17528|success
+白马王子|báimǎwángzi|white horse prince|2|1|17528|success
+看望|kànwàng|visit|1|0|17528|success
