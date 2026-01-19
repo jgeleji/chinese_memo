@@ -20963,3 +20963,48 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 瘦|shòu|thin|0|2|17528|success
 白马王子|báimǎwángzi|white horse prince|2|1|17528|success
 看望|kànwàng|visit|1|0|17528|success
+公交车没有出租车快|gōngjiāochēméiyǒuchūzūchēkuài|bus is not faster than taxi|2|0|17658|success
+宜家|yíjiā|ikea|1|2|17658|success
+性|xìng|sex|1|0|17658|success
+没用|méiyòng|useless|1|0|17658|success
+男生|nánshēng|boy|1|2|17658|success
+耶稣|yésū|jesus|2|1|17658|success
+聊朋友|liáopéngyǒu|chat with friends|2|1|17658|success
+自己|zìjǐ|self|1|0|17658|success
+见面|jiànmiàn|meet|1|0|17658|success
+路|lù|number of bus|2|0|17658|success
+辣椒|làjiāo|chili pepper|2|0|17658|success
+还是|háishì|or in question|0|1|17658|success
+银行|yínháng|bank|1|2|17658|success
+陪|péi|accompany|2|1|17658|success
+饭准备好了吗|fànzhǔnbèihǎolema|is food ready?|2|1|17658|success
+不要|bùyào|don't|2|1|17737|success
+中国通|zhōngguótōng|people who know china well|2|1|17737|success
+临时工作|línshígōngzuò|temporary job|2|1|17737|success
+为了|wèile|for the purpose of|0|2|17737|success
+之后|zhīhòu|after that|2|0|17737|success
+别生气|biéshēngqì|don't get angry|0|1|17737|success
+可爱|kěài|cute|2|0|17737|success
+外面|wàimiàn|outside|1|0|17737|success
+性|xìng|sex|1|2|17737|success
+我坐了半个小时的车才到学校。|wǒzuòlebàngèxiǎoshídechēcáidàoxuéxiào.|it took me half an hour by bus/car to finally get to school.|0|1|17737|success
+浪漫|làngmàn|romantic|1|0|17737|success
+特别|tèbié|especially|2|0|17737|success
+耶稣|yésū|jesus|0|1|17737|success
+节日上|jiérìshàng|on holidays|1|0|17737|success
+逛街|guàngjiē|go shopping|0|1|17737|success
+努力|nǔlì|hard working|0|1|16470|success
+努力|nǔlì|hard working|0|2|16470|success
+努力|nǔlì|hard working|2|0|16470|success
+公斤|gōngjīn|kilogram|0|2|16470|success
+复活节|fùhuójié|easter|1|2|16470|success
+复活节|fùhuójié|easter|2|1|16470|success
+做客|zuòkè|guest|2|0|16470|success
+极|jí|extremely|1|2|16470|success
+极|jí|extremely|2|1|16470|success
+介绍|jièshào|introduce|0|2|16470|success
+介绍|jièshào|introduce|1|2|16470|success
+介绍|jièshào|introduce|2|0|16470|success
+一下儿|yīxiàer|try do sth|0|2|16470|success
+一下儿|yīxiàer|try do sth|1|2|16470|success
+一下儿|yīxiàer|try do sth|2|0|16470|success

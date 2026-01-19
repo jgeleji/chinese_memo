@@ -459,11 +459,14 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 	{
 		equal_chances.push_back(iter->second);
 	}
-	//std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
 	//std::reverse(equal_chances.begin(), equal_chances.end());
 	int loc_seq=0;
 	while(1)
 	{
+		if(loc_seq % equal_chances.size() == 0)
+		{
+			std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
+		}
 		++sequence_number;
 
 		auto iter00 = equal_chances.begin();
