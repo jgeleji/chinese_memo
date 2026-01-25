@@ -783,3 +783,17 @@ std::string chinese::Input::do_input_1char_chinese(
 	return ch_ch_vec[(number-1) % ch_ch_vec.size()];
 }
 
+int chinese::Input::count_unicode_code_points(std::string const& str)
+{
+    int count = 0;
+    for (unsigned char c : str)
+    {
+        // In UTF-8, code points start with bytes that are NOT 10xxxxxx
+        if ((c & 0b11000000) != 0b10000000)
+        {
+            ++count;
+        }
+    }
+    return count;
+}
+

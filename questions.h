@@ -6,6 +6,7 @@
 #include <unordered_set>
 #include <unordered_map>
 #include <map>
+#include <functional>
 #include "input.h"
 
 namespace chinese
@@ -32,8 +33,12 @@ class questions
 		void load_file_hsk(std::string const& filename);
 		void load_file(std::string const& filename);
 	
-		bool ask_all_until_fail(int breaks = 0) const;
-		bool ask_all_until_fail_block10(int breaks = 0) const;
+		bool ask_all_until_fail(
+			std::function<double(int)> f = [](int) -> double { return 0.0; },
+			int breaks = 0) const;
+		bool ask_all_until_fail_block10(
+			std::function<double(int)> f = [](int) -> double { return 0.0; },
+			int breaks = 0) const;
 		void populate_chinese_char_to_index();
 
 		bool ask_1_chinese_char(

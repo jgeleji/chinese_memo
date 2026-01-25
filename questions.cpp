@@ -252,27 +252,6 @@ void chinese::questions::statistics_screen(
 	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
 	{
 		double score = iter->second.second;
-		if(false && score < -4)
-		{
-			have_overloaded = true;
-			std::cout << "Overloaded score(" << score << "). ";
-			std::cout << loaded_data[std::get<0>(iter->first)].chinese;
-			int provided = std::get<1>(iter->first);
-			int asked = std::get<2>(iter->first);
-			std::cout << " " << provided;
-			std::cout << " " << asked;
-			std::cout << "\r\n";
-			std::fstream statusfile;
-			statusfile.open(statusfilename, std::fstream::out | std::fstream::app);
-			statusfile << loaded_data[std::get<0>(iter->first)].chinese;
-			statusfile << "|";
-			statusfile << loaded_data[std::get<0>(iter->first)].pinyin;
-			statusfile << "|";
-			statusfile << loaded_data[std::get<0>(iter->first)].english;
-			statusfile << "|" << ((int)provided);
-			statusfile << "|" << ((int)asked);
-			statusfile << "|0|fail\n";
-		}
 		total_score += score;
 		if(score < 0.0)
 		{
@@ -394,15 +373,16 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 		}
 		else if(tokens[6] == "fail")
 		{
-			typedef int mintype;
+			typedef int min_type;
+			//typedef double min_type;
 			double before = iter->second.second;
 			iter->second.second = 
 				std::min(
 					std::max(
-						(mintype)4,
-						(mintype)(max_complexity*tokens[0].size()/6)
+						(min_type)4,
+						(min_type)(max_complexity*tokens[0].size()/6)
 					),
-					(mintype)(iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001)
+					(min_type)(iter->second.second + score_deteriorate_if_fail + (gen()%5000)*.00001)
 				);
 			double after = iter->second.second;
 			global_total += after - before;
@@ -413,7 +393,9 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 	return recurrence_scores;
 }
 
-bool chinese::questions::ask_all_until_fail_block10(int breaks) const
+bool chinese::questions::ask_all_until_fail_block10(
+	std::function<double(int)> f,
+	int breaks) const
 {
 	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
 	double score_improve_if_success = 1.04;
@@ -423,6 +405,18 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 	size_t sequence_number = 0;
 
 	auto recurrence_scores = load_status_file(gen, sequence_number, score_improve_if_success, score_deteriorate_if_fail, max_complexity);
+
+	statistics_screen(recurrence_scores, breaks);
+
+	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++ iter)
+	{
+		q_type theq = iter->first;
+		const datapoint* dp = &loaded_data[std::get<0>(theq)];
+		double modifier = f(chinese::Input::count_unicode_code_points(dp->chinese));
+		if(std::get<1>(theq) == DATATYPE_CHINESE)
+			modifier += 1;
+		iter->second.second += modifier;
+	}
 
 	statistics_screen(recurrence_scores, breaks);
 
@@ -459,14 +453,11 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 	{
 		equal_chances.push_back(iter->second);
 	}
+	std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
 	//std::reverse(equal_chances.begin(), equal_chances.end());
 	int loc_seq=0;
 	while(1)
 	{
-		if(loc_seq % equal_chances.size() == 0)
-		{
-			std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
-		}
 		++sequence_number;
 
 		auto iter00 = equal_chances.begin();
@@ -615,12 +606,15 @@ bool chinese::questions::ask_all_until_fail_block10(int breaks) const
 				statusfile << "\n";
 			}
 			statusfile.close();
+			std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
 		}
 	}
 	return true;
 }
 
-bool chinese::questions::ask_all_until_fail(int breaks) const
+bool chinese::questions::ask_all_until_fail(
+	std::function<double(int)> f,
+	int breaks) const
 {
 	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
 	double score_improve_if_success = 1.04;
@@ -633,6 +627,14 @@ bool chinese::questions::ask_all_until_fail(int breaks) const
 
 	statistics_screen(recurrence_scores, breaks);
 
+
+	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++ iter)
+	{
+		q_type theq = iter->first;
+		const datapoint* dp = &loaded_data[std::get<0>(theq)];
+		double modifier = f(chinese::Input::count_unicode_code_points(dp->chinese));
+		iter->second.second += modifier;
+	}
 //noreshuffle:
 	while(1)
 	{

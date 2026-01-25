@@ -84,6 +84,8 @@ class Input
 		static std::string pinyin_flatten_1syll(std::string const& raw_pinyin, int& tone);
 
 		static const std::vector<std::pair<std::string, std::string>> replace;
+
+		static int count_unicode_code_points(std::string const& str);
 };
 
 }

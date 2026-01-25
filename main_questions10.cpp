@@ -9,7 +9,10 @@ int main()
 
 	q.init();
 
-	q.ask_all_until_fail_block10(std::max(0, q.cols()/7));
+	q.ask_all_until_fail_block10(
+		//[] (int i) -> double { return -0.1*i*i; },
+		[] (int i) -> double { return 0.0; },
+		std::max(0, q.cols()/7));
 
 	return 0;
 }
