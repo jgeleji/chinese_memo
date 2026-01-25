@@ -21008,3 +21008,33 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 一下儿|yīxiàer|try do sth|0|2|16470|success
 一下儿|yīxiàer|try do sth|1|2|16470|success
 一下儿|yīxiàer|try do sth|2|0|16470|success
+到|dào|reach|0|2|17784|success
+甜|tián|sweet|0|1|17784|success
+因为|yīnwèi|because|0|1|17784|success
+干豆|gàndòu|dried bean|0|2|17784|success
+歌手|gēshǒu|singer|0|1|17784|success
+汽车|qìchē|car|0|2|17784|success
+食堂|shítáng|canteen|0|2|17784|success
+华山|huáshān|mount hua|0|1|17784|success
+草莓|cǎoméi|strawberry|0|2|17784|success
+同学|tóngxué|classmate|0|2|17784|success
+百万|bǎiwàn|million|0|2|17784|success
+坐|zuò|take|0|2|17784|success
+只|zhǐ|m.w.animal|0|1|17784|success
+听|tīng|listen, hear|0|1|17784|success
+坐|zuò|take|0|1|17784|success
+到|dào|reach|0|2|17799|success
+甜|tián|sweet|0|1|17799|success
+因为|yīnwèi|because|0|1|17799|success
+干豆|gàndòu|dried bean|0|2|17799|success
+歌手|gēshǒu|singer|0|1|17799|success
+汽车|qìchē|car|0|2|17799|success
+食堂|shítáng|canteen|0|2|17799|success
+华山|huáshān|mount hua|0|1|17799|success
+草莓|cǎoméi|strawberry|0|2|17799|success
+同学|tóngxué|classmate|0|2|17799|success
+百万|bǎiwàn|million|0|2|17799|success
+坐|zuò|take|0|2|17799|success
+只|zhǐ|m.w.animal|0|1|17799|success
+听|tīng|listen, hear|0|1|17799|success
+坐|zuò|take|0|1|17799|success
