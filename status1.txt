@@ -21038,3 +21038,63 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 只|zhǐ|m.w.animal|0|1|17799|success
 听|tīng|listen, hear|0|1|17799|success
 坐|zuò|take|0|1|17799|success
+买卖|mǎimài|busy|0|2|17953|success
+你困了吗|nǐkùnlema|are you sleepy|0|2|17953|success
+图书馆|túshūguǎn|library|0|2|17953|success
+帮忙|bāngmáng|do a favor|0|1|17953|success
+开会|kāihuì|meeting|0|2|17953|success
+开药|kāiyào|prescribe medicine|0|2|17953|success
+戏剧|xìjù|theater|0|2|17953|success
+暖和|nuǎnhuo|warm|0|2|17953|success
+短裤|duǎnkù|shorts|0|1|17953|success
+系|xì|department, school|0|1|17953|success
+网球场|wǎngqiúchǎng|tennis court|0|2|17953|success
+要是|yàoshì|if|0|1|17953|success
+诊所|zhěnsuǒ|clinic|0|1|17953|success
+逛|guàng|hang out|0|2|17953|success
+错误代码|cuòwùdàimǎ|error code|0|1|17953|success
+买卖|mǎimài|busy|0|2|17968|success
+你困了吗|nǐkùnlema|are you sleepy|0|2|17968|success
+图书馆|túshūguǎn|library|0|2|17968|success
+帮忙|bāngmáng|do a favor|0|1|17968|success
+开会|kāihuì|meeting|0|2|17968|success
+开药|kāiyào|prescribe medicine|0|2|17968|success
+戏剧|xìjù|theater|0|2|17968|success
+暖和|nuǎnhuo|warm|0|2|17968|success
+短裤|duǎnkù|shorts|0|1|17968|success
+系|xì|department, school|0|1|17968|success
+网球场|wǎngqiúchǎng|tennis court|0|2|17968|success
+要是|yàoshì|if|0|1|17968|success
+诊所|zhěnsuǒ|clinic|0|1|17968|success
+逛|guàng|hang out|0|2|17968|success
+错误代码|cuòwùdàimǎ|error code|0|1|17968|success
+上班|shàngbān|go to work|0|1|18081|success
+不要|bùyào|don't|0|2|18081|success
+不要紧|bùyàojǐn|it's okay|0|1|18081|success
+别|bié|don't|0|2|18081|success
+动画片|dònghuàpiàn|animated film|0|1|18081|success
+可靠|kěkào|reliable|0|1|18081|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|0|1|18081|success
+女士|nǚshì|miss|0|2|18081|success
+她个子有点儿高。|tāgèziyǒudiǎnergāo.|she is a bit tall.|0|1|18081|success
+新鲜|xīnxiān|fresh|0|1|18081|success
+特别|tèbié|especially|0|1|18081|success
+病好了吗|bìnghǎolema|are you feeling better?|0|1|18081|success
+米|mǐ|metre|0|1|18081|success
+网上|wǎngshàng|online|0|2|18081|success
+逛街|guàngjiē|go shopping|0|2|18081|success
+上班|shàngbān|go to work|0|1|18096|success
+不要|bùyào|don't|0|2|18096|success
+不要紧|bùyàojǐn|it's okay|0|1|18096|success
+别|bié|don't|0|2|18096|success
+动画片|dònghuàpiàn|animated film|0|1|18096|success
+可靠|kěkào|reliable|0|1|18096|success
+哪里哪里|nǎlǐnǎlǐ|nothing (humble)|0|1|18096|success
+女士|nǚshì|miss|0|2|18096|success
+她个子有点儿高。|tāgèziyǒudiǎnergāo.|she is a bit tall.|0|1|18096|success
+新鲜|xīnxiān|fresh|0|1|18096|success
+特别|tèbié|especially|0|1|18096|success
+病好了吗|bìnghǎolema|are you feeling better?|0|1|18096|success
+米|mǐ|metre|0|1|18096|success
+网上|wǎngshàng|online|0|2|18096|success
+逛街|guàngjiē|go shopping|0|2|18096|success
