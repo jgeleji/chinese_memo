@@ -21098,3 +21098,93 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 米|mǐ|metre|0|1|18096|success
 网上|wǎngshàng|online|0|2|18096|success
 逛街|guàngjiē|go shopping|0|2|18096|success
+低|dī|low|0|1|18218|success
+到|dào|reach|0|1|18218|success
+找|zhǎo|look for|0|2|18218|success
+教|jiào|teach|0|2|18218|success
+斤|jīn|half kilo|0|1|18218|success
+用|yòng|use|0|1|18218|success
+男|nán|male|0|1|18218|success
+瘦|shòu|thin|0|1|18218|success
+站|zhàn|station|0|2|18218|success
+线|xiàn|metro line|0|2|18218|success
+网|wǎng|internet|0|2|18218|success
+脸|liǎn|face|0|2|18218|success
+辆|liàng|m.w.bike, car|0|2|18218|success
+酷|kù|cool|0|1|18218|success
+长|zhǎng|long|0|2|18218|success
+低|dī|low|0|1|18233|success
+到|dào|reach|0|1|18233|success
+找|zhǎo|look for|0|2|18233|success
+教|jiào|teach|0|2|18233|success
+斤|jīn|half kilo|0|1|18233|success
+用|yòng|use|0|1|18233|success
+男|nán|male|0|1|18233|success
+瘦|shòu|thin|0|1|18233|success
+站|zhàn|station|0|2|18233|success
+线|xiàn|metro line|0|2|18233|success
+网|wǎng|internet|0|2|18233|success
+脸|liǎn|face|0|2|18233|success
+辆|liàng|m.w.bike, car|0|2|18233|success
+酷|kù|cool|0|1|18233|success
+长|zhǎng|long|0|2|18233|success
+双|shuāng|m.w.pair of eyes|0|1|18322|success
+帮|bāng|help|0|1|18322|success
+帮|bāng|help|0|2|18322|success
+心|xīn|heart|0|1|18322|success
+性|xìng|sex|0|1|18322|success
+戴|dài|put on (hat)|0|1|18322|success
+戴|dài|put on (hat)|0|2|18322|success
+极|jí|extremely|0|2|18322|success
+棒|bàng|great|0|1|18322|success
+短|duǎn|short|0|1|18322|success
+短|duǎn|short|0|2|18322|success
+站|zhàn|station|0|1|18322|success
+胖|pàng|fat|0|2|18322|success
+长|zhǎng|long|0|1|18322|success
+高|gāo|tall|0|2|18322|success
+双|shuāng|m.w.pair of eyes|0|1|18337|success
+帮|bāng|help|0|1|18337|success
+帮|bāng|help|0|2|18337|success
+心|xīn|heart|0|1|18337|success
+性|xìng|sex|0|1|18337|success
+戴|dài|put on (hat)|0|1|18337|success
+戴|dài|put on (hat)|0|2|18337|success
+极|jí|extremely|0|2|18337|success
+棒|bàng|great|0|1|18337|success
+短|duǎn|short|0|1|18337|success
+短|duǎn|short|0|2|18337|success
+站|zhàn|station|0|1|18337|success
+胖|pàng|fat|0|2|18337|success
+长|zhǎng|long|0|1|18337|success
+高|gāo|tall|0|2|18337|success
+件|jiàn|m.w.cloth|0|1|18439|success
+件|jiàn|m.w.clothes|0|2|18439|success
+低|dī|low|0|2|18439|success
+别|bié|pin|0|2|18439|success
+包|bāo|bag|0|1|18439|success
+双|shuāng|m.w.pair of eyes|0|2|18439|success
+就|jiù|then|0|1|18439|success
+就|jiù|then|0|2|18439|success
+或|huò|or|0|2|18439|success
+才|cái|until (late)|0|2|18439|success
+斤|jīn|half kilo|0|2|18439|success
+线|xiàn|metro line|0|1|18439|success
+路|lù|number of bus|0|1|18439|success
+闻|wén|smell|0|1|18439|success
+陪|péi|accompany|0|2|18439|success
+件|jiàn|m.w.cloth|0|1|18460|success
+件|jiàn|m.w.clothes|0|2|18460|success
+低|dī|low|0|2|18460|success
+别|bié|pin|0|2|18460|success
+包|bāo|bag|0|1|18460|success
+双|shuāng|m.w.pair of eyes|0|2|18460|success
+就|jiù|then|0|1|18460|success
+就|jiù|then|0|2|18460|success
+或|huò|or|0|2|18460|success
+才|cái|until (late)|0|2|18460|success
+斤|jīn|half kilo|0|2|18460|success
+线|xiàn|metro line|0|1|18460|success
+路|lù|number of bus|0|1|18460|success
+闻|wén|smell|0|1|18460|success
+陪|péi|accompany|0|2|18460|success

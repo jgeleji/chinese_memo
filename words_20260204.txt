@@ -9,7 +9,7 @@
 最低10000ft|minimum 10000ft
 原价|original price
 现价|current price
-i干什么|do what
+干什么|do what
 作业|homework
 完|after verb finish doing sth
 逛街|shop around

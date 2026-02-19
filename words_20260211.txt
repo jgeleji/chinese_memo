@@ -1,0 +1,25 @@
+多|many
+少|few
+长|long
+短|short
+快|fast
+慢|slow
+不贵也不便宜|not expensive not cheap
+不多也不少|not too many not too few
+试一试|give it a try
+吃一点儿|eat a little
+既_又_|both_and_
+满意|satisfied
+讲价|bargain
+好闻|smell good
+闻|smell
+收到|receive
+玫瑰花|rose
+花|flower
+情人|lover
+爱人|wife
+爱情|love
+情人节|valentine's day
+不开门|do not open door
+关门|close the door
+
