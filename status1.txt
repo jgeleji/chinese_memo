@@ -21188,3 +21188,213 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 路|lù|number of bus|0|1|18460|success
 闻|wén|smell|0|1|18460|success
 陪|péi|accompany|0|2|18460|success
+与|yǔ|with|0|2|18514|success
+件|jiàn|m.w.cloth|0|2|18514|success
+台|tái|m.w.computer|0|1|18514|success
+多|duō|many|0|1|18514|success
+完|wán|after verb finish doing sth|0|2|18514|success
+少|shǎo|few|0|2|18514|success
+心|xīn|heart|0|2|18514|success
+快|kuài|fast|0|1|18514|success
+慢|màn|slow|0|1|18514|success
+慢|màn|slow|0|2|18514|success
+比|bǐ|compare|0|2|18514|success
+脸|liǎn|face|0|1|18514|success
+诗|shī|poem|0|2|18514|success
+读|dú|read|0|1|18514|success
+部|bù|m.w.movie|0|1|18514|success
+与|yǔ|with|0|2|18550|success
+件|jiàn|m.w.cloth|0|2|18550|success
+台|tái|m.w.computer|0|1|18550|success
+多|duō|many|0|1|18550|success
+完|wán|after verb finish doing sth|0|2|18550|success
+少|shǎo|few|0|2|18550|success
+心|xīn|heart|0|2|18550|success
+快|kuài|fast|0|1|18550|success
+慢|màn|slow|0|1|18550|success
+慢|màn|slow|0|2|18550|success
+比|bǐ|compare|0|2|18550|success
+脸|liǎn|face|0|1|18550|success
+诗|shī|poem|0|2|18550|success
+读|dú|read|0|1|18550|success
+部|bù|m.w.movie|0|1|18550|success
+与|yǔ|with|0|1|18624|success
+些|xiē|m.w.a few|0|2|18624|success
+包|bāo|bag|0|2|18624|success
+多|duō|many|0|2|18624|success
+完|wán|after verb finish doing sth|0|1|18624|success
+少|shǎo|few|0|1|18624|success
+开|kāi|open|0|1|18624|success
+拿|ná|take|0|1|18624|success
+涂|tú|put on makeup|0|1|18624|success
+等|děng|wait|0|1|18624|success
+见|jiàn|see you later|0|2|18624|success
+诗|shī|poem|0|1|18624|success
+辆|liàng|m.w.bike, car|0|1|18624|success
+错|cuò|wrong|0|1|18624|success
+高|gāo|tall|0|1|18624|success
+与|yǔ|with|0|1|18639|success
+些|xiē|m.w.a few|0|2|18639|success
+包|bāo|bag|0|2|18639|success
+多|duō|many|0|2|18639|success
+完|wán|after verb finish doing sth|0|1|18639|success
+少|shǎo|few|0|1|18639|success
+开|kāi|open|0|1|18639|success
+拿|ná|take|0|1|18639|success
+涂|tú|put on makeup|0|1|18639|success
+等|děng|wait|0|1|18639|success
+见|jiàn|see you later|0|2|18639|success
+诗|shī|poem|0|1|18639|success
+辆|liàng|m.w.bike, car|0|1|18639|success
+错|cuò|wrong|0|1|18639|success
+高|gāo|tall|0|1|18639|success
+假的|jiǎde|lie|0|2|18722|success
+住|zhù|live|0|1|18722|success
+住|zhù|live|0|2|18722|success
+女|nǚ|female|0|1|18722|success
+很|hěn|very|0|2|18722|success
+快|kuài|fast|0|2|18722|success
+极|jí|extremely|0|1|18722|success
+棒|bàng|great|0|2|18722|success
+穿|chuān|wear|0|1|18722|success
+系|xì|department, school|0|2|18722|success
+读|dú|read|0|2|18722|success
+酷|kù|cool|0|2|18722|success
+闻|wén|smell|0|2|18722|success
+首|shǒu|m.w. songs|0|1|18722|success
+首|shǒu|m.w. songs|0|2|18722|success
+假的|jiǎde|lie|0|2|18737|success
+住|zhù|live|0|1|18737|success
+住|zhù|live|0|2|18737|success
+女|nǚ|female|0|1|18737|success
+很|hěn|very|0|2|18737|success
+快|kuài|fast|0|2|18737|success
+极|jí|extremely|0|1|18737|success
+棒|bàng|great|0|2|18737|success
+穿|chuān|wear|0|1|18737|success
+系|xì|department, school|0|2|18737|success
+读|dú|read|0|2|18737|success
+酷|kù|cool|0|2|18737|success
+闻|wén|smell|0|2|18737|success
+首|shǒu|m.w. songs|0|1|18737|success
+首|shǒu|m.w. songs|0|2|18737|success
+一样|yīyàng|same|0|2|18853|success
+合适|héshì|suitable|0|1|18853|success
+圣经|shèngjīng|bible|0|2|18853|success
+小号|xiǎohào|small size|0|2|18853|success
+帽子|màozi|hat|0|2|18853|success
+幽默|yōumò|humor|0|1|18853|success
+很久|hěnjiǔ|long time|0|2|18853|success
+情人|qíngrén|lover|0|1|18853|success
+或者|huòzhě|or|0|1|18853|success
+打包|dǎbāo|pack|0|2|18853|success
+汉堡|hànbǎo|burger|0|2|18853|success
+没用|méiyòng|useless|0|2|18853|success
+浪漫|làngmàn|romantic|0|2|18853|success
+聊天|liáotiān|chat|0|2|18853|success
+项链|xiàngliàn|necklace|0|2|18853|success
+一样|yīyàng|same|0|2|18868|success
+合适|héshì|suitable|0|1|18868|success
+圣经|shèngjīng|bible|0|2|18868|success
+小号|xiǎohào|small size|0|2|18868|success
+帽子|màozi|hat|0|2|18868|success
+幽默|yōumò|humor|0|1|18868|success
+很久|hěnjiǔ|long time|0|2|18868|success
+情人|qíngrén|lover|0|1|18868|success
+或者|huòzhě|or|0|1|18868|success
+打包|dǎbāo|pack|0|2|18868|success
+汉堡|hànbǎo|burger|0|2|18868|success
+没用|méiyòng|useless|0|2|18868|success
+浪漫|làngmàn|romantic|0|2|18868|success
+聊天|liáotiān|chat|0|2|18868|success
+项链|xiàngliàn|necklace|0|2|18868|success
+作为|zuòwèi|as|0|1|18995|success
+兴趣|xìngqù|hobby|0|1|18995|success
+其实|qíshí|actually|0|1|18995|success
+周日|zhōurì|sunday|0|2|18995|success
+夫人|fūrén|mrs|0|2|18995|success
+婚礼|hūnlǐ|wedding|0|2|18995|success
+心意|xīnyì|thoughtfulness|0|2|18995|success
+抽烟|chōuyān|smoke|0|1|18995|success
+最近|zuìjìn|recently|0|2|18995|success
+浪漫|làngmàn|romantic|0|1|18995|success
+热闹|rènào|lively|0|2|18995|success
+简单|jiǎndān|easy|0|1|18995|success
+走路|zǒulù|walk|0|1|18995|success
+车企|chē qǐ|car manufacturer|0|1|18995|success
+鞋子|xiézi|shoes|0|1|18995|success
+作为|zuòwèi|as|0|1|19010|success
+兴趣|xìngqù|hobby|0|1|19010|success
+其实|qíshí|actually|0|1|19010|success
+周日|zhōurì|sunday|0|2|19010|success
+夫人|fūrén|mrs|0|2|19010|success
+婚礼|hūnlǐ|wedding|0|2|19010|success
+心意|xīnyì|thoughtfulness|0|2|19010|success
+抽烟|chōuyān|smoke|0|1|19010|success
+最近|zuìjìn|recently|0|2|19010|success
+浪漫|làngmàn|romantic|0|1|19010|success
+热闹|rènào|lively|0|2|19010|success
+简单|jiǎndān|easy|0|1|19010|success
+走路|zǒulù|walk|0|1|19010|success
+车企|chē qǐ|car manufacturer|0|1|19010|success
+鞋子|xiézi|shoes|0|1|19010|success
+中号|zhōnghào|medium size|0|2|19136|success
+全家|quánjiā|whole family|0|2|19136|success
+原价|yuánjià|original price|0|2|19136|success
+台湾|táiwān|taiwan|0|1|19136|success
+听说|tīngshuō|it is said|0|2|19136|success
+大号|dàhào|large size|0|2|19136|success
+好看|hǎokàn|beautiful|0|2|19136|success
+戏剧|xìjù|theater|0|1|19136|success
+手表|shǒubiǎo|wristwatch|0|2|19136|success
+打折|dǎzhé|discount|0|1|19136|success
+日子|rìzi|days|0|2|19136|success
+是啊|shìa|okay|0|1|19136|success
+比萨|bǐsà|pizza|0|2|19136|success
+男生|nánshēng|boy|0|2|19136|success
+身高|shēngāo|height|0|2|19136|success
+中号|zhōnghào|medium size|0|2|19151|success
+全家|quánjiā|whole family|0|2|19151|success
+原价|yuánjià|original price|0|2|19151|success
+台湾|táiwān|taiwan|0|1|19151|success
+听说|tīngshuō|it is said|0|2|19151|success
+大号|dàhào|large size|0|2|19151|success
+好看|hǎokàn|beautiful|0|2|19151|success
+戏剧|xìjù|theater|0|1|19151|success
+手表|shǒubiǎo|wristwatch|0|2|19151|success
+打折|dǎzhé|discount|0|1|19151|success
+日子|rìzi|days|0|2|19151|success
+是啊|shìa|okay|0|1|19151|success
+比萨|bǐsà|pizza|0|2|19151|success
+男生|nánshēng|boy|0|2|19151|success
+身高|shēngāo|height|0|2|19151|success
+做客|zuòkè|guest|0|2|19305|success
+公斤|gōngjīn|kilogram|0|1|19305|success
+好看|hǎokàn|beautiful|0|1|19305|success
+容易|róngyì|easy|0|1|19305|success
+小号|xiǎohào|small size|0|1|19305|success
+打车|dǎchē|take taxi|0|1|19305|success
+样品|yàngpǐn|sample|0|2|19305|success
+毛衣|máoyī|sweater|0|2|19305|success
+汉堡|hànbǎo|burger|0|1|19305|success
+热闹|rènào|lively|0|1|19305|success
+看望|kànwàng|visit|0|2|19305|success
+眼镜|yǎnjìng|glasses|0|1|19305|success
+考试|kǎoshì|exam|0|2|19305|success
+节日|jiérì|holiday|0|1|19305|success
+零件|língjiàn|parts|0|1|19305|success
+做客|zuòkè|guest|0|2|19324|success
+公斤|gōngjīn|kilogram|0|1|19324|success
+好看|hǎokàn|beautiful|0|1|19324|success
+容易|róngyì|easy|0|1|19324|success
+小号|xiǎohào|small size|0|1|19324|success
+打车|dǎchē|take taxi|0|1|19324|success
+样品|yàngpǐn|sample|0|2|19324|success
+毛衣|máoyī|sweater|0|2|19324|success
+汉堡|hànbǎo|burger|0|1|19324|success
+热闹|rènào|lively|0|1|19324|success
+看望|kànwàng|visit|0|2|19324|success
+眼镜|yǎnjìng|glasses|0|1|19324|success
+考试|kǎoshì|exam|0|2|19324|success
+节日|jiérì|holiday|0|1|19324|success
+零件|língjiàn|parts|0|1|19324|success
