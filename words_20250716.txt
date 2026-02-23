@@ -5,7 +5,7 @@
 十几个|ten plus
 几十个|multiple of ten
 这个|this
-茄子|eggplant
+茄子|eggplant|qiézi
 牛油果|avocado
 黄瓜|cucumber
 海|ocean

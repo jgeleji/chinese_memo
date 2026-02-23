@@ -1,5 +1,5 @@
 去世的亲人|deceased relative
-墓地|cemetery
+墓地|cemetery|mùdì
 过万圣节|celebrate Halloween
 圣诞节|Christmas
 周星驰|Stephen Chow

@@ -12,7 +12,7 @@
 听|listen
 一家人|family
 怎么样|what do you think
-过得|passing it
+过得|to be doing; to get along|guòde
 樱花|cherry blossom
 春天|spring
 黑狗|black dog
@@ -21,7 +21,7 @@
 好呀|okay (cute)
 泳池|pool
 领英|LinkedIn
-地方|place
+地方|place|dìfang
 欢迎|welcome
 环境|environment
 渔人堡|Fisherman's bastion

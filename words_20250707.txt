@@ -10,7 +10,7 @@
 火锅汤非常热|the hot pot soup is very hot
 丰富|rich
 重要|important
-得|particule|de
+得|particle|de
 像|resemble
 国王|king
 兄弟姐妹|siblings
@@ -18,5 +18,5 @@
 有钱人|rich person
 重|heavy
 区|district
-练功夫|practice Kung Fu
+练功夫|practice kung fu|liàngōngfu
 成龙|Jackie Chan

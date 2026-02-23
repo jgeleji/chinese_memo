@@ -1,7 +1,7 @@
 千米|kilometre
 坐地铁|take subway|zuòdìtiě
 多长时间|how long
-请假|request leave
+请假|request leave|qǐngjià
 办公室|office
 红葡萄酒|red wine
 白葡萄酒|white wine

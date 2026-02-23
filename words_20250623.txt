@@ -14,7 +14,7 @@
 对面|opposite
 送礼物|give gift
 送给|give to
-送给|see off
+送别|see off
 送人|send someone off
 便宜|cheap|piányi
 贵|expensive

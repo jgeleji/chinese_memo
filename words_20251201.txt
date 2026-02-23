@@ -7,7 +7,7 @@
 身高|height
 米|metre
 低|low
-双|m.w.pair of eyes
+双|classifier for pair
 鼻子|nose
 脸|face
 她的笑容很美|her smile is beautiful

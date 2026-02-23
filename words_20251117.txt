@@ -13,8 +13,8 @@
 上网|surf online
 网上|online
 网络|network
-网络|online game
-网络游戏|phone game
+网游|online game
+网络游戏|online game
 手游|phone game
 和_聊天|chat with _
 同事|coworker

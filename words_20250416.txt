@@ -3,7 +3,7 @@
 喝|drink
 茶|tea
 钱|money
-块|rmb
+块|yuan (colloquial)
 不客气|you are welcome
 水果|fruit
 葡萄|grape

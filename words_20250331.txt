@@ -1,7 +1,7 @@
 非常|very
 喜欢|like
 爱|love
-先生|husband formal
+先生|Mr.; sir
 老公|husband spoken
 丈夫|husband
 口|mouth
@@ -13,7 +13,7 @@
 给|give
 礼物|gift
 祝|wish hope
-快乐|happy
+快乐|happy|kuàilè
 新年|new year
 春节|spring festival
 生日|birthday

@@ -7,6 +7,6 @@
 中国|China
 意大利|Italy
 斯洛伐克|Slovakia
-奥地利|Austria
+奥地利|Austria|àodìlì
 澳大利亚|Australia
 新西兰|New Zealand
