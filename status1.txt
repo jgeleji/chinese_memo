@@ -21398,3 +21398,33 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 考试|kǎoshì|exam|0|2|19324|success
 节日|jiérì|holiday|0|1|19324|success
 零件|língjiàn|parts|0|1|19324|success
+准备|zhǔnbèi|prepare|0|1|19464|success
+回国|huíguó|return home/country|0|2|19464|success
+希望|xīwàng|hope|0|1|19464|success
+想念|xiǎngniàn|miss|0|1|19464|success
+景观|jǐngguān|landscape|0|2|19464|success
+毛衣|máoyī|sweater|0|1|19464|success
+短裙|duǎnqún|skirt|0|2|19464|success
+紧张|jǐnzhāng|anxious|0|2|19464|success
+要是|yàoshì|if|0|2|19464|success
+讲价|jiǎngjià|bargain|0|2|19464|success
+诗经|shījīng|the book of songs|0|1|19464|success
+身高|shēngāo|height|0|1|19464|success
+食谱|shípǔ|recipe|0|1|19464|success
+让|ràng|make, let|0|1|19464|success
+让|ràng|make, let|0|2|19464|success
+准备|zhǔnbèi|prepare|0|1|19479|success
+回国|huíguó|return home/country|0|2|19479|success
+希望|xīwàng|hope|0|1|19479|success
+想念|xiǎngniàn|miss|0|1|19479|success
+景观|jǐngguān|landscape|0|2|19479|success
+毛衣|máoyī|sweater|0|1|19479|success
+短裙|duǎnqún|skirt|0|2|19479|success
+紧张|jǐnzhāng|anxious|0|2|19479|success
+要是|yàoshì|if|0|2|19479|success
+讲价|jiǎngjià|bargain|0|2|19479|success
+诗经|shījīng|the book of songs|0|1|19479|success
+身高|shēngāo|height|0|1|19479|success
+食谱|shípǔ|recipe|0|1|19479|success
+让|ràng|make, let|0|1|19479|success
+让|ràng|make, let|0|2|19479|success
