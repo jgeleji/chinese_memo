@@ -21428,3 +21428,93 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 食谱|shípǔ|recipe|0|1|19479|success
 让|ràng|make, let|0|1|19479|success
 让|ràng|make, let|0|2|19479|success
+一边|yībiān|at the same time|0|1|19507|success
+临时|línshí|temporary|0|2|19507|success
+其实|qíshí|actually|0|2|19507|success
+合适|héshì|suitable|0|2|19507|success
+喝水|hēshuǐ|drink water|0|2|19507|success
+圣经|shèngjīng|bible|0|1|19507|success
+复习|fùxí|review|0|1|19507|success
+安排|ānpái|plan|0|2|19507|success
+性别|xìngbié|gender|0|1|19507|success
+机会|jīhuì|opportunity|0|1|19507|success
+爱人|àirén|wife|0|2|19507|success
+看来|kànlái|seems like|0|2|19507|success
+经常|jīngcháng|often|0|2|19507|success
+西装|xīzhuāng|suit|0|1|19507|success
+魔方|mófāng|rubik's cube|0|2|19507|success
+一边|yībiān|at the same time|0|1|19522|success
+临时|línshí|temporary|0|2|19522|success
+其实|qíshí|actually|0|2|19522|success
+合适|héshì|suitable|0|2|19522|success
+喝水|hēshuǐ|drink water|0|2|19522|success
+圣经|shèngjīng|bible|0|1|19522|success
+复习|fùxí|review|0|1|19522|success
+安排|ānpái|plan|0|2|19522|success
+性别|xìngbié|gender|0|1|19522|success
+机会|jīhuì|opportunity|0|1|19522|success
+爱人|àirén|wife|0|2|19522|success
+看来|kànlái|seems like|0|2|19522|success
+经常|jīngcháng|often|0|2|19522|success
+西装|xīzhuāng|suit|0|1|19522|success
+魔方|mófāng|rubik's cube|0|2|19522|success
+中文|zhōngwén|chinese language|0|2|19617|success
+书签|shūqiān|bookmark|0|2|19617|success
+但是|dànshì|but|0|1|19617|success
+免费|miǎnfèi|free|0|2|19617|success
+回来|huílái|come back|0|1|19617|success
+房子|fángzi|house|0|1|19617|success
+着急|zhejí|worried|0|2|19617|success
+短裙|duǎnqún|skirt|0|1|19617|success
+短裤|duǎnkù|shorts|0|2|19617|success
+锻炼|duànliàn|exercise|0|1|19617|success
+锻炼|duànliàn|exercise|0|2|19617|success
+接|jiē|pick up (someone); meet|0|1|19617|success
+接|jiē|pick up (someone); meet|0|2|19617|success
+饭|fàn|meal; cooked food|0|1|19617|success
+饭|fàn|meal; cooked food|0|2|19617|success
+中文|zhōngwén|chinese language|0|2|19653|success
+书签|shūqiān|bookmark|0|2|19653|success
+但是|dànshì|but|0|1|19653|success
+免费|miǎnfèi|free|0|2|19653|success
+回来|huílái|come back|0|1|19653|success
+房子|fángzi|house|0|1|19653|success
+着急|zhejí|worried|0|2|19653|success
+短裙|duǎnqún|skirt|0|1|19653|success
+短裤|duǎnkù|shorts|0|2|19653|success
+锻炼|duànliàn|exercise|0|1|19653|success
+锻炼|duànliàn|exercise|0|2|19653|success
+接|jiē|pick up (someone); meet|0|1|19653|success
+接|jiē|pick up (someone); meet|0|2|19653|success
+饭|fàn|meal; cooked food|0|1|19653|success
+饭|fàn|meal; cooked food|0|2|19653|success
+三体|sāntǐ|three body problem|0|1|19776|success
+创立|chuànglì|found; set up|0|1|19776|success
+失望|shīwàng|disappointed|0|2|19776|success
+好用|hǎoyòng|practical|0|1|19776|success
+小丑|xiǎochǒu|clown|0|2|19776|success
+小学|xiǎoxué|primary school|0|2|19776|success
+广场|guǎngchǎng|square|0|1|19776|success
+打包|dǎbāo|pack|0|1|19776|success
+收拾|shōushí|tidy up; pack up|0|2|19776|success
+方便|fāngbiàn|convenient|0|1|19776|success
+曲子|qūzi|melody|0|2|19776|success
+歌词|gēcí|lyrics|0|2|19776|success
+正在|zhèngzài|be doing|0|2|19776|success
+还没|háiméi|not yet|0|2|19776|success
+难看|nánkàn|ugly|0|1|19776|success
+三体|sāntǐ|three body problem|0|1|19791|success
+创立|chuànglì|found; set up|0|1|19791|success
+失望|shīwàng|disappointed|0|2|19791|success
+好用|hǎoyòng|practical|0|1|19791|success
+小丑|xiǎochǒu|clown|0|2|19791|success
+小学|xiǎoxué|primary school|0|2|19791|success
+广场|guǎngchǎng|square|0|1|19791|success
+打包|dǎbāo|pack|0|1|19791|success
+收拾|shōushí|tidy up; pack up|0|2|19791|success
+方便|fāngbiàn|convenient|0|1|19791|success
+曲子|qūzi|melody|0|2|19791|success
+歌词|gēcí|lyrics|0|2|19791|success
+正在|zhèngzài|be doing|0|2|19791|success
+还没|háiméi|not yet|0|2|19791|success
+难看|nánkàn|ugly|0|1|19791|success
