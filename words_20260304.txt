@@ -1,0 +1,40 @@
+恐龙|dinosaur
+知了|cicada
+
+雾|fog
+有雾|foggy
+雾天|foggy day
+雾天很多。|There are many foggy days.
+大雾|heavy fog
+
+雨|rain
+大雨|heavy rain
+
+雪|snow
+大雪|heavy snow
+
+风|wind
+刮风|windy
+
+晴天|sunny day
+阴天|cloudy; overcast
+
+季节|season
+春天|spring
+夏天|summer
+秋天|autumn
+冬天|winter
+一年四季|the four seasons of a year
+一年有四个季节。|There are four seasons in a year.
+
+美|beautiful
+比较|relatively
+没错儿|that's right
+
+怕|afraid
+不怕|not afraid
+我怕冷。|I'm afraid of the cold.
+别怕。|Don't be afraid.
+
+今天有雾，开车要小心。|It's foggy today; drive carefully.
+冬天经常刮风，还会下大雪。|In winter it's often windy, and it can snow heavily.
