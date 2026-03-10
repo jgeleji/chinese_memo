@@ -21518,3 +21518,123 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 正在|zhèngzài|be doing|0|2|19791|success
 还没|háiméi|not yet|0|2|19791|success
 难看|nánkàn|ugly|0|1|19791|success
+兴趣|xìngqù|hobby|0|2|19867|success
+大雪|dàxuě|heavy snow|0|2|19867|success
+大雾|dàwù|heavy fog|0|1|19867|success
+幽默|yōumò|humor|0|2|19867|success
+开始|kāishǐ|start|0|2|19867|success
+找到|zhǎodào|find|0|2|19867|success
+文学|wénxué|literature|0|2|19867|success
+有雾|yǒuwù|foggy|0|1|19867|success
+游艇|yóutǐng|yacht|0|1|19867|success
+怕|pà|afraid|0|1|19867|success
+怕|pà|afraid|0|2|19867|success
+雨|yǔ|rain|0|1|19867|success
+雨|yǔ|rain|0|2|19867|success
+雾|wù|fog|0|1|19867|success
+雾|wù|fog|0|2|19867|success
+兴趣|xìngqù|hobby|0|2|19882|success
+大雪|dàxuě|heavy snow|0|2|19882|success
+大雾|dàwù|heavy fog|0|1|19882|success
+幽默|yōumò|humor|0|2|19882|success
+开始|kāishǐ|start|0|2|19882|success
+找到|zhǎodào|find|0|2|19882|success
+文学|wénxué|literature|0|2|19882|success
+有雾|yǒuwù|foggy|0|1|19882|success
+游艇|yóutǐng|yacht|0|1|19882|success
+怕|pà|afraid|0|1|19882|success
+怕|pà|afraid|0|2|19882|success
+雨|yǔ|rain|0|1|19882|success
+雨|yǔ|rain|0|2|19882|success
+雾|wù|fog|0|1|19882|success
+雾|wù|fog|0|2|19882|success
+一边|yībiān|at the same time|0|2|20079|success
+全家|quánjiā|whole family|0|1|20079|success
+冬天|dōngtiān|winter|0|1|20079|success
+台湾|táiwān|taiwan|0|2|20079|success
+咱们|zánmen|we|0|2|20079|success
+好闻|hǎowén|smell good|0|1|20079|success
+季节|jìjié|season|0|1|20079|success
+很快|hěnkuài|soon|0|1|20079|success
+比较|bǐjiào|relatively|0|2|20079|success
+网剧|wǎngjù|web series|0|2|20079|success
+讲价|jiǎngjià|bargain|0|1|20079|success
+零件|língjiàn|parts|0|2|20079|success
+雾天|wùtiān|foggy day|0|1|20079|success
+食谱|shípǔ|recipe|0|2|20079|success
+鼻子|bízi|nose|0|2|20079|success
+一边|yībiān|at the same time|0|2|20094|success
+全家|quánjiā|whole family|0|1|20094|success
+冬天|dōngtiān|winter|0|1|20094|success
+台湾|táiwān|taiwan|0|2|20094|success
+咱们|zánmen|we|0|2|20094|success
+好闻|hǎowén|smell good|0|1|20094|success
+季节|jìjié|season|0|1|20094|success
+很快|hěnkuài|soon|0|1|20094|success
+比较|bǐjiào|relatively|0|2|20094|success
+网剧|wǎngjù|web series|0|2|20094|success
+讲价|jiǎngjià|bargain|0|1|20094|success
+零件|língjiàn|parts|0|2|20094|success
+雾天|wùtiān|foggy day|0|1|20094|success
+食谱|shípǔ|recipe|0|2|20094|success
+鼻子|bízi|nose|0|2|20094|success
+不怕|bùpà|not afraid|0|1|20216|success
+买卖|mǎimài|business; trade|0|1|20216|success
+发明|fāmíng|invent|0|1|20216|success
+夏天|xiàtiān|summer|0|1|20216|success
+很快|hěnkuài|soon|0|2|20216|success
+或者|huòzhě|or in affirmative sentence|0|2|20216|success
+收拾|shōushí|tidy up; pack up|0|1|20216|success
+旁边|pángbiān|beside|0|1|20216|success
+曲子|qūzi|melody|0|1|20216|success
+有用|yǒuyòng|useful|0|1|20216|success
+有雾|yǒuwù|foggy|0|2|20216|success
+爱情|àiqíng|love|0|1|20216|success
+考试|kǎoshì|exam|0|1|20216|success
+西装|xīzhuāng|suit|0|2|20216|success
+说话|shuōhuà|speak|0|1|20216|success
+不怕|bùpà|not afraid|0|1|20231|success
+买卖|mǎimài|business; trade|0|1|20231|success
+发明|fāmíng|invent|0|1|20231|success
+夏天|xiàtiān|summer|0|1|20231|success
+很快|hěnkuài|soon|0|2|20231|success
+或者|huòzhě|or in affirmative sentence|0|2|20231|success
+收拾|shōushí|tidy up; pack up|0|1|20231|success
+旁边|pángbiān|beside|0|1|20231|success
+曲子|qūzi|melody|0|1|20231|success
+有用|yǒuyòng|useful|0|1|20231|success
+有雾|yǒuwù|foggy|0|2|20231|success
+爱情|àiqíng|love|0|1|20231|success
+考试|kǎoshì|exam|0|1|20231|success
+西装|xīzhuāng|suit|0|2|20231|success
+说话|shuōhuà|speak|0|1|20231|success
+免费|miǎnfèi|free|0|1|20372|success
+关门|guānmén|close the door|0|2|20372|success
+准备|zhǔnbèi|prepare|0|2|20372|success
+发现|fāxiàn|discover; find|0|1|20372|success
+墓地|mùdì|cemetery|0|2|20372|success
+大雨|dàyǔ|heavy rain|0|1|20372|success
+小说|xiǎoshuō|fiction|0|1|20372|success
+帮忙|bāngmáng|do a favor|0|2|20372|success
+新鲜|xīnxiān|fresh|0|2|20372|success
+热身|rèshēn|warm up|0|2|20372|success
+熬夜|áoyè|stay up late|0|1|20372|success
+玩笑|wánxiào|joke|0|2|20372|success
+荞麦|qiáomài|buckwheat|0|1|20372|success
+逛街|guàngjiē|shop around|0|2|20372|success
+难看|nánkàn|ugly|0|2|20372|success
+免费|miǎnfèi|free|0|1|20387|success
+关门|guānmén|close the door|0|2|20387|success
+准备|zhǔnbèi|prepare|0|2|20387|success
+发现|fāxiàn|discover; find|0|1|20387|success
+墓地|mùdì|cemetery|0|2|20387|success
+大雨|dàyǔ|heavy rain|0|1|20387|success
+小说|xiǎoshuō|fiction|0|1|20387|success
+帮忙|bāngmáng|do a favor|0|2|20387|success
+新鲜|xīnxiān|fresh|0|2|20387|success
+热身|rèshēn|warm up|0|2|20387|success
+熬夜|áoyè|stay up late|0|1|20387|success
+玩笑|wánxiào|joke|0|2|20387|success
+荞麦|qiáomài|buckwheat|0|1|20387|success
+逛街|guàngjiē|shop around|0|2|20387|success
+难看|nánkàn|ugly|0|2|20387|success
