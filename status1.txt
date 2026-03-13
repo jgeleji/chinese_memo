@@ -21638,3 +21638,183 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 荞麦|qiáomài|buckwheat|0|1|20387|success
 逛街|guàngjiē|shop around|0|2|20387|success
 难看|nánkàn|ugly|0|2|20387|success
+回来|huílái|come back|0|2|20517|success
+多变|duōbiàn|changeable|0|2|20517|success
+宜家|yíjiā|ikea|0|2|20517|success
+比较|bǐjiào|relatively|0|1|20517|success
+海边|hǎibiān|seaside|0|2|20517|success
+草场|cǎochǎng|grassland|0|2|20517|success
+运动|yùndòng|exercise|0|1|20517|success
+领带|lǐngdài|tie|0|1|20517|success
+香槟|xiāngbīn|champagne|0|1|20517|success
+冰|bīng|ice|0|1|20517|success
+冰|bīng|ice|0|2|20517|success
+泡|pào|soak; steep; (bubbles) foam|0|1|20517|success
+泡|pào|soak; steep; (bubbles) foam|0|2|20517|success
+湿|shī|wet; damp|0|1|20517|success
+湿|shī|wet; damp|0|2|20517|success
+回来|huílái|come back|0|2|20532|success
+多变|duōbiàn|changeable|0|2|20532|success
+宜家|yíjiā|ikea|0|2|20532|success
+比较|bǐjiào|relatively|0|1|20532|success
+海边|hǎibiān|seaside|0|2|20532|success
+草场|cǎochǎng|grassland|0|2|20532|success
+运动|yùndòng|exercise|0|1|20532|success
+领带|lǐngdài|tie|0|1|20532|success
+香槟|xiāngbīn|champagne|0|1|20532|success
+冰|bīng|ice|0|1|20532|success
+冰|bīng|ice|0|2|20532|success
+泡|pào|soak; steep; (bubbles) foam|0|1|20532|success
+泡|pào|soak; steep; (bubbles) foam|0|2|20532|success
+湿|shī|wet; damp|0|1|20532|success
+湿|shī|wet; damp|0|2|20532|success
+中文|zhōngwén|chinese language|0|1|20691|success
+假的|jiǎde|fake; false|0|1|20691|success
+做好|zuòhǎo|finish; be ready (food/task)|0|2|20691|success
+可爱|kěài|cute|0|1|20691|success
+墨镜|mòjìng|sunglasses|0|2|20691|success
+夏天|xiàtiān|summer|0|2|20691|success
+季节|jìjié|season|0|2|20691|success
+开始|kāishǐ|start|0|1|20691|success
+方便|fāngbiàn|convenient|0|2|20691|success
+暖和|nuǎnhuo|warm|0|1|20691|success
+校友|xiàoyǒu|alumni|0|1|20691|success
+泡菜|pàocài|pickled vegetables; kimchi|0|1|20691|success
+波兰|bōlán|poland|0|1|20691|success
+诊所|zhěnsuǒ|clinic|0|2|20691|success
+阴天|yīntiān|cloudy; overcast|0|1|20691|success
+中文|zhōngwén|chinese language|0|1|20706|success
+假的|jiǎde|fake; false|0|1|20706|success
+做好|zuòhǎo|finish; be ready (food/task)|0|2|20706|success
+可爱|kěài|cute|0|1|20706|success
+墨镜|mòjìng|sunglasses|0|2|20706|success
+夏天|xiàtiān|summer|0|2|20706|success
+季节|jìjié|season|0|2|20706|success
+开始|kāishǐ|start|0|1|20706|success
+方便|fāngbiàn|convenient|0|2|20706|success
+暖和|nuǎnhuo|warm|0|1|20706|success
+校友|xiàoyǒu|alumni|0|1|20706|success
+泡菜|pàocài|pickled vegetables; kimchi|0|1|20706|success
+波兰|bōlán|poland|0|1|20706|success
+诊所|zhěnsuǒ|clinic|0|2|20706|success
+阴天|yīntiān|cloudy; overcast|0|1|20706|success
+上网|shàngwǎng|online surfing|0|1|20837|success
+下身|xiàshēn|lower body|0|1|20837|success
+之后|zhīhòu|after that|0|1|20837|success
+冬天|dōngtiān|winter|0|2|20837|success
+剧院|jùyuàn|theater|0|2|20837|success
+厕所|cèsuǒ|wc|0|2|20837|success
+口红|kǒuhóng|lipstick|0|1|20837|success
+周日|zhōurì|sunday|0|1|20837|success
+复习|fùxí|review|0|2|20837|success
+放假|fàngjiǎ|holiday; have time off|0|1|20837|success
+正好|zhènghǎo|just|0|2|20837|success
+网游|wǎngyóu|online game|0|2|20837|success
+耶稣|yésū|jesus|0|2|20837|success
+超人|chāorén|superman|0|2|20837|success
+银行|yínháng|bank|0|1|20837|success
+上网|shàngwǎng|online surfing|0|1|20852|success
+下身|xiàshēn|lower body|0|1|20852|success
+之后|zhīhòu|after that|0|1|20852|success
+冬天|dōngtiān|winter|0|2|20852|success
+剧院|jùyuàn|theater|0|2|20852|success
+厕所|cèsuǒ|wc|0|2|20852|success
+口红|kǒuhóng|lipstick|0|1|20852|success
+周日|zhōurì|sunday|0|1|20852|success
+复习|fùxí|review|0|2|20852|success
+放假|fàngjiǎ|holiday; have time off|0|1|20852|success
+正好|zhènghǎo|just|0|2|20852|success
+网游|wǎngyóu|online game|0|2|20852|success
+耶稣|yésū|jesus|0|2|20852|success
+超人|chāorén|superman|0|2|20852|success
+银行|yínháng|bank|0|1|20852|success
+三体|sāntǐ|three body problem|0|2|21001|success
+作业|zuòyè|homework|0|2|21001|success
+别人|biérén|other people|0|1|21001|success
+剧院|jùyuàn|theater|0|1|21001|success
+原价|yuánjià|original price|0|1|21001|success
+安排|ānpái|plan|0|1|21001|success
+小吃|xiǎochī|snack; street food|0|1|21001|success
+工具|gōngjù|tool|0|1|21001|success
+开会|kāihuì|meeting|0|1|21001|success
+想家|xiǎngjiā|homesick|0|1|21001|success
+诗歌|shīgē|poem|0|2|21001|success
+过年|guònián|new year's eve|0|1|21001|success
+送别|sòngbié|see off|0|1|21001|success
+铅笔|qiānbǐ|pencil|0|1|21001|success
+骄傲|jiāoào|proud|0|1|21001|success
+三体|sāntǐ|three body problem|0|2|21054|success
+作业|zuòyè|homework|0|2|21054|success
+别人|biérén|other people|0|1|21054|success
+剧院|jùyuàn|theater|0|1|21054|success
+原价|yuánjià|original price|0|1|21054|success
+安排|ānpái|plan|0|1|21054|success
+小吃|xiǎochī|snack; street food|0|1|21054|success
+工具|gōngjù|tool|0|1|21054|success
+开会|kāihuì|meeting|0|1|21054|success
+想家|xiǎngjiā|homesick|0|1|21054|success
+诗歌|shīgē|poem|0|2|21054|success
+过年|guònián|new year's eve|0|1|21054|success
+送别|sòngbié|see off|0|1|21054|success
+铅笔|qiānbǐ|pencil|0|1|21054|success
+骄傲|jiāoào|proud|0|1|21054|success
+上身|shàngshēn|upper body|0|1|21151|success
+介绍|jièshào|introduce|0|1|21151|success
+做好|zuòhǎo|finish; be ready (food/task)|0|1|21151|success
+喝水|hēshuǐ|drink water|0|1|21151|success
+外面|wàimiàn|outside|0|2|21151|success
+宜家|yíjiā|ikea|0|1|21151|success
+小丑|xiǎochǒu|clown|0|1|21151|success
+想好|xiǎnghǎo|think it through; decide|0|2|21151|success
+或者|huòzhě|or in affirmative sentence|0|1|21151|success
+比萨|bǐsà|pizza|0|1|21151|success
+道路|dàolù|road|0|1|21151|success
+长靴|zhǎngxuē|boots|0|2|21151|success
+阴天|yīntiān|cloudy; overcast|0|2|21151|success
+雾天|wùtiān|foggy day|0|2|21151|success
+首都|shǒudōu|capital|0|2|21151|success
+上身|shàngshēn|upper body|0|1|21166|success
+介绍|jièshào|introduce|0|1|21166|success
+做好|zuòhǎo|finish; be ready (food/task)|0|1|21166|success
+喝水|hēshuǐ|drink water|0|1|21166|success
+外面|wàimiàn|outside|0|2|21166|success
+宜家|yíjiā|ikea|0|1|21166|success
+小丑|xiǎochǒu|clown|0|1|21166|success
+想好|xiǎnghǎo|think it through; decide|0|2|21166|success
+或者|huòzhě|or in affirmative sentence|0|1|21166|success
+比萨|bǐsà|pizza|0|1|21166|success
+道路|dàolù|road|0|1|21166|success
+长靴|zhǎngxuē|boots|0|2|21166|success
+阴天|yīntiān|cloudy; overcast|0|2|21166|success
+雾天|wùtiān|foggy day|0|2|21166|success
+首都|shǒudōu|capital|0|2|21166|success
+大雨|dàyǔ|heavy rain|0|2|21263|success
+大雾|dàwù|heavy fog|0|2|21263|success
+幸运|xìngyùn|lucky|0|2|21263|success
+惊喜|jīngxǐ|surprise|0|1|21263|success
+找到|zhǎodào|find|0|1|21263|success
+样子|yàngzi|appearance|0|1|21263|success
+海边|hǎibiān|seaside|0|1|21263|success
+满意|mǎnyì|satisfied|0|2|21263|success
+眼镜|yǎnjìng|glasses|0|2|21263|success
+网游|wǎngyóu|online game|0|1|21263|success
+网球|wǎngqiú|tennis|0|1|21263|success
+见面|jiànmiàn|meet|0|2|21263|success
+诗歌|shīgē|poetry|0|1|21263|success
+说话|shuōhuà|speak|0|2|21263|success
+飞船|fēichuán|spaceship|0|2|21263|success
+大雨|dàyǔ|heavy rain|0|2|21278|success
+大雾|dàwù|heavy fog|0|2|21278|success
+幸运|xìngyùn|lucky|0|2|21278|success
+惊喜|jīngxǐ|surprise|0|1|21278|success
+找到|zhǎodào|find|0|1|21278|success
+样子|yàngzi|appearance|0|1|21278|success
+海边|hǎibiān|seaside|0|1|21278|success
+满意|mǎnyì|satisfied|0|2|21278|success
+眼镜|yǎnjìng|glasses|0|2|21278|success
+网游|wǎngyóu|online game|0|1|21278|success
+网球|wǎngqiú|tennis|0|1|21278|success
+见面|jiànmiàn|meet|0|2|21278|success
+诗歌|shīgē|poetry|0|1|21278|success
+说话|shuōhuà|speak|0|2|21278|success
+飞船|fēichuán|spaceship|0|2|21278|success
