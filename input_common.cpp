@@ -195,6 +195,7 @@ chinese::Input::Input()
 	chinese_to_preferred_pinyin["（"] = "(";
 	chinese_to_preferred_pinyin["）"] = ")";
 	chinese_to_preferred_pinyin["？"] = "?";
+	chinese_to_preferred_pinyin["！"] = "!";
 	chinese_to_preferred_pinyin["谁"] = pinyin_convert_1syll("shei2");;
 	chinese_to_preferred_pinyin["家"] = pinyin_convert_1syll("jia1");
 	chinese_to_preferred_pinyin["吗"] = pinyin_convert_1syll("ma");
