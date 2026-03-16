@@ -567,6 +567,9 @@ bool chinese::questions::ask_all_until_fail_block10(
 		{
 			++loc_seq;
 			std::cout << "Answer accepted!\n";
+			std::cout << "Btw CHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
+			std::cout << ", PYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
+			std::cout << ", ENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
 			std::this_thread::sleep_for(std::chrono::milliseconds(500));
 		}
 		else
