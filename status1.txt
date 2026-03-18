@@ -21818,3 +21818,153 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 诗歌|shīgē|poetry|0|1|21278|success
 说话|shuōhuà|speak|0|2|21278|success
 飞船|fēichuán|spaceship|0|2|21278|success
+作业|zuòyè|homework|0|1|21369|success
+走路|zǒulù|walk|0|2|21369|success
+喂|wéi|hello (phone)|0|2|21369|success
+信|xìn|letter|0|1|21369|success
+信|xìn|letter|0|2|21369|success
+去|qù|go|0|1|21369|success
+去|qù|go|0|2|21369|success
+得|děi|must; have to|0|1|21369|success
+得|děi|must; have to|0|2|21369|success
+得|de|particle (used for complements)|0|1|21369|success
+得|de|particle (used for complements)|0|2|21369|success
+棵|kē|m.w.plants, trees|0|1|21369|success
+棵|kē|m.w.plants, trees|0|2|21369|success
+走|zǒu|go; walk; leave|0|1|21369|success
+走|zǒu|go; walk; leave|0|2|21369|success
+作业|zuòyè|homework|0|1|21384|success
+走路|zǒulù|walk|0|2|21384|success
+喂|wéi|hello (phone)|0|2|21384|success
+信|xìn|letter|0|1|21384|success
+信|xìn|letter|0|2|21384|success
+去|qù|go|0|1|21384|success
+去|qù|go|0|2|21384|success
+得|děi|must; have to|0|1|21384|success
+得|děi|must; have to|0|2|21384|success
+得|de|particle (used for complements)|0|1|21384|success
+得|de|particle (used for complements)|0|2|21384|success
+棵|kē|m.w.plants, trees|0|1|21384|success
+棵|kē|m.w.plants, trees|0|2|21384|success
+走|zǒu|go; walk; leave|0|1|21384|success
+走|zǒu|go; walk; leave|0|2|21384|success
+一样|yīyàng|same|0|1|21426|success
+个子|gèzi|height|0|2|21426|success
+回国|huíguó|return home/country|0|1|21426|success
+家里|jiālǐ|at home|0|2|21426|success
+工具|gōngjù|tool|0|2|21426|success
+成都|chéngdōu|chengdu|0|2|21426|success
+打折|dǎzhé|discount|0|2|21426|success
+换了|huànle|changed|0|1|21426|success
+操场|cāochǎng|playground|0|1|21426|success
+散步|sànbù|take a walk|0|1|21426|success
+晴天|qíngtiān|sunny|0|2|21426|success
+爱人|àirén|wife|0|1|21426|success
+现价|xiànjià|current price|0|2|21426|success
+长靴|zhǎngxuē|boots|0|1|21426|success
+门票|ménpiào|ticket|0|2|21426|success
+一样|yīyàng|same|0|1|21441|success
+个子|gèzi|height|0|2|21441|success
+回国|huíguó|return home/country|0|1|21441|success
+家里|jiālǐ|at home|0|2|21441|success
+工具|gōngjù|tool|0|2|21441|success
+成都|chéngdōu|chengdu|0|2|21441|success
+打折|dǎzhé|discount|0|2|21441|success
+换了|huànle|changed|0|1|21441|success
+操场|cāochǎng|playground|0|1|21441|success
+散步|sànbù|take a walk|0|1|21441|success
+晴天|qíngtiān|sunny|0|2|21441|success
+爱人|àirén|wife|0|1|21441|success
+现价|xiànjià|current price|0|2|21441|success
+长靴|zhǎngxuē|boots|0|1|21441|success
+门票|ménpiào|ticket|0|2|21441|success
+创立|chuànglì|found; set up|0|2|21579|success
+同事|tóngshì|coworker|0|2|21579|success
+品牌|pǐnpái|brand|0|2|21579|success
+女士|nǚshì|miss|0|1|21579|success
+帮助|bāngzhù|help|0|1|21579|success
+心意|xīnyì|thoughtfulness|0|1|21579|success
+房间|fángjiān|room|0|2|21579|success
+手游|shǒuyóu|phone game|0|2|21579|success
+放假|fàngjiǎ|holiday; have time off|0|2|21579|success
+旗袍|qípáo|chinese style dress|0|1|21579|success
+水平|shuǐpíng|level; standard|0|2|21579|success
+现价|xiànjià|current price|0|1|21579|success
+知了|zhīle|cicada|0|1|21579|success
+节日|jiérì|holiday|0|2|21579|success
+还没|háiméi|not yet|0|1|21579|success
+创立|chuànglì|found; set up|0|2|21594|success
+同事|tóngshì|coworker|0|2|21594|success
+品牌|pǐnpái|brand|0|2|21594|success
+女士|nǚshì|miss|0|1|21594|success
+帮助|bāngzhù|help|0|1|21594|success
+心意|xīnyì|thoughtfulness|0|1|21594|success
+房间|fángjiān|room|0|2|21594|success
+手游|shǒuyóu|phone game|0|2|21594|success
+放假|fàngjiǎ|holiday; have time off|0|2|21594|success
+旗袍|qípáo|chinese style dress|0|1|21594|success
+水平|shuǐpíng|level; standard|0|2|21594|success
+现价|xiànjià|current price|0|1|21594|success
+知了|zhīle|cicada|0|1|21594|success
+节日|jiérì|holiday|0|2|21594|success
+还没|háiméi|not yet|0|1|21594|success
+上次|shàngcì|last time|0|1|21708|success
+下身|xiàshēn|lower body|0|2|21708|success
+交通|jiāotōng|transportation|0|1|21708|success
+冰岛|bīngdǎo|iceland|0|2|21708|success
+发现|fāxiàn|discover; find|0|2|21708|success
+大号|dàhào|large size|0|1|21708|success
+如果|rúguǒ|if|0|2|21708|success
+幸运|xìngyùn|lucky|0|1|21708|success
+是的|shìde|yes|0|2|21708|success
+正要|zhèngyào|about to do something else|0|2|21708|success
+眼睛|yǎnjīng|eye|0|1|21708|success
+笑容|xiàoróng|smile|0|2|21708|success
+紧张|jǐnzhāng|anxious|0|1|21708|success
+英国|yīngguó|the united kingdom|0|2|21708|success
+领带|lǐngdài|tie|0|2|21708|success
+上次|shàngcì|last time|0|1|21733|success
+下身|xiàshēn|lower body|0|2|21733|success
+交通|jiāotōng|transportation|0|1|21733|success
+冰岛|bīngdǎo|iceland|0|2|21733|success
+发现|fāxiàn|discover; find|0|2|21733|success
+大号|dàhào|large size|0|1|21733|success
+如果|rúguǒ|if|0|2|21733|success
+幸运|xìngyùn|lucky|0|1|21733|success
+是的|shìde|yes|0|2|21733|success
+正要|zhèngyào|about to do something else|0|2|21733|success
+眼睛|yǎnjīng|eye|0|1|21733|success
+笑容|xiàoróng|smile|0|2|21733|success
+紧张|jǐnzhāng|anxious|0|1|21733|success
+英国|yīngguó|the united kingdom|0|2|21733|success
+领带|lǐngdài|tie|0|2|21733|success
+不怕|bùpà|not afraid|0|2|21837|success
+以后|yǐhòu|afterward|0|2|21837|success
+去过|qùguò|(have) been (somewhere) before|0|1|21837|success
+品牌|pǐnpái|brand|0|1|21837|success
+多变|duōbiàn|changeable|0|1|21837|success
+夫人|fūrén|mrs|0|1|21837|success
+广告|guǎnggào|advertisement|0|1|21837|success
+想家|xiǎngjiā|homesick|0|2|21837|success
+气温|qìwēn|air temperature|0|1|21837|success
+气温|qìwēn|air temperature|0|2|21837|success
+爱情|àiqíng|love|0|2|21837|success
+聊天|liáotiān|chat|0|1|21837|success
+自己|zìjǐ|self|0|2|21837|success
+诗歌|shīgē|poetry|0|2|21837|success
+邮件|yóujiàn翻毛鸡|email|0|1|21837|success
+不怕|bùpà|not afraid|0|2|21852|success
+以后|yǐhòu|afterward|0|2|21852|success
+去过|qùguò|(have) been (somewhere) before|0|1|21852|success
+品牌|pǐnpái|brand|0|1|21852|success
+多变|duōbiàn|changeable|0|1|21852|success
+夫人|fūrén|mrs|0|1|21852|success
+广告|guǎnggào|advertisement|0|1|21852|success
+想家|xiǎngjiā|homesick|0|2|21852|success
+气温|qìwēn|air temperature|0|1|21852|success
+气温|qìwēn|air temperature|0|2|21852|success
+爱情|àiqíng|love|0|2|21852|success
+聊天|liáotiān|chat|0|1|21852|success
+自己|zìjǐ|self|0|2|21852|success
+诗歌|shīgē|poetry|0|2|21852|success
+邮件|yóujiàn翻毛鸡|email|0|1|21852|success
