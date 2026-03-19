@@ -21968,3 +21968,63 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 自己|zìjǐ|self|0|2|21852|success
 诗歌|shīgē|poetry|0|2|21852|success
 邮件|yóujiàn翻毛鸡|email|0|1|21852|success
+几场|jǐchǎng|how many (shows/games)?|0|2|21991|success
+容易|róngyì|easy|0|2|21991|success
+就是|jiùshì|exactly|0|2|21991|success
+建议|jiànyì|suggestion|0|2|21991|success
+恶心|ěxīn|nauseous|0|1|21991|success
+晚秋|wǎnqiū|late autumn|0|2|21991|success
+歌词|gēcí|lyrics|0|1|21991|success
+波兰|bōlán|poland|0|2|21991|success
+知了|zhīle|cicada|0|2|21991|success
+网剧|wǎngjù|web series|0|1|21991|success
+荞麦|qiáomài|buckwheat|0|2|21991|success
+菠菜|bōcài|spinach|0|2|21991|success
+还是|háishì|or in question|0|2|21991|success
+炖|dùn|stew; simmer|0|1|21991|success
+炖|dùn|stew; simmer|0|2|21991|success
+几场|jǐchǎng|how many (shows/games)?|0|2|22006|success
+容易|róngyì|easy|0|2|22006|success
+就是|jiùshì|exactly|0|2|22006|success
+建议|jiànyì|suggestion|0|2|22006|success
+恶心|ěxīn|nauseous|0|1|22006|success
+晚秋|wǎnqiū|late autumn|0|2|22006|success
+歌词|gēcí|lyrics|0|1|22006|success
+波兰|bōlán|poland|0|2|22006|success
+知了|zhīle|cicada|0|2|22006|success
+网剧|wǎngjù|web series|0|1|22006|success
+荞麦|qiáomài|buckwheat|0|2|22006|success
+菠菜|bōcài|spinach|0|2|22006|success
+还是|háishì|or in question|0|2|22006|success
+炖|dùn|stew; simmer|0|1|22006|success
+炖|dùn|stew; simmer|0|2|22006|success
+上次|shàngcì|last time|0|2|22169|success
+中号|zhōnghào|medium size|0|1|22169|success
+出差|chūchà|business trip|0|1|22169|success
+嘴巴|zuǐbā|mouth|0|2|22169|success
+好闻|hǎowén|smell good|0|2|22169|success
+希望|xīwàng|hope|0|2|22169|success
+惊喜|jīngxǐ|surprise|0|2|22169|success
+想念|xiǎngniàn|miss|0|2|22169|success
+正在|zhèngzài|be doing|0|1|22169|success
+滑雪|huáxuě|ski|0|2|22169|success
+自己|zìjǐ|self|0|1|22169|success
+自由|zìyóu|freedom|0|1|22169|success
+退休|tuìxiū|retire|0|1|22169|success
+逛街|guàngjiē|shop around|0|1|22169|success
+鼻子|bízi|nose|0|1|22169|success
+上次|shàngcì|last time|0|2|22188|success
+中号|zhōnghào|medium size|0|1|22188|success
+出差|chūchà|business trip|0|1|22188|success
+嘴巴|zuǐbā|mouth|0|2|22188|success
+好闻|hǎowén|smell good|0|2|22188|success
+希望|xīwàng|hope|0|2|22188|success
+惊喜|jīngxǐ|surprise|0|2|22188|success
+想念|xiǎngniàn|miss|0|2|22188|success
+正在|zhèngzài|be doing|0|1|22188|success
+滑雪|huáxuě|ski|0|2|22188|success
+自己|zìjǐ|self|0|1|22188|success
+自由|zìyóu|freedom|0|1|22188|success
+退休|tuìxiū|retire|0|1|22188|success
+逛街|guàngjiē|shop around|0|1|22188|success
+鼻子|bízi|nose|0|1|22188|success
