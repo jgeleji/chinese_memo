@@ -413,7 +413,7 @@ bool chinese::questions::ask_all_until_fail_block10(
 		q_type theq = iter->first;
 		const datapoint* dp = &loaded_data[std::get<0>(theq)];
 		double modifier = f(chinese::Input::count_unicode_code_points(dp->chinese));
-		if(std::get<1>(theq) == DATATYPE_CHINESE)
+		if(std::get<1>(theq) == DATATYPE_CHINESE || std::get<2>(theq) == DATATYPE_CHINESE)
 			modifier += 1;
 		iter->second.second += modifier;
 	}
@@ -566,10 +566,10 @@ bool chinese::questions::ask_all_until_fail_block10(
 		if(result)
 		{
 			++loc_seq;
-			std::cout << "Answer accepted!\n";
-			std::cout << "Btw CHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
-			std::cout << ", PYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
-			std::cout << ", ENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
+			std::cout << "Answer accepted!\r\n";
+			std::cout << "Btw\r\nCHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
+			std::cout << ",\r\nPYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
+			std::cout << ",\r\nENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
 			std::this_thread::sleep_for(std::chrono::milliseconds(500));
 		}
 		else
@@ -577,9 +577,9 @@ bool chinese::questions::ask_all_until_fail_block10(
 			loc_seq = 0;
 			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
 			std::cout << "Correct would have been " << loaded_data[std::get<0>(which_q)].get(std::get<2>(which_q)) << "\r\n";
-			std::cout << "Btw CHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
-			std::cout << ", PYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
-			std::cout << ", ENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
+			std::cout << "Btw\r\nCHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
+			std::cout << ",\r\nPYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
+			std::cout << ",\r\nENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
 			//getch();
 			system_pause();
 		}
