@@ -10,6 +10,8 @@ extern const char* green_foreground;
 extern const char* yellow_foreground;
 extern const char* purple_background;
 extern const char* grey_background;
+extern const char* green_background; 
+extern const char* yellow_background;
 
 
 std::string pad_to_three(int i);

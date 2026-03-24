@@ -568,7 +568,7 @@ std::string chinese::Input::do_input_1char_english(
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
 		std::cout << grey_background   << "1 " << raw_input << "\r\n";
-		std::cout << red_background    << "2 " << inputted << reset_color << "\r\n";
+		std::cout << blue_background    << "2 " << inputted << reset_color << "\r\n";
 
 	}
 	while(state_number == INPUT_STATE_TYPE_PINYIN);
@@ -588,7 +588,7 @@ std::string chinese::Input::do_input_1char_pinyin(
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
 		std::cout << purple_background   << "1 " << raw_input << "\r\n";
-		std::cout << red_background    << "2 " << pinyin << reset_color << "\r\n";
+		std::cout << green_background    << "2 " << pinyin << reset_color << "\r\n";
 
 	}
 	while(state_number == INPUT_STATE_TYPE_PINYIN);
@@ -623,6 +623,7 @@ std::string chinese::Input::do_input_english(std::string description) const
 		if(c=="-")
 		{
 			ret.clear();
+			state_number = INPUT_STATE_TYPE_PINYIN;
 		}
 		else
 		{
@@ -724,8 +725,8 @@ std::string chinese::Input::do_input_1char_chinese(
 		move_clear_refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
-		std::cout << blue_background   << "1 " << raw_input << "\r\n";
-		std::cout << red_background    << "2 " << pinyin << reset_color << "\r\n";
+		std::cout << red_background   << "1 " << raw_input << "\r\n";
+		std::cout << yellow_background    << "2 " << pinyin << reset_color << "\r\n";
 		if(!shuffle)
 		{
 			std::cout << yellow_foreground;

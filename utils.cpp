@@ -7,6 +7,8 @@ const char* green_foreground  = "\033[0;38;5;2m";
 const char* yellow_foreground = "\033[0;38;5;3m";
 const char* purple_background = "\033[0;48;5;5m";
 const char* grey_background   = "\033[0;48;5;8m";
+const char* green_background  = "\033[0;48;5;2m";
+const char* yellow_background = "\033[0;48;5;3m";
 
 std::string pad_to_three(int i)
 {
