@@ -22028,3 +22028,123 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 退休|tuìxiū|retire|0|1|22188|success
 逛街|guàngjiē|shop around|0|1|22188|success
 鼻子|bízi|nose|0|1|22188|success
+付|fù|pay|2|0|22241|success
+双|shuāng|classifier for pair|1|0|22241|success
+多|duō|many|2|0|22241|success
+帮|bāng|help|2|0|22241|success
+怕|pà|afraid|1|0|22241|success
+戴|dài|put on (hat)|2|0|22241|success
+找|zhǎo|look for|2|0|22241|success
+斤|jīn|half kilo|2|0|22241|success
+湿|shī|wet; damp|2|0|22241|success
+系|xì|department, school|1|0|22241|success
+网|wǎng|internet|1|0|22241|success
+诗|shī|poem|1|0|22241|success
+读|dú|read|1|0|22241|success
+酷|kù|cool|2|0|22241|success
+高|gāo|tall|2|0|22241|success
+付|fù|pay|2|0|22256|success
+双|shuāng|classifier for pair|1|0|22256|success
+多|duō|many|2|0|22256|success
+帮|bāng|help|2|0|22256|success
+怕|pà|afraid|1|0|22256|success
+戴|dài|put on (hat)|2|0|22256|success
+找|zhǎo|look for|2|0|22256|success
+斤|jīn|half kilo|2|0|22256|success
+湿|shī|wet; damp|2|0|22256|success
+系|xì|department, school|1|0|22256|success
+网|wǎng|internet|1|0|22256|success
+诗|shī|poem|1|0|22256|success
+读|dú|read|1|0|22256|success
+酷|kù|cool|2|0|22256|success
+高|gāo|tall|2|0|22256|success
+与|yǔ|with|2|0|22310|success
+了|le|done|1|0|22310|success
+件|jiàn|m.w.cloth|1|0|22310|success
+少|shǎo|few|1|0|22310|success
+就|jiù|then|2|0|22310|success
+得|děi|must; have to|1|0|22310|success
+棵|kē|m.w.plants, trees|2|0|22310|success
+泡|pào|soak; steep; (bubbles) foam|2|0|22310|success
+涂|tú|put on makeup|1|0|22310|success
+短|duǎn|short|1|0|22310|success
+线|xiàn|metro line|2|0|22310|success
+让|ràng|make, let|2|0|22310|success
+走|zǒu|go; walk; leave|1|0|22310|success
+闻|wén|smell|1|0|22310|success
+陪|péi|accompany|1|0|22310|success
+与|yǔ|with|2|0|22325|success
+了|le|done|1|0|22325|success
+件|jiàn|m.w.cloth|1|0|22325|success
+少|shǎo|few|1|0|22325|success
+就|jiù|then|2|0|22325|success
+得|děi|must; have to|1|0|22325|success
+棵|kē|m.w.plants, trees|2|0|22325|success
+泡|pào|soak; steep; (bubbles) foam|2|0|22325|success
+涂|tú|put on makeup|1|0|22325|success
+短|duǎn|short|1|0|22325|success
+线|xiàn|metro line|2|0|22325|success
+让|ràng|make, let|2|0|22325|success
+走|zǒu|go; walk; leave|1|0|22325|success
+闻|wén|smell|1|0|22325|success
+陪|péi|accompany|1|0|22325|success
+些|xiē|m.w.a few|1|0|22387|success
+低|dī|low|1|0|22387|success
+别|bié|pin|2|0|22387|success
+才|cái|until (late)|2|0|22387|success
+找|zhǎo|look for|1|0|22387|success
+拿|ná|take|1|0|22387|success
+极|jí|extremely|2|0|22387|success
+棒|bàng|great|2|0|22387|success
+男|nán|male|2|0|22387|success
+着|zhe|used after verb to indicate state|2|0|22387|success
+短|duǎn|short|2|0|22387|success
+见|jiàn|see; meet|1|0|22387|success
+雾|wù|fog|1|0|22387|success
+饭|fàn|meal; cooked food|1|0|22387|success
+首|shǒu|m.w. songs|1|0|22387|success
+些|xiē|m.w.a few|1|0|22402|success
+低|dī|low|1|0|22402|success
+别|bié|pin|2|0|22402|success
+才|cái|until (late)|2|0|22402|success
+找|zhǎo|look for|1|0|22402|success
+拿|ná|take|1|0|22402|success
+极|jí|extremely|2|0|22402|success
+棒|bàng|great|2|0|22402|success
+男|nán|male|2|0|22402|success
+着|zhe|used after verb to indicate state|2|0|22402|success
+短|duǎn|short|2|0|22402|success
+见|jiàn|see; meet|1|0|22402|success
+雾|wù|fog|1|0|22402|success
+饭|fàn|meal; cooked food|1|0|22402|success
+首|shǒu|m.w. songs|1|0|22402|success
+件|jiàn|m.w.cloth|2|0|22434|success
+冰|bīng|ice|2|0|22434|success
+双|shuāng|classifier for pair|2|0|22434|success
+得|de|particle (used for complements)|2|0|22434|success
+怕|pà|afraid|2|0|22434|success
+才|cái|until (late)|1|0|22434|success
+拿|ná|take|2|0|22434|success
+极|jí|extremely|1|0|22434|success
+涂|tú|put on makeup|2|0|22434|success
+湿|shī|wet; damp|1|0|22434|success
+用|yòng|use|1|0|22434|success
+脸|liǎn|face|1|0|22434|success
+让|ràng|make, let|1|0|22434|success
+跟|gēn|and|2|0|22434|success
+雨|yǔ|rain|1|0|22434|success
+件|jiàn|m.w.cloth|2|0|22449|success
+冰|bīng|ice|2|0|22449|success
+双|shuāng|classifier for pair|2|0|22449|success
+得|de|particle (used for complements)|2|0|22449|success
+怕|pà|afraid|2|0|22449|success
+才|cái|until (late)|1|0|22449|success
+拿|ná|take|2|0|22449|success
+极|jí|extremely|1|0|22449|success
+涂|tú|put on makeup|2|0|22449|success
+湿|shī|wet; damp|1|0|22449|success
+用|yòng|use|1|0|22449|success
+脸|liǎn|face|1|0|22449|success
+让|ràng|make, let|1|0|22449|success
+跟|gēn|and|2|0|22449|success
+雨|yǔ|rain|1|0|22449|success
