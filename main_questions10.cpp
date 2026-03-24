@@ -2,9 +2,22 @@
 
 #include "questions.h"
 
-int main()
+int main(int argc, const char* argv[])
 {
-	chinese::questions q("status1.txt");
+	int status_number = 1;
+	if(argc > 1)
+	{
+		try {
+			status_number = std::stoi(argv[1]);
+		}
+		catch(std::exception& e)
+		{
+			std::cout << "Invalid argument! Usage: " << argv[0] << " [status_number]\n";
+			return 1;
+		}
+	}
+
+	chinese::questions q("status" + std::to_string(status_number) + ".txt");
 	q.load_file("union_q.txt");
 
 	q.init();

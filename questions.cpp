@@ -135,39 +135,43 @@ void chinese::questions::load_file(std::string const& filename)
 		if(tokens.size() < 2) continue;
 		datapoint dp;
 		dp.chinese = tokens[0];
-		dp.english = tolower(tokens[1]);
-		if(tokens.size()>2)
+		std::vector<std::string> english_tokens = tokenize(tokens[1], ';');
+		for(size_t i=0; i<english_tokens.size(); ++i)
 		{
-			dp.pinyin = tokens[2];
-		}
-		else
-		{
-			dp.pinyin = m_input.convert_chinese_to_pinyin(dp.chinese);
-		}
-		auto iter0 = question_index_finder.find(dp.chinese);
-		if(iter0 != question_index_finder.end())
-		{
-			auto iter1 = iter0->second.find(dp.pinyin);
-			if(iter1 != iter0->second.end())
+			dp.english = tolower(english_tokens[i]);
+			if(tokens.size()>2)
 			{
-				auto iter2 = iter1->second.find(dp.english);
-				if(iter2 != iter1->second.end())
+				dp.pinyin = tokens[2];
+			}
+			else
+			{
+				dp.pinyin = m_input.convert_chinese_to_pinyin(dp.chinese);
+			}
+			auto iter0 = question_index_finder.find(dp.chinese);
+			if(iter0 != question_index_finder.end())
+			{
+				auto iter1 = iter0->second.find(dp.pinyin);
+				if(iter1 != iter0->second.end())
 				{
-					continue;
+					auto iter2 = iter1->second.find(dp.english);
+					if(iter2 != iter1->second.end())
+					{
+						continue;
+					}
 				}
 			}
-		}
-		loaded_data.push_back(dp);
-		pinyin_overlaps[dp.pinyin].insert(loaded_data.size()-1);
-		english_overlaps[dp.english].insert(loaded_data.size()-1);
-		chinese_overlaps[dp.chinese].insert(loaded_data.size()-1);
+			loaded_data.push_back(dp);
+			pinyin_overlaps[dp.pinyin].insert(loaded_data.size()-1);
+			english_overlaps[dp.english].insert(loaded_data.size()-1);
+			chinese_overlaps[dp.chinese].insert(loaded_data.size()-1);
 
-		//std::tuple<std::string, std::string, std::string> key;
-		question_index_finder[dp.chinese][dp.pinyin][dp.english] = loaded_data.size() - 1;
-		//std::get<0>(key) = dp.chinese;
-		//std::get<1>(key) = dp.pinyin;
-		//std::get<2>(key) = dp.english;
-		//question_index_finder[key] = loaded_data.size() - 1;
+			//std::tuple<std::string, std::string, std::string> key;
+			question_index_finder[dp.chinese][dp.pinyin][dp.english] = loaded_data.size() - 1;
+			//std::get<0>(key) = dp.chinese;
+			//std::get<1>(key) = dp.pinyin;
+			//std::get<2>(key) = dp.english;
+			//question_index_finder[key] = loaded_data.size() - 1;
+		}
 	}
 }
 
