@@ -22148,3 +22148,273 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 让|ràng|make, let|1|0|22449|success
 跟|gēn|and|2|0|22449|success
 雨|yǔ|rain|1|0|22449|success
+别|bié|don't|1|0|22491|success
+多|duō|many|1|0|22491|success
+心|xīn|heart|2|0|22491|success
+快|kuài|fast|1|0|22491|success
+接|jiē|pick up (someone)|2|0|22491|success
+来|lái|come|1|0|22491|success
+棵|kē|m.w.plants, trees|1|0|22491|success
+泡|pào| (bubbles) foam|2|0|22491|success
+湿|shī|wet|2|0|22491|success
+炖|dùn|stew|0|1|22491|success
+米|mǐ|metre|1|0|22491|success
+米|mǐ|metre|2|0|22491|success
+见|jiàn|see|2|0|22491|success
+走|zǒu| walk|0|2|22491|success
+走|zǒu| leave|2|0|22491|success
+别|bié|don't|1|0|22506|success
+多|duō|many|1|0|22506|success
+心|xīn|heart|2|0|22506|success
+快|kuài|fast|1|0|22506|success
+接|jiē|pick up (someone)|2|0|22506|success
+来|lái|come|1|0|22506|success
+棵|kē|m.w.plants, trees|1|0|22506|success
+泡|pào| (bubbles) foam|2|0|22506|success
+湿|shī|wet|2|0|22506|success
+炖|dùn|stew|0|1|22506|success
+米|mǐ|metre|1|0|22506|success
+米|mǐ|metre|2|0|22506|success
+见|jiàn|see|2|0|22506|success
+走|zǒu| walk|0|2|22506|success
+走|zǒu| leave|2|0|22506|success
+付|fù|pay|1|0|22556|success
+住|zhù|live|1|0|22556|success
+信|xìn|letter|1|0|22556|success
+到|dào|reach|2|0|22556|success
+完|wán|after verb finish doing sth|2|0|22556|success
+少|shǎo|few|2|0|22556|success
+接|jiē|pick up (someone)|0|1|22556|success
+泡|pào| steep|1|0|22556|success
+炖|dùn| simmer|1|0|22556|success
+炖|dùn| simmer|2|0|22556|success
+用|yòng|use|2|0|22556|success
+见|jiàn|see|0|1|22556|success
+见|jiàn|see|0|2|22556|success
+走|zǒu|go|0|2|22556|success
+辆|liàng|m.w.bike, car|1|0|22556|success
+付|fù|pay|1|0|22571|success
+住|zhù|live|1|0|22571|success
+信|xìn|letter|1|0|22571|success
+到|dào|reach|2|0|22571|success
+完|wán|after verb finish doing sth|2|0|22571|success
+少|shǎo|few|2|0|22571|success
+接|jiē|pick up (someone)|0|1|22571|success
+泡|pào| steep|1|0|22571|success
+炖|dùn| simmer|1|0|22571|success
+炖|dùn| simmer|2|0|22571|success
+用|yòng|use|2|0|22571|success
+见|jiàn|see|0|1|22571|success
+见|jiàn|see|0|2|22571|success
+走|zǒu|go|0|2|22571|success
+辆|liàng|m.w.bike, car|1|0|22571|success
+与|yǔ|with|1|0|22596|success
+冰|bīng|ice|1|0|22596|success
+到|dào|reach|1|0|22596|success
+得|děi|must|0|1|22596|success
+得|děi| have to|2|0|22596|success
+快|kuài|fast|2|0|22596|success
+条|tiáo|m.w.pants, river, skirt|2|0|22596|success
+泡|pào|soak|2|0|22596|success
+泡|pào| (bubbles) foam|1|0|22596|success
+穿|chuān|wear|1|0|22596|success
+胖|pàng|fat|2|0|22596|success
+见|jiàn| meet|2|0|22596|success
+雨|yǔ|rain|2|0|22596|success
+雾|wù|fog|2|0|22596|success
+饭|fàn|meal|0|2|22596|success
+与|yǔ|with|1|0|22611|success
+冰|bīng|ice|1|0|22611|success
+到|dào|reach|1|0|22611|success
+得|děi|must|0|1|22611|success
+得|děi| have to|2|0|22611|success
+快|kuài|fast|2|0|22611|success
+条|tiáo|m.w.pants, river, skirt|2|0|22611|success
+泡|pào|soak|2|0|22611|success
+泡|pào| (bubbles) foam|1|0|22611|success
+穿|chuān|wear|1|0|22611|success
+胖|pàng|fat|2|0|22611|success
+见|jiàn| meet|2|0|22611|success
+雨|yǔ|rain|2|0|22611|success
+雾|wù|fog|2|0|22611|success
+饭|fàn|meal|0|2|22611|success
+台|tái|m.w.computer|1|0|22664|success
+或|huò|or|1|0|22664|success
+接|jiē| meet|1|0|22664|success
+接|jiē| meet|2|0|22664|success
+斤|jīn|half kilo|1|0|22664|success
+棒|bàng|great|1|0|22664|success
+泡|pào|soak|0|1|22664|success
+泡|pào|soak|0|2|22664|success
+湿|shī|wet|0|2|22664|success
+湿|shī|wet|1|0|22664|success
+甜|tián|sweet|1|0|22664|success
+走|zǒu|go|2|0|22664|success
+走|zǒu| walk|0|1|22664|success
+走|zǒu| walk|1|0|22664|success
+饭|fàn|meal|0|1|22664|success
+台|tái|m.w.computer|1|0|22679|success
+或|huò|or|1|0|22679|success
+接|jiē| meet|1|0|22679|success
+接|jiē| meet|2|0|22679|success
+斤|jīn|half kilo|1|0|22679|success
+棒|bàng|great|1|0|22679|success
+泡|pào|soak|0|1|22679|success
+泡|pào|soak|0|2|22679|success
+湿|shī|wet|0|2|22679|success
+湿|shī|wet|1|0|22679|success
+甜|tián|sweet|1|0|22679|success
+走|zǒu|go|2|0|22679|success
+走|zǒu| walk|0|1|22679|success
+走|zǒu| walk|1|0|22679|success
+饭|fàn|meal|0|1|22679|success
+得|děi|must|0|2|22715|success
+得|děi|must|1|0|22715|success
+慢|màn|slow|2|0|22715|success
+或|huò|or|2|0|22715|success
+接|jiē|pick up (someone)|1|0|22715|success
+泡|pào|soak|1|0|22715|success
+泡|pào| (bubbles) foam|0|1|22715|success
+炖|dùn|stew|1|0|22715|success
+站|zhàn|station|1|0|22715|success
+读|dú|read|2|0|22715|success
+走|zǒu|go|0|1|22715|success
+路|lù|number of bus|1|0|22715|success
+逛|guàng|hang out|1|0|22715|success
+闻|wén|smell|2|0|22715|success
+饭|fàn|meal|1|0|22715|success
+得|děi|must|0|2|22730|success
+得|děi|must|1|0|22730|success
+慢|màn|slow|2|0|22730|success
+或|huò|or|2|0|22730|success
+接|jiē|pick up (someone)|1|0|22730|success
+泡|pào|soak|1|0|22730|success
+泡|pào| (bubbles) foam|0|1|22730|success
+炖|dùn|stew|1|0|22730|success
+站|zhàn|station|1|0|22730|success
+读|dú|read|2|0|22730|success
+走|zǒu|go|0|1|22730|success
+路|lù|number of bus|1|0|22730|success
+逛|guàng|hang out|1|0|22730|success
+闻|wén|smell|2|0|22730|success
+饭|fàn|meal|1|0|22730|success
+去|qù|go|2|0|22777|success
+帮|bāng|help|1|0|22777|success
+心|xīn|heart|1|0|22777|success
+戴|dài|put on (hat)|1|0|22777|success
+接|jiē|pick up (someone)|0|2|22777|success
+泡|pào| (bubbles) foam|0|2|22777|success
+炖|dùn|stew|0|2|22777|success
+站|zhàn|station|2|0|22777|success
+胖|pàng|fat|1|0|22777|success
+诗|shī|poem|2|0|22777|success
+走|zǒu|go|1|0|22777|success
+走|zǒu| walk|2|0|22777|success
+陪|péi|accompany|2|0|22777|success
+饭|fàn| cooked food|2|0|22777|success
+首|shǒu|m.w. songs|2|0|22777|success
+去|qù|go|2|0|22805|success
+帮|bāng|help|1|0|22805|success
+心|xīn|heart|1|0|22805|success
+戴|dài|put on (hat)|1|0|22805|success
+接|jiē|pick up (someone)|0|2|22805|success
+泡|pào| (bubbles) foam|0|2|22805|success
+炖|dùn|stew|0|2|22805|success
+站|zhàn|station|2|0|22805|success
+胖|pàng|fat|1|0|22805|success
+诗|shī|poem|2|0|22805|success
+走|zǒu|go|1|0|22805|success
+走|zǒu| walk|2|0|22805|success
+陪|péi|accompany|2|0|22805|success
+饭|fàn| cooked food|2|0|22805|success
+首|shǒu|m.w. songs|2|0|22805|success
+住|zhù|live|2|0|22828|success
+信|xìn|letter|2|0|22828|success
+包|bāo|bag|2|0|22828|success
+去|qù|go|1|0|22828|success
+完|wán|after verb finish doing sth|1|0|22828|success
+得|děi|must|2|0|22828|success
+得|de|particle (used for complements)|1|0|22828|success
+性|xìng|sex|2|0|22828|success
+慢|màn|slow|1|0|22828|success
+树|shù|tree|2|0|22828|success
+湿|shī|wet|0|1|22828|success
+炖|dùn|stew|2|0|22828|success
+瘦|shòu|thin|2|0|22828|success
+饭|fàn|meal|2|0|22828|success
+高|gāo|tall|1|0|22828|success
+住|zhù|live|2|0|22843|success
+信|xìn|letter|2|0|22843|success
+包|bāo|bag|2|0|22843|success
+去|qù|go|1|0|22843|success
+完|wán|after verb finish doing sth|1|0|22843|success
+得|děi|must|2|0|22843|success
+得|de|particle (used for complements)|1|0|22843|success
+性|xìng|sex|2|0|22843|success
+慢|màn|slow|1|0|22843|success
+树|shù|tree|2|0|22843|success
+湿|shī|wet|0|1|22843|success
+炖|dùn|stew|2|0|22843|success
+瘦|shòu|thin|2|0|22843|success
+饭|fàn|meal|2|0|22843|success
+高|gāo|tall|1|0|22843|success
+上次|shàngcì|last time|2|0|22963|success
+个子|gèzi|height|0|1|22963|success
+公斤|gōngjīn|kilogram|2|0|22963|success
+几场|jǐchǎng|how many (shows/games)?|0|1|22963|success
+嗓子|sǎngzi|throat|0|2|22963|success
+多变|duōbiàn|changeable|2|0|22963|success
+大号|dàhào|large size|1|0|22963|success
+小吃|xiǎochī|snack|0|2|22963|success
+比较|bǐjiào|relatively|1|0|22963|success
+滑雪|huáxuě|ski|1|0|22963|success
+炖肉|dùnròu|stewed meat|0|1|22963|success
+送别|sòngbié|see off|2|0|22963|success
+羊|yáng|sheep|2|0|22963|success
+虎|hǔ|tiger|2|0|22963|success
+见|jiàn|see|1|0|22963|success
+上次|shàngcì|last time|2|0|22978|success
+个子|gèzi|height|0|1|22978|success
+公斤|gōngjīn|kilogram|2|0|22978|success
+几场|jǐchǎng|how many (shows/games)?|0|1|22978|success
+嗓子|sǎngzi|throat|0|2|22978|success
+多变|duōbiàn|changeable|2|0|22978|success
+大号|dàhào|large size|1|0|22978|success
+小吃|xiǎochī|snack|0|2|22978|success
+比较|bǐjiào|relatively|1|0|22978|success
+滑雪|huáxuě|ski|1|0|22978|success
+炖肉|dùnròu|stewed meat|0|1|22978|success
+送别|sòngbié|see off|2|0|22978|success
+羊|yáng|sheep|2|0|22978|success
+虎|hǔ|tiger|2|0|22978|success
+见|jiàn|see|1|0|22978|success
+创立|chuànglì|found|0|2|23123|success
+剧院|jùyuàn|theater|2|0|23123|success
+努力|nǔlì|work hard|0|1|23123|success
+发明|fāmíng|invent|1|0|23123|success
+品牌|pǐnpái|brand|2|0|23123|success
+墨镜|mòjìng|sunglasses|2|0|23123|success
+学习|xuéxí|study|0|1|23123|success
+打折|dǎzhé|discount|2|0|23123|success
+泡菜|pàocài| kimchi|2|0|23123|success
+蔬菜|shūcài|vegetables|1|0|23123|success
+诊所|zhěnsuǒ|clinic|1|0|23123|success
+超人|chāorén|superman|2|0|23123|success
+铅笔|qiānbǐ|pencil|0|2|23123|success
+银行|yínháng|bank|2|0|23123|success
+难看|nánkàn|ugly|2|0|23123|success
+创立|chuànglì|found|0|2|23138|success
+剧院|jùyuàn|theater|2|0|23138|success
+努力|nǔlì|work hard|0|1|23138|success
+发明|fāmíng|invent|1|0|23138|success
+品牌|pǐnpái|brand|2|0|23138|success
+墨镜|mòjìng|sunglasses|2|0|23138|success
+学习|xuéxí|study|0|1|23138|success
+打折|dǎzhé|discount|2|0|23138|success
+泡菜|pàocài| kimchi|2|0|23138|success
+蔬菜|shūcài|vegetables|1|0|23138|success
+诊所|zhěnsuǒ|clinic|1|0|23138|success
+超人|chāorén|superman|2|0|23138|success
+铅笔|qiānbǐ|pencil|0|2|23138|success
+银行|yínháng|bank|2|0|23138|success
+难看|nánkàn|ugly|2|0|23138|success
