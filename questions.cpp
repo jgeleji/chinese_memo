@@ -758,7 +758,8 @@ repeat_question:
 		}
 
 		std::string stats = 
-				std::to_string(q)
+				reset_color
+				+ std::to_string(q)
 				+ "/" + std::to_string(6*loaded_data.size())
 				+ " " + std::to_string(sequence_number)
 				+ " " + std::to_string(iter0->second.first)

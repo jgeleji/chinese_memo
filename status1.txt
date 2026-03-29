@@ -22418,3 +22418,46 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 铅笔|qiānbǐ|pencil|0|2|23138|success
 银行|yínháng|bank|2|0|23138|success
 难看|nánkàn|ugly|2|0|23138|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|23139|fail
+临时工作|línshígōngzuò|temporary job|1|2|23140|fail
+临时工作|línshígōngzuò|temporary job|1|2|23140|fail
+临时工作|línshígōngzuò|temporary job|1|2|23140|success
+诗|shī|poem|1|2|23141|success
+第二件五折|dìèrjiànwǔzhé|second item half price|2|1|23142|fail
+第二件五折|dìèrjiànwǔzhé|second item half price|2|1|23142|success
+第二件五折|dìèrjiànwǔzhé|second item half price|2|1|23142|success
+湿|shī|wet|2|1|23143|fail
+湿|shī|wet|2|1|23143|success
+湿|shī|wet|2|1|23143|success
+惊喜|jīngxǐ|surprise|1|2|23144|fail
+惊喜|jīngxǐ|surprise|1|2|23144|success
+惊喜|jīngxǐ|surprise|1|2|23144|success
+发消息|fāxiāoxī|send a message|1|0|23145|fail
+发消息|fāxiāoxī|send a message|1|0|23145|success
+发消息|fāxiāoxī|send a message|1|0|23145|success
+首|shǒu|m.w.song, poem|1|2|23146|fail
+首|shǒu|m.w.song, poem|1|2|23146|success
+首|shǒu|m.w.song, poem|1|2|23146|success
+你周末过得好吗？|nǐzhōumòguòdéhǎoma?|did you enjoy the weekend?|2|1|23147|fail
+你周末过得好吗？|nǐzhōumòguòdéhǎoma?|did you enjoy the weekend?|2|1|23147|success
+你周末过得好吗？|nǐzhōumòguòdéhǎoma?|did you enjoy the weekend?|2|1|23147|success
+指环王|zhǐhuánwáng|the lord of the rings|0|1|23148|fail
+指环王|zhǐhuánwáng|the lord of the rings|0|1|23148|success
+指环王|zhǐhuánwáng|the lord of the rings|0|1|23148|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|23149|success
+临时工作|línshígōngzuò|temporary job|1|2|23150|fail
+临时工作|línshígōngzuò|temporary job|1|2|23150|success
+临时工作|línshígōngzuò|temporary job|1|2|23150|success
+穿|chuān|wear|2|1|23151|fail
+穿|chuān|wear|2|1|23151|success
+穿|chuān|wear|2|1|23151|success
+第二件五折|dìèrjiànwǔzhé|second item half price|2|1|23152|success
+景观|jǐngguān|landscape|1|0|23153|fail
+景观|jǐngguān|landscape|1|0|23153|fail
+景观|jǐngguān|landscape|1|0|23153|success
+惊喜|jīngxǐ|surprise|1|2|23154|fail
+惊喜|jīngxǐ|surprise|1|2|23154|success
+惊喜|jīngxǐ|surprise|1|2|23154|success
+发消息|fāxiāoxī|send a message|1|0|23155|fail
+发消息|fāxiāoxī|send a message|1|0|23155|success
+发消息|fāxiāoxī|send a message|1|0|23155|success
