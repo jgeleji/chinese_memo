@@ -1,0 +1,15 @@
+结婚|get married
+聪明|smart
+等|wait
+开车|drive car
+坏|break down
+记得|remember
+突然|suddenly
+忘记|forget
+左边|left side
+右边|right side
+
+行人|pedestrian
+车让行人|yield to pedestrian
+等红灯|wait for red light
+
