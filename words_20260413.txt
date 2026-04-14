@@ -13,3 +13,8 @@
 车让行人|yield to pedestrian
 等红灯|wait for red light
 
+到咱们家|come to our house
+应该往|should go
+左边|left
+右边|right
+跟我来|follow me
