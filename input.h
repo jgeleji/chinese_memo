@@ -46,9 +46,18 @@ class Input
 		std::vector<std::string> get_some_random_chinese_chars(int num, std::mt19937& rnd) const;
 
 		std::string do_input_chinese(std::string description="", bool shuffle=true, int breaks = 0, const char* expected=nullptr) const;
+		std::string do_input_chinese_notone(std::string description="", bool shuffle=true, int breaks = 0, const char* expected=nullptr) const;
 		std::string do_input_english(std::string description="") const;
 		std::string do_input_pinyin(std::string description="") const;
 		std::string do_input_1char_chinese(
+			std::string const& top_row,
+			INPUT_STATE& state_number,
+			std::string const& description,
+			bool shuffle=true,
+			bool show_others=false,
+			const char* expected=nullptr,
+			int breaks = 0) const;
+		std::string do_input_1char_chinese_notone(
 			std::string const& top_row,
 			INPUT_STATE& state_number,
 			std::string const& description,
