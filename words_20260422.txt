@@ -1,0 +1,72 @@
+急|rush|jí
+别急|no rush|biéjí
+听懂|understand by listening|tīngdǒng
+就|right after|jiù
+变来变去|keep changing|biànláibiànqù
+天气|weather|tiānqì
+一会儿|in a moment / for a while|yīhuìr
+晴天|sunny day|qíngtiān
+下雨|to rain|xiàyǔ
+天气变来变去，一会儿晴天，一会儿下雨。|The weather keeps changing, sometimes sunny, sometimes rainy.
+明天|tomorrow|míngtiān
+安排|plan / arrangement|ānpái
+明天的安排变来变去。|Tomorrow's plans keep changing.
+心情|mood|xīnqíng
+票|ticket|piào
+忘记|to forget|wàngjì
+牛奶|milk|niúnǎi
+我忘记了要买牛奶。|I forgot to buy milk.
+我忘记了买了牛奶。|I forgot that I already bought milk.
+学生|student|xuéshēng
+月票|monthly ticket|yuèpiào
+打折|discount|dǎzhé
+学生月票打1折|Student monthly ticket at 10% off
+早高峰|morning rush hour|zǎogāofēng
+晚高峰|evening rush hour|wǎngāofēng
+停车|park / stop a car|tíngchē
+觉得|think|juéde
+堵|blocked / clogged|dǔ
+堵车|traffic jam|dǔchē
+出问题|to have a problem|chūwèntí
+出问题了|something went wrong|chūwèntíle
+有问题|there's a problem|yǒuwèntí
+公交车|public bus|gōngjiāochē
+大巴|coach / large bus|dàbā
+景点大巴|tourist spot shuttle bus|jǐngdiǎndàbā
+旅游大巴|tourist bus|lǚyóudàbā
+信用卡|credit card|xìnyòngkǎ
+储蓄卡|debit card|chúxùkǎ
+银行卡|bank card|yínhángkǎ
+门禁卡|access card|ménjìnkǎ
+房卡|room card|fángkǎ
+饭卡|meal card|fànkǎ
+护照|passport|hùzhào
+驾照|driving license|jiàzhào
+驾驶执照|driving license|jiàshǐzhízhào
+身份证|ID card|shēnfènzhèng
+刷|swipe (card)|shuā
+现金|cash|xiànjīn
+还是|or / still|háishi
+你扫我？还是我扫你？|You scan me? Or I scan you?
+扫码|scan QR code|sǎomǎ
+刷卡|swipe card|shuākǎ
+店员|store clerk|diànyuán
+元|yuan|yuán
+块|kuai (colloquial for yuan)|kuài
+角|jiao (0.1 yuan)|jiǎo
+毛|mao (colloquial for jiao)|máo
+分|fen (0.01 yuan)|fēn
+1元/块=10角/毛|1 yuan (= kuai) = 10 jiao (= mao)
+3角2分|0.32 yuan
+1元=10角=100分|1 yuan = 10 jiao = 100 fen
+1块=10毛=100（分）|1 kuai = 10 mao = 100 fen
+水管|water pipe|shuǐguǎn
+厕所|toilet / bathroom|cèsuǒ
+水管堵了|The pipe is clogged.
+厕所堵了|The toilet is clogged.
+前面|ahead / in front|qiánmiàn
+前面的车堵了|The car ahead is blocked.
+前面堵车了|There's a traffic jam ahead.
+三分之一|one third|sānfēnzhīyī
+五分之二|two fifths|wǔfēnzhīèr
+1又4分之一|one and a quarter|yīyòusìfēnzhīyī
