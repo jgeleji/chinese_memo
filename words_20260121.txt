@@ -18,3 +18,4 @@
 汉堡|burger
 别着急|don't worry
 你困了吗|are you sleepy
+

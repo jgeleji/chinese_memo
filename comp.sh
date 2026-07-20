@@ -6,6 +6,7 @@ COMPILER=g++
 FLAGS=
 
 ${COMPILER} input_ncurses.cpp input_common.cpp utils.cpp main_input.cpp tokenize.cpp -lncurses -o input
+${COMPILER} input_ncurses.cpp input_common.cpp utils.cpp main_input_notone.cpp tokenize.cpp -lncurses -o input_notone
 ${COMPILER} input_ncurses.cpp input_common.cpp utils.cpp main_questions.cpp tokenize.cpp questions.cpp -lncurses -o questions
 ${COMPILER} input_ncurses.cpp input_common.cpp utils.cpp main_questions10.cpp tokenize.cpp questions.cpp -lncurses -o questions10
 ${COMPILER} input_ncurses.cpp input_common.cpp utils.cpp main_questions10hsk.cpp tokenize.cpp questions.cpp -lncurses -o questions10hsk ${FLAGS}

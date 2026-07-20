@@ -145,3 +145,4 @@
 这家店|this store
 最近|recently
 都在打折|all having discounts
+

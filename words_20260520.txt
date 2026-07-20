@@ -2,7 +2,8 @@
 往左走|go left
 向右走|go right
 放|put down
-放|let it go
+放|put
+放手|let it go
 把|ba-szerkezetben a tárgy elöljárószava
 它|it
 空调|air conditioner
@@ -16,3 +17,4 @@
 杨梅|Yangmei
 我没有把苹果吃完。|I didn’t finish eating the apple.
 三人行，必有我师。|When three people walk together, there’s always something I can learn from them.
+

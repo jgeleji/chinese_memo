@@ -22461,3 +22461,2524 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 发消息|fāxiāoxī|send a message|1|0|23155|fail
 发消息|fāxiāoxī|send a message|1|0|23155|success
 发消息|fāxiāoxī|send a message|1|0|23155|success
+帽子|màozi|hat|1|0|23249|success
+房间|fángjiān|room|2|0|23249|success
+暖和|nuǎnhuo|warm|1|0|23249|success
+汉堡|hànbǎo|burger|1|0|23249|success
+特别|tèbié|especially|1|0|23249|success
+第二件五折|dìèrjiànwǔzhé|second item half price|2|1|23249|success
+湿|shī|wet|2|1|23249|success
+穿|chuān|wear|2|1|23249|success
+你周末过得好吗？|nǐzhōumòguòdéhǎoma?|did you enjoy the weekend?|2|1|23249|success
+指环王|zhǐhuánwáng|the lord of the rings|0|1|23249|success
+惊喜|jīngxǐ|surprise|1|2|23249|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|23249|success
+景观|jǐngguān|landscape|1|0|23249|success
+发消息|fāxiāoxī|send a message|1|0|23249|success
+临时工作|línshígōngzuò|temporary job|1|2|23249|success
+帽子|màozi|hat|1|0|23264|success
+房间|fángjiān|room|2|0|23264|success
+暖和|nuǎnhuo|warm|1|0|23264|success
+汉堡|hànbǎo|burger|1|0|23264|success
+特别|tèbié|especially|1|0|23264|success
+第二件五折|dìèrjiànwǔzhé|second item half price|2|1|23264|success
+湿|shī|wet|2|1|23264|success
+穿|chuān|wear|2|1|23264|success
+你周末过得好吗？|nǐzhōumòguòdéhǎoma?|did you enjoy the weekend?|2|1|23264|success
+指环王|zhǐhuánwáng|the lord of the rings|0|1|23264|success
+惊喜|jīngxǐ|surprise|1|2|23264|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|23264|success
+景观|jǐngguān|landscape|1|0|23264|success
+发消息|fāxiāoxī|send a message|1|0|23264|success
+临时工作|línshígōngzuò|temporary job|1|2|23264|success
+出差|chūchà|business trip|2|0|23348|success
+发现|fāxiàn|discover|0|1|23348|success
+小吃|xiǎochī|snack|1|0|23348|success
+小吃|xiǎochī| street food|0|2|23348|success
+操场|cāochǎng|playground|1|0|23348|success
+收拾|shōushí|tidy up|2|0|23348|success
+是的|shìde|yes|2|0|23348|success
+样品|yàngpǐn|sample|1|0|23348|success
+歌词|gēcí|lyrics|1|0|23348|success
+指环王|zhǐhuánwáng|the lord of the rings|0|1|23348|success
+惊喜|jīngxǐ|surprise|1|2|23348|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|23348|success
+景观|jǐngguān|landscape|1|0|23348|success
+发消息|fāxiāoxī|send a message|1|0|23348|success
+临时工作|línshígōngzuò|temporary job|1|2|23348|success
+出差|chūchà|business trip|2|0|23363|success
+发现|fāxiàn|discover|0|1|23363|success
+小吃|xiǎochī|snack|1|0|23363|success
+小吃|xiǎochī| street food|0|2|23363|success
+操场|cāochǎng|playground|1|0|23363|success
+收拾|shōushí|tidy up|2|0|23363|success
+是的|shìde|yes|2|0|23363|success
+样品|yàngpǐn|sample|1|0|23363|success
+歌词|gēcí|lyrics|1|0|23363|success
+指环王|zhǐhuánwáng|the lord of the rings|0|1|23363|success
+惊喜|jīngxǐ|surprise|1|2|23363|success
+宫保鸡丁|gōngbǎojīdīng|gongbao chicken|1|2|23363|success
+景观|jǐngguān|landscape|1|0|23363|success
+发消息|fāxiāoxī|send a message|1|0|23363|success
+临时工作|línshígōngzuò|temporary job|1|2|23363|success
+先|xiān|first|0|1|23403|success
+和|hé|with|0|2|23403|success
+和|hé|with|1|0|23403|success
+和|hé|with|2|0|23403|success
+大|dà|big|1|0|23403|success
+太|tài|too|2|0|23403|success
+家|jiā|home|2|0|23403|success
+接|jiē|pick up|1|0|23403|success
+洗|xǐ|wash|0|1|23403|success
+景观|jǐngguān|landscape|1|0|23403|success
+发消息|fāxiāoxī|send a message|1|0|23403|success
+觉得|jiàodé| feel|1|2|23403|success
+临时工作|línshígōngzuò|temporary job|1|2|23403|success
+便宜|biànyí|cheap|1|2|23403|success
+地铁|detiě|subway|1|0|23403|success
+先|xiān|first|0|1|23423|success
+和|hé|with|0|2|23423|success
+和|hé|with|1|0|23423|success
+和|hé|with|2|0|23423|success
+大|dà|big|1|0|23423|success
+太|tài|too|2|0|23423|success
+家|jiā|home|2|0|23423|success
+接|jiē|pick up|1|0|23423|success
+洗|xǐ|wash|0|1|23423|success
+景观|jǐngguān|landscape|1|0|23423|success
+发消息|fāxiāoxī|send a message|1|0|23423|success
+觉得|jiàodé| feel|1|2|23423|success
+临时工作|línshígōngzuò|temporary job|1|2|23423|success
+便宜|biànyí|cheap|1|2|23423|success
+地铁|detiě|subway|1|0|23423|success
+件|jiàn|piece (classifier)|1|0|23480|success
+先|xiān|first|0|2|23480|success
+吗|ma|question particle|2|0|23480|success
+大|dà|big|0|2|23480|success
+太|tài|too|1|0|23480|success
+家|jiā|home|0|1|23480|success
+家|jiā|home|1|0|23480|success
+少|shǎo|less|0|1|23480|success
+接|jiē|pick up|0|1|23480|success
+说|shuō|say|0|1|23480|success
+饿|è|hungry|2|0|23480|success
+觉得|jiàodé| feel|1|2|23480|success
+临时工作|línshígōngzuò|temporary job|1|2|23480|success
+地铁|detiě|subway|1|0|23480|success
+便宜|biànyí|cheap|1|2|23480|success
+件|jiàn|piece (classifier)|1|0|23495|success
+先|xiān|first|0|2|23495|success
+吗|ma|question particle|2|0|23495|success
+大|dà|big|0|2|23495|success
+太|tài|too|1|0|23495|success
+家|jiā|home|0|1|23495|success
+家|jiā|home|1|0|23495|success
+少|shǎo|less|0|1|23495|success
+接|jiē|pick up|0|1|23495|success
+说|shuō|say|0|1|23495|success
+饿|è|hungry|2|0|23495|success
+觉得|jiàodé| feel|1|2|23495|success
+临时工作|línshígōngzuò|temporary job|1|2|23495|success
+地铁|detiě|subway|1|0|23495|success
+便宜|biànyí|cheap|1|2|23495|success
+件|jiàn|piece (classifier)|0|1|23522|success
+吗|ma|question particle|1|0|23522|success
+少|shǎo|less|0|2|23522|success
+想|xiǎng|miss|0|1|23522|success
+想|xiǎng|miss|0|2|23522|success
+想|xiǎng|miss|1|0|23522|success
+接|jiē|pick up|0|2|23522|success
+说|shuō|say|1|0|23522|success
+这|zhè|this|0|1|23522|success
+这|zhè|this|1|0|23522|success
+难|nán|difficult|1|0|23522|success
+难|nán|difficult|2|0|23522|success
+临时工作|línshígōngzuò|temporary job|1|2|23522|success
+地铁|detiě|subway|1|0|23522|success
+便宜|biànyí|cheap|1|2|23522|success
+件|jiàn|piece (classifier)|0|1|23537|success
+吗|ma|question particle|1|0|23537|success
+少|shǎo|less|0|2|23537|success
+想|xiǎng|miss|0|1|23537|success
+想|xiǎng|miss|0|2|23537|success
+想|xiǎng|miss|1|0|23537|success
+接|jiē|pick up|0|2|23537|success
+说|shuō|say|1|0|23537|success
+这|zhè|this|0|1|23537|success
+这|zhè|this|1|0|23537|success
+难|nán|difficult|1|0|23537|success
+难|nán|difficult|2|0|23537|success
+临时工作|línshígōngzuò|temporary job|1|2|23537|success
+地铁|detiě|subway|1|0|23537|success
+便宜|biànyí|cheap|1|2|23537|success
+先|xiān|first|2|0|23572|success
+变|biàn|become|0|1|23572|success
+吗|ma|question particle|0|2|23572|success
+啊|a|ahh|1|0|23572|success
+嗯|èn|um|2|0|23572|success
+家|jiā|home|0|2|23572|success
+想|xiǎng|miss|2|0|23572|success
+想|xiǎng| think of|0|1|23572|success
+想|xiǎng| think of|0|2|23572|success
+想|xiǎng| think of|2|0|23572|success
+换|huàn|change|2|0|23572|success
+笔|bǐ|pen|0|2|23572|success
+笔|bǐ|pen|2|0|23572|success
+这|zhè|this|2|0|23572|success
+难|nán|difficult|0|1|23572|success
+先|xiān|first|2|0|23589|success
+变|biàn|become|0|1|23589|success
+吗|ma|question particle|0|2|23589|success
+啊|a|ahh|1|0|23589|success
+嗯|èn|um|2|0|23589|success
+家|jiā|home|0|2|23589|success
+想|xiǎng|miss|2|0|23589|success
+想|xiǎng| think of|0|1|23589|success
+想|xiǎng| think of|0|2|23589|success
+想|xiǎng| think of|2|0|23589|success
+换|huàn|change|2|0|23589|success
+笔|bǐ|pen|0|2|23589|success
+笔|bǐ|pen|2|0|23589|success
+这|zhè|this|2|0|23589|success
+难|nán|difficult|0|1|23589|success
+首|shǒu|m.w.song, poem|1|2|23590|success
+变|biàn|become|0|2|23620|success
+吗|ma|question particle|0|1|23620|success
+嗯|èn|um|1|0|23620|success
+大|dà|big|0|1|23620|success
+太|tài|too|0|1|23620|success
+少|shǎo|less|1|0|23620|success
+少|shǎo|less|2|0|23620|success
+拿|ná|carry|0|2|23620|success
+拿|ná|carry|2|0|23620|success
+换|huàn|change|1|0|23620|success
+枣|zǎo|date|0|1|23620|success
+枣|zǎo|date|0|2|23620|success
+枣|zǎo|date|1|0|23620|success
+洗|xǐ|wash|0|2|23620|success
+难|nán|difficult|0|2|23620|success
+变|biàn|become|0|2|23648|success
+吗|ma|question particle|0|1|23648|success
+嗯|èn|um|1|0|23648|success
+大|dà|big|0|1|23648|success
+太|tài|too|0|1|23648|success
+少|shǎo|less|1|0|23648|success
+少|shǎo|less|2|0|23648|success
+拿|ná|carry|0|2|23648|success
+拿|ná|carry|2|0|23648|success
+换|huàn|change|1|0|23648|success
+枣|zǎo|date|0|1|23648|success
+枣|zǎo|date|0|2|23648|success
+枣|zǎo|date|1|0|23648|success
+洗|xǐ|wash|0|2|23648|success
+难|nán|difficult|0|2|23648|success
+件|jiàn|piece (classifier)|0|2|23675|success
+件|jiàn|piece (classifier)|2|0|23675|success
+先|xiān|first|1|0|23675|success
+啊|a|ahh|0|1|23675|success
+啊|a|ahh|0|2|23675|success
+大|dà|big|2|0|23675|success
+太|tài|too|0|2|23675|success
+想|xiǎng| think of|1|0|23675|success
+换|huàn|change|0|1|23675|success
+换|huàn|change|0|2|23675|success
+接|jiē|pick up|2|0|23675|success
+笔|bǐ|pen|0|1|23675|success
+笔|bǐ|pen|1|0|23675|success
+说|shuō|say|2|0|23675|success
+这|zhè|this|0|2|23675|success
+件|jiàn|piece (classifier)|0|2|23690|success
+件|jiàn|piece (classifier)|2|0|23690|success
+先|xiān|first|1|0|23690|success
+啊|a|ahh|0|1|23690|success
+啊|a|ahh|0|2|23690|success
+大|dà|big|2|0|23690|success
+太|tài|too|0|2|23690|success
+想|xiǎng| think of|1|0|23690|success
+换|huàn|change|0|1|23690|success
+换|huàn|change|0|2|23690|success
+接|jiē|pick up|2|0|23690|success
+笔|bǐ|pen|0|1|23690|success
+笔|bǐ|pen|1|0|23690|success
+说|shuō|say|2|0|23690|success
+这|zhè|this|0|2|23690|success
+变|biàn|become|1|0|23710|success
+变|biàn|become|2|0|23710|success
+和|hé|with|0|1|23710|success
+啊|a|ahh|2|0|23710|success
+嗯|èn|um|0|1|23710|success
+嗯|èn|um|0|2|23710|success
+拿|ná|carry|0|1|23710|success
+拿|ná|carry|1|0|23710|success
+枣|zǎo|date|2|0|23710|success
+洗|xǐ|wash|1|0|23710|success
+洗|xǐ|wash|2|0|23710|success
+说|shuō|say|0|2|23710|success
+饿|è|hungry|0|1|23710|success
+饿|è|hungry|0|2|23710|success
+饿|è|hungry|1|0|23710|success
+变|biàn|become|1|0|23725|success
+变|biàn|become|2|0|23725|success
+和|hé|with|0|1|23725|success
+啊|a|ahh|2|0|23725|success
+嗯|èn|um|0|1|23725|success
+嗯|èn|um|0|2|23725|success
+拿|ná|carry|0|1|23725|success
+拿|ná|carry|1|0|23725|success
+枣|zǎo|date|2|0|23725|success
+洗|xǐ|wash|1|0|23725|success
+洗|xǐ|wash|2|0|23725|success
+说|shuō|say|0|2|23725|success
+饿|è|hungry|0|1|23725|success
+饿|è|hungry|0|2|23725|success
+饿|è|hungry|1|0|23725|success
+一样|yīyàng|same|1|0|23831|success
+升职|shēngzhí|promotion|2|0|23831|success
+学习|xuéxí|study|2|0|23831|success
+宿舍|sùshè|dormitory|2|0|23831|success
+小号|xiǎohào|small size|1|0|23831|success
+平时|píngshí|regular times|0|2|23831|success
+比萨|bǐsà|pizza|1|0|23831|success
+熊城|xióngchéng|city of bears (nickname of bern)|0|1|23831|success
+终于|zhōngyú|finally|0|2|23831|success
+胖了|pàngle|gained weight|1|0|23831|success
+诗经|shījīng|the book of songs|1|0|23831|success
+阴天|yīntiān|cloudy|0|2|23831|success
+坏|huài|bad|0|2|23831|success
+坏|huài|bad|1|0|23831|success
+坏|huài|bad|2|0|23831|success
+一样|yīyàng|same|1|0|23846|success
+升职|shēngzhí|promotion|2|0|23846|success
+学习|xuéxí|study|2|0|23846|success
+宿舍|sùshè|dormitory|2|0|23846|success
+小号|xiǎohào|small size|1|0|23846|success
+平时|píngshí|regular times|0|2|23846|success
+比萨|bǐsà|pizza|1|0|23846|success
+熊城|xióngchéng|city of bears (nickname of bern)|0|1|23846|success
+终于|zhōngyú|finally|0|2|23846|success
+胖了|pàngle|gained weight|1|0|23846|success
+诗经|shījīng|the book of songs|1|0|23846|success
+阴天|yīntiān|cloudy|0|2|23846|success
+坏|huài|bad|0|2|23846|success
+坏|huài|bad|1|0|23846|success
+坏|huài|bad|2|0|23846|success
+不好|bùhǎo|not good|1|0|23940|success
+做好|zuòhǎo|finish|0|2|23940|success
+台湾|táiwān|taiwan|2|0|23940|success
+头发|tóufā|hair|0|2|23940|success
+打工|dǎgōng|work (part-time)|1|0|23940|success
+正要|zhèngyào|about to do something else|1|0|23940|success
+汉语|hànyǔ|chinese|1|0|23940|success
+泡菜|pàocài| kimchi|1|0|23940|success
+紧张|jǐnzhāng|anxious|2|0|23940|success
+舒服|shūfú|comfortable|2|0|23940|success
+菠菜|bōcài|spinach|1|0|23940|success
+觉得|jiàodé|think|1|0|23940|success
+起飞|qǐfēi|take off (airplane)|2|0|23940|success
+身高|shēngāo|height|2|0|23940|success
+魔方|mófāng|rubik's cube|1|0|23940|success
+不好|bùhǎo|not good|1|0|23955|success
+做好|zuòhǎo|finish|0|2|23955|success
+台湾|táiwān|taiwan|2|0|23955|success
+头发|tóufā|hair|0|2|23955|success
+打工|dǎgōng|work (part-time)|1|0|23955|success
+正要|zhèngyào|about to do something else|1|0|23955|success
+汉语|hànyǔ|chinese|1|0|23955|success
+泡菜|pàocài| kimchi|1|0|23955|success
+紧张|jǐnzhāng|anxious|2|0|23955|success
+舒服|shūfú|comfortable|2|0|23955|success
+菠菜|bōcài|spinach|1|0|23955|success
+觉得|jiàodé|think|1|0|23955|success
+起飞|qǐfēi|take off (airplane)|2|0|23955|success
+身高|shēngāo|height|2|0|23955|success
+魔方|mófāng|rubik's cube|1|0|23955|success
+一定|yīdìng|surely|0|1|24026|success
+上网|shàngwǎng|surf online|0|1|24026|success
+加班|jiābān|overtime|0|1|24026|success
+在家|zàijiā|at home|2|0|24026|success
+好看|hǎokàn|good-looking|0|2|24026|success
+心意|xīnyì|thoughtfulness|2|0|24026|success
+拍照|pāizhào|take photo|0|2|24026|success
+早了|zǎole|early|0|2|24026|success
+正在|zhèngzài|be doing|1|0|24026|success
+汉堡|hànbǎo|burger|2|0|24026|success
+耶稣|yésū|jesus|1|0|24026|success
+还没|háiméi|not yet|1|0|24026|success
+阴天|yīntiān|cloudy|1|0|24026|success
+食谱|shípǔ|recipe|1|0|24026|success
+饱了|bǎole|full|1|0|24026|success
+一定|yīdìng|surely|0|1|24041|success
+上网|shàngwǎng|surf online|0|1|24041|success
+加班|jiābān|overtime|0|1|24041|success
+在家|zàijiā|at home|2|0|24041|success
+好看|hǎokàn|good-looking|0|2|24041|success
+心意|xīnyì|thoughtfulness|2|0|24041|success
+拍照|pāizhào|take photo|0|2|24041|success
+早了|zǎole|early|0|2|24041|success
+正在|zhèngzài|be doing|1|0|24041|success
+汉堡|hànbǎo|burger|2|0|24041|success
+耶稣|yésū|jesus|1|0|24041|success
+还没|háiméi|not yet|1|0|24041|success
+阴天|yīntiān|cloudy|1|0|24041|success
+食谱|shípǔ|recipe|1|0|24041|success
+饱了|bǎole|full|1|0|24041|success
+寄|jì|send (mail)|0|1|24113|success
+寄|jì|send (mail)|0|2|24113|success
+寄|jì|send (mail)|2|0|24113|success
+烟|yān| smoke|0|2|24113|success
+熨|yùn|iron (clothes)|0|1|24113|success
+盆|pén|basin|1|0|24113|success
+盆|pén| bowl|0|2|24113|success
+盆|pén| bowl|1|0|24113|success
+盒|hé|m.w.box|0|2|24113|success
+纸|zhǐ|paper|0|1|24113|success
+纸|zhǐ|paper|2|0|24113|success
+铺|pū|lay|0|1|24113|success
+铺|pū|lay|1|0|24113|success
+铺|pū| pave|0|1|24113|success
+铺|pū| pave|1|0|24113|success
+寄|jì|send (mail)|0|1|24136|success
+寄|jì|send (mail)|0|2|24136|success
+寄|jì|send (mail)|2|0|24136|success
+烟|yān| smoke|0|2|24136|success
+熨|yùn|iron (clothes)|0|1|24136|success
+盆|pén|basin|1|0|24136|success
+盆|pén| bowl|0|2|24136|success
+盆|pén| bowl|1|0|24136|success
+盒|hé|m.w.box|0|2|24136|success
+纸|zhǐ|paper|0|1|24136|success
+纸|zhǐ|paper|2|0|24136|success
+铺|pū|lay|0|1|24136|success
+铺|pū|lay|1|0|24136|success
+铺|pū| pave|0|1|24136|success
+铺|pū| pave|1|0|24136|success
+寄|jì|send (mail)|1|0|24165|success
+烟|yān|cigarette|1|0|24165|success
+烟|yān| smoke|0|1|24165|success
+烟|yān| smoke|2|0|24165|success
+熨|yùn|iron (clothes)|1|0|24165|success
+盆|pén|basin|0|2|24165|success
+盆|pén|basin|2|0|24165|success
+盆|pén| bowl|0|1|24165|success
+盆|pén| bowl|2|0|24165|success
+盒|hé|m.w.box|0|1|24165|success
+盒|hé|m.w.box|1|0|24165|success
+盒|hé|m.w.box|2|0|24165|success
+铺|pū|lay|0|2|24165|success
+铺|pū|lay|2|0|24165|success
+铺|pū| pave|2|0|24165|success
+寄|jì|send (mail)|1|0|24180|success
+烟|yān|cigarette|1|0|24180|success
+烟|yān| smoke|0|1|24180|success
+烟|yān| smoke|2|0|24180|success
+熨|yùn|iron (clothes)|1|0|24180|success
+盆|pén|basin|0|2|24180|success
+盆|pén|basin|2|0|24180|success
+盆|pén| bowl|0|1|24180|success
+盆|pén| bowl|2|0|24180|success
+盒|hé|m.w.box|0|1|24180|success
+盒|hé|m.w.box|1|0|24180|success
+盒|hé|m.w.box|2|0|24180|success
+铺|pū|lay|0|2|24180|success
+铺|pū|lay|2|0|24180|success
+铺|pū| pave|2|0|24180|success
+侄女|zhínǚ|niece|0|2|24249|success
+便宜|biànyí|cheap|0|2|24249|success
+去过|qùguò|(have) been (somewhere) before|1|0|24249|success
+打算|dǎsuàn|plan|1|0|24249|success
+谢谢|xièxiè|thank you|2|0|24249|success
+烟|yān|cigarette|0|1|24249|success
+烟|yān|cigarette|0|2|24249|success
+烟|yān|cigarette|2|0|24249|success
+烟|yān| smoke|1|0|24249|success
+熨|yùn|iron (clothes)|0|2|24249|success
+熨|yùn|iron (clothes)|2|0|24249|success
+盆|pén|basin|0|1|24249|success
+纸|zhǐ|paper|0|2|24249|success
+纸|zhǐ|paper|1|0|24249|success
+铺|pū| pave|0|2|24249|success
+侄女|zhínǚ|niece|0|2|24264|success
+便宜|biànyí|cheap|0|2|24264|success
+去过|qùguò|(have) been (somewhere) before|1|0|24264|success
+打算|dǎsuàn|plan|1|0|24264|success
+谢谢|xièxiè|thank you|2|0|24264|success
+烟|yān|cigarette|0|1|24264|success
+烟|yān|cigarette|0|2|24264|success
+烟|yān|cigarette|2|0|24264|success
+烟|yān| smoke|1|0|24264|success
+熨|yùn|iron (clothes)|0|2|24264|success
+熨|yùn|iron (clothes)|2|0|24264|success
+盆|pén|basin|0|1|24264|success
+纸|zhǐ|paper|0|2|24264|success
+纸|zhǐ|paper|1|0|24264|success
+铺|pū| pave|0|2|24264|success
+买卖|mǎimài|business|0|1|24332|success
+做完|zuòwán|finish doing|1|0|24332|success
+同意|tóngyì|agree|2|0|24332|success
+听|tīng|listen, hear|2|0|24332|success
+小说|xiǎoshuō|fiction|0|2|24332|success
+帮忙|bāngmáng|help out|1|0|24332|success
+怕光|pàguāng| afraid of light|2|0|24332|success
+是啊|shìa|okay|2|0|24332|success
+最近|zuìjìn|recently|1|0|24332|success
+水平|shuǐpíng|level|2|0|24332|success
+菠菜|bōcài|spinach|2|0|24332|success
+诗人|shīrén|poet|2|0|24332|success
+诗歌|shīgē|poetry|1|0|24332|success
+过年|guònián|new year's eve|2|0|24332|success
+还是|háishì|or in question|2|0|24332|success
+买卖|mǎimài|business|0|1|24347|success
+做完|zuòwán|finish doing|1|0|24347|success
+同意|tóngyì|agree|2|0|24347|success
+听|tīng|listen, hear|2|0|24347|success
+小说|xiǎoshuō|fiction|0|2|24347|success
+帮忙|bāngmáng|help out|1|0|24347|success
+怕光|pàguāng| afraid of light|2|0|24347|success
+是啊|shìa|okay|2|0|24347|success
+最近|zuìjìn|recently|1|0|24347|success
+水平|shuǐpíng|level|2|0|24347|success
+菠菜|bōcài|spinach|2|0|24347|success
+诗人|shīrén|poet|2|0|24347|success
+诗歌|shīgē|poetry|1|0|24347|success
+过年|guònián|new year's eve|2|0|24347|success
+还是|háishì|or in question|2|0|24347|success
+买卖|mǎimài|business|2|0|24387|success
+做好|zuòhǎo| be ready (food/task)|2|0|24387|success
+家人|jiārén|family|2|0|24387|success
+小学|xiǎoxué|primary school|2|0|24387|success
+左右|zuǒyòu|about|0|2|24387|success
+广告|guǎnggào|advertisement|2|0|24387|success
+想家|xiǎngjiā|homesick|1|0|24387|success
+打算|dǎsuàn| intend|0|2|24387|success
+旗袍|qípáo|chinese style dress|1|0|24387|success
+时差|shíchà| jet lag|0|2|24387|success
+是啊|shìa|okay|0|2|24387|success
+是的|shìde|yes|1|0|24387|success
+曲子|qūzi|melody|1|0|24387|success
+机会|jīhuì|opportunity|2|0|24387|success
+面试|miànshì|interview|2|0|24387|success
+买卖|mǎimài|business|2|0|24402|success
+做好|zuòhǎo| be ready (food/task)|2|0|24402|success
+家人|jiārén|family|2|0|24402|success
+小学|xiǎoxué|primary school|2|0|24402|success
+左右|zuǒyòu|about|0|2|24402|success
+广告|guǎnggào|advertisement|2|0|24402|success
+想家|xiǎngjiā|homesick|1|0|24402|success
+打算|dǎsuàn| intend|0|2|24402|success
+旗袍|qípáo|chinese style dress|1|0|24402|success
+时差|shíchà| jet lag|0|2|24402|success
+是啊|shìa|okay|0|2|24402|success
+是的|shìde|yes|1|0|24402|success
+曲子|qūzi|melody|1|0|24402|success
+机会|jīhuì|opportunity|2|0|24402|success
+面试|miànshì|interview|2|0|24402|success
+元|yuán|yuan|0|1|24471|success
+元|yuán|yuan|1|0|24471|success
+分|fēn|fen (0.01 yuan)|1|0|24471|success
+刷|shuā|swipe (card)|0|1|24471|success
+刷|shuā|swipe (card)|2|0|24471|success
+块|kuài|kuai (colloquial for yuan)|0|1|24471|success
+块|kuài|kuai (colloquial for yuan)|0|2|24471|success
+就|jiù|right after|2|0|24471|success
+急|jí|rush|0|1|24471|success
+急|jí|rush|0|2|24471|success
+急|jí|rush|1|0|24471|success
+毛|máo|mao (colloquial for jiao)|0|2|24471|success
+毛|máo|mao (colloquial for jiao)|2|0|24471|success
+票|piào|ticket|1|0|24471|success
+角|jiǎo|jiao (0.1 yuan)|2|0|24471|success
+元|yuán|yuan|0|1|24486|success
+元|yuán|yuan|1|0|24486|success
+分|fēn|fen (0.01 yuan)|1|0|24486|success
+刷|shuā|swipe (card)|0|1|24486|success
+刷|shuā|swipe (card)|2|0|24486|success
+块|kuài|kuai (colloquial for yuan)|0|1|24486|success
+块|kuài|kuai (colloquial for yuan)|0|2|24486|success
+就|jiù|right after|2|0|24486|success
+急|jí|rush|0|1|24486|success
+急|jí|rush|0|2|24486|success
+急|jí|rush|1|0|24486|success
+毛|máo|mao (colloquial for jiao)|0|2|24486|success
+毛|máo|mao (colloquial for jiao)|2|0|24486|success
+票|piào|ticket|1|0|24486|success
+角|jiǎo|jiao (0.1 yuan)|2|0|24486|success
+元|yuán|yuan|2|0|24501|success
+分|fēn|fen (0.01 yuan)|0|2|24501|success
+分|fēn|fen (0.01 yuan)|2|0|24501|success
+刷|shuā|swipe (card)|1|0|24501|success
+块|kuài|kuai (colloquial for yuan)|1|0|24501|success
+块|kuài|kuai (colloquial for yuan)|2|0|24501|success
+堵|dǔ|blocked / clogged|0|1|24501|success
+堵|dǔ|blocked / clogged|0|2|24501|success
+就|jiù|right after|0|1|24501|success
+就|jiù|right after|0|2|24501|success
+急|jí|rush|2|0|24501|success
+票|piào|ticket|0|2|24501|success
+票|piào|ticket|2|0|24501|success
+角|jiǎo|jiao (0.1 yuan)|0|1|24501|success
+角|jiǎo|jiao (0.1 yuan)|1|0|24501|success
+元|yuán|yuan|2|0|24516|success
+分|fēn|fen (0.01 yuan)|0|2|24516|success
+分|fēn|fen (0.01 yuan)|2|0|24516|success
+刷|shuā|swipe (card)|1|0|24516|success
+块|kuài|kuai (colloquial for yuan)|1|0|24516|success
+块|kuài|kuai (colloquial for yuan)|2|0|24516|success
+堵|dǔ|blocked / clogged|0|1|24516|success
+堵|dǔ|blocked / clogged|0|2|24516|success
+就|jiù|right after|0|1|24516|success
+就|jiù|right after|0|2|24516|success
+急|jí|rush|2|0|24516|success
+票|piào|ticket|0|2|24516|success
+票|piào|ticket|2|0|24516|success
+角|jiǎo|jiao (0.1 yuan)|0|1|24516|success
+角|jiǎo|jiao (0.1 yuan)|1|0|24516|success
+口红|kǒuhóng|lipstick|2|0|24604|success
+忘记|wàngjì|to forget|0|1|24604|success
+打扫|dǎsǎo|clean|0|1|24604|success
+文学|wénxué|literature|0|1|24604|success
+英国|yīngguó|the united kingdom|0|1|24604|success
+元|yuán|yuan|0|2|24604|success
+分|fēn|fen (0.01 yuan)|0|1|24604|success
+刷|shuā|swipe (card)|0|2|24604|success
+堵|dǔ|blocked / clogged|1|0|24604|success
+堵|dǔ|blocked / clogged|2|0|24604|success
+就|jiù|right after|1|0|24604|success
+毛|máo|mao (colloquial for jiao)|0|1|24604|success
+毛|máo|mao (colloquial for jiao)|1|0|24604|success
+票|piào|ticket|0|1|24604|success
+角|jiǎo|jiao (0.1 yuan)|0|2|24604|success
+口红|kǒuhóng|lipstick|2|0|24619|success
+忘记|wàngjì|to forget|0|1|24619|success
+打扫|dǎsǎo|clean|0|1|24619|success
+文学|wénxué|literature|0|1|24619|success
+英国|yīngguó|the united kingdom|0|1|24619|success
+元|yuán|yuan|0|2|24619|success
+分|fēn|fen (0.01 yuan)|0|1|24619|success
+刷|shuā|swipe (card)|0|2|24619|success
+堵|dǔ|blocked / clogged|1|0|24619|success
+堵|dǔ|blocked / clogged|2|0|24619|success
+就|jiù|right after|1|0|24619|success
+毛|máo|mao (colloquial for jiao)|0|1|24619|success
+毛|máo|mao (colloquial for jiao)|1|0|24619|success
+票|piào|ticket|0|1|24619|success
+角|jiǎo|jiao (0.1 yuan)|0|2|24619|success
+可以|kěyǐ|can|0|2|24691|success
+听说|tīngshuō|heard|1|0|24691|success
+学生|xuéshēng|student|0|2|24691|success
+安排|ānpái|plan / arrangement|0|2|24691|success
+打车|dǎchē|take taxi|2|0|24691|success
+月票|yuèpiào|monthly ticket|2|0|24691|success
+熊城|xióngchéng|city of bears (nickname of bern)|2|0|24691|success
+特别|tèbié|especially|0|2|24691|success
+相信|xiāngxìn|believe|1|0|24691|success
+着急|zhejí| anxious|2|0|24691|success
+糖果|tángguǒ|candy|2|0|24691|success
+花田|huātián|flower field|0|2|24691|success
+起来|qǐlái|get up|0|2|24691|success
+逛街|guàngjiē|go shopping|2|0|24691|success
+长靴|zhǎngxuē|boots|2|0|24691|success
+可以|kěyǐ|can|0|2|24706|success
+听说|tīngshuō|heard|1|0|24706|success
+学生|xuéshēng|student|0|2|24706|success
+安排|ānpái|plan / arrangement|0|2|24706|success
+打车|dǎchē|take taxi|2|0|24706|success
+月票|yuèpiào|monthly ticket|2|0|24706|success
+熊城|xióngchéng|city of bears (nickname of bern)|2|0|24706|success
+特别|tèbié|especially|0|2|24706|success
+相信|xiāngxìn|believe|1|0|24706|success
+着急|zhejí| anxious|2|0|24706|success
+糖果|tángguǒ|candy|2|0|24706|success
+花田|huātián|flower field|0|2|24706|success
+起来|qǐlái|get up|0|2|24706|success
+逛街|guàngjiē|go shopping|2|0|24706|success
+长靴|zhǎngxuē|boots|2|0|24706|success
+但是|dànshì|but|2|0|24781|success
+侄子|zhízi|nephew|0|2|24781|success
+午饭|wǔfàn|lunch|0|2|24781|success
+台湾|táiwān|taiwan|1|0|24781|success
+好闻|hǎowén|smell good|1|0|24781|success
+平时|píngshí|regular times|2|0|24781|success
+放假|fàngjiǎ| have time off|1|0|24781|success
+正好|zhènghǎo|just right|0|1|24781|success
+气温|qìwēn|air temperature|2|0|24781|success
+爸爸|bàbà|dad|2|0|24781|success
+突然|tūrán|suddenly|2|0|24781|success
+简单|jiǎndān|easy|2|0|24781|success
+英国|yīngguó|the united kingdom|1|0|24781|success
+起飞|qǐfēi|take off (airplane)|0|2|24781|success
+饭卡|fànkǎ|meal card|2|0|24781|success
+但是|dànshì|but|2|0|24796|success
+侄子|zhízi|nephew|0|2|24796|success
+午饭|wǔfàn|lunch|0|2|24796|success
+台湾|táiwān|taiwan|1|0|24796|success
+好闻|hǎowén|smell good|1|0|24796|success
+平时|píngshí|regular times|2|0|24796|success
+放假|fàngjiǎ| have time off|1|0|24796|success
+正好|zhènghǎo|just right|0|1|24796|success
+气温|qìwēn|air temperature|2|0|24796|success
+爸爸|bàbà|dad|2|0|24796|success
+突然|tūrán|suddenly|2|0|24796|success
+简单|jiǎndān|easy|2|0|24796|success
+英国|yīngguó|the united kingdom|1|0|24796|success
+起飞|qǐfēi|take off (airplane)|0|2|24796|success
+饭卡|fànkǎ|meal card|2|0|24796|success
+上网|shàngwǎng|surf online|1|0|24930|success
+下雨|xiàyǔ|raining|1|0|24930|success
+出差|chūchà|business trip|0|2|24930|success
+夏天|xiàtiān|summer|2|0|24930|success
+成都|chéngdōu|chengdu|1|0|24930|success
+打包|dǎbāo|pack|1|0|24930|success
+早了|zǎole|early|2|0|24930|success
+时差|shíchà|time difference|0|2|24930|success
+是啊|shìa|okay|1|0|24930|success
+熊城|xióngchéng|city of bears (nickname of bern)|0|2|24930|success
+眼镜|yǎnjìng|glasses|1|0|24930|success
+着急|zhejí| anxious|1|0|24930|success
+胖了|pàngle|gained weight|0|2|24930|success
+荞麦|qiáomài|buckwheat|2|0|24930|success
+起飞|qǐfēi|take off (airplane)|0|1|24930|success
+上网|shàngwǎng|surf online|1|0|24945|success
+下雨|xiàyǔ|raining|1|0|24945|success
+出差|chūchà|business trip|0|2|24945|success
+夏天|xiàtiān|summer|2|0|24945|success
+成都|chéngdōu|chengdu|1|0|24945|success
+打包|dǎbāo|pack|1|0|24945|success
+早了|zǎole|early|2|0|24945|success
+时差|shíchà|time difference|0|2|24945|success
+是啊|shìa|okay|1|0|24945|success
+熊城|xióngchéng|city of bears (nickname of bern)|0|2|24945|success
+眼镜|yǎnjìng|glasses|1|0|24945|success
+着急|zhejí| anxious|1|0|24945|success
+胖了|pàngle|gained weight|0|2|24945|success
+荞麦|qiáomài|buckwheat|2|0|24945|success
+起飞|qǐfēi|take off (airplane)|0|1|24945|success
+不要|bùyào|don't|1|0|25048|success
+东西|dōngxī|things|0|1|25048|success
+交通|jiāotōng|transportation|1|0|25048|success
+他的|tāde|his|0|1|25048|success
+作业|zuòyè|homework|1|0|25048|success
+假的|jiǎde|fake|2|0|25048|success
+午饭|wǔfàn|lunch|0|1|25048|success
+孔子|Kǒngzǐ|confucius|2|0|25048|success
+学生|xuéshēng|student|2|0|25048|success
+家务|jiāwù|household chores|2|0|25048|success
+小号|xiǎohào|small size|2|0|25048|success
+帮忙|bāngmáng|do a favor|1|0|25048|success
+成都|chéngdōu|chengdu|0|1|25048|success
+最近|zuìjìn|recently|2|0|25048|success
+滑冰|huábīng|ice skate|0|1|25048|success
+不要|bùyào|don't|1|0|25063|success
+东西|dōngxī|things|0|1|25063|success
+交通|jiāotōng|transportation|1|0|25063|success
+他的|tāde|his|0|1|25063|success
+作业|zuòyè|homework|1|0|25063|success
+假的|jiǎde|fake|2|0|25063|success
+午饭|wǔfàn|lunch|0|1|25063|success
+孔子|Kǒngzǐ|confucius|2|0|25063|success
+学生|xuéshēng|student|2|0|25063|success
+家务|jiāwù|household chores|2|0|25063|success
+小号|xiǎohào|small size|2|0|25063|success
+帮忙|bāngmáng|do a favor|1|0|25063|success
+成都|chéngdōu|chengdu|0|1|25063|success
+最近|zuìjìn|recently|2|0|25063|success
+滑冰|huábīng|ice skate|0|1|25063|success
+刚才|gāngcái|just now|0|1|25203|success
+升职|shēngzhí|promotion|1|0|25203|success
+大巴|dàbā|coach / large bus|2|0|25203|success
+学习|xuéxí|study|1|0|25203|success
+学习|xuéxí| learn|0|2|25203|success
+当地|dāngde|local|1|0|25203|success
+忘记|wàngjì|forget|0|1|25203|success
+忘记|wàngjì|forget|0|2|25203|success
+房卡|fángkǎ|room card|0|1|25203|success
+手表|shǒubiǎo|wristwatch|0|1|25203|success
+扫码|sǎomǎ|scan qr code|2|0|25203|success
+有雾|yǒuwù|foggy|2|0|25203|success
+汉语|hànyǔ|chinese|0|1|25203|success
+自由|zìyóu|freedom|1|0|25203|success
+阴天|yīntiān|cloudy|2|0|25203|success
+刚才|gāngcái|just now|0|1|25218|success
+升职|shēngzhí|promotion|1|0|25218|success
+大巴|dàbā|coach / large bus|2|0|25218|success
+学习|xuéxí|study|1|0|25218|success
+学习|xuéxí| learn|0|2|25218|success
+当地|dāngde|local|1|0|25218|success
+忘记|wàngjì|forget|0|1|25218|success
+忘记|wàngjì|forget|0|2|25218|success
+房卡|fángkǎ|room card|0|1|25218|success
+手表|shǒubiǎo|wristwatch|0|1|25218|success
+扫码|sǎomǎ|scan qr code|2|0|25218|success
+有雾|yǒuwù|foggy|2|0|25218|success
+汉语|hànyǔ|chinese|0|1|25218|success
+自由|zìyóu|freedom|1|0|25218|success
+阴天|yīntiān|cloudy|2|0|25218|success
+其实|qíshí|actually|1|0|25286|success
+可靠|kěkào|reliable|2|0|25286|success
+纸巾|zhǐjīn|tissue|0|2|25286|success
+铅笔|qiānbǐ|pencil|2|0|25286|success
+只|zhǐ|m.w.animal|0|2|25286|success
+只|zhǐ|m.w.animal|1|0|25286|success
+只|zhǐ|m.w.animal|2|0|25286|success
+只|zhǐ|only|0|1|25286|success
+只|zhǐ|only|0|2|25286|success
+只|zhǐ|only|1|0|25286|success
+只|zhǐ|only|2|0|25286|success
+拍|pāi|shoot / take (a photo or video)|0|1|25286|success
+拍|pāi|shoot / take (a photo or video)|0|2|25286|success
+拍|pāi|shoot / take (a photo or video)|1|0|25286|success
+拍|pāi|shoot / take (a photo or video)|2|0|25286|success
+其实|qíshí|actually|1|0|25301|success
+可靠|kěkào|reliable|2|0|25301|success
+纸巾|zhǐjīn|tissue|0|2|25301|success
+铅笔|qiānbǐ|pencil|2|0|25301|success
+只|zhǐ|m.w.animal|0|2|25301|success
+只|zhǐ|m.w.animal|1|0|25301|success
+只|zhǐ|m.w.animal|2|0|25301|success
+只|zhǐ|only|0|1|25301|success
+只|zhǐ|only|0|2|25301|success
+只|zhǐ|only|1|0|25301|success
+只|zhǐ|only|2|0|25301|success
+拍|pāi|shoot / take (a photo or video)|0|1|25301|success
+拍|pāi|shoot / take (a photo or video)|0|2|25301|success
+拍|pāi|shoot / take (a photo or video)|1|0|25301|success
+拍|pāi|shoot / take (a photo or video)|2|0|25301|success
+几场|jǐchǎng|how many (shows/games)?|2|0|25400|success
+努力|nǔlì|effort|2|0|25400|success
+好用|hǎoyòng|practical|2|0|25400|success
+开药|kāiyào|prescribe medicine|2|0|25400|success
+想好|xiǎnghǎo|think it through|1|0|25400|success
+月亮|yuèliang|moon|1|0|25400|success
+满意|mǎnyì|satisfied|0|1|25400|success
+病人|bìngrén|patient|0|1|25400|success
+聪明|cōngmíng|smart|2|0|25400|success
+袜子|wàzi|socks|0|2|25400|success
+讲价|jiǎngjià|bargain|2|0|25400|success
+过年|guònián|new year's eve|0|2|25400|success
+附近|fùjìn|nearby|0|1|25400|success
+饱了|bǎole|full|2|0|25400|success
+饿了|èle|hungry|2|0|25400|success
+几场|jǐchǎng|how many (shows/games)?|2|0|25415|success
+努力|nǔlì|effort|2|0|25415|success
+好用|hǎoyòng|practical|2|0|25415|success
+开药|kāiyào|prescribe medicine|2|0|25415|success
+想好|xiǎnghǎo|think it through|1|0|25415|success
+月亮|yuèliang|moon|1|0|25415|success
+满意|mǎnyì|satisfied|0|1|25415|success
+病人|bìngrén|patient|0|1|25415|success
+聪明|cōngmíng|smart|2|0|25415|success
+袜子|wàzi|socks|0|2|25415|success
+讲价|jiǎngjià|bargain|2|0|25415|success
+过年|guònián|new year's eve|0|2|25415|success
+附近|fùjìn|nearby|0|1|25415|success
+饱了|bǎole|full|2|0|25415|success
+饿了|èle|hungry|2|0|25415|success
+不怕|bùpà|not afraid|2|0|25501|success
+冬天|dōngtiān|winter|2|0|25501|success
+右边|yòubiān|right side|1|0|25501|success
+右边|yòubiān|right side|2|0|25501|success
+大巴|dàbā|coach / large bus|0|1|25501|success
+荷兰|hélán|the netherlands|0|1|25501|success
+饱了|bǎole|full|0|1|25501|success
+待|dāi|stay|0|1|25501|success
+待|dāi|stay|0|2|25501|success
+待|dāi|stay|1|0|25501|success
+待|dāi|stay|2|0|25501|success
+梦|mèng|dream|0|1|25501|success
+梦|mèng|dream|0|2|25501|success
+梦|mèng|dream|1|0|25501|success
+梦|mèng|dream|2|0|25501|success
+不怕|bùpà|not afraid|2|0|25516|success
+冬天|dōngtiān|winter|2|0|25516|success
+右边|yòubiān|right side|1|0|25516|success
+右边|yòubiān|right side|2|0|25516|success
+大巴|dàbā|coach / large bus|0|1|25516|success
+荷兰|hélán|the netherlands|0|1|25516|success
+饱了|bǎole|full|0|1|25516|success
+待|dāi|stay|0|1|25516|success
+待|dāi|stay|0|2|25516|success
+待|dāi|stay|1|0|25516|success
+待|dāi|stay|2|0|25516|success
+梦|mèng|dream|0|1|25516|success
+梦|mèng|dream|0|2|25516|success
+梦|mèng|dream|1|0|25516|success
+梦|mèng|dream|2|0|25516|success
+书签|shūqiān|bookmark|1|0|25676|success
+发明|fāmíng|invent|0|2|25676|success
+地主|dezhǔ|host (lit. the local)|0|1|25676|success
+墨镜|mòjìng|sunglasses|0|1|25676|success
+左边|zuǒbiān|left side|0|2|25676|success
+很久|hěnjiǔ|long time|2|0|25676|success
+有用|yǒuyòng|useful|1|0|25676|success
+样子|yàngzi|appearance|0|2|25676|success
+汉字|hànzì|chinese characters|1|0|25676|success
+相信|xiāngxìn| trust|2|0|25676|success
+简单|jiǎndān|easy|0|2|25676|success
+考场|kǎochǎng|exam hall|2|0|25676|success
+过得|guòde|to be doing|0|1|25676|success
+还是|háishì|still more|0|2|25676|success
+逛街|guàngjiē|shop around|2|0|25676|success
+书签|shūqiān|bookmark|1|0|25691|success
+发明|fāmíng|invent|0|2|25691|success
+地主|dezhǔ|host (lit. the local)|0|1|25691|success
+墨镜|mòjìng|sunglasses|0|1|25691|success
+左边|zuǒbiān|left side|0|2|25691|success
+很久|hěnjiǔ|long time|2|0|25691|success
+有用|yǒuyòng|useful|1|0|25691|success
+样子|yàngzi|appearance|0|2|25691|success
+汉字|hànzì|chinese characters|1|0|25691|success
+相信|xiāngxìn| trust|2|0|25691|success
+简单|jiǎndān|easy|0|2|25691|success
+考场|kǎochǎng|exam hall|2|0|25691|success
+过得|guòde|to be doing|0|1|25691|success
+还是|háishì|still more|0|2|25691|success
+逛街|guàngjiē|shop around|2|0|25691|success
+中文|zhōngwén|chinese language|2|0|25739|success
+午饭|wǔfàn|lunch|1|0|25739|success
+厕所|cèsuǒ|toilet / bathroom|0|1|25739|success
+地主|dezhǔ|host (lit. the local)|0|2|25739|success
+家人|jiārén|family|1|0|25739|success
+幽默|yōumò|humor|2|0|25739|success
+当地|dāngde|local|2|0|25739|success
+水平|shuǐpíng| standard|2|0|25739|success
+海边|hǎibiān|seaside|1|0|25739|success
+纸巾|zhǐjīn|tissue|2|0|25739|success
+网上|wǎngshàng|online|2|0|25739|success
+视频|shìpín|video|2|0|25739|success
+诗人|shīrén|poet|0|1|25739|success
+走路|zǒulù|walk|2|0|25739|success
+饿了|èle|hungry|0|1|25739|success
+中文|zhōngwén|chinese language|2|0|25766|success
+午饭|wǔfàn|lunch|1|0|25766|success
+厕所|cèsuǒ|toilet / bathroom|0|1|25766|success
+地主|dezhǔ|host (lit. the local)|0|2|25766|success
+家人|jiārén|family|1|0|25766|success
+幽默|yōumò|humor|2|0|25766|success
+当地|dāngde|local|2|0|25766|success
+水平|shuǐpíng| standard|2|0|25766|success
+海边|hǎibiān|seaside|1|0|25766|success
+纸巾|zhǐjīn|tissue|2|0|25766|success
+网上|wǎngshàng|online|2|0|25766|success
+视频|shìpín|video|2|0|25766|success
+诗人|shīrén|poet|0|1|25766|success
+走路|zǒulù|walk|2|0|25766|success
+饿了|èle|hungry|0|1|25766|success
+东西|dōngxī|things|2|0|25891|success
+他们|tāmen|they|1|0|25891|success
+发现|fāxiàn| find|1|0|25891|success
+心意|xīnyì|thoughtfulness|1|0|25891|success
+打伞|dǎsǎn|hold an umbrella|1|0|25891|success
+打算|dǎsuàn| intend|2|0|25891|success
+拍照|pāizhào|take a photo|0|1|25891|success
+现价|xiànjià|current price|2|0|25891|success
+相信|xiāngxìn|believe|0|2|25891|success
+知了|zhīle|cicada|1|0|25891|success
+袜子|wàzi|socks|1|0|25891|success
+觉得|juéde|think|0|2|25891|success
+阴天|yīntiān|cloudy day|0|2|25891|success
+驾照|jiàzhào|driving license|1|0|25891|success
+鼻子|bízi|nose|1|0|25891|success
+东西|dōngxī|things|2|0|25906|success
+他们|tāmen|they|1|0|25906|success
+发现|fāxiàn| find|1|0|25906|success
+心意|xīnyì|thoughtfulness|1|0|25906|success
+打伞|dǎsǎn|hold an umbrella|1|0|25906|success
+打算|dǎsuàn| intend|2|0|25906|success
+拍照|pāizhào|take a photo|0|1|25906|success
+现价|xiànjià|current price|2|0|25906|success
+相信|xiāngxìn|believe|0|2|25906|success
+知了|zhīle|cicada|1|0|25906|success
+袜子|wàzi|socks|1|0|25906|success
+觉得|juéde|think|0|2|25906|success
+阴天|yīntiān|cloudy day|0|2|25906|success
+驾照|jiàzhào|driving license|1|0|25906|success
+鼻子|bízi|nose|1|0|25906|success
+尝|cháng|taste|0|1|25921|success
+尝|cháng|taste|0|2|25921|success
+尝|cháng|taste|1|0|25921|success
+碗|wǎn| measure word for bowls|0|1|25921|success
+碗|wǎn| measure word for bowls|0|2|25921|success
+碗|wǎn| measure word for bowls|1|0|25921|success
+碗|wǎn| measure word for bowls|2|0|25921|success
+种|zhǒng|kind|0|1|25921|success
+种|zhǒng|kind|0|2|25921|success
+种|zhǒng|kind|1|0|25921|success
+种|zhǒng|kind|2|0|25921|success
+种|zhǒng| type|0|1|25921|success
+种|zhǒng| type|0|2|25921|success
+种|zhǒng| type|1|0|25921|success
+种|zhǒng| type|2|0|25921|success
+尝|cháng|taste|0|1|25936|success
+尝|cháng|taste|0|2|25936|success
+尝|cháng|taste|1|0|25936|success
+碗|wǎn| measure word for bowls|0|1|25936|success
+碗|wǎn| measure word for bowls|0|2|25936|success
+碗|wǎn| measure word for bowls|1|0|25936|success
+碗|wǎn| measure word for bowls|2|0|25936|success
+种|zhǒng|kind|0|1|25936|success
+种|zhǒng|kind|0|2|25936|success
+种|zhǒng|kind|1|0|25936|success
+种|zhǒng|kind|2|0|25936|success
+种|zhǒng| type|0|1|25936|success
+种|zhǒng| type|0|2|25936|success
+种|zhǒng| type|1|0|25936|success
+种|zhǒng| type|2|0|25936|success
+下身|xiàshēn|lower body|2|0|26055|success
+加班|jiābān|overtime|0|2|26055|success
+听说|tīngshuō|heard|0|1|26055|success
+堵车|dǔchē|traffic jam|1|0|26055|success
+晴天|qíngtiān|sunny|2|0|26055|success
+玩具|wánjù|toy|0|1|26055|success
+男性|nánxìng|male|0|1|26055|success
+白天|báitiān|daytime|0|1|26055|success
+着急|zhejí|worried|2|0|26055|success
+纸巾|zhǐjīn|tissue|0|1|26055|success
+聊天|liáotiān|chat|2|0|26055|success
+节日|jiérì|holiday|2|0|26055|success
+蔬菜|shūcài|vegetables|0|2|26055|success
+除了|chúle|except for / besides|0|1|26055|success
+尝|cháng|taste|2|0|26055|success
+下身|xiàshēn|lower body|2|0|26072|success
+加班|jiābān|overtime|0|2|26072|success
+听说|tīngshuō|heard|0|1|26072|success
+堵车|dǔchē|traffic jam|1|0|26072|success
+晴天|qíngtiān|sunny|2|0|26072|success
+玩具|wánjù|toy|0|1|26072|success
+男性|nánxìng|male|0|1|26072|success
+白天|báitiān|daytime|0|1|26072|success
+着急|zhejí|worried|2|0|26072|success
+纸巾|zhǐjīn|tissue|0|1|26072|success
+聊天|liáotiān|chat|2|0|26072|success
+节日|jiérì|holiday|2|0|26072|success
+蔬菜|shūcài|vegetables|0|2|26072|success
+除了|chúle|except for / besides|0|1|26072|success
+尝|cháng|taste|2|0|26072|success
+上网|shàngwǎng|online surfing|0|2|26231|success
+停车|tíngchē|park / stop a car|0|1|26231|success
+兴趣|xìngqù|hobby|1|0|26231|success
+创立|chuànglì| set up|1|0|26231|success
+同意|tóngyì|agree|1|0|26231|success
+听说|tīngshuō|heard|0|2|26231|success
+奇怪|qíguài|strange|0|1|26231|success
+想念|xiǎngniàn|miss|2|0|26231|success
+打算|dǎsuàn| intend|1|0|26231|success
+拍照|pāizhào|take photo|2|0|26231|success
+月饼|yuèbǐng|mooncake|2|0|26231|success
+着急|zhejí| anxious|0|2|26231|success
+经过|jīngguò| pass by|2|0|26231|success
+羡慕|xiànmù|envy|2|0|26231|success
+香槟|xiāngbīn|champagne|0|2|26231|success
+上网|shàngwǎng|online surfing|0|2|26246|success
+停车|tíngchē|park / stop a car|0|1|26246|success
+兴趣|xìngqù|hobby|1|0|26246|success
+创立|chuànglì| set up|1|0|26246|success
+同意|tóngyì|agree|1|0|26246|success
+听说|tīngshuō|heard|0|2|26246|success
+奇怪|qíguài|strange|0|1|26246|success
+想念|xiǎngniàn|miss|2|0|26246|success
+打算|dǎsuàn| intend|1|0|26246|success
+拍照|pāizhào|take photo|2|0|26246|success
+月饼|yuèbǐng|mooncake|2|0|26246|success
+着急|zhejí| anxious|0|2|26246|success
+经过|jīngguò| pass by|2|0|26246|success
+羡慕|xiànmù|envy|2|0|26246|success
+香槟|xiāngbīn|champagne|0|2|26246|success
+东西|dōngxī|things|1|0|26337|success
+创立|chuànglì| set up|2|0|26337|success
+吃饭|chīfàn|eat|0|2|26337|success
+同事|tóngshì|colleague|1|0|26337|success
+地主|dezhǔ|host (lit. the local)|1|0|26337|success
+好看|hǎokàn|beautiful|2|0|26337|success
+尝尝|chángchang|have a taste|0|1|26337|success
+汉字|hànzì|chinese characters|2|0|26337|success
+浇水|jiāoshuǐ|water (plants)|2|0|26337|success
+白天|báitiān|daytime|1|0|26337|success
+看来|kànlái|seems like|1|0|26337|success
+着急|zhejí| anxious|0|1|26337|success
+羡慕|xiànmù|envy|0|2|26337|success
+胖了|pàngle|gained weight|0|1|26337|success
+谢谢|xièxiè|thank you|1|0|26337|success
+东西|dōngxī|things|1|0|26355|success
+创立|chuànglì| set up|2|0|26355|success
+吃饭|chīfàn|eat|0|2|26355|success
+同事|tóngshì|colleague|1|0|26355|success
+地主|dezhǔ|host (lit. the local)|1|0|26355|success
+好看|hǎokàn|beautiful|2|0|26355|success
+尝尝|chángchang|have a taste|0|1|26355|success
+汉字|hànzì|chinese characters|2|0|26355|success
+浇水|jiāoshuǐ|water (plants)|2|0|26355|success
+白天|báitiān|daytime|1|0|26355|success
+看来|kànlái|seems like|1|0|26355|success
+着急|zhejí| anxious|0|1|26355|success
+羡慕|xiànmù|envy|0|2|26355|success
+胖了|pàngle|gained weight|0|1|26355|success
+谢谢|xièxiè|thank you|1|0|26355|success
+一样|yīyàng|same|2|0|26457|success
+体检|tǐjiǎn|medical checkup|0|1|26457|success
+好了|hǎole|finished|0|2|26457|success
+好看|hǎokàn|good-looking|0|1|26457|success
+希望|xīwàng|hope|1|0|26457|success
+弟弟|dìdì|younger brother|1|0|26457|success
+打包|dǎbāo|pack|2|0|26457|success
+波兰|bōlán|poland|1|0|26457|success
+白天|báitiān|daytime|0|2|26457|success
+相信|xiāngxìn|believe|0|1|26457|success
+短裙|duǎnqún|skirt|2|0|26457|success
+短裤|duǎnkù|shorts|2|0|26457|success
+诗人|shīrén|poet|1|0|26457|success
+雾天|wùtiān|foggy day|2|0|26457|success
+饭馆|fànguǎn|restaurant|0|1|26457|success
+一样|yīyàng|same|2|0|26472|success
+体检|tǐjiǎn|medical checkup|0|1|26472|success
+好了|hǎole|finished|0|2|26472|success
+好看|hǎokàn|good-looking|0|1|26472|success
+希望|xīwàng|hope|1|0|26472|success
+弟弟|dìdì|younger brother|1|0|26472|success
+打包|dǎbāo|pack|2|0|26472|success
+波兰|bōlán|poland|1|0|26472|success
+白天|báitiān|daytime|0|2|26472|success
+相信|xiāngxìn|believe|0|1|26472|success
+短裙|duǎnqún|skirt|2|0|26472|success
+短裤|duǎnkù|shorts|2|0|26472|success
+诗人|shīrén|poet|1|0|26472|success
+雾天|wùtiān|foggy day|2|0|26472|success
+饭馆|fànguǎn|restaurant|0|1|26472|success
+假的|jiǎde|fake|0|1|26594|success
+做客|zuòkè|guest|0|1|26594|success
+停车|tíngchē|park / stop a car|1|0|26594|success
+叶子|yèzi|leaf|1|0|26594|success
+失望|shīwàng|disappointed|2|0|26594|success
+容易|róngyì|easy|2|0|26594|success
+小学|xiǎoxué|primary school|1|0|26594|success
+排骨|páigǔ|ribs|0|1|26594|success
+晚了|wǎnle|late|2|0|26594|success
+炖肉|dùnròu|stewed meat|2|0|26594|success
+纸巾|zhǐjīn|tissue|1|0|26594|success
+酒馆|jiǔguǎn|pub / tavern|0|1|26594|success
+阴天|yīntiān| overcast|0|2|26594|success
+附近|fùjìn|nearby|1|0|26594|success
+零件|língjiàn|parts|1|0|26594|success
+假的|jiǎde|fake|0|1|26609|success
+做客|zuòkè|guest|0|1|26609|success
+停车|tíngchē|park / stop a car|1|0|26609|success
+叶子|yèzi|leaf|1|0|26609|success
+失望|shīwàng|disappointed|2|0|26609|success
+容易|róngyì|easy|2|0|26609|success
+小学|xiǎoxué|primary school|1|0|26609|success
+排骨|páigǔ|ribs|0|1|26609|success
+晚了|wǎnle|late|2|0|26609|success
+炖肉|dùnròu|stewed meat|2|0|26609|success
+纸巾|zhǐjīn|tissue|1|0|26609|success
+酒馆|jiǔguǎn|pub / tavern|0|1|26609|success
+阴天|yīntiān| overcast|0|2|26609|success
+附近|fùjìn|nearby|1|0|26609|success
+零件|língjiàn|parts|1|0|26609|success
+午休|wǔxiū| midday rest|0|1|26733|success
+可靠|kěkào|reliable|1|0|26733|success
+学习|xuéxí| learn|0|1|26733|success
+安排|ānpái|plan / arrangement|0|1|26733|success
+广告|guǎnggào|advertisement|1|0|26733|success
+怕光|pàguāng| afraid of light|0|2|26733|success
+怕光|pàguāng| afraid of light|1|0|26733|success
+时差|shíchà| jet lag|1|0|26733|success
+暖气|nuǎnqì|heating|0|2|26733|success
+礼盒|lǐhé|gift box|2|0|26733|success
+网游|wǎngyóu|online game|2|0|26733|success
+考试|kǎoshì|exam|2|0|26733|success
+茄子|qiézi|eggplant|2|0|26733|success
+觉得|jiàodé|think|2|0|26733|success
+驾照|jiàzhào|driving license|0|2|26733|success
+午休|wǔxiū| midday rest|0|1|26748|success
+可靠|kěkào|reliable|1|0|26748|success
+学习|xuéxí| learn|0|1|26748|success
+安排|ānpái|plan / arrangement|0|1|26748|success
+广告|guǎnggào|advertisement|1|0|26748|success
+怕光|pàguāng| afraid of light|0|2|26748|success
+怕光|pàguāng| afraid of light|1|0|26748|success
+时差|shíchà| jet lag|1|0|26748|success
+暖气|nuǎnqì|heating|0|2|26748|success
+礼盒|lǐhé|gift box|2|0|26748|success
+网游|wǎngyóu|online game|2|0|26748|success
+考试|kǎoshì|exam|2|0|26748|success
+茄子|qiézi|eggplant|2|0|26748|success
+觉得|jiàodé|think|2|0|26748|success
+驾照|jiàzhào|driving license|0|2|26748|success
+乱|luàn|messy|1|0|26772|success
+乱|luàn|messy|2|0|26772|success
+乱|luàn| chaotic|2|0|26772|success
+冒|mào|to risk|0|1|26772|success
+冒|mào|to risk|0|2|26772|success
+冒|mào|to risk|1|0|26772|success
+冒|mào|to risk|2|0|26772|success
+冒|mào| to brave|0|1|26772|success
+巾|jīn|towel|0|1|26772|success
+巾|jīn|towel|0|2|26772|success
+巾|jīn|towel|1|0|26772|success
+巾|jīn|towel|2|0|26772|success
+巾|jīn| cloth|0|2|26772|success
+鞋|xié|shoes|0|2|26772|success
+鞋|xié|shoes|2|0|26772|success
+乱|luàn|messy|1|0|26787|success
+乱|luàn|messy|2|0|26787|success
+乱|luàn| chaotic|2|0|26787|success
+冒|mào|to risk|0|1|26787|success
+冒|mào|to risk|0|2|26787|success
+冒|mào|to risk|1|0|26787|success
+冒|mào|to risk|2|0|26787|success
+冒|mào| to brave|0|1|26787|success
+巾|jīn|towel|0|1|26787|success
+巾|jīn|towel|0|2|26787|success
+巾|jīn|towel|1|0|26787|success
+巾|jīn|towel|2|0|26787|success
+巾|jīn| cloth|0|2|26787|success
+鞋|xié|shoes|0|2|26787|success
+鞋|xié|shoes|2|0|26787|success
+南欧|Nán'ōu|southern europe|1|0|26817|success
+月亮|yuèliang|moon|2|0|26817|success
+乱|luàn|messy|0|1|26817|success
+乱|luàn|messy|0|2|26817|success
+乱|luàn| chaotic|0|1|26817|success
+乱|luàn| chaotic|0|2|26817|success
+乱|luàn| chaotic|1|0|26817|success
+冒|mào| to brave|0|2|26817|success
+冒|mào| to brave|1|0|26817|success
+冒|mào| to brave|2|0|26817|success
+巾|jīn| cloth|0|1|26817|success
+巾|jīn| cloth|1|0|26817|success
+巾|jīn| cloth|2|0|26817|success
+鞋|xié|shoes|0|1|26817|success
+鞋|xié|shoes|1|0|26817|success
+南欧|Nán'ōu|southern europe|1|0|26832|success
+月亮|yuèliang|moon|2|0|26832|success
+乱|luàn|messy|0|1|26832|success
+乱|luàn|messy|0|2|26832|success
+乱|luàn| chaotic|0|1|26832|success
+乱|luàn| chaotic|0|2|26832|success
+乱|luàn| chaotic|1|0|26832|success
+冒|mào| to brave|0|2|26832|success
+冒|mào| to brave|1|0|26832|success
+冒|mào| to brave|2|0|26832|success
+巾|jīn| cloth|0|1|26832|success
+巾|jīn| cloth|1|0|26832|success
+巾|jīn| cloth|2|0|26832|success
+鞋|xié|shoes|0|1|26832|success
+鞋|xié|shoes|1|0|26832|success
+不好|bùhǎo|not good|0|2|26962|success
+侄子|zhízi|nephew|2|0|26962|success
+南欧|Nán'ōu|southern europe|2|0|26962|success
+右边|yòubiān|right side|0|2|26962|success
+在家|zàijiā|at home|0|2|26962|success
+左右|zuǒyòu| approximately|0|1|26962|success
+应该|yīnggāi|should|2|0|26962|success
+放假|fàngjiǎ|holiday|0|2|26962|success
+本子|běnzi|notebook|1|0|26962|success
+水平|shuǐpíng| standard|1|0|26962|success
+爱人|àirén|wife|1|0|26962|success
+西装|xīzhuāng|suit|1|0|26962|success
+记得|jìdé|remember|0|1|26962|success
+铅笔|qiānbǐ|pencil|1|0|26962|success
+院子|yuànzi|yard|1|0|26962|success
+不好|bùhǎo|not good|0|2|26977|success
+侄子|zhízi|nephew|2|0|26977|success
+南欧|Nán'ōu|southern europe|2|0|26977|success
+右边|yòubiān|right side|0|2|26977|success
+在家|zàijiā|at home|0|2|26977|success
+左右|zuǒyòu| approximately|0|1|26977|success
+应该|yīnggāi|should|2|0|26977|success
+放假|fàngjiǎ|holiday|0|2|26977|success
+本子|běnzi|notebook|1|0|26977|success
+水平|shuǐpíng| standard|1|0|26977|success
+爱人|àirén|wife|1|0|26977|success
+西装|xīzhuāng|suit|1|0|26977|success
+记得|jìdé|remember|0|1|26977|success
+铅笔|qiānbǐ|pencil|1|0|26977|success
+院子|yuànzi|yard|1|0|26977|success
+不但|búdàn|not only|0|1|27065|success
+书房|shūfáng|study|0|2|27065|success
+书签|shūqiān|bookmark|2|0|27065|success
+办法|bànfǎ|way|1|0|27065|success
+小吃|xiǎochī|snacks / local snacks|2|0|27065|success
+左右|zuǒyòu| approximately|1|0|27065|success
+帮助|bāngzhù|help|1|0|27065|success
+波兰|bōlán|poland|2|0|27065|success
+糖果|tángguǒ| sweets|2|0|27065|success
+记得|jìdé|remember|1|0|27065|success
+运动|yùndòng|exercise|1|0|27065|success
+门票|ménpiào|ticket|2|0|27065|success
+阴天|yīntiān| overcast|0|1|27065|success
+饭卡|fànkǎ|meal card|0|2|27065|success
+饼干|bǐnggàn|cookies|0|1|27065|success
+不但|búdàn|not only|0|1|27080|success
+书房|shūfáng|study|0|2|27080|success
+书签|shūqiān|bookmark|2|0|27080|success
+办法|bànfǎ|way|1|0|27080|success
+小吃|xiǎochī|snacks / local snacks|2|0|27080|success
+左右|zuǒyòu| approximately|1|0|27080|success
+帮助|bāngzhù|help|1|0|27080|success
+波兰|bōlán|poland|2|0|27080|success
+糖果|tángguǒ| sweets|2|0|27080|success
+记得|jìdé|remember|1|0|27080|success
+运动|yùndòng|exercise|1|0|27080|success
+门票|ménpiào|ticket|2|0|27080|success
+阴天|yīntiān| overcast|0|1|27080|success
+饭卡|fànkǎ|meal card|0|2|27080|success
+饼干|bǐnggàn|cookies|0|1|27080|success
+再有|zàiyǒu|again have|2|0|27197|success
+午休|wǔxiū|lunch break|0|2|27197|success
+厕所|cèsuǒ|wc|1|0|27197|success
+嘴唇|zuǐchún|lips|2|0|27197|success
+打扫|dǎsǎo| sweep|2|0|27197|success
+是谁|shìshéi|who is|0|1|27197|success
+景点|jǐngdiǎn|scenic spot / tourist attraction|0|2|27197|success
+曲子|qūzi|melody|2|0|27197|success
+校友|xiàoyǒu|alumni|2|0|27197|success
+然后|ránhòu|then|0|1|27197|success
+电灯|diàndēng| light|2|0|27197|success
+结婚|jiéhūn|get married|2|0|27197|success
+裙子|qúnzi|dress|1|0|27197|success
+过年|guònián|new year's eve|1|0|27197|success
+饭馆|fànguǎn|restaurant|2|0|27197|success
+再有|zàiyǒu|again have|2|0|27212|success
+午休|wǔxiū|lunch break|0|2|27212|success
+厕所|cèsuǒ|wc|1|0|27212|success
+嘴唇|zuǐchún|lips|2|0|27212|success
+打扫|dǎsǎo| sweep|2|0|27212|success
+是谁|shìshéi|who is|0|1|27212|success
+景点|jǐngdiǎn|scenic spot / tourist attraction|0|2|27212|success
+曲子|qūzi|melody|2|0|27212|success
+校友|xiàoyǒu|alumni|2|0|27212|success
+然后|ránhòu|then|0|1|27212|success
+电灯|diàndēng| light|2|0|27212|success
+结婚|jiéhūn|get married|2|0|27212|success
+裙子|qúnzi|dress|1|0|27212|success
+过年|guònián|new year's eve|1|0|27212|success
+饭馆|fànguǎn|restaurant|2|0|27212|success
+临时|línshí|temporary|2|0|27294|success
+先生|xiānshēng|mr.|0|1|27294|success
+刷卡|shuākǎ|swipe card|2|0|27294|success
+去过|qùguò|(have) been (somewhere) before|2|0|27294|success
+回家|huíjiā|back home|1|0|27294|success
+国家|guójiā|country|1|0|27294|success
+大巴|dàbā|coach / large bus|0|2|27294|success
+幽默|yōumò|humor|1|0|27294|success
+玩具|wánjù|toy|0|2|27294|success
+盒子|hézi|box (container)|0|1|27294|success
+盒子|hézi|box (container)|0|2|27294|success
+耶稣|yésū|jesus|2|0|27294|success
+英语|yīngyǔ|english|0|1|27294|success
+茄子|qiézi|eggplant|0|2|27294|success
+遇到|yùdào| run into|0|1|27294|success
+临时|línshí|temporary|2|0|27309|success
+先生|xiānshēng|mr.|0|1|27309|success
+刷卡|shuākǎ|swipe card|2|0|27309|success
+去过|qùguò|(have) been (somewhere) before|2|0|27309|success
+回家|huíjiā|back home|1|0|27309|success
+国家|guójiā|country|1|0|27309|success
+大巴|dàbā|coach / large bus|0|2|27309|success
+幽默|yōumò|humor|1|0|27309|success
+玩具|wánjù|toy|0|2|27309|success
+盒子|hézi|box (container)|0|1|27309|success
+盒子|hézi|box (container)|0|2|27309|success
+耶稣|yésū|jesus|2|0|27309|success
+英语|yīngyǔ|english|0|1|27309|success
+茄子|qiézi|eggplant|0|2|27309|success
+遇到|yùdào| run into|0|1|27309|success
+大号|dàhào|large size|2|0|27382|success
+小吃|xiǎochī|snacks / local snacks|0|2|27382|success
+是谁|shìshéi|who is|1|0|27382|success
+暖气|nuǎnqì|heating|0|1|27382|success
+泡菜|pàocài|pickled vegetables|2|0|27382|success
+清楚|qīngchu|clear|0|1|27382|success
+然后|ránhòu|then|2|0|27382|success
+爱人|àirén|wife|2|0|27382|success
+玩具|wánjù|toy|2|0|27382|success
+瘦了|shòule|lost weight|0|2|27382|success
+糖果|tángguǒ|candy|1|0|27382|success
+网球|wǎngqiú|tennis|2|0|27382|success
+节日|jiérì|holiday|1|0|27382|success
+视频|shìpín|video|0|1|27382|success
+记得|jìdé|remember|2|0|27382|success
+大号|dàhào|large size|2|0|27397|success
+小吃|xiǎochī|snacks / local snacks|0|2|27397|success
+是谁|shìshéi|who is|1|0|27397|success
+暖气|nuǎnqì|heating|0|1|27397|success
+泡菜|pàocài|pickled vegetables|2|0|27397|success
+清楚|qīngchu|clear|0|1|27397|success
+然后|ránhòu|then|2|0|27397|success
+爱人|àirén|wife|2|0|27397|success
+玩具|wánjù|toy|2|0|27397|success
+瘦了|shòule|lost weight|0|2|27397|success
+糖果|tángguǒ|candy|1|0|27397|success
+网球|wǎngqiú|tennis|2|0|27397|success
+节日|jiérì|holiday|1|0|27397|success
+视频|shìpín|video|0|1|27397|success
+记得|jìdé|remember|2|0|27397|success
+三体|sāntǐ|three body problem|1|0|27499|success
+女孩|nǚhái|girl|0|2|27499|success
+学习|xuéxí| learn|2|0|27499|success
+家务|jiāwù|household chores|1|0|27499|success
+很乱|hěnluàn|very messy|2|0|27499|success
+性别|xìngbié|gender|0|2|27499|success
+打扫|dǎsǎo|clean|2|0|27499|success
+旁边|pángbiān|beside|2|0|27499|success
+清楚|qīngchu|clear|1|0|27499|success
+礼盒|lǐhé|gift box|0|1|27499|success
+自拍|zìpāi|take a selfie|0|2|27499|success
+自拍|zìpāi|take a selfie|1|0|27499|success
+诗歌|shīgē|poetry|2|0|27499|success
+饭卡|fànkǎ|meal card|1|0|27499|success
+香槟|xiāngbīn|champagne|2|0|27499|success
+三体|sāntǐ|three body problem|1|0|27521|success
+女孩|nǚhái|girl|0|2|27521|success
+学习|xuéxí| learn|2|0|27521|success
+家务|jiāwù|household chores|1|0|27521|success
+很乱|hěnluàn|very messy|2|0|27521|success
+性别|xìngbié|gender|0|2|27521|success
+打扫|dǎsǎo|clean|2|0|27521|success
+旁边|pángbiān|beside|2|0|27521|success
+清楚|qīngchu|clear|1|0|27521|success
+礼盒|lǐhé|gift box|0|1|27521|success
+自拍|zìpāi|take a selfie|0|2|27521|success
+自拍|zìpāi|take a selfie|1|0|27521|success
+诗歌|shīgē|poetry|2|0|27521|success
+饭卡|fànkǎ|meal card|1|0|27521|success
+香槟|xiāngbīn|champagne|2|0|27521|success
+为了|wèile|for the purpose of|0|1|27636|success
+侄子|zhízi|nephew|1|0|27636|success
+努力|nǔlì|effort|0|2|27636|success
+大雨|dàyǔ|heavy rain|2|0|27636|success
+应该|yīnggāi| ought to|0|2|27636|success
+想好|xiǎnghǎo|think it through|0|1|27636|success
+房卡|fángkǎ|room card|1|0|27636|success
+泡菜|pàocài|pickled vegetables|0|2|27636|success
+浇水|jiāoshuǐ|water (plants)|0|2|27636|success
+爸爸|bàbà|dad|0|2|27636|success
+病人|bìngrén|patient|1|0|27636|success
+病人|bìngrén|patient|2|0|27636|success
+着急|zhejí|worried|0|1|27636|success
+而且|érqiě|but also|0|2|27636|success
+退休|tuìxiū|retire|2|0|27636|success
+为了|wèile|for the purpose of|0|1|27651|success
+侄子|zhízi|nephew|1|0|27651|success
+努力|nǔlì|effort|0|2|27651|success
+大雨|dàyǔ|heavy rain|2|0|27651|success
+应该|yīnggāi| ought to|0|2|27651|success
+想好|xiǎnghǎo|think it through|0|1|27651|success
+房卡|fángkǎ|room card|1|0|27651|success
+泡菜|pàocài|pickled vegetables|0|2|27651|success
+浇水|jiāoshuǐ|water (plants)|0|2|27651|success
+爸爸|bàbà|dad|0|2|27651|success
+病人|bìngrén|patient|1|0|27651|success
+病人|bìngrén|patient|2|0|27651|success
+着急|zhejí|worried|0|1|27651|success
+而且|érqiě|but also|0|2|27651|success
+退休|tuìxiū|retire|2|0|27651|success
+侄女|zhínǚ|niece|2|0|27720|success
+先生|xiānshēng|mr.|0|2|27720|success
+外语|wàiyǔ|foreign languages|1|0|27720|success
+安排|ānpái|plan|2|0|27720|success
+完成|wánchéng|complete|0|1|27720|success
+客厅|kètīng|living room|1|0|27720|success
+客厅|kètīng|living room|2|0|27720|success
+小城|xiǎochéng|small city / town|1|0|27720|success
+想家|xiǎngjiā|homesick|2|0|27720|success
+正好|zhènghǎo|just|1|0|27720|success
+水平|shuǐpíng| standard|0|1|27720|success
+看望|kànwàng|visit|2|0|27720|success
+蔬菜|shūcài|vegetables|0|1|27720|success
+遇到|yùdào|meet|0|1|27720|success
+项链|xiàngliàn|necklace|1|0|27720|success
+侄女|zhínǚ|niece|2|0|27739|success
+先生|xiānshēng|mr.|0|2|27739|success
+外语|wàiyǔ|foreign languages|1|0|27739|success
+安排|ānpái|plan|2|0|27739|success
+完成|wánchéng|complete|0|1|27739|success
+客厅|kètīng|living room|1|0|27739|success
+客厅|kètīng|living room|2|0|27739|success
+小城|xiǎochéng|small city / town|1|0|27739|success
+想家|xiǎngjiā|homesick|2|0|27739|success
+正好|zhènghǎo|just|1|0|27739|success
+水平|shuǐpíng| standard|0|1|27739|success
+看望|kànwàng|visit|2|0|27739|success
+蔬菜|shūcài|vegetables|0|1|27739|success
+遇到|yùdào|meet|0|1|27739|success
+项链|xiàngliàn|necklace|1|0|27739|success
+介绍|jièshào|introduce|1|0|27810|success
+但是|dànshì|but|1|0|27810|success
+到处|dàochù|everywhere|1|0|27810|success
+复习|fùxí|review|2|0|27810|success
+宜家|yíjiā|ikea|1|0|27810|success
+广告|guǎnggào|advertisement|0|2|27810|success
+打伞|dǎsǎn|hold an umbrella|0|2|27810|success
+拍照|pāizhào|take a photo|0|2|27810|success
+方便|fāngbiàn|convenient|1|0|27810|success
+是谁|shìshéi|who is|2|0|27810|success
+正在|zhèngzài|be doing|2|0|27810|success
+满意|mǎnyì|satisfied|1|0|27810|success
+裙子|qúnzi|dress|0|1|27810|success
+过得|guòde|to be doing|0|2|27810|success
+还是|háishì|or in question|1|0|27810|success
+介绍|jièshào|introduce|1|0|27825|success
+但是|dànshì|but|1|0|27825|success
+到处|dàochù|everywhere|1|0|27825|success
+复习|fùxí|review|2|0|27825|success
+宜家|yíjiā|ikea|1|0|27825|success
+广告|guǎnggào|advertisement|0|2|27825|success
+打伞|dǎsǎn|hold an umbrella|0|2|27825|success
+拍照|pāizhào|take a photo|0|2|27825|success
+方便|fāngbiàn|convenient|1|0|27825|success
+是谁|shìshéi|who is|2|0|27825|success
+正在|zhèngzài|be doing|2|0|27825|success
+满意|mǎnyì|satisfied|1|0|27825|success
+裙子|qúnzi|dress|0|1|27825|success
+过得|guòde|to be doing|0|2|27825|success
+还是|háishì|or in question|1|0|27825|success
+一边|yībiān|at the same time|1|0|27960|success
+不好|bùhǎo|not good|0|1|27960|success
+参观|cānguān|visit|0|2|27960|success
+可以|kěyǐ|can|2|0|27960|success
+听说|tīngshuō|heard|2|0|27960|success
+复习|fùxí|review|1|0|27960|success
+怕光|pàguāng| afraid of light|0|1|27960|success
+数学|shùxué|mathematics|2|0|27960|success
+是谁|shìshéi|who is|0|2|27960|success
+景点|jǐngdiǎn|scenic spot / tourist attraction|1|0|27960|success
+男生|nánshēng|boy|0|1|27960|success
+终于|zhōngyú|finally|1|0|27960|success
+阴天|yīntiān|cloudy day|2|0|27960|success
+院子|yuànzi| courtyard|0|2|27960|success
+饼干|bǐnggàn|cookies|1|0|27960|success
+一边|yībiān|at the same time|1|0|27975|success
+不好|bùhǎo|not good|0|1|27975|success
+参观|cānguān|visit|0|2|27975|success
+可以|kěyǐ|can|2|0|27975|success
+听说|tīngshuō|heard|2|0|27975|success
+复习|fùxí|review|1|0|27975|success
+怕光|pàguāng| afraid of light|0|1|27975|success
+数学|shùxué|mathematics|2|0|27975|success
+是谁|shìshéi|who is|0|2|27975|success
+景点|jǐngdiǎn|scenic spot / tourist attraction|1|0|27975|success
+男生|nánshēng|boy|0|1|27975|success
+终于|zhōngyú|finally|1|0|27975|success
+阴天|yīntiān|cloudy day|2|0|27975|success
+院子|yuànzi| courtyard|0|2|27975|success
+饼干|bǐnggàn|cookies|1|0|27975|success
+会面|huìmiàn| meet up|2|0|28105|success
+停车|tíngchē|park / stop a car|0|2|28105|success
+关门|guānmén|close the door|0|1|28105|success
+加班|jiābān|overtime|2|0|28105|success
+噩梦|èmèng|nightmare|1|0|28105|success
+好了|hǎole| ready|1|0|28105|success
+完成|wánchéng|complete|0|2|28105|success
+小城|xiǎochéng|small city / town|0|1|28105|success
+帽子|màozi| cap|0|1|28105|success
+开始|kāishǐ|start|1|0|28105|success
+海边|hǎibiān|seaside|2|0|28105|success
+滑冰|huábīng|ice skate|2|0|28105|success
+现价|xiànjià|current price|1|0|28105|success
+茶叶|cháyè|tea leaves|1|0|28105|success
+茶馆|cháguǎn|teahouse|2|0|28105|success
+会面|huìmiàn| meet up|2|0|28120|success
+停车|tíngchē|park / stop a car|0|2|28120|success
+关门|guānmén|close the door|0|1|28120|success
+加班|jiābān|overtime|2|0|28120|success
+噩梦|èmèng|nightmare|1|0|28120|success
+好了|hǎole| ready|1|0|28120|success
+完成|wánchéng|complete|0|2|28120|success
+小城|xiǎochéng|small city / town|0|1|28120|success
+帽子|màozi| cap|0|1|28120|success
+开始|kāishǐ|start|1|0|28120|success
+海边|hǎibiān|seaside|2|0|28120|success
+滑冰|huábīng|ice skate|2|0|28120|success
+现价|xiànjià|current price|1|0|28120|success
+茶叶|cháyè|tea leaves|1|0|28120|success
+茶馆|cháguǎn|teahouse|2|0|28120|success
+书写|shūxiě|writing|0|1|28251|success
+书房|shūfáng|study|1|0|28251|success
+侄子|zhízi|nephew|0|1|28251|success
+假的|jiǎde| false|1|0|28251|success
+做完|zuòwán|finish doing|0|2|28251|success
+办法|bànfǎ| method|0|2|28251|success
+女士|nǚshì|miss|1|0|28251|success
+客房|kèfáng|guest room|1|0|28251|success
+或者|huòzhě|or in affirmative sentence|1|0|28251|success
+晚秋|wǎnqiū|late autumn|1|0|28251|success
+男孩|nánhái|boy|0|1|28251|success
+聪明|cōngmíng|smart|1|0|28251|success
+诗经|shījīng|the book of songs|2|0|28251|success
+阳台|yángtái|balcony|1|0|28251|success
+阳台|yángtái|balcony|2|0|28251|success
+书写|shūxiě|writing|0|1|28266|success
+书房|shūfáng|study|1|0|28266|success
+侄子|zhízi|nephew|0|1|28266|success
+假的|jiǎde| false|1|0|28266|success
+做完|zuòwán|finish doing|0|2|28266|success
+办法|bànfǎ| method|0|2|28266|success
+女士|nǚshì|miss|1|0|28266|success
+客房|kèfáng|guest room|1|0|28266|success
+或者|huòzhě|or in affirmative sentence|1|0|28266|success
+晚秋|wǎnqiū|late autumn|1|0|28266|success
+男孩|nánhái|boy|0|1|28266|success
+聪明|cōngmíng|smart|1|0|28266|success
+诗经|shījīng|the book of songs|2|0|28266|success
+阳台|yángtái|balcony|1|0|28266|success
+阳台|yángtái|balcony|2|0|28266|success
+下雨|xiàyǔ|raining|2|0|28379|success
+中号|zhōnghào|medium size|2|0|28379|success
+以前|yǐqián| formerly|2|0|28379|success
+参加|cānjiā| take part in|1|0|28379|success
+右边|yòubiān|right side|0|1|28379|success
+在家|zàijiā|at home|0|1|28379|success
+很乱|hěnluàn|very messy|0|2|28379|success
+打扫|dǎsǎo| tidy|2|0|28379|success
+护照|hùzhào|passport|0|1|28379|success
+日子|rìzi|days|2|0|28379|success
+晚了|wǎnle|late|1|0|28379|success
+玩具|wánjù|toy|1|0|28379|success
+瘦了|shòule|lost weight|0|1|28379|success
+自拍|zìpāi|take a selfie|0|1|28379|success
+除了|chúle|except for / besides|0|2|28379|success
+下雨|xiàyǔ|raining|2|0|28394|success
+中号|zhōnghào|medium size|2|0|28394|success
+以前|yǐqián| formerly|2|0|28394|success
+参加|cānjiā| take part in|1|0|28394|success
+右边|yòubiān|right side|0|1|28394|success
+在家|zàijiā|at home|0|1|28394|success
+很乱|hěnluàn|very messy|0|2|28394|success
+打扫|dǎsǎo| tidy|2|0|28394|success
+护照|hùzhào|passport|0|1|28394|success
+日子|rìzi|days|2|0|28394|success
+晚了|wǎnle|late|1|0|28394|success
+玩具|wánjù|toy|1|0|28394|success
+瘦了|shòule|lost weight|0|1|28394|success
+自拍|zìpāi|take a selfie|0|1|28394|success
+除了|chúle|except for / besides|0|2|28394|success
+上课|shàngkè|attend class|0|1|28468|success
+下身|xiàshēn|lower body|1|0|28468|success
+书写|shūxiě|writing|2|0|28468|success
+书签|shūqiān|bookmark|0|1|28468|success
+买卖|mǎimài|business|0|2|28468|success
+同事|tóngshì|colleague|2|0|28468|success
+回国|huíguó|return home/country|1|0|28468|success
+地铁|detiě|subway|0|2|28468|success
+开始|kāishǐ|start|2|0|28468|success
+数学|shùxué|mathematics|0|1|28468|success
+样品|yàngpǐn|sample|2|0|28468|success
+正好|zhènghǎo|just|0|1|28468|success
+盒子|hézi|box (container)|2|0|28468|success
+糖果|tángguǒ| sweets|1|0|28468|success
+说话|shuōhuà|speak|2|0|28468|success
+上课|shàngkè|attend class|0|1|28483|success
+下身|xiàshēn|lower body|1|0|28483|success
+书写|shūxiě|writing|2|0|28483|success
+书签|shūqiān|bookmark|0|1|28483|success
+买卖|mǎimài|business|0|2|28483|success
+同事|tóngshì|colleague|2|0|28483|success
+回国|huíguó|return home/country|1|0|28483|success
+地铁|detiě|subway|0|2|28483|success
+开始|kāishǐ|start|2|0|28483|success
+数学|shùxué|mathematics|0|1|28483|success
+样品|yàngpǐn|sample|2|0|28483|success
+正好|zhènghǎo|just|0|1|28483|success
+盒子|hézi|box (container)|2|0|28483|success
+糖果|tángguǒ| sweets|1|0|28483|success
+说话|shuōhuà|speak|2|0|28483|success
+不怕|bùpà|not afraid|1|0|28591|success
+以前|yǐqián| formerly|1|0|28591|success
+厨房|chúfáng|kitchen|2|0|28591|success
+安排|ānpái|plan / arrangement|1|0|28591|success
+小孩|xiǎohái|child|0|1|28591|success
+尝尝|chángchang|have a taste|0|2|28591|success
+帮助|bāngzhù|help|2|0|28591|success
+帮忙|bāngmáng|help out|0|1|28591|success
+很乱|hěnluàn|very messy|1|0|28591|success
+袜子|wàzi|socks|2|0|28591|success
+裤子|kùzi|pants|0|1|28591|success
+讲价|jiǎngjià|bargain|1|0|28591|success
+诗人|shīrén|poet|0|2|28591|success
+还是|háishì| or|0|2|28591|success
+食谱|shípǔ|recipe|2|0|28591|success
+不怕|bùpà|not afraid|1|0|28606|success
+以前|yǐqián| formerly|1|0|28606|success
+厨房|chúfáng|kitchen|2|0|28606|success
+安排|ānpái|plan / arrangement|1|0|28606|success
+小孩|xiǎohái|child|0|1|28606|success
+尝尝|chángchang|have a taste|0|2|28606|success
+帮助|bāngzhù|help|2|0|28606|success
+帮忙|bāngmáng|help out|0|1|28606|success
+很乱|hěnluàn|very messy|1|0|28606|success
+袜子|wàzi|socks|2|0|28606|success
+裤子|kùzi|pants|0|1|28606|success
+讲价|jiǎngjià|bargain|1|0|28606|success
+诗人|shīrén|poet|0|2|28606|success
+还是|háishì| or|0|2|28606|success
+食谱|shípǔ|recipe|2|0|28606|success
+以前|yǐqián| formerly|0|2|28751|success
+会面|huìmiàn|meeting|0|1|28751|success
+地图|detú|map|2|0|28751|success
+地砖|dezhuān|floor tile|1|0|28751|success
+地铁|detiě|subway|0|1|28751|success
+帽子|màozi| cap|2|0|28751|success
+弟弟|dìdì|younger brother|0|2|28751|success
+录音|lùyīn|make an audio recording|0|2|28751|success
+打伞|dǎsǎn|hold an umbrella|0|1|28751|success
+早了|zǎole|early|0|1|28751|success
+月票|yuèpiào|monthly ticket|0|2|28751|success
+热身|rèshēn|warm up|1|0|28751|success
+网络|wǎngluò|network|1|0|28751|success
+聚餐|jùcān|group meal|2|0|28751|success
+鞋子|xiézi|shoes|1|0|28751|success
+以前|yǐqián| formerly|0|2|28766|success
+会面|huìmiàn|meeting|0|1|28766|success
+地图|detú|map|2|0|28766|success
+地砖|dezhuān|floor tile|1|0|28766|success
+地铁|detiě|subway|0|1|28766|success
+帽子|màozi| cap|2|0|28766|success
+弟弟|dìdì|younger brother|0|2|28766|success
+录音|lùyīn|make an audio recording|0|2|28766|success
+打伞|dǎsǎn|hold an umbrella|0|1|28766|success
+早了|zǎole|early|0|1|28766|success
+月票|yuèpiào|monthly ticket|0|2|28766|success
+热身|rèshēn|warm up|1|0|28766|success
+网络|wǎngluò|network|1|0|28766|success
+聚餐|jùcān|group meal|2|0|28766|success
+鞋子|xiézi|shoes|1|0|28766|success
+先生|xiānshēng|mr.|1|0|28862|success
+努力|nǔlì|hard working|1|0|28862|success
+可以|kěyǐ|can|1|0|28862|success
+叶子|yèzi|leaf|2|0|28862|success
+外面|wàimiàn|outside|2|0|28862|success
+女士|nǚshì| madam|0|2|28862|success
+女孩|nǚhái|girl|0|1|28862|success
+打扫|dǎsǎo|clean|1|0|28862|success
+拿手|náshǒu|good at|2|0|28862|success
+校友|xiàoyǒu|alumni|1|0|28862|success
+聪明|cōngmíng|smart|0|2|28862|success
+除了|chúle|except for / besides|2|0|28862|success
+雨天|yǔtiān|rainy day|0|2|28862|success
+饭卡|fànkǎ|meal card|0|1|28862|success
+饱了|bǎole|full|0|2|28862|success
+先生|xiānshēng|mr.|1|0|28877|success
+努力|nǔlì|hard working|1|0|28877|success
+可以|kěyǐ|can|1|0|28877|success
+叶子|yèzi|leaf|2|0|28877|success
+外面|wàimiàn|outside|2|0|28877|success
+女士|nǚshì| madam|0|2|28877|success
+女孩|nǚhái|girl|0|1|28877|success
+打扫|dǎsǎo|clean|1|0|28877|success
+拿手|náshǒu|good at|2|0|28877|success
+校友|xiàoyǒu|alumni|1|0|28877|success
+聪明|cōngmíng|smart|0|2|28877|success
+除了|chúle|except for / besides|2|0|28877|success
+雨天|yǔtiān|rainy day|0|2|28877|success
+饭卡|fànkǎ|meal card|0|1|28877|success
+饱了|bǎole|full|0|2|28877|success
+九点|jiǔdiǎn|nine o'clock|0|2|28985|success
+完成|wánchéng|complete|1|0|28985|success
+怕光|pàguāng|sensitive to light|0|2|28985|success
+想念|xiǎngniàn|miss|1|0|28985|success
+打扫|dǎsǎo| sweep|0|2|28985|success
+打算|dǎsuàn|plan|0|1|28985|success
+月票|yuèpiào|monthly ticket|0|1|28985|success
+沙发|shāfā|sofa|1|0|28985|success
+洁癖|jiépǐ| neat freak|0|2|28985|success
+满意|mǎnyì|satisfied|2|0|28985|success
+相信|xiāngxìn| trust|0|1|28985|success
+自由|zìyóu|freedom|2|0|28985|success
+要是|yàoshì|if|1|0|28985|success
+饭馆|fànguǎn|restaurant|0|2|28985|success
+驾照|jiàzhào|driving license|2|0|28985|success
+九点|jiǔdiǎn|nine o'clock|0|2|29000|success
+完成|wánchéng|complete|1|0|29000|success
+怕光|pàguāng|sensitive to light|0|2|29000|success
+想念|xiǎngniàn|miss|1|0|29000|success
+打扫|dǎsǎo| sweep|0|2|29000|success
+打算|dǎsuàn|plan|0|1|29000|success
+月票|yuèpiào|monthly ticket|0|1|29000|success
+沙发|shāfā|sofa|1|0|29000|success
+洁癖|jiépǐ| neat freak|0|2|29000|success
+满意|mǎnyì|satisfied|2|0|29000|success
+相信|xiāngxìn| trust|0|1|29000|success
+自由|zìyóu|freedom|2|0|29000|success
+要是|yàoshì|if|1|0|29000|success
+饭馆|fànguǎn|restaurant|0|2|29000|success
+驾照|jiàzhào|driving license|2|0|29000|success
+冰箱|bīngxiāng|refrigerator|0|1|29108|success
+努力|nǔlì|effort|1|0|29108|success
+努力|nǔlì|work hard|2|0|29108|success
+告诉|gàosu|tell|2|0|29108|success
+喝水|hēshuǐ|drink water|1|0|29108|success
+喝水|hēshuǐ|drink water|2|0|29108|success
+噩梦|èmèng|nightmare|0|1|29108|success
+大雾|dàwù|heavy fog|1|0|29108|success
+好了|hǎole|finished|2|0|29108|success
+扫码|sǎomǎ|scan qr code|0|1|29108|success
+热闹|rènào|lively|1|0|29108|success
+熬夜|áoyè|stay up late|1|0|29108|success
+经过|jīngguò|pass|0|1|29108|success
+茶叶|cháyè|tea leaves|0|2|29108|success
+诗歌|shīgē|poem|0|1|29108|success
+冰箱|bīngxiāng|refrigerator|0|1|29123|success
+努力|nǔlì|effort|1|0|29123|success
+努力|nǔlì|work hard|2|0|29123|success
+告诉|gàosu|tell|2|0|29123|success
+喝水|hēshuǐ|drink water|1|0|29123|success
+喝水|hēshuǐ|drink water|2|0|29123|success
+噩梦|èmèng|nightmare|0|1|29123|success
+大雾|dàwù|heavy fog|1|0|29123|success
+好了|hǎole|finished|2|0|29123|success
+扫码|sǎomǎ|scan qr code|0|1|29123|success
+热闹|rènào|lively|1|0|29123|success
+熬夜|áoyè|stay up late|1|0|29123|success
+经过|jīngguò|pass|0|1|29123|success
+茶叶|cháyè|tea leaves|0|2|29123|success
+诗歌|shīgē|poem|0|1|29123|success
+刚才|gāngcái|just now|0|2|29197|success
+发现|fāxiàn|discover|2|0|29197|success
+叶子|yèzi|leaf|0|1|29197|success
+好了|hǎole|finished|1|0|29197|success
+客房|kèfáng|guest room|0|1|29197|success
+宾馆|bīnguǎn|hotel|1|0|29197|success
+很快|hěnkuài|soon|2|0|29197|success
+性别|xìngbié|gender|1|0|29197|success
+打扫|dǎsǎo| sweep|0|1|29197|success
+换了|huànle|changed|1|0|29197|success
+时差|shíchà|time difference|1|0|29197|success
+眼睛|yǎnjīng|eye|1|0|29197|success
+茶馆|cháguǎn|teahouse|0|1|29197|success
+还是|háishì| or|2|0|29197|success
+送别|sòngbié|see off|0|2|29197|success
+刚才|gāngcái|just now|0|2|29212|success
+发现|fāxiàn|discover|2|0|29212|success
+叶子|yèzi|leaf|0|1|29212|success
+好了|hǎole|finished|1|0|29212|success
+客房|kèfáng|guest room|0|1|29212|success
+宾馆|bīnguǎn|hotel|1|0|29212|success
+很快|hěnkuài|soon|2|0|29212|success
+性别|xìngbié|gender|1|0|29212|success
+打扫|dǎsǎo| sweep|0|1|29212|success
+换了|huànle|changed|1|0|29212|success
+时差|shíchà|time difference|1|0|29212|success
+眼睛|yǎnjīng|eye|1|0|29212|success
+茶馆|cháguǎn|teahouse|0|1|29212|success
+还是|háishì| or|2|0|29212|success
+送别|sòngbié|see off|0|2|29212|success
+侄女|zhínǚ|niece|1|0|29349|success
+便宜|biànyí|cheap|0|1|29349|success
+到处|dàochù|everywhere|2|0|29349|success
+参加|cānjiā|attend|2|0|29349|success
+参观|cānguān|visit|0|1|29349|success
+想好|xiǎnghǎo| decide|1|0|29349|success
+本子|běnzi|notebook|2|0|29349|success
+气温|qìwēn|air temperature|1|0|29349|success
+爱情|àiqíng|love|1|0|29349|success
+裤子|kùzi|pants|0|2|29349|success
+觉得|jiàodé|think|0|2|29349|success
+说话|shuōhuà|speak|1|0|29349|success
+谢谢|xièxiè|thank you|0|1|29349|success
+起来|qǐlái|get up|1|0|29349|success
+魔方|mófāng|rubik's cube|0|1|29349|success
+侄女|zhínǚ|niece|1|0|29364|success
+便宜|biànyí|cheap|0|1|29364|success
+到处|dàochù|everywhere|2|0|29364|success
+参加|cānjiā|attend|2|0|29364|success
+参观|cānguān|visit|0|1|29364|success
+想好|xiǎnghǎo| decide|1|0|29364|success
+本子|běnzi|notebook|2|0|29364|success
+气温|qìwēn|air temperature|1|0|29364|success
+爱情|àiqíng|love|1|0|29364|success
+裤子|kùzi|pants|0|2|29364|success
+觉得|jiàodé|think|0|2|29364|success
+说话|shuōhuà|speak|1|0|29364|success
+谢谢|xièxiè|thank you|0|1|29364|success
+起来|qǐlái|get up|1|0|29364|success
+魔方|mófāng|rubik's cube|0|1|29364|success
+书写|shūxiě|writing|0|2|29463|success
+会面|huìmiàn|meeting|2|0|29463|success
+别人|biérén|other people|0|2|29463|success
+到处|dàochù|everywhere|0|1|29463|success
+季节|jìjié|season|1|0|29463|success
+家人|jiārén|family|0|1|29463|success
+家里|jiālǐ|at home|0|1|29463|success
+小吃|xiǎochī| street food|0|1|29463|success
+收拾|shōushí| pack up|2|0|29463|success
+放假|fàngjiǎ|holiday|2|0|29463|success
+男孩|nánhái|boy|2|0|29463|success
+糖果|tángguǒ| sweets|0|2|29463|success
+自由|zìyóu|freedom|0|2|29463|success
+荷兰|hélán|the netherlands|0|2|29463|success
+首都|shǒudōu|capital|2|0|29463|success
+书写|shūxiě|writing|0|2|29478|success
+会面|huìmiàn|meeting|2|0|29478|success
+别人|biérén|other people|0|2|29478|success
+到处|dàochù|everywhere|0|1|29478|success
+季节|jìjié|season|1|0|29478|success
+家人|jiārén|family|0|1|29478|success
+家里|jiālǐ|at home|0|1|29478|success
+小吃|xiǎochī| street food|0|1|29478|success
+收拾|shōushí| pack up|2|0|29478|success
+放假|fàngjiǎ|holiday|2|0|29478|success
+男孩|nánhái|boy|2|0|29478|success
+糖果|tángguǒ| sweets|0|2|29478|success
+自由|zìyóu|freedom|0|2|29478|success
+荷兰|hélán|the netherlands|0|2|29478|success
+首都|shǒudōu|capital|2|0|29478|success
+冰岛|bīngdǎo|iceland|1|0|29580|success
+别人|biérén|other people|2|0|29580|success
+剧院|jùyuàn|theater|1|0|29580|success
+女士|nǚshì| miss|1|0|29580|success
+家务|jiāwù|household chores|0|2|29580|success
+怕光|pàguāng|sensitive to light|0|1|29580|success
+打工|dǎgōng|work (part-time)|0|2|29580|success
+拍照|pāizhào|take a photo|2|0|29580|success
+日子|rìzi|days|0|1|29580|success
+然后|ránhòu|then|0|2|29580|success
+现金|xiànjīn|cash|1|0|29580|success
+而且|érqiě|but also|0|1|29580|success
+聚会|jùhuì|gathering|0|2|29580|success
+运动|yùndòng|exercise|2|0|29580|success
+逛街|guàngjiē|shop around|1|0|29580|success
+冰岛|bīngdǎo|iceland|1|0|29595|success
+别人|biérén|other people|2|0|29595|success
+剧院|jùyuàn|theater|1|0|29595|success
+女士|nǚshì| miss|1|0|29595|success
+家务|jiāwù|household chores|0|2|29595|success
+怕光|pàguāng|sensitive to light|0|1|29595|success
+打工|dǎgōng|work (part-time)|0|2|29595|success
+拍照|pāizhào|take a photo|2|0|29595|success
+日子|rìzi|days|0|1|29595|success
+然后|ránhòu|then|0|2|29595|success
+现金|xiànjīn|cash|1|0|29595|success
+而且|érqiě|but also|0|1|29595|success
+聚会|jùhuì|gathering|0|2|29595|success
+运动|yùndòng|exercise|2|0|29595|success
+逛街|guàngjiē|shop around|1|0|29595|success
+之后|zhīhòu|after that|0|2|29685|success
+九点|jiǔdiǎn|nine o'clock|0|1|29685|success
+他的|tāde|his|0|2|29685|success
+全身|quánshēn|whole body|2|0|29685|success
+品牌|pǐnpái|brand|1|0|29685|success
+四天|sì tiān|four days|0|1|29685|success
+大雪|dàxuě|heavy snow|0|1|29685|success
+打扫|dǎsǎo| sweep|1|0|29685|success
+放假|fàngjiǎ|holiday|1|0|29685|success
+晚了|wǎnle|late|0|2|29685|success
+景点|jǐngdiǎn|scenic spot / tourist attraction|0|1|29685|success
+经过|jīngguò|pass|2|0|29685|success
+菠菜|bōcài|spinach|0|1|29685|success
+雨天|yǔtiān|rainy day|2|0|29685|success
+餐馆|cānguǎn|restaurant|0|1|29685|success
+之后|zhīhòu|after that|0|2|29700|success
+九点|jiǔdiǎn|nine o'clock|0|1|29700|success
+他的|tāde|his|0|2|29700|success
+全身|quánshēn|whole body|2|0|29700|success
+品牌|pǐnpái|brand|1|0|29700|success
+四天|sì tiān|four days|0|1|29700|success
+大雪|dàxuě|heavy snow|0|1|29700|success
+打扫|dǎsǎo| sweep|1|0|29700|success
+放假|fàngjiǎ|holiday|1|0|29700|success
+晚了|wǎnle|late|0|2|29700|success
+景点|jǐngdiǎn|scenic spot / tourist attraction|0|1|29700|success
+经过|jīngguò|pass|2|0|29700|success
+菠菜|bōcài|spinach|0|1|29700|success
+雨天|yǔtiān|rainy day|2|0|29700|success
+餐馆|cānguǎn|restaurant|0|1|29700|success
+厕所|cèsuǒ|toilet / bathroom|0|2|29826|success
+参观|cānguān|visit|2|0|29826|success
+告诉|gàosu|tell|0|2|29826|success
+堵车|dǔchē|traffic jam|0|2|29826|success
+大雾|dàwù|heavy fog|2|0|29826|success
+头发|tóufā|hair|0|1|29826|success
+宜家|yíjiā|ikea|2|0|29826|success
+左右|zuǒyòu| approximately|0|2|29826|success
+左边|zuǒbiān|left side|2|0|29826|success
+怕光|pàguāng|sensitive to light|2|0|29826|success
+房子|fángzi|house|0|2|29826|success
+样子|yàngzi|appearance|1|0|29826|success
+水平|shuǐpíng|level|0|2|29826|success
+没用|méiyòng|useless|2|0|29826|success
+简单|jiǎndān|easy|1|0|29826|success
+厕所|cèsuǒ|toilet / bathroom|0|2|29841|success
+参观|cānguān|visit|2|0|29841|success
+告诉|gàosu|tell|0|2|29841|success
+堵车|dǔchē|traffic jam|0|2|29841|success
+大雾|dàwù|heavy fog|2|0|29841|success
+头发|tóufā|hair|0|1|29841|success
+宜家|yíjiā|ikea|2|0|29841|success
+左右|zuǒyòu| approximately|0|2|29841|success
+左边|zuǒbiān|left side|2|0|29841|success
+怕光|pàguāng|sensitive to light|2|0|29841|success
+房子|fángzi|house|0|2|29841|success
+样子|yàngzi|appearance|1|0|29841|success
+水平|shuǐpíng|level|0|2|29841|success
+没用|méiyòng|useless|2|0|29841|success
+简单|jiǎndān|easy|1|0|29841|success
+先生|xiānshēng|mr.|2|0|29913|success
+全家|quánjiā|whole family|1|0|29913|success
+前面|qiánmiàn|ahead / in front|0|2|29913|success
+大巴|dàbā|coach / large bus|1|0|29913|success
+女士|nǚshì| miss|0|1|29913|success
+心情|xīnqíng|mood|0|2|29913|success
+电灯|diàndēng|electric lamp|0|1|29913|success
+知了|zhīle|cicada|2|0|29913|success
+笑容|xiàoróng|smile|1|0|29913|success
+经过|jīngguò| pass by|0|2|29913|success
+舒服|shūfú|comfortable|0|1|29913|success
+诊所|zhěnsuǒ|clinic|2|0|29913|success
+还是|háishì| or|0|1|29913|success
+遇到|yùdào|meet|2|0|29913|success
+餐馆|cānguǎn|restaurant|1|0|29913|success
+先生|xiānshēng|mr.|2|0|29928|success
+全家|quánjiā|whole family|1|0|29928|success
+前面|qiánmiàn|ahead / in front|0|2|29928|success
+大巴|dàbā|coach / large bus|1|0|29928|success
+女士|nǚshì| miss|0|1|29928|success
+心情|xīnqíng|mood|0|2|29928|success
+电灯|diàndēng|electric lamp|0|1|29928|success
+知了|zhīle|cicada|2|0|29928|success
+笑容|xiàoróng|smile|1|0|29928|success
+经过|jīngguò| pass by|0|2|29928|success
+舒服|shūfú|comfortable|0|1|29928|success
+诊所|zhěnsuǒ|clinic|2|0|29928|success
+还是|háishì| or|0|1|29928|success
+遇到|yùdào|meet|2|0|29928|success
+餐馆|cānguǎn|restaurant|1|0|29928|success
+上身|shàngshēn|upper body|2|0|29991|success
+书房|shūfáng|study|2|0|29991|success
+买卖|mǎimài| trade|2|0|29991|success
+升职|shēngzhí|promotion|0|2|29991|success
+发现|fāxiàn| find|2|0|29991|success
+听懂|tīngdǒng|understand by listening|0|2|29991|success
+地铁|detiě|subway|2|0|29991|success
+大雪|dàxuě|heavy snow|2|0|29991|success
+好看|hǎokàn|good-looking|2|0|29991|success
+小吃|xiǎochī| street food|2|0|29991|success
+房子|fángzi|house|1|0|29991|success
+房子|fángzi|house|2|0|29991|success
+比萨|bǐsà|pizza|2|0|29991|success
+男孩|nánhái|boy|1|0|29991|success
+除了|chúle|except for / besides|1|0|29991|success
+上身|shàngshēn|upper body|2|0|30006|success
+书房|shūfáng|study|2|0|30006|success
+买卖|mǎimài| trade|2|0|30006|success
+升职|shēngzhí|promotion|0|2|30006|success
+发现|fāxiàn| find|2|0|30006|success
+听懂|tīngdǒng|understand by listening|0|2|30006|success
+地铁|detiě|subway|2|0|30006|success
+大雪|dàxuě|heavy snow|2|0|30006|success
+好看|hǎokàn|good-looking|2|0|30006|success
+小吃|xiǎochī| street food|2|0|30006|success
+房子|fángzi|house|1|0|30006|success
+房子|fángzi|house|2|0|30006|success
+比萨|bǐsà|pizza|2|0|30006|success
+男孩|nánhái|boy|1|0|30006|success
+除了|chúle|except for / besides|1|0|30006|success
+以前|yǐqián| formerly|0|1|30097|success
+听懂|tīngdǒng|understand by listening|1|0|30097|success
+地图|detú|map|0|1|30097|success
+失望|shīwàng|disappointed|0|1|30097|success
+家里|jiālǐ|at home|2|0|30097|success
+忘记|wàngjì|to forget|0|2|30097|success
+打折|dǎzhé|discount|1|0|30097|success
+打车|dǎchē|take taxi|1|0|30097|success
+晚秋|wǎnqiū|late autumn|0|1|30097|success
+男生|nánshēng|boy|1|0|30097|success
+经过|jīngguò|pass|0|2|30097|success
+考试|kǎoshì|exam|1|0|30097|success
+觉得|jiàodé| feel|0|2|30097|success
+酒馆|jiǔguǎn|pub / tavern|0|2|30097|success
+雨天|yǔtiān|rainy day|0|1|30097|success
+以前|yǐqián| formerly|0|1|30112|success
+听懂|tīngdǒng|understand by listening|1|0|30112|success
+地图|detú|map|0|1|30112|success
+失望|shīwàng|disappointed|0|1|30112|success
+家里|jiālǐ|at home|2|0|30112|success
+忘记|wàngjì|to forget|0|2|30112|success
+打折|dǎzhé|discount|1|0|30112|success
+打车|dǎchē|take taxi|1|0|30112|success
+晚秋|wǎnqiū|late autumn|0|1|30112|success
+男生|nánshēng|boy|1|0|30112|success
+经过|jīngguò|pass|0|2|30112|success
+考试|kǎoshì|exam|1|0|30112|success
+觉得|jiàodé| feel|0|2|30112|success
+酒馆|jiǔguǎn|pub / tavern|0|2|30112|success
+雨天|yǔtiān|rainy day|0|1|30112|success
+儿子|erzi|son|0|2|30233|success
+午饭|wǔfàn|lunch|2|0|30233|success
+南欧|Nán'ōu|southern europe|0|1|30233|success
+卧室|wòshì|bedroom|0|2|30233|success
+多变|duōbiàn|changeable|1|0|30233|success
+安排|ānpái|plan|1|0|30233|success
+小孩|xiǎohái|child|1|0|30233|success
+尝尝|chángchang|have a taste|2|0|30233|success
+情人|qíngrén|lover|1|0|30233|success
+洁癖|jiépǐ|cleanliness obsession|2|0|30233|success
+盒子|hézi|box (container)|1|0|30233|success
+终于|zhōngyú|finally|0|1|30233|success
+经过|jīngguò| pass by|0|1|30233|success
+酒馆|jiǔguǎn|pub / tavern|1|0|30233|success
+驾照|jiàzhào|driving license|0|1|30233|success
+儿子|erzi|son|0|2|30293|success
+午饭|wǔfàn|lunch|2|0|30293|success
+南欧|Nán'ōu|southern europe|0|1|30293|success
+卧室|wòshì|bedroom|0|2|30293|success
+多变|duōbiàn|changeable|1|0|30293|success
+安排|ānpái|plan|1|0|30293|success
+小孩|xiǎohái|child|1|0|30293|success
+尝尝|chángchang|have a taste|2|0|30293|success
+情人|qíngrén|lover|1|0|30293|success
+洁癖|jiépǐ|cleanliness obsession|2|0|30293|success
+盒子|hézi|box (container)|1|0|30293|success
+终于|zhōngyú|finally|0|1|30293|success
+经过|jīngguò| pass by|0|1|30293|success
+酒馆|jiǔguǎn|pub / tavern|1|0|30293|success
+驾照|jiàzhào|driving license|0|1|30293|success
+中药|zhōngyào|chinese medicine|2|0|30375|success
+参加|cānjiā| take part in|2|0|30375|success
+噩梦|èmèng|nightmare|2|0|30375|success
+回来|huílái|come back|1|0|30375|success
+地砖|dezhuān|floor tile|2|0|30375|success
+收拾|shōushí|tidy up|1|0|30375|success
+时差|shíchà| jet lag|0|1|30375|success
+汉语|hànyǔ|chinese|0|2|30375|success
+热闹|rènào|lively|2|0|30375|success
+花田|huātián|flower field|2|0|30375|success
+诗经|shījīng|the book of songs|0|2|30375|success
+银行|yínháng|bank|1|0|30375|success
+门票|ménpiào|ticket|1|0|30375|success
+饼干|bǐnggàn| crackers|1|0|30375|success
+骄傲|jiāoào|proud|2|0|30375|success
+中药|zhōngyào|chinese medicine|2|0|30390|success
+参加|cānjiā| take part in|2|0|30390|success
+噩梦|èmèng|nightmare|2|0|30390|success
+回来|huílái|come back|1|0|30390|success
+地砖|dezhuān|floor tile|2|0|30390|success
+收拾|shōushí|tidy up|1|0|30390|success
+时差|shíchà| jet lag|0|1|30390|success
+汉语|hànyǔ|chinese|0|2|30390|success
+热闹|rènào|lively|2|0|30390|success
+花田|huātián|flower field|2|0|30390|success
+诗经|shījīng|the book of songs|0|2|30390|success
+银行|yínháng|bank|1|0|30390|success
+门票|ménpiào|ticket|1|0|30390|success
+饼干|bǐnggàn| crackers|1|0|30390|success
+骄傲|jiāoào|proud|2|0|30390|success
+不但|búdàn|not only|0|2|30467|success
+之后|zhīhòu|after that|1|0|30467|success
+九点|jiǔdiǎn|nine o'clock|2|0|30467|success
+冰箱|bīngxiāng|refrigerator|1|0|30467|success
+冰箱|bīngxiāng|refrigerator|2|0|30467|success
+刷卡|shuākǎ|swipe card|1|0|30467|success
+厕所|cèsuǒ|toilet / bathroom|1|0|30467|success
+四天|sì tiān|four days|1|0|30467|success
+大枣|dàzǎo|date|0|1|30467|success
+小城|xiǎochéng|small city / town|2|0|30467|success
+晚了|wǎnle|late|0|1|30467|success
+洁癖|jiépǐ|cleanliness obsession|0|1|30467|success
+洁癖|jiépǐ| neat freak|2|0|30467|success
+网球|wǎngqiú|tennis|0|2|30467|success
+起飞|qǐfēi|take off (airplane)|1|0|30467|success
+不但|búdàn|not only|0|2|30482|success
+之后|zhīhòu|after that|1|0|30482|success
+九点|jiǔdiǎn|nine o'clock|2|0|30482|success
+冰箱|bīngxiāng|refrigerator|1|0|30482|success
+冰箱|bīngxiāng|refrigerator|2|0|30482|success
+刷卡|shuākǎ|swipe card|1|0|30482|success
+厕所|cèsuǒ|toilet / bathroom|1|0|30482|success
+四天|sì tiān|four days|1|0|30482|success
+大枣|dàzǎo|date|0|1|30482|success
+小城|xiǎochéng|small city / town|2|0|30482|success
+晚了|wǎnle|late|0|1|30482|success
+洁癖|jiépǐ|cleanliness obsession|0|1|30482|success
+洁癖|jiépǐ| neat freak|2|0|30482|success
+网球|wǎngqiú|tennis|0|2|30482|success
+起飞|qǐfēi|take off (airplane)|1|0|30482|success
+便宜|biànyí|cheap|2|0|30531|success
+假的|jiǎde|fake|1|0|30531|success
+办法|bànfǎ|way|0|1|30531|success
+在家|zàijiā|at home|1|0|30531|success
+学习|xuéxí| learn|1|0|30531|success
+左右|zuǒyòu|about|0|1|30531|success
+弟弟|dìdì|younger brother|2|0|30531|success
+拿手|náshǒu|good at|1|0|30531|success
+旗袍|qípáo|chinese style dress|0|2|30531|success
+现金|xiànjīn|cash|0|2|30531|success
+电灯|diàndēng|electric lamp|2|0|30531|success
+自拍|zìpāi|take a selfie|2|0|30531|success
+舒服|shūfú|comfortable|0|2|30531|success
+茶馆|cháguǎn|teahouse|1|0|30531|success
+雨天|yǔtiān|rainy day|1|0|30531|success
+便宜|biànyí|cheap|2|0|30546|success
+假的|jiǎde|fake|1|0|30546|success
+办法|bànfǎ|way|0|1|30546|success
+在家|zàijiā|at home|1|0|30546|success
+学习|xuéxí| learn|1|0|30546|success
+左右|zuǒyòu|about|0|1|30546|success
+弟弟|dìdì|younger brother|2|0|30546|success
+拿手|náshǒu|good at|1|0|30546|success
+旗袍|qípáo|chinese style dress|0|2|30546|success
+现金|xiànjīn|cash|0|2|30546|success
+电灯|diàndēng|electric lamp|2|0|30546|success
+自拍|zìpāi|take a selfie|2|0|30546|success
+舒服|shūfú|comfortable|0|2|30546|success
+茶馆|cháguǎn|teahouse|1|0|30546|success
+雨天|yǔtiān|rainy day|1|0|30546|success
+免费|miǎnfèi|free|2|0|30694|success
+关门|guānmén|close the door|1|0|30694|success
+几场|jǐchǎng|how many (shows/games)?|1|0|30694|success
+口红|kǒuhóng|lipstick|1|0|30694|success
+地砖|dezhuān|floor tile|0|2|30694|success
+好了|hǎole| ready|0|2|30694|success
+左右|zuǒyòu|about|1|0|30694|success
+平时|píngshí|regular times|1|0|30694|success
+护照|hùzhào|passport|2|0|30694|success
+月饼|yuèbǐng|mooncake|1|0|30694|success
+电灯|diàndēng| light|0|2|30694|success
+西装|xīzhuāng|suit|2|0|30694|success
+过|guò|cross|2|0|30694|success
+还是|háishì|still|0|1|30694|success
+酒馆|jiǔguǎn|pub / tavern|2|0|30694|success
+免费|miǎnfèi|free|2|0|30725|success
+关门|guānmén|close the door|1|0|30725|success
+几场|jǐchǎng|how many (shows/games)?|1|0|30725|success
+口红|kǒuhóng|lipstick|1|0|30725|success
+地砖|dezhuān|floor tile|0|2|30725|success
+好了|hǎole| ready|0|2|30725|success
+左右|zuǒyòu|about|1|0|30725|success
+平时|píngshí|regular times|1|0|30725|success
+护照|hùzhào|passport|2|0|30725|success
+月饼|yuèbǐng|mooncake|1|0|30725|success
+电灯|diàndēng| light|0|2|30725|success
+西装|xīzhuāng|suit|2|0|30725|success
+过|guò|cross|2|0|30725|success
+还是|háishì|still|0|1|30725|success
+酒馆|jiǔguǎn|pub / tavern|2|0|30725|success
+会面|huìmiàn| meet up|1|0|30854|success
+儿子|erzi|son|0|1|30854|success
+冬天|dōngtiān|winter|1|0|30854|success
+别急|biéjí|no rush|2|0|30854|success
+到处|dàochù|everywhere|0|2|30854|success
+周日|zhōurì|sunday|1|0|30854|success
+回家|huíjiā|go home|2|0|30854|success
+帮忙|bāngmáng|help out|0|2|30854|success
+放假|fàngjiǎ|holiday|0|1|30854|success
+水管|shuǐguǎn|water pipe|0|2|30854|success
+看来|kànlái|seems like|0|1|30854|success
+聚会|jùhuì|gathering|1|0|30854|success
+过得|guòde|to be doing|2|0|30854|success
+雾天|wùtiān|foggy day|1|0|30854|success
+餐馆|cānguǎn|restaurant|0|2|30854|success
+会面|huìmiàn| meet up|1|0|30869|success
+儿子|erzi|son|0|1|30869|success
+冬天|dōngtiān|winter|1|0|30869|success
+别急|biéjí|no rush|2|0|30869|success
+到处|dàochù|everywhere|0|2|30869|success
+周日|zhōurì|sunday|1|0|30869|success
+回家|huíjiā|go home|2|0|30869|success
+帮忙|bāngmáng|help out|0|2|30869|success
+放假|fàngjiǎ|holiday|0|1|30869|success
+水管|shuǐguǎn|water pipe|0|2|30869|success
+看来|kànlái|seems like|0|1|30869|success
+聚会|jùhuì|gathering|1|0|30869|success
+过得|guòde|to be doing|2|0|30869|success
+雾天|wùtiān|foggy day|1|0|30869|success
+餐馆|cānguǎn|restaurant|0|2|30869|success
+书房|shūfáng|study|0|1|31013|success
+他的|tāde|his|1|0|31013|success
+会面|huìmiàn|meeting|0|2|31013|success
+外语|wàiyǔ|foreign languages|2|0|31013|success
+头疼|tóuténg|headache|0|1|31013|success
+客房|kèfáng|guest room|0|2|31013|success
+幸运|xìngyùn|lucky|1|0|31013|success
+店员|diànyuán|store clerk|0|2|31013|success
+心情|xīnqíng|mood|2|0|31013|success
+忘记|wàngjì|forget|2|0|31013|success
+扫码|sǎomǎ|scan qr code|0|2|31013|success
+日子|rìzi|days|1|0|31013|success
+汉字|hànzì|chinese characters|0|1|31013|success
+白天|báitiān|daytime|2|0|31013|success
+退休|tuìxiū|retire|0|2|31013|success
+书房|shūfáng|study|0|1|31028|success
+他的|tāde|his|1|0|31028|success
+会面|huìmiàn|meeting|0|2|31028|success
+外语|wàiyǔ|foreign languages|2|0|31028|success
+头疼|tóuténg|headache|0|1|31028|success
+客房|kèfáng|guest room|0|2|31028|success
+幸运|xìngyùn|lucky|1|0|31028|success
+店员|diànyuán|store clerk|0|2|31028|success
+心情|xīnqíng|mood|2|0|31028|success
+忘记|wàngjì|forget|2|0|31028|success
+扫码|sǎomǎ|scan qr code|0|2|31028|success
+日子|rìzi|days|1|0|31028|success
+汉字|hànzì|chinese characters|0|1|31028|success
+白天|báitiān|daytime|2|0|31028|success
+退休|tuìxiū|retire|0|2|31028|success
+公斤|gōngjīn|kilogram|1|0|31120|success
+刷卡|shuākǎ|swipe card|0|2|31120|success
+办法|bànfǎ|way|2|0|31120|success
+南欧|Nán'ōu|southern europe|0|2|31120|success
+周日|zhōurì|sunday|2|0|31120|success
+奇怪|qíguài|strange|2|0|31120|success
+完成|wánchéng|complete|2|0|31120|success
+拍照|pāizhào|take photo|1|0|31120|success
+泡菜|pàocài| kimchi|0|2|31120|success
+浇水|jiāoshuǐ|water (plants)|0|1|31120|success
+短裤|duǎnkù|shorts|1|0|31120|success
+茄子|qiézi|eggplant|1|0|31120|success
+草场|cǎochǎng|grassland|1|0|31120|success
+过得|guòde|to be doing|1|0|31120|success
+首都|shǒudōu|capital|1|0|31120|success
+公斤|gōngjīn|kilogram|1|0|31164|success
+刷卡|shuākǎ|swipe card|0|2|31164|success
+办法|bànfǎ|way|2|0|31164|success
+南欧|Nán'ōu|southern europe|0|2|31164|success
+周日|zhōurì|sunday|2|0|31164|success
+奇怪|qíguài|strange|2|0|31164|success
+完成|wánchéng|complete|2|0|31164|success
+拍照|pāizhào|take photo|1|0|31164|success
+泡菜|pàocài| kimchi|0|2|31164|success
+浇水|jiāoshuǐ|water (plants)|0|1|31164|success
+短裤|duǎnkù|shorts|1|0|31164|success
+茄子|qiézi|eggplant|1|0|31164|success
+草场|cǎochǎng|grassland|1|0|31164|success
+过得|guòde|to be doing|1|0|31164|success
+首都|shǒudōu|capital|1|0|31164|success
+体检|tǐjiǎn|medical checkup|2|0|31267|success
+告诉|gàosu|tell|1|0|31267|success
+地图|detú|map|0|2|31267|success
+女士|nǚshì| madam|1|0|31267|success
+宾馆|bīnguǎn|hotel|2|0|31267|success
+弟弟|dìdì|younger brother|0|1|31267|success
+文学|wénxué|literature|1|0|31267|success
+晴天|qíngtiān|sunny|1|0|31267|success
+经过|jīngguò|pass|1|0|31267|success
+聚会|jùhuì|gathering|0|1|31267|success
+聚餐|jùcān| banquet|2|0|31267|success
+英语|yīngyǔ|english|1|0|31267|success
+起来|qǐlái|get up|2|0|31267|success
+道路|dàolù|road|2|0|31267|success
+阴天|yīntiān| overcast|2|0|31267|success
+体检|tǐjiǎn|medical checkup|2|0|31282|success
+告诉|gàosu|tell|1|0|31282|success
+地图|detú|map|0|2|31282|success
+女士|nǚshì| madam|1|0|31282|success
+宾馆|bīnguǎn|hotel|2|0|31282|success
+弟弟|dìdì|younger brother|0|1|31282|success
+文学|wénxué|literature|1|0|31282|success
+晴天|qíngtiān|sunny|1|0|31282|success
+经过|jīngguò|pass|1|0|31282|success
+聚会|jùhuì|gathering|0|1|31282|success
+聚餐|jùcān| banquet|2|0|31282|success
+英语|yīngyǔ|english|1|0|31282|success
+起来|qǐlái|get up|2|0|31282|success
+道路|dàolù|road|2|0|31282|success
+阴天|yīntiān| overcast|2|0|31282|success
+个子|gèzi|height|2|0|31368|success
+再有|zàiyǒu|again have|1|0|31368|success
+参观|cānguān|visit|1|0|31368|success
+学生|xuéshēng|student|1|0|31368|success
+宾馆|bīnguǎn|hotel|0|1|31368|success
+心情|xīnqíng|mood|0|1|31368|success
+护照|hùzhào|passport|1|0|31368|success
+时差|shíchà|time difference|2|0|31368|success
+样品|yàngpǐn|sample|0|1|31368|success
+电灯|diàndēng| light|0|1|31368|success
+药草|yàocǎo|herbal|2|0|31368|success
+记得|jìdé|remember|0|2|31368|success
+超人|chāorén|superman|1|0|31368|success
+还是|háishì| or|1|0|31368|success
+香槟|xiāngbīn|champagne|1|0|31368|success
+个子|gèzi|height|2|0|31383|success
+再有|zàiyǒu|again have|1|0|31383|success
+参观|cānguān|visit|1|0|31383|success
+学生|xuéshēng|student|1|0|31383|success
+宾馆|bīnguǎn|hotel|0|1|31383|success
+心情|xīnqíng|mood|0|1|31383|success
+护照|hùzhào|passport|1|0|31383|success
+时差|shíchà|time difference|2|0|31383|success
+样品|yàngpǐn|sample|0|1|31383|success
+电灯|diàndēng| light|0|1|31383|success
+药草|yàocǎo|herbal|2|0|31383|success
+记得|jìdé|remember|0|2|31383|success
+超人|chāorén|superman|1|0|31383|success
+还是|háishì| or|1|0|31383|success
+香槟|xiāngbīn|champagne|1|0|31383|success
+临时|línshí|temporary|1|0|31460|success
+作为|zuòwèi|as|2|0|31460|success
+可爱|kěài|cute|0|2|31460|success
+回家|huíjiā|back home|2|0|31460|success
+小吃|xiǎochī| street food|1|0|31460|success
+惊喜|jīngxǐ|surprise|2|0|31460|success
+想好|xiǎnghǎo|think it through|0|2|31460|success
+想好|xiǎnghǎo| decide|2|0|31460|success
+戏剧|xìjù|theater|1|0|31460|success
+成都|chéngdōu|chengdu|2|0|31460|success
+有雾|yǒuwù|foggy|1|0|31460|success
+网游|wǎngyóu|online game|1|0|31460|success
+视频|shìpín|video|0|2|31460|success
+跳舞|tiàowǔ|dance|1|0|31460|success
+院子|yuànzi|yard|2|0|31460|success
+临时|línshí|temporary|1|0|31475|success
+作为|zuòwèi|as|2|0|31475|success
+可爱|kěài|cute|0|2|31475|success
+回家|huíjiā|back home|2|0|31475|success
+小吃|xiǎochī| street food|1|0|31475|success
+惊喜|jīngxǐ|surprise|2|0|31475|success
+想好|xiǎnghǎo|think it through|0|2|31475|success
+想好|xiǎnghǎo| decide|2|0|31475|success
+戏剧|xìjù|theater|1|0|31475|success
+成都|chéngdōu|chengdu|2|0|31475|success
+有雾|yǒuwù|foggy|1|0|31475|success
+网游|wǎngyóu|online game|1|0|31475|success
+视频|shìpín|video|0|2|31475|success
+跳舞|tiàowǔ|dance|1|0|31475|success
+院子|yuànzi|yard|2|0|31475|success
+出差|chūchà|business trip|1|0|31632|success
+去过|qùguò|(have) been (somewhere) before|0|2|31632|success
+听懂|tīngdǒng|understand by listening|2|0|31632|success
+回家|huíjiā|go home|1|0|31632|success
+地主|dezhǔ|host (lit. the local)|2|0|31632|success
+就是|jiùshì|exactly|0|1|31632|success
+应该|yīnggāi| ought to|1|0|31632|success
+当地|dāngde|local|0|2|31632|success
+打扫|dǎsǎo| tidy|1|0|31632|success
+护照|hùzhào|passport|0|2|31632|success
+水管|shuǐguǎn|water pipe|2|0|31632|success
+爸爸|bàbà|dad|1|0|31632|success
+见面|jiànmiàn|meet|0|1|31632|success
+见面|jiànmiàn|meet|2|0|31632|success
+领养|lǐngyǎng|adopt|2|0|31632|success
+出差|chūchà|business trip|1|0|31647|success
+去过|qùguò|(have) been (somewhere) before|0|2|31647|success
+听懂|tīngdǒng|understand by listening|2|0|31647|success
+回家|huíjiā|go home|1|0|31647|success
+地主|dezhǔ|host (lit. the local)|2|0|31647|success
+就是|jiùshì|exactly|0|1|31647|success
+应该|yīnggāi| ought to|1|0|31647|success
+当地|dāngde|local|0|2|31647|success
+打扫|dǎsǎo| tidy|1|0|31647|success
+护照|hùzhào|passport|0|2|31647|success
+水管|shuǐguǎn|water pipe|2|0|31647|success
+爸爸|bàbà|dad|1|0|31647|success
+见面|jiànmiàn|meet|0|1|31647|success
+见面|jiànmiàn|meet|2|0|31647|success
+领养|lǐngyǎng|adopt|2|0|31647|success
+别急|biéjí|no rush|1|0|31819|success
+回国|huíguó|return home/country|2|0|31819|success
+好用|hǎoyòng|practical|1|0|31819|success
+家庭|jiātíng|family|2|0|31819|success
+录音|lùyīn|make an audio recording|1|0|31819|success
+扫码|sǎomǎ|scan qr code|1|0|31819|success
+拿手|náshǒu|good at|0|1|31819|success
+正好|zhènghǎo|just|2|0|31819|success
+汉字|hànzì|chinese characters|0|2|31819|success
+洁癖|jiépǐ| neat freak|1|0|31819|success
+清楚|qīngchu|clear|2|0|31819|success
+电灯|diàndēng| light|1|0|31819|success
+男生|nánshēng|boy|2|0|31819|success
+遇到|yùdào|meet|1|0|31819|success
+领养|lǐngyǎng|adopt|1|0|31819|success
+别急|biéjí|no rush|1|0|31834|success
+回国|huíguó|return home/country|2|0|31834|success
+好用|hǎoyòng|practical|1|0|31834|success
+家庭|jiātíng|family|2|0|31834|success
+录音|lùyīn|make an audio recording|1|0|31834|success
+扫码|sǎomǎ|scan qr code|1|0|31834|success
+拿手|náshǒu|good at|0|1|31834|success
+正好|zhènghǎo|just|2|0|31834|success
+汉字|hànzì|chinese characters|0|2|31834|success
+洁癖|jiépǐ| neat freak|1|0|31834|success
+清楚|qīngchu|clear|2|0|31834|success
+电灯|diàndēng| light|1|0|31834|success
+男生|nánshēng|boy|2|0|31834|success
+遇到|yùdào|meet|1|0|31834|success
+领养|lǐngyǎng|adopt|1|0|31834|success
+一边|yībiān|at the same time|2|0|31925|success
+别急|biéjí|no rush|0|1|31925|success
+参加|cānjiā|attend|0|2|31925|success
+发现|fāxiàn|discover|1|0|31925|success
+家庭|jiātíng|family|0|1|31925|success
+就是|jiùshì|exactly|1|0|31925|success
+当地|dāngde|local|0|1|31925|success
+怕光|pàguāng|sensitive to light|1|0|31925|success
+暖气|nuǎnqì|heating|1|0|31925|success
+水管|shuǐguǎn|water pipe|0|1|31925|success
+浇水|jiāoshuǐ|water (plants)|1|0|31925|success
+男孩|nánhái|boy|0|2|31925|success
+病人|bìngrén|patient|0|2|31925|success
+终于|zhōngyú|finally|2|0|31925|success
+阴天|yīntiān| overcast|1|0|31925|success
+一边|yībiān|at the same time|2|0|31946|success
+别急|biéjí|no rush|0|1|31946|success
+参加|cānjiā|attend|0|2|31946|success
+发现|fāxiàn|discover|1|0|31946|success
+家庭|jiātíng|family|0|1|31946|success
+就是|jiùshì|exactly|1|0|31946|success
+当地|dāngde|local|0|1|31946|success
+怕光|pàguāng|sensitive to light|1|0|31946|success
+暖气|nuǎnqì|heating|1|0|31946|success
+水管|shuǐguǎn|water pipe|0|1|31946|success
+浇水|jiāoshuǐ|water (plants)|1|0|31946|success
+男孩|nánhái|boy|0|2|31946|success
+病人|bìngrén|patient|0|2|31946|success
+终于|zhōngyú|finally|2|0|31946|success
+阴天|yīntiān| overcast|1|0|31946|success
+创立|chuànglì|found|1|0|32035|success
+卧室|wòshì|bedroom|1|0|32035|success
+夫人|fūrén|mrs|2|0|32035|success
+女士|nǚshì| miss|0|2|32035|success
+女士|nǚshì| miss|2|0|32035|success
+好了|hǎole| ready|2|0|32035|success
+小城|xiǎochéng|small city / town|0|2|32035|success
+或者|huòzhě|or|1|0|32035|success
+房卡|fángkǎ|room card|2|0|32035|success
+礼盒|lǐhé|gift box|0|2|32035|success
+聪明|cōngmíng|smart|0|1|32035|success
+英语|yīngyǔ|english|2|0|32035|success
+觉得|jiàodé|think|0|1|32035|success
+跳舞|tiàowǔ|dance|0|1|32035|success
+附近|fùjìn|nearby|0|2|32035|success
+创立|chuànglì|found|1|0|32050|success
+卧室|wòshì|bedroom|1|0|32050|success
+夫人|fūrén|mrs|2|0|32050|success
+女士|nǚshì| miss|0|2|32050|success
+女士|nǚshì| miss|2|0|32050|success
+好了|hǎole| ready|2|0|32050|success
+小城|xiǎochéng|small city / town|0|2|32050|success
+或者|huòzhě|or|1|0|32050|success
+房卡|fángkǎ|room card|2|0|32050|success
+礼盒|lǐhé|gift box|0|2|32050|success
+聪明|cōngmíng|smart|0|1|32050|success
+英语|yīngyǔ|english|2|0|32050|success
+觉得|jiàodé|think|0|1|32050|success
+跳舞|tiàowǔ|dance|0|1|32050|success
+附近|fùjìn|nearby|0|2|32050|success
+侄女|zhínǚ|niece|0|1|32132|success
+女士|nǚshì| madam|0|1|32132|success
+女士|nǚshì|miss|2|0|32132|success
+女孩|nǚhái|girl|2|0|32132|success
+安排|ānpái|plan / arrangement|2|0|32132|success
+小说|xiǎoshuō|fiction|1|0|32132|success
+工具|gōngjù|tool|1|0|32132|success
+店员|diànyuán|store clerk|1|0|32132|success
+忘记|wàngjì|forget|1|0|32132|success
+换了|huànle|changed|2|0|32132|success
+排骨|páigǔ|ribs|1|0|32132|success
+聚餐|jùcān| banquet|0|1|32132|success
+胖了|pàngle|gained weight|2|0|32132|success
+还是|háishì|still|1|0|32132|success
+饼干|bǐnggàn| crackers|0|1|32132|success
+侄女|zhínǚ|niece|0|1|32147|success
+女士|nǚshì| madam|0|1|32147|success
+女士|nǚshì|miss|2|0|32147|success
+女孩|nǚhái|girl|2|0|32147|success
+安排|ānpái|plan / arrangement|2|0|32147|success
+小说|xiǎoshuō|fiction|1|0|32147|success
+工具|gōngjù|tool|1|0|32147|success
+店员|diànyuán|store clerk|1|0|32147|success
+忘记|wàngjì|forget|1|0|32147|success
+换了|huànle|changed|2|0|32147|success
+排骨|páigǔ|ribs|1|0|32147|success
+聚餐|jùcān| banquet|0|1|32147|success
+胖了|pàngle|gained weight|2|0|32147|success
+还是|háishì|still|1|0|32147|success
+饼干|bǐnggàn| crackers|0|1|32147|success

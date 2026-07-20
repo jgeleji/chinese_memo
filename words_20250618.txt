@@ -24,3 +24,4 @@
 商店|store
 超市|supermarket
 北京外国语大学|Beijing foreign studies university
+
