@@ -24982,3 +24982,33 @@ _和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success
 胖了|pàngle|gained weight|2|0|32147|success
 还是|háishì|still|1|0|32147|success
 饼干|bǐnggàn| crackers|0|1|32147|success
+串|chuàn|m.w.grape|0|2|32206|success
+为|wèi|for|0|1|32206|success
+为|wèi|for|0|2|32206|success
+咸|xián|salty|1|0|32206|success
+它|tā|it|0|2|32206|success
+把|bǎ|ba-szerkezetben a tárgy elöljárószava|1|0|32206|success
+放|fàng|put|0|1|32206|success
+泡|pào| steep|0|1|32206|success
+渴|kě|thirsty|0|1|32206|success
+渴|kě|thirsty|1|0|32206|success
+渴|kě|thirsty|2|0|32206|success
+苦|kǔ|bitter|0|1|32206|success
+苦|kǔ|bitter|0|2|32206|success
+饱|bǎo|well fed|2|0|32206|success
+旅游|lǚyóu|tourism|2|0|32206|success
+串|chuàn|m.w.grape|0|2|32221|success
+为|wèi|for|0|1|32221|success
+为|wèi|for|0|2|32221|success
+咸|xián|salty|1|0|32221|success
+它|tā|it|0|2|32221|success
+把|bǎ|ba-szerkezetben a tárgy elöljárószava|1|0|32221|success
+放|fàng|put|0|1|32221|success
+泡|pào| steep|0|1|32221|success
+渴|kě|thirsty|0|1|32221|success
+渴|kě|thirsty|1|0|32221|success
+渴|kě|thirsty|2|0|32221|success
+苦|kǔ|bitter|0|1|32221|success
+苦|kǔ|bitter|0|2|32221|success
+饱|bǎo|well fed|2|0|32221|success
+旅游|lǚyóu|tourism|2|0|32221|success
