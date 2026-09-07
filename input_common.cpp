@@ -740,6 +740,7 @@ std::string chinese::Input::do_input_1char_chinese(
 				ch_ch_vec.push_back(random_char);
 			}
 			std::shuffle(ch_ch_vec.begin(), ch_ch_vec.end(), rnd);
+			ch_ch_vec.push_back(pinyin);
 		}
 		else if(shuffle)
 		{
