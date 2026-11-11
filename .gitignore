@@ -27,3 +27,8 @@ android/app/src/main/assets/
 
 # large binary font (free Google font, see android/README.md)
 assets/NotoSansSC.ttf
+
+# safety copies progress_pull.sh / progress_push.sh keep next to the tracked file
+status1.phone-backup
+status1.pre-pull
+status1.testbak
