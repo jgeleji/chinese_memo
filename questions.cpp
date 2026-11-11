@@ -483,7 +483,7 @@ bool chinese::questions::ask_all_until_fail_elo(
 
 	size_t sequence_number = 0;
 
-	auto recurrence_scores = load_status_file_elo(gen, sequence_number, score_improve_if_success, score_deteriorate_if_fail, max_complexity);
+	auto recurrence_scores = load_status_file_elo(gen, sequence_number);
 
 	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++ iter)
 	{
@@ -501,6 +501,19 @@ bool chinese::questions::ask_all_until_fail_elo(
 	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
 	{
 		questions_block.insert(std::pair<double, std::map<q_type, std::pair<size_t, double>>::iterator>(iter->second.second, iter));
+	}
+
+	std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances;
+	for(auto iter = questions_block.rbegin(); iter != questions_block.rend(); ++iter)
+	{
+		equal_chances.push_back(iter->second);
+	}
+	std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
+
+	int zero_score = 0;
+	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
+	{
+		if(iter->second.second == 0.0) ++zero_score;
 	}
 
 	int loc_seq=0;
@@ -588,7 +601,6 @@ bool chinese::questions::ask_all_until_fail_elo(
 				breaks
 			);
 		iter0->second.first = sequence_number;
-		double before =
 		if(result)
 		{
 			std::cout << "Answer accepted!\r\n";
@@ -629,7 +641,8 @@ bool chinese::questions::ask_all_until_fail_elo(
 				statusfile << "|" << ((int)asked);
 				statusfile << "|" << sequence_number << "|";
 				statusfile << "success";
-				iter->second->second.second -= score_improve_if_success +(gen()%5)*.01;
+				double d = iter->second->second.second;
+				iter->second->second.second += -1.0 / (1.0 + std::pow(10.0, -d / 400.0));
 				statusfile << "\n";
 			}
 			statusfile.close();
