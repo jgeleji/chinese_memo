@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.application'
+}
+
+// chinese_memo/ (the directory that holds CMakeLists.txt, data/, union_q.txt ...)
+def cmRoot = new File(rootDir, '..')
+
+android {
+    namespace 'com.geleji.chinesememo'
+    compileSdk 34
+    ndkVersion '27.0.12077973'
+
+    defaultConfig {
+        applicationId 'com.geleji.chinesememo'
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_STL=c++_shared', '-DANDROID_PLATFORM=android-21'
+                abiFilters 'arm64-v8a'
+                targets 'questions_sdl'
+                cppFlags '-std=c++11'
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path new File(cmRoot, 'CMakeLists.txt')
+            version '3.22.1'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    // the game data is part of the build: refresh app/src/main/assets first
+    applicationVariants.all { variant ->
+        tasks["merge${variant.name.capitalize()}Assets"].dependsOn('syncAppAssets')
+    }
+}
+
+// The native side chdir()s into the app's internal storage and opens the data
+// files with relative paths, so they have to live in assets/ (MainActivity
+// unpacks them there at startup).
+tasks.register('syncAppAssets', Copy) {
+    from(new File(cmRoot, 'union_q.txt'))
+    from(new File(cmRoot, 'status1.txt'))
+    from(new File(new File(cmRoot, 'assets'), 'NotoSansSC.ttf'))
+    from(new File(cmRoot, 'data')) {
+        into 'data'
+    }
+    into new File(projectDir, 'src/main/assets')
+    duplicatesStrategy DuplicatesStrategy.INCLUDE
+}

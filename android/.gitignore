@@ -1,0 +1,9 @@
+# build outputs and machine-local paths
+.gradle/
+build/
+app/build/
+app/.cxx/
+local.properties
+
+# unpacked from the game sources by the syncAppAssets task
+app/src/main/assets/

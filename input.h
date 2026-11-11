@@ -42,6 +42,8 @@ class Input
 		void system_pause() const;
 		int cols() const;
 
+		void set_options(std::vector<std::string> const& options) const;
+
 		std::vector<std::string> split_into_chinese_characters(std::string val) const;
 		std::vector<std::string> get_some_random_chinese_chars(int num, std::mt19937& rnd) const;
 
@@ -96,6 +98,8 @@ class Input
 
 		static int count_unicode_code_points(std::string const& str);
 };
+
+std::vector<std::string> const& current_options();
 
 }
 

@@ -14,6 +14,18 @@
 
 static const bool debugprints = false;
 
+static std::vector<std::string> current_options_storage;
+
+void chinese::Input::set_options(std::vector<std::string> const& options) const
+{
+	current_options_storage = options;
+}
+
+std::vector<std::string> const& chinese::current_options()
+{
+	return current_options_storage;
+}
+
 
 std::vector<std::string> chinese::Input::get_possibles(std::string const& pinyin) const
 {
@@ -756,6 +768,7 @@ std::string chinese::Input::do_input_1char_chinese(
 				chinese_choices.push_back(std::stringstream());
 			}
 		}
+		this->set_options(ch_ch_vec);
 		move_clear_refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
@@ -782,6 +795,7 @@ std::string chinese::Input::do_input_1char_chinese(
 			chinese_choices.push_back(std::stringstream());
 		}
 	}
+	this->set_options(ch_ch_vec);
 	raw_input.clear();
 	move_clear_refresh();
 	std::cout << reset_color        << "0 " << top_row << "\r\n";
@@ -878,6 +892,7 @@ std::string chinese::Input::do_input_1char_chinese_notone(
 				chinese_choices.push_back(std::stringstream());
 			}
 		}
+		this->set_options(ch_ch_vec);
 		move_clear_refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
@@ -904,6 +919,7 @@ std::string chinese::Input::do_input_1char_chinese_notone(
 			chinese_choices.push_back(std::stringstream());
 		}
 	}
+	this->set_options(ch_ch_vec);
 	raw_input.clear();
 	move_clear_refresh();
 	std::cout << reset_color        << "0 " << top_row << "\r\n";

@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
 project(chinese_memo)
 
+# ---------------------------------------------------------------------------
+# Terminal (ncurses) build: all original executables. Skipped for Android.
+# ---------------------------------------------------------------------------
+if(NOT ANDROID)
+
 find_package(Curses REQUIRED)
 
 # Core library for common sources
@@ -82,3 +87,74 @@ add_custom_target(union_hsk
 add_custom_target(txt_ops ALL
     DEPENDS union_q union_q_hun union_a union_hsk
 )
+
+endif()
+
+# ---------------------------------------------------------------------------
+# SDL2 port: fullscreen touch UI.
+#   ANDROID=ON (from Gradle) -> shared library libquestions_sdl.so
+#   -DBUILD_SDL_PC=ON         -> desktop executable (headless test / dev)
+# ---------------------------------------------------------------------------
+option(BUILD_SDL_PC "Build the SDL2 port as a desktop executable using the bundled SDL2 sources" OFF)
+
+if(ANDROID OR BUILD_SDL_PC)
+
+	if(NOT TARGET SDL2::SDL2 AND NOT TARGET SDL2::SDL2-static)
+		if(ANDROID)
+			set(SDL_SHARED ON CACHE BOOL "" FORCE)
+			set(SDL_STATIC OFF CACHE BOOL "" FORCE)
+		else()
+			set(SDL_SHARED OFF CACHE BOOL "" FORCE)
+			set(SDL_STATIC ON CACHE BOOL "" FORCE)
+			# headless desktop build: no display-server or audio backend dependencies
+			set(SDL_X11 OFF CACHE BOOL "" FORCE)
+			set(SDL_WAYLAND OFF CACHE BOOL "" FORCE)
+			set(SDL_ALSA OFF CACHE BOOL "" FORCE)
+			set(SDL_PULSEAUDIO OFF CACHE BOOL "" FORCE)
+			set(SDL_ESD OFF CACHE BOOL "" FORCE)
+			set(SDL_SNDFILE OFF CACHE BOOL "" FORCE)
+			set(SDL_TEST_LIBRARY OFF CACHE BOOL "" FORCE)
+			set(SDL_TESTS OFF CACHE BOOL "" FORCE)
+			set(SDL_EXAMPLES OFF CACHE BOOL "" FORCE)
+			set(SDL_INSTALL OFF CACHE BOOL "" FORCE)
+		endif()
+		add_subdirectory(third_party/SDL2-2.30.9 SDL2_build)
+	endif()
+
+	if(ANDROID)
+		add_library(questions_sdl SHARED
+			main_sdl_questions10.cpp
+			questions.cpp
+			input_sdl2.cpp
+			input_common.cpp
+			utils.cpp
+			tokenize.cpp
+		)
+		target_include_directories(questions_sdl PRIVATE ${CMAKE_SOURCE_DIR}/third_party)
+		target_link_libraries(questions_sdl SDL2::SDL2)
+	else()
+		add_executable(questions10_sdl
+			main_sdl_questions10.cpp
+			questions.cpp
+			input_sdl2.cpp
+			input_common.cpp
+			utils.cpp
+			tokenize.cpp
+		)
+		target_include_directories(questions10_sdl PRIVATE ${CMAKE_SOURCE_DIR}/third_party)
+		target_link_libraries(questions10_sdl SDL2::SDL2-static SDL2::SDL2main)
+
+		# desktop-only helper: the plain pinyin -> numbered choices screen,
+		# used to check fonts and the touch button grid quickly
+		add_executable(input_sdl
+			main_sdl_input.cpp
+			input_sdl2.cpp
+			input_common.cpp
+			utils.cpp
+			tokenize.cpp
+		)
+		target_include_directories(input_sdl PRIVATE ${CMAKE_SOURCE_DIR}/third_party)
+		target_link_libraries(input_sdl SDL2::SDL2-static SDL2::SDL2main)
+	endif()
+
+endif()
