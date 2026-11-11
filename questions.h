@@ -39,9 +39,6 @@ class questions
 		bool ask_all_until_fail_block10(
 			std::function<double(int)> f = [](int) -> double { return 0.0; },
 			int breaks = 0) const;
-		bool ask_all_until_fail_elo(
-			std::function<double(int)> f = [](int) -> double { return 0.0; },
-			int breaks = 0) const;
 		void populate_chinese_char_to_index();
 
 		bool ask_1_chinese_char(
@@ -95,11 +92,6 @@ class questions
 			double score_improve_if_success = 1.04,
 			double score_deteriorate_if_fail = 5.19,
 			double max_complexity = 6.33
-		) const;
-		
-		std::map<q_type, std::pair<size_t, double>> load_status_file_elo(
-			std::mt19937& gen,
-			size_t& sequence_number
 		) const;
 
 		typedef std::pair<std::string, DATATYPE> q_type_char;

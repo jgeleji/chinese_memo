@@ -270,7 +270,7 @@ void chinese::questions::statistics_screen(
 			++positive_score[ceil(score)];
 		}
 	}
-	if(have_overloaded)	std::cin.get();
+	if(have_overloaded)	system_pause();
 	size_t total_positive = 0;
 	for(auto iter = positive_score.begin(); iter != positive_score.end(); ++iter)
 	{
@@ -299,85 +299,7 @@ void chinese::questions::statistics_screen(
 	PRINT(total_score/recurrence_scores.size());
 	PRINT(m_input.cols());
 	PRINT(breaks);
-	std::cin.get();
-}
-
-std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questions::load_status_file_elo(
-	std::mt19937& gen,
-	size_t& sequence_number
-) const
-{
-	//std::vector<q_type> myquestions;
-						// when it was asked, score(higher number means should be asked sooner)
-	std::map<q_type, std::pair<size_t, double>> recurrence_scores;
-	for(size_t q=0; q<loaded_data.size(); ++q)
-	{
-		for(size_t i=0; i<3; ++i)
-		{
-			for(size_t j=0; j<3; ++j)
-			{
-				if(i==j) continue;
-				q_type val = q_type(q, (DATATYPE)i, (DATATYPE)j);
-				recurrence_scores[val] = std::pair<size_t, double>(0, 0.0);
-			}
-		}
-	}
-
-	sequence_number = 0;
-	std::fstream statusfile;
-	statusfile.open(statusfilename, std::fstream::in);
-	while(statusfile.good())
-	{
-		std::string line;
-		getline(statusfile, line);
-		std::vector<std::string> tokens = tokenize(line, '|');
-		if(tokens.size() < 6)
-		{
-			continue;
-		}
-		std::string chinese = tokens[0];
-		std::string maybe_pinyin = tokens[1];
-		std::string maybe_english = tokens[2];
-		auto iter0 = question_index_finder.find(chinese);
-		if(iter0 == question_index_finder.end())
-		{
-			continue;
-		}
-		auto iter1 = iter0->second.find(maybe_pinyin);
-		if(iter1 == iter0->second.end())
-		{
-			iter1 = iter0->second.begin();
-		}
-		auto iter2 = iter1->second.find(maybe_english);
-		if(iter2 == iter1->second.end())
-		{
-			iter2 = iter1->second.begin();
-		}
-		q_type key = q_type(
-			iter2->second,
-			(DATATYPE)atoi(tokens[3].c_str()),
-			(DATATYPE)atoi(tokens[4].c_str())
-		);
-		auto iter = recurrence_scores.find(key);
-		iter->second.first = std::max(iter->second.first, (size_t)atoll(tokens[5].c_str()));
-		sequence_number = std::max(sequence_number, iter->second.first);
-		double before = iter->second.second;
-		double d = before;
-		if(tokens[6] == "success")
-		{
-			double change = -1.0 / (1.0 + std::pow(10.0, -d / 400.0));
-			
-			iter->second.second = before + change;
-		}
-		else if(tokens[6] == "fail")
-		{
-			double change = 1.0 / (1.0 + std::pow(10.0, -d / 400.0));
-			iter->second.second = before + change;
-		}
-
-
-	}
-	return recurrence_scores;
+	system_pause();
 }
 
 std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questions::load_status_file(
@@ -473,183 +395,6 @@ std::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio
 
 	}
 	return recurrence_scores;
-}
-
-bool chinese::questions::ask_all_until_fail_elo(
-	std::function<double(int)> f,
-	int breaks) const
-{
-	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
-
-	size_t sequence_number = 0;
-
-	auto recurrence_scores = load_status_file_elo(gen, sequence_number);
-
-	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++ iter)
-	{
-		q_type theq = iter->first;
-		const datapoint* dp = &loaded_data[std::get<0>(theq)];
-		double modifier = f(chinese::Input::count_unicode_code_points(dp->chinese));
-		if(std::get<1>(theq) == DATATYPE_CHINESE || std::get<2>(theq) == DATATYPE_CHINESE)
-			modifier += 1;
-		iter->second.second += modifier;
-	}
-
-	std::multimap<double, std::map<q_type, std::pair<size_t, double>>::iterator> questions_block;
-	auto iter0 = recurrence_scores.begin();
-	questions_block.insert(std::pair<double, std::map<q_type, std::pair<size_t, double>>::iterator>(iter0->second.second, iter0));
-	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
-	{
-		questions_block.insert(std::pair<double, std::map<q_type, std::pair<size_t, double>>::iterator>(iter->second.second, iter));
-	}
-
-	std::vector<std::map<q_type, std::pair<size_t, double>>::iterator> equal_chances;
-	for(auto iter = questions_block.rbegin(); iter != questions_block.rend(); ++iter)
-	{
-		equal_chances.push_back(iter->second);
-	}
-	std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
-
-	int zero_score = 0;
-	for(auto iter = recurrence_scores.begin(); iter != recurrence_scores.end(); ++iter)
-	{
-		if(iter->second.second == 0.0) ++zero_score;
-	}
-
-	int loc_seq=0;
-	while(1)
-	{
-		++sequence_number;
-
-		auto iter00 = equal_chances.begin();
-		std::advance(iter00, loc_seq%equal_chances.size());
-		iter0 = *iter00;
-
-		q_type which_q = iter0->first;
-
-		datapoint const* current = &loaded_data[std::get<0>(which_q)];
-
-		size_t q = std::get<0>(which_q);
-		std::vector<datapoint const*> others;
-		DATATYPE provided = std::get<1>(which_q);
-		DATATYPE asked = std::get<2>(which_q);
-
-		
-		std::string key = current->get(provided);
-		std::unordered_map<std::string, std::unordered_set<int>>::const_iterator iter;
-		std::unordered_map<std::string, std::unordered_set<int>> const* provided_overlaps, *asked_overlaps;
-		switch(asked)
-		{
-			case DATATYPE_PINYIN:
-				asked_overlaps = &pinyin_overlaps;
-				break;
-			case DATATYPE_ENGLISH:
-				asked_overlaps = &english_overlaps;
-				break;
-			case DATATYPE_CHINESE:
-				asked_overlaps = &chinese_overlaps;
-				break;
-		}
-		switch(provided)
-		{
-			case DATATYPE_PINYIN:
-				provided_overlaps = &pinyin_overlaps;
-				break;
-			case DATATYPE_ENGLISH:
-				provided_overlaps = &english_overlaps;
-				break;
-			case DATATYPE_CHINESE:
-				provided_overlaps = &chinese_overlaps;
-				break;
-		}
-		iter = provided_overlaps->find(key);
-		if(iter != provided_overlaps->end())
-		{
-			for(size_t index: iter->second)
-			{
-				datapoint const* identical = &loaded_data[index];
-				if(identical->get(asked) != current->get(asked))
-				{
-					others.push_back(identical);
-				}
-			}
-		}
-		
-		int repeat=3;
-
-		std::string gave;
-
-		std::string stats = 
-				reset_color
-				+ std::to_string(loc_seq)
-				+ " " + std::to_string(q)
-				+ "/" + std::to_string(6*loaded_data.size())
-				+ " " + std::to_string(sequence_number)
-				+ " " + std::to_string(iter0->second.first)
-				+ " " + std::to_string(iter0->second.second);
-		if(zero_score >0)
-		{
-			stats += " zero " + std::to_string(zero_score);
-		}
-		bool result =current->ask(
-				m_input,
-				provided,
-				asked,
-				stats,
-				others,
-				gave,
-				breaks
-			);
-		iter0->second.first = sequence_number;
-		if(result)
-		{
-			std::cout << "Answer accepted!\r\n";
-			std::cout << "Btw\r\nCHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
-			std::cout << ",\r\nPYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
-			std::cout << ",\r\nENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
-			std::this_thread::sleep_for(std::chrono::milliseconds(500));
-		}
-		else
-		{
-			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
-			std::cout << "Correct would have been " << loaded_data[std::get<0>(which_q)].get(std::get<2>(which_q)) << "\r\n";
-			std::cout << "Btw\r\nCHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
-			std::cout << ",\r\nPYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
-			std::cout << ",\r\nENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
-			//getch();
-			system_pause();
-		}
-		if(loc_seq > 0 && loc_seq % questions_block.size() == 0)
-		{
-			std::fstream statusfile;
-			statusfile.open(statusfilename, std::fstream::out | std::fstream::app);
-			for(auto iter = questions_block.begin(); iter != questions_block.end(); ++iter)
-			{
-				q_type which_q = iter->second->first;
-
-				DATATYPE provided = std::get<1>(which_q);
-				DATATYPE asked = std::get<2>(which_q);
-
-				datapoint const* current = &loaded_data[std::get<0>(which_q)];
-
-				statusfile << current->get(DATATYPE_CHINESE);
-				statusfile << "|";
-				statusfile << current->get(DATATYPE_PINYIN);
-				statusfile << "|";
-				statusfile << current->get(DATATYPE_ENGLISH);
-				statusfile << "|" << ((int)provided);
-				statusfile << "|" << ((int)asked);
-				statusfile << "|" << sequence_number << "|";
-				statusfile << "success";
-				double d = iter->second->second.second;
-				iter->second->second.second += -1.0 / (1.0 + std::pow(10.0, -d / 400.0));
-				statusfile << "\n";
-			}
-			statusfile.close();
-			std::shuffle(equal_chances.begin(), equal_chances.end(), gen);
-		}
-	}
-	return true;
 }
 
 bool chinese::questions::ask_all_until_fail_block10(
@@ -1298,7 +1043,7 @@ void chinese::questions::character_statistics_screen(
 		//clear();
 		//refresh();
 	}
-	std::cin.get();
+	system_pause();
 }
 
 std::map<chinese::questions::q_type_char, std::pair<size_t, double>> chinese::questions::load_status_file_char(
@@ -1815,7 +1560,7 @@ void chinese::questions::character_statistics_screen_easy(
 		//clear();
 		//refresh();
 	}
-	std::cin.get();
+	system_pause();
 }
 
 void chinese::questions::init() const
