@@ -1,9 +1,13 @@
 package com.geleji.chinesememo;
 
+import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 
 import org.libsdl.app.SDLActivity;
 
@@ -52,6 +56,74 @@ public class MainActivity extends SDLActivity
 		super.onDestroy();
 		// the game writes its status file after every block; SDL_QUIT / back
 		// already ends the process, nothing else to clean up here
+	}
+
+	// -----------------------------------------------------------------------
+	// the soft keyboard must never disappear
+	//
+	// The game is played by tapping, and MIUI's keyboard hides itself as soon as
+	// a touch lands outside its own input view (which for SDL is a hidden 1x1
+	// EditText). That costs a second or two after every question, and the
+	// keyboard then jumps over the screen again when it comes back. So the
+	// keyboard is kept shown for as long as the activity is in the foreground:
+	// the manifest asks for stateAlwaysVisible, and this re-asserts it on focus
+	// changes and once in a while on top of that. The native side lays out its
+	// buttons and text above the keyboard band, so it never covers anything.
+	// -----------------------------------------------------------------------
+
+	private static final long IME_KEEPALIVE_MS = 1500;
+
+	private final Handler ime_handler = new Handler(Looper.getMainLooper());
+
+	private final Runnable ime_keepalive = new Runnable()
+	{
+		@Override
+		public void run()
+		{
+			show_keyboard();
+			ime_handler.postDelayed(this, IME_KEEPALIVE_MS);
+		}
+	};
+
+	@Override
+	protected void onResume()
+	{
+		super.onResume();
+		ime_handler.removeCallbacks(ime_keepalive);
+		ime_handler.postDelayed(ime_keepalive, 400);
+	}
+
+	@Override
+	protected void onPause()
+	{
+		ime_handler.removeCallbacks(ime_keepalive);
+		super.onPause();
+	}
+
+	@Override
+	public void onWindowFocusChanged(boolean hasFocus)
+	{
+		super.onWindowFocusChanged(hasFocus);
+		if(hasFocus) show_keyboard();
+	}
+
+	private void show_keyboard()
+	{
+		// exactly the path SDL itself uses: put the hidden DummyEdit back in
+		// focus and ask the IME to show itself for it
+		try { showTextInput(0, 0, 0, 0); }
+		catch(Exception e) { /* the activity/surface is not up yet, try later */ }
+
+		try
+		{
+			if(mTextEdit != null)
+			{
+				InputMethodManager imm =
+					(InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+				if(imm != null) imm.showSoftInput(mTextEdit, 0);
+			}
+		}
+		catch(Exception e) { /* ignore */ }
 	}
 
 	// -----------------------------------------------------------------------

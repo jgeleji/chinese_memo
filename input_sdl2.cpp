@@ -588,10 +588,10 @@ static void blit_runs(const std::vector<Run>& runs, int x, int y_top, float base
 		int x0 = x_cur, x1 = (int)(x_cur + w);
 		if(r.bg != DEF_BG)
 		{
-			for(int yy = (int)y_top; yy < (int)y_top + band_h; ++yy)
-				for(int xx = x0; xx < x1; ++xx)
-					if(xx >= 0 && xx < g_w && yy >= 0 && yy < g_h)
-						g_pixels[(size_t)yy * g_w + xx] = r.bg;
+			int cx0 = std::max(0, x0), cx1 = std::min(g_w, x1);
+			int cy0 = std::max(0, (int)y_top), cy1 = std::min(g_h, (int)y_top + band_h);
+			for(int yy = cy0; yy < cy1; ++yy)
+				std::fill_n(g_pixels + (size_t)yy * g_w + cx0, cx1 - cx0, r.bg);
 			mark_dirty(x0, (int)y_top, x1, (int)y_top + band_h);
 		}
 		const unsigned char* p = (const unsigned char*)r.text.data();
@@ -659,10 +659,12 @@ static void blit_text_centered(const std::string& text, Uint32 fg, int cx, int c
 
 static void fill_rect(SDL_Rect rc, Uint32 color)
 {
-	for(int yy = rc.y; yy < rc.y + rc.h; ++yy)
-		for(int xx = rc.x; xx < rc.x + rc.w; ++xx)
-			if(xx >= 0 && xx < g_w && yy >= 0 && yy < g_h)
-				g_pixels[(size_t)yy * g_w + xx] = color;
+	// clamped once instead of per pixel: this is the whole-screen erase of every
+	// frame (3.3 M pixels), so the per-pixel bounds test was measurable
+	int x0 = std::max(0, rc.x), y0 = std::max(0, rc.y);
+	int x1 = std::min(g_w, rc.x + rc.w), y1 = std::min(g_h, rc.y + rc.h);
+	for(int yy = y0; yy < y1; ++yy)
+		std::fill_n(g_pixels + (size_t)yy * g_w + x0, x1 - x0, color);
 	mark_dirty(rc.x, rc.y, rc.x + rc.w, rc.y + rc.h);
 }
 
@@ -674,6 +676,8 @@ struct ButtonLayout
 {
 	int cols, rows, cell_w, cell_h, gap, x0, y0;
 };
+
+static int ime_band(void);   // defined with the key bar layout below
 
 static size_t button_cell_count()
 {
@@ -690,11 +694,13 @@ static ButtonLayout compute_button_layout()
 	L.cols = n <= 2 ? 1 : (n <= 8 ? 2 : (n <= 16 ? 3 : 4));
 	L.rows = (int)((n + L.cols - 1) / L.cols);
 	L.cell_w = (g_w - (L.cols + 1) * L.gap) / L.cols;
-	int max_btn_area = (int)(g_h * 0.78);
+	int band = ime_band();
+	int max_btn_area = (int)(g_h * 0.78) - band;
+	if(max_btn_area < g_h / 4) max_btn_area = g_h / 4;
 	int max_cell_h = std::max(60, g_h / 7);        // big targets, but leave room for the question
 	L.cell_h = std::min(max_cell_h, std::max(42, (max_btn_area - (L.rows + 1) * L.gap) / L.rows));
 	L.x0 = L.gap;
-	L.y0 = g_h - (L.gap + L.rows * (L.cell_h + L.gap));
+	L.y0 = g_h - band - (L.gap + L.rows * (L.cell_h + L.gap));
 	return L;
 }
 
@@ -757,14 +763,24 @@ static void init_bar_keys()
 // appears (the activity window uses softInputMode=pan), so anything drawn in the
 // bottom ~40% of the screen ends up underneath the keyboard. Measure where the
 // keys actually are on the target phone (iFlytek/MIUI, 1280x2620 surface, keys
-// start at surface y=1561 => 40.4%) and keep the key bar above that band.
+// start at surface y=1561 => 40.4%) and keep everything tappable above that band.
+// The keyboard is kept visible the whole time the app runs (see MainActivity),
+// so the band is always reserved and the layout never jumps.
 static int ime_band(void)
 {
 #ifdef __ANDROID__
-	if(!inputbar_active()) return 0;      // option buttons replace the bar, no keyboard
 	return (int)(g_h * 0.41);
 #else
-	return 0;
+	// the phone keeps the keyboard up all the time; CM_IME_BAND=<pixels> makes
+	// the PC build lay the screens out exactly like the phone so the result can
+	// be screenshotted without a phone
+	static int cached = -1;
+	if(cached < 0)
+	{
+		const char* e = getenv("CM_IME_BAND");
+		cached = e ? atoi(e) : 0;
+	}
+	return cached;
 #endif
 }
 
@@ -1073,20 +1089,25 @@ static void present(void)
 	}
 	g_prev_damage = g_damage;
 
+	Uint32 t_render = SDL_GetTicks();   // the cost of a frame without the test dump
+
 	dump_frame();
 
-	// frame cost, for logcat on the phone
+	// frame cost, for logcat on the phone (the dump is deliberately not counted:
+	// it is only a test hook, but leaving it switched on is what makes the phone
+	// unusable, so it is logged too)
 	{
 		static Uint32 acc = 0, worst = 0, last_log = 0;
 		static int cnt = 0;
-		Uint32 dt = SDL_GetTicks() - t_start;
+		Uint32 dt = t_render - t_start;
 		acc += dt; ++cnt;
 		if(dt > worst) worst = dt;
 		Uint32 now = SDL_GetTicks();
 		if(cnt >= 30 || (now - last_log) > 3000)
 		{
-			SDL_Log("chinese_memo: %d frames, avg %ums, worst %ums, last damage %dx%d",
-				cnt, cnt ? (unsigned)(acc / cnt) : 0u, worst, g_damage.w, g_damage.h);
+			SDL_Log("chinese_memo: %d frames, render avg %ums, worst %ums, last damage %dx%d%s",
+				cnt, cnt ? (unsigned)(acc / cnt) : 0u, worst, g_damage.w, g_damage.h,
+				dump_dir() ? " (FRAME DUMP ON - this is slow on purpose)" : "");
 			acc = 0; worst = 0; cnt = 0; last_log = now;
 		}
 	}
@@ -1267,7 +1288,11 @@ std::string chinese::Input::do_input_inner_raw(
 ) const
 {
 	g_active_state = (int)state_number;
-	toggle_ime(state_number != INPUT_STATE_CHOOSE_NUMBER);
+	// the keyboard stays up for the whole session (also on the choose-number
+	// screens), because MIUI hides it whenever a touch lands outside its input
+	// view and it is much more jarring to have it pop back up than to have it
+	// sit there unused; the bottom band of the screen is kept clear for it
+	toggle_ime(true);
 	present();
 
 	if(g_keysfile) poll_keys_file();
