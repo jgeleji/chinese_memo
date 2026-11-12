@@ -904,11 +904,38 @@ static void init_bar_keys()
 // bottom ~40% of the screen ends up underneath the keyboard. Measure where the
 // keys actually are on the target phone (iFlytek/MIUI, 1280x2620 surface, keys
 // start at surface y=1561 => 40.4%) and keep everything tappable above that band.
-// The keyboard is kept visible the whole time the app runs (see MainActivity),
-// so the band is always reserved and the layout never jumps.
+// The keyboard is kept visible the whole time the app runs (see MainActivity).
+//
+// The band is not a constant: MainActivity measures the real height of the
+// keyboard that is currently displayed and writes it to the file cm_ime_height
+// (in the working directory, i.e. the app's files/ folder). Keyboards differ a
+// lot - MIUI switches to its "Mi Secure Keyboard" for password-style input
+// fields, which is considerably taller than the normal one - so the layout
+// reserves exactly what the keyboard currently occupies. If no measurement is
+// available (first frames before the keyboard has been shown), fall back to
+// the old constant 41%.
 static int ime_band(void)
 {
 #ifdef __ANDROID__
+	static int measured = -1;
+	FILE* f = fopen("cm_ime_height", "rb");
+	if(f)
+	{
+		char buf[32];
+		size_t n = fread(buf, 1, sizeof(buf) - 1, f);
+		fclose(f);
+		buf[n] = 0;
+		int v = atoi(buf);
+		// only plausible keyboard heights: the Java side writes 0 while the
+		// keyboard has not come up yet (launch transition), and the navigation
+		// bar alone can show up in the measurement; ignore those so the first
+		// frames use the old 41% fallback instead of a band of 0.
+		// A small margin is added on top: MIUI swaps between the normal and
+		// the secure keyboard, and while it swaps the measured height
+		// momentarily differs; the margin keeps the bottom row clear.
+		if(v >= 100 && v < g_h) measured = v + g_h / 40;
+	}
+	if(measured >= 0) return measured;
 	return (int)(g_h * 0.41);
 #else
 	// the phone keeps the keyboard up all the time; CM_IME_BAND=<pixels> makes

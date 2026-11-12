@@ -2,10 +2,12 @@ package com.geleji.chinesememo;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
+import android.view.ViewTreeObserver;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
@@ -59,6 +61,67 @@ public class MainActivity extends SDLActivity
 	}
 
 	// -----------------------------------------------------------------------
+	// measuring how tall the keyboard currently is
+	//
+	// MIUI answers the password-style input field (which keeps it from typing
+	// Chinese characters) with its "Mi Secure Keyboard", and that keyboard is
+	// considerably taller than the ordinary one; its exact height also changes
+	// with the display size and the keyboard's toolbar. So instead of trusting
+	// a fixed fraction of the screen, the real keyboard height is measured here
+	// (root view height minus the visible display frame) and written to the
+	// file cm_ime_height; the native layout reads that file every frame and
+	// keeps all buttons and text above the keyboard.
+	// -----------------------------------------------------------------------
+
+	private ViewTreeObserver.OnGlobalLayoutListener ime_height_listener;
+	private int last_reported_ime_height = -1;
+
+	private void start_ime_height_watcher()
+	{
+		if(ime_height_listener != null) return;
+		ime_height_listener = new ViewTreeObserver.OnGlobalLayoutListener()
+		{
+			@Override
+			public void onGlobalLayout()
+			{
+				try
+				{
+					Rect r = new Rect();
+					getWindow().getDecorView().getWindowVisibleDisplayFrame(r);
+					int total = getWindow().getDecorView().getRootView().getHeight();
+					int ime = total - r.bottom;
+					// ignore the status/navigation-bar-only case and small
+					// jitter; rewrite the file only when it changed for real
+					if(ime < 100) ime = 0;
+					if(Math.abs(ime - last_reported_ime_height) < 8) return;
+					last_reported_ime_height = ime;
+					File f = new File(getFilesDir(), "cm_ime_height");
+					try(OutputStream out = new FileOutputStream(f))
+					{
+						out.write((Integer.toString(ime) + "\n").getBytes());
+					}
+					Log.i(TAG, "keyboard height: " + ime + "px");
+				}
+				catch(Exception e) { /* not laid out yet */ }
+			}
+		};
+		getWindow().getDecorView().getViewTreeObserver()
+			.addOnGlobalLayoutListener(ime_height_listener);
+	}
+
+	private void stop_ime_height_watcher()
+	{
+		if(ime_height_listener == null) return;
+		try
+		{
+			getWindow().getDecorView().getViewTreeObserver()
+				.removeOnGlobalLayoutListener(ime_height_listener);
+		}
+		catch(Exception e) { /* the observer may already be dead */ }
+		ime_height_listener = null;
+	}
+
+	// -----------------------------------------------------------------------
 	// the soft keyboard must never disappear
 	//
 	// The game is played by tapping, and MIUI's keyboard hides itself as soon as
@@ -89,6 +152,7 @@ public class MainActivity extends SDLActivity
 	protected void onResume()
 	{
 		super.onResume();
+		start_ime_height_watcher();
 		ime_handler.removeCallbacks(ime_keepalive);
 		ime_handler.postDelayed(ime_keepalive, 400);
 	}
@@ -96,6 +160,7 @@ public class MainActivity extends SDLActivity
 	@Override
 	protected void onPause()
 	{
+		stop_ime_height_watcher();
 		ime_handler.removeCallbacks(ime_keepalive);
 		super.onPause();
 	}
