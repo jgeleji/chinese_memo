@@ -81,6 +81,9 @@ struct Run
 	std::string text;
 	Uint32 fg;
 	Uint32 bg;
+	int px;                    // 0 = use the size of the subline it belongs to
+	                           // (the question text is drawn much bigger than the
+	                           // machine-readable counters in front of it)
 };
 
 struct SLine
@@ -406,12 +409,17 @@ struct GlyphCache
 	}
 };
 
-static std::unordered_map<int, GlyphCache> g_caches;   // keyed by pixel size (quantized)
+static std::unordered_map<int, GlyphCache> g_caches;   // keyed by pixel size
 
+// The atlas is built at exactly the requested size. Sizes used on a screen come
+// from the layout search (a handful of distinct values), and measure and draw
+// always use the same one, so a line that measures as fitting also draws as
+// fitting. (A coarser key would save a little memory but let text measured at
+// one size be drawn at another: lines then spill past the screen edge into the
+// button area and get painted over.)
 static GlyphCache* cache_for(int px)
 {
 	if(px < 10) px = 10;
-	px = (px / 4) * 4;                                  // quantize to limit atlas count
 	std::unordered_map<int, GlyphCache>::iterator it = g_caches.find(px);
 	if(it != g_caches.end()) return &it->second;
 	GlyphCache c;
@@ -437,7 +445,17 @@ static float font_descent(int px)
 
 static void font_line_height(int px, float& height)
 {
-	height = (font_ascent(px) - font_descent(px)) * 1.35f;
+	// (ascent - descent) of Noto Sans SC is about 1.45 em, i.e. nearly a blank
+	// row between every two lines. The screen is short and the text has to be
+	// big, so use a fixed 1.3 em: enough for the CJK glyph box plus a normal
+	// accent/descender without any overlap (see font_baseline()).
+	height = (float)px * 1.30f;
+}
+
+// baseline of a text line whose top edge is at y=0
+static float font_baseline(int px)
+{
+	return (float)px * 1.02f;
 }
 
 // ---------------------------------------------------------------------------
@@ -488,21 +506,36 @@ static double measure_range(GlyphCache* gc, const std::string& text, size_t begi
 	return total;
 }
 
-static double measure_run(GlyphCache* gc, const Run& r, int px)
+// the size a run is drawn at: its own, or the line's default
+static int run_px(const Run& r, int def_px)
 {
+	return r.px > 0 ? r.px : def_px;
+}
+
+static double measure_run(const Run& r, int def_px)
+{
+	int px = run_px(r, def_px);
+	GlyphCache* gc = cache_for(px);
+	if(!gc) return 0.0;
 	return measure_range(gc, r.text, 0, r.text.size(), px);
 }
 
-static double measure_line_runs(GlyphCache* gc, const std::vector<Run>& runs, int px)
+static double measure_line_runs(const std::vector<Run>& runs, int def_px)
 {
 	double total = 0.0;
-	for(size_t i = 0; i < runs.size(); ++i) total += measure_run(gc, runs[i], px);
+	for(size_t i = 0; i < runs.size(); ++i) total += measure_run(runs[i], def_px);
 	return total;
 }
 
 // wrap a logical line into sublines that fit avail_w; split at spaces where
-// possible, mid-character for overlong runs. styles are preserved.
-static std::vector<SLine> wrap_line(GlyphCache* gc, const SLine& line, int px, double avail_w)
+// possible, mid-character for overlong runs. styles and sizes are preserved.
+static bool cm_dbg(void)
+{
+	static int v = getenv("CM_DBG") ? 1 : 0;
+	return v != 0;
+}
+
+static std::vector<SLine> wrap_line(const SLine& line, int def_px, double avail_w)
 {
 	std::vector<SLine> out;
 	SLine cur;
@@ -512,6 +545,8 @@ static std::vector<SLine> wrap_line(GlyphCache* gc, const SLine& line, int px, d
 	for(size_t ri = 0; ri < runs.size(); ++ri)
 	{
 		Run r = runs[ri];
+		int rpx = run_px(r, def_px);
+		GlyphCache* gc = cache_for(rpx);
 		size_t pos = 0;
 		while(pos < r.text.size())
 		{
@@ -521,7 +556,11 @@ static std::vector<SLine> wrap_line(GlyphCache* gc, const SLine& line, int px, d
 			while(pos < r.text.size() && r.text[pos] == ' ') ++pos;
 			while(pos < r.text.size() && r.text[pos] != ' ') ++pos;
 			size_t word_end = pos;
-			double w = measure_range(gc, r.text, word_start, word_end, px);
+			double w = gc ? measure_range(gc, r.text, word_start, word_end, rpx) : 0.0;
+			if(cm_dbg())
+				fprintf(stderr, "[WRAP def=%d px=%d avail=%.0f] tok='%.*s' w=%.0f cur_w=%.0f\n",
+				        def_px, rpx, avail_w, (int)(word_end - word_start),
+				        r.text.data() + word_start, w, cur_w);
 			if(cur_w > 0.0 && cur_w + w > avail_w)
 			{
 				if(!cur.runs.empty())
@@ -539,10 +578,18 @@ static std::vector<SLine> wrap_line(GlyphCache* gc, const SLine& line, int px, d
 				out.push_back(cur);
 				cur.runs.clear();
 				cur_w = 0.0;
-				if(started_with_space) continue;   // drop the space that broke the line
+				if(started_with_space)
+				{
+					// Drop the spaces that broke the line, but the word behind
+					// them still belongs on the new line (dropping the whole
+					// token silently ate everything that ever wrapped here).
+					while(word_start < word_end && r.text[word_start] == ' ') ++word_start;
+					if(word_start == word_end) continue;
+					w = gc ? measure_range(gc, r.text, word_start, word_end, rpx) : 0.0;
+				}
 			}
 			if(word_end > word_start)
-				cur.runs.push_back(Run{r.text.substr(word_start, word_end - word_start), r.fg, r.bg});
+				cur.runs.push_back(Run{r.text.substr(word_start, word_end - word_start), r.fg, r.bg, r.px});
 			cur_w += w;
 		}
 	}
@@ -569,31 +616,122 @@ static bool is_option_line(const SLine& line)
 }
 
 // ---------------------------------------------------------------------------
+// the question line
+//
+// What the core logic prints for a question is, for example
+//
+//  0 434/11460 44596 0 0.990000 zero 104 chinese is 只, what is english? exclude: only, m.w.animal
+//
+// i.e. a wall of bookkeeping (which run this was, how often the word has been
+// asked, its score, ...) in front of the one sentence that matters. On a phone
+// that mixture is unreadable: small enough for the numbers means tiny for the
+// question. So the question is cut out of the line and drawn much bigger; the
+// counters keep the old small size and stay on their own line.
+//
+// The sentence always starts with the data type that is being offered
+// ("chinese is ...", "pinyin is ...", "english is ..."), which the core logic
+// even prints in its own colour.
+// ---------------------------------------------------------------------------
+
+static int question_marker_at(const std::string& s)
+{
+	static const char* words[] = { "chinese", "pinyin", "english" };
+	int best = -1;
+	for(size_t w = 0; w < sizeof(words) / sizeof(words[0]); ++w)
+	{
+		size_t len = strlen(words[w]);
+		size_t pos = 0;
+		while((pos = s.find(words[w], pos)) != std::string::npos)
+		{
+			bool starts_word = (pos == 0) || !(isalnum((unsigned char)s[pos - 1]) || s[pos - 1] == '-');
+			size_t k = pos + len;
+			while(k < s.size() && s[k] == ' ') ++k;
+			bool then_is = (k + 3 <= s.size() && s.compare(k, 3, "is ", 3) == 0);
+			if(starts_word && then_is && (best < 0 || (int)pos < best)) best = (int)pos;
+			pos += len;
+		}
+	}
+	return best;
+}
+
+// Splits one printed line into [bookkeeping][question]; false when the line is
+// not a question. Run styles are kept, the run the cut falls inside is split.
+static bool split_question_line(const SLine& line, SLine& counters, SLine& question)
+{
+	std::string joined;
+	std::vector<size_t> ends;
+	for(size_t i = 0; i < line.runs.size(); ++i)
+	{
+		joined += line.runs[i].text;
+		ends.push_back(joined.size());
+	}
+	int off = question_marker_at(joined);
+	if(cm_dbg())
+		fprintf(stderr, "[SPLIT runs=%zu off=%d joined='%s']\n",
+		        line.runs.size(), off, joined.c_str());
+	if(off <= 0) return false;
+
+	size_t prev = 0;
+	for(size_t i = 0; i < line.runs.size(); ++i)
+	{
+		const Run& r = line.runs[i];
+		size_t end = ends[i];
+		if(end <= (size_t)off) counters.runs.push_back(r);
+		else if(prev >= (size_t)off) question.runs.push_back(r);
+		else
+		{
+			counters.runs.push_back(Run{r.text.substr(0, (size_t)off - prev), r.fg, r.bg, r.px});
+			question.runs.push_back(Run{r.text.substr((size_t)off - prev), r.fg, r.bg, r.px});
+		}
+		prev = end;
+	}
+	// the counters are only a label row, drop the spaces that led into the
+	// question so they do not wrap onto a second small line
+	while(!counters.runs.empty())
+	{
+		Run& last = counters.runs.back();
+		size_t t = last.text.find_last_not_of(' ');
+		if(t == std::string::npos) { counters.runs.pop_back(); continue; }
+		last.text.resize(t + 1);
+		break;
+	}
+	return !counters.runs.empty() && !question.runs.empty();
+}
+
+// ---------------------------------------------------------------------------
 // pixel blitting
 // ---------------------------------------------------------------------------
 
-static void blit_runs(const std::vector<Run>& runs, int x, int y_top, float baseline, int px)
+// Draws runs left to right on a shared baseline; each run may be a different
+// size (that is what keeps the counters small and the question itself big).
+static void blit_runs(const std::vector<Run>& runs, int x, int y_top, float baseline, int def_px)
 {
-	GlyphCache* gc = cache_for(px);
-	if(!gc) return;
-	float asc = font_ascent(px);
-	float dsc = font_descent(px);
-	int band_h = (int)(asc - dsc) + 2;
-
 	int x_cur = x;
 	for(size_t i = 0; i < runs.size(); ++i)
 	{
 		const Run& r = runs[i];
-		double w = measure_run(gc, r, px);
+		int px = run_px(r, def_px);
+		GlyphCache* gc = cache_for(px);
+		if(!gc) continue;
+		float asc = font_ascent(px);
+		float dsc = font_descent(px);
+		// the row background (the grey/blue "1 raw input" rows) covers exactly
+		// the line box, so rows with a colour never paint over the descenders
+		// of the row above them (the line height is font_baseline() + 0.28*px)
+		int band_top = (int)(baseline - std::min(asc, (float)px * 1.02f));
+		int band_h = (int)std::min(asc - dsc + 3.0f, (float)px * 1.30f);
+
+		double w = measure_range(gc, r.text, 0, r.text.size(), px);
 		int x0 = x_cur, x1 = (int)(x_cur + w);
 		if(r.bg != DEF_BG)
 		{
 			int cx0 = std::max(0, x0), cx1 = std::min(g_w, x1);
-			int cy0 = std::max(0, (int)y_top), cy1 = std::min(g_h, (int)y_top + band_h);
+			int cy0 = std::max(0, band_top), cy1 = std::min(g_h, band_top + band_h);
 			for(int yy = cy0; yy < cy1; ++yy)
 				std::fill_n(g_pixels + (size_t)yy * g_w + cx0, cx1 - cx0, r.bg);
-			mark_dirty(x0, (int)y_top, x1, (int)y_top + band_h);
+			mark_dirty(x0, band_top, x1, band_top + band_h);
 		}
+		(void)y_top;
 		const unsigned char* p = (const unsigned char*)r.text.data();
 		const unsigned char* e = (const unsigned char*)r.text.data() + r.text.size();
 		double fx = (double)x_cur;
@@ -648,13 +786,13 @@ static void blit_text_centered(const std::string& text, Uint32 fg, int cx, int c
 {
 	GlyphCache* gc = cache_for(px);
 	if(!gc) return;
-	Run r; r.text = text; r.fg = fg; r.bg = DEF_BG;
-	double w = measure_run(gc, r, px);
+	Run r; r.text = text; r.fg = fg; r.bg = DEF_BG; r.px = px;
+	double w = measure_range(gc, r.text, 0, r.text.size(), px);
 	float h;
 	font_line_height(px, h);
 	std::vector<Run> runs;
 	runs.push_back(r);
-	blit_runs(runs, (int)(cx - w / 2.0), (int)(cy - h / 2.0), (cy - h / 2.0) + (double)font_ascent(px), px);
+	blit_runs(runs, (int)(cx - w / 2.0), (int)(cy - h / 2.0), (cy - h / 2.0) + (double)font_baseline(px), px);
 }
 
 static void fill_rect(SDL_Rect rc, Uint32 color)
@@ -695,9 +833,11 @@ static ButtonLayout compute_button_layout()
 	L.rows = (int)((n + L.cols - 1) / L.cols);
 	L.cell_w = (g_w - (L.cols + 1) * L.gap) / L.cols;
 	int band = ime_band();
-	int max_btn_area = (int)(g_h * 0.78) - band;
-	if(max_btn_area < g_h / 4) max_btn_area = g_h / 4;
-	int max_cell_h = std::max(60, g_h / 7);        // big targets, but leave room for the question
+	// The grid may use at most about half of the space above the keyboard: the
+	// question drawn above it is big now and must not be squeezed away.
+	int max_btn_area = (int)((g_h - band) * 0.46);
+	if(max_btn_area < g_h / 5) max_btn_area = g_h / 5;
+	int max_cell_h = std::max(60, g_h / 9);        // big targets, but leave room for the question
 	L.cell_h = std::min(max_cell_h, std::max(42, (max_btn_area - (L.rows + 1) * L.gap) / L.rows));
 	L.x0 = L.gap;
 	L.y0 = g_h - band - (L.gap + L.rows * (L.cell_h + L.gap));
@@ -791,11 +931,11 @@ static BarLayout compute_bar_layout()
 	B.gap = std::max(8, g_w / 50);
 	int n = (int)g_bar_keys.size();
 	B.cell_w = (g_w - (n + 1) * B.gap) / n;
-	B.cell_h = std::max(72, g_h / 9);
-	B.x0 = B.gap;
 	int band = ime_band();
+	B.cell_h = std::max(72, std::min(g_h / 9, (g_h - band) / 6));
+	B.x0 = B.gap;
 	B.y0 = g_h - band - B.gap - B.cell_h;
-	if(B.y0 < g_h / 2) B.y0 = g_h / 2;    // never push the bar into the text area
+	if(B.y0 < g_h / 4) B.y0 = g_h / 4;    // never push the bar into the text area
 	return B;
 }
 
@@ -837,12 +977,13 @@ static void draw_bar()
 		SDL_Rect inner = {rc.x + 3, rc.y + 3, rc.w - 6, rc.h - 6};
 		fill_rect(inner, face);
 		std::string label = bar_label(i);
-		int px = std::min(96, std::max(20, rc.h / 3));
-		GlyphCache* gc = cache_for(px);
-		if(gc)
+		int px = std::min(96, std::max(20, rc.h / 3)) & ~3;
+		Run r; r.text = label; r.fg = fg; r.bg = face;
+		while(px > 20)
 		{
-			Run r; r.text = label; r.fg = fg; r.bg = face;
-			while(px > 20 && measure_run(gc, r, px) > rc.w - 16) px = (int)(px * 0.85);
+			r.px = px;
+			if(measure_run(r, px) <= rc.w - 16) break;
+			px = (int)(px * 0.85) & ~3;
 		}
 		blit_text_centered(label, fg, rc.x + rc.w / 2, rc.y + rc.h / 2, px);
 	}
@@ -866,19 +1007,24 @@ static void draw_buttons()
 		badge.text = endcell ? std::string("") : std::to_string(i + 1) + ".";
 		badge.fg = rgb(255, 215, 0);
 		badge.bg = face;
+		badge.px = 0;
 		std::vector<Run> br;
 		if(!endcell) br.push_back(badge);
-		int badge_px = std::min(64, std::max(16, rc.h / 5));
+		int badge_px = std::min(80, std::max(16, rc.h / 4));
 		float bl = (float)rc.y + 6 + font_ascent(badge_px);
 		if(!br.empty()) blit_runs(br, rc.x + 10, rc.y + 6, bl, badge_px);
-		// option text, centered, shrunk to fit
+		// option text, centered, shrunk to fit. Sizes are kept on multiples of
+		// 4: every size in use gets its own glyph atlas, and a probe chain that
+		// hit a new size for every word length would slowly eat the phone's
+		// memory over a study session.
 		std::string label = endcell ? std::string("END") : opts[i];
-		int px = std::min(150, std::max(20, (int)(rc.h * 0.66)));
-		GlyphCache* gc = cache_for(px);
-		if(gc)
+		int px = std::min(190, std::max(20, (int)(rc.h * 0.74))) & ~3;
+		Run r; r.text = label; r.fg = endcell ? rgb(255, 230, 120) : DEF_FG; r.bg = face;
+		while(px > 20)
 		{
-			Run r; r.text = label; r.fg = endcell ? rgb(255, 230, 120) : DEF_FG; r.bg = face;
-			while(px > 20 && measure_run(gc, r, px) > rc.w - 24) px = (int)(px * 0.85);
+			r.px = px;
+			if(measure_run(r, px) <= rc.w - 24) break;
+			px = (int)(px * 0.85) & ~3;
 		}
 		blit_text_centered(label, endcell ? rgb(255, 230, 120) : DEF_FG, rc.x + rc.w / 2, rc.y + rc.h / 2 + rc.h / 12, px);
 	}
@@ -891,8 +1037,89 @@ static void draw_buttons()
 struct Subline
 {
 	std::vector<Run> runs;
-	int px;
+	int def_px;                  // size of the runs that carry no size of their own
+	int px;                      // the biggest size on this line: drives its height
 };
+
+static int subline_px(const Subline& s)
+{
+	int m = s.def_px;
+	for(size_t i = 0; i < s.runs.size(); ++i)
+		if(run_px(s.runs[i], s.def_px) > m) m = run_px(s.runs[i], s.def_px);
+	return m;
+}
+
+static void scale_subline(Subline& s, double factor, int floor_px)
+{
+	s.def_px = std::max(floor_px, (int)(s.def_px * factor));
+	for(size_t i = 0; i < s.runs.size(); ++i)
+		if(s.runs[i].px > 0) s.runs[i].px = std::max(floor_px, (int)(s.runs[i].px * factor));
+	s.px = subline_px(s);
+}
+
+static void push_sublines(std::vector<Subline>& subs, const std::vector<SLine>& parts, int def_px)
+{
+	for(size_t k = 0; k < parts.size(); ++k)
+	{
+		Subline s;
+		s.runs = parts[k].runs;
+		s.def_px = def_px;
+		s.px = subline_px(s);
+		subs.push_back(s);
+	}
+}
+
+static double sublines_height(const std::vector<Subline>& subs)
+{
+	double total = 0.0;
+	for(size_t i = 0; i < subs.size(); ++i)
+	{
+		float lh;
+		font_line_height(subs[i].px, lh);
+		total += lh;
+	}
+	return total;
+}
+
+// The last question the program printed. The numbered-choice screen (and the
+// "wrong answer" screen) do not repeat it - in the console you have seen it a
+// second ago and can scroll back, but on the phone the buttons replace the text,
+// so the question is kept here and drawn again over the buttons.
+static SLine g_q_counters;
+static SLine g_q_question;
+static bool  g_q_valid = false;
+
+static void build_sublines(std::vector<Subline>& subs, bool skip_option_lines,
+                           int small_px, int base_px, int big_px, double avail_w)
+{
+	subs.clear();
+	bool seen_question = false;
+	for(size_t i = 0; i < g_lines.size(); ++i)
+	{
+		if(skip_option_lines && is_option_line(g_lines[i])) continue;
+		SLine counters, question;
+		if(split_question_line(g_lines[i], counters, question))
+		{
+			// counters and question are wrapped (and so drawn) separately: on
+			// one line the counters would eat the first row of the big question
+			g_q_counters = counters;
+			g_q_question = question;
+			g_q_valid = true;
+			seen_question = true;
+			push_sublines(subs, wrap_line(counters, small_px, avail_w), small_px);
+			push_sublines(subs, wrap_line(question, big_px, avail_w), big_px);
+			continue;
+		}
+		push_sublines(subs, wrap_line(g_lines[i], base_px, avail_w), base_px);
+	}
+	if(!seen_question && g_q_valid)
+	{
+		std::vector<Subline> head;
+		push_sublines(head, wrap_line(g_q_counters, small_px, avail_w), small_px);
+		push_sublines(head, wrap_line(g_q_question, big_px, avail_w), big_px);
+		subs.insert(subs.begin(), head.begin(), head.end());
+	}
+}
 
 // Dump destination + frame cap. On the PC these come from the environment; an
 // Android app has no way to set environment variables, so the same hooks are
@@ -935,7 +1162,9 @@ static int frame_cap(void)
 	return atoi(buf);
 }
 
-static void dump_frame(void)
+// The txt file is the text of the screen plus, when subs is given, one line per
+// drawn text line: "<def_px>/<px> <text>" - what size everything ended up at.
+static void dump_frame(const std::vector<Subline>* subs = NULL, size_t first = 0)
 {
 	const char* dir = dump_dir();
 	if(!dir || !dir[0]) return;
@@ -965,6 +1194,17 @@ static void dump_frame(void)
 			for(size_t j = 0; j < g_lines[i].runs.size(); ++j)
 				fprintf(f, "%s", g_lines[i].runs[j].text.c_str());
 			fprintf(f, "\n");
+		}
+		if(subs)
+		{
+			fprintf(f, "--- lines as drawn: <default size>/<line size>, '-' = off the top ---\n");
+			for(size_t i = 0; i < subs->size(); ++i)
+			{
+				const Subline& s = (*subs)[i];
+				std::string t;
+				for(size_t j = 0; j < s.runs.size(); ++j) t += s.runs[j].text;
+				fprintf(f, "%c %d/%d %s\n", (i < first ? '-' : ' '), s.def_px, s.px, t.c_str());
+			}
 		}
 		fclose(f);
 	}
@@ -1002,50 +1242,35 @@ static void present(void)
 		text_bottom = B.y0 - B.gap - 2 * margin;
 	}
 
-	// build sublines (skip the numbered option lines; those become buttons)
-	std::vector<Subline> subs;
-	{
-		GlyphCache* gc = cache_for(44);
-		int base_px = 44;
-		for(size_t i = 0; i < g_lines.size(); ++i)
-		{
-			if(buttons_active() && is_option_line(g_lines[i])) continue;
-			if(g_lines[i].runs.empty())
-			{
-				Subline s;
-				s.px = base_px;
-				subs.push_back(s);
-				continue;
-			}
-			std::vector<SLine> parts = wrap_line(gc, g_lines[i], base_px, g_w - 2 * margin);
-			for(size_t k = 0; k < parts.size(); ++k)
-			{
-				Subline s;
-				s.runs = parts[k].runs;
-				s.px = base_px;
-				subs.push_back(s);
-			}
-		}
-	}
-
-	// shrink everything until it fits the text region
+	// Sizes. The question sentence is the only thing here that has to be
+	// readable at arm's length, so it gets as big as the room allows; the
+	// statistics counters in front of it and the input label rows stay small.
+	const int small_px = std::max(30, std::min(46, g_w / 30));      // counters, label rows
+	const int base_px  = std::max(40, std::min(72, g_w / 22));      // ordinary lines
+	const int max_big  = std::max(60, std::min(180, g_w / 9));      // the question itself
+	double avail_w = g_w - 2 * margin;
 	int avail_h = text_bottom - text_top;
+
+	// start with the biggest question size and step down until everything fits
+	std::vector<Subline> subs;
+	int big_px = max_big;
 	for(;;)
 	{
-		double total = 0.0;
-		for(size_t i = 0; i < subs.size(); ++i)
-		{
-			float lh;
-			font_line_height(subs[i].px, lh);
-			total += lh;
-		}
-		if(total <= avail_h || subs.empty()) break;
+		build_sublines(subs, buttons_active(), small_px, base_px, big_px, avail_w);
+		if(sublines_height(subs) <= avail_h || big_px <= base_px) break;
+		big_px = std::max(base_px, (int)(big_px * 0.9));
+	}
+
+	// still too tall (the statistics screens and the answer feedback print a
+	// lot): shrink all lines, the ones that do not fit are dropped below anyway
+	while(sublines_height(subs) > avail_h)
+	{
 		bool shrunk = false;
 		for(size_t i = 0; i < subs.size(); ++i)
 		{
 			if(subs[i].px > 20)
 			{
-				subs[i].px = std::max(20, (int)(subs[i].px * 0.9));
+				scale_subline(subs[i], 0.9, 20);
 				shrunk = true;
 			}
 		}
@@ -1073,7 +1298,7 @@ static void present(void)
 	{
 		float lh;
 		font_line_height(subs[i].px, lh);
-		blit_runs(subs[i].runs, margin, (int)y, (float)y + font_ascent(subs[i].px), subs[i].px);
+		blit_runs(subs[i].runs, margin, (int)y, (float)y + font_baseline(subs[i].px), subs[i].def_px);
 		y += lh;
 	}
 
@@ -1091,7 +1316,7 @@ static void present(void)
 
 	Uint32 t_render = SDL_GetTicks();   // the cost of a frame without the test dump
 
-	dump_frame();
+	dump_frame(&subs, first);
 
 	// frame cost, for logcat on the phone (the dump is deliberately not counted:
 	// it is only a test hook, but leaving it switched on is what makes the phone
