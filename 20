@@ -1,0 +1,84 @@
+[1mdiff --git a/input_common.cpp b/input_common.cpp[m
+[1mindex add85e6..9cc5b49 100644[m
+[1m--- a/input_common.cpp[m
+[1m+++ b/input_common.cpp[m
+[36m@@ -192,6 +192,7 @@[m [mchinese::Input::Input()[m
+ 	}[m
+ 	chinese_to_preferred_pinyin["。"] = ".";[m
+ 	chinese_to_preferred_pinyin["？"] = "?";[m
+[32m+[m	[32mchinese_to_preferred_pinyin["谁"] = pinyin_convert_1syll("shei2");;[m
+ 	chinese_to_preferred_pinyin["家"] = pinyin_convert_1syll("jia1");[m
+ 	chinese_to_preferred_pinyin["吗"] = pinyin_convert_1syll("ma");[m
+ 	chinese_to_preferred_pinyin["漂"] = pinyin_convert_1syll("piao4");[m
+[1mdiff --git a/questions.cpp b/questions.cpp[m
+[1mindex 7c12375..13796bc 100644[m
+[1m--- a/questions.cpp[m
+[1m+++ b/questions.cpp[m
+[36m@@ -178,7 +178,7 @@[m [mstd::string chinese::questions::to_string(DATATYPE val)[m
+ 		case DATATYPE_CHINESE:[m
+ 			return "\033[38;5;226mchinese\033[0m";[m
+ 		case DATATYPE_PINYIN:[m
+[31m-			return "\033[38;5;236mpinyin\033[0m";[m
+[32m+[m			[32mreturn "\033[38;5;242mpinyin\033[0m";[m
+ 		case DATATYPE_ENGLISH:[m
+ 			return "\033[38;5;27menglish\033[0m";[m
+ 	}[m
+[36m@@ -415,7 +415,7 @@[m [mstd::map<chinese::questions::q_type, std::pair<size_t, double>> chinese::questio[m
+ [m
+ bool chinese::questions::ask_all_until_fail_block10(int breaks) const[m
+ {[m
+[31m-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());[m
+[32m+[m	[32mstd::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());[m
+ 	double score_improve_if_success = 1.04;[m
+ 	double score_deteriorate_if_fail = 5.19;[m
+ 	double max_complexity = 6.33;[m
+[36m@@ -619,7 +619,7 @@[m [mbool chinese::questions::ask_all_until_fail_block10(int breaks) const[m
+ [m
+ bool chinese::questions::ask_all_until_fail(int breaks) const[m
+ {[m
+[31m-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());[m
+[32m+[m	[32mstd::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());[m
+ 	double score_improve_if_success = 1.04;[m
+ 	double score_deteriorate_if_fail = 5.19;[m
+ 	double max_complexity = 6.33;[m
+[36m@@ -1106,7 +1106,7 @@[m [mbool chinese::questions::ask_all_chinese_chars([m
+ 	int breaks[m
+ ) const[m
+ {[m
+[31m-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());[m
+[32m+[m	[32mstd::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());[m
+ 	double score_improve_if_success = 1.04;[m
+ 	double score_deteriorate_if_fail = 5.19;[m
+ 	double max_complexity = 6.33;[m
+[36m@@ -1303,7 +1303,7 @@[m [mbool chinese::questions::ask_all_chinese_chars_easy([m
+ 	int breaks[m
+ ) const[m
+ {[m
+[31m-	std::mt19937 gen(std::chrono::steady_clock::now().time_since_epoch().count());[m
+[32m+[m	[32mstd::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());[m
+ 	double score_improve_if_success = 1.04;[m
+ 	double score_deteriorate_if_fail = 5.19;[m
+ 	double max_complexity = 6.33;[m
+[1mdiff --git a/status1.txt b/status1.txt[m
+[1mindex e49d5f2..4828ddd 100644[m
+[1m--- a/status1.txt[m
+[1m+++ b/status1.txt[m
+[36m@@ -20708,3 +20708,18 @@[m [m_和_一样_|_hé_yīyàng_|_and_are the same as_|0|1|14808|success[m
+ 疾病|jíbìng|illness|1|2|16185|success[m
+ 豆浆机|dòujiāngjī|soy milk machine|0|1|16185|success[m
+ 运动场|yùndòngchǎng|sports field|0|1|16185|success[m
+[32m+[m[32m上网|shàngwǎng|online surfing|2|0|16285|success[m
+[32m+[m[32m上身|shàngshēn|upper body|0|2|16285|success[m
+[32m+[m[32m停车位|tíngchēwèi|parking spot|1|2|16285|success[m
+[32m+[m[32m开|kāi|open|1|0|16285|success[m
+[32m+[m[32m拿|ná|take|0|2|16285|success[m
+[32m+[m[32m玩手机|wánshǒujī|play phone|2|1|16285|success[m
+[32m+[m[32m男|nán|male|1|0|16285|success[m
+[32m+[m[32m网|wǎng|internet|2|0|16285|success[m
+[32m+[m[32m网络|wǎngluò|network|0|1|16285|success[m
+[32m+[m[32m网络|wǎngluò|online game|0|2|16285|success[m
+[32m+[m[32m节日上|jiérìshàng|on holidays|0|1|16285|success[m
+[32m+[m[32m请找到|qǐngzhǎodào|please find|1|0|16285|success[m
+[32m+[m[32m谁得了第一名？|shéidéledìyīmíng?|who got first place? |0|2|16285|success[m
+[32m+[m[32m跟|gēn|and|0|2|16285|success[m
+[32m+[m[32m需要|xūyào|need|2|1|16285|success[m

@@ -9,6 +9,7 @@
 
 #include "questions.h"
 #include "tokenize.h"
+#include "utils.h"
 
 #define PRINT(X) std::cout << __FILE__ << ":" << __LINE__ << " " << (#X) << " = " << (X) << "\r\n"
 
@@ -401,7 +402,7 @@ bool chinese::questions::ask_all_until_fail_block10(
 	std::function<double(int)> f,
 	int breaks) const
 {
-	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
+	std::mt19937& gen = chinese_rng();   // seeded per run (CM_SEED pins it), see utils.h
 	double score_improve_if_success = 1.04;
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;
@@ -623,7 +624,7 @@ bool chinese::questions::ask_all_until_fail(
 	std::function<double(int)> f,
 	int breaks) const
 {
-	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
+	std::mt19937& gen = chinese_rng();   // seeded per run (CM_SEED pins it), see utils.h
 	double score_improve_if_success = 1.04;
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;
@@ -1119,7 +1120,7 @@ bool chinese::questions::ask_all_chinese_chars(
 	int breaks
 ) const
 {
-	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
+	std::mt19937& gen = chinese_rng();   // seeded per run (CM_SEED pins it), see utils.h
 	double score_improve_if_success = 1.04;
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;
@@ -1316,7 +1317,7 @@ bool chinese::questions::ask_all_chinese_chars_easy(
 	int breaks
 ) const
 {
-	std::mt19937 gen(1337);//std::chrono::steady_clock::now().time_since_epoch().count());
+	std::mt19937& gen = chinese_rng();   // seeded per run (CM_SEED pins it), see utils.h
 	double score_improve_if_success = 1.04;
 	double score_deteriorate_if_fail = 5.19;
 	double max_complexity = 6.33;

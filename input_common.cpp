@@ -575,7 +575,7 @@ std::string chinese::Input::do_input_1char_english(
 	do
 	{
 		inputted = this->do_input_inner_raw(debug_string, raw_input, state_number);
-		static std::mt19937 rnd;
+		std::mt19937& rnd = chinese_rng();
 		move_clear_refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
@@ -733,7 +733,7 @@ std::string chinese::Input::do_input_1char_chinese(
 		pinyin = this->do_input_inner(debug_string, raw_input, state_number);
 		ch_ch_vec = this->get_possibles(pinyin);
 		std::unordered_set<std::string> ch_ch(ch_ch_vec.begin(), ch_ch_vec.end());
-		static std::mt19937 rnd;
+		std::mt19937& rnd = chinese_rng();
 		if(show_others)
 		{
 			std::vector<std::string> tmp = ch_ch_vec;
@@ -858,7 +858,7 @@ std::string chinese::Input::do_input_1char_chinese_notone(
 		pinyin = this->do_input_inner(debug_string, raw_input, state_number);
 		ch_ch_vec = this->get_possibles_fromflat(pinyin);
 		std::unordered_set<std::string> ch_ch(ch_ch_vec.begin(), ch_ch_vec.end());
-		static std::mt19937 rnd;
+		std::mt19937& rnd = chinese_rng();
 		if(show_others)
 		{
 			std::vector<std::string> tmp = ch_ch_vec;

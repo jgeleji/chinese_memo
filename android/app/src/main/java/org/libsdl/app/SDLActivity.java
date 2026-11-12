@@ -1939,7 +1939,19 @@ class DummyEdit extends View implements View.OnKeyListener {
         ic = new SDLInputConnection(this, true);
 
         outAttrs.inputType = InputType.TYPE_CLASS_TEXT |
+                             InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD |
+                             InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS |
                              InputType.TYPE_TEXT_FLAG_MULTI_LINE;
+        // The game only accepts answers typed as latin letters, digits and
+        // tone marks: english answers, flat pinyin, and even the "type your
+        // own answer" slot of a chinese choice (which is pinyin, not
+        // characters - chinese itself is always answered by tapping a
+        // button). Without this, chinese IMEs (iFlytek etc.) keep their
+        // chinese mode for a plain text field and pop up chinese character
+        // candidates while pinyin/english is being typed. VISIBLE_PASSWORD +
+        // NO_SUGGESTIONS is the standard way to pin an IME to a plain latin
+        // layout; the view is invisible and SDL keeps its own copy of the
+        // text, so the 'password' variation is never seen.
         outAttrs.imeOptions = EditorInfo.IME_FLAG_NO_EXTRACT_UI |
                               EditorInfo.IME_FLAG_NO_FULLSCREEN /* API 11 */;
 
