@@ -4,29 +4,53 @@
 #include <cstdlib>
 #include <ctime>
 
+// is there a pinned seed for test/replay? (see utils.h)
+static bool read_pinned_seed(unsigned& out)
+{
+	const char* env = getenv("CM_SEED");
+	if(env && env[0])
+	{
+		out = (unsigned)strtoul(env, NULL, 10);
+		return true;
+	}
+	const char* names[] = { "cm_seed", "files/cm_seed" };
+	for(size_t i = 0; i < sizeof(names) / sizeof(names[0]); ++i)
+	{
+		FILE* f = fopen(names[i], "r");
+		if(!f) continue;
+		long v = -1;
+		if(fscanf(f, "%ld", &v) == 1 && v >= 0)
+		{
+			fclose(f);
+			out = (unsigned)v;
+			return true;
+		}
+		fclose(f);
+	}
+	return false;
+}
+
+unsigned cm_selection_seed(void)
+{
+	unsigned s;
+	if(read_pinned_seed(s)) return s;
+	// the value the console app has always used: question selection must be
+	// reproducible, so that the Android/SDL port and the Termux console draw
+	// the same questions in the same order (see utils.h)
+	return 1337;
+}
+
 std::mt19937& chinese_rng(void)
 {
 	static std::mt19937 gen = []()
 	{
 		// pinned seed? (only for test/replay; see utils.h)
-		const char* env = getenv("CM_SEED");
-		if(env && env[0])
-			return std::mt19937((unsigned)strtoul(env, NULL, 10));
-		const char* names[] = { "cm_seed", "files/cm_seed" };
-		for(size_t i = 0; i < sizeof(names) / sizeof(names[0]); ++i)
-		{
-			FILE* f = fopen(names[i], "r");
-			if(!f) continue;
-			long v = -1;
-			if(fscanf(f, "%ld", &v) == 1 && v >= 0)
-			{
-				fclose(f);
-				return std::mt19937((unsigned)v);
-			}
-			fclose(f);
-		}
+		unsigned s;
+		if(read_pinned_seed(s))
+			return std::mt19937(s);
 		// normal case: a fresh seed every run (random_device, plus time and
-		// ASLR in case a platform's random_device is not very random)
+		// ASLR in case a platform's random_device is not very random) - this
+		// engine only picks distractors/choices, which must NOT repeat
 		std::random_device rd;
 		unsigned seed = rd() ^ (unsigned)time(NULL) ^ (unsigned)(size_t)&gen;
 		return std::mt19937(seed);

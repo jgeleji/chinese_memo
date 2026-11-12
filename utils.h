@@ -14,6 +14,14 @@
 //   way to set environment variables)
 std::mt19937& chinese_rng(void);
 
+// Seed for the question-selection engine (score replay, which questions enter
+// the next block, their order). This one must stay reproducible: the plain
+// console app on the Termux phone seeds it with the constant 1337 at every
+// start, so the Android/SDL port must do the same for the two to hand out the
+// same questions in the same order from the same status file. A pinned seed
+// (CM_SEED / cm_seed file) overrides it for test and replay purposes.
+unsigned cm_selection_seed(void);
+
 extern const char* reset_color;
 extern const char* blue_background;
 extern const char* red_background;
