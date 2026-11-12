@@ -2,12 +2,16 @@ package com.geleji.chinesememo;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import android.graphics.Insets;
 import android.graphics.Rect;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
+import android.view.View;
 import android.view.ViewTreeObserver;
+import android.view.WindowInsets;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
@@ -66,59 +70,114 @@ public class MainActivity extends SDLActivity
 	// MIUI answers the password-style input field (which keeps it from typing
 	// Chinese characters) with its "Mi Secure Keyboard", and that keyboard is
 	// considerably taller than the ordinary one; its exact height also changes
-	// with the display size and the keyboard's toolbar. So instead of trusting
-	// a fixed fraction of the screen, the real keyboard height is measured here
-	// (root view height minus the visible display frame) and written to the
-	// file cm_ime_height; the native layout reads that file every frame and
-	// keeps all buttons and text above the keyboard.
+	// with the display size, the keyboard's toolbar and the candidate strip.
+	// So instead of trusting a fixed fraction of the screen, the real keyboard
+	// height is measured here and written to the file cm_ime_height; the native
+	// layout reads that file every frame and keeps all buttons and text above
+	// the keyboard.
+	//
+	// Two measurements are used: the IME window insets (exact, API 30+) and the
+	// old visible-display-frame estimate; the larger one wins, and within one
+	// run the value only ever grows: MIUI swaps between keyboards of different
+	// heights (normal, secure, with candidate strip) at moments the app cannot
+	// predict, and reserving the tallest one seen so far is what stops the
+	// keyboard from covering the bottom row of buttons - a covered button also
+	// swallows the tap, which is why taps "sometimes did not register".
 	// -----------------------------------------------------------------------
 
 	private ViewTreeObserver.OnGlobalLayoutListener ime_height_listener;
 	private int last_reported_ime_height = -1;
+	private int max_ime_height_seen = 0;
+
+	private void report_ime_height(int ime)
+	{
+		if(ime < 100) ime = 0;   // status/navigation bars only
+		if(ime > max_ime_height_seen) max_ime_height_seen = ime;
+		int value = max_ime_height_seen;
+		if(value == last_reported_ime_height) return;
+		if(last_reported_ime_height >= 0 && Math.abs(value - last_reported_ime_height) < 8) return;
+		last_reported_ime_height = value;
+		try
+		{
+			File f = new File(getFilesDir(), "cm_ime_height");
+			try(OutputStream out = new FileOutputStream(f))
+			{
+				out.write((Integer.toString(value) + "\n").getBytes());
+			}
+			Log.i(TAG, "keyboard height: " + value + "px");
+		}
+		catch(Exception e) { /* files dir should exist; nothing sensible to do */ }
+	}
+
+	private void report_ime_from_insets(View v)
+	{
+		try
+		{
+			if(Build.VERSION.SDK_INT < 30) return;
+			WindowInsets wi = v.getRootWindowInsets();
+			if(wi == null) return;
+			Insets ime = wi.getInsets(WindowInsets.Type.ime());
+			if(ime != null) report_ime_height(ime.bottom);
+		}
+		catch(Exception e) { /* not attached yet */ }
+	}
 
 	private void start_ime_height_watcher()
 	{
-		if(ime_height_listener != null) return;
-		ime_height_listener = new ViewTreeObserver.OnGlobalLayoutListener()
+		final View decor = getWindow().getDecorView();
+		if(ime_height_listener == null)
 		{
-			@Override
-			public void onGlobalLayout()
+			ime_height_listener = new ViewTreeObserver.OnGlobalLayoutListener()
 			{
-				try
+				@Override
+				public void onGlobalLayout()
 				{
-					Rect r = new Rect();
-					getWindow().getDecorView().getWindowVisibleDisplayFrame(r);
-					int total = getWindow().getDecorView().getRootView().getHeight();
-					int ime = total - r.bottom;
-					// ignore the status/navigation-bar-only case and small
-					// jitter; rewrite the file only when it changed for real
-					if(ime < 100) ime = 0;
-					if(Math.abs(ime - last_reported_ime_height) < 8) return;
-					last_reported_ime_height = ime;
-					File f = new File(getFilesDir(), "cm_ime_height");
-					try(OutputStream out = new FileOutputStream(f))
+					try
 					{
-						out.write((Integer.toString(ime) + "\n").getBytes());
+						Rect r = new Rect();
+						decor.getWindowVisibleDisplayFrame(r);
+						int total = decor.getRootView().getHeight();
+						report_ime_height(total - r.bottom);
 					}
-					Log.i(TAG, "keyboard height: " + ime + "px");
+					catch(Exception e) { /* not laid out yet */ }
+					report_ime_from_insets(decor);
 				}
-				catch(Exception e) { /* not laid out yet */ }
-			}
-		};
-		getWindow().getDecorView().getViewTreeObserver()
-			.addOnGlobalLayoutListener(ime_height_listener);
+			};
+			decor.getViewTreeObserver().addOnGlobalLayoutListener(ime_height_listener);
+		}
+		if(Build.VERSION.SDK_INT >= 30)
+		{
+			decor.setOnApplyWindowInsetsListener(new View.OnApplyWindowInsetsListener()
+			{
+				@Override
+				public WindowInsets onApplyWindowInsets(View v, WindowInsets insets)
+				{
+					try
+					{
+						Insets ime = insets.getInsets(WindowInsets.Type.ime());
+						if(ime != null) report_ime_height(ime.bottom);
+					}
+					catch(Exception e) { /* ignore */ }
+					return v.onApplyWindowInsets(insets);
+				}
+			});
+		}
 	}
 
 	private void stop_ime_height_watcher()
 	{
-		if(ime_height_listener == null) return;
-		try
+		if(ime_height_listener != null)
 		{
-			getWindow().getDecorView().getViewTreeObserver()
-				.removeOnGlobalLayoutListener(ime_height_listener);
+			try
+			{
+				getWindow().getDecorView().getViewTreeObserver()
+					.removeOnGlobalLayoutListener(ime_height_listener);
+			}
+			catch(Exception e) { /* the observer may already be dead */ }
+			ime_height_listener = null;
 		}
-		catch(Exception e) { /* the observer may already be dead */ }
-		ime_height_listener = null;
+		try { getWindow().getDecorView().setOnApplyWindowInsetsListener(null); }
+		catch(Exception e) { /* ignore */ }
 	}
 
 	// -----------------------------------------------------------------------
@@ -144,6 +203,9 @@ public class MainActivity extends SDLActivity
 		public void run()
 		{
 			show_keyboard();
+			// the keyboard can grow (candidate strip appears while typing) with
+			// no layout change in our own view tree, so poll the insets here too
+			report_ime_from_insets(getWindow().getDecorView());
 			ime_handler.postDelayed(this, IME_KEEPALIVE_MS);
 		}
 	};

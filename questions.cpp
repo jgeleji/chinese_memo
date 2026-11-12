@@ -575,7 +575,7 @@ bool chinese::questions::ask_all_until_fail_block10(
 			std::cout << "Btw\r\nCHI=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_CHINESE);
 			std::cout << ",\r\nPYN=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_PINYIN);
 			std::cout << ",\r\nENG=" << loaded_data[std::get<0>(which_q)].get(DATATYPE_ENGLISH) << "\r\n";
-			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+			m_input.show_for(900);
 		}
 		else
 		{
@@ -833,7 +833,7 @@ repeat_question:
 		if(result && repeat== 3)
 		{
 			std::cout << "Answer accepted!\n";
-			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+			m_input.show_for(900);
 		}
 		else
 		{
@@ -850,7 +850,7 @@ repeat_question:
 			else
 			{
 				std::cout << "Answer accepted!\n";
-				std::this_thread::sleep_for(std::chrono::milliseconds(500));
+				m_input.show_for(900);
 			}
 			--repeat;
 			if(repeat>0)
@@ -940,7 +940,7 @@ bool chinese::questions::ask_1_chinese_char(
 			if(gave == good_answers_remaining[i]->get(asked))
 			{
 				std::cout << "Answer accepted!\n";
-				std::this_thread::sleep_for(std::chrono::milliseconds(500));
+				m_input.show_for(900);
 				good_answers_already_given.push_back(good_answers_remaining[i]);
 				good_answers_remaining.erase(good_answers_remaining.begin() + i);
 				found = true;
@@ -1206,7 +1206,7 @@ repeat_question:
 			statusfile << "|success\n";
 			iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
 			std::cout << "Answer accepted!\n";
-			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+			m_input.show_for(900);
 			if(repeat == 3)
 			{
 				repeat = 0;
@@ -1286,7 +1286,7 @@ bool chinese::questions::ask_1_chinese_char_easy(
 			if(gave == good_answers_remaining[i]->get(DATATYPE_CHINESE))
 			{
 				std::cout << "Answer accepted!\n";
-				std::this_thread::sleep_for(std::chrono::milliseconds(500));
+				m_input.show_for(900);
 				good_answers_already_given.push_back(good_answers_remaining[i]);
 				good_answers_remaining.erase(good_answers_remaining.begin() + i);
 				found = true;
@@ -1400,7 +1400,7 @@ repeat_question:
 			statusfile << "|success\n";
 			iter0->second.second -= score_improve_if_success +(gen()%5)*.01;
 			std::cout << "Answer accepted!\n";
-			std::this_thread::sleep_for(std::chrono::milliseconds(500));
+			m_input.show_for(900);
 			if(repeat == 3)
 			{
 				repeat = 0;

@@ -109,6 +109,14 @@ void chinese::Input::system_pause() const
 	getch();
 }
 
+void chinese::Input::show_for(int ms) const
+{
+	std::cout.flush();
+	refresh();
+	napms(ms);
+	flushinp();   // keys pressed during the display must not leak onwards
+}
+
 int chinese::Input::cols() const
 {
 	return COLS;

@@ -40,6 +40,11 @@ class Input
 		void init() const;
 		void close() const;
 		void system_pause() const;
+	// Show the screen as it currently is (including everything printed since
+	// the last input) for ms milliseconds, then throw away any key/touch that
+	// arrived meanwhile so it cannot leak into the next question. Used for the
+	// "btw, here is the whole word" display after a correct answer.
+	void show_for(int ms) const;
 		int cols() const;
 
 		void set_options(std::vector<std::string> const& options) const;

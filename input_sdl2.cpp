@@ -930,10 +930,20 @@ static int ime_band(void)
 		// keyboard has not come up yet (launch transition), and the navigation
 		// bar alone can show up in the measurement; ignore those so the first
 		// frames use the old 41% fallback instead of a band of 0.
-		// A small margin is added on top: MIUI swaps between the normal and
-		// the secure keyboard, and while it swaps the measured height
-		// momentarily differs; the margin keeps the bottom row clear.
-		if(v >= 100 && v < g_h) measured = v + g_h / 40;
+		//
+		// The band only ever grows during a session: MIUI has several keyboard
+		// setups (the normal one, the secure one, with/without candidate
+		// strip), they differ in height, and which one is up is not knowable
+		// ahead of tapping; reserving the tallest one seen keeps the bottom
+		// row of buttons out from under the keyboard ("sometimes the tap does
+		// not register" was exactly a button hiding under the IME).
+		// A small margin goes on top of every measurement.
+		if(v >= 100 && v < g_h)
+		{
+			int cand = v + g_h / 40;
+			if(cand >= g_h) cand = g_h - 1;
+			measured = measured < 0 ? cand : std::max(measured, cand);
+		}
 	}
 	if(measured >= 0) return measured;
 	return (int)(g_h * 0.41);
@@ -1116,6 +1126,22 @@ static SLine g_q_counters;
 static SLine g_q_question;
 static bool  g_q_valid = false;
 
+// The lines the input logic prints as the answer being built -
+// "0 <so far>", "1 <keys typed>", "2 <converted>" - are what the player must
+// read back at a glance, so they get a size of their own (between the small
+// counters and the big question) instead of the old 58px. The "CHI=..." detail
+// line of the after-the-answer ("Btw CHI=..., PYN=..., ENG=...") review is the
+// thing to memorize, so it is drawn at question size.
+static int special_line_px(const SLine& line, int base_px, int big_px)
+{
+	if(line.runs.empty()) return base_px;
+	const std::string& t = line.runs.front().text;
+	if(t.size() >= 2 && t[1] == ' ' && (t[0] == '0' || t[0] == '1' || t[0] == '2'))
+		return std::min(big_px, base_px * 2);
+	if(t.compare(0, 4, "CHI=") == 0) return big_px;
+	return base_px;
+}
+
 static void build_sublines(std::vector<Subline>& subs, bool skip_option_lines,
                            int small_px, int base_px, int big_px, double avail_w)
 {
@@ -1137,7 +1163,8 @@ static void build_sublines(std::vector<Subline>& subs, bool skip_option_lines,
 			push_sublines(subs, wrap_line(question, big_px, avail_w), big_px);
 			continue;
 		}
-		push_sublines(subs, wrap_line(g_lines[i], base_px, avail_w), base_px);
+		push_sublines(subs, wrap_line(g_lines[i], special_line_px(g_lines[i], base_px, big_px), avail_w),
+		              special_line_px(g_lines[i], base_px, big_px));
 	}
 	if(!seen_question && g_q_valid)
 	{
@@ -1418,10 +1445,14 @@ static bool wait_key_queued(void)
 				float fx = ev.tfinger.x * (float)g_w;
 				float fy = ev.tfinger.y * (float)g_h;
 				bool hit = false;
+				// taps close to a cell edge still count: cells are separated
+				// by a known gap, so half of that (capped) is safe padding and
+				// it saves the taps that land between two buttons
 				for(size_t i = 0; i < g_button_rects.size() && !hit; ++i)
 				{
 					const SDL_Rect& rc = g_button_rects[i];
-					if(fx >= rc.x && fx < rc.x + rc.w && fy >= rc.y && fy < rc.y + rc.h)
+					int pad = std::min(18, std::max(6, rc.h / 8));
+					if(fx >= rc.x - pad && fx < rc.x + rc.w + pad && fy >= rc.y - pad && fy < rc.y + rc.h + pad)
 					{
 						if(i < chinese::current_options().size())
 						{
@@ -1440,7 +1471,8 @@ static bool wait_key_queued(void)
 				for(size_t i = 0; i < g_bar_rects.size() && !hit; ++i)
 				{
 					const SDL_Rect& rc = g_bar_rects[i];
-					if(fx >= rc.x && fx < rc.x + rc.w && fy >= rc.y && fy < rc.y + rc.h)
+					int pad = std::min(18, std::max(6, rc.h / 8));
+					if(fx >= rc.x - pad && fx < rc.x + rc.w + pad && fy >= rc.y - pad && fy < rc.y + rc.h + pad)
 					{
 						push_key_string(g_bar_keys[i]);
 						hit = true;
@@ -1593,6 +1625,22 @@ std::string chinese::Input::do_input_inner(
 	do_input_inner_raw(debug_string, raw_input, state_number);
 	std::string pinyin = pinyin_convert_1syll(raw_input);
 	return pinyin;
+}
+
+void chinese::Input::show_for(int ms) const
+{
+	std::cout.flush();   // pull the partial line (if any) into the screen model
+	present();
+	if(g_scripted) return;   // headless test run: the dump above is the display
+	SDL_Delay(ms);
+	// forget touches made while this was shown: they were aimed at buttons of
+	// the previous screen and must not fire on the next question
+	SDL_Event ev;
+	while(SDL_PollEvent(&ev))
+	{
+		if(ev.type == SDL_QUIT) exit(0);
+	}
+	g_keys.clear();
 }
 
 void chinese::Input::system_pause() const

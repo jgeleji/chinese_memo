@@ -545,6 +545,10 @@ std::string chinese::Input::do_input_pinyin(std::string description) const
 	// 1 - inside single char tone
 	// 2 - finished char, decide to next char or finish input
 	INPUT_STATE state_number = INPUT_STATE_TYPE_PINYIN;
+	// the choice grid belongs to the chinese-character answers only; the SDL
+	// backend draws whatever options are still set, so an old grid from the
+	// previous question must not show up in a pinyin answer
+	set_options(std::vector<std::string>());
 	std::string ret;
 	while(state_number != INPUT_STATE_EXIT)
 	{
@@ -625,6 +629,9 @@ std::string chinese::Input::do_input_english(std::string description) const
 	// 1 - inside single char tone
 	// 2 - finished char, decide to next char or finish input
 	INPUT_STATE state_number = INPUT_STATE_TYPE_PINYIN;
+	// see do_input_pinyin: an english answer never has the chinese choice grid,
+	// so clear the options left over from the previous question
+	set_options(std::vector<std::string>());
 	std::string ret;
 	while(state_number != INPUT_STATE_EXIT)
 	{
