@@ -102,6 +102,7 @@ static void commit_line(const std::string& raw)
 	SLine line;
 	std::string cur;
 	Uint32 fg = g_cur_fg, bg = g_cur_bg;
+	Uint32 run_fg = fg, run_bg = bg;
 	size_t i = 0;
 	while(i < raw.size())
 	{
@@ -129,13 +130,26 @@ static void commit_line(const std::string& raw)
 				else if(p[k] >= 30 && p[k] <= 37) fg = palette_color(p[k] - 30);
 				else if(p[k] >= 40 && p[k] <= 47) bg = palette_color(p[k] - 40);
 			}
+			// a color change ends the run being built, so the colored words
+			// (the "chinese"/"english" in a question, the colored answers in
+			// the lists) keep their own color like in the console
+			if(fg != run_fg || bg != run_bg)
+			{
+				if(!cur.empty())
+				{
+					line.runs.push_back(Run{cur, run_fg, run_bg});
+					cur.clear();
+				}
+				run_fg = fg;
+				run_bg = bg;
+			}
 			i = j + 1;
 			continue;
 		}
 		cur.push_back(raw[i]);
 		++i;
 	}
-	if(!cur.empty()) line.runs.push_back(Run{cur, fg, bg});
+	if(!cur.empty()) line.runs.push_back(Run{cur, run_fg, run_bg});
 	g_cur_fg = fg;
 	g_cur_bg = bg;
 	g_lines.push_back(line);
@@ -1142,14 +1156,181 @@ static int special_line_px(const SLine& line, int base_px, int big_px)
 	return base_px;
 }
 
+// split one line into consecutive segments at the given byte offsets
+// (ascending, no duplicates), keeping every run's color in each piece it
+// falls into
+static void split_runs_at(const SLine& line, const std::vector<size_t>& cuts, std::vector<SLine>& out)
+{
+	std::string joined;
+	std::vector<size_t> starts, ends;
+	for(size_t i = 0; i < line.runs.size(); ++i)
+	{
+		starts.push_back(joined.size());
+		joined += line.runs[i].text;
+		ends.push_back(joined.size());
+	}
+	std::vector<size_t> bounds;
+	bounds.push_back(0);
+	for(size_t i = 0; i < cuts.size(); ++i) bounds.push_back(cuts[i]);
+	bounds.push_back(joined.size());
+	for(size_t b = 1; b < bounds.size(); ++b)
+	{
+		size_t lo = bounds[b - 1], hi = bounds[b];
+		if(lo > joined.size()) lo = joined.size();
+		if(hi > joined.size()) hi = joined.size();
+		SLine seg;
+		if(hi > lo)
+		{
+			for(size_t i = 0; i < line.runs.size(); ++i)
+			{
+				size_t a = std::max(lo, starts[i]);
+				size_t c = std::min(hi, ends[i]);
+				if(a < c)
+					seg.runs.push_back(Run{line.runs[i].text.substr(a - starts[i], c - a),
+					                       line.runs[i].fg, line.runs[i].bg, line.runs[i].px});
+			}
+		}
+		out.push_back(seg);
+	}
+}
+
+static std::string sline_text(const SLine& l)
+{
+	std::string t;
+	for(size_t i = 0; i < l.runs.size(); ++i) t += l.runs[i].text;
+	return t;
+}
+
+static void sline_strip_lead(SLine& l)
+{
+	for(size_t i = 0; i < l.runs.size(); )
+	{
+		Run& r = l.runs[i];
+		size_t keep = r.text.find_first_not_of(" ,");
+		if(keep == std::string::npos) { l.runs.erase(l.runs.begin() + i); continue; }
+		r.text.erase(0, keep);
+		break;
+	}
+}
+
+static bool sline_empty(const SLine& l)
+{
+	for(size_t i = 0; i < l.runs.size(); ++i)
+		if(!l.runs[i].text.empty()) return false;
+	return true;
+}
+
+// Split the question sentence "<provided> is <value>, what is <asked>? [exclude: ...]"
+// into parts of different size: "english is" stays an ordinary line, but the
+// value being asked about and "what is chinese?" (the form to answer in) are
+// drawn big - those two are what has to register at a glance.
+static void push_question_sublines(std::vector<Subline>& subs, const SLine& question,
+                                   int base_px, int big_px, double avail_w)
+{
+	std::string q = sline_text(question);
+	size_t ispos = q.find(" is ");
+	size_t comma = q.find(", what is ");
+	if(ispos == std::string::npos || comma == std::string::npos || ispos + 4 >= comma)
+	{
+		// not a recognizable question sentence: draw it as one big line, as before
+		push_sublines(subs, wrap_line(question, big_px, avail_w), big_px);
+		return;
+	}
+	std::vector<size_t> cuts;
+	cuts.push_back(ispos + 4);
+	cuts.push_back(comma);
+	std::string tail = q.substr(comma + 2);        // "what is chinese? exclude: ..."
+	size_t qm = tail.find('?');
+	if(qm != std::string::npos) cuts.push_back(comma + 2 + qm + 1);
+	std::vector<SLine> seg;
+	split_runs_at(question, cuts, seg);
+	if(seg.size() > 2) sline_strip_lead(seg[2]);   // drop the ", " before "what is"
+	for(size_t i = 0; i < seg.size(); ++i)
+	{
+		if(sline_empty(seg[i])) continue;
+		int px = (i == 1 || i == 2) ? big_px : base_px;
+		push_sublines(subs, wrap_line(seg[i], px, avail_w), px);
+	}
+}
+
+// ---------------------------------------------------------------------------
+// the immediate-response block
+//
+// Right after an answer is judged, questions.cpp prints the verdict:
+//   "Answer accepted!" or "Wrong answer (<given>!)" + "Correct would have
+//   been <correct>", followed by the "Btw CHI=..., PYN=..., ENG=..." review.
+// On the phone that block is visible for less than a second and the flow of
+// typed-answer lines above it has a different length every time, so it ended
+// up jumping around the screen. The verdict lines are therefore taken out of
+// the flow and drawn as a block with the key line ("Answer accepted!" /
+// "Correct would have been ...") pinned at a fixed height of the text area;
+// "Wrong answer (...)" hangs right above it, the Btw review below it.
+static std::string result_line_lead(const SLine& l)
+{
+	std::string t = sline_text(l);
+	size_t p = t.find_first_not_of(' ');
+	if(p == std::string::npos) t.clear();
+	else t.erase(0, p);
+	return t;
+}
+
+static bool is_verdict_lead(const std::string& t)
+{
+	return t.compare(0, 15, "Answer accepted") == 0
+	    || t.compare(0, 12, "Wrong answer") == 0
+	    || t.compare(0, 23, "Correct would have been") == 0;
+}
+
+// first verdict line = start of the block (verdicts are printed last, before
+// the next move_clear_refresh wipes the screen)
+static size_t result_block_start(void)
+{
+	for(size_t i = 0; i < g_lines.size(); ++i)
+		if(is_verdict_lead(result_line_lead(g_lines[i])))
+			return i;
+	return std::string::npos;
+}
+
+static void build_result_sublines(std::vector<Subline>& subs, size_t start,
+                                  int small_px, int base_px, int key_px,
+                                  double avail_w, size_t& key_idx)
+{
+	subs.clear();
+	key_idx = 0;
+	bool key_seen = false;
+	for(size_t i = start; i < g_lines.size(); ++i)
+	{
+		std::string t = result_line_lead(g_lines[i]);
+		int px;
+		bool key = false;
+		if(!key_seen && is_verdict_lead(t) && t.compare(0, 12, "Wrong answer") != 0)
+			{ px = key_px; key = true; }          // "Answer accepted!" / "Correct would have been ..."
+		else if(t.compare(0, 4, "CHI=") == 0)     px = key_px;   // the word to memorize
+		else                                      px = base_px;  // "Wrong answer", Btw review, candidate lists
+		if(t.compare(0, 3, "Btw") == 0 && t.compare(0, 4, "Btw ") != 0) px = small_px;
+		std::vector<SLine> part = wrap_line(g_lines[i], px, avail_w);
+		if(key && !key_seen && !part.empty())
+		{
+			key_idx = subs.size();
+			key_seen = true;
+		}
+		push_sublines(subs, part, px);
+	}
+}
+
 static void build_sublines(std::vector<Subline>& subs, bool skip_option_lines,
-                           int small_px, int base_px, int big_px, double avail_w)
+                           int small_px, int base_px, int big_px, double avail_w,
+                           size_t flow_end = std::string::npos)
 {
 	subs.clear();
 	bool seen_question = false;
-	for(size_t i = 0; i < g_lines.size(); ++i)
+	// on a verdict screen the flow is only context: the stale choice grid and
+	// the empty pinyin label rows are noise (the verdict block shows the given
+	// and the correct answer itself), while the question stays useful
+	bool verdict_flow = (flow_end != std::string::npos);
+	for(size_t i = 0; i < g_lines.size() && i < flow_end; ++i)
 	{
-		if(skip_option_lines && is_option_line(g_lines[i])) continue;
+		if((skip_option_lines || verdict_flow) && is_option_line(g_lines[i])) continue;
 		SLine counters, question;
 		if(split_question_line(g_lines[i], counters, question))
 		{
@@ -1160,8 +1341,14 @@ static void build_sublines(std::vector<Subline>& subs, bool skip_option_lines,
 			g_q_valid = true;
 			seen_question = true;
 			push_sublines(subs, wrap_line(counters, small_px, avail_w), small_px);
-			push_sublines(subs, wrap_line(question, big_px, avail_w), big_px);
+			push_question_sublines(subs, question, base_px, big_px, avail_w);
 			continue;
+		}
+		if(verdict_flow)
+		{
+			std::string t = sline_text(g_lines[i]);
+			if(t.size() >= 2 && t[0] >= '0' && t[0] <= '4' && t[1] == ' ')
+				continue;   // "0 <word>", "1 <keys>", "2 <pinyin>", "4" label rows
 		}
 		push_sublines(subs, wrap_line(g_lines[i], special_line_px(g_lines[i], base_px, big_px), avail_w),
 		              special_line_px(g_lines[i], base_px, big_px));
@@ -1170,7 +1357,7 @@ static void build_sublines(std::vector<Subline>& subs, bool skip_option_lines,
 	{
 		std::vector<Subline> head;
 		push_sublines(head, wrap_line(g_q_counters, small_px, avail_w), small_px);
-		push_sublines(head, wrap_line(g_q_question, big_px, avail_w), big_px);
+		push_question_sublines(head, g_q_question, base_px, big_px, avail_w);
 		subs.insert(subs.begin(), head.begin(), head.end());
 	}
 }
@@ -1218,7 +1405,8 @@ static int frame_cap(void)
 
 // The txt file is the text of the screen plus, when subs is given, one line per
 // drawn text line: "<def_px>/<px> <text>" - what size everything ended up at.
-static void dump_frame(const std::vector<Subline>* subs = NULL, size_t first = 0)
+static void dump_frame(const std::vector<Subline>* subs = NULL, size_t first = 0,
+                       const std::vector<Subline>* res = NULL, int res_key_y = 0, size_t res_key_idx = 0)
 {
 	const char* dir = dump_dir();
 	if(!dir || !dir[0]) return;
@@ -1258,6 +1446,17 @@ static void dump_frame(const std::vector<Subline>* subs = NULL, size_t first = 0
 				std::string t;
 				for(size_t j = 0; j < s.runs.size(); ++j) t += s.runs[j].text;
 				fprintf(f, "%c %d/%d %s\n", (i < first ? '-' : ' '), s.def_px, s.px, t.c_str());
+			}
+		}
+		if(res && !res->empty())
+		{
+			fprintf(f, "--- verdict block: key line pinned at y=%d ('^' = key line, y=block top) ---\n", res_key_y);
+			for(size_t i = 0; i < res->size(); ++i)
+			{
+				const Subline& s = (*res)[i];
+				std::string t;
+				for(size_t j = 0; j < s.runs.size(); ++j) t += s.runs[j].text;
+				fprintf(f, "%c %d/%d %s\n", (i == res_key_idx ? '^' : ' '), s.def_px, s.px, t.c_str());
 			}
 		}
 		fclose(f);
@@ -1305,19 +1504,52 @@ static void present(void)
 	double avail_w = g_w - 2 * margin;
 	int avail_h = text_bottom - text_top;
 
+	// the immediate-response verdict (see build_result_sublines): taken out of
+	// the flow, sized on its own, with the key line pinned at a fixed height
+	// of the text area so the eye knows where to look
+	size_t res_start = result_block_start();
+	std::vector<Subline> res_subs;
+	size_t res_key_idx = 0;
+	int res_key_y = text_top + (int)(avail_h * 0.42);
+	int res_top = -1;
+	if(res_start != std::string::npos)
+	{
+		int key_px = std::min(base_px * 2, max_big);
+		for(;;)
+		{
+			build_result_sublines(res_subs, res_start, small_px, base_px, key_px, avail_w, res_key_idx);
+			double pre_h = 0.0, total_h = 0.0;
+			for(size_t i = 0; i < res_subs.size(); ++i)
+			{
+				float lh;
+				font_line_height(res_subs[i].px, lh);
+				total_h += lh;
+				if(i < res_key_idx) pre_h += lh;
+			}
+			res_top = res_key_y - (int)pre_h;
+			if(res_top < text_top) res_top = text_top;
+			if((double)(text_bottom - res_top) >= total_h || key_px <= small_px + 6) break;
+			key_px = (int)(key_px * 0.9) & ~3;
+		}
+	}
+
 	// start with the biggest question size and step down until everything fits
 	std::vector<Subline> subs;
 	int big_px = max_big;
+	int flow_avail = (res_top < 0) ? avail_h : std::max(40, res_top - margin / 2 - text_top);
 	for(;;)
 	{
-		build_sublines(subs, buttons_active(), small_px, base_px, big_px, avail_w);
-		if(sublines_height(subs) <= avail_h || big_px <= base_px) break;
+		build_sublines(subs, buttons_active(), small_px, base_px, big_px, avail_w, res_start);
+		if(sublines_height(subs) <= flow_avail || big_px <= base_px) break;
 		big_px = std::max(base_px, (int)(big_px * 0.9));
 	}
 
 	// still too tall (the statistics screens and the answer feedback print a
-	// lot): shrink all lines, the ones that do not fit are dropped below anyway
-	while(sublines_height(subs) > avail_h)
+	// lot): shrink all lines, the ones that do not fit are dropped above anyway.
+	// On a verdict screen not: the typed-answer lines there are context only,
+	// dropping them from the top keeps their size readable
+	if(res_top < 0)
+	while(sublines_height(subs) > flow_avail)
 	{
 		bool shrunk = false;
 		for(size_t i = 0; i < subs.size(); ++i)
@@ -1341,7 +1573,7 @@ static void present(void)
 		{
 			float lh;
 			font_line_height(subs[i].px, lh);
-			if(h_from + lh > avail_h && first != subs.size()) break;
+			if(h_from + lh > flow_avail && first != subs.size()) break;
 			h_from += lh;
 			first = i;
 		}
@@ -1359,6 +1591,20 @@ static void present(void)
 	draw_buttons();
 	draw_bar();
 
+	// the verdict block last: it must never be covered, it is the whole point
+	// of these short-lived screens
+	if(!res_subs.empty())
+	{
+		double y = (double)res_top;
+		for(size_t i = 0; i < res_subs.size(); ++i)
+		{
+			float lh;
+			font_line_height(res_subs[i].px, lh);
+			blit_runs(res_subs[i].runs, margin, (int)y, (float)y + font_baseline(res_subs[i].px), res_subs[i].def_px);
+			y += lh;
+		}
+	}
+
 	if(g_damage.w > 0 && g_damage.h > 0)
 	{
 		bool ok = (SDL_UpdateTexture(g_texture, &g_damage, g_pixels + (size_t)g_damage.y * g_w, g_w * 4) == 0);
@@ -1370,7 +1616,7 @@ static void present(void)
 
 	Uint32 t_render = SDL_GetTicks();   // the cost of a frame without the test dump
 
-	dump_frame(&subs, first);
+	dump_frame(&subs, first, &res_subs, res_key_y, res_key_idx);
 
 	// frame cost, for logcat on the phone (the dump is deliberately not counted:
 	// it is only a test hook, but leaving it switched on is what makes the phone
