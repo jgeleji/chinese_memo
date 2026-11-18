@@ -272,10 +272,16 @@ static void push_key_string(const std::string& s)
 	for(size_t i = 0; i < s.size(); ++i) g_keys.push_back((unsigned char)s[i]);
 }
 
+static bool handle_tap(float fx, float fy);   // see the tap handler below
+
 // headless driver support: CM_AUTOKEYS_FILE is a file a driver script appends
 // raw keystrokes to; CM_STATE_FILE tells that script when the program is
 // sitting in a wait for a key (and in which INPUT_STATE), so the driver can
 // read the last dumped frame, work out the correct answer and feed it in.
+// Besides raw keystrokes the file may carry "@TAP x,y\n" records: the driver
+// computes where an on-screen cell sits (same layout maths as compute_bar_
+// layout) and this runs a real pixel tap through handle_tap, so the bar's
+// hit-test and the FIX/cancel cell get exercised in scripted runs too.
 static void poll_keys_file(void)
 {
 	if(!g_keysfile) return;
@@ -286,8 +292,36 @@ static void poll_keys_file(void)
 	int c;
 	while((c = fgetc(f)) != EOF) got.push_back((char)c);
 	fclose(f);
-	g_keysfile_pos += (long)got.size();
-	push_key_string(got);
+	// records are line-based; a half-written line (the driver appends with a
+	// single small write, but be careful anyway) stays in g_keyresid until
+	// its newline arrives, and only consumed bytes advance the file position
+	static std::string resid;
+	got = resid + got;
+	size_t end = got.rfind('\n');
+	if(end == std::string::npos)
+	{
+		resid = got;
+		return;
+	}
+	std::string whole = got.substr(0, end + 1);
+	resid = got.substr(end + 1);
+	g_keysfile_pos += (long)whole.size();
+	size_t i = 0;
+	while(i < whole.size())
+	{
+		if(whole.compare(i, 5, "@TAP ") == 0)
+		{
+			size_t e = whole.find('\n', i);
+			float tx = 0, ty = 0;
+			if(sscanf(whole.c_str() + i + 5, "%f,%f", &tx, &ty) == 2)
+				handle_tap(tx, ty);
+			i = e + 1;
+			continue;
+		}
+		size_t e = whole.find('\n', i);   // always found: whole ends with \n
+		push_key_string(whole.substr(i, e - i + 1));
+		i = e + 1;
+	}
 }
 
 static void write_state(const char* what)
@@ -878,13 +912,26 @@ static void layout_button_rects()
 
 // ---------------------------------------------------------------------------
 // on-screen key bar (only while a free-typed answer is expected):
-// DEL + the four tone keys + OK. Taps push the same keystrokes the phone
+// DEL + the four tone keys + OK, plus CANCEL while the answer sits in the
+// accept phase (see bar_key_active). Taps push the same keystrokes the phone
 // keyboard would produce, so the input logic is unchanged.
 // ---------------------------------------------------------------------------
 
 static std::vector<SDL_Rect> g_bar_rects;
 static std::vector<std::string> g_bar_labels;
 static std::vector<std::string> g_bar_keys;
+
+// "-" on the bar = "the typed answer is wrong, start over". It only appears
+// in state 1 of the free-typed flows (one Enter already pressed: the word is
+// committed but not accepted yet), which is exactly when the mistake is
+// noticed - and only there, so it can never be hit by accident while typing
+// (where "-" in pinyin is the tone-1 key and means something else).
+static const char CANCEL_KEY = '#';   // pushed as the "-" keystroke when tapped
+
+static bool bar_key_active(size_t i)
+{
+	return g_bar_keys[i][0] != CANCEL_KEY || g_active_state == STATE_CHOOSE_NUMBER;
+}
 
 struct BarLayout
 {
@@ -910,6 +957,7 @@ static void init_bar_keys()
 	g_bar_labels.push_back("ˊ");  g_bar_keys.push_back("2");
 	g_bar_labels.push_back("ˇ");  g_bar_keys.push_back("3");
 	g_bar_labels.push_back("ˋ");  g_bar_keys.push_back("4");
+	g_bar_labels.push_back("CANCEL"); g_bar_keys.push_back(std::string(1, CANCEL_KEY));
 	g_bar_labels.push_back("OK"); g_bar_keys.push_back("\n");
 }
 
@@ -980,7 +1028,9 @@ static BarLayout compute_bar_layout()
 	init_bar_keys();
 	BarLayout B;
 	B.gap = std::max(8, g_w / 50);
-	int n = (int)g_bar_keys.size();
+	int n = 0;
+	for(size_t i = 0; i < g_bar_keys.size(); ++i)
+		if(bar_key_active(i)) ++n;
 	B.cell_w = (g_w - (n + 1) * B.gap) / n;
 	int band = ime_band();
 	B.cell_h = std::max(72, std::min(g_h / 9, (g_h - band) / 6));
@@ -997,13 +1047,28 @@ static void layout_bar_rects()
 	BarLayout B = compute_bar_layout();
 	for(size_t i = 0; i < g_bar_keys.size(); ++i)
 	{
+		if(!bar_key_active(i)) continue;
 		SDL_Rect rc;
-		rc.x = B.x0 + (int)i * (B.cell_w + B.gap);
+		rc.x = B.x0 + (int)g_bar_rects.size() * (B.cell_w + B.gap);
 		rc.y = B.y0;
 		rc.w = B.cell_w;
 		rc.h = B.cell_h;
 		g_bar_rects.push_back(rc);
 	}
+}
+
+// g_bar_rects only holds the visible cells; map a drawn position back to the
+// key it stands for (so the hidden CANCEL key never shifts the other cells)
+static size_t bar_key_of_rect(size_t rect_i)
+{
+	size_t seen = 0;
+	for(size_t i = 0; i < g_bar_keys.size(); ++i)
+	{
+		if(!bar_key_active(i)) continue;
+		if(seen == rect_i) return i;
+		++seen;
+	}
+	return 0;
 }
 
 static std::string bar_label(size_t i)
@@ -1012,17 +1077,21 @@ static std::string bar_label(size_t i)
 	// part or finish", so say what the gold key does there.
 	if(g_bar_keys[i] == "\n")
 		return g_active_state == STATE_TYPE_PINYIN ? "OK" : "END";
+	if(g_bar_keys[i][0] == CANCEL_KEY)
+		return "FIX";    // "start the typed answer over"
 	return g_bar_labels[i];
 }
 
 static void draw_bar()
 {
 	if(!inputbar_active()) return;
-	for(size_t i = 0; i < g_bar_rects.size(); ++i)
+	for(size_t ri = 0; ri < g_bar_rects.size(); ++ri)
 	{
-		const SDL_Rect& rc = g_bar_rects[i];
+		size_t i = bar_key_of_rect(ri);
+		const SDL_Rect& rc = g_bar_rects[ri];
 		Uint32 border = 0xFF2E3440u, face = 0xFF3B4250u, fg = 0xFFECEAF0u;
 		if(g_bar_keys[i] == "\n") { border = 0xFF7A6A18u; face = 0xFF9A8A2Au; fg = rgb(255, 230, 120); }
+		else if(g_bar_keys[i][0] == CANCEL_KEY) { border = 0xFF8A2A2Au; face = 0xFF5A1F22u; fg = rgb(255, 150, 150); }
 		else if(i >= 1 && i <= 4) { face = 0xFF343B48u; fg = rgb(200, 215, 235); }
 		fill_rect(rc, border);
 		SDL_Rect inner = {rc.x + 3, rc.y + 3, rc.w - 6, rc.h - 6};
@@ -1667,6 +1736,52 @@ static void toggle_ime(bool on)
 // "tap button 7" is literally the keystrokes "7" then Enter.
 // ---------------------------------------------------------------------------
 
+// one pixel tap -> the keystrokes the tapped cell stands for (options grid,
+// the empty-Enter cell after it, or the input bar incl. the FIX/cancel key).
+// Returns false when nothing was hit; the caller decides what a bare tap does
+// (re-summon the keyboard). Shared by the SDL_FINGERDOWN handler and the
+// scripted-test tap injector (CM_AUTOKEYS_FILE "@TAP x,y" records).
+static bool handle_tap(float fx, float fy)
+{
+	bool hit = false;
+	// taps close to a cell edge still count: cells are separated
+	// by a known gap, so half of that (capped) is safe padding and
+	// it saves the taps that land between two buttons
+	for(size_t i = 0; i < g_button_rects.size() && !hit; ++i)
+	{
+		const SDL_Rect& rc = g_button_rects[i];
+		int pad = std::min(18, std::max(6, rc.h / 8));
+		if(fx >= rc.x - pad && fx < rc.x + rc.w + pad && fy >= rc.y - pad && fy < rc.y + rc.h + pad)
+		{
+			if(i < chinese::current_options().size())
+			{
+				push_key_string(std::to_string(i + 1));
+				push_key_string("\n");
+			}
+			else
+			{
+				// the gold cell after the last option = Enter with nothing
+				// typed, which closes the answer exactly like the console
+				push_key_string("\n");
+			}
+			hit = true;
+		}
+	}
+	for(size_t ri = 0; ri < g_bar_rects.size() && !hit; ++ri)
+	{
+		const SDL_Rect& rc = g_bar_rects[ri];
+		int pad = std::min(18, std::max(6, rc.h / 8));
+		if(fx >= rc.x - pad && fx < rc.x + rc.w + pad && fy >= rc.y - pad && fy < rc.y + rc.h + pad)
+		{
+			size_t i = bar_key_of_rect(ri);
+			if(g_bar_keys[i][0] == CANCEL_KEY) push_key_string("-");
+			else push_key_string(g_bar_keys[i]);
+			hit = true;
+		}
+	}
+	return hit;
+}
+
 static bool wait_key_queued(void)
 {
 	for(;;)
@@ -1690,40 +1805,7 @@ static bool wait_key_queued(void)
 			{
 				float fx = ev.tfinger.x * (float)g_w;
 				float fy = ev.tfinger.y * (float)g_h;
-				bool hit = false;
-				// taps close to a cell edge still count: cells are separated
-				// by a known gap, so half of that (capped) is safe padding and
-				// it saves the taps that land between two buttons
-				for(size_t i = 0; i < g_button_rects.size() && !hit; ++i)
-				{
-					const SDL_Rect& rc = g_button_rects[i];
-					int pad = std::min(18, std::max(6, rc.h / 8));
-					if(fx >= rc.x - pad && fx < rc.x + rc.w + pad && fy >= rc.y - pad && fy < rc.y + rc.h + pad)
-					{
-						if(i < chinese::current_options().size())
-						{
-							push_key_string(std::to_string(i + 1));
-							push_key_string("\n");
-						}
-						else
-						{
-							// the gold cell after the last option = Enter with nothing
-							// typed, which closes the answer exactly like the console
-							push_key_string("\n");
-						}
-						hit = true;
-					}
-				}
-				for(size_t i = 0; i < g_bar_rects.size() && !hit; ++i)
-				{
-					const SDL_Rect& rc = g_bar_rects[i];
-					int pad = std::min(18, std::max(6, rc.h / 8));
-					if(fx >= rc.x - pad && fx < rc.x + rc.w + pad && fy >= rc.y - pad && fy < rc.y + rc.h + pad)
-					{
-						push_key_string(g_bar_keys[i]);
-						hit = true;
-					}
-				}
+				bool hit = handle_tap(fx, fy);
 				if(!hit && inputbar_active())
 				{
 					// taps anywhere else re-summon the soft keyboard (Android hides it
@@ -1871,6 +1953,21 @@ std::string chinese::Input::do_input_inner(
 	do_input_inner_raw(debug_string, raw_input, state_number);
 	std::string pinyin = pinyin_convert_1syll(raw_input);
 	return pinyin;
+}
+
+// Drop keystrokes that arrived but were never read: after a "-" cancel the
+// keys pressed around the cancel (the planned second Enter of the accept
+// sequence, letters of the mistyped word already deleted) must not leak into
+// the restarted answer. Scripted runs are skipped: there the driver owns the
+// keystroke stream and a cancel consumes exactly the keys it sent.
+void chinese::Input::flush_pending_input() const
+{
+	if(g_keysfile) return;
+	g_keys.clear();
+	// keys only ever enter g_keys from this file's event loop, and that loop
+	// runs exclusively (it either waits for events or holds queued keys), so
+	// nothing is in flight here; draining SDL events would also discard a tap
+	// that was meant to open the next screen. Just drop the queue.
 }
 
 void chinese::Input::show_for(int ms) const

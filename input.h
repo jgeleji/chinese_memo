@@ -87,6 +87,12 @@ class Input
 			INPUT_STATE& state_number
 		) const;
 
+		// discard keystrokes that arrived but have not been read yet: used when
+		// an answer is cancelled with "-" (the keys pressed around the cancel,
+		// especially the second Enter of the accept sequence, must not leak
+		// into the restarted answer)
+		void flush_pending_input() const;
+
 		std::vector<std::string> get_possibles(std::string const& pinyin) const;
 		std::vector<std::string> get_possibles_fromflat(std::string const& pinyin) const;
 

@@ -558,6 +558,11 @@ std::string chinese::Input::do_input_pinyin(std::string description) const
 		std::string add = this->do_input_1char_pinyin(ret, state_number, description);
 		if(add == "-")
 		{
+			// pinyin's tone-1 key pushes "-" (see the replace table), so a
+			// committed-but-not-accepted syllable can be discarded with it the
+			// same way english discards its word: drop the keystrokes that
+			// were meant for the accept, then start the answer over
+			this->flush_pending_input();
 			ret.clear();
 			state_number = INPUT_STATE_TYPE_PINYIN;
 		}
@@ -579,6 +584,19 @@ std::string chinese::Input::do_input_1char_english(
 	do
 	{
 		inputted = this->do_input_inner_raw(debug_string, raw_input, state_number);
+		// "-" cancels: in the accept phase (state 1: after the first Enter the
+		// word already sits cached up on the screen) this is the moment a typo
+		// is noticed; a lone "-" (typed on the keyboard, or tapped on the
+		// CANCEL key that the on-screen bar shows in this phase) discards the
+		// whole cached answer and starts the answer over. Returning right here
+		// rather than looping is what makes one tap enough; the outer
+		// do_input_english sees the "-" and resets, like the pinyin flow
+		// (whose "-" is produced by its tone-1 key) has always done.
+		if(raw_input == "-")
+		{
+			this->flush_pending_input();
+			return "-";
+		}
 		std::mt19937& rnd = chinese_rng();
 		move_clear_refresh();
 		std::cout << description << "\r\n";
@@ -597,9 +615,32 @@ std::string chinese::Input::do_input_1char_pinyin(
 	std::string const& description) const
 {
 	std::string debug_string, raw_input, chinese, pinyin;
+	bool dash_committed = false;   // "-" typed since the last committed syllable
 	do
 	{
 		pinyin = this->do_input_inner(debug_string, raw_input, state_number);
+		// the "-" key (phone keyboard minus, or the FIX cell) cancels the
+		// whole pinyin answer, the same way it cancels the english one. Two
+		// shapes: typed on its own while a syllable is being built (checked
+		// right here, one keystroke is enough), or typed and then Enter'd
+		// after a syllable was already committed (the dash_committed flag
+		// below turns that Enter into a cancel instead of "answer over").
+		// A bare "-" used to flatten to tone-1 of an empty syllable and just
+		// end the answer, which is why the old after-the-loop check could
+		// never trigger. The flush drops keystrokes queued behind the cancel.
+		if(raw_input == "-")
+		{
+			if(state_number != INPUT_STATE_TYPE_PINYIN)
+			{
+				this->flush_pending_input();
+				return "-";
+			}
+			dash_committed = true;   // Enter of it cancels (see below)
+			// don't let the "-" pollute the next syllable if something else
+			// is typed before its Enter arrives
+			raw_input.clear();
+			pinyin.clear();
+		}
 		move_clear_refresh();
 		std::cout << description << "\r\n";
 		std::cout << reset_color       << "0 " << top_row << "\r\n";
@@ -609,6 +650,13 @@ std::string chinese::Input::do_input_1char_pinyin(
 	}
 	while(state_number == INPUT_STATE_TYPE_PINYIN);
 	//std::cout << "Stuck ";
+	if(dash_committed)
+	{
+		// Enter pressed on a "-" (with or without a syllable committed before
+		// it): discard the whole answer instead of ending it empty
+		this->flush_pending_input();
+		return "-";
+	}
 	if(pinyin.empty() || raw_input.empty())
 	{
 		state_number = INPUT_STATE_EXIT;
@@ -641,6 +689,10 @@ std::string chinese::Input::do_input_english(std::string description) const
 		std::string c = this->do_input_1char_english(ret, state_number, description);
 		if(c=="-")
 		{
+			// a lone "-" discards the whole typed answer (see
+			// do_input_1char_english) and the answer starts over from the first
+			// keystroke; the "-" may arrive in the accept phase too, where the
+			// state sits at CHOOSE_NUMBER, so force it back to typing state
 			ret.clear();
 			state_number = INPUT_STATE_TYPE_PINYIN;
 		}

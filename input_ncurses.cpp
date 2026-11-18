@@ -109,6 +109,13 @@ void chinese::Input::system_pause() const
 	getch();
 }
 
+// the console equivalent of the SDL backend's queue drop: keys typed around a
+// "-" cancel must not leak into the restarted answer
+void chinese::Input::flush_pending_input() const
+{
+	flushinp();
+}
+
 void chinese::Input::show_for(int ms) const
 {
 	std::cout.flush();
