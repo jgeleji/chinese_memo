@@ -47,9 +47,24 @@ public class MainActivity extends SDLActivity
 	{
 		// the native code chdir()s into getFilesDir() and then opens
 		// "union_q.txt", "NotoSansSC.ttf", "status1.txt" and "data/..." with
-		// relative paths, so the assets must be unpacked there first
-		try { copyAssetsIfNeeded(); }
-		catch(Exception e) { Log.e(TAG, "could not unpack assets", e); }
+		// relative paths, so the assets must be unpacked there first. data2
+		// alone is 7900 files, so the unpack runs on its own thread; the main
+		// thread only waits for it before SDL starts (no ANR window, and the
+		// marker makes it a once-per-installed-build cost)
+		final java.util.concurrent.CountDownLatch assets_ready =
+			new java.util.concurrent.CountDownLatch(1);
+		new Thread(new Runnable()
+		{
+			@Override
+			public void run()
+			{
+				try { copyAssetsIfNeeded(); }
+				catch(Exception e) { Log.e(TAG, "could not unpack assets", e); }
+				assets_ready.countDown();
+			}
+		}, "cm-assets").start();
+		try { assets_ready.await(5, java.util.concurrent.TimeUnit.MINUTES); }
+		catch(InterruptedException e) { /* fall through, native will retry-safe */ }
 
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
@@ -257,7 +272,7 @@ public class MainActivity extends SDLActivity
 	// assets
 	// -----------------------------------------------------------------------
 
-	private void copyAssetsIfNeeded() throws IOException
+	private void copyAssetsIfNeeded() throws IOException, InterruptedException
 	{
 		File root = getFilesDir();
 		File marker = new File(root, ".assets_version");
@@ -273,6 +288,7 @@ public class MainActivity extends SDLActivity
 		copyAsset(root, "NotoSansSC.ttf");
 		copyAssetIfMissing(root, "status1.txt");   // never clobber progress on the phone
 		copyAssetTree(root, "data");
+		unpackData2(root);   // alternate readings: one tar, native untar
 
 		writeMarker(marker, apkTime);
 		Log.i(TAG, "assets unpacked into " + root.getAbsolutePath());
@@ -297,7 +313,11 @@ public class MainActivity extends SDLActivity
 	private boolean assetSentinelIsThere(File root)
 	{
 		File f = new File(root, "data" + File.separator + "general-standard?page=1");
-		return f.isFile() && f.length() > 0;
+		if(!(f.isFile() && f.length() > 0)) return false;
+		// data2 arrived with the build that added it; if its marker is missing
+		// (older unpack, or an interrupted one) the tree gets unpacked again
+		File d2 = new File(root, "data2" + File.separator + "仔");
+		return d2.isFile() && d2.length() > 0;
 	}
 
 	private void copyAssetTree(File dstDir, String assetPath) throws IOException
@@ -312,6 +332,73 @@ public class MainActivity extends SDLActivity
 		File dir = new File(dstDir, assetPath.replace('/', File.separatorChar));
 		if(!dir.isDirectory() && !dir.mkdirs()) throw new IOException("cannot create " + dir);
 		for(String child : children) copyAssetTree(dstDir, assetPath + "/" + child);
+	}
+
+	// data2's ~8100 alternate-reading files ship as a single tar; the per-file
+	// asset-copy route took minutes and MIUI froze the worker thread, while
+	// one copy + /system/bin/tar finishes in seconds.
+	// Observed in the field: toybox tar launched through ProcessBuilder once
+	// extracted 7794 of 8105 entries with rc=0 and no stderr (silently skipped
+	// the exotic non-BMP names). It is not reproducible by hand, so re-tar in
+	// a loop until the entry count is complete; tar overwrites, so every pass
+	// is additive and a pass that skips something is caught by the count.
+	private void unpackData2(File root) throws IOException, InterruptedException
+	{
+		copyAsset(root, "data2/data2.tar");
+		File tar = new File(root, "data2" + File.separator + "data2.tar");
+		File dir = new File(root, "data2");
+
+		int total = runCountCmd("tar -tf data2/data2.tar | wc -l", root);
+		// -tf lists every entry incl. the "data2/" dir itself; once extracted,
+		// dir.list() holds every entry file plus data2.tar => equal counts
+		int have = 0;
+		for(int attempt = 0; attempt < 4; ++attempt)
+		{
+			ProcessBuilder pb = new ProcessBuilder("/system/bin/tar", "-xf",
+				"data2/data2.tar").directory(root).redirectErrorStream(true);
+			Process p = pb.start();
+			java.io.ByteArrayOutputStream out = new java.io.ByteArrayOutputStream();
+			byte[] drain = new byte[4096];
+			int n;
+			while((n = p.getInputStream().read(drain)) != -1)
+				if(out.size() < 64*1024) out.write(drain, 0, n);
+			int rc = p.waitFor();
+			String[] listed = dir.list();
+			have = (listed == null ? 0 : listed.length);
+			Log.i(TAG, "data2 untar pass " + attempt + ": rc=" + rc +
+				" have=" + have + "/" + total +
+				(out.size() > 0 ? " output: " + out.toString("UTF-8") : ""));
+			if(total > 0 && have >= total) break;
+			if(rc != 0 && have <= 1) throw new IOException("tar exited with " + rc);
+		}
+		if(total > 0 && have < total)
+			throw new IOException("data2 incomplete after retar passes: " + have +
+				"/" + total);   // marker is not written, so the next launch retries
+		if(total <= 0)
+			Log.e(TAG, "cannot count data2 entries, proceeding blindly");
+		if(!tar.delete()) Log.w(TAG, "could not remove " + tar);
+	}
+
+	// run a shell one-liner whose stdout is one number (a count), return it
+	private int runCountCmd(String shellCmd, File workdir)
+		throws IOException, InterruptedException
+	{
+		Process p = new ProcessBuilder("/system/bin/sh", "-c", shellCmd)
+			.directory(workdir).redirectErrorStream(true).start();
+		java.io.ByteArrayOutputStream out = new java.io.ByteArrayOutputStream();
+		byte[] drain = new byte[4096];
+		int n;
+		while((n = p.getInputStream().read(drain)) != -1)
+			if(out.size() < 64*1024) out.write(drain, 0, n);
+		int rc = p.waitFor();
+		String s = out.toString("UTF-8").trim();
+		try { return Integer.parseInt(s); }
+		catch(NumberFormatException e)
+		{
+			Log.w(TAG, "count cmd '" + shellCmd + "' rc=" + rc + " output=" +
+				(s.length() > 300 ? s.substring(0, 300) + "..." : s));
+			return -1;
+		}
 	}
 
 	private void copyAsset(File dstDir, String assetPath) throws IOException

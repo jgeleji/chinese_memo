@@ -46,7 +46,7 @@ android {
 
     // the game data is part of the build: refresh app/src/main/assets first
     applicationVariants.all { variant ->
-        tasks["merge${variant.name.capitalize()}Assets"].dependsOn('syncAppAssets')
+        tasks["merge${variant.name.capitalize()}Assets"].dependsOn('syncAppAssets', 'packData2')
     }
 }
 
@@ -60,6 +60,24 @@ tasks.register('syncAppAssets', Copy) {
     from(new File(cmRoot, 'data')) {
         into 'data'
     }
+    // data2 carries every character's ALTERNATE readings (仔: zǐ preferred,
+    // but zǎi for 牛仔裤). Without it the phone only knows the one preferred
+    // reading per character and solution pinyin like niúzǎikù cannot be
+    // typed. Shipped as ONE tar (packData2 below) and untarred on device:
+    // 8105 individual asset copies take minutes and MIUI freezes the worker.
     into new File(projectDir, 'src/main/assets')
     duplicatesStrategy DuplicatesStrategy.INCLUDE
+}
+
+// bundle data2/ into assets/data2/data2.tar; plain tar handles the exotic
+// (non-BMP) rare-char file names that Gradle's own file machinery cannot stat
+tasks.register('packData2', Exec) {
+    def src = new File(cmRoot, 'data2')
+    def out = new File(projectDir, 'src/main/assets/data2/data2.tar')
+    inputs.dir(src)
+    outputs.file(out)
+    doFirst { out.parentFile.mkdirs() }
+    // entries land as "data2/xxx" so extracting at the files root rebuilds the
+    // data2/ tree exactly (tar -C .. keeps the dir name itself in the archive)
+    commandLine 'tar', '-cf', out.absolutePath, '-C', cmRoot.absolutePath, 'data2'
 }

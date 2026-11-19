@@ -284,6 +284,11 @@ std::string chinese::Input::pinyin_flatten_1syll(std::string const& raw_input, i
 {
 	//flatten start
 	std::string pinyin = raw_input;
+	// no ü key on the phone keyboard (nor on most PC ones): v stands for ü,
+	// the same convention every commercial pinyin IME uses (nv3 = nǚ,
+	// lv3 = lǚ, nve4 = nüè). pinyin has no v, so nothing else is affected;
+	// literal ü keeps working too (console keyboards have it).
+	replaceall(pinyin, "v", "ü");
 	bool changed_something = false;
 	do {
 		changed_something = false;

@@ -144,6 +144,18 @@ A `syncAppAssets` Copy task copies the game's data files (`union_q.txt`,
 `status1.txt`, `assets/NotoSansSC.ttf`, `data/`) into `app/src/main/assets`
 before every asset merge — so progress/data in the repo are what ships in the APK.
 
+`data2/` (every character's ALTERNATE readings — 仔 is listed `zǐ` in
+general-standard but reads `zǎi` in 牛仔裤) ships too, but as ONE tar: a
+`packData2` Exec task runs `tar -cf assets/data2/data2.tar -C <cmRoot> data2`
+and MainActivity untars it on device with `/system/bin/tar`. Reasons:
+copying 8105 individual assets through Gradle took minutes and MIUI froze the
+worker mid-copy; and Gradle's own file machinery cannot even stat the 196
+non-BMP (above U+FFFF) file names — plain tar handles them. On-device untar
+takes seconds and is verified complete (`tar -tf | wc -l` vs dir listing,
+re-tarred in a loop until counts match; incomplete => no marker => retry next
+launch). One observed ProcessBuilder tar run silently extracted 7794/8105
+entries with rc=0, which is what the count-check guards against.
+
 ### AndroidManifest.xml essentials
 
 ```xml
@@ -285,6 +297,11 @@ Gotchas that waste hours:
 - Performance is first-class (phone RAM: bounded font-atlas sizes, no unbounded probes).
 - Keyboard: never type Chinese (VISIBLE_PASSWORD attrs), never disappears, never
   covers app buttons (IME band max-tracking + margin `g_h/40`).
+- Input conventions to preserve: typing `v` stands for `ü` (phone keyboards have
+  no umlaut key; `nv3` = nǚ, done inside `pinyin_flatten_1syll` so every pinyin
+  path benefits, literal ü keeps working on console). A lone `-` (or the red FIX
+  cell on the on-screen bar) between the two Enters discards a typed english or
+  pinyin answer and returns to typing state ("fix my mistake" flow).
 - Verdict screens: key line pinned at `text_top + avail_h*0.42`, fixed size
   `min(base_px*2, max_big)`; same spot for correct and wrong.
 - After each batch: PC scripted checks → gradle build → `adb install -r` →
