@@ -112,6 +112,13 @@ class Input
 
 std::vector<std::string> const& current_options();
 
+// Which input flow is currently running: the SDL on-screen key bar needs to
+// know, because the CLEAR (erase-the-whole-typed-word) cell only makes sense
+// in the chinese-character flow, while the FIX (discard-typed-answer) cell
+// only makes sense in the free-typed english/pinyin flows.
+enum INPUT_FLOW { INPUT_FLOW_NONE = 0, INPUT_FLOW_CHINESE = 1, INPUT_FLOW_FREE = 2 };
+void set_input_flow(int flow);   // backend hook (ncurses: no-op)
+
 }
 
 #endif // _INPUT_H_INCLUDED_

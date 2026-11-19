@@ -207,6 +207,7 @@ static int g_dump_counter = 0;
 static std::deque<unsigned char> g_keys;             // synthesized keystrokes
 static std::vector<SDL_Rect> g_button_rects;         // hit boxes, per option
 static int g_active_state = 0;                       // INPUT_STATE mirror
+static int g_flow = 0;                               // chinese::INPUT_FLOW mirror
 static bool g_ime_on = false;
 static bool g_scripted = false;                      // CM_AUTOKEYS headless run
 static const char* g_keysfile = nullptr;             // CM_AUTOKEYS_FILE: keystrokes appended by a driver script
@@ -928,9 +929,29 @@ static std::vector<std::string> g_bar_keys;
 // (where "-" in pinyin is the tone-1 key and means something else).
 static const char CANCEL_KEY = '#';   // pushed as the "-" keystroke when tapped
 
+// "@" on the bar = the "- and then 0" trick that erases the whole typed
+// answer in the chinese-character flow (see the -\n0\n barrage pushed by
+// handle_tap below). It is far more visible than the bare "-" trick and it
+// saves a new user from getting stuck inside a word they mistyped.
+static const char CLR_KEY = '@';
+
+// the flow currently owning the input screens (set by do_input_* in
+// input_common.cpp through this hook; the ncurses build ignores it)
+void chinese::set_input_flow(int flow)
+{
+	g_flow = flow;
+}
+
 static bool bar_key_active(size_t i)
 {
-	return g_bar_keys[i][0] != CANCEL_KEY || g_active_state == STATE_CHOOSE_NUMBER;
+	char k = g_bar_keys[i][0];
+	if(k == CANCEL_KEY) return g_active_state == STATE_CHOOSE_NUMBER;
+	// while a syllable is being typed in the chinese flow there is no option
+	// grid on screen yet, so the bar owns its band and DELETE can live there;
+	// on the choose-number grids the option buttons take the band instead
+	if(k == CLR_KEY) return g_flow == (int)chinese::INPUT_FLOW_CHINESE
+		&& g_active_state == STATE_TYPE_PINYIN;
+	return true;
 }
 
 struct BarLayout
@@ -958,6 +979,7 @@ static void init_bar_keys()
 	g_bar_labels.push_back("ˇ");  g_bar_keys.push_back("3");
 	g_bar_labels.push_back("ˋ");  g_bar_keys.push_back("4");
 	g_bar_labels.push_back("CANCEL"); g_bar_keys.push_back(std::string(1, CANCEL_KEY));
+	g_bar_labels.push_back("DELETE ALL"); g_bar_keys.push_back(std::string(1, CLR_KEY));
 	g_bar_labels.push_back("OK"); g_bar_keys.push_back("\n");
 }
 
@@ -1092,6 +1114,7 @@ static void draw_bar()
 		Uint32 border = 0xFF2E3440u, face = 0xFF3B4250u, fg = 0xFFECEAF0u;
 		if(g_bar_keys[i] == "\n") { border = 0xFF7A6A18u; face = 0xFF9A8A2Au; fg = rgb(255, 230, 120); }
 		else if(g_bar_keys[i][0] == CANCEL_KEY) { border = 0xFF8A2A2Au; face = 0xFF5A1F22u; fg = rgb(255, 150, 150); }
+		else if(g_bar_keys[i][0] == CLR_KEY) { border = 0xFF1E3C7Eu; face = 0xFF2A5A9Au; fg = rgb(255, 205, 130); }   // orange: erase everything typed so far
 		else if(i >= 1 && i <= 4) { face = 0xFF343B48u; fg = rgb(200, 215, 235); }
 		fill_rect(rc, border);
 		SDL_Rect inner = {rc.x + 3, rc.y + 3, rc.w - 6, rc.h - 6};
@@ -1775,6 +1798,18 @@ static bool handle_tap(float fx, float fy)
 		{
 			size_t i = bar_key_of_rect(ri);
 			if(g_bar_keys[i][0] == CANCEL_KEY) push_key_string("-");
+			else if(g_bar_keys[i][0] == CLR_KEY)
+			{
+				// the "- and then 0" erase-everything trick, spelled out in
+				// keystrokes. From the typing state: ESC drops the half-typed
+				// syllable, "-" + Enter yields the pinyin "-", the number 0
+				// hands it back, and do_input_chinese clears the whole typed
+				// answer when it gets a "-". From a (bare) choose-number state
+				// the grid must be left first with 0 + Enter, and ESC would
+				// end the entire answer there, so it stays out of that path.
+				if(g_active_state == STATE_TYPE_PINYIN) push_key_string("\x1b-\n0\n");
+				else push_key_string("0\n-\n0\n");
+			}
 			else push_key_string(g_bar_keys[i]);
 			hit = true;
 		}
@@ -1929,6 +1964,12 @@ std::string chinese::Input::do_input_inner_raw(
 	else if(((int)ch) == 10)
 	{
 		state_number = (INPUT_STATE)(((int)state_number) + 1);
+	}
+	else if(((int)ch) == 27)
+	{
+		// ESC = "throw away what I have typed so far" (same as the ncurses
+		// backend; the on-screen DELETE ALL cell sends this before its -0)
+		raw_input.clear();
 	}
 	else
 	{

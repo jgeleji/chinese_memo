@@ -33,6 +33,12 @@ std::string chinese::Input::do_input_inner_raw(
 	{
 		state_number = (INPUT_STATE)(((int)state_number)+1);
 	}
+	else if(((int)ch) == 27)
+	{
+		// ESC = "throw away what I have typed so far" (the on-screen DELETE
+		// button of the chinese input builds its -0 trick around this)
+		raw_input.clear();
+	}
 	else
 	{
 		raw_input += ch;
@@ -45,6 +51,8 @@ std::string chinese::Input::do_input_inner_raw(
 
 	return raw_input;
 }
+
+void chinese::set_input_flow(int) {}
 
 std::string chinese::Input::do_input_inner(
 	std::string& debug_string,

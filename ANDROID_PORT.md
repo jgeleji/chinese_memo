@@ -301,7 +301,16 @@ Gotchas that waste hours:
   no umlaut key; `nv3` = nǚ, done inside `pinyin_flatten_1syll` so every pinyin
   path benefits, literal ü keeps working on console). A lone `-` (or the red FIX
   cell on the on-screen bar) between the two Enters discards a typed english or
-  pinyin answer and returns to typing state ("fix my mistake" flow).
+  pinyin answer and returns to typing state ("fix my mistake" flow). In the
+  chinese-character flow the orange `DELETE ALL` bar cell erases the whole typed
+  answer (the `-`-then-`0` cache trick made visible): typing state pushes
+  `ESC + "-\n0\n"`, choose-number state pushes `0\n-\n0\n` (ESC must stay out of
+  the grid path - empty raw there ENDS the answer); ESC also clears raw input in
+  both backends. Bar visibility is gated by `chinese::set_input_flow()` +
+  `g_active_state` (see `bar_key_active`). PC checks: `CANCEL_TYPES=chinese`
+  (raw keys) and `chinese_tap` (`@TAP` on the 6th visible bar cell, same
+  geometry as FIX) in driver3.py; both must end with re-answered ACCEPTED,
+  wrong=0.
 - Verdict screens: key line pinned at `text_top + avail_h*0.42`, fixed size
   `min(base_px*2, max_big)`; same spot for correct and wrong.
 - After each batch: PC scripted checks → gradle build → `adb install -r` →

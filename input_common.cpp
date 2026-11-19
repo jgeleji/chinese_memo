@@ -546,6 +546,8 @@ template class std::unordered_set<std::string>;
 
 std::string chinese::Input::do_input_pinyin(std::string description) const
 {
+	set_input_flow(INPUT_FLOW_FREE);
+
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
 	// 2 - finished char, decide to next char or finish input
@@ -577,6 +579,7 @@ std::string chinese::Input::do_input_pinyin(std::string description) const
 		}
 		//std::cout << "afterstuck " << state_number;
 	}
+	set_input_flow(INPUT_FLOW_NONE);
 	return ret;
 }
 
@@ -678,6 +681,8 @@ std::string chinese::Input::do_input_1char_pinyin(
 
 std::string chinese::Input::do_input_english(std::string description) const
 {
+	set_input_flow(INPUT_FLOW_FREE);
+
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
 	// 2 - finished char, decide to next char or finish input
@@ -706,11 +711,14 @@ std::string chinese::Input::do_input_english(std::string description) const
 			ret += c;
 		}
 	}
+	set_input_flow(INPUT_FLOW_NONE);
 	return ret;
 }
 
 std::string chinese::Input::do_input_chinese(std::string description, bool shuffle, int breaks, const char* expected) const
 {
+	set_input_flow(INPUT_FLOW_CHINESE);
+
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
 	// 2 - finished char, decide to next char or finish input
@@ -739,11 +747,14 @@ std::string chinese::Input::do_input_chinese(std::string description, bool shuff
 			ret += add;
 		}
 	}
+	set_input_flow(INPUT_FLOW_NONE);
 	return ret;
 }
 
 std::string chinese::Input::do_input_chinese_notone(std::string description, bool shuffle, int breaks, const char* expected) const
 {
+	set_input_flow(INPUT_FLOW_CHINESE);
+
 	// 0 - inside single char flat pinyin
 	// 1 - inside single char tone
 	// 2 - finished char, decide to next char or finish input
@@ -772,6 +783,7 @@ std::string chinese::Input::do_input_chinese_notone(std::string description, boo
 			ret += add;
 		}
 	}
+	set_input_flow(INPUT_FLOW_NONE);
 	return ret;
 }
 
