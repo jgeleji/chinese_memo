@@ -81,6 +81,46 @@ under internal files. After every study session:
 pulled file back in (assets sync, section 3), so PC build and phone never diverge.
 Console-phone pool sync (separate): `cd ~/cpp/chinese/chinese; rm -rf data union_q.txt; git pull`.
 
+Row format (one line per answered question, written immediately after each answer):
+
+```
+chinese|pinyin|english|provided|asked|seq|success|interval|last_correct_at|last_correct_interval
+```
+
+The first seven columns are the classic format (DATATYPE numbers: 0=chinese,
+1=english, 2=pinyin; seq = global question number). The last three columns are
+the gap record (see below). **Old 7-column files load unchanged** — the loader
+derives the record from the success/fail history — so the phone's existing
+progress survives. Phone rows often carry empty pinyin/english: the loader then
+falls back to the first registered variant of that word (as it always did).
+
+### Question selection: gap mode (`ask_gap_mixed`)
+
+`main_questions10.cpp` (the only ported quiz mode; PC twin `questions10_sdl`,
+Android `:app`) calls `q.ask_gap_mixed(...)`. The old block10 mode
+(`ask_all_until_fail_block10`) is untouched for the other console mains.
+
+Per question = (word entry, provided DATATYPE, asked DATATYPE), the engine keeps
+`gap_record{interval, last_correct_at, last_correct_interval, last_seq}`:
+
+- correct answer → if the question had a previous correct answer at seq p, the
+  demonstrated gap is `now - p` (questions asked in between, other ones);
+  `interval = max(interval, gap)`; first-ever correct sets interval ≥ 1
+- wrong answer → `interval = 0`, the correct→correct chain is broken
+  (`last_correct_interval = -1`); the question stays in the seen pool
+- `last_seq` = when it was last asked; -1 means never asked → still "new"
+
+Selection each question (fully deterministic — no RNG shuffles):
+
+- ~30% come from the new pool, in order of increasing word length
+  (unicode code points), ties by data order. Rule: take new iff
+  `10*(session_new+1) <= 3*session_total` → new share never exceeds 30%
+  (first new lands at question 4 of a session)
+- ~70% come from the seen pool: argmin of (interval asc, last_seq asc) over the
+  q_type map — weakest demonstrated interval first, oldest-asked on ties
+
+On-screen stat line: `seen_total/total_questions seq interval`.
+
 ## 3. How this app is built (the SDL2 pattern, component by component)
 
 Data flow: `console C++ (std::cout + getch)` → same engine compiled as
@@ -274,6 +314,30 @@ The backend has scripted-test hooks (env vars, all `CM_*`):
 | `CM_AUTOKEYS_FILE=f` | driver script **appends** raw keystrokes to f |
 | `CM_STATE_FILE=s` | program writes its current state there every frame |
 | `CM_SEED=n` | replay a known question sequence |
+| `CM_ASK_LOG=f` + `CM_DECIDE_FILE=g` | gap-mode selection driver (see `tools/qdriver.py` below): the engine appends `ASK\|<chi>\|<pin>\|<eng>\|<provided>\|<asked>\|<seq>` per question and blocks until g gains an `ok`/`bad` line; the on-screen ask and all display waits are skipped |
+
+Gap-mode selection has its own headless test driver, **`tools/qdriver.py`** —
+run it after any change to `ask_gap_mixed`/`load_gap_status_file` (it mirrors
+both in Python and checks the engine question-by-question):
+
+```bash
+cmake -S . -B /tmp/opencode/cm_build -DBUILD_SDL_PC=ON
+cmake --build /tmp/opencode/cm_build -j8 --target questions10_sdl
+python3 -u tools/qdriver.py            # empty crafted real → "N checks passed, 0 failed"
+```
+
+- `empty`: tiny hand-written full-field union_q + empty status → exact
+  ask-by-ask comparison against the Python model, record columns verified
+- `crafted`: baseline mixes legacy 7-column rows and new 10-column rows →
+  chain derivation, fail-breaks-chain, explicit columns win
+- `real`: full `union_q.txt` + the pulled phone `status1.txt` → structural
+  + per-question record consistency over 40 scripted answers (2 fails forced)
+- test dirs are built under `/tmp/opencode/qtest/` (assets/data symlinked);
+  never point it at the repo dir — status appends
+- expected mix on the real baseline: new questions at 4,7,10,14,... (~29%)
+- engine stderr in test mode prints `gapmode loaded= rec= seen= unseen= seqmax=`
+  (stdout goes to the SDL screen buffer, so this line is the test-visible copy
+  of the on-screen "Gap mode:" line)
 
 The scripted-driver protocol (this exact shape, see `/tmp/opencode/cm_fixtest/driver2.sh`
 = answer-correctly and `driver3.sh` = force-wrong for question 44821 — they may be gone
@@ -292,12 +356,19 @@ Gotchas that waste hours:
 - Test dirs need `assets/NotoSansSC.ttf` copied in, or the binary exits with
   `FATAL: failed to load NotoSansSC.ttf`.
 - Never `make all` in build-pc (ncurses targets).
+- `pkill -f questions10_sdl` also matches (and kills) the wrapper shell running
+  it — use `pkill -x questions10_sdl`. And `A && B && cmd &` backgrounds the
+  whole chain, so follow-up inspection commands run in the wrong cwd.
 - To verify device layouts: device frames must have bottom content row ≤1352;
   check with the frame .txt (or `/tmp/opencode/bottomrow.py`, a PNG row analyzer).
 
 ## 6. Standing rules for this project (do not regress)
 
-- `status1.txt` progress must survive every change; targets are questions10/block10 only.
+- `status1.txt` progress must survive every change; targets are questions10
+  (gap mode, `ask_gap_mixed`) only — old modes stay untouched for console mains.
+- Gap-mode selection stays deterministic (no RNG shuffles) and the new-question
+  share stays ≤30%; status rows keep backward compatibility (old 7-column files
+  must load). Verify with `tools/qdriver.py` before shipping.
 - Performance is first-class (phone RAM: bounded font-atlas sizes, no unbounded probes).
 - Keyboard: never type Chinese (VISIBLE_PASSWORD attrs), never disappears, never
   covers app buttons (IME band max-tracking + margin `g_h/40`).

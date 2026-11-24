@@ -620,6 +620,364 @@ bool chinese::questions::ask_all_until_fail_block10(
 	return true;
 }
 
+// ---------------------------------------------------------------------------
+// Gap-based scheduling. load_gap_status_file reads the (possibly old-format)
+// status file and reconstructs one gap_record per question; ask_gap_mixed
+// then asks: ~70% from the seen pool in increasing interval (oldest-asked
+// first on ties), ~30% brand-new questions in increasing word length. Every
+// answer is written to the status file immediately, as the classic seven
+// columns plus the record ("success|<interval>|<last_correct_at>|
+// <last_correct_interval>") so a later run can resume exactly where this one
+// stopped.
+
+std::map<chinese::questions::q_type, chinese::questions::gap_record> chinese::questions::load_gap_status_file(
+	size_t& sequence_number) const
+{
+	std::map<q_type, gap_record> rec;
+	for(size_t q=0; q<loaded_data.size(); ++q)
+	{
+		for(size_t i=0; i<3; ++i)
+		{
+			for(size_t j=0; j<3; ++j)
+			{
+				if(i==j) continue;
+				rec[q_type(q, (DATATYPE)i, (DATATYPE)j)] = gap_record{0, -1, -1, -1};
+			}
+		}
+	}
+
+	sequence_number = 0;
+
+	std::fstream statusfile;
+	statusfile.open(statusfilename, std::fstream::in);
+	while(statusfile.good())
+	{
+		std::string line;
+		getline(statusfile, line);
+		std::vector<std::string> tokens = tokenize(line, '|');
+		if(tokens.size() < 6)
+		{
+			continue;
+		}
+		auto iter0 = question_index_finder.find(tokens[0]);
+		if(iter0 == question_index_finder.end())
+		{
+			continue;
+		}
+		// older files (and the phone's rows) often leave pinyin/english empty:
+		// fall back to the first variant registered for that word, exactly as
+		// load_status_file does
+		auto iter1 = iter0->second.find(tokens[1]);
+		if(iter1 == iter0->second.end())
+		{
+			iter1 = iter0->second.begin();
+		}
+		auto iter2 = iter1->second.find(tokens[2]);
+		if(iter2 == iter1->second.end())
+		{
+			iter2 = iter1->second.begin();
+		}
+		q_type key = q_type(
+			iter2->second,
+			(DATATYPE)atoi(tokens[3].c_str()),
+			(DATATYPE)atoi(tokens[4].c_str())
+		);
+		auto iter = rec.find(key);
+		if(iter == rec.end())
+		{
+			continue;
+		}
+		gap_record& g = iter->second;
+		long long seq = atoll(tokens[5].c_str());
+		if(seq > g.last_seq) g.last_seq = seq;
+		if((size_t)seq > sequence_number) sequence_number = (size_t)seq;
+
+		if(tokens[6] == "success")
+		{
+			if(g.last_correct_at >= 0)
+				g.last_correct_interval = seq - g.last_correct_at;
+			g.last_correct_at = seq;
+		}
+		else if(tokens[6] == "fail")
+		{
+			g.last_correct_interval = -1;
+		}
+
+		// new-format rows carry the record as it was right after this answer:
+		// where present it overrides the derived values (it is the writer's
+		// own state, so old rows and new ones mix safely in either order)
+		if(tokens.size() >= 10 && !tokens[7].empty())
+		{
+			g.interval = atoll(tokens[7].c_str());
+			g.last_correct_at = atoll(tokens[8].c_str());
+			g.last_correct_interval = atoll(tokens[9].c_str());
+		}
+	}
+	return rec;
+}
+
+// Headless driver hook (tools/qdriver.py): instead of driving the on-screen
+// keyboard, the driver is told every question through CM_ASK_LOG and answers
+// it through CM_DECIDE_FILE ("ok"/"bad" per line). The selection logic can
+// then be verified without the SDL UI. Like the other CM_* hooks this is
+// gated at runtime: no env vars set (any real session, incl. Android) means
+// this code never does anything.
+#include <cstdio>
+#include <cstring>
+#include <unistd.h>
+
+static bool cm_gap_test_mode(void)
+{
+	return getenv("CM_ASK_LOG") != nullptr && getenv("CM_DECIDE_FILE") != nullptr;
+}
+
+typedef chinese::questions::DATATYPE cm_datatype;
+
+static bool cm_gap_decide(
+	std::string const& chinese_str,
+	std::string const& pinyin_str,
+	std::string const& english_str,
+	cm_datatype provided,
+	cm_datatype asked,
+	size_t seq,
+	std::string& gave)
+{
+	const char* asklog = getenv("CM_ASK_LOG");
+	const char* decfile = getenv("CM_DECIDE_FILE");
+	if(!asklog || !decfile) return false;   // no driver: fall back to real ask
+
+	static FILE* logf = nullptr;
+	if(!logf)
+	{
+		logf = fopen(asklog, "a");
+		if(!logf) return false;
+	}
+	fprintf(logf, "ASK|%s|%s|%s|%d|%d|%zu\n",
+		chinese_str.c_str(), pinyin_str.c_str(), english_str.c_str(),
+		(int)provided, (int)asked, seq);
+	fflush(logf);
+
+	static long long decpos = 0;
+	while(true)
+	{
+		FILE* f = fopen(decfile, "r");
+		if(f)
+		{
+			fseek(f, decpos, SEEK_SET);
+			char buf[64];
+			if(fgets(buf, sizeof(buf), f))
+			{
+				decpos = ftell(f);
+				fclose(f);
+				if(strncmp(buf, "ok", 2) == 0)
+				{
+					if(asked == chinese::questions::DATATYPE_CHINESE) gave = chinese_str;
+					else if(asked == chinese::questions::DATATYPE_PINYIN) gave = pinyin_str;
+					else gave = english_str;
+					return true;
+				}
+				gave = "\x01wrong";
+				return false;
+			}
+			fclose(f);
+		}
+		usleep(2000);
+	}
+}
+
+bool chinese::questions::ask_gap_mixed(int breaks) const
+{
+	const bool testmode = cm_gap_test_mode();
+	std::mt19937 gen(cm_selection_seed());
+
+	size_t sequence_number = 0;
+	std::map<q_type, gap_record> rec = load_gap_status_file(sequence_number);
+
+	// new questions in order of increasing complexity: shortest chinese word
+	// first, then data order (the map walks in that order, so a stable sort
+	// on the length is all that is needed)
+	std::vector<q_type> unseen;
+	size_t seen_total = 0;
+	for(auto const& kv : rec)
+	{
+		if(kv.second.last_seq < 0)
+			unseen.push_back(kv.first);
+		else
+			++seen_total;
+	}
+	std::stable_sort(unseen.begin(), unseen.end(), [this] (q_type const& a, q_type const& b)
+	{
+		size_t la = chinese::Input::count_unicode_code_points(loaded_data[std::get<0>(a)].chinese);
+		size_t lb = chinese::Input::count_unicode_code_points(loaded_data[std::get<0>(b)].chinese);
+		return la < lb;
+	});
+
+	size_t unseen_pos = 0;
+	size_t session_total = 0, session_new = 0;
+
+	std::cout << "Gap mode: " << seen_total << " seen, " << (unseen.size()/6) << " new words ("
+		<< unseen.size() << " new questions)" << "\r\n";
+	if(testmode)
+		fprintf(stderr, "gapmode loaded=%zu rec=%zu seen=%zu unseen=%zu seqmax=%zu\n",
+			loaded_data.size(), rec.size(), seen_total, unseen.size(), sequence_number);
+
+	while(true)
+	{
+		++sequence_number;
+		++session_total;
+
+		bool take_new;
+		if(unseen_pos >= unseen.size())
+			take_new = false;
+		else if(seen_total == 0)
+			take_new = true;
+		else
+			take_new = 10*(session_new+1) <= 3*session_total;   // never above 30% new
+
+		q_type which_q;
+		if(take_new)
+		{
+			which_q = unseen[unseen_pos++];
+			++session_new;
+		}
+		else
+		{
+			// weakest demonstrated interval first; on ties the one asked
+			// longest ago
+			bool any = false;
+			q_type best;
+			gap_record bestg{0,-1,-1,-1};
+			for(auto const& kv : rec)
+			{
+				if(kv.second.last_seq < 0) continue;   // still new: not from here
+				if(!any)
+				{
+					any = true;
+					best = kv.first;
+					bestg = kv.second;
+					continue;
+				}
+				if(kv.second.interval < bestg.interval ||
+					(kv.second.interval == bestg.interval && kv.second.last_seq < bestg.last_seq))
+				{
+					best = kv.first;
+					bestg = kv.second;
+				}
+			}
+			if(!any)
+			{
+				// nothing has ever been asked (fresh status file): the ratio
+				// rule would starve, so take a new question regardless
+				which_q = unseen[unseen_pos++];
+				++session_new;
+			}
+			else
+				which_q = best;
+		}
+
+		size_t q = std::get<0>(which_q);
+		DATATYPE provided = std::get<1>(which_q);
+		DATATYPE asked = std::get<2>(which_q);
+		datapoint const* current = &loaded_data[q];
+		gap_record& g = rec[which_q];
+
+		// same ambiguity guard as the other modes: another word that shows the
+		// same provided text but wants a different answer would make this one
+		// unanswerable, so name those to avoid
+		std::vector<datapoint const*> others;
+		std::string key = current->get(provided);
+		std::unordered_map<std::string, std::unordered_set<int>>::const_iterator iter;
+		std::unordered_map<std::string, std::unordered_set<int>> const* provided_overlaps;
+		switch(provided)
+		{
+			case DATATYPE_PINYIN: provided_overlaps = &pinyin_overlaps; break;
+			case DATATYPE_ENGLISH: provided_overlaps = &english_overlaps; break;
+			default: provided_overlaps = &chinese_overlaps; break;
+		}
+		iter = provided_overlaps->find(key);
+		if(iter != provided_overlaps->end())
+		{
+			for(size_t index: iter->second)
+			{
+				datapoint const* identical = &loaded_data[index];
+				if(identical->get(asked) != current->get(asked))
+				{
+					others.push_back(identical);
+				}
+			}
+		}
+
+		std::string stats = std::to_string(seen_total) + "/" + std::to_string(6*loaded_data.size())
+				+ " " + std::to_string(sequence_number)
+				+ " " + std::to_string(g.interval);
+
+		std::string gave;
+		bool result = cm_gap_decide(
+			current->get(DATATYPE_CHINESE),
+			current->get(DATATYPE_PINYIN),
+			current->get(DATATYPE_ENGLISH),
+			provided, asked, sequence_number, gave);
+		if(!result && gave.empty())   // no driver answering: ask for real
+			result = current->ask(m_input, provided, asked, stats, others, gave, breaks);
+
+		if(result)
+		{
+			if(g.last_correct_at >= 0)
+			{
+				long long iv = (long long)sequence_number - g.last_correct_at;
+				if(iv > g.interval) g.interval = iv;
+				g.last_correct_interval = iv;
+			}
+			else if(g.interval < 1)
+				g.interval = 1;
+			g.last_correct_at = (long long)sequence_number;
+			std::cout << "Answer accepted!\r\n";
+			if(!testmode)   // scripted runs would crawl with the display waits
+			{
+				std::cout << "Btw\r\nCHI=" << current->get(DATATYPE_CHINESE);
+				std::cout << ",\r\nPYN=" << current->get(DATATYPE_PINYIN);
+				std::cout << ",\r\nENG=" << current->get(DATATYPE_ENGLISH) << "\r\n";
+				m_input.show_for(900);
+			}
+		}
+		else
+		{
+			g.interval = 0;
+			g.last_correct_interval = -1;
+			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
+			std::cout << "Correct would have been " << current->get(asked) << "\r\n";
+			std::cout << "Btw\r\nCHI=" << current->get(DATATYPE_CHINESE);
+			std::cout << ",\r\nPYN=" << current->get(DATATYPE_PINYIN);
+			std::cout << ",\r\nENG=" << current->get(DATATYPE_ENGLISH) << "\r\n";
+			if(!testmode)
+				system_pause();
+		}
+		if(g.last_seq < 0)
+		{
+			// first time this question was ever asked: it joins the seen pool
+			g.last_seq = (long long)sequence_number;
+			++seen_total;
+		}
+		else
+			g.last_seq = (long long)sequence_number;
+
+		{
+			std::fstream statusfile;
+			statusfile.open(statusfilename, std::fstream::out | std::fstream::app);
+			statusfile << current->get(DATATYPE_CHINESE) << "|";
+			statusfile << current->get(DATATYPE_PINYIN) << "|";
+			statusfile << current->get(DATATYPE_ENGLISH) << "|";
+			statusfile << ((int)provided) << "|" << ((int)asked);
+			statusfile << "|" << sequence_number << "|";
+			statusfile << (result ? "success" : "fail");
+			statusfile << "|" << g.interval << "|" << g.last_correct_at << "|" << g.last_correct_interval;
+			statusfile << "\n";
+			statusfile.close();
+		}
+	}
+	return true;
+}
+
 bool chinese::questions::ask_all_until_fail(
 	std::function<double(int)> f,
 	int breaks) const

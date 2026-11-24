@@ -39,6 +39,15 @@ class questions
 		bool ask_all_until_fail_block10(
 			std::function<double(int)> f = [](int) -> double { return 0.0; },
 			int breaks = 0) const;
+
+		// Gap-based scheduling (the mode questions10 uses): ~70% of the
+		// questions come from the already-seen pool (asked in increasing
+		// demonstrated interval, oldest-asked first on ties), ~30% are
+		// still-new questions taken in order of increasing word length. One
+		// status line is written per question, with the per-question record
+		// appended as three extra columns (old 7-column files load unchanged).
+		// See gap_record below.
+		bool ask_gap_mixed(int breaks = 0) const;
 		void populate_chinese_char_to_index();
 
 		bool ask_1_chinese_char(
@@ -85,7 +94,30 @@ class questions
 
 		// normal quesions
 		typedef std::tuple<size_t, DATATYPE, DATATYPE> q_type;
-		
+
+		// Gap-based scheduling (ask_gap_mixed). For every question (a word +
+		// what is given + what is asked) we keep:
+		//   interval               the longest run of other questions the user
+		//                          has already survived between two correct
+		//                          answers of this one: 0 after a mistake,
+		//                          growing to the gap of the newest
+		//                          correct->correct pair
+		//   last_correct_at        global question number of the newest
+		//                          correct answer (-1: never correct)
+		//   last_correct_interval  length of the newest correct->correct run,
+		//                          -1 when that chain was broken by a mistake
+		//   last_seq               global number of when it was last asked
+		//                          (-1: never asked, i.e. still a new word)
+		struct gap_record
+		{
+			long long interval;
+			long long last_correct_at;
+			long long last_correct_interval;
+			long long last_seq;
+		};
+
+		std::map<q_type, gap_record> load_gap_status_file(size_t& sequence_number) const;
+
 		std::map<q_type, std::pair<size_t, double>> load_status_file(
 			std::mt19937& gen,
 			size_t& sequence_number,
