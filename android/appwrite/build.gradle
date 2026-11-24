@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.application'
+}
+
+// chinese_memo/ (the directory that holds CMakeLists.txt, write_data.txt ...)
+def cmRoot = new File(rootDir, '..')
+
+android {
+    namespace 'com.geleji.chinesewrite'
+    compileSdk 34
+    ndkVersion '27.0.12077973'
+
+    defaultConfig {
+        applicationId 'com.geleji.chinesewrite'
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_STL=c++_shared', '-DANDROID_PLATFORM=android-21'
+                abiFilters 'arm64-v8a'
+                targets 'chinesewrite_sdl'
+                cppFlags '-std=c++11'
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path new File(cmRoot, 'CMakeLists.txt')
+            version '3.22.1'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    // the practice data is part of the build: refresh appwrite/src/main/assets first
+    applicationVariants.all { variant ->
+        tasks["merge${variant.name.capitalize()}Assets"].dependsOn('syncAppAssets')
+    }
+}
+
+// The native side chdir()s into the app's internal storage and opens the data
+// files with relative paths, so they have to live in assets/ (MainActivity
+// unpacks them there at startup). Unlike the quiz app this one needs no
+// data/ or data2/ dictionary tree - just the stroke table, the pinyin map,
+// the word base and the font.
+tasks.register('syncAppAssets', Copy) {
+    from(new File(cmRoot, 'union_q.txt'))
+    from(new File(cmRoot, 'write_data.txt'))
+    from(new File(cmRoot, 'write_pinyin.txt'))
+    from(new File(new File(cmRoot, 'assets'), 'NotoSansSC.ttf'))
+    into new File(projectDir, 'src/main/assets')
+    duplicatesStrategy DuplicatesStrategy.INCLUDE
+}

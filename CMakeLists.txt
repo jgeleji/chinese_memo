@@ -132,6 +132,14 @@ if(ANDROID OR BUILD_SDL_PC)
 		)
 		target_include_directories(questions_sdl PRIVATE ${CMAKE_SOURCE_DIR}/third_party)
 		target_link_libraries(questions_sdl SDL2::SDL2)
+
+		# the writing-practice app (chinese write): one TU, its own SDL_main
+		# wrapper that #includes write_sdl.cpp (see main_sdl_write.cpp)
+		add_library(chinesewrite_sdl SHARED
+			main_sdl_write.cpp
+		)
+		target_include_directories(chinesewrite_sdl PRIVATE ${CMAKE_SOURCE_DIR}/third_party)
+		target_link_libraries(chinesewrite_sdl SDL2::SDL2)
 	else()
 		add_executable(questions10_sdl
 			main_sdl_questions10.cpp
@@ -155,6 +163,12 @@ if(ANDROID OR BUILD_SDL_PC)
 		)
 		target_include_directories(input_sdl PRIVATE ${CMAKE_SOURCE_DIR}/third_party)
 		target_link_libraries(input_sdl SDL2::SDL2-static SDL2::SDL2main)
+
+		# the writing-practice app (standalone: it carries its own render/font
+		# blocks, so it shares no code with the quiz engine)
+		add_executable(write_sdl write_sdl.cpp)
+		target_include_directories(write_sdl PRIVATE ${CMAKE_SOURCE_DIR}/third_party)
+		target_link_libraries(write_sdl SDL2::SDL2-static SDL2::SDL2main)
 	endif()
 
 endif()

@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = 'chinese_memo'
 include ':app'
+include ':appwrite'

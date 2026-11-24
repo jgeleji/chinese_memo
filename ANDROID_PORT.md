@@ -5,6 +5,10 @@ needed to (a) build, install and sync chinese_memo on the phones over USB, and
 (b) port any other console C++ app to a fullscreen Android app using the same
 SDL2 pattern. All facts here were verified against this repo and the real phones.
 
+NOTE: the repo now holds a second app, **chinese write** (writing practice) -
+its own context doc is `WRITE_PORT.md`; this file's machine/tool/device facts
+apply to both.
+
 ---
 
 ## 1. Machines, tools, devices

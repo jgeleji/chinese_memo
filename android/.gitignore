@@ -3,7 +3,10 @@
 build/
 app/build/
 app/.cxx/
+appwrite/build/
+appwrite/.cxx/
 local.properties
 
 # unpacked from the game sources by the syncAppAssets task
 app/src/main/assets/
+appwrite/src/main/assets/
