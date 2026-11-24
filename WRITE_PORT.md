@@ -108,6 +108,13 @@ $HOME/android-sdk/platform-tools/adb install -r \
   (marker `.assets_version` keyed to apkInstallTime).
 - Verified on `e1fc29d2`: boots at 1280x2772, `chinese_write: chars=1337
   words=1862 pool=541`, pick screen renders correctly.
+- Android touch gotcha (was a shipped bug): SDL synthesizes a MOUSE event for
+  every finger event, so a tap used to be handled twice - the SPLIT toggle
+  appeared dead (on->off->on) and correct component picks were followed by a
+  phantom "wrong part" for the next slot. Guarded with the
+  `SDL_HINT_MOUSE_TOUCH_EVENTS/SDL_HINT_TOUCH_MOUSE_EVENTS` hints AND by
+  dropping mouse events whose `which == SDL_TOUCH_MOUSEID`. The headless
+  driver injects strokes/taps directly, so it cannot catch this class of bug.
 - Copy the APK for manual installs:
   `cp android/appwrite/build/outputs/apk/debug/appwrite-debug.apk ~/Downloads/chinese_write-debug.apk`
 

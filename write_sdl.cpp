@@ -1635,6 +1635,14 @@ static void present(void)
 int main(int argc, char** argv)
 {
 	(void)argc; (void)argv;
+	// Android (and any touch device) makes SDL synthesize a MOUSE event for
+	// every touch: one tap would then be handled twice - the SPLIT toggle
+	// "did nothing" (on->off->on) and picking the right component was followed
+	// by a phantom tap on the NEXT slot ("always the wrong part"). Kill the
+	// cross-synthesis and also filter the legacy mouse id for touch below.
+	SDL_SetHint(SDL_HINT_MOUSE_TOUCH_EVENTS, "0");
+	SDL_SetHint(SDL_HINT_TOUCH_MOUSE_EVENTS, "0");
+
 	if(SDL_Init(SDL_INIT_VIDEO) != 0)
 	{
 		fprintf(stderr, "SDL_Init failed: %s\n", SDL_GetError());
@@ -1764,6 +1772,7 @@ int main(int argc, char** argv)
 						stroke_end();
 						break;
 					case SDL_MOUSEBUTTONDOWN:
+						if(ev.button.which == SDL_TOUCH_MOUSEID) break;  // real mouse only
 						if(ev.button.button == SDL_BUTTON_LEFT)
 						{
 							mouse_down = 1;
@@ -1772,10 +1781,12 @@ int main(int argc, char** argv)
 						}
 						break;
 					case SDL_MOUSEMOTION:
+						if(ev.motion.which == SDL_TOUCH_MOUSEID) break;
 						if(mouse_down && (ev.motion.state & SDL_BUTTON_LMASK))
 							stroke_move(ev.motion.x, ev.motion.y);
 						break;
 					case SDL_MOUSEBUTTONUP:
+						if(ev.button.which == SDL_TOUCH_MOUSEID) break;
 						if(ev.button.button == SDL_BUTTON_LEFT && mouse_down)
 						{
 							mouse_down = 0;
