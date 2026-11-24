@@ -43,10 +43,12 @@ class questions
 		// Gap-based scheduling (the mode questions10 uses): ~70% of the
 		// questions come from the already-seen pool (asked in increasing
 		// demonstrated interval, oldest-asked first on ties), ~30% are
-		// still-new questions taken in order of increasing word length. One
-		// status line is written per question, with the per-question record
-		// appended as three extra columns (old 7-column files load unchanged).
-		// See gap_record below.
+		// still-new questions taken in order of increasing word length;
+		// a question answered wrong is re-asked a few questions later (and
+		// recent unresolved misses are re-asked early even in a later run).
+		// One status line is written per question, with the per-question
+		// record appended as three extra columns (old 7-column files load
+		// unchanged). See gap_record below.
 		bool ask_gap_mixed(int breaks = 0) const;
 		void populate_chinese_char_to_index();
 

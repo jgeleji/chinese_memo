@@ -815,11 +815,28 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 	size_t unseen_pos = 0;
 	size_t session_total = 0, session_new = 0;
 
+	// A mistake resets the interval to 0, but the interval-0 pool is huge and
+	// asked oldest-first, so the one just missed would not come back for ages.
+	// Keep a small queue that re-asks a missed question REASK_GAP questions
+	// later; being asked again and again close together is exactly what makes
+	// a missed word stick (and the interval then measures the gap from the
+	// last time it was answered right, as before).
+	const long long REASK_GAP = 5;
+	std::vector<std::pair<long long, q_type>> reaskq;   // (due-question, question)
+	// questions whose last attempt ended in a mistake (last_correct_at is
+	// older than last_seq) and that were asked in the last 30 questions:
+	// the ones that were still stinging when the previous session ended
+	for(auto const& kv : rec)
+		if(kv.second.last_seq >= 0
+			&& kv.second.last_correct_at < kv.second.last_seq
+			&& kv.second.last_seq + 30 >= (long long)sequence_number)
+			reaskq.push_back(std::make_pair((long long)sequence_number, kv.first));
+
 	std::cout << "Gap mode: " << seen_total << " seen, " << (unseen.size()/6) << " new words ("
 		<< unseen.size() << " new questions)" << "\r\n";
 	if(testmode)
-		fprintf(stderr, "gapmode loaded=%zu rec=%zu seen=%zu unseen=%zu seqmax=%zu\n",
-			loaded_data.size(), rec.size(), seen_total, unseen.size(), sequence_number);
+		fprintf(stderr, "gapmode loaded=%zu rec=%zu seen=%zu unseen=%zu reask=%zu seqmax=%zu\n",
+			loaded_data.size(), rec.size(), seen_total, unseen.size(), reaskq.size(), sequence_number);
 
 	while(true)
 	{
@@ -835,12 +852,33 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 			take_new = 10*(session_new+1) <= 3*session_total;   // never above 30% new
 
 		q_type which_q;
+		bool is_reask = false;
+		size_t best_reask = 0;
 		if(take_new)
 		{
 			which_q = unseen[unseen_pos++];
 			++session_new;
 		}
 		else
+		{
+			// a due re-ask (recently missed) goes before everything else in
+			// the seen slot; earliest due first, map order on ties
+			bool reask_found = false;
+			for(size_t i=0; i<reaskq.size(); ++i)
+				if(reaskq[i].first <= (long long)sequence_number
+					&& (!reask_found || reaskq[i].first < reaskq[best_reask].first))
+				{
+					reask_found = true;
+					best_reask = i;
+				}
+			if(reask_found)
+			{
+				which_q = reaskq[best_reask].second;
+				reaskq.erase(reaskq.begin() + best_reask);
+				is_reask = true;
+			}
+		}
+		if(!take_new && !is_reask)
 		{
 			// weakest demonstrated interval first; on ties the one asked
 			// longest ago
@@ -874,6 +912,14 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 			else
 				which_q = best;
 		}
+
+		// whichever way it was picked, it is not waiting in the re-ask queue
+		for(size_t i=0; i<reaskq.size(); ++i)
+			if(reaskq[i].second == which_q)
+			{
+				reaskq.erase(reaskq.begin() + i);
+				break;
+			}
 
 		size_t q = std::get<0>(which_q);
 		DATATYPE provided = std::get<1>(which_q);
@@ -910,6 +956,8 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 		std::string stats = std::to_string(seen_total) + "/" + std::to_string(6*loaded_data.size())
 				+ " " + std::to_string(sequence_number)
 				+ " " + std::to_string(g.interval);
+		if(is_reask)
+			stats += " re-ask";
 
 		std::string gave;
 		bool result = cm_gap_decide(
@@ -944,6 +992,8 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 		{
 			g.interval = 0;
 			g.last_correct_interval = -1;
+			// the point of this whole queue: the miss comes back soon
+			reaskq.push_back(std::make_pair((long long)sequence_number + REASK_GAP, which_q));
 			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
 			std::cout << "Correct would have been " << current->get(asked) << "\r\n";
 			std::cout << "Btw\r\nCHI=" << current->get(DATATYPE_CHINESE);

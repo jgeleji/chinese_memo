@@ -148,6 +148,8 @@ class Model:
         self.session_new = 0
         self.unseen = None      # built lazily on first pick(): by then any
         self.unseen_pos = 0     # baseline status rows have been applied
+        self.reaskq = None      # (due_seq, key), mirrors the engine's queue
+        self.reask_gap = 5
 
     @property
     def seen_total(self):
@@ -184,6 +186,13 @@ class Model:
         if self.unseen is None:
             self.unseen = [k for k in sorted(self.rec) if self.rec[k][3] < 0]
             self.unseen.sort(key=lambda k: len(self.entries[k[0]][0]))  # by length
+            # seed the re-ask queue: last attempt ended in a mistake
+            # (last_correct_at older than last_seq) and asked within the
+            # last 30 questions of the previous run
+            self.reaskq = [(self.seq, k) for k in sorted(self.rec)
+                           if self.rec[k][3] >= 0
+                           and self.rec[k][1] < self.rec[k][3]
+                           and self.rec[k][3] + 30 >= self.seq]
         self.seq += 1
         self.session_total += 1
         if self.unseen_pos >= len(self.unseen):
@@ -192,28 +201,40 @@ class Model:
             take_new = True
         else:
             take_new = 10 * (self.session_new + 1) <= 3 * self.session_total
+        key = None
         if take_new:
             key = self.unseen[self.unseen_pos]
             self.unseen_pos += 1
             self.session_new += 1
-            return key
-        best = None
-        for k in sorted(self.rec):
-            g = self.rec[k]
-            if g[3] < 0:
-                continue
-            if best is None:
-                best = k
-                continue
-            b = self.rec[best]
-            if g[0] < b[0] or (g[0] == b[0] and g[3] < b[3]):
-                best = k
-        if best is None:   # nothing ever asked yet: engine takes a new one
-            key = self.unseen[self.unseen_pos]
-            self.unseen_pos += 1
-            self.session_new += 1
-            return key
-        return best
+        else:
+            # a due re-ask takes the seen slot (earliest due first,
+            # insertion order on ties)
+            due = [(d, k) for (d, k) in self.reaskq if d <= self.seq]
+            if due:
+                d, k = min(due, key=lambda x: x[0])
+                self.reaskq.remove((d, k))
+                key = k
+        if key is None:
+            best = None
+            for k in sorted(self.rec):
+                g = self.rec[k]
+                if g[3] < 0:
+                    continue
+                if best is None:
+                    best = k
+                    continue
+                b = self.rec[best]
+                if g[0] < b[0] or (g[0] == b[0] and g[3] < b[3]):
+                    best = k
+            if best is None:   # nothing ever asked yet: take a new one
+                key = self.unseen[self.unseen_pos]
+                self.unseen_pos += 1
+                self.session_new += 1
+            else:
+                key = best
+        # whichever way it was picked, drop it from the queue
+        self.reaskq = [(d, k) for (d, k) in self.reaskq if k != key]
+        return key
 
     def answer(self, key, ok):
         """Mirror the post-answer update; returns the record written."""
@@ -230,6 +251,8 @@ class Model:
         else:
             g[0] = 0
             g[2] = -1
+            if self.reaskq is not None:
+                self.reaskq.append((self.seq + self.reask_gap, key))
         g[3] = self.seq
         return tuple(g[:3])   # the three columns the engine writes
 
@@ -297,6 +320,21 @@ def parse_written(line):
     return t, int(t[5]), t[6], (int(t[7]), int(t[8]), int(t[9]))
 
 
+def check_reask_soon(asks, bad_idx, name):
+    """A question answered wrong must be asked again within the next 10
+    questions (re-ask gap 5, plus headroom for new-question slots)."""
+    for i in bad_idx:
+        key = (asks[i][0], asks[i][3], asks[i][4])
+        nxt = None
+        for j in range(i + 1, min(i + 11, len(asks))):
+            if (asks[j][0], asks[j][3], asks[j][4]) == key:
+                nxt = j
+                break
+        check("%s.reask%d" % (name, i + 1),
+              nxt is not None and 2 <= nxt - i <= 10,
+              "missed q%d %s next-ask=%s" % (i + 1, key, nxt))
+
+
 def test_empty(binary, base):
     d = make_testdir(base, "qtest_empty")
     union = os.path.join(d, "union_q.txt")
@@ -309,9 +347,8 @@ def test_empty(binary, base):
 
     eng = Engine(binary, d, os.path.join(d, "ask.log"), os.path.join(d, "dec.txt"))
     N = 30
-    plan = ["ok"] * 3
-    plan[2] = "bad"
-    plan += ["ok"] * (N - 3)
+    plan = ["ok"] * N
+    plan[12] = "bad"      # late enough that the seen pool is non-degenerate
     for i in range(N):
         ask = eng.wait_ask(i)
         want = model.pick()
@@ -353,6 +390,7 @@ def test_empty(binary, base):
             newlens.append(len(chi))
     check("empty.new-in-length-order", newlens == sorted(newlens), str(newlens))
     check("empty.new-cap-30", 10 * news <= 3 * N + 3, "new=%d total=%d" % (news, N))
+    check_reask_soon(eng.asks, [i for i, pl in enumerate(plan) if pl == "bad"], "empty")
 
 
 def test_crafted(binary, base):
@@ -437,6 +475,7 @@ def test_crafted(binary, base):
                   "%s vs %s" % (t, rec))
             check("crafted.line%d.result" % i,
                   (res == "success") == (plan[i] == "ok"), written[i])
+    check_reask_soon(eng.asks, [i for i, pl in enumerate(plan) if pl == "bad"], "crafted")
 
 
 def test_real(binary, base):
@@ -492,6 +531,7 @@ def test_real(binary, base):
                 else:
                     check("real.ok%d.first" % i, interval == max(p_int, 1), line)
         state[key] = (interval, lca, lci)
+    check_reask_soon(eng.asks, sorted(bad_at), "real")
 
 
 def main():

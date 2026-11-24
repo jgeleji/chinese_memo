@@ -118,8 +118,16 @@ Selection each question (fully deterministic — no RNG shuffles):
   (first new lands at question 4 of a session)
 - ~70% come from the seen pool: argmin of (interval asc, last_seq asc) over the
   q_type map — weakest demonstrated interval first, oldest-asked on ties
+- **re-ask queue**: a question answered wrong is re-asked 5 questions later
+  (`REASK_GAP`), taking the seen slot ahead of the argmin pick; the on-screen
+  stat line then shows the extra word `re-ask`. At session start, questions
+  whose last attempt ended in a mistake (`last_correct_at < last_seq`) and
+  were asked within the last 30 questions are seeded into the queue, so a
+  session interrupted right after a miss picks up where it left off
+- the queue needs no new status columns (the condition derives from the
+  stored record)
 
-On-screen stat line: `seen_total/total_questions seq interval`.
+On-screen stat line: `seen_total/total_questions seq interval [re-ask]`.
 
 ## 3. How this app is built (the SDL2 pattern, component by component)
 
@@ -335,6 +343,8 @@ python3 -u tools/qdriver.py            # empty crafted real → "N checks passed
 - test dirs are built under `/tmp/opencode/qtest/` (assets/data symlinked);
   never point it at the repo dir — status appends
 - expected mix on the real baseline: new questions at 4,7,10,14,... (~29%)
+- `check_reask_soon`: every scripted "bad" must be asked again within the
+  next 10 questions (all three tests assert this)
 - engine stderr in test mode prints `gapmode loaded= rec= seen= unseen= seqmax=`
   (stdout goes to the SDL screen buffer, so this line is the test-visible copy
   of the on-screen "Gap mode:" line)
@@ -367,8 +377,9 @@ Gotchas that waste hours:
 - `status1.txt` progress must survive every change; targets are questions10
   (gap mode, `ask_gap_mixed`) only — old modes stay untouched for console mains.
 - Gap-mode selection stays deterministic (no RNG shuffles) and the new-question
-  share stays ≤30%; status rows keep backward compatibility (old 7-column files
-  must load). Verify with `tools/qdriver.py` before shipping.
+  share stays ≤30%; a missed question always comes back within ~10 questions.
+  Status rows keep backward compatibility (old 7-column files must load).
+  Verify with `tools/qdriver.py` before shipping.
 - Performance is first-class (phone RAM: bounded font-atlas sizes, no unbounded probes).
 - Keyboard: never type Chinese (VISIBLE_PASSWORD attrs), never disappears, never
   covers app buttons (IME band max-tracking + margin `g_h/40`).
