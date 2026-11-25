@@ -1,26 +1,31 @@
 #!/usr/bin/env python3
-# Headless test driver for the chinese_memo quiz app's gap-based question
-# selection (chinese::questions::ask_gap_mixed).
+# Headless test driver for the chinese_memo quiz app's word-centric gap-based
+# question selection (chinese::questions::ask_gap_mixed).
 #
-# Protocol (CM_TEST_BUILD build only): the engine appends one line per
-# question to $CM_ASK_LOG:
+# Protocol (runtime-gated: only when CM_ASK_LOG + CM_DECIDE_FILE are set):
+# the engine appends one line per question to $CM_ASK_LOG:
 #     ASK|<chinese>|<pinyin>|<english>|<provided>|<asked>|<seq>
 # and blocks until $CM_DECIDE_FILE gains a new line ("ok" or "bad"). It then
 # appends one status line per answer to status1.txt:
-#     <chi>|<pin>|<eng>|<p>|<a>|<seq>|success|<interval>|<last_correct_at>|<last_correct_interval>
-# (the classic seven columns plus the three record columns; the record is the
-# state right after this answer).
+#     <chi>|<pin>|<eng>|<p>|<a>|<seq>|success|<interval>|<lca>|<round_min>|<form>|<rounds_done>
+# (the classic seven columns plus the five per-word record columns; the
+# record is the word's state right after this answer).
 #
-# The driver runs questions10_sdl with SDL_VIDEODRIVER=dummy, answers the
-# questions itself, and keeps a mirror model of the selection logic
-# (load_gap_status_file + the ask_gap_mixed loop) to verify:
-#   * every question the engine asks is exactly the one the model picks,
-#   * the ~70/30 mix: new questions never exceed 30% of the session,
-#   * new questions arrive in order of increasing word length,
-#   * every status line's record is exactly what the model computes
-#     (interval grows to demonstrated gaps, resets to 0 on a fail),
-#   * old-format rows (success/fail only) and new-format rows (explicit
-#     record columns) load into the right records.
+# One unit = one word (a loaded_data entry) asked through the four forms
+# FORMS = chi->pin, chi->eng, pin->chi, eng->chi in that fixed order; a
+# completed round's distance (min of its 3 correct->correct gaps) raises the
+# word's interval. The driver runs questions10_sdl with SDL_VIDEODRIVER=dummy,
+# answers the questions itself, and keeps a mirror model of the selection
+# logic (load_gap_status_file + the ask_gap_mixed loop) to verify:
+#   * every question the engine asks is exactly the word+form the model picks,
+#   * forms of one word follow the fixed order,
+#   * the ~70/30 mix: new words never exceed 30% of the session,
+#   * new words arrive in order of increasing word length,
+#   * every status line's record is exactly what the model computes (round
+#     logic: round_min, completed distance, form rotation, rounds_done),
+#   * old-format rows (success/fail only), the intermediate 10-column rows
+#     and current 12-column rows all load into the right records,
+#   * a missed word comes back within a few questions.
 #
 # Usage: python3 tools/qdriver.py [--binary <questions10_sdl>] [test...]
 # Tests: empty, crafted, real. Default: all.
@@ -34,7 +39,9 @@ import time
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-PROVIDED_ASKED = [(p, a) for p in range(3) for a in range(3) if p != a]
+# form order: chinese->pinyin, chinese->english, pinyin->chinese, english->chinese
+# (DATATYPE: CHINESE=0, ENGLISH=1, PINYIN=2)
+FORMS = [(0, 2), (0, 1), (2, 0), (1, 0)]
 
 PASS = []
 FAIL = []
@@ -134,21 +141,23 @@ class Engine:
 
 
 class Model:
-    """Mirror of load_gap_status_file + the ask_gap_mixed selection loop."""
+    """Mirror of load_gap_status_file + the word-centric ask_gap_mixed loop.
+
+    A word's record: [interval, last_correct_at, round_min, last_seq, form,
+    rounds_done]."""
 
     def __init__(self, entries, seq=0):
         # entries: list of (chinese, english, pinyin) in loaded_data order
         self.entries = entries
         self.rec = {}
         for q in range(len(entries)):
-            for (p, a) in PROVIDED_ASKED:
-                self.rec[(q, p, a)] = [0, -1, -1, -1]  # interval, lca, lci, last_seq
+            self.rec[q] = [0, -1, -1, -1, 0, 0]
         self.seq = seq
         self.session_total = 0
         self.session_new = 0
         self.unseen = None      # built lazily on first pick(): by then any
         self.unseen_pos = 0     # baseline status rows have been applied
-        self.reaskq = None      # (due_seq, key), mirrors the engine's queue
+        self.reaskq = None      # (due_seq, q), mirrors the engine's queue
         self.reask_gap = 5
 
     @property
@@ -161,38 +170,39 @@ class Model:
                 return q
         return None
 
-    def apply_line(self, chi, pin, eng, p, a, seq, result, gap=None, lca=None, lci=None):
-        """Fold one status line into the records (mirrors load_gap_status_file;
-        these tests always use exact full-field rows)."""
-        key = self.find_key(chi, pin, eng)
-        if key is None:
+    def apply_line(self, chi, pin, eng, p, a, seq, result,
+                   gap=None, lca=None, rmin=None, form=None, done=None):
+        """Fold one status line into the word's record (mirrors
+        load_gap_status_file; the tests use exact full-field rows)."""
+        q = self.find_key(chi, pin, eng)
+        if q is None:
             return None
-        g = self.rec[(key, p, a)]
-        if seq > g[3]:
-            g[3] = seq
-        if result == "success":
-            if g[1] >= 0:
-                g[2] = seq - g[1]
-            g[1] = seq
-        elif result == "fail":
-            g[2] = -1
-        if gap is not None:
-            g[0], g[1], g[2] = gap, lca, lci
+        w = self.rec[q]
+        if seq > w[3]:
+            w[3] = seq
+        if result == "success" and seq > w[1]:
+            w[1] = seq
+        # current-format rows (>=12 columns) carry the whole state right
+        # after the answer; the intermediate 10-column rows carry only three
+        # record columns and are treated as legacy (see apply_line)
+        if gap is not None and lca is not None and rmin is not None \
+                and form is not None and done is not None:
+            w[0], w[1], w[2], w[4], w[5] = gap, lca, rmin, form, done
         self.seq = max(self.seq, seq)
-        return key
+        return q
 
     def pick(self):
-        """Return (q,p,a) the engine should ask next."""
+        """Return q the engine should ask next (in the word's current form)."""
         if self.unseen is None:
-            self.unseen = [k for k in sorted(self.rec) if self.rec[k][3] < 0]
-            self.unseen.sort(key=lambda k: len(self.entries[k[0]][0]))  # by length
+            self.unseen = [q for q in sorted(self.rec) if self.rec[q][3] < 0]
+            self.unseen.sort(key=lambda q: len(self.entries[q][0]))  # stable, by length
             # seed the re-ask queue: last attempt ended in a mistake
             # (last_correct_at older than last_seq) and asked within the
             # last 30 questions of the previous run
-            self.reaskq = [(self.seq, k) for k in sorted(self.rec)
-                           if self.rec[k][3] >= 0
-                           and self.rec[k][1] < self.rec[k][3]
-                           and self.rec[k][3] + 30 >= self.seq]
+            self.reaskq = [(self.seq, q) for q in sorted(self.rec)
+                           if self.rec[q][3] >= 0
+                           and self.rec[q][1] < self.rec[q][3]
+                           and self.rec[q][3] + 30 >= self.seq]
         self.seq += 1
         self.session_total += 1
         if self.unseen_pos >= len(self.unseen):
@@ -201,9 +211,9 @@ class Model:
             take_new = True
         else:
             take_new = 10 * (self.session_new + 1) <= 3 * self.session_total
-        key = None
+        q = None
         if take_new:
-            key = self.unseen[self.unseen_pos]
+            q = self.unseen[self.unseen_pos]
             self.unseen_pos += 1
             self.session_new += 1
         else:
@@ -213,48 +223,55 @@ class Model:
             if due:
                 d, k = min(due, key=lambda x: x[0])
                 self.reaskq.remove((d, k))
-                key = k
-        if key is None:
+                q = k
+        if q is None:
             best = None
             for k in sorted(self.rec):
-                g = self.rec[k]
-                if g[3] < 0:
+                w = self.rec[k]
+                if w[3] < 0:
                     continue
                 if best is None:
                     best = k
                     continue
                 b = self.rec[best]
-                if g[0] < b[0] or (g[0] == b[0] and g[3] < b[3]):
+                # strict improvement only: the engine walks its map in word
+                # order and keeps the first best on ties
+                if w[0] < b[0] or (w[0] == b[0] and w[3] < b[3]):
                     best = k
             if best is None:   # nothing ever asked yet: take a new one
-                key = self.unseen[self.unseen_pos]
+                q = self.unseen[self.unseen_pos]
                 self.unseen_pos += 1
                 self.session_new += 1
             else:
-                key = best
+                q = best
         # whichever way it was picked, drop it from the queue
-        self.reaskq = [(d, k) for (d, k) in self.reaskq if k != key]
-        return key
+        self.reaskq = [(d, k) for (d, k) in self.reaskq if k != q]
+        return q
 
-    def answer(self, key, ok):
-        """Mirror the post-answer update; returns the record written."""
-        g = self.rec[key]
+    def answer(self, q, ok):
+        """Mirror the post-answer update; returns the five record columns the
+        engine writes (interval, lca, round_min, form, rounds_done)."""
+        w = self.rec[q]
+        form = w[4]
         if ok:
-            if g[1] >= 0:
-                iv = self.seq - g[1]
-                if iv > g[0]:
-                    g[0] = iv
-                g[2] = iv
-            elif g[0] < 1:
-                g[0] = 1
-            g[1] = self.seq
+            gap = self.seq - w[1] if w[1] >= 0 else -1
+            if form != 0 and gap >= 0:
+                w[2] = gap if w[2] < 0 else min(w[2], gap)
+            w[1] = self.seq
+            if form == 3 and w[2] >= 0:
+                if w[2] > w[0]:
+                    w[0] = w[2]
+                w[5] += 1
+                w[2] = -1
+            elif form == 3:
+                w[2] = -1
+            w[4] = (form + 1) % 4
         else:
-            g[0] = 0
-            g[2] = -1
+            w[0] = 0
             if self.reaskq is not None:
-                self.reaskq.append((self.seq + self.reask_gap, key))
-        g[3] = self.seq
-        return tuple(g[:3])   # the three columns the engine writes
+                self.reaskq.append((self.seq + self.reask_gap, q))
+        w[3] = self.seq
+        return tuple(w[0:3]) + (w[4], w[5])
 
 
 def union_entries(path):
@@ -298,8 +315,7 @@ def status_lines(path, start_size=0):
 # ---------------------------------------------------------------------------
 
 FULL_UNION_LINES = [
-    # deliberately small: 1..3-character words, one explicit duplicate row,
-    # assorted directions exercised through the p/a choices
+    # deliberately small: 1..3-character words, one explicit duplicate row
     "猫|cat|māo",
     "狗|dog|gǒu",
     "我|me;i|wǒ",
@@ -315,14 +331,14 @@ FULL_UNION_LINES = [
 
 def parse_written(line):
     t = line.split("|")
-    if len(t) != 10:
+    if len(t) != 12:
         return None
-    return t, int(t[5]), t[6], (int(t[7]), int(t[8]), int(t[9]))
+    return t, int(t[5]), t[6], (int(t[7]), int(t[8]), int(t[9]), int(t[10]), int(t[11]))
 
 
 def check_reask_soon(asks, bad_idx, name):
-    """A question answered wrong must be asked again within the next 10
-    questions (re-ask gap 5, plus headroom for new-question slots)."""
+    """A word answered wrong must be asked again (in the very same form)
+    within the next 10 questions (re-ask gap 5, plus headroom for new slots)."""
     for i in bad_idx:
         key = (asks[i][0], asks[i][3], asks[i][4])
         nxt = None
@@ -351,13 +367,13 @@ def test_empty(binary, base):
     plan[12] = "bad"      # late enough that the seen pool is non-degenerate
     for i in range(N):
         ask = eng.wait_ask(i)
-        want = model.pick()
-        q, p, a = want
+        q = model.pick()
+        p, a = FORMS[model.rec[q][4]]
         got = ask[:5]
         exp = (entries[q][0], entries[q][2], entries[q][1], p, a)
         check("empty.q%d.ask==model" % (i + 1), got == exp, "got %s want %s" % (got, exp))
         ok = plan[i] == "ok"
-        model.answer(want, ok)
+        model.answer(q, ok)
         eng.decide_ok() if ok else eng.decide_bad()
     eng.finish(N)
 
@@ -372,31 +388,42 @@ def test_empty(binary, base):
             check("empty.line%d.cols" % i, False, line)
             continue
         t, seq, res, rec = parsed
-        key = m2.find_key(t[0], t[1], t[2])
+        q = m2.find_key(t[0], t[1], t[2])
         check("empty.line%d.seq" % i, seq == i + 1, line)
         m2.seq = seq
-        want = m2.answer((key, int(t[3]), int(t[4])), res == "success")
+        want = m2.answer(q, res == "success")
         check("empty.line%d.record" % i, list(rec) == list(want),
               "%s vs model %s" % (t, want))
 
-    # mix + ordering invariants straight from the asks
-    news, seenkeys, newlens = 0, set(), []
+    # mix + ordering + form-order invariants straight from the asks
+    news, newlens = 0, []
+    entryforms = {}     # (chi,pin,eng) -> list of forms in asked order
     for i, (chi, pin, eng2, p, a, seq) in enumerate(eng.asks[:N]):
-        q = m2.find_key(chi, pin, eng2)
-        k = (q, p, a)
-        if k not in seenkeys:
-            seenkeys.add(k)
+        form = FORMS.index((p, a))
+        ekey = (chi, pin, eng2)
+        seen_before = ekey in entryforms
+        entryforms.setdefault(ekey, []).append(form)
+        if not seen_before:
             news += 1
             newlens.append(len(chi))
+            check("empty.q%d.firstform" % (i + 1), form == 0,
+                  "%s first asked in form %d" % (chi, form))
     check("empty.new-in-length-order", newlens == sorted(newlens), str(newlens))
     check("empty.new-cap-30", 10 * news <= 3 * N + 3, "new=%d total=%d" % (news, N))
+    for ekey, forms in entryforms.items():
+        # forms rotate +1 on every correct answer and stay put on a fail,
+        # so consecutive asks of an entry differ by 0 or 1 (mod 4), never less
+        check("empty.forms-order.%s" % (ekey[0] + "/" + ekey[2],),
+              all(((b - a) % 4) in (0, 1) for a, b in zip(forms, forms[1:])),
+              "%s: %s" % (ekey, forms))
     check_reask_soon(eng.asks, [i for i, pl in enumerate(plan) if pl == "bad"], "empty")
 
 
 def test_crafted(binary, base):
-    """Baseline mixes old 7-column rows and new 10-column rows; verifies the
-    loader's record reconstruction (chain growth, fail breaking the chain,
-    explicit record columns winning)."""
+    """Baseline mixes legacy 7-column rows, one intermediate 10-column row
+    and current 12-column rows; verifies the loader's record reconstruction
+    (derived lca/last_seq, explicit columns winning) and the engine's form
+    handling from a loaded state."""
     d = make_testdir(base, "qtest_crafted")
     union = os.path.join(d, "union_q.txt")
     with open(union, "w", encoding="utf-8") as f:
@@ -406,21 +433,25 @@ def test_crafted(binary, base):
     def row(chi, pin, eng, p, a, seq, res, rec=None):
         s = "%s|%s|%s|%d|%d|%d|%s" % (chi, pin, eng, p, a, seq, res)
         if rec is not None:
-            s += "|%d|%d|%d" % rec
+            s += "".join("|%d" % x for x in rec)
         return s
 
-    # 猫: success@1, success@5 (chain 4), fail@6 -> [0, 5, -1, 6]
-    # 狗: legacy success@2, success@4, then a new-format row at 7 carrying
-    #     the explicit record (9, 7, 3), which must win -> [9, 7, 3, 7]
-    # 吃: one success@3, no pair -> [0, 3, -1, 3]
+    # 猫: legacy success@1, success@5, fail@6 -> derived [0, 5, -1, 6, 0, 0]
+    # 狗: legacy success@2, success@4, then a 12-column row at 7 carrying the
+    #     explicit record (9, 7, 3, 2, 1) which must win
+    #     -> [9, 7, 3, 7, 2, 1]: asked next in form 2 (pin->chi)
+    # 吃: one legacy success@3 -> [0, 3, -1, 3, 0, 0]
+    # 喝茶: an intermediate 10-column row at 8 (col 9 holds last_correct_at,
+    #       col 10 the newest gap): misreading it must not crash the load
     baseline = [
         row("猫", "māo", "cat", 1, 0, 1, "success"),
         row("猫", "māo", "cat", 1, 0, 5, "success"),
         row("猫", "māo", "cat", 1, 0, 6, "fail"),
         row("狗", "gǒu", "dog", 0, 1, 2, "success"),
         row("狗", "gǒu", "dog", 0, 1, 4, "success"),
-        row("狗", "gǒu", "dog", 0, 1, 7, "success", (9, 7, 3)),
+        row("狗", "gǒu", "dog", 0, 1, 7, "success", (9, 7, 3, 2, 1)),
         row("吃", "chī", "to eat", 2, 0, 3, "success"),
+        row("喝茶", "hē chá", "to drink tea", 0, 2, 8, "success", (3, 8, 3)),
     ]
     status = os.path.join(d, "status1.txt")
     with open(status, "w", encoding="utf-8") as f:
@@ -430,14 +461,14 @@ def test_crafted(binary, base):
     m = Model(entries)
     for line in baseline:
         t = line.split("|")
-        rec = (int(t[7]), int(t[8]), int(t[9])) if len(t) >= 10 else (None, None, None)
+        rec = tuple(int(x) for x in t[7:12]) if len(t) >= 12 else (None,) * 5
         m.apply_line(t[0], t[1], t[2], int(t[3]), int(t[4]), int(t[5]), t[6], *rec)
-    cat = m.rec[(m.find_key("猫", "māo", "cat"), 1, 0)]
-    check("crafted.cat-chain", cat == [0, 5, -1, 6], str(cat))
-    dog = m.rec[(m.find_key("狗", "gǒu", "dog"), 0, 1)]
-    check("crafted.dog-explicit", dog == [9, 7, 3, 7], str(dog))
-    eat = m.rec[(m.find_key("吃", "chī", "to eat"), 2, 0)]
-    check("crafted.eat-single", eat == [0, 3, -1, 3], str(eat))
+    cat = m.rec[m.find_key("猫", "māo", "cat")]
+    check("crafted.cat-derived", cat == [0, 5, -1, 6, 0, 0], str(cat))
+    dog = m.rec[m.find_key("狗", "gǒu", "dog")]
+    check("crafted.dog-explicit", dog == [9, 7, 3, 7, 2, 1], str(dog))
+    eat = m.rec[m.find_key("吃", "chī", "to eat")]
+    check("crafted.eat-single", eat == [0, 3, -1, 3, 0, 0], str(eat))
 
     N = 10
     eng = Engine(binary, d, os.path.join(d, "ask.log"), os.path.join(d, "dec.txt"))
@@ -452,18 +483,25 @@ def test_crafted(binary, base):
     m2 = Model(entries, seq=max(int(l.split("|")[5]) for l in baseline))
     for line in baseline:                       # same baseline the engine loaded
         t = line.split("|")
-        rec = (int(t[7]), int(t[8]), int(t[9])) if len(t) >= 10 else (None, None, None)
+        rec = tuple(int(x) for x in t[7:12]) if len(t) >= 12 else (None,) * 5
         m2.apply_line(t[0], t[1], t[2], int(t[3]), int(t[4]), int(t[5]), t[6], *rec)
     with open(status, encoding="utf-8") as f:
         all_lines = [l for l in f.read().splitlines() if l.strip()]
     written = all_lines[len(baseline):]
     check("crafted.linecount", len(written) == N, "%d" % len(written))
+
+    dogq = m.find_key("狗", "gǒu", "dog")
+    dog_asked = [a for a in eng.asks[:N] if a[0] == "狗"]
+    check("crafted.dog-form2",
+          all((a[3], a[4]) == FORMS[2] for a in dog_asked) if dog_asked else True,
+          str(dog_asked))
     for i, (chi, pin, eng2, p, a, seq) in enumerate(eng.asks[:N]):
         want = m2.pick()
         q = m.find_key(chi, pin, eng2)
+        fp, fa = FORMS[m2.rec[q][4]]
         check("crafted.ask%d==model" % (i + 1),
-              want == (q, p, a) and seq == 8 + i,
-              "engine %s model %s seq %d" % ((chi, p, a, seq), want, seq))
+              want == q and (p, a) == (fp, fa) and seq == 9 + i,
+              "engine %s model q%s form %s seq %d" % ((chi, p, a, seq), want, (fp, fa), seq))
         rec = m2.answer(want, plan[i] == "ok")
         if i < len(written):
             parsed = parse_written(written[i])
@@ -471,7 +509,7 @@ def test_crafted(binary, base):
                 check("crafted.line%d.cols" % i, False, written[i])
                 continue
             t, wseq, res, wrec = parsed
-            check("crafted.line%d.record" % i, list(wrec) == list(rec) and wseq == 8 + i,
+            check("crafted.line%d.record" % i, list(wrec) == list(rec) and wseq == 9 + i,
                   "%s vs %s" % (t, rec))
             check("crafted.line%d.result" % i,
                   (res == "success") == (plan[i] == "ok"), written[i])
@@ -480,7 +518,8 @@ def test_crafted(binary, base):
 
 def test_real(binary, base):
     """Full union_q.txt + the real phone status1.txt: structural checks only
-    (row shape, per-question record self-consistency, sequence numbers)."""
+    (row shape, per-word record self-consistency, sequence numbers, forms in
+    the fixed order, round-completion bookkeeping)."""
     d = make_testdir(base, "qtest_real")
     shutil.copy(os.path.join(REPO, "union_q.txt"), os.path.join(d, "union_q.txt"))
     shutil.copy(os.path.join(REPO, "status1.txt"), os.path.join(d, "status1.txt"))
@@ -508,29 +547,55 @@ def test_real(binary, base):
     lines = status_lines(os.path.join(d, "status1.txt"), start_size)
     check("real.linecount", len(lines) == N, "%d" % len(lines))
 
-    state = {}   # (chi,pin,eng,p,a) -> (interval,lca,lci) seen on last line
+    state = {}   # (chi,pin,eng) -> (interval,lca,rmin,form,done) on last line
     for i, line in enumerate(lines):
         parsed = parse_written(line)
         if parsed is None:
             check("real.line%d.cols" % i, False, line)
             continue
-        t, seq, res, (interval, lca, lci) = parsed
-        key = (t[0], t[1], t[2], int(t[3]), int(t[4]))
+        t, seq, res, (interval, lca, rmin, form, done) = parsed
         check("real.seq%d" % i, seq == baseline_seq + 1 + i, "%d" % seq)
+        check("real.form%d.range" % i, 0 <= form <= 3, line)
+        key = (t[0], t[1], t[2])
+        asked_form = FORMS.index((int(t[3]), int(t[4])))
+        if key in state:
+            p_int, p_lca, p_rmin, p_form, p_done = state[key]
+            check("real.form%d.order" % i, asked_form == p_form,
+                  "%s asked form %d, word at form %d" % (key[0], asked_form, p_form))
+        else:
+            check("real.form%d.firstseen" % i, asked_form == 0,
+                  "word %s first appears in form %d: baseline rows must have no form columns" % (key[0], asked_form))
         if res == "fail":
-            check("real.fail%d.record" % i, interval == 0 and lci == -1, line)
+            check("real.fail%d.record" % i, interval == 0 and form == asked_form, line)
             if key in state:
-                check("real.fail%d.lca" % i, lca == state[key][1], line)
+                check("real.fail%d.unchanged" % i,
+                      lca == state[key][1] and rmin == state[key][2]
+                      and done == state[key][4], line)
         else:
             check("real.ok%d.lca" % i, lca == seq, line)
+            check("real.ok%d.rotated" % i, form == (asked_form + 1) % 4, line)
             if key in state:
-                p_int, p_lca, p_lci = state[key]
-                if p_lca >= 0:
-                    check("real.ok%d.chain" % i, lci == seq - p_lca, line)
-                    check("real.ok%d.intv" % i, interval == max(p_int, lci), line)
+                p_int, p_lca, p_rmin, p_form, p_done = state[key]
+                gap = seq - p_lca if p_lca >= 0 else -1
+                if asked_form != 0 and gap >= 0:
+                    exp_rmin = gap if p_rmin < 0 else min(p_rmin, gap)
                 else:
-                    check("real.ok%d.first" % i, interval == max(p_int, 1), line)
-        state[key] = (interval, lca, lci)
+                    exp_rmin = p_rmin
+                if asked_form == 3:
+                    if exp_rmin >= 0:
+                        check("real.ok%d.round" % i,
+                              interval == max(p_int, exp_rmin) and done == p_done + 1
+                              and rmin == -1, line)
+                    else:
+                        check("real.ok%d.round0" % i,
+                              interval == p_int and done == p_done and rmin == -1, line)
+                else:
+                    check("real.ok%d.chain" % i,
+                          interval == p_int and done == p_done and rmin == exp_rmin, line)
+            else:
+                if asked_form == 3:
+                    check("real.ok%d.roundnew" % i, interval == 0 and done == 0, line)
+        state[key] = (interval, lca, rmin, form, done)
     check_reask_soon(eng.asks, sorted(bad_at), "real")
 
 

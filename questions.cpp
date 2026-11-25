@@ -621,30 +621,61 @@ bool chinese::questions::ask_all_until_fail_block10(
 }
 
 // ---------------------------------------------------------------------------
-// Gap-based scheduling. load_gap_status_file reads the (possibly old-format)
-// status file and reconstructs one gap_record per question; ask_gap_mixed
-// then asks: ~70% from the seen pool in increasing interval (oldest-asked
-// first on ties), ~30% brand-new questions in increasing word length. Every
-// answer is written to the status file immediately, as the classic seven
-// columns plus the record ("success|<interval>|<last_correct_at>|
-// <last_correct_interval>") so a later run can resume exactly where this one
-// stopped.
+// Gap-based scheduling, word-centric. One unit = one word entry; every word
+// is asked through four forms in a fixed difficulty order:
+//
+//     form 0: chinese -> pinyin    (recall the reading)
+//     form 1: chinese -> english   (recall the meaning)
+//     form 2: pinyin  -> chinese    (write the characters from sound)
+//     form 3: english -> chinese    (write the characters from meaning)
+//
+// (the two forms without chinese, english<->pinyin, are not asked: they only
+// exercise pinyin spelling, which form 0 already covers.)
+//
+// The forms of one word count as the same question in a different shape, so
+// they share all state: a word is asked at most one form per scheduling turn,
+// which keeps the different forms evenly spaced (seeing the same word in
+// another shape right away would be free points).
+//
+// Per word we keep:
+//   interval       the demonstrated "completed distance": the maximum over
+//                  completed rounds of the minimum of the three correct->
+//                  correct gaps inside the round; 0 after a mistake (the
+//                  point of a completed round: the whole chain must have
+//                  been held that long)
+//   last_correct_at  global question number of the newest correct answer of
+//                  any form (-1: never answered correctly)
+//   round_min      running minimum of the correct->correct gaps within the
+//                  current round (-1: nothing recorded yet; gaps spanning a
+//                  re-ask count, honestly shrinking the round)
+//   form           which of the four forms to ask next
+//   rounds_done    completed four-form rounds ("points")
+//   last_seq       global number of when any form was last asked
+//                  (-1: never asked, i.e. still a new word)
+//
+// load_gap_status_file reconstructs all of this from the status file (any
+// mix of old 7-column rows, the intermediate 10-column rows and the current
+// 12-column rows); ask_gap_mixed then asks ~70% from the seen pool (word
+// with smallest interval first, oldest-asked on ties), ~30% brand-new words
+// in increasing word length, and re-asks a word 5 questions after a mistake.
+// Every answer appends one status line:
+//   chinese|pinyin|english|provided|asked|seq|success|interval|
+//   last_correct_at|round_min|form|rounds_done
 
-std::map<chinese::questions::q_type, chinese::questions::gap_record> chinese::questions::load_gap_status_file(
+static const chinese::questions::DATATYPE GAP_FORMS[4][2] =
+{
+	{ chinese::questions::DATATYPE_CHINESE, chinese::questions::DATATYPE_PINYIN },
+	{ chinese::questions::DATATYPE_CHINESE, chinese::questions::DATATYPE_ENGLISH },
+	{ chinese::questions::DATATYPE_PINYIN,  chinese::questions::DATATYPE_CHINESE },
+	{ chinese::questions::DATATYPE_ENGLISH, chinese::questions::DATATYPE_CHINESE },
+};
+
+std::map<size_t, chinese::questions::gap_word> chinese::questions::load_gap_status_file(
 	size_t& sequence_number) const
 {
-	std::map<q_type, gap_record> rec;
+	std::map<size_t, gap_word> rec;
 	for(size_t q=0; q<loaded_data.size(); ++q)
-	{
-		for(size_t i=0; i<3; ++i)
-		{
-			for(size_t j=0; j<3; ++j)
-			{
-				if(i==j) continue;
-				rec[q_type(q, (DATATYPE)i, (DATATYPE)j)] = gap_record{0, -1, -1, -1};
-			}
-		}
-	}
+		rec[q] = gap_word{0, -1, -1, -1, 0, 0};
 
 	sequence_number = 0;
 
@@ -677,40 +708,30 @@ std::map<chinese::questions::q_type, chinese::questions::gap_record> chinese::qu
 		{
 			iter2 = iter1->second.begin();
 		}
-		q_type key = q_type(
-			iter2->second,
-			(DATATYPE)atoi(tokens[3].c_str()),
-			(DATATYPE)atoi(tokens[4].c_str())
-		);
-		auto iter = rec.find(key);
-		if(iter == rec.end())
-		{
-			continue;
-		}
-		gap_record& g = iter->second;
+		size_t q = iter2->second;
+		gap_word& w = rec[q];
 		long long seq = atoll(tokens[5].c_str());
-		if(seq > g.last_seq) g.last_seq = seq;
+		if(seq > w.last_seq) w.last_seq = seq;
 		if((size_t)seq > sequence_number) sequence_number = (size_t)seq;
 
-		if(tokens[6] == "success")
+		if(tokens[6] == "success" && seq > w.last_correct_at)
 		{
-			if(g.last_correct_at >= 0)
-				g.last_correct_interval = seq - g.last_correct_at;
-			g.last_correct_at = seq;
-		}
-		else if(tokens[6] == "fail")
-		{
-			g.last_correct_interval = -1;
+			w.last_correct_at = seq;
 		}
 
-		// new-format rows carry the record as it was right after this answer:
-		// where present it overrides the derived values (it is the writer's
-		// own state, so old rows and new ones mix safely in either order)
-		if(tokens.size() >= 10 && !tokens[7].empty())
+		// current-format rows carry the whole state as it was right after this
+		// answer: where present it wins over anything derived (so old rows and
+		// new ones mix safely in either order). The intermediate 10-column
+		// rows (the first gap-mode build) put a different value in column 10;
+		// misreading it for one row is harmless, the next answer overwrites.
+		if(tokens.size() >= 12 && !tokens[7].empty())
 		{
-			g.interval = atoll(tokens[7].c_str());
-			g.last_correct_at = atoll(tokens[8].c_str());
-			g.last_correct_interval = atoll(tokens[9].c_str());
+			w.interval = atoll(tokens[7].c_str());
+			w.last_correct_at = atoll(tokens[8].c_str());
+			w.round_min = atoll(tokens[9].c_str());
+			w.form = atoi(tokens[10].c_str());
+			if(w.form < 0 || w.form > 3) w.form = 0;
+			w.rounds_done = atoll(tokens[11].c_str());
 		}
 	}
 	return rec;
@@ -788,15 +809,16 @@ static bool cm_gap_decide(
 bool chinese::questions::ask_gap_mixed(int breaks) const
 {
 	const bool testmode = cm_gap_test_mode();
-	std::mt19937 gen(cm_selection_seed());
+	const size_t REASK_GAP = 5;
 
 	size_t sequence_number = 0;
-	std::map<q_type, gap_record> rec = load_gap_status_file(sequence_number);
+	std::map<size_t, gap_word> rec = load_gap_status_file(sequence_number);
+	const size_t words_total = rec.size();
 
-	// new questions in order of increasing complexity: shortest chinese word
+	// new words in order of increasing complexity: shortest chinese word
 	// first, then data order (the map walks in that order, so a stable sort
 	// on the length is all that is needed)
-	std::vector<q_type> unseen;
+	std::vector<size_t> unseen;
 	size_t seen_total = 0;
 	for(auto const& kv : rec)
 	{
@@ -805,38 +827,37 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 		else
 			++seen_total;
 	}
-	std::stable_sort(unseen.begin(), unseen.end(), [this] (q_type const& a, q_type const& b)
+	std::stable_sort(unseen.begin(), unseen.end(), [this] (size_t a, size_t b)
 	{
-		size_t la = chinese::Input::count_unicode_code_points(loaded_data[std::get<0>(a)].chinese);
-		size_t lb = chinese::Input::count_unicode_code_points(loaded_data[std::get<0>(b)].chinese);
+		size_t la = chinese::Input::count_unicode_code_points(loaded_data[a].chinese);
+		size_t lb = chinese::Input::count_unicode_code_points(loaded_data[b].chinese);
 		return la < lb;
 	});
 
-	size_t unseen_pos = 0;
-	size_t session_total = 0, session_new = 0;
-
 	// A mistake resets the interval to 0, but the interval-0 pool is huge and
-	// asked oldest-first, so the one just missed would not come back for ages.
-	// Keep a small queue that re-asks a missed question REASK_GAP questions
-	// later; being asked again and again close together is exactly what makes
-	// a missed word stick (and the interval then measures the gap from the
-	// last time it was answered right, as before).
-	const long long REASK_GAP = 5;
-	std::vector<std::pair<long long, q_type>> reaskq;   // (due-question, question)
-	// questions whose last attempt ended in a mistake (last_correct_at is
-	// older than last_seq) and that were asked in the last 30 questions:
-	// the ones that were still stinging when the previous session ended
+	// asked oldest-first, so the word just missed would not come back for
+	// ages. Keep a queue that re-asks a missed word (its same form) REASK_GAP
+	// questions later; being asked again close after a miss is exactly what
+	// makes a word stick.
+	std::vector<std::pair<long long, size_t>> reaskq;   // (due-question, word)
+	// words whose last attempt ended in a mistake (last_correct_at is older
+	// than last_seq) and that were asked in the last 30 questions: the ones
+	// still stinging when the previous session ended
 	for(auto const& kv : rec)
 		if(kv.second.last_seq >= 0
 			&& kv.second.last_correct_at < kv.second.last_seq
 			&& kv.second.last_seq + 30 >= (long long)sequence_number)
 			reaskq.push_back(std::make_pair((long long)sequence_number, kv.first));
 
-	std::cout << "Gap mode: " << seen_total << " seen, " << (unseen.size()/6) << " new words ("
-		<< unseen.size() << " new questions)" << "\r\n";
+	size_t unseen_pos = 0;
+	size_t session_total = 0, session_new = 0;
+
+	std::cout << "Gap mode: " << seen_total << " seen, " << unseen.size()
+		<< " new words. Forms per word: chi->pinyin, chi->english, pinyin->chi,"
+		" english->chi.\r\n";
 	if(testmode)
-		fprintf(stderr, "gapmode loaded=%zu rec=%zu seen=%zu unseen=%zu reask=%zu seqmax=%zu\n",
-			loaded_data.size(), rec.size(), seen_total, unseen.size(), reaskq.size(), sequence_number);
+		fprintf(stderr, "gapmode words=%zu seen=%zu unseen=%zu reask=%zu seqmax=%zu\n",
+			words_total, seen_total, unseen.size(), reaskq.size(), sequence_number);
 
 	while(true)
 	{
@@ -851,19 +872,21 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 		else
 			take_new = 10*(session_new+1) <= 3*session_total;   // never above 30% new
 
-		q_type which_q;
+		size_t which_q = 0;
 		bool is_reask = false;
-		size_t best_reask = 0;
+		bool have_pick = false;
 		if(take_new)
 		{
 			which_q = unseen[unseen_pos++];
 			++session_new;
+			have_pick = true;
 		}
 		else
 		{
 			// a due re-ask (recently missed) goes before everything else in
-			// the seen slot; earliest due first, map order on ties
+			// the seen slot; earliest due first, word order on ties
 			bool reask_found = false;
+			size_t best_reask = 0;
 			for(size_t i=0; i<reaskq.size(); ++i)
 				if(reaskq[i].first <= (long long)sequence_number
 					&& (!reask_found || reaskq[i].first < reaskq[best_reask].first))
@@ -876,15 +899,16 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 				which_q = reaskq[best_reask].second;
 				reaskq.erase(reaskq.begin() + best_reask);
 				is_reask = true;
+				have_pick = true;
 			}
 		}
-		if(!take_new && !is_reask)
+		if(!have_pick)
 		{
-			// weakest demonstrated interval first; on ties the one asked
-			// longest ago
+			// smallest demonstrated completed distance first; on ties the word
+			// asked longest ago
 			bool any = false;
-			q_type best;
-			gap_record bestg{0,-1,-1,-1};
+			size_t best = 0;
+			gap_word bestw{0,-1,-1,-1,0,0};
 			for(auto const& kv : rec)
 			{
 				if(kv.second.last_seq < 0) continue;   // still new: not from here
@@ -892,20 +916,20 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 				{
 					any = true;
 					best = kv.first;
-					bestg = kv.second;
+					bestw = kv.second;
 					continue;
 				}
-				if(kv.second.interval < bestg.interval ||
-					(kv.second.interval == bestg.interval && kv.second.last_seq < bestg.last_seq))
+				if(kv.second.interval < bestw.interval ||
+					(kv.second.interval == bestw.interval && kv.second.last_seq < bestw.last_seq))
 				{
 					best = kv.first;
-					bestg = kv.second;
+					bestw = kv.second;
 				}
 			}
 			if(!any)
 			{
 				// nothing has ever been asked (fresh status file): the ratio
-				// rule would starve, so take a new question regardless
+				// rule would starve, so take a new word regardless
 				which_q = unseen[unseen_pos++];
 				++session_new;
 			}
@@ -921,11 +945,10 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 				break;
 			}
 
-		size_t q = std::get<0>(which_q);
-		DATATYPE provided = std::get<1>(which_q);
-		DATATYPE asked = std::get<2>(which_q);
-		datapoint const* current = &loaded_data[q];
-		gap_record& g = rec[which_q];
+		gap_word& w = rec[which_q];
+		DATATYPE provided = GAP_FORMS[w.form][0];
+		DATATYPE asked = GAP_FORMS[w.form][1];
+		datapoint const* current = &loaded_data[which_q];
 
 		// same ambiguity guard as the other modes: another word that shows the
 		// same provided text but wants a different answer would make this one
@@ -953,9 +976,26 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 			}
 		}
 
-		std::string stats = std::to_string(seen_total) + "/" + std::to_string(6*loaded_data.size())
-				+ " " + std::to_string(sequence_number)
-				+ " " + std::to_string(g.interval);
+		// progress line: words answered correctly at least once (any form) out
+		// of all words, then for every power of two how many words completed a
+		// round distance of at least that ("g>=8:45" = 45 words that kept a
+		// full four-form chain spaced 8 apart), then the question number
+		size_t answered_once = 0;
+		long long max_interval = 0;
+		for(auto const& kv : rec)
+		{
+			if(kv.second.last_correct_at >= 0) ++answered_once;
+			if(kv.second.interval > max_interval) max_interval = kv.second.interval;
+		}
+		std::string stats = std::to_string(answered_once) + "/" + std::to_string(words_total);
+		for(long long p2=1; p2<=max_interval; p2*=2)
+		{
+			size_t cnt = 0;
+			for(auto const& kv : rec)
+				if(kv.second.interval >= p2) ++cnt;
+			stats += " >=" + std::to_string(p2) + ":" + std::to_string(cnt);
+		}
+		stats += " q" + std::to_string(sequence_number);
 		if(is_reask)
 			stats += " re-ask";
 
@@ -970,15 +1010,25 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 
 		if(result)
 		{
-			if(g.last_correct_at >= 0)
+			// the gap from the previous correct answer (any form) counts
+			// towards the round except for form 0, which opens a round
+			long long gap = (w.last_correct_at >= 0)
+				? (long long)sequence_number - w.last_correct_at : -1;
+			if(w.form != 0 && gap >= 0)
+				w.round_min = (w.round_min < 0) ? gap : std::min(w.round_min, gap);
+			w.last_correct_at = (long long)sequence_number;
+			if(w.form == 3)
 			{
-				long long iv = (long long)sequence_number - g.last_correct_at;
-				if(iv > g.interval) g.interval = iv;
-				g.last_correct_interval = iv;
+				// the full round is complete: its distance is the smallest of
+				// its three gaps - the point of completing all four forms
+				if(w.round_min >= 0)
+				{
+					if(w.round_min > w.interval) w.interval = w.round_min;
+					++w.rounds_done;
+				}
+				w.round_min = -1;
 			}
-			else if(g.interval < 1)
-				g.interval = 1;
-			g.last_correct_at = (long long)sequence_number;
+			w.form = (w.form + 1) % 4;
 			std::cout << "Answer accepted!\r\n";
 			if(!testmode)   // scripted runs would crawl with the display waits
 			{
@@ -990,8 +1040,7 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 		}
 		else
 		{
-			g.interval = 0;
-			g.last_correct_interval = -1;
+			w.interval = 0;
 			// the point of this whole queue: the miss comes back soon
 			reaskq.push_back(std::make_pair((long long)sequence_number + REASK_GAP, which_q));
 			std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
@@ -1002,14 +1051,9 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 			if(!testmode)
 				system_pause();
 		}
-		if(g.last_seq < 0)
-		{
-			// first time this question was ever asked: it joins the seen pool
-			g.last_seq = (long long)sequence_number;
-			++seen_total;
-		}
-		else
-			g.last_seq = (long long)sequence_number;
+		if(w.last_seq < 0)
+			++seen_total;   // first time this word is asked: it joins the seen pool
+		w.last_seq = (long long)sequence_number;
 
 		{
 			std::fstream statusfile;
@@ -1020,7 +1064,8 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 			statusfile << ((int)provided) << "|" << ((int)asked);
 			statusfile << "|" << sequence_number << "|";
 			statusfile << (result ? "success" : "fail");
-			statusfile << "|" << g.interval << "|" << g.last_correct_at << "|" << g.last_correct_interval;
+			statusfile << "|" << w.interval << "|" << w.last_correct_at
+				<< "|" << w.round_min << "|" << w.form << "|" << w.rounds_done;
 			statusfile << "\n";
 			statusfile.close();
 		}

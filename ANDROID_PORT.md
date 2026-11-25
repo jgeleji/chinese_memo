@@ -84,50 +84,78 @@ Console-phone pool sync (separate): `cd ~/cpp/chinese/chinese; rm -rf data union
 Row format (one line per answered question, written immediately after each answer):
 
 ```
-chinese|pinyin|english|provided|asked|seq|success|interval|last_correct_at|last_correct_interval
+chinese|pinyin|english|provided|asked|seq|success|interval|last_correct_at|round_min|form|rounds_done
 ```
 
 The first seven columns are the classic format (DATATYPE numbers: 0=chinese,
-1=english, 2=pinyin; seq = global question number). The last three columns are
-the gap record (see below). **Old 7-column files load unchanged** — the loader
-derives the record from the success/fail history — so the phone's existing
-progress survives. Phone rows often carry empty pinyin/english: the loader then
-falls back to the first registered variant of that word (as it always did).
+1=english, 2=pinyin; seq = global question number; provided/asked say which
+*form* of the word this question was, see below). The last five columns are
+the word's gap record (see below). **Old 7-column files load unchanged** —
+the loader derives the record from the success/fail history — so the phone's
+existing progress survives (a handful of intermediate 10-column rows written
+by one short-lived build are treated as legacy; harmless). Phone rows often
+carry empty pinyin/english: the loader then falls back to the first
+registered variant of that word (as it always did).
 
-### Question selection: gap mode (`ask_gap_mixed`)
+### Question selection: gap mode (`ask_gap_mixed`), word-centric
 
 `main_questions10.cpp` (the only ported quiz mode; PC twin `questions10_sdl`,
 Android `:app`) calls `q.ask_gap_mixed(...)`. The old block10 mode
 (`ask_all_until_fail_block10`) is untouched for the other console mains.
 
-Per question = (word entry, provided DATATYPE, asked DATATYPE), the engine keeps
-`gap_record{interval, last_correct_at, last_correct_interval, last_seq}`:
+**One unit = one word** (a `loaded_data` entry). Its four forms count as one
+question asked in different shapes, always in this fixed order (`GAP_FORMS`):
 
-- correct answer → if the question had a previous correct answer at seq p, the
-  demonstrated gap is `now - p` (questions asked in between, other ones);
-  `interval = max(interval, gap)`; first-ever correct sets interval ≥ 1
-- wrong answer → `interval = 0`, the correct→correct chain is broken
-  (`last_correct_interval = -1`); the question stays in the seen pool
-- `last_seq` = when it was last asked; -1 means never asked → still "new"
+```
+form 0: chinese -> pinyin     form 1: chinese -> english
+form 2: pinyin  -> chinese    form 3: english -> chinese   (hardest last)
+```
+
+(the two forms without chinese, english<->pinyin, are not asked: they only
+exercise pinyin spelling, which form 0 already covers). A word is asked in
+its *next* form; the form pointer rotates on every correct answer and stays
+put on a mistake. One form per scheduling turn also keeps the forms of one
+word naturally spaced apart (one pool pass).
+
+Per word the engine keeps
+`gap_word{interval, last_correct_at, round_min, last_seq, form, rounds_done}`:
+
+- correct answer → the gap `now - last_correct_at` (any form's previous
+  correct answer) is folded into `round_min` (running minimum of the
+  correct→correct gaps of the current round) — except form 0, which *opens*
+  a round and records no gap. When form 3 is answered correctly the round
+  completes: `interval = max(interval, round_min)` — the **completed
+  distance** (the whole 4-form chain must have been held that long) —
+  `rounds_done++` and `round_min = -1`
+- wrong answer → `interval = 0`; the round chain continues (the re-ask's
+  small gap honestly shrinks that round's distance)
+- `last_seq` = when any form was last asked; -1 means never asked → new word
 
 Selection each question (fully deterministic — no RNG shuffles):
 
-- ~30% come from the new pool, in order of increasing word length
+- ~30% come from the new-word pool, in order of increasing word length
   (unicode code points), ties by data order. Rule: take new iff
   `10*(session_new+1) <= 3*session_total` → new share never exceeds 30%
   (first new lands at question 4 of a session)
-- ~70% come from the seen pool: argmin of (interval asc, last_seq asc) over the
-  q_type map — weakest demonstrated interval first, oldest-asked on ties
-- **re-ask queue**: a question answered wrong is re-asked 5 questions later
-  (`REASK_GAP`), taking the seen slot ahead of the argmin pick; the on-screen
-  stat line then shows the extra word `re-ask`. At session start, questions
-  whose last attempt ended in a mistake (`last_correct_at < last_seq`) and
-  were asked within the last 30 questions are seeded into the queue, so a
-  session interrupted right after a miss picks up where it left off
+- ~70% come from the seen pool: argmin of (interval asc, last_seq asc) over
+  the word map — weakest demonstrated completed distance first, oldest-asked
+  on ties (first word in map order wins exact ties)
+- **re-ask queue**: a word answered wrong is re-asked in the same form 5
+  questions later (`REASK_GAP`), taking the seen slot ahead of the argmin
+  pick; the on-screen stat line then shows the extra word `re-ask`. At
+  session start, words whose last attempt ended in a mistake
+  (`last_correct_at < last_seq`) and were asked within the last 30 questions
+  are seeded into the queue, so a session interrupted right after a miss
+  picks up where it left off
 - the queue needs no new status columns (the condition derives from the
   stored record)
 
-On-screen stat line: `seen_total/total_questions seq interval [re-ask]`.
+On-screen stat line (small, one line above the question):
+`answered_once/words_total >=1:n >=2:n >=4:n ... q<seq> [re-ask]` —
+words answered correctly at least once out of all words, then for each power
+of two the number of words whose *completed distance* (round distance of a
+finished four-form round) is at least that; recomputed per question over the
+in-memory map (~1900 entries, cheap).
 
 ## 3. How this app is built (the SDL2 pattern, component by component)
 
@@ -335,17 +363,21 @@ python3 -u tools/qdriver.py            # empty crafted real → "N checks passed
 ```
 
 - `empty`: tiny hand-written full-field union_q + empty status → exact
-  ask-by-ask comparison against the Python model, record columns verified
-- `crafted`: baseline mixes legacy 7-column rows and new 10-column rows →
-  chain derivation, fail-breaks-chain, explicit columns win
+  ask-by-ask comparison against the Python model, record columns verified;
+  also asserts form discipline (first ask of an entry = form 0, consecutive
+  asks of an entry differ by 0 or 1 mod 4 — rotates on correct, holds on fail)
+- `crafted`: baseline mixes legacy 7-column rows, one intermediate 10-column
+  row and current 12-column rows → derived lca/last_seq, explicit columns win
+  (including the `form` pointer: that word is next asked in form 2)
 - `real`: full `union_q.txt` + the pulled phone `status1.txt` → structural
-  + per-question record consistency over 40 scripted answers (2 fails forced)
+  + per-question record consistency over 40 scripted answers (2 fails forced):
+  forms asked in order, round bookkeeping (round_min/interval/rounds_done)
 - test dirs are built under `/tmp/opencode/qtest/` (assets/data symlinked);
   never point it at the repo dir — status appends
-- expected mix on the real baseline: new questions at 4,7,10,14,... (~29%)
-- `check_reask_soon`: every scripted "bad" must be asked again within the
-  next 10 questions (all three tests assert this)
-- engine stderr in test mode prints `gapmode loaded= rec= seen= unseen= seqmax=`
+- expected mix on the real baseline: new words at 4,7,10,14,... (~29%)
+- `check_reask_soon`: every scripted "bad" must be asked again (same word,
+  same form) within the next 10 questions (all three tests assert this)
+- engine stderr in test mode prints `gapmode words= seen= unseen= reask= seqmax=`
   (stdout goes to the SDL screen buffer, so this line is the test-visible copy
   of the on-screen "Gap mode:" line)
 

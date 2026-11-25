@@ -40,15 +40,17 @@ class questions
 			std::function<double(int)> f = [](int) -> double { return 0.0; },
 			int breaks = 0) const;
 
-		// Gap-based scheduling (the mode questions10 uses): ~70% of the
-		// questions come from the already-seen pool (asked in increasing
-		// demonstrated interval, oldest-asked first on ties), ~30% are
-		// still-new questions taken in order of increasing word length;
-		// a question answered wrong is re-asked a few questions later (and
-		// recent unresolved misses are re-asked early even in a later run).
-		// One status line is written per question, with the per-question
-		// record appended as three extra columns (old 7-column files load
-		// unchanged). See gap_record below.
+		// Gap-based scheduling (the mode questions10 uses), word-centric: one
+		// unit is one word, asked through four forms in a fixed order
+		// (chi->pinyin, chi->english, pinyin->chi, english->chi); ~70% of
+		// the questions come from the already-seen word pool (asked in
+		// increasing demonstrated completed distance, oldest-asked first on
+		// ties), ~30% are still-new words taken in order of increasing word
+		// length; a word answered wrong is re-asked in the same form a few
+		// questions later (and recent unresolved misses are re-asked early
+		// even in a later run). One status line is written per question,
+		// with the per-word record appended as five extra columns (old
+		// 7-column files load unchanged). See gap_word below.
 		bool ask_gap_mixed(int breaks = 0) const;
 		void populate_chinese_char_to_index();
 
@@ -97,28 +99,31 @@ class questions
 		// normal quesions
 		typedef std::tuple<size_t, DATATYPE, DATATYPE> q_type;
 
-		// Gap-based scheduling (ask_gap_mixed). For every question (a word +
-		// what is given + what is asked) we keep:
-		//   interval               the longest run of other questions the user
-		//                          has already survived between two correct
-		//                          answers of this one: 0 after a mistake,
-		//                          growing to the gap of the newest
-		//                          correct->correct pair
-		//   last_correct_at        global question number of the newest
-		//                          correct answer (-1: never correct)
-		//   last_correct_interval  length of the newest correct->correct run,
-		//                          -1 when that chain was broken by a mistake
-		//   last_seq               global number of when it was last asked
-		//                          (-1: never asked, i.e. still a new word)
-		struct gap_record
+		// Gap-based scheduling (ask_gap_mixed). For every word (index into
+		// loaded_data) we keep, shared by all its four forms:
+		//   interval         the demonstrated "completed distance": the
+		//                    maximum over completed four-form rounds of the
+		//                    minimum of the three correct->correct gaps in
+		//                    the round; 0 after a mistake
+		//   last_correct_at  global question number of the newest correct
+		//                    answer of any form (-1: never correct)
+		//   round_min        running minimum of the correct->correct gaps
+		//                    within the current round (-1: none recorded)
+		//   last_seq         global number of when any form was last asked
+		//                    (-1: never asked, i.e. still a new word)
+		//   form             which of the four forms to ask next
+		//   rounds_done      completed four-form rounds ("points")
+		struct gap_word
 		{
 			long long interval;
 			long long last_correct_at;
-			long long last_correct_interval;
+			long long round_min;
 			long long last_seq;
+			int form;
+			long long rounds_done;
 		};
 
-		std::map<q_type, gap_record> load_gap_status_file(size_t& sequence_number) const;
+		std::map<size_t, gap_word> load_gap_status_file(size_t& sequence_number) const;
 
 		std::map<q_type, std::pair<size_t, double>> load_status_file(
 			std::mt19937& gen,
