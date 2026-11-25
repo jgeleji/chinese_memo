@@ -350,6 +350,23 @@ const std::vector<std::pair<std::string, std::string>> chinese::Input::replace =
 
 std::string chinese::Input::pinyin_convert_1syll(std::string const& raw_input)
 {
+	// A bare digit typed as a syllable of its own is the chinese number word,
+	// the way everyone shorthand-writes it (3角2分 = sān jiǎo èr fēn). The
+	// flatten pass below would strip it as a tone mark and leave an empty
+	// syllable (which ends the answer), so expand it here first: in pinyin
+	// input a lone digit key (the phone tone keys push digits, the keyboard
+	// has them anyway) types the number word in its own tone.
+	if(raw_input.size() == 1 && raw_input[0] >= '0' && raw_input[0] <= '9')
+	{
+		// 0 types líng (the pinyin of 零/〇, what the data files store);
+		// 2 is always èr (never liǎng, a digit never means that)
+		static const char* const number_words[10] = {
+			"líng", "yī", "èr", "sān", "sì", "wǔ",
+			"liù", "qī", "bā", "jiǔ"
+		};
+		return number_words[raw_input[0] - '0'];
+	}
+
 	int tone;
 	std::string pinyin = pinyin_flatten_1syll(raw_input, tone);
 

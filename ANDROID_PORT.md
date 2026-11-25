@@ -417,7 +417,12 @@ Gotchas that waste hours:
   covers app buttons (IME band max-tracking + margin `g_h/40`).
 - Input conventions to preserve: typing `v` stands for `ü` (phone keyboards have
   no umlaut key; `nv3` = nǚ, done inside `pinyin_flatten_1syll` so every pinyin
-  path benefits, literal ü keeps working on console). A lone `-` (or the red FIX
+  path benefits, literal ü keeps working on console). A lone digit typed as a
+  whole syllable is the chinese NUMBER WORD (`pinyin_convert_1syll` expands
+  `3`→sān, `2`→èr, `0`→líng, ... before the flatten pass, which would otherwise
+  strip it as a tone mark and end the answer): `3角2分` can be typed
+  `3 ⏎ jiao3 ⏎ 2 ⏎ fen1 ⏎`; digits inside a syllable stay tone marks (`jiao3`).
+  A lone `-` (or the red FIX
   cell on the on-screen bar) between the two Enters discards a typed english or
   pinyin answer and returns to typing state ("fix my mistake" flow). In the
   chinese-character flow the orange `DELETE ALL` bar cell erases the whole typed
