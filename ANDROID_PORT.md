@@ -422,6 +422,20 @@ Gotchas that waste hours:
   `3`→sān, `2`→èr, `0`→líng, ... before the flatten pass, which would otherwise
   strip it as a tone mark and end the answer): `3角2分` can be typed
   `3 ⏎ jiao3 ⏎ 2 ⏎ fen1 ⏎`; digits inside a syllable stay tone marks (`jiao3`).
+  Words whose text contains arabic digits get their pinyin DERIVED
+  (`convert_chinese_to_pinyin` passes bytes through), so the stored pinyin
+  literally contains digits (`3角2分`→`3jiǎo2fēn`) and the stored chinese
+  literally contains `3`. To make such words answerable in every form,
+  `datapoint::ask()` canonizes both sides before comparing
+  (`canon_pinyin_numbers`: a digit becomes its toned number word UNLESS it
+  sits inside an all-ascii syllable, where it stays a legacy tone mark like
+  `ping2`; `canon_chinese_numbers`: digit→number char, 〇→零). The chinese
+  choice grids filter options by expected characters, so
+  `expected_add_number_words()` (input_common.cpp) registers 零一二三四五六七八九
+  whenever the expected answer contains a bare digit - the grids then OFFER
+  三/二 etc. for `3角2分` (both tone and notone flows). Verified: all four
+  forms of `3角2分` pass on the PC build (typed `3⏎jiao3⏎2⏎fen1⏎` and grid
+  picks 三角二分).
   A lone `-` (or the red FIX
   cell on the on-screen bar) between the two Enters discards a typed english or
   pinyin answer and returns to typing state ("fix my mistake" flow). In the

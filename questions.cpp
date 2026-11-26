@@ -205,6 +205,78 @@ std::string const& chinese::questions::datapoint::get(DATATYPE which) const
 	return undefined;
 }
 
+// Words written with arabic digits ("3角2分") get their pinyin by deriving
+// it from the chinese text, and that derivation passes single-byte
+// characters through untouched: the expected pinyin is "3jiǎo2fēn", with
+// literal digits. A typed pinyin answer can never contain a bare digit (a
+// digit inside a syllable is a tone mark; a bare digit key types the toned
+// number word, see pinyin_convert_1syll), and a typed chinese answer can
+// only pick the number characters (三, not 3). So before comparing, digits
+// are canonized on both sides: in a pinyin answer a digit becomes its toned
+// number word unless it spells a tone mark inside an all-ascii syllable
+// (legacy "ping2" entries keep their old behaviour), and in a chinese answer
+// a digit becomes its number character (〇 counting as 零).
+static const char* const number_word_pinyin[10] = {
+	"líng", "yī", "èr", "sān", "sì", "wǔ", "liù", "qī", "bā", "jiǔ"
+};
+static const char* const number_word_chinese[10] = {
+	"零", "一", "二", "三", "四", "五", "六", "七", "八", "九"
+};
+
+static bool is_ascii_letter(char c)
+{
+	return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
+}
+
+static void canon_pinyin_numbers(std::string& s)
+{
+	std::string out;
+	for(size_t i = 0; i < s.size(); ++i)
+	{
+		bool expand = true;
+		if(s[i] >= '0' && s[i] <= '9')
+		{
+			// A digit is a tone mark only when the syllable in front of it
+			// is written in tone-number style (all ascii letters, "ping2");
+			// a syllable carrying a diacritic ("jiǎo") needs no tone digit,
+			// so a digit after it is the standalone number word of
+			// digit-containing texts ("3jiǎo2fēn")
+			bool diacritic_syllable = false;
+			size_t j = i;
+			while(j > 0 && (is_ascii_letter(s[j-1]) || (unsigned char)s[j-1] >= 0x80))
+			{
+				if((unsigned char)s[j-1] >= 0x80) diacritic_syllable = true;
+				--j;
+			}
+			expand = diacritic_syllable || j == i;   // digit with no letters before it: a number word
+		}
+		if(expand && s[i] >= '0' && s[i] <= '9')
+			out += number_word_pinyin[s[i] - '0'];
+		else
+			out += s[i];
+	}
+	s.swap(out);
+}
+
+static void canon_chinese_numbers(std::string& s)
+{
+	std::string out;
+	for(size_t i = 0; i < s.size(); ++i)
+	{
+		if(s[i] >= '0' && s[i] <= '9')
+			out += number_word_chinese[s[i] - '0'];
+		else if((unsigned char)s[i] == 0xE3 && i + 2 < s.size()
+			&& (unsigned char)s[i+1] == 0x87 && (unsigned char)s[i+2] == 0x87)
+		{
+			out += "零";   // 〇 is just a styled 零
+			i += 2;
+		}
+		else
+			out += s[i];
+	}
+	s.swap(out);
+}
+
 bool chinese::questions::datapoint::ask(
 	chinese::Input input,
 	questions::DATATYPE provided,
@@ -214,8 +286,7 @@ bool chinese::questions::datapoint::ask(
 	std::string& gave,
 	int breaks
 ) const
-{
-	std::stringstream question_to_ask;
+{	std::stringstream question_to_ask;
 	question_to_ask << question_number << " ";
 	question_to_ask << to_string(provided) << " is " << get(provided) << ", what is " << to_string(asked) << "?";
 	if(!others.empty())
@@ -239,7 +310,19 @@ bool chinese::questions::datapoint::ask(
 			gave = input.do_input_pinyin(question_to_ask.str());
 			break;
 	}
-	return nospace(tolower(gave)) == nospace(tolower(get(asked)));
+	std::string gave_c = nospace(tolower(gave));
+	std::string asked_c = nospace(tolower(get(asked)));
+	if(asked == chinese::questions::DATATYPE_PINYIN)
+	{
+		canon_pinyin_numbers(gave_c);
+		canon_pinyin_numbers(asked_c);
+	}
+	else if(asked == chinese::questions::DATATYPE_CHINESE)
+	{
+		canon_chinese_numbers(gave_c);
+		canon_chinese_numbers(asked_c);
+	}
+	return gave_c == asked_c;
 }
 
 void chinese::questions::statistics_screen(

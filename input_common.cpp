@@ -768,6 +768,28 @@ std::string chinese::Input::do_input_chinese(std::string description, bool shuff
 	return ret;
 }
 
+// The expected-answer set that the choice grids filter by: a word written
+// with arabic digits ("3角2分") expects the digit characters, but a grid
+// can only offer the number characters (三, picked via san1/sān and accepted
+// by the answer comparison, see canon_chinese_numbers in questions.cpp).
+// Registering the number characters as expected keeps them from being
+// filtered out of the grid.
+static void expected_add_number_words(std::unordered_set<std::string>& expected_chinese_chars)
+{
+	static const char* const chinese_number_chars[10] = {
+		"零", "一", "二", "三", "四", "五", "六", "七", "八", "九"
+	};
+	std::vector<std::string> digits;
+	for(std::unordered_set<std::string>::const_iterator iter = expected_chinese_chars.begin();
+		iter != expected_chinese_chars.end(); ++iter)
+	{
+		if(iter->size() == 1 && (*iter)[0] >= '0' && (*iter)[0] <= '9')
+			digits.push_back(chinese_number_chars[(*iter)[0] - '0']);
+	}
+	for(size_t i = 0; i < digits.size(); ++i)
+		expected_chinese_chars.insert(digits[i]);
+}
+
 std::string chinese::Input::do_input_chinese_notone(std::string description, bool shuffle, int breaks, const char* expected) const
 {
 	set_input_flow(INPUT_FLOW_CHINESE);
@@ -820,6 +842,7 @@ std::string chinese::Input::do_input_1char_chinese(
 		expected_chinese_chars_vec = split_into_chinese_characters(expected);
 	}
 	std::unordered_set<std::string> expected_chinese_chars(expected_chinese_chars_vec.begin(), expected_chinese_chars_vec.end());
+	expected_add_number_words(expected_chinese_chars);
 	std::vector<std::string> ch_ch_vec;
 	do
 	{
@@ -945,6 +968,7 @@ std::string chinese::Input::do_input_1char_chinese_notone(
 		expected_chinese_chars_vec = split_into_chinese_characters(expected);
 	}
 	std::unordered_set<std::string> expected_chinese_chars(expected_chinese_chars_vec.begin(), expected_chinese_chars_vec.end());
+	expected_add_number_words(expected_chinese_chars);
 	std::vector<std::string> ch_ch_vec;
 	do
 	{
