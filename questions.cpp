@@ -208,16 +208,16 @@ std::string const& chinese::questions::datapoint::get(DATATYPE which) const
 // Words written with arabic digits ("3角2分") get their pinyin by deriving
 // it from the chinese text, and that derivation passes single-byte
 // characters through untouched: the expected pinyin is "3jiǎo2fēn", with
-// literal digits. To answer the pinyin question the learner must type the
-// number words themselves with their tones (san1 jiao3 er2 fen1), so before
-// comparing, digits are canonized on the EXPECTED side only: a digit in the
-// expected pinyin becomes its toned number word, unless it spells a tone
-// mark inside an all-ascii syllable (legacy "ping2" entries keep their old
-// behaviour). The typed answer is NOT canonized: a bare digit typed there
-// stays a digit (see pinyin_convert_1syll) and never matches a number word,
-// so digits do not answer their own question. For a chinese answer the
-// grids offer the raw input (the 11th "pinyin echo" slot shows a typed
-// digit as itself), so the typed chinese can contain the very digits of the
+// literal digits. Accept rule: a typed digit counts only when the question
+// itself carries that digit. The typed side is never canonized, and the
+// EXPECTED side is compared in two forms - as written, and with its digits
+// canonized (canon_pinyin_numbers: digit -> toned number word, unless it
+// spells a tone mark inside an all-ascii syllable, so legacy "ping2"
+// entries keep their old behaviour). So typing 3 answers "3jiǎo2fēn"
+// (the digit is in the question), but can never answer "sānjiǎo" - there
+// the learner must type san1 jiao3. For a chinese answer the grids offer
+// the raw input (the 11th "pinyin echo" slot shows a typed digit as
+// itself), so the typed chinese can contain the very digits of the
 // expected text and compares equal untouched.
 static const char* const number_word_pinyin[10] = {
 	"líng", "yī", "èr", "sān", "sì", "wǔ", "liù", "qī", "bā", "jiǔ"
@@ -295,8 +295,17 @@ bool chinese::questions::datapoint::ask(
 	std::string asked_c = nospace(tolower(get(asked)));
 	if(asked == chinese::questions::DATATYPE_PINYIN)
 	{
-		// expected side only: a typed digit must NOT become a number word
-		canon_pinyin_numbers(asked_c);
+		// The typed side is never canonized, so a typed digit stays a digit:
+		// it then matches only when the expected pinyin itself is written
+		// with that digit (word "3角2分" -> expected "3jiǎo2fēn": typing 3
+		// is fine, the question itself carries the digit). For a word whose
+		// pinyin really is a number word ("三角" -> "sānjiǎo") the digit
+		// matches neither form and is rejected - there the question
+		// requires san1. Typing the word always stays allowed via the
+		// canonized copy of the expected side.
+		std::string asked_canon = asked_c;
+		canon_pinyin_numbers(asked_canon);
+		return gave_c == asked_c || gave_c == asked_canon;
 	}
 	return gave_c == asked_c;
 }

@@ -420,22 +420,26 @@ Gotchas that waste hours:
   path benefits, literal ü keeps working on console). A lone digit typed as a whole
   syllable stays the bare DIGIT (`pinyin_convert_1syll` passes it through;
   flatten would otherwise strip it as a tone mark and silently end the
-  answer). It is deliberately NOT expanded to the number word (3->sān) -
-  that hands over digit-word answers for free; the learner must type
-  san1/er4/fen1 and learn the toned number words. For digit-containing
-  words (`3角2分`, pinyin derived as `3jiǎo2fēn` with literal digits,
-  chinese stored with the digit) `datapoint::ask()` canonizes the EXPECTED
-  pinyin only (`canon_pinyin_numbers`: digit -> toned number word unless
-  it is a tone mark inside an all-ascii syllable, so legacy `ping2` rows
-  keep their old behaviour); the typed side stays raw, so typed digits
-  never match their own word. In the chinese-character grids the 11th
-  offer (the selectable pinyin echo, `ch_ch_vec.push_back(pinyin)`) then
+  answer). It is deliberately NOT expanded to the number word (3->sān) at
+  input time - that would rewrite what the learner typed. The accept rule
+  lives in `datapoint::ask()` and reads: a typed digit is accepted only
+  when the QUESTION itself carries that digit. Implementation: pinyin
+  answers compare `gave == asked` as written OR `gave == canon(asked)`
+  (`canon_pinyin_numbers` expands expected-side digits to toned number
+  words, `3jiǎo2fēn` -> `sānjiǎoèrfēn`, but leaves digits that are tone
+  marks inside all-ascii syllables, so legacy `ping2` rows keep their old
+  behaviour); the typed side is never canonized, so a typed `3` matches
+  `3角2分` (expected literally contains `3`) but can never match `三角`
+  (expected `sānjiǎo` has no digit) - there only `san1` passes, and the
+  learner must type the toned number words. In the chinese-character grids
+  the 11th offer (the selectable pinyin echo, `ch_ch_vec.push_back(pinyin)`)
   shows the raw digit, and the phone grid makes it tappable
   (`current_options().size() + 1` cells), so typing `3 ⏎` and tapping
   cell 11 writes the digit `3` into the chinese answer - 3角2分 is
-  spelled with plain digits and compares equal. Verified on PC: typing
-  `san1⏎jiao3⏎er4⏎fen1⏎` passes chi->pyn (typing `3⏎...` now fails), grid
-  picks 3/角/2/分 pass pyn->chi and eng->chi.
+  spelled with plain digits and compares equal. Verified on PC
+  (`/tmp/opencode/qnum3/driver.py`): typing `3⏎jiao3⏎2⏎fen1⏎` passes
+  chi->pyn for 3角2分, typing `3⏎jiao3⏎` FAILS for 三角 while
+  `san1⏎jiao3⏎` passes, grid picks 3/角/2/分 pass pyn->chi and eng->chi.
   A lone `-` (or the red FIX
   cell on the on-screen bar) between the two Enters discards a typed english or
   pinyin answer and returns to typing state ("fix my mistake" flow). In the
