@@ -350,21 +350,21 @@ const std::vector<std::pair<std::string, std::string>> chinese::Input::replace =
 
 std::string chinese::Input::pinyin_convert_1syll(std::string const& raw_input)
 {
-	// A bare digit typed as a syllable of its own is the chinese number word,
-	// the way everyone shorthand-writes it (3角2分 = sān jiǎo èr fēn). The
-	// flatten pass below would strip it as a tone mark and leave an empty
-	// syllable (which ends the answer), so expand it here first: in pinyin
-	// input a lone digit key (the phone tone keys push digits, the keyboard
-	// has them anyway) types the number word in its own tone.
+	// A bare digit typed as a syllable of its own stays the bare digit.
+	// The flatten pass below would strip it as a tone mark and leave an
+	// empty syllable (which silently ends the answer), so keep it visible
+	// instead. It is deliberately NOT expanded to the chinese number word
+	// (3 -> sān): that would hand over the answer of digit-containing
+	// words (3角2分) for free - the learner has to type san1/er2... and
+	// learn the toned number words themselves. The answer comparison in
+	// questions.cpp canonizes the EXPECTED pinyin (stored with literal
+	// digits, derived from the chinese text) to number words, so typed
+	// words match while typed digits do not. In the chinese-character
+	// grid this pass-through also makes the 11th offer (the pinyin echo)
+	// show the raw digit, so the digit itself can be picked.
 	if(raw_input.size() == 1 && raw_input[0] >= '0' && raw_input[0] <= '9')
 	{
-		// 0 types líng (the pinyin of 零/〇, what the data files store);
-		// 2 is always èr (never liǎng, a digit never means that)
-		static const char* const number_words[10] = {
-			"líng", "yī", "èr", "sān", "sì", "wǔ",
-			"liù", "qī", "bā", "jiǔ"
-		};
-		return number_words[raw_input[0] - '0'];
+		return raw_input;
 	}
 
 	int tone;
@@ -768,28 +768,6 @@ std::string chinese::Input::do_input_chinese(std::string description, bool shuff
 	return ret;
 }
 
-// The expected-answer set that the choice grids filter by: a word written
-// with arabic digits ("3角2分") expects the digit characters, but a grid
-// can only offer the number characters (三, picked via san1/sān and accepted
-// by the answer comparison, see canon_chinese_numbers in questions.cpp).
-// Registering the number characters as expected keeps them from being
-// filtered out of the grid.
-static void expected_add_number_words(std::unordered_set<std::string>& expected_chinese_chars)
-{
-	static const char* const chinese_number_chars[10] = {
-		"零", "一", "二", "三", "四", "五", "六", "七", "八", "九"
-	};
-	std::vector<std::string> digits;
-	for(std::unordered_set<std::string>::const_iterator iter = expected_chinese_chars.begin();
-		iter != expected_chinese_chars.end(); ++iter)
-	{
-		if(iter->size() == 1 && (*iter)[0] >= '0' && (*iter)[0] <= '9')
-			digits.push_back(chinese_number_chars[(*iter)[0] - '0']);
-	}
-	for(size_t i = 0; i < digits.size(); ++i)
-		expected_chinese_chars.insert(digits[i]);
-}
-
 std::string chinese::Input::do_input_chinese_notone(std::string description, bool shuffle, int breaks, const char* expected) const
 {
 	set_input_flow(INPUT_FLOW_CHINESE);
@@ -842,7 +820,6 @@ std::string chinese::Input::do_input_1char_chinese(
 		expected_chinese_chars_vec = split_into_chinese_characters(expected);
 	}
 	std::unordered_set<std::string> expected_chinese_chars(expected_chinese_chars_vec.begin(), expected_chinese_chars_vec.end());
-	expected_add_number_words(expected_chinese_chars);
 	std::vector<std::string> ch_ch_vec;
 	do
 	{
@@ -968,7 +945,6 @@ std::string chinese::Input::do_input_1char_chinese_notone(
 		expected_chinese_chars_vec = split_into_chinese_characters(expected);
 	}
 	std::unordered_set<std::string> expected_chinese_chars(expected_chinese_chars_vec.begin(), expected_chinese_chars_vec.end());
-	expected_add_number_words(expected_chinese_chars);
 	std::vector<std::string> ch_ch_vec;
 	do
 	{

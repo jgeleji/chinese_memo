@@ -208,19 +208,19 @@ std::string const& chinese::questions::datapoint::get(DATATYPE which) const
 // Words written with arabic digits ("3角2分") get their pinyin by deriving
 // it from the chinese text, and that derivation passes single-byte
 // characters through untouched: the expected pinyin is "3jiǎo2fēn", with
-// literal digits. A typed pinyin answer can never contain a bare digit (a
-// digit inside a syllable is a tone mark; a bare digit key types the toned
-// number word, see pinyin_convert_1syll), and a typed chinese answer can
-// only pick the number characters (三, not 3). So before comparing, digits
-// are canonized on both sides: in a pinyin answer a digit becomes its toned
-// number word unless it spells a tone mark inside an all-ascii syllable
-// (legacy "ping2" entries keep their old behaviour), and in a chinese answer
-// a digit becomes its number character (〇 counting as 零).
+// literal digits. To answer the pinyin question the learner must type the
+// number words themselves with their tones (san1 jiao3 er2 fen1), so before
+// comparing, digits are canonized on the EXPECTED side only: a digit in the
+// expected pinyin becomes its toned number word, unless it spells a tone
+// mark inside an all-ascii syllable (legacy "ping2" entries keep their old
+// behaviour). The typed answer is NOT canonized: a bare digit typed there
+// stays a digit (see pinyin_convert_1syll) and never matches a number word,
+// so digits do not answer their own question. For a chinese answer the
+// grids offer the raw input (the 11th "pinyin echo" slot shows a typed
+// digit as itself), so the typed chinese can contain the very digits of the
+// expected text and compares equal untouched.
 static const char* const number_word_pinyin[10] = {
 	"líng", "yī", "èr", "sān", "sì", "wǔ", "liù", "qī", "bā", "jiǔ"
-};
-static const char* const number_word_chinese[10] = {
-	"零", "一", "二", "三", "四", "五", "六", "七", "八", "九"
 };
 
 static bool is_ascii_letter(char c)
@@ -252,25 +252,6 @@ static void canon_pinyin_numbers(std::string& s)
 		}
 		if(expand && s[i] >= '0' && s[i] <= '9')
 			out += number_word_pinyin[s[i] - '0'];
-		else
-			out += s[i];
-	}
-	s.swap(out);
-}
-
-static void canon_chinese_numbers(std::string& s)
-{
-	std::string out;
-	for(size_t i = 0; i < s.size(); ++i)
-	{
-		if(s[i] >= '0' && s[i] <= '9')
-			out += number_word_chinese[s[i] - '0'];
-		else if((unsigned char)s[i] == 0xE3 && i + 2 < s.size()
-			&& (unsigned char)s[i+1] == 0x87 && (unsigned char)s[i+2] == 0x87)
-		{
-			out += "零";   // 〇 is just a styled 零
-			i += 2;
-		}
 		else
 			out += s[i];
 	}
@@ -314,13 +295,8 @@ bool chinese::questions::datapoint::ask(
 	std::string asked_c = nospace(tolower(get(asked)));
 	if(asked == chinese::questions::DATATYPE_PINYIN)
 	{
-		canon_pinyin_numbers(gave_c);
+		// expected side only: a typed digit must NOT become a number word
 		canon_pinyin_numbers(asked_c);
-	}
-	else if(asked == chinese::questions::DATATYPE_CHINESE)
-	{
-		canon_chinese_numbers(gave_c);
-		canon_chinese_numbers(asked_c);
 	}
 	return gave_c == asked_c;
 }

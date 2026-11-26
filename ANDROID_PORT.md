@@ -417,25 +417,25 @@ Gotchas that waste hours:
   covers app buttons (IME band max-tracking + margin `g_h/40`).
 - Input conventions to preserve: typing `v` stands for `ü` (phone keyboards have
   no umlaut key; `nv3` = nǚ, done inside `pinyin_flatten_1syll` so every pinyin
-  path benefits, literal ü keeps working on console). A lone digit typed as a
-  whole syllable is the chinese NUMBER WORD (`pinyin_convert_1syll` expands
-  `3`→sān, `2`→èr, `0`→líng, ... before the flatten pass, which would otherwise
-  strip it as a tone mark and end the answer): `3角2分` can be typed
-  `3 ⏎ jiao3 ⏎ 2 ⏎ fen1 ⏎`; digits inside a syllable stay tone marks (`jiao3`).
-  Words whose text contains arabic digits get their pinyin DERIVED
-  (`convert_chinese_to_pinyin` passes bytes through), so the stored pinyin
-  literally contains digits (`3角2分`→`3jiǎo2fēn`) and the stored chinese
-  literally contains `3`. To make such words answerable in every form,
-  `datapoint::ask()` canonizes both sides before comparing
-  (`canon_pinyin_numbers`: a digit becomes its toned number word UNLESS it
-  sits inside an all-ascii syllable, where it stays a legacy tone mark like
-  `ping2`; `canon_chinese_numbers`: digit→number char, 〇→零). The chinese
-  choice grids filter options by expected characters, so
-  `expected_add_number_words()` (input_common.cpp) registers 零一二三四五六七八九
-  whenever the expected answer contains a bare digit - the grids then OFFER
-  三/二 etc. for `3角2分` (both tone and notone flows). Verified: all four
-  forms of `3角2分` pass on the PC build (typed `3⏎jiao3⏎2⏎fen1⏎` and grid
-  picks 三角二分).
+  path benefits, literal ü keeps working on console). A lone digit typed as a whole
+  syllable stays the bare DIGIT (`pinyin_convert_1syll` passes it through;
+  flatten would otherwise strip it as a tone mark and silently end the
+  answer). It is deliberately NOT expanded to the number word (3->sān) -
+  that hands over digit-word answers for free; the learner must type
+  san1/er4/fen1 and learn the toned number words. For digit-containing
+  words (`3角2分`, pinyin derived as `3jiǎo2fēn` with literal digits,
+  chinese stored with the digit) `datapoint::ask()` canonizes the EXPECTED
+  pinyin only (`canon_pinyin_numbers`: digit -> toned number word unless
+  it is a tone mark inside an all-ascii syllable, so legacy `ping2` rows
+  keep their old behaviour); the typed side stays raw, so typed digits
+  never match their own word. In the chinese-character grids the 11th
+  offer (the selectable pinyin echo, `ch_ch_vec.push_back(pinyin)`) then
+  shows the raw digit, and the phone grid makes it tappable
+  (`current_options().size() + 1` cells), so typing `3 ⏎` and tapping
+  cell 11 writes the digit `3` into the chinese answer - 3角2分 is
+  spelled with plain digits and compares equal. Verified on PC: typing
+  `san1⏎jiao3⏎er4⏎fen1⏎` passes chi->pyn (typing `3⏎...` now fails), grid
+  picks 3/角/2/分 pass pyn->chi and eng->chi.
   A lone `-` (or the red FIX
   cell on the on-screen bar) between the two Enters discards a typed english or
   pinyin answer and returns to typing state ("fix my mistake" flow). In the
