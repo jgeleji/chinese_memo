@@ -1,8 +1,8 @@
 百分之二十|20 percent|bǎifēnzhīèrshí
 100的20|20 percent of 100
-1/5|one fifth
+五分之一|one fifth;1/5|wǔfēnzhīyī
 五分之一|one fifth|wǔfēnzhīyī
-27%|27 percent
+百分之二十七|27 percent;27%|bǎifēnzhīèrshíqī
 百分之|percent|bǎifēnzhī
 拍照|take a photo|pāizhào
 你可以帮助我拍照片吗？|Can you help me take a photo?

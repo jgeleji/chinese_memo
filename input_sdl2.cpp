@@ -1621,6 +1621,17 @@ static void present(void)
 		BarLayout B = compute_bar_layout();
 		text_bottom = B.y0 - B.gap - 2 * margin;
 	}
+	// The IME band applies to plain-text screens too: the soft keyboard is
+	// up the whole session (separate window, SDL surface not resized), so
+	// without this the tail of every text-only screen - statistics, the
+	// wrong-answer feedback, the block recap including its next-block/quit
+	// hint - is drawn underneath the keyboard. The button and bar layouts
+	// above already carve the band out, so this is a no-op during input
+	// sessions; on PC it only bites when CM_IME_BAND is set.
+	{
+		int band = ime_band();
+		if(text_bottom > g_h - band) text_bottom = g_h - band;
+	}
 
 	// Sizes. The question sentence is the only thing here that has to be
 	// readable at arm's length, so it gets as big as the room allows; the
@@ -1658,12 +1669,53 @@ static void present(void)
 			if((double)(text_bottom - res_top) >= total_h || key_px <= small_px + 6) break;
 			key_px = (int)(key_px * 0.9) & ~3;
 		}
+		// The pinned anchor is only an aim: when the block is tall (the block
+		// recap prints the verdict, every word of the block and the exit hint)
+		// keeping the anchor would push its tail under the bottom of the text
+		// area, i.e. under the always-up soft keyboard. Slide the whole block
+		// up until it fits; shrinking text is only the last resort, and
+		// everything that still does not fit runs off the TOP, which is
+		// recoverable, not off the bottom, which is unreadable.
+		{
+			double total_h = 0.0;
+			for(size_t i = 0; i < res_subs.size(); ++i)
+			{
+				float lh;
+				font_line_height(res_subs[i].px, lh);
+				total_h += lh;
+			}
+			int want = text_bottom - (int)total_h;
+			if(res_top > want) res_top = want;
+			if(res_top < text_top) res_top = text_top;
+			while((double)(text_bottom - res_top) < total_h)
+			{
+				bool shrunk = false;
+				for(size_t i = 0; i < res_subs.size(); ++i)
+				{
+					if(res_subs[i].px > 20)
+					{
+						scale_subline(res_subs[i], 0.9, 20);
+						shrunk = true;
+					}
+				}
+				if(!shrunk) break;
+				total_h = 0.0;
+				for(size_t i = 0; i < res_subs.size(); ++i)
+				{
+					float lh;
+					font_line_height(res_subs[i].px, lh);
+					total_h += lh;
+				}
+			}
+		}
 	}
 
 	// start with the biggest question size and step down until everything fits
 	std::vector<Subline> subs;
 	int big_px = max_big;
-	int flow_avail = (res_top < 0) ? avail_h : std::max(40, res_top - margin / 2 - text_top);
+	// when the block has slid all the way up there is no room left for the
+	// question context; drawing a forced minimum would put it under the block
+	int flow_avail = (res_top < 0) ? avail_h : std::max(0, res_top - margin / 2 - text_top);
 	for(;;)
 	{
 		build_sublines(subs, buttons_active(), small_px, base_px, big_px, avail_w, res_start);
@@ -1690,9 +1742,10 @@ static void present(void)
 		if(!shrunk) break;
 	}
 
-	// keep the last lines that fit (statistics screens can be long)
-	size_t first = 0;
-	if(!subs.empty())
+	// keep the last lines that fit (statistics screens can be long); with no
+	// room at all nothing of the flow is drawn
+	size_t first = subs.size();
+	if(flow_avail > 0 && !subs.empty())
 	{
 		double h_from = 0.0;
 		first = subs.size();
@@ -2110,9 +2163,9 @@ void chinese::Input::system_pause() const
 
 // See input.h. Same wait as system_pause, but Back/Esc/'x' means "end the
 // session" instead of "carry on": the block recap screen offers exactly that
-// choice. On the phone the visible keyboard is gone here (no input session),
-// so a finger tap is the continue gesture and the system Back button is the
-// quit gesture.
+// choice. The soft keyboard is up all the time (separate window), so taps on
+// its keys go to the IME, not here: on the phone continue is a tap above the
+// keyboard or the keyboard's Enter, quit is the system Back button.
 bool chinese::Input::system_pause_choice() const
 {
 	present();

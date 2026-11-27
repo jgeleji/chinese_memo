@@ -201,13 +201,18 @@ score model.
   It waits via `Input::system_pause_choice()` (new, both backends: any
   tap/Enter/Space = continue, SDL_AC_BACK/BACKSPACE/ESC/'x' = end the
   session, main returns 0). Scripted runs steer the choice with a queued
-  `x`. No bar/keyboard is drawn (not an input session — the bar gating
-  rule holds).
+  `x`. No bar/keyboard is drawn by SDL (not an input session — the bar gating
+  rule holds), but the system IME is up the whole session, so on the phone
+  "continue" is a tap above the keyboard or the IME's Enter, "quit" is the
+  system Back button; the recap is laid out to end above the IME band.
 - Test hooks: `CM_BLOCK_MAX=n` ends the engine after n blocks; stderr gets
   `blockmode ...`, per block `blockdone no= pass= weak= seq=` and 15
   `RECAP|chi|pyn|ok|again|c/t` lines. Headless scenario test:
   restart-at-q1 order, frozen forms, per-block selection, verdict rows,
-  settled columns (was 21/21; kept in /tmp/opencode/block15/test_block.py).
+  settled columns (was 21/21; kept in tools/blockdriver.py).
+  Recap-vs-keyboard UI test (one-word pool, `CM_IME_BAND=315`, queued
+  `hao3\n\nx`, checks the recap frame's last lines are drawn and no bright
+  pixels under the band): tools/recapdriver.py.
 
 
 ## 3. How this app is built (the SDL2 pattern, component by component)
@@ -276,6 +281,16 @@ externalNativeBuild { cmake { path new File(cmRoot, 'CMakeLists.txt'); version '
 A `syncAppAssets` Copy task copies the game's data files (`union_q.txt`,
 `status1.txt`, `assets/NotoSansSC.ttf`, `data/`) into `app/src/main/assets`
 before every asset merge — so progress/data in the repo are what ships in the APK.
+
+Word line format is `chinese|english|pinyin` (pinyin optional). The english field
+splits on `;` into SEPARATE entries sharing chinese/pinyin
+(`五分之一|one fifth;1/5|wǔfēnzhīyī`): this is how notations like `1/5` or `27%`
+stay learnable — the bare `1/5|one fifth` line taught nothing because every
+question form asks for chinese/pinyin that a slash token has no answer for, so
+the notation now hangs off the real saying (百分之二十七 for 27%). Exact
+duplicate chinese+pinyin+english triples are silently deduped, so older plain
+lines may stay in the file; status1.txt rows keyed on a removed dodgy chinese
+key (old `1/5`) simply stop matching and are ignored.
 
 `data2/` (every character's ALTERNATE readings — 仔 is listed `zǐ` in
 general-standard but reads `zǎi` in 牛仔裤) ships too, but as ONE tar: a
@@ -352,7 +367,14 @@ Everything the console did through `std::cout` and `getch()` is served by this f
 - **screens never "print and scroll"**: each `present()` lays out the whole captured
   buffer to fit the screen (shrink-to-fit size chains, all font sizes kept on
   multiples of 4 — every size gets its own glyph atlas, unbounded probe chains eat
-  phone RAM). Text area bottom limit = keyboard band (`cm_ime_height` + margin).
+  phone RAM). Text area bottom limit = keyboard band (`cm_ime_height` + margin)
+  — this clamp applies to plain-text screens too (recap, statistics, feedback;
+  the button/bar layouts already carved the band out, text-only screens did
+  not: "some of the display is still under the keyboard"). The pinned verdict
+  block slides UP inside the text area when it is too tall to fit below its
+  anchor (recap = verdict + 15 words + exit hint > half a screen), shrinking
+  its lines only as a last resort — overflow must run off the top (recoverable),
+  never off the bottom (under the IME).
 - **blocking points** (`system_pause`, `show_for(ms)`) just keep presenting the last
   frame; the engine code (`questions.cpp`) is otherwise untouched.
 - **fonts**: `stb_truetype` loads `NotoSansSC.ttf` (bundled in assets) — CJK+latin.
