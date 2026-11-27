@@ -441,20 +441,42 @@ Gotchas that waste hours:
   chi->pyn for 3角2分, typing `3⏎jiao3⏎` FAILS for 三角 while
   `san1⏎jiao3⏎` passes, grid picks 3/角/2/分 pass pyn->chi and eng->chi.
   A lone `-` (or the red FIX
-  cell on the on-screen bar) between the two Enters discards a typed english or
-  pinyin answer and returns to typing state ("fix my mistake" flow). In the
-  chinese-character flow the orange `DELETE ALL` bar cell erases the whole typed
-  answer (the `-`-then-`0` cache trick made visible): typing state pushes
+  cell on the on-screen bar) discards a typed english or pinyin answer and
+  returns to typing state ("fix my mistake" flow), in ANY phase - while the
+  syllable is still being built as well as between the two Enters. In the
+  chinese-character flow the orange `DELETE ALL` bar cell erases the whole
+  typed answer (the `-`-then-`0` cache trick made visible): typing state pushes
   `ESC + "-\n0\n"`, choose-number state pushes `0\n-\n0\n` (ESC must stay out of
   the grid path - empty raw there ENDS the answer); ESC also clears raw input in
-  both backends. Bar visibility is gated by `chinese::set_input_flow()` +
-  `g_active_state` (see `bar_key_active`). PC checks: `CANCEL_TYPES=chinese`
-  (raw keys) and `chinese_tap` (`@TAP` on the 6th visible bar cell, same
-  geometry as FIX) in driver3.py; both must end with re-answered ACCEPTED,
-  wrong=0.
+  both backends. The FIX cell pushes `ESC + "-\n"` while typing and a bare `-`
+  in the accept phase, and because the english flow cancels on the `-` keystroke
+  itself, `drop_queued_newline()` eats the tap's trailing Enter so the restarted
+  answer does not begin one phase late.
+  Bar lifetime: exactly one input session. `set_input_flow()` reports
+  `INPUT_FLOW_NONE` when a flow returns, so `in_input_session()` is false on the
+  verdict screens ("Wrong answer (...)"), the menus and the statistics screens -
+  those show no bar cells at all (that leftover-bar behaviour was the reported
+  bug: the button was missing mid-word and present when nothing could be typed
+  any more). Which cell shows is `bar_key_active()`: red FIX while
+  `g_flow == INPUT_FLOW_FREE`, orange DELETE ALL while `g_flow ==
+  INPUT_FLOW_CHINESE` (also on the option grids - `compute_button_layout`
+  reserves the bar row via `bar_row_size()` so grid and discard cell share the
+  band, and there DELETE ALL is the only active bar key so it spans it), the
+  tone/DEL/OK keys only when no grid is up. PC checks:
+  `/tmp/opencode/barbtn/visual.py` counts the two cell face colours (FIX
+  `0x5A1F22`, DELETE ALL `0x2A5A9A`) in every dumped frame - FIX present in
+  every free-typed phase, DELETE ALL present in every chinese phase including
+  the grids, both zero on verdict frames; `/tmp/opencode/barbtn/debug_chi.py`
+  drives the grid barrage (`0\n-\n0\n`) end to end and the answer still lands
+  `success`. `CANCEL_TYPES=chinese` (raw keys) and `chinese_tap` (`@TAP` on the
+  bar cell) in driver3.py still re-answer ACCEPTED, wrong=0.
 - Verdict screens: key line pinned at `text_top + avail_h*0.42`, fixed size
   `min(base_px*2, max_big)`; same spot for correct and wrong.
 - After each batch: PC scripted checks → gradle build → `adb install -r` →
   `am start` → logcat "keyboard height: 1177px" → copy APK to `~/Downloads/chinese_memo-debug.apk`
   → commit + non-interactive push.
-- Current git tip when this doc was written: `abc497f` (before it `c407fcf`), `main` synced to origin, clean tree.
+- Current git tip when this doc was written: `0ceae95` plus the bar-lifetime
+  change described above (the discard cell lives exactly as long as an input
+  session), `main` synced to origin. The working tree also carries a locally
+  re-sorted `union_q.txt` (pool grows from phone runs) which is not part of the
+  code commits.

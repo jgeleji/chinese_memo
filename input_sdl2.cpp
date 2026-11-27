@@ -873,6 +873,10 @@ static size_t button_cell_count()
 	return chinese::current_options().size() + 1;
 }
 
+static int ime_band(void);
+static void bar_row_size(int& gap, int& cell_h);
+static bool in_input_session();
+
 static ButtonLayout compute_button_layout()
 {
 	size_t n = button_cell_count();
@@ -882,6 +886,14 @@ static ButtonLayout compute_button_layout()
 	L.rows = (int)((n + L.cols - 1) / L.cols);
 	L.cell_w = (g_w - (L.cols + 1) * L.gap) / L.cols;
 	int band = ime_band();
+	// the discard cell (DELETE ALL) keeps its row along the keyboard band
+	// even while the option grids are up, so the grids give that row up
+	if(in_input_session())
+	{
+		int bar_gap, bar_cell_h;
+		bar_row_size(bar_gap, bar_cell_h);
+		band += bar_gap + bar_cell_h;
+	}
 	// The grid may use at most about half of the space above the keyboard: the
 	// question drawn above it is big now and must not be squeezed away.
 	int max_btn_area = (int)((g_h - band) * 0.46);
@@ -912,21 +924,25 @@ static void layout_button_rects()
 }
 
 // ---------------------------------------------------------------------------
-// on-screen key bar (only while a free-typed answer is expected):
-// DEL + the four tone keys + OK, plus CANCEL while the answer sits in the
-// accept phase (see bar_key_active). Taps push the same keystrokes the phone
-// keyboard would produce, so the input logic is unchanged.
+// on-screen key bar (lives exactly as long as an input session, see
+// inputbar_active): DEL + the four tone keys + OK, plus exactly one discard
+// cell - red FIX for free-typed answers, orange DELETE ALL for the
+// chinese-character answer (see bar_key_active). Taps push the same
+// keystrokes the phone keyboard would produce, so the input logic is
+// unchanged.
 // ---------------------------------------------------------------------------
 
 static std::vector<SDL_Rect> g_bar_rects;
 static std::vector<std::string> g_bar_labels;
 static std::vector<std::string> g_bar_keys;
 
-// "-" on the bar = "the typed answer is wrong, start over". It only appears
-// in state 1 of the free-typed flows (one Enter already pressed: the word is
-// committed but not accepted yet), which is exactly when the mistake is
-// noticed - and only there, so it can never be hit by accident while typing
-// (where "-" in pinyin is the tone-1 key and means something else).
+// The red bar cell = "the typed answer is wrong, start over". It lives
+// wherever a typed answer lives (see bar_key_active): a tap sends "-\n"
+// (typing state: ESC-prefixed, see handle_tap), and "-" cancels a
+// free-typed answer in every phase - in the accept phase outright (the flow
+// then flushes the queued Enter), and while typing as a cancel-commit (the
+// dash_committed path of do_input_1char_pinyin fires on its Enter), so one
+// tap discards the whole answer mid-word too.
 static const char CANCEL_KEY = '#';   // pushed as the "-" keystroke when tapped
 
 // "@" on the bar = the "- and then 0" trick that erases the whole typed
@@ -945,13 +961,16 @@ void chinese::set_input_flow(int flow)
 static bool bar_key_active(size_t i)
 {
 	char k = g_bar_keys[i][0];
-	if(k == CANCEL_KEY) return g_active_state == STATE_CHOOSE_NUMBER;
-	// while a syllable is being typed in the chinese flow there is no option
-	// grid on screen yet, so the bar owns its band and DELETE can live there;
-	// on the choose-number grids the option buttons take the band instead
-	if(k == CLR_KEY) return g_flow == (int)chinese::INPUT_FLOW_CHINESE
-		&& g_active_state == STATE_TYPE_PINYIN;
-	return true;
+	// the discard cell never leaves a typed answer: red FIX for the
+	// free-typed flows (while typing AND in the accept phase), orange
+	// DELETE ALL for the chinese-character flow - both on the syllable
+	// line and on the character grids, where the option buttons make room
+	// for it along the keyboard band (see compute_button_layout)
+	if(k == CANCEL_KEY) return g_flow == (int)chinese::INPUT_FLOW_FREE;
+	if(k == CLR_KEY) return g_flow == (int)chinese::INPUT_FLOW_CHINESE;
+	// DEL, tone keys and OK/END only own the band when no option grid is
+	// on screen
+	return !buttons_active();
 }
 
 struct BarLayout
@@ -961,10 +980,19 @@ struct BarLayout
 
 // The bar must survive the whole typed answer, including the "one Enter was
 // pressed, now finish or continue" state (state 1 in the free-typed flows).
-// It is hidden only while the option buttons take that place on screen.
+// It lives exactly as long as an input session: every do_input_* flow
+// reports INPUT_FLOW_NONE through set_input_flow when it returns, so menus,
+// statistics screens and the answer-verdict screens ("Wrong answer (...)")
+// carry no bar cells - the old leftover-state behaviour showed FIX/DELETE
+// ALL exactly when nothing could be typed any more.
+static bool in_input_session()
+{
+	return g_flow != (int)chinese::INPUT_FLOW_NONE;
+}
+
 static bool inputbar_active()
 {
-	return g_inited && !buttons_active();
+	return g_inited && in_input_session();
 }
 
 static void init_bar_keys()
@@ -1045,17 +1073,24 @@ static int ime_band(void)
 #endif
 }
 
+// shared bar-cell geometry: the bar uses it, and compute_button_layout must
+// reserve exactly this row when the discard cell sits below the grids
+static void bar_row_size(int& gap, int& cell_h)
+{
+	gap = std::max(8, g_w / 50);
+	cell_h = std::max(72, std::min(g_h / 9, (g_h - ime_band()) / 6));
+}
+
 static BarLayout compute_bar_layout()
 {
 	init_bar_keys();
 	BarLayout B;
-	B.gap = std::max(8, g_w / 50);
+	bar_row_size(B.gap, B.cell_h);
 	int n = 0;
 	for(size_t i = 0; i < g_bar_keys.size(); ++i)
 		if(bar_key_active(i)) ++n;
 	B.cell_w = (g_w - (n + 1) * B.gap) / n;
 	int band = ime_band();
-	B.cell_h = std::max(72, std::min(g_h / 9, (g_h - band) / 6));
 	B.x0 = B.gap;
 	B.y0 = g_h - band - B.gap - B.cell_h;
 	if(B.y0 < g_h / 4) B.y0 = g_h / 4;    // never push the bar into the text area
@@ -1797,7 +1832,18 @@ static bool handle_tap(float fx, float fy)
 		if(fx >= rc.x - pad && fx < rc.x + rc.w + pad && fy >= rc.y - pad && fy < rc.y + rc.h + pad)
 		{
 			size_t i = bar_key_of_rect(ri);
-			if(g_bar_keys[i][0] == CANCEL_KEY) push_key_string("-");
+			if(g_bar_keys[i][0] == CANCEL_KEY)
+			{
+				// one tap discards the whole free-typed answer in any phase.
+				// Typing state: ESC first drops the half-typed syllable (a "-"
+				// right after letters would read as the tone-1 mark!), then
+				// the "-" arrives as a whole raw input and its Enter fires
+				// the cancel-commit (dash_committed). Accept phase: a bare
+				// "-" cancels directly (ESC there would END the answer, so
+				// it stays out of that path).
+				if(g_active_state == STATE_TYPE_PINYIN) push_key_string("\x1b-\n");
+				else push_key_string("-");
+			}
 			else if(g_bar_keys[i][0] == CLR_KEY)
 			{
 				// the "- and then 0" erase-everything trick, spelled out in
@@ -2009,6 +2055,17 @@ void chinese::Input::flush_pending_input() const
 	// runs exclusively (it either waits for events or holds queued keys), so
 	// nothing is in flight here; draining SDL events would also discard a tap
 	// that was meant to open the next screen. Just drop the queue.
+}
+
+// See input.h: the FIX cell sends ESC + "-" + Enter while a syllable is being
+// typed. Where the flow cancels on the "-" itself (the english answer), the
+// Enter of that tap must not restart the answer in its accept phase. Scripted
+// runs matter most here (flush_pending_input deliberately leaves their
+// keystroke stream alone), and it is also what makes a fast second tap or a
+// quickly typed Enter after the cancel land where the user means them.
+void chinese::Input::drop_queued_newline() const
+{
+	if(!g_keys.empty() && g_keys.front() == '\n') g_keys.pop_front();
 }
 
 void chinese::Input::show_for(int ms) const

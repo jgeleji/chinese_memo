@@ -124,6 +124,12 @@ void chinese::Input::flush_pending_input() const
 	flushinp();
 }
 
+// the terminal hands keys over one at a time, so there is no queue to take an
+// already-typed Enter back from
+void chinese::Input::drop_queued_newline() const
+{
+}
+
 void chinese::Input::show_for(int ms) const
 {
 	std::cout.flush();

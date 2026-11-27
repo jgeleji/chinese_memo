@@ -620,6 +620,10 @@ std::string chinese::Input::do_input_1char_english(
 		if(raw_input == "-")
 		{
 			this->flush_pending_input();
+			// the tap that cancels sends its Enter right after the "-": it is
+			// part of the cancel, so it must not start the restarted answer
+			// one phase late
+			this->drop_queued_newline();
 			return "-";
 		}
 		std::mt19937& rnd = chinese_rng();

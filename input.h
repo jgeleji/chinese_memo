@@ -93,6 +93,13 @@ class Input
 		// into the restarted answer)
 		void flush_pending_input() const;
 
+		// consume one Enter that is already sitting in the queue: a "-" cancel
+		// fires on the "-" keystroke itself, and the Enter that the FIX cell
+		// sends right behind it belongs to the cancel, not to the restarted
+		// answer (without this the restarted answer starts out one Enter too
+		// far, in its accept phase)
+		void drop_queued_newline() const;
+
 		std::vector<std::string> get_possibles(std::string const& pinyin) const;
 		std::vector<std::string> get_possibles_fromflat(std::string const& pinyin) const;
 
