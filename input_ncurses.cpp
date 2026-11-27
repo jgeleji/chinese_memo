@@ -117,6 +117,18 @@ void chinese::Input::system_pause() const
 	getch();
 }
 
+// See input.h: any key continues, Esc/Backspace/'x' ends the session.
+bool chinese::Input::system_pause_choice() const
+{
+	for(;;)
+	{
+		int ch = getch();
+		if(ch == 27 || ch == KEY_BACKSPACE || ch == 'x' || ch == 'X')
+			return false;
+		return true;
+	}
+}
+
 // the console equivalent of the SDL backend's queue drop: keys typed around a
 // "-" cancel must not leak into the restarted answer
 void chinese::Input::flush_pending_input() const

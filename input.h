@@ -40,6 +40,12 @@ class Input
 		void init() const;
 		void close() const;
 		void system_pause() const;
+
+		// system_pause that can also end the session: any tap/Enter/Space
+		// returns true (continue), Back (phone button) / Esc / 'x' returns
+		// false (quit). Used by the block-completion recap screen so a run
+		// can be left at a clean point.
+		bool system_pause_choice() const;
 	// Show the screen as it currently is (including everything printed since
 	// the last input) for ms milliseconds, then throw away any key/touch that
 	// arrived meanwhile so it cannot leak into the next question. Used for the

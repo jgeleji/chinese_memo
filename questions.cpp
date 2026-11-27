@@ -1141,6 +1141,302 @@ bool chinese::questions::ask_gap_mixed(int breaks) const
 	return true;
 }
 
+// Block mode: the same gap selection as ask_gap_mixed, grouped into blocks of
+// BLOCK15_SIZE words that are drilled until one full pass is clean. The feel
+// is the old block10 mode (a wrong answer restarts the pass at question 1, so
+// the fixed order of the block is what carries the memory: seeing a question
+// in the same place in the same shape every time) with today's word-centric
+// forms and per-word gap bookkeeping. See questions.h (BLOCK15_SIZE).
+bool chinese::questions::ask_gap_block15(int breaks) const
+{
+	const bool testmode = cm_gap_test_mode();
+
+	size_t sequence_number = 0;
+	std::map<size_t, gap_word> rec = load_gap_status_file(sequence_number);
+	const size_t words_total = rec.size();
+
+	// new words in order of increasing complexity: exactly the mixed-mode
+	// order rule (shortest chinese first, data order on ties)
+	std::vector<size_t> unseen;
+	size_t seen_total = 0;
+	for(auto const& kv : rec)
+	{
+		if(kv.second.last_seq < 0)
+			unseen.push_back(kv.first);
+		else
+			++seen_total;
+	}
+	std::stable_sort(unseen.begin(), unseen.end(), [this] (size_t a, size_t b)
+	{
+		size_t la = chinese::Input::count_unicode_code_points(loaded_data[a].chinese);
+		size_t lb = chinese::Input::count_unicode_code_points(loaded_data[b].chinese);
+		return la < lb;
+	});
+	size_t unseen_pos = 0;
+
+	// status row append, same 12-column format as every gap-mode row
+	auto write_row = [this] (
+		datapoint const* current, DATATYPE provided, DATATYPE asked,
+		long long seq, bool ok, gap_word const& w)
+	{
+		std::fstream statusfile;
+		statusfile.open(statusfilename, std::fstream::out | std::fstream::app);
+		statusfile << current->get(DATATYPE_CHINESE) << "|";
+		statusfile << current->get(DATATYPE_PINYIN) << "|";
+		statusfile << current->get(DATATYPE_ENGLISH) << "|";
+		statusfile << ((int)provided) << "|" << ((int)asked);
+		statusfile << "|" << seq << "|";
+		statusfile << (ok ? "success" : "fail");
+		statusfile << "|" << w.interval << "|" << w.last_correct_at
+			<< "|" << w.round_min << "|" << w.form << "|" << w.rounds_done;
+		statusfile << "\n";
+		statusfile.close();
+	};
+
+	std::cout << "Block mode: blocks of " << BLOCK15_SIZE << ". " << seen_total
+		<< " seen, " << unseen.size() << " new words. A wrong answer restarts"
+		" the block at question 1; the block ends with one clean pass.\r\n";
+	if(testmode)
+		fprintf(stderr, "blockmode words=%zu seen=%zu unseen=%zu seqmax=%zu\n",
+			words_total, seen_total, unseen.size(), sequence_number);
+
+	// test hook (tools/qdriver.py): stop after this many completed blocks
+	const char* maxblocks = getenv("CM_BLOCK_MAX");
+	const size_t blocks_limit = maxblocks ? (size_t)atoi(maxblocks) : 0;
+
+	size_t block_no = 0;
+	while(true)
+	{
+		++block_no;
+
+		// ---------- choose this block's words (mixed-mode selection) ----------
+		// seen picks: same argmin (interval asc, last_seq asc) over the whole
+		// map, skipping the words already chosen for this block; ~30% new by
+		// the same ratio rule, counted per block. Words drilled in previous
+		// blocks have the freshest last_seq, so on ties they sort to the back
+		// and the next block is naturally made of different words. A word
+		// that failed its last answer sits at interval 0, oldest-asked, and
+		// therefore leads the next block - the mixed-mode re-ask intent.
+		std::vector<std::pair<size_t, int>> blk;   // (word, form frozen at pick)
+		std::unordered_set<size_t> in_blk;
+		size_t bslots = 0, bnew = 0;
+		while(blk.size() < (size_t)BLOCK15_SIZE)
+		{
+			++bslots;
+			bool take_new = unseen_pos < unseen.size()
+				&& (seen_total == 0 || 10*(bnew+1) <= 3*bslots);
+			if(take_new)
+			{
+				size_t w = unseen[unseen_pos++];
+				++bnew;
+				in_blk.insert(w);
+				blk.push_back(std::make_pair(w, rec[w].form));
+				continue;
+			}
+			bool any = false;
+			size_t best = 0;
+			gap_word bestw{0,-1,-1,-1,0,0};
+			for(auto const& kv : rec)
+			{
+				if(kv.second.last_seq < 0 || in_blk.count(kv.first)) continue;
+				if(!any
+					|| kv.second.interval < bestw.interval
+					|| (kv.second.interval == bestw.interval && kv.second.last_seq < bestw.last_seq))
+				{
+					any = true;
+					best = kv.first;
+					bestw = kv.second;
+				}
+			}
+			if(!any) break;   // pool smaller than a block: drill what is left
+			in_blk.insert(best);
+			blk.push_back(std::make_pair(best, rec[best].form));
+		}
+		if(blk.empty()) return true;   // nothing left to ask
+
+		// per word: replies tallied inside the block and the last sequences
+		std::vector<size_t> ncorrect(blk.size(), 0), nwrong(blk.size(), 0);
+		std::vector<long long> last_good(blk.size(), -1), last_ask(blk.size(), -1);
+
+		// ---------- drill the block: pass over pass until one is clean ----------
+		size_t pass = 0;
+		while(true)
+		{
+			++pass;
+			bool missed = false;
+			for(size_t bi=0; bi<blk.size(); ++bi)
+			{
+				++sequence_number;
+				size_t which_q = blk[bi].first;
+				int form = blk[bi].second;   // frozen: the repeated question
+				gap_word& w = rec[which_q];  // arrives in the same shape
+				DATATYPE provided = GAP_FORMS[form][0];
+				DATATYPE asked = GAP_FORMS[form][1];
+				datapoint const* current = &loaded_data[which_q];
+
+				// same ambiguity guard as the other modes
+				std::vector<datapoint const*> others;
+				std::string key = current->get(provided);
+				std::unordered_map<std::string, std::unordered_set<int>>::const_iterator iter;
+				std::unordered_map<std::string, std::unordered_set<int>> const* provided_overlaps;
+				switch(provided)
+				{
+					case DATATYPE_PINYIN: provided_overlaps = &pinyin_overlaps; break;
+					case DATATYPE_ENGLISH: provided_overlaps = &english_overlaps; break;
+					default: provided_overlaps = &chinese_overlaps; break;
+				}
+				iter = provided_overlaps->find(key);
+				if(iter != provided_overlaps->end())
+				{
+					for(size_t index: iter->second)
+					{
+						datapoint const* identical = &loaded_data[index];
+						if(identical->get(asked) != current->get(asked))
+							others.push_back(identical);
+					}
+				}
+
+				// progress line: words answered correctly at least once out of
+				// all words, then the block place: b=block, p=pass, question
+				// in the pass, then the running question number
+				size_t answered_once = 0;
+				for(auto const& kv : rec)
+					if(kv.second.last_correct_at >= 0) ++answered_once;
+				std::string stats = std::to_string(answered_once) + "/" + std::to_string(words_total);
+				stats += " b" + std::to_string(block_no)
+					+ " p" + std::to_string(pass)
+					+ " " + std::to_string(bi+1) + "/" + std::to_string(blk.size())
+					+ " q" + std::to_string(sequence_number);
+
+				std::string gave;
+				bool result = cm_gap_decide(
+					current->get(DATATYPE_CHINESE),
+					current->get(DATATYPE_PINYIN),
+					current->get(DATATYPE_ENGLISH),
+					provided, asked, sequence_number, gave);
+				if(!result && gave.empty())   // no driver answering: ask for real
+					result = current->ask(m_input, provided, asked, stats, others, gave, breaks);
+
+				if(result)
+				{
+					++ncorrect[bi];
+					last_good[bi] = (long long)sequence_number;
+					std::cout << "Answer accepted!\r\n";
+					if(!testmode)
+					{
+						std::cout << "Btw\r\nCHI=" << current->get(DATATYPE_CHINESE);
+						std::cout << ",\r\nPYN=" << current->get(DATATYPE_PINYIN);
+						std::cout << ",\r\nENG=" << current->get(DATATYPE_ENGLISH) << "\r\n";
+						m_input.show_for(900);
+					}
+				}
+				else
+				{
+					++nwrong[bi];
+					missed = true;
+					std::cout << reset_color << "Wrong answer (" << gave << ")!\r\n";
+					std::cout << "Correct would have been " << current->get(asked) << "\r\n";
+					std::cout << "Btw\r\nCHI=" << current->get(DATATYPE_CHINESE);
+					std::cout << ",\r\nPYN=" << current->get(DATATYPE_PINYIN);
+					std::cout << ",\r\nENG=" << current->get(DATATYPE_ENGLISH) << "\r\n";
+					if(!testmode)
+						system_pause();
+				}
+				if(w.last_seq < 0)
+					++seen_total;   // first time this word is asked
+				w.last_seq = (long long)sequence_number;
+				last_ask[bi] = (long long)sequence_number;
+
+				// the row goes out right away (crash-safe like every mode);
+				// the state columns still carry the block-start snapshot, the
+				// gap record of a word is only settled at block end
+				write_row(current, provided, asked, (long long)sequence_number,
+					result, w);
+
+				if(!result)
+					break;   // the pass restarts at question 1 next round
+			}
+			if(!missed) break;   // one clean pass: the block is complete
+		}
+
+		// ---------- block complete: settle every word's gap record ----------
+		size_t nweak = 0;
+		for(size_t bi=0; bi<blk.size(); ++bi)
+		{
+			size_t which_q = blk[bi].first;
+			int form = blk[bi].second;
+			gap_word& w = rec[which_q];
+			// verdict: more correct replies than wrong ones inside the block
+			bool ok = ncorrect[bi] > nwrong[bi];
+			if(!ok) ++nweak;
+			if(ok)
+			{
+				// counted as one correct answer at the word's last correct
+				// reply: exactly the mixed-mode success bookkeeping
+				long long seq_done = last_good[bi];
+				long long gap = (w.last_correct_at >= 0)
+					? seq_done - w.last_correct_at : -1;
+				if(form != 0 && gap >= 0)
+					w.round_min = (w.round_min < 0) ? gap : std::min(w.round_min, gap);
+				w.last_correct_at = seq_done;
+				if(form == 3)
+				{
+					if(w.round_min >= 0)
+					{
+						if(w.round_min > w.interval) w.interval = w.round_min;
+						++w.rounds_done;
+					}
+					w.round_min = -1;
+				}
+				w.form = (form + 1) % 4;
+			}
+			else
+			{
+				// fewer right than wrong in the block: the demonstrated
+				// distance is broken and the form does not advance; with
+				// interval 0 and last_seq recent-but-failed the word leads a
+				// later block again
+				w.interval = 0;
+			}
+
+			// the block's verdict row: result plus settled state, on disk
+			// before the recap screen (file order after the reply rows, so
+			// the loader reads exactly this state)
+			write_row(&loaded_data[which_q], GAP_FORMS[form][0], GAP_FORMS[form][1],
+				last_ask[bi], ok, w);
+		}
+
+		// ---------- recap screen ----------
+		std::cout << reset_color << "\r\n=== Block " << block_no << " complete"
+			<< " (" << pass << " pass" << (pass==1?"":"es") << ") ===\r\n";
+		for(size_t bi=0; bi<blk.size(); ++bi)
+		{
+			std::cout << loaded_data[blk[bi].first].get(DATATYPE_CHINESE)
+				<< "  " << loaded_data[blk[bi].first].get(DATATYPE_PINYIN)
+				<< (ncorrect[bi] > nwrong[bi] ? "  ok" : "  again")
+				<< " (" << ncorrect[bi] << "/" << (ncorrect[bi]+nwrong[bi]) << ")\r\n";
+		}
+		if(nweak)
+			std::cout << nweak << " word(s) stay weak (less than half of the"
+				" replies correct): they come back in a later block.\r\n";
+		std::cout << "\r\nEnter or tap: next block.   Back / Esc / x: quit.\r\n";
+		if(testmode)
+		{
+			fprintf(stderr, "blockdone no=%zu pass=%zu weak=%zu seq=%zu\n",
+				block_no, pass, nweak, sequence_number);
+			for(size_t bi=0; bi<blk.size(); ++bi)
+				fprintf(stderr, "RECAP|%s|%s|%s|%zu/%zu\n",
+					loaded_data[blk[bi].first].get(DATATYPE_CHINESE).c_str(),
+					loaded_data[blk[bi].first].get(DATATYPE_PINYIN).c_str(),
+					ncorrect[bi] > nwrong[bi] ? "ok" : "again",
+					ncorrect[bi], ncorrect[bi]+nwrong[bi]);
+		}
+
+		if(blocks_limit && block_no >= blocks_limit) return true;
+		if(!testmode && !m_input.system_pause_choice()) return true;
+	}
+}
+
 bool chinese::questions::ask_all_until_fail(
 	std::function<double(int)> f,
 	int breaks) const

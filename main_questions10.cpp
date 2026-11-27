@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 #include "questions.h"
 
@@ -22,7 +23,12 @@ int main(int argc, const char* argv[])
 
 	q.init();
 
-	q.ask_gap_mixed(std::max(0, q.cols()/7));
+	// block mode is the shipped mode; CM_MIXED=1 (test harness) runs the
+	// ungroupped gap mode instead, keeping tools/qdriver.py meaningful
+	if(getenv("CM_MIXED"))
+		q.ask_gap_mixed(std::max(0, q.cols()/7));
+	else
+		q.ask_gap_block15(std::max(0, q.cols()/7));
 
 	return 0;
 }

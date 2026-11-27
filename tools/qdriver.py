@@ -65,6 +65,9 @@ class Engine:
         env["SDL_VIDEODRIVER"] = "dummy"
         env["CM_ASK_LOG"] = asklog
         env["CM_DECIDE_FILE"] = decide
+        env["CM_MIXED"] = "1"   # this driver models ask_gap_mixed (the app's
+                                # default is now ask_gap_block15, see
+                                # tools/../block tests in the repo docs)
         with open(decide, "w"):
             pass
         self.proc = subprocess.Popen(

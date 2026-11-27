@@ -2108,6 +2108,48 @@ void chinese::Input::system_pause() const
 	}
 }
 
+// See input.h. Same wait as system_pause, but Back/Esc/'x' means "end the
+// session" instead of "carry on": the block recap screen offers exactly that
+// choice. On the phone the visible keyboard is gone here (no input session),
+// so a finger tap is the continue gesture and the system Back button is the
+// quit gesture.
+bool chinese::Input::system_pause_choice() const
+{
+	present();
+	if(g_scripted)
+	{
+		// scripted runs steer the choice with a queued 'x' as the first
+		// still-unread keystroke; anything else means continue
+		bool quit = !g_keys.empty() && (g_keys.front() == 'x' || g_keys.front() == '0');
+		while(!g_keys.empty()) g_keys.pop_front();
+		return !quit;
+	}
+	while(!g_keys.empty()) g_keys.pop_front();
+	present();
+	for(;;)
+	{
+		SDL_Event ev;
+		if(!SDL_WaitEvent(&ev)) continue;
+		if(ev.type == SDL_QUIT) exit(0);
+		if(ev.type == SDL_FINGERDOWN) return true;
+		if(ev.type == SDL_KEYDOWN)
+		{
+			SDL_Keycode k = ev.key.keysym.sym;
+			if(k == SDLK_RETURN || k == SDLK_KP_ENTER || k == SDLK_SPACE ||
+			   k == SDLK_DOWN || k == SDLK_RIGHT)
+				return true;
+			if(k == SDLK_AC_BACK || k == SDLK_ESCAPE || k == SDLK_BACKSPACE)
+				return false;
+			continue;
+		}
+		if(ev.type == SDL_TEXTINPUT)
+		{
+			if(ev.text.text[0] == 'x' || ev.text.text[0] == '0') return false;
+			continue;
+		}
+	}
+}
+
 void chinese::Input::init() const
 {
 	if(g_inited) return;

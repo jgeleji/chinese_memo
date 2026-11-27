@@ -100,8 +100,11 @@ registered variant of that word (as it always did).
 ### Question selection: gap mode (`ask_gap_mixed`), word-centric
 
 `main_questions10.cpp` (the only ported quiz mode; PC twin `questions10_sdl`,
-Android `:app`) calls `q.ask_gap_mixed(...)`. The old block10 mode
-(`ask_all_until_fail_block10`) is untouched for the other console mains.
+Android `:app`) calls `ask_gap_block15` (block mode, see the next section);
+with `CM_MIXED=1` it runs plain `ask_gap_mixed` — that is what
+`tools/qdriver.py` drives, so the mixed-mode regression stays meaningful.
+The old block10 mode (`ask_all_until_fail_block10`) is untouched for the
+other console mains.
 
 **One unit = one word** (a `loaded_data` entry). Its four forms count as one
 question asked in different shapes, always in this fixed order (`GAP_FORMS`):
@@ -156,6 +159,56 @@ words answered correctly at least once out of all words, then for each power
 of two the number of words whose *completed distance* (round distance of a
 finished four-form round) is at least that; recomputed per question over the
 in-memory map (~1900 entries, cheap).
+
+### Block mode (`ask_gap_block15`) — what the phone actually runs
+
+Blocks of `BLOCK15_SIZE` = 15 words that are drilled until one full pass is
+answered without a mistake — the old block10 feel (the *completing a block*
+sensation), built on the word-centric gap record above instead of the old
+score model.
+
+- **Choosing the 15**: the mixed-mode selection, run per block instead of per
+  question. Seen picks are the same argmin (interval asc, last_seq asc),
+  skipping words already chosen for the block; ~30% of the slots are new
+  words by the same ratio rule (`10*(bnew+1) <= 3*bslot`, counted per block:
+  new words land at slots 4, 7, 10, 14). No explicit re-ask seeding: a word
+  that failed its last answer sits at interval 0 with the oldest last_seq,
+  which *is* the argmin front, so it naturally leads a later block; words
+  drilled in recent blocks have the freshest last_seq and sort to the back
+  of their interval tie, so consecutive blocks are naturally different words.
+- **Frozen list**: word order and each word's *form* are fixed when the
+  block starts and never change while it repeats — a repeated question
+  arrives at the same position in the same shape (the memory anchor). The
+  form pointer of a word only advances when the block settles.
+- **Passes**: a wrong answer ends the pass (normal wrong-answer pause
+  shows the correct answer), the next pass restarts at question 1; the
+  block completes when a full pass has no mistakes. Stat line per question:
+  `answered_once/words_total b<block> p<pass> <i>/<n> q<seq>`.
+- **Verdict per word** at block end: correct replies must strictly exceed
+  wrong replies *inside the block* (>50%). Success applies exactly one
+  mixed-mode success bookkeeping at the word's last correct reply (form
+  rotates, gap/round_min/rounds_done as in mixed mode); a weak word gets
+  `interval = 0`, its form does not advance, and it resurfaces in a later
+  block via the argmin front.
+- **status1.txt**: reply rows are written per answer like every mode, with
+  the state columns frozen at the block-start snapshot (the record is only
+  settled at block end, and the loader's last-state-row-wins rule keeps it
+  consistent); then one **verdict row per word** (15 rows) carries the block
+  result and the settled state, appended before the recap screen — the file
+  format is unchanged (12 columns).
+- **Recap screen** after the block: the 15 words with `ok (c/t)` /
+  `again (c/t)`, then `Enter or tap: next block. Back / Esc / x: quit.`.
+  It waits via `Input::system_pause_choice()` (new, both backends: any
+  tap/Enter/Space = continue, SDL_AC_BACK/BACKSPACE/ESC/'x' = end the
+  session, main returns 0). Scripted runs steer the choice with a queued
+  `x`. No bar/keyboard is drawn (not an input session — the bar gating
+  rule holds).
+- Test hooks: `CM_BLOCK_MAX=n` ends the engine after n blocks; stderr gets
+  `blockmode ...`, per block `blockdone no= pass= weak= seq=` and 15
+  `RECAP|chi|pyn|ok|again|c/t` lines. Headless scenario test:
+  restart-at-q1 order, frozen forms, per-block selection, verdict rows,
+  settled columns (was 21/21; kept in /tmp/opencode/block15/test_block.py).
+
 
 ## 3. How this app is built (the SDL2 pattern, component by component)
 

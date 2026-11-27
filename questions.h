@@ -52,6 +52,10 @@ class questions
 		// with the per-word record appended as five extra columns (old
 		// 7-column files load unchanged). See gap_word below.
 		bool ask_gap_mixed(int breaks = 0) const;
+
+		// Block mode: gap mode grouped into blocks of 15 words. See the
+		// BLOCK15_SIZE comment in the gap scheduling section below.
+		bool ask_gap_block15(int breaks = 0) const;
 		void populate_chinese_char_to_index();
 
 		bool ask_1_chinese_char(
@@ -124,6 +128,19 @@ class questions
 		};
 
 		std::map<size_t, gap_word> load_gap_status_file(size_t& sequence_number) const;
+
+		// Block mode (ask_gap_block15): one block = this many words picked by
+		// the same selection logic as ask_gap_mixed. The block's question list
+		// is FROZEN at block start: the order and each word's form do not
+		// change between the repeated passes, so a question that comes back
+		// arrives in the same place with the same shape (that fixed placement
+		// is the memory anchor). A pass ends when the asked word was answered
+		// correctly; every wrong answer ends the pass and the next pass
+		// restarts at question 1. The block is complete when one full pass
+		// has no mistakes. Per word, correct replies must strictly exceed the
+		// wrong replies collected inside the block (>50% of its replies) for
+		// the block's status rows to be written as success.
+		static const int BLOCK15_SIZE = 15;
 
 		std::map<q_type, std::pair<size_t, double>> load_status_file(
 			std::mt19937& gen,
