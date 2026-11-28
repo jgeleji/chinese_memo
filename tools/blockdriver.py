@@ -10,7 +10,7 @@
 #            -> 2 passes; the missed word tallies 1c/1w -> NOT >50% -> weak,
 #            its verdict row is "fail", form does not advance
 # Checks: restart-at-1 order, frozen form across passes, per-block selection,
-# row stream (reply rows + one verdict row per word), settled state columns,
+# row stream (one verdict row per word per completed block, nothing else), settled state columns,
 # stderr blockdone lines, clean exit at CM_BLOCK_MAX.
 
 import os, subprocess, sys, time
@@ -131,15 +131,17 @@ check("b2.restart", b2[3][0] == exp_b2[0], str(b2[3]))
 # frozen form for block2: 一 rotated to form 1 when block1 settled it
 check("b2.restart-form", (b2[3][3], b2[3][4]) == (0,1), str(b2[3]))
 
-# status rows: block1 17 replies + 15 verdicts, block2 18 replies + 15 verdicts
+# status rows: ONLY the verdict rows - 15 per completed block, nothing for
+# interrupted blocks, one row per word per block no matter how many times
+# the restart loop asked it
 rows = [l.strip().split("|") for l in open(os.path.join(D,"status1.txt"), encoding="utf-8") if l.strip()]
-check("rows-total", len(rows) == 65, str(len(rows)))
+check("rows-total", len(rows) == 30, str(len(rows)))
 # verdict rows for block1: 一 ok (2c,1w): success, interval 0, lca=3, round_min -1, form 1
 v = [r for r in rows if r[0]=="一"]
-check("v.一.b1", v[2][6]=="success" and v[2][7]=="0" and v[2][8]=="3"
-      and v[2][9]=="-1" and v[2][10]=="1" and v[2][11]=="0", str(v[2]))
+check("v.一.b1", v[0][6]=="success" and v[0][7]=="0" and v[0][8]=="3"
+      and v[0][9]=="-1" and v[0][10]=="1" and v[0][11]=="0", str(v[0]))
 # block2 settles 一 again at its last correct (seq 21): form 1->2
-check("v.一.b2", v[5][6]=="success" and v[5][8]=="21" and v[5][10]=="2", str(v[5]))
+check("v.一.b2", v[1][6]=="success" and v[1][8]=="21" and v[1][10]=="2", str(v[1]))
 # weak words: 二 (1c/1w in block1) and 三 (1c/1w in block2): verdict fail, form
 # does not advance, interval 0
 weakchi = exp_b2[2]   # 三
@@ -147,11 +149,11 @@ v = [r for r in rows if r[0]==weakchi]
 last = v[-1]
 check("v.weak", last[6]=="fail" and last[10]=="1" and last[8]=="5" and last[7]=="0",
       "word %s %s" % (weakchi, last))
-check("v.weak.rows", sum(1 for r in v if r[6]=="success")==3 and sum(1 for r in v if r[6]=="fail")==2,
+check("v.weak.rows", sum(1 for r in v if r[6]=="success")==1 and sum(1 for r in v if r[6]=="fail")==1,
       str(v))
 # 二: weak verdict at end of block1 (1c1w), then ok in block2 (2c0w)
 v = [r for r in rows if r[0]=="二"]
-check("v.二", len(v)==6 and v[2][6]=="fail" and v[-1][6]=="success", str(v))
+check("v.二", len(v)==2 and v[0][6]=="fail" and v[1][6]=="success", str(v))
 # stderr markers (二 weak in block1, 三 weak in block2)
 check("stderr.blockdone1", "blockdone no=1 pass=2 weak=1" in out, out[-500:])
 # recap lines (the text the recap screen shows): block1: 二 again (1/2), 一 ok

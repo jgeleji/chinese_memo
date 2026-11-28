@@ -1347,11 +1347,10 @@ bool chinese::questions::ask_gap_block15(int breaks) const
 				w.last_seq = (long long)sequence_number;
 				last_ask[bi] = (long long)sequence_number;
 
-				// the row goes out right away (crash-safe like every mode);
-				// the state columns still carry the block-start snapshot, the
-				// gap record of a word is only settled at block end
-				write_row(current, provided, asked, (long long)sequence_number,
-					result, w);
+				// nothing goes into the status file mid-block: an interrupted
+				// block leaves no trace at all, a completed block appends
+				// exactly ONE row per word (the verdict below). A word asked
+				// over five restarts still produces one row, not five.
 
 				if(!result)
 					break;   // the pass restarts at question 1 next round
@@ -1400,8 +1399,8 @@ bool chinese::questions::ask_gap_block15(int breaks) const
 			}
 
 			// the block's verdict row: result plus settled state, on disk
-			// before the recap screen (file order after the reply rows, so
-			// the loader reads exactly this state)
+			// before the recap screen; this is the ONLY row a completed block
+			// writes per word, so the loader reads exactly this state
 			write_row(&loaded_data[which_q], GAP_FORMS[form][0], GAP_FORMS[form][1],
 				last_ask[bi], ok, w);
 		}

@@ -190,12 +190,12 @@ score model.
   rotates, gap/round_min/rounds_done as in mixed mode); a weak word gets
   `interval = 0`, its form does not advance, and it resurfaces in a later
   block via the argmin front.
-- **status1.txt**: reply rows are written per answer like every mode, with
-  the state columns frozen at the block-start snapshot (the record is only
-  settled at block end, and the loader's last-state-row-wins rule keeps it
-  consistent); then one **verdict row per word** (15 rows) carries the block
-  result and the settled state, appended before the recap screen — the file
-  format is unchanged (12 columns).
+- **status1.txt**: written ONLY at block end. An interrupted block leaves no
+  trace in the file; a completed block appends exactly ONE **verdict row per
+  word** (15 rows, result + settled state) before the recap screen — no
+  per-answer rows, so a word the restart loop asked five times still yields
+  one row. (Mixed/console modes keep their per-answer rows.) The file format
+  is unchanged (12 columns).
 - **Recap screen** after the block: the 15 words with `ok (c/t)` /
   `again (c/t)`, then `Enter or tap: next block. Back / Esc / x: quit.`.
   It waits via `Input::system_pause_choice()` (new, both backends: any
